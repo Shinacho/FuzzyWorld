@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!--
+The MIT License
+
+Copyright 2016 Dra.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+-->
+<kinugasaFieldMapData mg="2" >
+
+	<before name="dark" image="resource/data/image/darkeffect.png" mg="2" tp="0.75"/>
+	
+	<npc name="NPC01" initialIdx="4,4" NPCMoveModel="NOT_MOVE" image="resource/data/image/unknown.png" s="0,32,32" w="0,32,32" e="0,32,32" n="0,32,32" initialDir="NORTH"/>
+
+	<backLayer chipSet="inner16.png" lineSeparator ="/">
+002003,002003,002003,002003,002003,002003,002003/
+002003,002003,002003,002003,002003,002003,002003/
+002003,002003,002003,002003,002003,002003,002003/
+002003,002003,002003,002003,002003,002003,002003/
+002003,002003,002003,002003,002003,002003,002003/
+002003,002003,002003,002003,002003,002003,002003/
+002003,002003,002003,002003,002003,002003,002003/
+	</backLayer>
+  	<frontLayer chipSet="inner16.png" lineSeparator ="/">
+000000,000001,000001,000001,000001,000001,000002/
+001000,000004,005003,005003,005003,005003,001002/
+001000,001004,005003,005003,005003,005003,001002/
+001000,005003,005003,005003,005003,005003,001002/
+001000,005003,002004,005003,003004,003006,001002/
+001000,005003,005003,005003,005003,005003,001002/
+002000,002001,002001,002001,002001,002001,002002/
+	</frontLayer>
+  
+ 
+  
+</kinugasaFieldMapData>

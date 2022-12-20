@@ -76,8 +76,7 @@ public class MusicRoomLogic extends GameLogic {
 	}
 
 	@Override
-	public void update(GameTimeManager gtm) {
-		InputState is = InputState.getInstance();
+	public void update(GameTimeManager gtm, InputState is) {
 		if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
 			mr.next();
 		}

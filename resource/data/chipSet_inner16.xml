@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!--
+The MIT License
+
+Copyright 2016 Dra.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+-->
+
+<kinugasaChipSet>
+
+    <chipSet name="inner16.png" image="resource/data/image/inner16.png" cutWidth="16" cutHeight="16">
+		<mapChip name="000000" attribute="石壁"/>
+		<mapChip name="000001" attribute="石壁"/>
+		<mapChip name="000002" attribute="石壁"/>
+		<mapChip name="000003" attribute="石床"/>
+		<mapChip name="000004" attribute="ベッド"/>
+		<mapChip name="000005" attribute="VOID"/>
+		<mapChip name="000006" attribute="棚"/>
+		<mapChip name="000007" attribute="VOID"/>
+	
+		<mapChip name="001000" attribute="石壁"/>
+		<mapChip name="001001" attribute="石壁"/>
+		<mapChip name="001002" attribute="石壁"/>
+		<mapChip name="001003" attribute="石床"/>
+		<mapChip name="001004" attribute="ベッド"/>
+		<mapChip name="001005" attribute="木床"/>
+		<mapChip name="001006" attribute="VOID"/>
+		<mapChip name="001007" attribute="VOID"/>
+
+		<mapChip name="002000" attribute="石壁"/>
+		<mapChip name="002001" attribute="石壁"/>
+		<mapChip name="002002" attribute="石壁"/>
+		<mapChip name="002003" attribute="石床"/>
+		<mapChip name="002004" attribute="机"/>
+		<mapChip name="002005" attribute="VOID"/>
+		<mapChip name="002006" attribute="机"/>
+		<mapChip name="002007" attribute="VOID"/>
+
+		<mapChip name="003000" attribute="石壁"/>
+		<mapChip name="003001" attribute="石壁"/>
+		<mapChip name="003002" attribute="石壁"/>
+		<mapChip name="003003" attribute="石壁"/>
+		<mapChip name="003004" attribute="机"/>
+		<mapChip name="003005" attribute="机"/>
+		<mapChip name="003006" attribute="机"/>
+		<mapChip name="003007" attribute="VOID"/>	
+
+		<mapChip name="004000" attribute="石壁"/>
+		<mapChip name="004001" attribute="石壁"/>
+		<mapChip name="004002" attribute="VOID"/>
+		<mapChip name="004003" attribute="VOID"/>
+		<mapChip name="004004" attribute="VOID"/>
+		<mapChip name="004005" attribute="VOID"/>
+		<mapChip name="004006" attribute="VOID"/>
+		<mapChip name="004007" attribute="VOID"/>	
+
+		<mapChip name="005000" attribute="木床"/>
+		<mapChip name="005001" attribute="木床"/>
+		<mapChip name="005002" attribute="VOID"/>
+		<mapChip name="005003" attribute="VOID"/>
+		<mapChip name="005004" attribute="VOID"/>
+		<mapChip name="005005" attribute="VOID"/>
+		<mapChip name="005006" attribute="VOID"/>
+		<mapChip name="005007" attribute="VOID"/>	
+		
+		<mapChip name="006000" attribute="VOID"/>
+		<mapChip name="006001" attribute="VOID"/>
+		<mapChip name="006002" attribute="VOID"/>
+		<mapChip name="006003" attribute="VOID"/>
+		<mapChip name="006004" attribute="VOID"/>
+		<mapChip name="006005" attribute="VOID"/>
+		<mapChip name="006006" attribute="VOID"/>
+		<mapChip name="006007" attribute="VOID"/>	
+		
+		<mapChip name="007000" attribute="VOID"/>
+		<mapChip name="007001" attribute="VOID"/>
+		<mapChip name="007002" attribute="VOID"/>
+		<mapChip name="007003" attribute="VOID"/>
+		<mapChip name="007004" attribute="VOID"/>
+		<mapChip name="007005" attribute="VOID"/>
+		<mapChip name="007006" attribute="VOID"/>
+		<mapChip name="007007" attribute="VOID"/>			
+    </chipSet>
+
+</kinugasaChipSet>

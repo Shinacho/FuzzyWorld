@@ -1,0 +1,612 @@
+2022/12/20 19:09:25 INFO this is D:/Project/FuzzyWorld1/
+2022/12/20 19:09:25 INFO translate\ja.ini
+2022/12/20 19:09:25 INFO BEACH=海岸
+2022/12/20 19:09:25 INFO NO_ITEM=アイテムを持っていない
+2022/12/20 19:09:25 INFO LOAD_GAME=つづきから
+2022/12/20 19:09:25 INFO CONFU_STOP=混乱して動けなかった！
+2022/12/20 19:09:25 INFO TALK=話す
+2022/12/20 19:09:25 INFO CHAPTER1=序章
+2022/12/20 19:09:25 INFO CHAPTER2=第一章
+2022/12/20 19:09:25 INFO IS_CONFU=混乱している！
+2022/12/20 19:09:25 INFO NO_TARGET=効果範囲内に対象がいない
+2022/12/20 19:09:25 INFO NODAMAGE=ダメージを受けなかった！！
+2022/12/20 19:09:25 INFO TOMAGISHUT=漁師の小屋
+2022/12/20 19:09:25 INFO GAME_PAD_TEST=コントローラーテスト
+2022/12/20 19:09:25 INFO GOLDEN_RECORD=金の円盤にしたがって世界を正せ
+2022/12/20 19:09:25 INFO SPELL_END=の詠唱を終了した！！
+2022/12/20 19:09:25 INFO AVOIDANCE=回避に専念した！
+2022/12/20 19:09:25 INFO FIELD=フィールド
+2022/12/20 19:09:25 INFO ATTR_DOWN=耐性が下がった！
+2022/12/20 19:09:25 INFO IS=は
+2022/12/20 19:09:25 INFO NEW_GAME=はじめから
+2022/12/20 19:09:25 INFO SURVEY=調べる
+2022/12/20 19:09:25 INFO DAMAGE=のダメージ！！
+2022/12/20 19:09:25 INFO REMOVE_CDNTION=から回復した
+2022/12/20 19:09:25 INFO ITEM_DROP=がなくなった
+2022/12/20 19:09:25 INFO HEALDAMAGE=回復した！！
+2022/12/20 19:09:25 INFO SHORTAGE=足りない
+2022/12/20 19:09:25 INFO CHAPTER1_SUBTITLE=介入者
+2022/12/20 19:09:25 INFO ATTR_UP=耐性が上がった！
+2022/12/20 19:09:25 INFO ISMOVE=は移動した！
+2022/12/20 19:09:25 INFO ITEM_ADD=を入手した
+2022/12/20 19:09:25 INFO CHAPTER2_SUBTITLE=記憶喪失の男
+2022/12/20 19:09:25 INFO GIVE_UP=諦める
+2022/12/20 19:09:25 INFO WHO_WILL_HOLD_IT=誰が持つ？
+2022/12/20 19:09:25 INFO WHATDO=どうする
+2022/12/20 19:09:25 INFO WAS=が
+2022/12/20 19:09:25 INFO GAME_EXIT=おわる
+2022/12/20 19:09:25 INFO CANT_HAVE=これ以上物を持てない
+2022/12/20 19:09:25 INFO SPECIAL_ATTACK=特技
+2022/12/20 19:09:25 INFO CAN_HAVE=あとn個持てる
+2022/12/20 19:09:25 INFO OF_WHAT=により
+2022/12/20 19:09:25 INFO NO_EFFECT=効果がなかった
+2022/12/20 19:09:25 INFO RETURN=戻る
+2022/12/20 19:09:25 INFO DEFENCE=防御に専念した！
+2022/12/20 19:09:25 INFO ITEM_USE=道具
+2022/12/20 19:09:25 INFO S=の
+2022/12/20 19:09:25 INFO ARE_YOU_SURE_EXIT=本当に終了しますか？
+2022/12/20 19:09:25 INFO MAGIC=魔術
+2022/12/20 19:09:25 INFO OF=を
+2022/12/20 19:09:25 INFO MISS=ミス！
+2022/12/20 19:09:25 INFO SPELL_START=の詠唱を開始した！！
+2022/12/20 19:09:25 INFO SKIP=スキップ
+2022/12/20 19:09:25 INFO TURN=ターン
+2022/12/20 19:09:25 INFO CONFIRM=確認
+2022/12/20 19:09:25 INFO NO_NPC=その方向にはダレモイナイ
+2022/12/20 19:09:25 INFO BUT=しかし
+2022/12/20 19:09:25 INFO CANT_ESCAPE=戦闘エリアの中心にいては逃げられない！！
+2022/12/20 19:09:25 INFO ISESCAPE=は逃げ出した！！
+2022/12/20 19:09:25 INFO ISFAILED=は失敗した！！
+2022/12/20 19:09:25 INFO APPEARANCE=体現れた！！
+2022/12/20 19:09:25 INFO TARGET_SELECT=ターゲット選択
+2022/12/20 19:09:25 INFO GAMEPAD_NOTFOUND=コントローラは有効化されていません。コントローラを使う場合はゲームを再起動してください。
+2022/12/20 19:09:25 INFO PLEASE_NAME=今回の介入者の名前は？
+2022/12/20 19:09:25 INFO IS_EQIP=を装備した
+2022/12/20 19:09:25 INFO IS_GET=を手に入れた
+2022/12/20 19:09:25 INFO OPEN=開く
+2022/12/20 19:09:25 INFO USE_ITEM=を使ってみた
+2022/12/20 19:09:25 INFO OTHER=行動
+2022/12/20 19:09:25 INFO WAS_EQIP=をすでに装備している
+2022/12/20 19:09:25 INFO ACTION=行動
+2022/12/20 19:09:25 INFO SUB_TITLE=魔法使いと不死の秘術
+2022/12/20 19:09:25 INFO MOVE=移動
+2022/12/20 19:09:25 INFO SUBMIT=決定
+2022/12/20 19:09:25 INFO SPELLTIME=詠唱時間
+2022/12/20 19:09:25 INFO ATTACK=攻撃
+2022/12/20 19:09:25 INFO TO=に
+2022/12/20 19:09:25 INFO MUSIC_ROOM=ミュージックルーム
+2022/12/20 19:09:25 INFO CANT_MOVE=動けなかった！！
+2022/12/20 19:09:25 INFO ROOM=部屋
+2022/12/20 19:09:25 INFO lockFile:.\KLOCK_1988553300191523288.lck is created
+2022/12/20 19:09:25 INFO Fuzzy World is start
+2022/12/20 19:09:26 INFO > Storage : printAll : 気怠い探偵.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 灼熱の地獄.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 作戦会議.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 氷のダンジョン.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 妖精の森.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : バトル1（リメイク）＿古.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 普通な感じの街.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : とてものどかな村.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : さわやかな冒険.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : バトル１（新）.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : バトル２（新）.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : のどかな村.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 夢の世界.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 廃れた都市.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 大ボス.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 神殿.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : バトル1（リメイク）.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : ラストダンジョン.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 変質者のテーマ.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 世界の真相.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 睨み合い.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 静寂空間.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 決意.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 残酷な運命.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 工業都市.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 静かなる決意.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 不気味なダンジョン.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 探検.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : まあいいか.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : デジタル空間.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 不思議な森.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 洞窟.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : シューティング・ステージ３.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 風の魔法使いのテーマ.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 愉快または間抜け.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : ボーナスゲーム.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : フィールド２.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : シューティング・ステージ１.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 小ボス.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 異形のものとの戦い.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 厳かなダンジョン.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : エスニック・プレース.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : シューティング・ステージ２.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : バトル１（旧）.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 怪しい取引.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 明るいダンジョン.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 明るい街.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 歴史ある街.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 刻一刻.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 変な村.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 風の魔法使いの戦い.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : おぞましい真実.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 悪の軍団.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : フィールド３.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 眠らない大都会.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : エンディング.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 大ボス_古.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 天空の魔法都市.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 師匠とのイベント戦.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 結末.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 王都.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : お祭りの町.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 奇襲攻撃！.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 軍事作戦.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : ユニークな街.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : フィールド.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 変質者との戦い.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 中ボス.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 知的探求.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 魔力の間.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : フィールド５.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : シューティング・ステージ４.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 疑い.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 軍事作戦２.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 効果音＿バトルターン開始.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : choice3.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 足音.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : Choice1.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 効果音＿選択1.wav
+2022/12/20 19:09:26 INFO > Storage : printAll : 効果音＿戦闘開始.wav
+2022/12/20 19:09:26 INFO CachedSound is loaded name=[効果音＿選択1.wav](90.3333 ms)
+2022/12/20 19:09:26 INFO CachedSound is loaded name=[フィールド５.wav](66.5428 ms)
+2022/12/20 19:09:33 INFO XMLFile [chipAttr.xml] is loaded
+2022/12/20 19:09:33 INFO > Storage : printAll : 石ころ
+2022/12/20 19:09:33 INFO > Storage : printAll : 時計
+2022/12/20 19:09:33 INFO > Storage : printAll : CLOSE
+2022/12/20 19:09:33 INFO > Storage : printAll : 汎用イベント
+2022/12/20 19:09:33 INFO > Storage : printAll : 荒地
+2022/12/20 19:09:33 INFO > Storage : printAll : 蝋燭
+2022/12/20 19:09:33 INFO > Storage : printAll : 入口
+2022/12/20 19:09:33 INFO > Storage : printAll : 平地
+2022/12/20 19:09:33 INFO > Storage : printAll : 崖
+2022/12/20 19:09:33 INFO > Storage : printAll : 小屋
+2022/12/20 19:09:33 INFO > Storage : printAll : 紙
+2022/12/20 19:09:33 INFO > Storage : printAll : 石壁
+2022/12/20 19:09:33 INFO > Storage : printAll : 本棚
+2022/12/20 19:09:33 INFO > Storage : printAll : 木
+2022/12/20 19:09:33 INFO > Storage : printAll : 山小屋
+2022/12/20 19:09:33 INFO > Storage : printAll : 本
+2022/12/20 19:09:33 INFO > Storage : printAll : 港
+2022/12/20 19:09:33 INFO > Storage : printAll : 木橋
+2022/12/20 19:09:33 INFO > Storage : printAll : 廃墟
+2022/12/20 19:09:33 INFO > Storage : printAll : はしご
+2022/12/20 19:09:33 INFO > Storage : printAll : 町
+2022/12/20 19:09:33 INFO > Storage : printAll : 机
+2022/12/20 19:09:33 INFO > Storage : printAll : 舗装道路
+2022/12/20 19:09:33 INFO > Storage : printAll : 機械
+2022/12/20 19:09:33 INFO > Storage : printAll : 樽
+2022/12/20 19:09:33 INFO > Storage : printAll : ベッド
+2022/12/20 19:09:33 INFO > Storage : printAll : 屋根
+2022/12/20 19:09:33 INFO > Storage : printAll : 煙突
+2022/12/20 19:09:33 INFO > Storage : printAll : 草
+2022/12/20 19:09:33 INFO > Storage : printAll : 井戸
+2022/12/20 19:09:33 INFO > Storage : printAll : 噴水
+2022/12/20 19:09:33 INFO > Storage : printAll : 橋
+2022/12/20 19:09:33 INFO > Storage : printAll : スイッチ
+2022/12/20 19:09:33 INFO > Storage : printAll : 洞窟
+2022/12/20 19:09:33 INFO > Storage : printAll : 魔方陣
+2022/12/20 19:09:33 INFO > Storage : printAll : 砂漠
+2022/12/20 19:09:33 INFO > Storage : printAll : 岩盤
+2022/12/20 19:09:33 INFO > Storage : printAll : 火器
+2022/12/20 19:09:33 INFO > Storage : printAll : 村
+2022/12/20 19:09:33 INFO > Storage : printAll : 畑
+2022/12/20 19:09:33 INFO > Storage : printAll : 塔
+2022/12/20 19:09:33 INFO > Storage : printAll : 枯木
+2022/12/20 19:09:33 INFO > Storage : printAll : 丘陵
+2022/12/20 19:09:33 INFO > Storage : printAll : 兜
+2022/12/20 19:09:33 INFO > Storage : printAll : 松明
+2022/12/20 19:09:33 INFO > Storage : printAll : 池
+2022/12/20 19:09:33 INFO > Storage : printAll : 籠
+2022/12/20 19:09:33 INFO > Storage : printAll : 森林
+2022/12/20 19:09:33 INFO > Storage : printAll : 草原
+2022/12/20 19:09:33 INFO > Storage : printAll : 山岳
+2022/12/20 19:09:33 INFO > Storage : printAll : 食べ物
+2022/12/20 19:09:33 INFO > Storage : printAll : 杭
+2022/12/20 19:09:33 INFO > Storage : printAll : 木床
+2022/12/20 19:09:33 INFO > Storage : printAll : ポスト
+2022/12/20 19:09:33 INFO > Storage : printAll : 岩礁
+2022/12/20 19:09:33 INFO > Storage : printAll : 穴
+2022/12/20 19:09:33 INFO > Storage : printAll : 登山道
+2022/12/20 19:09:33 INFO > Storage : printAll : 桶
+2022/12/20 19:09:33 INFO > Storage : printAll : 海
+2022/12/20 19:09:33 INFO > Storage : printAll : 食器
+2022/12/20 19:09:33 INFO > Storage : printAll : 楽器
+2022/12/20 19:09:33 INFO > Storage : printAll : 河川
+2022/12/20 19:09:33 INFO > Storage : printAll : 作物
+2022/12/20 19:09:33 INFO > Storage : printAll : 絨毯
+2022/12/20 19:09:33 INFO > Storage : printAll : 高山
+2022/12/20 19:09:33 INFO > Storage : printAll : 浅瀬
+2022/12/20 19:09:33 INFO > Storage : printAll : 袋
+2022/12/20 19:09:33 INFO > Storage : printAll : かまど
+2022/12/20 19:09:33 INFO > Storage : printAll : 植木鉢
+2022/12/20 19:09:33 INFO > Storage : printAll : 壁画
+2022/12/20 19:09:33 INFO > Storage : printAll : 窓
+2022/12/20 19:09:33 INFO > Storage : printAll : 砂浜
+2022/12/20 19:09:33 INFO > Storage : printAll : 木壁
+2022/12/20 19:09:33 INFO > Storage : printAll : 密林
+2022/12/20 19:09:33 INFO > Storage : printAll : 木階段
+2022/12/20 19:09:33 INFO > Storage : printAll : 毒の池
+2022/12/20 19:09:33 INFO > Storage : printAll : 焚火
+2022/12/20 19:09:33 INFO > Storage : printAll : 水晶玉
+2022/12/20 19:09:33 INFO > Storage : printAll : レバー
+2022/12/20 19:09:33 INFO > Storage : printAll : 調理器具
+2022/12/20 19:09:33 INFO > Storage : printAll : 鎧
+2022/12/20 19:09:33 INFO > Storage : printAll : 骨
+2022/12/20 19:09:33 INFO > Storage : printAll : 岩
+2022/12/20 19:09:33 INFO > Storage : printAll : 薪
+2022/12/20 19:09:33 INFO > Storage : printAll : 貨幣
+2022/12/20 19:09:33 INFO > Storage : printAll : キノコ
+2022/12/20 19:09:33 INFO > Storage : printAll : 花
+2022/12/20 19:09:33 INFO > Storage : printAll : 箱
+2022/12/20 19:09:33 INFO > Storage : printAll : 都市
+2022/12/20 19:09:33 INFO > Storage : printAll : ドレッサー
+2022/12/20 19:09:33 INFO > Storage : printAll : 間仕切り
+2022/12/20 19:09:33 INFO > Storage : printAll : 石橋
+2022/12/20 19:09:33 INFO > Storage : printAll : 城壁
+2022/12/20 19:09:33 INFO > Storage : printAll : VOID
+2022/12/20 19:09:33 INFO > Storage : printAll : 宝箱
+2022/12/20 19:09:33 INFO > Storage : printAll : 暖炉
+2022/12/20 19:09:33 INFO > Storage : printAll : 藁
+2022/12/20 19:09:33 INFO > Storage : printAll : 崩壊橋
+2022/12/20 19:09:33 INFO > Storage : printAll : 土砂
+2022/12/20 19:09:33 INFO > Storage : printAll : 城
+2022/12/20 19:09:33 INFO > Storage : printAll : 石階段
+2022/12/20 19:09:33 INFO > Storage : printAll : 彫像
+2022/12/20 19:09:33 INFO > Storage : printAll : 武器
+2022/12/20 19:09:33 INFO > Storage : printAll : 案山子
+2022/12/20 19:09:33 INFO > Storage : printAll : 苗
+2022/12/20 19:09:33 INFO > Storage : printAll : 看板
+2022/12/20 19:09:33 INFO > Storage : printAll : 棚
+2022/12/20 19:09:33 INFO > Storage : printAll : 流し台
+2022/12/20 19:09:33 INFO > Storage : printAll : 凍結池
+2022/12/20 19:09:33 INFO > Storage : printAll : 人形
+2022/12/20 19:09:33 INFO > Storage : printAll : 椅子
+2022/12/20 19:09:33 INFO > Storage : printAll : 藪
+2022/12/20 19:09:33 INFO > Storage : printAll : 墓標
+2022/12/20 19:09:33 INFO > Storage : printAll : 道路
+2022/12/20 19:09:33 INFO > Storage : printAll : 深い池
+2022/12/20 19:09:33 INFO > Storage : printAll : 鉄壁
+2022/12/20 19:09:33 INFO > Storage : printAll : 石碑
+2022/12/20 19:09:33 INFO > Storage : printAll : 柱
+2022/12/20 19:09:33 INFO > Storage : printAll : 柵
+2022/12/20 19:09:33 INFO > Storage : printAll : 瓶
+2022/12/20 19:09:33 INFO > Storage : printAll : 壷
+2022/12/20 19:09:33 INFO > Storage : printAll : 石床
+2022/12/20 19:09:33 INFO > Storage : printAll : 筆記具
+2022/12/20 19:09:33 INFO > Storage : printAll : 丸太
+2022/12/20 19:09:33 INFO > Storage : printAll : 盾
+2022/12/20 19:09:33 INFO > Storage : printAll : ドア
+2022/12/20 19:09:33 INFO XMLFile [vehicle.xml] is loaded
+2022/12/20 19:09:33 INFO > Storage : printAll : WALK
+2022/12/20 19:09:33 INFO XMLFile [chipSet_inner16.xml] is loaded
+2022/12/20 19:09:33 INFO ImageUtil loaded filePath=[resource/data/image/inner16.png](7.8805 ms)
+2022/12/20 19:09:33 INFO > Storage : printAll : inner16.png
+2022/12/20 19:09:33 INFO XMLFile [fms.xml] is loaded
+2022/12/20 19:09:33 INFO > Storage : printAll : BEACH
+2022/12/20 19:09:33 INFO > Storage : printAll : ROOM
+2022/12/20 19:09:33 INFO > Storage : printAll : TOMAGISHUT
+2022/12/20 19:09:33 INFO XMLFile [map01.xml] is loaded
+2022/12/20 19:09:33 INFO ImageUtil loaded filePath=[resource/data/image/darkeffect.png](9.9554 ms)
+2022/12/20 19:09:33 INFO temp file C:\Users\owner\AppData\Local\Temp\ktf_2316839129177286867.tmp is created
+2022/12/20 19:09:33 INFO ImageUtil loaded filePath=[resource/data/image/unknown.png](0.643 ms)
+2022/12/20 19:10:04 INFO XMLFile [SWMTM.xml] is loaded
+2022/12/20 19:10:04 INFO XMLFile [SStatusM.xml] is loaded
+2022/12/20 19:10:04 INFO > Storage : printAll : CRT_P
+2022/12/20 19:10:04 INFO > Storage : printAll : APP
+2022/12/20 19:10:04 INFO > Storage : printAll : SAN
+2022/12/20 19:10:04 INFO > Storage : printAll : SIZ
+2022/12/20 19:10:04 INFO > Storage : printAll : SPD
+2022/12/20 19:10:04 INFO > Storage : printAll : HP
+2022/12/20 19:10:04 INFO > Storage : printAll : CRT_V
+2022/12/20 19:10:04 INFO > Storage : printAll : CHR
+2022/12/20 19:10:04 INFO > Storage : printAll : INT
+2022/12/20 19:10:04 INFO > Storage : printAll : STR
+2022/12/20 19:10:04 INFO > Storage : printAll : M_CRT_P
+2022/12/20 19:10:04 INFO > Storage : printAll : EDU
+2022/12/20 19:10:04 INFO > Storage : printAll : M_CRT_V
+2022/12/20 19:10:04 INFO > Storage : printAll : M_DEF
+2022/12/20 19:10:04 INFO > Storage : printAll : CUT_V
+2022/12/20 19:10:04 INFO > Storage : printAll : M_AVO
+2022/12/20 19:10:04 INFO > Storage : printAll : MP
+2022/12/20 19:10:04 INFO > Storage : printAll : CON
+2022/12/20 19:10:04 INFO > Storage : printAll : DEF
+2022/12/20 19:10:04 INFO > Storage : printAll : CUT_P
+2022/12/20 19:10:04 INFO > Storage : printAll : M_ATK
+2022/12/20 19:10:04 INFO > Storage : printAll : M_CUT_V
+2022/12/20 19:10:04 INFO > Storage : printAll : LCK
+2022/12/20 19:10:04 INFO > Storage : printAll : MOV
+2022/12/20 19:10:04 INFO > Storage : printAll : M_CUT_P
+2022/12/20 19:10:04 INFO > Storage : printAll : DEX
+2022/12/20 19:10:04 INFO > Storage : printAll : ATK
+2022/12/20 19:10:04 INFO > Storage : printAll : POW
+2022/12/20 19:10:04 INFO > Storage : printAll : AVO
+2022/12/20 19:10:04 INFO > Storage : printAll : EXP
+2022/12/20 19:10:04 INFO XMLFile [SAttrM.xml] is loaded
+2022/12/20 19:10:04 INFO > Storage : printAll : EARTH
+2022/12/20 19:10:04 INFO > Storage : printAll : C_CONFUSION
+2022/12/20 19:10:04 INFO > Storage : printAll : C_BREAK
+2022/12/20 19:10:04 INFO > Storage : printAll : MYSTERY
+2022/12/20 19:10:04 INFO > Storage : printAll : C_DESTROY
+2022/12/20 19:10:04 INFO > Storage : printAll : C_FLAME
+2022/12/20 19:10:04 INFO > Storage : printAll : C_MADNESS
+2022/12/20 19:10:04 INFO > Storage : printAll : C_SEAL
+2022/12/20 19:10:04 INFO > Storage : printAll : C_DEAD
+2022/12/20 19:10:04 INFO > Storage : printAll : C_GOLDY
+2022/12/20 19:10:04 INFO > Storage : printAll : CHOP
+2022/12/20 19:10:04 INFO > Storage : printAll : C_POISON
+2022/12/20 19:10:04 INFO > Storage : printAll : C_BLIND
+2022/12/20 19:10:04 INFO > Storage : printAll : NONE
+2022/12/20 19:10:04 INFO > Storage : printAll : WATER
+2022/12/20 19:10:04 INFO > Storage : printAll : C_STONE
+2022/12/20 19:10:04 INFO > Storage : printAll : STAB
+2022/12/20 19:10:04 INFO > Storage : printAll : THNDER
+2022/12/20 19:10:04 INFO > Storage : printAll : C_FROZEN
+2022/12/20 19:10:04 INFO > Storage : printAll : LIGHT
+2022/12/20 19:10:04 INFO > Storage : printAll : C_ROT
+2022/12/20 19:10:04 INFO > Storage : printAll : C_SLEEP
+2022/12/20 19:10:04 INFO > Storage : printAll : DARK
+2022/12/20 19:10:04 INFO > Storage : printAll : ICE
+2022/12/20 19:10:04 INFO > Storage : printAll : AIR
+2022/12/20 19:10:04 INFO > Storage : printAll : FLAME
+2022/12/20 19:10:04 INFO > Storage : printAll : IMPACT
+2022/12/20 19:10:04 INFO > Storage : printAll : C_PARALYS
+2022/12/20 19:10:04 INFO > Storage : printAll : EVIL
+2022/12/20 19:10:04 INFO > Storage : printAll : HOLY
+2022/12/20 19:10:04 INFO > Storage : printAll : C_TRUE_MADNESS
+2022/12/20 19:10:04 INFO > Storage : printAll : C_CUT
+2022/12/20 19:10:04 INFO XMLFile [SConditionM.xml] is loaded
+2022/12/20 19:10:04 INFO > Storage : printAll : SLEEP
+2022/12/20 19:10:04 INFO > Storage : printAll : DESTROY
+2022/12/20 19:10:04 INFO > Storage : printAll : MADNESS
+2022/12/20 19:10:04 INFO > Storage : printAll : DEFENCE
+2022/12/20 19:10:04 INFO > Storage : printAll : REGENE
+2022/12/20 19:10:04 INFO > Storage : printAll : BREAK
+2022/12/20 19:10:04 INFO > Storage : printAll : SEAL
+2022/12/20 19:10:04 INFO > Storage : printAll : ESCAPED
+2022/12/20 19:10:04 INFO > Storage : printAll : CUT
+2022/12/20 19:10:04 INFO > Storage : printAll : AVOIDANCE
+2022/12/20 19:10:04 INFO > Storage : printAll : NOMAL
+2022/12/20 19:10:04 INFO > Storage : printAll : MOIST
+2022/12/20 19:10:04 INFO > Storage : printAll : TRUE_MADNESS
+2022/12/20 19:10:04 INFO > Storage : printAll : FLAME
+2022/12/20 19:10:04 INFO > Storage : printAll : BLIND
+2022/12/20 19:10:04 INFO > Storage : printAll : OIL
+2022/12/20 19:10:04 INFO > Storage : printAll : GOLDY
+2022/12/20 19:10:04 INFO > Storage : printAll : CONFUSION
+2022/12/20 19:10:04 INFO > Storage : printAll : ROT
+2022/12/20 19:10:04 INFO > Storage : printAll : POISON
+2022/12/20 19:10:04 INFO > Storage : printAll : TREE
+2022/12/20 19:10:04 INFO > Storage : printAll : PARALYS
+2022/12/20 19:10:04 INFO > Storage : printAll : DEAD
+2022/12/20 19:10:04 INFO > Storage : printAll : FROZEN
+2022/12/20 19:10:04 INFO > Storage : printAll : STONE
+2022/12/20 19:10:04 INFO > Storage : printAll : SPELLING
+2022/12/20 19:10:04 INFO > Storage : printAll : F_DARK
+2022/12/20 19:10:04 INFO > Storage : printAll : F_THNDER
+2022/12/20 19:10:04 INFO > Storage : printAll : F_ERATH
+2022/12/20 19:10:04 INFO > Storage : printAll : F_FLAME
+2022/12/20 19:10:04 INFO > Storage : printAll : F_ICE
+2022/12/20 19:10:04 INFO > Storage : printAll : F_GOLD
+2022/12/20 19:10:04 INFO > Storage : printAll : F_WIND
+2022/12/20 19:10:04 INFO > Storage : printAll : F_RAIN
+2022/12/20 19:10:04 INFO > Storage : printAll : F_NOMAL
+2022/12/20 19:10:04 INFO XMLFile [SItemSlotM.xml] is loaded
+2022/12/20 19:10:04 INFO > Storage : printAll : 頭
+2022/12/20 19:10:04 INFO > Storage : printAll : 足
+2022/12/20 19:10:04 INFO > Storage : printAll : 胴
+2022/12/20 19:10:04 INFO > Storage : printAll : 腕
+2022/12/20 19:10:04 INFO XMLFile [SBookM.xml] is loaded
+2022/12/20 19:10:04 INFO XMLFile [SRaceM.xml] is loaded
+2022/12/20 19:10:04 INFO > Storage : printAll : HUMAN
+2022/12/20 19:10:04 INFO > Storage : printAll : かたつむり
+2022/12/20 19:10:04 INFO XMLFile [SActionM.xml] is loaded
+2022/12/20 19:10:04 INFO > Storage : printAll : 鉄の剣装備
+2022/12/20 19:10:04 INFO > Storage : printAll : 条件なし
+2022/12/20 19:10:04 INFO > Storage : printAll : 頭未装備
+2022/12/20 19:10:04 INFO > Storage : printAll : 剣装備
+2022/12/20 19:10:04 INFO > Storage : printAll : 鋼の剣装備
+2022/12/20 19:10:04 INFO > Storage : printAll : 腕未装備
+2022/12/20 19:10:04 INFO > Storage : printAll : 石ころ保有
+2022/12/20 19:10:04 INFO > Storage : printAll : 腕装備
+2022/12/20 19:10:04 INFO > Storage : printAll : 火炎の書保有
+2022/12/20 19:10:04 INFO ImageUtil loaded filePath=[resource/data/image/testAnimation.png](0.6969 ms)
+2022/12/20 19:10:04 INFO > Storage : printAll : 破邪の剣
+2022/12/20 19:10:04 INFO > Storage : printAll : 石ころ
+2022/12/20 19:10:04 INFO > Storage : printAll : 漁師の非常食
+2022/12/20 19:10:04 INFO > Storage : printAll : 百名丸
+2022/12/20 19:10:04 INFO > Storage : printAll : 鉄の剣
+2022/12/20 19:10:04 INFO > Storage : printAll : 鉄のレイピア
+2022/12/20 19:10:04 INFO > Storage : printAll : いい感じの棒きれ
+2022/12/20 19:10:04 INFO > Storage : printAll : そば団子
+2022/12/20 19:10:04 INFO > Storage : printAll : 鋼の剣
+2022/12/20 19:10:04 INFO > Storage : printAll : やくそう
+2022/12/20 19:10:04 INFO > Storage : printAll : 串刺し
+2022/12/20 19:10:04 INFO > Storage : printAll : ファイアボルト
+2022/12/20 19:10:04 INFO > Storage : printAll : 天地雷鳴
+2022/12/20 19:10:04 INFO > Storage : printAll : 袈裟切り
+2022/12/20 19:10:04 INFO > Storage : printAll : 回避
+2022/12/20 19:10:04 INFO > Storage : printAll : 生命回復
+2022/12/20 19:10:04 INFO > Storage : printAll : 石ころ投擲
+2022/12/20 19:10:04 INFO > Storage : printAll : 確定
+2022/12/20 19:10:04 INFO > Storage : printAll : こぶし
+2022/12/20 19:10:04 INFO > Storage : printAll : エアスラッシュ
+2022/12/20 19:10:04 INFO > Storage : printAll : 移動
+2022/12/20 19:10:04 INFO > Storage : printAll : 回転切り
+2022/12/20 19:10:04 INFO > Storage : printAll : 状態
+2022/12/20 19:10:04 INFO > Storage : printAll : 防御
+2022/12/20 19:10:04 INFO > Storage : printAll : 逃げる
+2022/12/20 19:10:04 INFO XMLFile [SBattleFieldM.xml] is loaded
+2022/12/20 19:10:04 INFO ImageUtil loaded filePath=[resource/data/image/tree.png](0.6692 ms)
+2022/12/20 19:10:04 INFO ImageUtil loaded filePath=[resource/data/image/stone.png](0.5181 ms)
+2022/12/20 19:10:04 INFO ImageUtil loaded filePath=[resource/data/image/bf1.png](7.8482 ms)
+2022/12/20 19:10:04 INFO ImageUtil loaded filePath=[resource/data/image/c2.png](0.6329 ms)
+2022/12/20 19:10:04 INFO ImageUtil cached filePath=[resource/data/image/c2.png](0.0021 ms)
+2022/12/20 19:10:04 INFO ImageUtil cached filePath=[resource/data/image/c2.png](5.0E-4 ms)
+2022/12/20 19:10:04 INFO ImageUtil cached filePath=[resource/data/image/c2.png](4.0E-4 ms)
+2022/12/20 19:10:04 INFO XMLFile [chipSet_outer16.xml] is loaded
+2022/12/20 19:10:04 INFO ImageUtil loaded filePath=[resource/data/image/outer16.png](2.4616 ms)
+2022/12/20 19:10:04 INFO > Storage : printAll : inner16.png
+2022/12/20 19:10:04 INFO > Storage : printAll : outer16.png
+2022/12/20 19:10:04 INFO XMLFile [tss.xml] is loaded
+2022/12/20 19:10:04 INFO > Storage : printAll : 002
+2022/12/20 19:10:04 INFO > Storage : printAll : 003
+2022/12/20 19:10:04 INFO XMLFile [map02.xml] is loaded
+2022/12/20 19:10:04 INFO XMLFile [text02.xml] is loaded
+2022/12/20 19:10:04 INFO XMLFile [E02.xml] is loaded
+2022/12/20 19:10:04 INFO > Storage : printAll : 001
+2022/12/20 19:10:04 INFO > Storage : printAll : 002
+2022/12/20 19:10:04 INFO ImageUtil loaded filePath=[resource/data/image/seaChip16.png](0.6958 ms)
+2022/12/20 19:10:04 INFO ImageUtil loaded filePath=[resource/data/image/cloudeffect.png](7.1144 ms)
+2022/12/20 19:10:05 INFO temp file C:\Users\owner\AppData\Local\Temp\ktf_1093224550649607873.tmp is created
+2022/12/20 19:10:05 INFO XMLFile [E01.xml] is loaded
+2022/12/20 19:10:05 INFO ImageUtil loaded filePath=[resource/data/image/c3.png](0.624 ms)
+2022/12/20 19:10:12 INFO XMLFile [text02.xml] is loaded
+2022/12/20 19:10:12 INFO XMLFile [E02.xml] is loaded
+2022/12/20 19:10:12 INFO > Storage : printAll : 001
+2022/12/20 19:10:12 INFO > Storage : printAll : 002
+2022/12/20 19:10:15 INFO XMLFile [text02.xml] is loaded
+2022/12/20 19:10:15 INFO XMLFile [E02.xml] is loaded
+2022/12/20 19:10:15 INFO > Storage : printAll : 001
+2022/12/20 19:10:15 INFO > Storage : printAll : 002
+2022/12/20 19:10:16 INFO XMLFile [map03.xml] is loaded
+2022/12/20 19:10:16 INFO XMLFile [text03.xml] is loaded
+2022/12/20 19:10:16 INFO > Storage : printAll : 050
+2022/12/20 19:10:16 INFO > Storage : printAll : 051
+2022/12/20 19:10:16 INFO > Storage : printAll : 052
+2022/12/20 19:10:16 INFO > Storage : printAll : 053
+2022/12/20 19:10:16 INFO > Storage : printAll : 054
+2022/12/20 19:10:16 INFO > Storage : printAll : 010
+2022/12/20 19:10:16 INFO > Storage : printAll : 011
+2022/12/20 19:10:16 INFO > Storage : printAll : 055
+2022/12/20 19:10:16 INFO > Storage : printAll : 012
+2022/12/20 19:10:16 INFO > Storage : printAll : 056
+2022/12/20 19:10:16 INFO > Storage : printAll : 013
+2022/12/20 19:10:16 INFO > Storage : printAll : 057
+2022/12/20 19:10:16 INFO > Storage : printAll : 058
+2022/12/20 19:10:16 INFO > Storage : printAll : 014
+2022/12/20 19:10:16 INFO > Storage : printAll : 015
+2022/12/20 19:10:16 INFO > Storage : printAll : 059
+2022/12/20 19:10:16 INFO > Storage : printAll : 016
+2022/12/20 19:10:16 INFO > Storage : printAll : 017
+2022/12/20 19:10:16 INFO > Storage : printAll : 018
+2022/12/20 19:10:16 INFO > Storage : printAll : 019
+2022/12/20 19:10:16 INFO > Storage : printAll : 060
+2022/12/20 19:10:16 INFO > Storage : printAll : 061
+2022/12/20 19:10:16 INFO > Storage : printAll : 062
+2022/12/20 19:10:16 INFO > Storage : printAll : 063
+2022/12/20 19:10:16 INFO > Storage : printAll : 064
+2022/12/20 19:10:16 INFO > Storage : printAll : 020
+2022/12/20 19:10:16 INFO > Storage : printAll : 021
+2022/12/20 19:10:16 INFO > Storage : printAll : 065
+2022/12/20 19:10:16 INFO > Storage : printAll : 066
+2022/12/20 19:10:16 INFO > Storage : printAll : 022
+2022/12/20 19:10:16 INFO > Storage : printAll : 001
+2022/12/20 19:10:16 INFO > Storage : printAll : 067
+2022/12/20 19:10:16 INFO > Storage : printAll : 002
+2022/12/20 19:10:16 INFO > Storage : printAll : 003
+2022/12/20 19:10:16 INFO > Storage : printAll : 004
+2022/12/20 19:10:16 INFO > Storage : printAll : 005
+2022/12/20 19:10:16 INFO > Storage : printAll : 007
+2022/12/20 19:10:16 INFO > Storage : printAll : 008
+2022/12/20 19:10:16 INFO > Storage : printAll : 009
+2022/12/20 19:10:16 INFO XMLFile [E03.xml] is loaded
+2022/12/20 19:10:16 INFO XMLFile [E04.xml] is loaded
+2022/12/20 19:10:16 INFO XMLFile [E04.xml] is loaded
+2022/12/20 19:10:16 INFO XMLFile [E05.xml] is loaded
+2022/12/20 19:10:16 INFO XMLFile [E06.xml] is loaded
+2022/12/20 19:10:16 INFO XMLFile [E04.xml] is loaded
+2022/12/20 19:10:16 INFO ImageUtil cached filePath=[resource/data/image/c3.png](8.0E-4 ms)
+2022/12/20 19:10:18 INFO XMLFile [text03.xml] is loaded
+2022/12/20 19:10:18 INFO > Storage : printAll : 050
+2022/12/20 19:10:18 INFO > Storage : printAll : 051
+2022/12/20 19:10:18 INFO > Storage : printAll : 052
+2022/12/20 19:10:18 INFO > Storage : printAll : 053
+2022/12/20 19:10:18 INFO > Storage : printAll : 054
+2022/12/20 19:10:18 INFO > Storage : printAll : 010
+2022/12/20 19:10:18 INFO > Storage : printAll : 011
+2022/12/20 19:10:18 INFO > Storage : printAll : 055
+2022/12/20 19:10:18 INFO > Storage : printAll : 012
+2022/12/20 19:10:18 INFO > Storage : printAll : 056
+2022/12/20 19:10:18 INFO > Storage : printAll : 013
+2022/12/20 19:10:18 INFO > Storage : printAll : 057
+2022/12/20 19:10:18 INFO > Storage : printAll : 058
+2022/12/20 19:10:18 INFO > Storage : printAll : 014
+2022/12/20 19:10:18 INFO > Storage : printAll : 015
+2022/12/20 19:10:18 INFO > Storage : printAll : 059
+2022/12/20 19:10:18 INFO > Storage : printAll : 016
+2022/12/20 19:10:18 INFO > Storage : printAll : 017
+2022/12/20 19:10:18 INFO > Storage : printAll : 018
+2022/12/20 19:10:18 INFO > Storage : printAll : 019
+2022/12/20 19:10:18 INFO > Storage : printAll : 060
+2022/12/20 19:10:18 INFO > Storage : printAll : 061
+2022/12/20 19:10:18 INFO > Storage : printAll : 062
+2022/12/20 19:10:18 INFO > Storage : printAll : 063
+2022/12/20 19:10:18 INFO > Storage : printAll : 064
+2022/12/20 19:10:18 INFO > Storage : printAll : 020
+2022/12/20 19:10:18 INFO > Storage : printAll : 021
+2022/12/20 19:10:18 INFO > Storage : printAll : 065
+2022/12/20 19:10:18 INFO > Storage : printAll : 066
+2022/12/20 19:10:18 INFO > Storage : printAll : 022
+2022/12/20 19:10:18 INFO > Storage : printAll : 001
+2022/12/20 19:10:18 INFO > Storage : printAll : 067
+2022/12/20 19:10:18 INFO > Storage : printAll : 002
+2022/12/20 19:10:18 INFO > Storage : printAll : 003
+2022/12/20 19:10:18 INFO > Storage : printAll : 004
+2022/12/20 19:10:18 INFO > Storage : printAll : 005
+2022/12/20 19:10:18 INFO > Storage : printAll : 007
+2022/12/20 19:10:18 INFO > Storage : printAll : 008
+2022/12/20 19:10:18 INFO > Storage : printAll : 009
+2022/12/20 19:10:28 INFO XMLFile [text03.xml] is loaded
+2022/12/20 19:10:28 INFO > Storage : printAll : 050
+2022/12/20 19:10:28 INFO > Storage : printAll : 051
+2022/12/20 19:10:28 INFO > Storage : printAll : 052
+2022/12/20 19:10:28 INFO > Storage : printAll : 053
+2022/12/20 19:10:28 INFO > Storage : printAll : 054
+2022/12/20 19:10:28 INFO > Storage : printAll : 010
+2022/12/20 19:10:28 INFO > Storage : printAll : 011
+2022/12/20 19:10:28 INFO > Storage : printAll : 055
+2022/12/20 19:10:28 INFO > Storage : printAll : 012
+2022/12/20 19:10:28 INFO > Storage : printAll : 056
+2022/12/20 19:10:28 INFO > Storage : printAll : 013
+2022/12/20 19:10:28 INFO > Storage : printAll : 057
+2022/12/20 19:10:28 INFO > Storage : printAll : 058
+2022/12/20 19:10:28 INFO > Storage : printAll : 014
+2022/12/20 19:10:28 INFO > Storage : printAll : 015
+2022/12/20 19:10:28 INFO > Storage : printAll : 059
+2022/12/20 19:10:28 INFO > Storage : printAll : 016
+2022/12/20 19:10:28 INFO > Storage : printAll : 017
+2022/12/20 19:10:28 INFO > Storage : printAll : 018
+2022/12/20 19:10:28 INFO > Storage : printAll : 019
+2022/12/20 19:10:28 INFO > Storage : printAll : 060
+2022/12/20 19:10:28 INFO > Storage : printAll : 061
+2022/12/20 19:10:28 INFO > Storage : printAll : 062
+2022/12/20 19:10:28 INFO > Storage : printAll : 063
+2022/12/20 19:10:28 INFO > Storage : printAll : 064
+2022/12/20 19:10:28 INFO > Storage : printAll : 020
+2022/12/20 19:10:28 INFO > Storage : printAll : 021
+2022/12/20 19:10:28 INFO > Storage : printAll : 065
+2022/12/20 19:10:28 INFO > Storage : printAll : 066
+2022/12/20 19:10:28 INFO > Storage : printAll : 022
+2022/12/20 19:10:28 INFO > Storage : printAll : 001
+2022/12/20 19:10:28 INFO > Storage : printAll : 067
+2022/12/20 19:10:28 INFO > Storage : printAll : 002
+2022/12/20 19:10:28 INFO > Storage : printAll : 003
+2022/12/20 19:10:28 INFO > Storage : printAll : 004
+2022/12/20 19:10:28 INFO > Storage : printAll : 005
+2022/12/20 19:10:28 INFO > Storage : printAll : 007
+2022/12/20 19:10:28 INFO > Storage : printAll : 008
+2022/12/20 19:10:28 INFO > Storage : printAll : 009
+2022/12/20 19:10:54 INFO lockFile:.\KLOCK_1988553300191523288.lck is deleted
+2022/12/20 19:10:54 INFO TempFileStorage : all temp file is deleted

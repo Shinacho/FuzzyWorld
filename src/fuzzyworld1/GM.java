@@ -30,9 +30,11 @@ import kinugasa.game.GameOption;
 import kinugasa.game.GameTimeManager;
 import kinugasa.game.GraphicsContext;
 import kinugasa.game.LockUtil;
+import kinugasa.game.input.InputState;
 import kinugasa.game.system.GameSystem;
 import kinugasa.game.ui.FPSLabel;
 import kinugasa.resource.sound.SoundLoader;
+import static kinugasa.game.GameOption.GUILockMode.*;
 
 /**
  *
@@ -47,9 +49,9 @@ public class GM extends GameManager {
 	}
 
 	private GM() {
-		super(GameOption.fromGUI("Fuzzy World", false, true, true).setBackColor(new Color(0, 32, 66)));
+		super(GameOption.fromGUI("Fuzzy World", OFF_DISABLE, ON_DISABLE, ON_ENABLE).setBackColor(new Color(0, 32, 66)));
 	}
-	private FPSLabel fps = new FPSLabel(0, 12);
+	private FPSLabel fps;
 	private GameLogicStorage gls;
 
 	@Override
@@ -61,13 +63,15 @@ public class GM extends GameManager {
 		SoundLoader.loadList("resource/se/SE.csv");
 		OperationSprite.getInstance().setX(24);
 		OperationSprite.getInstance().setY(450);
-
+		fps = new FPSLabel((int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() - 70), 12);
 		//
 		gls = GameLogicStorage.getInstance();
 		gls.add(new TitleLogic(this));
 		gls.add(new MusicRoomLogic(this));
 		gls.add(new GamePadTestLogic(this));
 		gls.add(new OPLogic(this));
+		gls.add(new ChapterTitleLogic(this));
+		gls.add(new FieldLogic(this));
 
 		gls.changeTo(Const.LogicName.TITLE_LOGIC);
 		//
@@ -79,18 +83,18 @@ public class GM extends GameManager {
 	}
 
 	@Override
-	protected void update(GameTimeManager gtm) {
+	protected void update(GameTimeManager gtm, InputState is) {
 		if (GameSystem.isDebugMode()) {
 			fps.setGtm(gtm);
 		}
-		gls.getCurrent().update(gtm);
+		gls.getCurrent().update(gtm, is);
 	}
 
 	@Override
 	protected void draw(GraphicsContext gc) {
-		fps.draw(gc);
-		gls.getCurrent().draw(gc);
 		OperationSprite.getInstance().draw(gc);
+		gls.getCurrent().draw(gc);
+		fps.draw(gc);
 	}
 
 }

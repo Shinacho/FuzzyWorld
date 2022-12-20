@@ -40,12 +40,16 @@ import kinugasa.game.ui.ActionTextSprite;
 import kinugasa.game.ui.ActionTextSpriteGroup;
 import kinugasa.game.ui.FontModel;
 import kinugasa.game.ui.SimpleTextLabelModel;
-import kinugasa.game.ui.TextLabelSprite;
 import kinugasa.resource.sound.SoundStorage;
 import kinugasa.game.I18N;
 import kinugasa.game.input.Keys;
 import kinugasa.game.ui.Dialog;
+import kinugasa.graphics.ColorChanger;
+import kinugasa.graphics.ColorTransitionModel;
+import kinugasa.graphics.FadeCounter;
+import kinugasa.object.FadeEffect;
 import kinugasa.resource.sound.Sound;
+import kinugasa.util.FrameTimeCounter;
 import kinugasa.util.Versions;
 
 /**
@@ -64,12 +68,15 @@ public class TitleLogic extends GameLogic {
 
 	@Override
 	public void load() {
-
+		stage = 0;
 		atsg = new ActionTextSpriteGroup(540, 340,
 				new ActionTextSprite(I18N.translate("NEW_GAME"), new SimpleTextLabelModel(FontModel.DEFAULT.clone().setFontSize(14)), 0, 0, 18, 0, new Action() {
 					@Override
 					public void exec() {
-						gls.changeTo(Const.LogicName.OP);
+						Const.Chapter.current = "CHAPTER1";
+						Const.Chapter.currentSubTitle = "CHAPTER1_SUBTITLE";
+						Const.Chapter.nextLogic = Const.LogicName.OP;
+						gls.changeTo(Const.LogicName.CHAPTER_TITLE);
 					}
 				}),
 				new ActionTextSprite(I18N.translate("LOAD_GAME"), new SimpleTextLabelModel(FontModel.DEFAULT.clone().setFontSize(14)), 0, 0, 18, 0, new Action() {
@@ -116,31 +123,67 @@ public class TitleLogic extends GameLogic {
 	@Override
 	public void dispose() {
 	}
+	private int stage = 0;
 
 	@Override
-	public void update(GameTimeManager gtm) {
-		InputState is = InputState.getInstance();
-		if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-			atsg.next();
-			sound.stopAndPlay();
-			selected = atsg.getSelectedIdx();
-		}
-		if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-			atsg.prev();
-			sound.stopAndPlay();
-			selected = atsg.getSelectedIdx();
-		}
-		if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-			if (selected == 3 && !GameOption.getInstance().isUseGamePad()) {
-				Toolkit.getDefaultToolkit().beep();
-				Dialog.info(I18N.translate("GAMEPAD_NOTFOUND"));
-				return;
-			}
-			selected = atsg.getSelectedIdx();
-			sound.stopAndPlay();
-			atsg.exec();
+	public void update(GameTimeManager gtm, InputState is) {
+		switch (stage) {
+			case 0:
+				if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+					atsg.next();
+					sound.stopAndPlay();
+					selected = atsg.getSelectedIdx();
+				}
+				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+					atsg.prev();
+					sound.stopAndPlay();
+					selected = atsg.getSelectedIdx();
+				}
+				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+					if (selected == 3 && !GameOption.getInstance().isUseGamePad()) {
+						Toolkit.getDefaultToolkit().beep();
+						Dialog.info(I18N.translate("GAMEPAD_NOTFOUND"));
+						return;
+					}
+					if (selected == 0) {
+						OperationSprite.getInstance().setText("");
+						nextStage();
+						return;
+					}
+					selected = atsg.getSelectedIdx();
+					sound.stopAndPlay();
+					atsg.exec();
+				}
+				break;
+			case 1:
+				effect = new FadeEffect(gm.getWindow().getWidth(), gm.getWindow().getHeight(),
+						new ColorChanger(
+								ColorTransitionModel.valueOf(0),
+								ColorTransitionModel.valueOf(0),
+								ColorTransitionModel.valueOf(0),
+								new FadeCounter(0, +6)
+						));
+				nextStage();
+				break;
+			case 2:
+				if (effect.isEnded()) {
+					waitTime = new FrameTimeCounter(60);
+					nextStage();
+				}
+				break;
+			case 3:
+				if (waitTime.isReaching()) {
+					atsg.getSelected().exec();
+				}
+				break;
 		}
 	}
+
+	private void nextStage() {
+		stage++;
+	}
+	private FadeEffect effect;
+	private FrameTimeCounter waitTime;
 
 	@Override
 	public void draw(GraphicsContext gc) {
@@ -162,6 +205,14 @@ public class TitleLogic extends GameLogic {
 		g.setColor(Color.DARK_GRAY);
 		g.drawString(Versions.COPY_RIGHT, 16, 16);
 
+		if (effect != null) {
+			if (effect.isEnded()) {
+				g.setColor(Color.BLACK);
+				g.fillRect(0, 0, gm.getWindow().getWidth(), gm.getWindow().getHeight());
+			} else {
+				effect.draw(g);
+			}
+		}
 		g.dispose();
 	}
 

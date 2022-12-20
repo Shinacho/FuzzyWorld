@@ -24,7 +24,6 @@
 package fuzzyworld1;
 
 import java.awt.Color;
-import java.awt.Font;
 import java.awt.Graphics2D;
 import kinugasa.game.GameLogic;
 import kinugasa.game.GameManager;
@@ -32,35 +31,39 @@ import kinugasa.game.GameOption;
 import kinugasa.game.GameTimeManager;
 import kinugasa.game.GraphicsContext;
 import kinugasa.game.I18N;
-import kinugasa.game.input.GamePadButton;
 import kinugasa.game.input.InputState;
-import kinugasa.game.input.InputType;
 import kinugasa.game.ui.FontModel;
-import kinugasa.game.ui.SimpleTextLabelModel;
-import kinugasa.game.ui.TextLabelSprite;
-import kinugasa.game.input.GamePadStatusMonitor;
-import kinugasa.game.input.Keys;
-import kinugasa.resource.sound.Sound;
-import kinugasa.resource.sound.SoundStorage;
+import kinugasa.graphics.ColorChanger;
+import kinugasa.graphics.ColorTransitionModel;
+import kinugasa.graphics.FadeCounter;
+import kinugasa.object.FadeEffect;
+import kinugasa.util.FrameTimeCounter;
 
 /**
  *
- * @vesion 1.0.0 - 2022/11/13_12:17:23<br>
+ * @vesion 1.0.0 - 2022/12/16_21:12:55<br>
  * @author Dra211<br>
  */
-public class GamePadTestLogic extends GameLogic {
+public class ChapterTitleLogic extends GameLogic {
 
-	public GamePadTestLogic(GameManager gm) {
-		super(Const.LogicName.GAMEPAD_TEST, gm);
+	public ChapterTitleLogic(GameManager gm) {
+		super(Const.LogicName.CHAPTER_TITLE, gm);
 	}
-	private GamePadStatusMonitor gp;
-	private Sound sound;
+	private FrameTimeCounter waitTime1;
+	private FadeEffect effect;
+	private int stage;
 
 	@Override
 	public void load() {
-		gp = new GamePadStatusMonitor();
-		sound = SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load();
-		OperationSprite.getInstance().setText("(B):" + I18N.translate("RETURN"));
+		effect = new FadeEffect(gm.getWindow().getWidth(), gm.getWindow().getHeight(),
+				new ColorChanger(
+						ColorTransitionModel.valueOf(0),
+						ColorTransitionModel.valueOf(0),
+						ColorTransitionModel.valueOf(0),
+						new FadeCounter(255, -6)
+				));
+		waitTime1 = new FrameTimeCounter(150);
+		stage = 0;
 	}
 
 	@Override
@@ -69,21 +72,49 @@ public class GamePadTestLogic extends GameLogic {
 
 	@Override
 	public void update(GameTimeManager gtm, InputState is) {
-		gp.update(is.getGamePadState());
-		if (is.isPressed(GamePadButton.B, Keys.BACK_SPACE, InputType.SINGLE)) {
-			sound.stopAndPlay();
-			gls.changeTo(Const.LogicName.TITLE_LOGIC);
+		switch (stage) {
+			case 0:
+				if (effect.isEnded()) {
+					stage++;
+				}
+				break;
+			case 1:
+				//「序章」の表示
+				if (waitTime1.isReaching()) {
+					stage++;
+				}
+				break;
+			case 2:
+				effect = new FadeEffect(gm.getWindow().getWidth(), gm.getWindow().getHeight(),
+						new ColorChanger(
+								ColorTransitionModel.valueOf(0),
+								ColorTransitionModel.valueOf(0),
+								ColorTransitionModel.valueOf(0),
+								new FadeCounter(0, +6)
+						));
+				stage++;
+				break;
+			case 3:
+				if (effect.isEnded()) {
+					gls.changeTo(Const.Chapter.nextLogic);
+					stage++;
+				}
+				break;
 		}
 	}
 
 	@Override
 	public void draw(GraphicsContext g) {
 		Graphics2D g2 = g.create();
+		int x = 64;
+		int y = 64;
 		g2.setColor(Color.WHITE);
-		g2.setFont(new Font("MONOSPACED", Font.PLAIN, 24));
-		g2.drawString("GAMEPAD TEST", 12, 32);
+		g2.setFont(FontModel.DEFAULT.clone().setFontSize(32).getFont());
+		g2.drawString(I18N.translate(Const.Chapter.current), x, y);
+		x += 48;
+		y += 64;
+		g2.drawString("- " + I18N.translate(Const.Chapter.currentSubTitle) + " -", x, y);
+		effect.draw(g);
 		g2.dispose();
-		gp.draw(g);
 	}
-
 }

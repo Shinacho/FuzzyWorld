@@ -42,7 +42,7 @@ public class OperationSprite extends TextLabelSprite {
 	}
 
 	private OperationSprite() {
-		super("", new SimpleTextLabelModel(FontModel.DEFAULT.clone().setColor(Color.WHITE)), 0, 0);
+		super("", new SimpleTextLabelModel(FontModel.DEFAULT.clone().setColor(Color.WHITE).setFontSize(12)), 0, 0);
 	}
 
 }

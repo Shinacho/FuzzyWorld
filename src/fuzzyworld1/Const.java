@@ -39,6 +39,8 @@ public class Const {
 		public static final String GAMEPAD_TEST = "GAMEPAD_TEST";
 		public static final String E1 = "E1";
 		public static final String FIELDMAP = "FIELDMAP";
+		public static final String CHAPTER_TITLE = "CHAPTER_TITLE";
+		public static final String FIELD = "CHAPTER_1";
 	}
 
 	public static class Screen {
@@ -50,6 +52,19 @@ public class Const {
 	public static class Input {
 
 		public static boolean gamepad;
+	}
+
+	public static class Player {
+
+		public static String pc1Name;
+	}
+
+	public static class Chapter {
+
+		public static String current;
+		public static String currentSubTitle;
+		public static String nextLogic;
+
 	}
 
 }
