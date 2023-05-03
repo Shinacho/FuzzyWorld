@@ -23,12 +23,21 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 -->
 <KinugasaRaceList>
-	<race name="HUMAN" itemBagSize="8" bookBagSize="8">
+	<race name="HUMAN" itemBagSize="10" bookBagSize="8">
 		<slot name="頭" />
 		<slot name="胴" />
 		<slot name="腕" />
 		<slot name="足" />
+		<slot name="アミュレット" />
 	</race>
+	<race name="BELLMAN" itemBagSize="8" bookBagSize="12">
+		<slot name="頭" />
+		<slot name="胴" />
+		<slot name="腕" />
+		<slot name="足" />
+		<slot name="アミュレット" />
+	</race>
+	
 	<race name="かたつむり" itemBagSize="2" bookBagSize="1">
 		<slot name="胴" />
 	</race>

@@ -24,6 +24,10 @@
 package fuzzyworld1;
 
 import java.awt.Color;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.text.SimpleDateFormat;
+import javax.swing.JFileChooser;
 import kinugasa.game.GameLogicStorage;
 import kinugasa.game.GameManager;
 import kinugasa.game.GameOption;
@@ -35,6 +39,16 @@ import kinugasa.game.system.GameSystem;
 import kinugasa.game.ui.FPSLabel;
 import kinugasa.resource.sound.SoundLoader;
 import static kinugasa.game.GameOption.GUILockMode.*;
+import kinugasa.game.I18N;
+import kinugasa.game.PlayerConstants;
+import kinugasa.game.input.InputType;
+import kinugasa.game.input.Keys;
+import kinugasa.game.system.ConditionKey;
+import kinugasa.game.system.ConditionValueStorage;
+import kinugasa.graphics.ImageUtil;
+import kinugasa.resource.sound.SoundStorage;
+import kinugasa.resource.text.XMLElement;
+import kinugasa.resource.text.XMLFile;
 
 /**
  *
@@ -49,7 +63,7 @@ public class GM extends GameManager {
 	}
 
 	private GM() {
-		super(GameOption.fromGUI("Fuzzy World", OFF_DISABLE, ON_DISABLE, ON_ENABLE).setBackColor(new Color(0, 32, 66)));
+		super(GameOption.fromGUI("Fuzzy World", ON_DISABLE, ON_DISABLE, ON_ENABLE).setBackColor(new Color(0, 32, 66)));
 	}
 	private FPSLabel fps;
 	private GameLogicStorage gls;
@@ -87,6 +101,21 @@ public class GM extends GameManager {
 		if (GameSystem.isDebugMode()) {
 			fps.setGtm(gtm);
 		}
+
+		//スクリーンショット
+		if (is.isPressed(Keys.F12, InputType.SINGLE)) {
+			JFileChooser c = new JFileChooser();
+			c.setDialogTitle(I18N.translate("SCREEN_SHOT"));
+			c.setSelectedFile(new File(PlayerConstants.getInstance().DESKTOP_PATH + "/screenShot_" + System.currentTimeMillis() + ".png"));
+			c.setMultiSelectionEnabled(false);
+			int r = c.showSaveDialog(null);
+			if (r == JFileChooser.APPROVE_OPTION) {
+				File f = c.getSelectedFile();
+				SoundStorage.getInstance().get("SE").get("screenShot.wav").load().stopAndPlay();
+				ImageUtil.screenShot(f.getAbsolutePath(), getWindow().getBounds());
+			}
+		}
+
 		gls.getCurrent().update(gtm, is);
 	}
 

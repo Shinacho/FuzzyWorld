@@ -31,44 +31,41 @@ THE SOFTWARE.
 	
 
 	<!-- 状態異常のマスタ定、魔法、スキル、装備による効果も同じストレージに追加することができる	-->
-	<cCondition name="NOMAL" desc="健康だ" pri="0">
-		<effect ect="NONE" />
-	</cCondition>
+
 	
-	
-	<cCondition name="DEFENCE" desc="守りに徹している" pri="1" >
+	<cCondition name="DEFENCE" desc="防御" pri="1" >
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="DEF" value="+0.33" p="1" />
 	</cCondition>
 
-	<cCondition name="AVOIDANCE" desc="避けに徹している" pri="1" >
+	<cCondition name="AVOIDANCE" desc="回避" pri="1" >
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="AVO" value="0.33" p="1" />
 	</cCondition>
 	
-	<cCondition name="ESCAPED" desc="逃げ出した" pri="1" >
+	<cCondition name="ESCAPED" desc="逃走" pri="1" >
 		<effect ect="CONTINUE" time="INFINITY" ett="STOP" p="1" />
 	</cCondition>
 
-	<cCondition name="REGENE" desc="徐々に回復している" pri="2" >
+	<cCondition name="REGENE" desc="リジェネ" pri="2" >
 		<effect ect="CONTINUE" time="5/15" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="HP"  value="+0.1" p="1" />
 	</cCondition>
 	
-	<cCondition name="MOIST" desc="濡れている" pri="5" >
+	<cCondition name="MOIST" desc="湿潤" pri="5" >
 		<effect ect="ONECE" time="1" ett="ATTRIBUTE_IN" est="ADD_VALUE" tgt="FLAME" value="-0.5" p="1" />
 		<effect ect="ONECE" time="1" ett="ATTRIBUTE_IN" est="ADD_VALUE" tgt="THNDER" value="+0.5" p="1" />
 	</cCondition>
 	
-	<cCondition name="OIL" desc="油を被った" pri="5">
+	<cCondition name="OIL" desc="オイル" pri="5">
 		<effect ect="ONECE" time="1" ett="ATTRIBUTE_IN" est="ADD_VALUE" tgt="FLAME" value="+0.5" p="1" />
 		<effect ect="ONECE" time="1" ett="ATTRIBUTE_IN" est="ADD_VALUE" tgt="IMPACT" value="-0.25" p="1" />
 		<effect ect="ONECE" time="1" ett="ATTRIBUTE_IN" est="ADD_VALUE" tgt="C_FLAME" value="+0.5" p="1" />
 	</cCondition>
 	
-	<cCondition name="POISON" desc="毒を受けている" pri="10">
+	<cCondition name="POISON" desc="毒" pri="10">
 		<effect ect="CONTINUE" time="50/75" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="HP"  value="-0.05"  p="1" />
 		<effect ect="ONECE"    time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="CON" value="-0.5" p="1" />
 	</cCondition>
 	
-	<cCondition name="FLAME" desc="炎上している" pri="20">
+	<cCondition name="FLAME" desc="炎上" pri="20">
 		<effect ect="CONTINUE" time="50/75" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="HP"  value="-0.1" p="1" />
 		<effect ect="CONTINUE" time="50/75" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="CON" value="-0.1" p="1" />
 		<effect ect="CONTINUE" time="50/75" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SAN" value="-0.025" p="1" />
@@ -78,13 +75,13 @@ THE SOFTWARE.
 		<effect ect="CONTINUE" time="50/75" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="AVO" value="-0.1" p="1" />
 	</cCondition>
 
-	<cCondition name="FROZEN" desc="凍結している" pri="20">
+	<cCondition name="FROZEN" desc="凍結" pri="20">
 		<effect ect="CONTINUE" time="25/50" ett="STOP"                                                   p="0.75" />
 		<effect ect="ONECE"    time="1"	    ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SPD" value="-0.5" p="0.75" />
 		<effect ect="ONECE"    time="1"	    ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="AVO" value="-0.5" p="0.75" />
 	</cCondition>
 	
-	<cCondition name="TREE" desc="木化している" pri="20">
+	<cCondition name="TREE" desc="木化" pri="20">
 		<effect ect="CONTINUE" time="25/50" ett="STOP"                                                    p="0.99" />
 		<effect ect="CONTINUE" time="25/50" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SAN" value="-0.05" p="1" />
 		<effect ect="ONECE"    time="1"	    ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SPD" value="-0.75" p="0.8" />
@@ -93,50 +90,50 @@ THE SOFTWARE.
 		<effect ect="ONECE"    time="1"	    ett="ATTRIBUTE_IN" est="ADD_PERCENT_OF_MAX" tgt="C_FLAME" value="-0.75" p="1" />
 	</cCondition>
 	
-	<cCondition name="BLIND" desc="目が見えない" pri="30">
+	<cCondition name="BLIND" desc="盲目" pri="30">
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="DEX" value="-0.75" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SPD" value="-0.75" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="AVO" value="-0.75" p="1" />
 	</cCondition>
 
-	<cCondition name="SEAL" desc="封印されている" pri="40">
+	<cCondition name="SEAL" desc="封印" pri="40">
 		<effect ect="CONTINUE" time="25/25" ett="STOP" p="0.8" />
 	</cCondition>
 	
-	<cCondition name="SLEEP" desc="眠っている" pri="50">
+	<cCondition name="SLEEP" desc="睡眠" pri="50">
 		<effect ect="CONTINUE" time="10/50" ett="STOP" p="1" />
 	</cCondition>
 	
-	<cCondition name="SPELLING" desc="魔法を詠唱している" pri="50">
+	<cCondition name="SPELLING" desc="詠唱" pri="50">
 		<effect ect="CONTINUE" time="INFINITY" ett="STOP" p="1" />
 	</cCondition>
 	
-	<cCondition name="PARALYS" desc="麻痺している" pri="60">
+	<cCondition name="PARALYS" desc="麻痺" pri="60">
 		<effect ect="CONTINUE" time="10/50" ett="STOP" p="0.25" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="DEX" value="-0.75" p="0.5" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SPD" value="-0.75" p="0.5" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="AVO" value="-0.75" p="0.5" />
 	</cCondition>
 	
-	<cCondition name="CONFUSION" desc="混乱している" pri="71">
+	<cCondition name="CONFUSION" desc="混乱" pri="71">
 		<effect ect="CONTINUE" time="5/25" ett="CONFU" p="1"/>
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="POW" value="-0.25" p="0.5" />
 	</cCondition>
 	
-	<cCondition name="MADNESS" desc="狂乱している" pri="72">
+	<cCondition name="MADNESS" desc="狂乱" pri="72">
 		<effect ect="CONTINUE" time="5/25" ett="CONFU" p="1"/>
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="POW" value="-0.25" p="0.5" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SAN" value="-0.25" p="0.5" />
 		<effect ect="CONTINUE" ett="ADD_CONDITION" tgt="TRUE_MADNESS" p="0.05" />
 	</cCondition>
 	
-	<cCondition name="TRUE_MADNESS" desc="発狂している！！！" pri="73">
+	<cCondition name="TRUE_MADNESS" desc="発狂" pri="73">
 		<effect ect="CONTINUE" time="INFINITY" ett="CONFU" p="1"/>
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="POW" value="-0.50" p="0.75" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SAN" value="-0.50" p="0.75" />
 	</cCondition>
 	
-	<cCondition name="ROT" desc="腐敗している" pri="80">
+	<cCondition name="ROT" desc="腐敗" pri="80">
 		<effect ect="CONTINUE" time="15/50" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="STR" value="-0.05" p="0.75" />
 		<effect ect="CONTINUE" time="15/50" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="CON" value="-0.05" p="0.75" />
 		<effect ect="CONTINUE" time="15/50" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SIZ" value="-0.05" p="0.75" />
@@ -145,7 +142,7 @@ THE SOFTWARE.
 		<effect ect="CONTINUE" ett="ADD_CONDITION" tgt="TRUE_MADNESS" p="0.05" />
 	</cCondition>
 	
-	<cCondition name="STONE" desc="石化している" pri="90">
+	<cCondition name="STONE" desc="石化" pri="90">
 		<effect ect="CONTINUE" time="15/50" ett="STOP" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_VALUE" tgt="SIZ" value="50" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_VALUE" tgt="DEF" value="50" p="0.75" />
@@ -157,7 +154,7 @@ THE SOFTWARE.
 		<effect ect="ONECE" time="1" ett="ATTRIBUTE_IN" est="ADD_VALUE" tgt="IMPACT" value="-0.5" p="1" />
 	</cCondition>
 
-	<cCondition name="GOLDY" desc="黄金化している！！" pri="91">
+	<cCondition name="GOLDY" desc="黄金化" pri="91">
 		<effect ect="CONTINUE" time="INFINITY" ett="STOP" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_VALUE" tgt="SIZ" value="999" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_VALUE" tgt="DEF" value="999" p="1" />
@@ -169,7 +166,7 @@ THE SOFTWARE.
 		<effect ect="ONECE" time="1" ett="ATTRIBUTE_IN" est="ADD_VALUE" tgt="IMPACT" value="-0.75" p="1" />
 	</cCondition>
 	
-	<cCondition name="CUT" desc="肉体が切断されている！" pri="100">
+	<cCondition name="CUT" desc="切断" pri="100">
 		<effect ect="CONTINUE" time="INFINITY" ett="STOP" p="0.25" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SIZ" value="-0.25" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="DEF" value="-0.25" p="1" />
@@ -186,7 +183,7 @@ THE SOFTWARE.
 		<effect ect="CONTINUE" ett="ADD_CONDITION" tgt="MADNESS" p="0.1" />
 	</cCondition>
 
-	<cCondition name="BREAK" desc="肉体が破壊されている！！" pri="101">
+	<cCondition name="BREAK" desc="破壊" pri="101">
 		<effect ect="CONTINUE" time="INFINITY" ett="STOP" p="0.5" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SIZ" value="-0.40" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="DEF" value="-0.40" p="1" />
@@ -203,7 +200,7 @@ THE SOFTWARE.
 		<effect ect="CONTINUE" ett="ADD_CONDITION" tgt="MADNESS" p="0.25" />
 	</cCondition>
 
-	<cCondition name="DESTROY" desc="肉体が消滅している！！！" pri="200">
+	<cCondition name="DESTROY" desc="消滅" pri="200">
 		<effect ect="CONTINUE" time="INFINITY" ett="STOP" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="TO" tgt="HP" value="0" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="TO" tgt="MP" value="0" p="1" />
@@ -224,7 +221,7 @@ THE SOFTWARE.
 		<effect ect="ONECE" time="1" ett="STATUS" est="TO" tgt="DEF" value="0" p="1" />
 	</cCondition>
 
-	<cCondition name="DEAD" desc="死亡している・・・" pri="201">
+	<cCondition name="DEAD" desc="死亡" pri="201">
 		<effect ect="CONTINUE" time="INFINITY" ett="STOP" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="TO" tgt="HP" value="0" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="TO" tgt="MP" value="0" p="1" />
@@ -248,32 +245,32 @@ THE SOFTWARE.
 
 
 	<!-- バトルフィールド状態のマスタ定義 -->
-	<fCondition name="F_NOMAL" desc="快晴だ" pri="0">
+	<fCondition name="F_NOMAL" desc="フィールド：快晴" pri="0">
 		<effect ect="NONE" />
 	</fCondition>
-	<fCondition name="F_FLAME" desc="炎上している" pri="10">
+	<fCondition name="F_FLAME" desc="フィールド：炎上" pri="10">
 		<effect ect="CONTINUE" ett="ADD_CONDITION" tgt="FLAME" p="0.15" />
 	</fCondition>
-	<fCondition name="F_WIND" desc="強風が吹いている" pri="20">
+	<fCondition name="F_WIND" desc="フィールド：強風" pri="20">
 		<effect ect="CONTINUE" time="INFINITY" ett="STOP" p="0.25" />
 	</fCondition>
-	<fCondition name="F_ERATH" desc="大地が揺れている" pri="20">
+	<fCondition name="F_ERATH" desc="フィールド：地震" pri="20">
 		<effect ect="CONTINUE" time="INFINITY" ett="STOP" p="0.25" />
 	</fCondition>
-	<fCondition name="F_ICE" desc="凍結している" pri="10">
+	<fCondition name="F_ICE" desc="フィールド：凍結" pri="10">
 		<effect ect="CONTINUE" ett="ADD_CONDITION" tgt="FROZEN" p="0.1" />
 	</fCondition>
-	<fCondition name="F_THNDER" desc="雷が落ちている" pri="30">
+	<fCondition name="F_THNDER" desc="フィールド：落雷" pri="30">
 		<effect ect="CONTINUE" ett="ADD_CONDITION" tgt="FLAME" p="0.01" />
 		<effect ect="CONTINUE" ett="ADD_CONDITION" tgt="DEAD" p="0.01" />
 	</fCondition>
-	<fCondition name="F_RAIN" desc="大雨が降っている" pri="40">
+	<fCondition name="F_RAIN" desc="フィールド：大雨" pri="40">
 		<effect ect="CONTINUE" ett="ADD_CONDITION" tgt="MOIST" p="0.95" />
 	</fCondition>
-	<fCondition name="F_DARK" desc="闇に包まれている" pri="50">
+	<fCondition name="F_DARK" desc="フィールド：闇" pri="50">
 		<effect ect="CONTINUE" ett="ADD_CONDITION" tgt="BLIND" p="0.1" />
 	</fCondition>
-	<fCondition name="F_GOLD" desc="錬金物質が降り注いでいる" pri="60">
+	<fCondition name="F_GOLD" desc="フィールド：錬金雨" pri="60">
 		<effect ect="CONTINUE" ett="ADD_CONDITION" tgt="GOLDY" p="0.1" />
 	</fCondition>
 

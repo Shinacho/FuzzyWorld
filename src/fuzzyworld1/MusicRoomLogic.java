@@ -60,12 +60,17 @@ public class MusicRoomLogic extends GameLogic {
 
 	@Override
 	public void load() {
-		mr = new MusicRoom("BGM", Const.Screen.WIDTH / GameOption.getInstance().getDrawSize(), Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize());
+		mr = new MusicRoom(SoundStorage.getInstance().get("BGM"),
+				24,
+				48,
+				(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() - 48),
+				(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 * 2),
+				20);
 
 		if (Const.Input.gamepad) {
-			OperationSprite.getInstance().setText("(A):" + I18N.translate("SUBMIT") + " / " + "Å™Å´Å©Å®:" + I18N.translate("MOVE") + " / " + "(B):" + I18N.translate("RETURN") + " / " + "(X):" + I18N.translate("OPEN"));
+			OperationSprite.getInstance().setText("(A):" + I18N.translate("SUBMIT") + " / " + "Å™Å´:" + I18N.translate("MOVE") + " / " + "(B):" + I18N.translate("RETURN") + " / " + "(X):" + I18N.translate("OPEN"));
 		} else {
-			OperationSprite.getInstance().setText("[ENTER]:" + I18N.translate("SUBMIT") + " / " + "Å™Å´Å©Å®:" + I18N.translate("MOVE") + " / " + "[BACK SPACE]::" + I18N.translate("RETURN") + " / " + "[O]:" + I18N.translate("OPEN"));
+			OperationSprite.getInstance().setText("[ENTER]:" + I18N.translate("SUBMIT") + " / " + "Å™Å´:" + I18N.translate("MOVE") + " / " + "[BACK SPACE]::" + I18N.translate("RETURN") + " / " + "[O]:" + I18N.translate("OPEN"));
 		}
 	}
 
@@ -78,20 +83,14 @@ public class MusicRoomLogic extends GameLogic {
 	@Override
 	public void update(GameTimeManager gtm, InputState is) {
 		if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-			mr.next();
+			mr.nextSelect();
 		}
 		if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-			mr.prev();
-		}
-		if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
-			mr.nextColumn();
-		}
-		if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
-			mr.prevColumn();
+			mr.prevSelect();
 		}
 
 		if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-			mr.exec();
+			mr.play();
 		}
 		if (is.isPressed(GamePadButton.X, Keys.O, InputType.SINGLE)) {
 			try {
@@ -103,6 +102,7 @@ public class MusicRoomLogic extends GameLogic {
 		if (is.isPressed(GamePadButton.B, Keys.BACK_SPACE, InputType.SINGLE)) {
 			gls.changeTo(Const.LogicName.TITLE_LOGIC);
 		}
+		mr.update();
 	}
 
 	@Override

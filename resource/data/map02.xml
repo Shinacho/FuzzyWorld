@@ -27,7 +27,7 @@ THE SOFTWARE.
 	<background image="resource/data/image/seaChip16.png" frame="36" w="16" h="16" />
 	<before name="cloud" image="resource/data/image/cloudeffect.png" mg="4" tp="0.25" angle="123.1f" speed="0.075f" />
 
-	<event name="E_01" x="31" y="35" script="resource/data/E01.xml" />
+	<event name="E_01" x="31" y="35" script="resource/data/E001.xml" />
 		
 		
 	<npc name="NPC02" initialIdx="18,35" NPCMoveModel="NOT_MOVE" image="resource/data/image/c3.png" s="0,32,32" w="96,32,32" e="64,32,32" n="32,32,32" frame="32" initialDir="EAST"/>

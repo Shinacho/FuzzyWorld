@@ -66,5 +66,17 @@ public class Const {
 		public static String nextLogic;
 
 	}
+	
+	public static class MenuIdx{
+		public static final int STATUS = 0;
+		public static final int ORDER = 1;
+		public static final int ITEM = 2;
+		public static final int MAGIC = 3;
+		public static final int BOOK = 4;
+		public static final int MATERIAL = 5;
+		public static final int INFO = 6;
+		public static final int MAP = 7;
+		
+	}
 
 }

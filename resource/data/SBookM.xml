@@ -23,6 +23,1898 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 -->
 <KinugasaBookList>
-	<book name="‰Î‰Š‚Ì‘" desc="‰Î–‚–@‚ÌŠî‘b“I‚ÈpŽ®‚ª‹LÚ‚³‚ê‚Ä‚¢‚é"/>
-	
+
+    <!-- ƒy[ƒW’P‘Ì‚Ì’è‹` -->
+    <page mct="SET_ATTR" name="‘®«‚ÌpŽ®" tgtName="CHOP"/>
+    <page mct="SET_ATTR" name="‘®«‚ÌpŽ®" tgtName="STAB"/>
+    <page mct="SET_ATTR" name="‘®«‚ÌpŽ®" tgtName="IMPACT"/>
+    <page mct="SET_ATTR" name="‘®«‚ÌpŽ®" tgtName="FLAME"/>
+    <page mct="SET_ATTR" name="‘®«‚ÌpŽ®" tgtName="ICE"/>
+    <page mct="SET_ATTR" name="‘®«‚ÌpŽ®" tgtName="WATER"/>
+    <page mct="SET_ATTR" name="‘®«‚ÌpŽ®" tgtName="THNDER"/>
+    <page mct="SET_ATTR" name="‘®«‚ÌpŽ®" tgtName="AIR"/>
+    <page mct="SET_ATTR" name="‘®«‚ÌpŽ®" tgtName="EARTH"/>
+    <page mct="SET_ATTR" name="‘®«‚ÌpŽ®" tgtName="LIGHT"/>
+    <page mct="SET_ATTR" name="‘®«‚ÌpŽ®" tgtName="DARK"/>
+    <page mct="SET_ATTR" name="‘®«‚ÌpŽ®" tgtName="HOLY"/>
+    <page mct="SET_ATTR" name="‘®«‚ÌpŽ®" tgtName="MYSTERY"/>
+    <page mct="SET_ATTR" name="‘®«‚ÌpŽ®" tgtName="EVIL"/>
+    <page mct="SET_ATTR" name="‘®«‚ÌpŽ®" tgtName="NONE"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="CHOP"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="STAB"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="IMPACT"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="FLAME"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="ICE"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="WATER"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="THNDER"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="AIR"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="EARTH"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="LIGHT"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="DARK"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="HOLY"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="MYSTERY"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="EVIL"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="NONE"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="C_POISON"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="C_FLAME"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="C_FROZEN"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="C_BLIND"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="C_SEAL"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="C_SLEEP"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="C_PARALYS"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="C_CONFUSION"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="C_MADNESS"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="C_TRUE_MADNESS"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="C_ROT"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="C_STONE"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="C_GOLDY"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="C_CUT"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="C_BREAK"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="C_DESTROY"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="C_DEAD"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="LV"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="HP"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="MP"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="STR"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="SPD"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="DEX"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="POW"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="SAN"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="MOV"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="EXP"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="ATK"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="DEF"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="AVO"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="CUT_P"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="CUT_V"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="CRT_P"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="CRT_V"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="M_ATK"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="M_DEF"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="M_AVO"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="M_CUT_P"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="M_CUT_V"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="M_CRT_P"/>
+    <page mct="HEAL_STATUS" name="ƒ_ƒ[ƒWŠ®‘S‰ñ•œ‚ÌpŽ®" tgtName="M_CRT_V"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="DEFENCE"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="AVOIDANCE"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="ESCAPED"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="REGENE"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="MOIST"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="OIL"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="POISON"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="FLAME"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="FROZEN"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="TREE"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="BLIND"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="SEAL"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="SLEEP"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="SPELLING"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="PARALYS"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="CONFUSION"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="MADNESS"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="TRUE_MADNESS"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="ROT"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="STONE"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="GOLDY"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="CUT"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="BREAK"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="DESTROY"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="DEAD"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="F_NOMAL"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="F_FLAME"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="F_WIND"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="F_ERATH"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="F_ICE"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="F_THNDER"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="F_RAIN"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="F_DARK"/>
+    <page mct="ADD_CONDITION" name="ó‘ÔˆÙí’Ç‰Á‚ÌpŽ®" tgtName="F_GOLD"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="DEFENCE"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="AVOIDANCE"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="ESCAPED"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="REGENE"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="MOIST"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="OIL"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="POISON"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="FLAME"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="FROZEN"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="TREE"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="BLIND"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="SEAL"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="SLEEP"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="SPELLING"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="PARALYS"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="CONFUSION"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="MADNESS"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="TRUE_MADNESS"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="ROT"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="STONE"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="GOLDY"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="CUT"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="BREAK"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="DESTROY"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="F_NOMAL"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="F_FLAME"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="F_WIND"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="F_ERATH"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="F_ICE"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="F_THNDER"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="F_RAIN"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="F_DARK"/>
+    <page mct="REMOVE_CONDITION" name="ó‘ÔˆÙí‰ðœ‚ÌpŽ®" tgtName="F_GOLD"/>
+    <page mct="TO_ALL" name="‘S‘Ì‰»‚ÌpŽ®"/>
+    <page mct="TO_ONE" name="’P‘Ì‰»‚ÌpŽ®"/>
+    <page mct="TO_TEAM" name="ƒOƒ‹[ƒv‰»‚ÌpŽ®"/>
+    <page mct="TO_FIELD" name="ƒtƒB[ƒ‹ƒh‘ÎÛ‚ÌpŽ®"/>
+    <page mct="ENEMY" name="“G‘ÎÛ‚ÌpŽ®"/>
+    <page mct="FRIEND" name="–¡•û‘ÎÛ‚ÌpŽ®"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="CHOP" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="STAB" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="IMPACT" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="FLAME" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ICE" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="WATER" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="THNDER" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="AIR" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EARTH" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="LIGHT" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="DARK" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="HOLY" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="MYSTERY" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EVIL" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="NONE" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_POISON" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FLAME" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FROZEN" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BLIND" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SEAL" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SLEEP" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_PARALYS" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CONFUSION" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_MADNESS" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_TRUE_MADNESS" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_ROT" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_STONE" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_GOLDY" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CUT" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BREAK" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DESTROY" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DEAD" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="LV" value="64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="HP" value="64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MP" value="64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="STR" value="64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SPD" value="64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEX" value="64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="POW" value="64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SAN" value="64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MOV" value="64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="EXP" value="64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="ATK" value="64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEF" value="64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="AVO" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_P" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_V" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_P" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_V" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_ATK" value="64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_DEF" value="64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_AVO" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_P" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_V" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_P" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_V" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="LV" value="64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="HP" value="64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MP" value="64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="STR" value="64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SPD" value="64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEX" value="64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="POW" value="64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SAN" value="64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MOV" value="64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="EXP" value="64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="ATK" value="64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEF" value="64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="AVO" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_P" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_V" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_P" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_V" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_ATK" value="64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_DEF" value="64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_AVO" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_P" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_V" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_P" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_V" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEFENCE" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="AVOIDANCE" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ESCAPED" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="REGENE" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MOIST" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="OIL" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="POISON" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FLAME" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FROZEN" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TREE" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BLIND" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SEAL" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SLEEP" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SPELLING" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="PARALYS" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CONFUSION" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MADNESS" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TRUE_MADNESS" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ROT" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="STONE" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="GOLDY" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CUT" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BREAK" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DESTROY" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEAD" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_NOMAL" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_FLAME" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_WIND" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ERATH" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ICE" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_THNDER" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="32"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="64"/>
+    <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="32"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="CHOP" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="STAB" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="IMPACT" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="FLAME" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ICE" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="WATER" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="THNDER" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="AIR" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EARTH" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="LIGHT" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="DARK" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="HOLY" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="MYSTERY" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EVIL" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="NONE" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_POISON" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FLAME" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FROZEN" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BLIND" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SEAL" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SLEEP" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_PARALYS" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CONFUSION" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_MADNESS" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_TRUE_MADNESS" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_ROT" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_STONE" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_GOLDY" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CUT" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BREAK" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DESTROY" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DEAD" value="0.5"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="LV" value="32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="HP" value="32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MP" value="32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="STR" value="32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SPD" value="32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEX" value="32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="POW" value="32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SAN" value="32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MOV" value="32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="EXP" value="32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="ATK" value="32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEF" value="32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="AVO" value="0.5"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_P" value="0.5"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_V" value="0.5"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_P" value="0.5"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_V" value="0.5"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_ATK" value="32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_DEF" value="32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_AVO" value="0.5"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_P" value="0.5"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_V" value="0.5"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_P" value="0.5"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_V" value="0.5"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="LV" value="32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="HP" value="32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MP" value="32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="STR" value="32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SPD" value="32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEX" value="32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="POW" value="32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SAN" value="32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MOV" value="32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="EXP" value="32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="ATK" value="32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEF" value="32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="AVO" value="0.5"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_P" value="0.5"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_V" value="0.5"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_P" value="0.5"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_V" value="0.5"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_ATK" value="32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_DEF" value="32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_AVO" value="0.5"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_P" value="0.5"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_V" value="0.5"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_P" value="0.5"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_V" value="0.5"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEFENCE" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="AVOIDANCE" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ESCAPED" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="REGENE" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MOIST" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="OIL" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="POISON" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FLAME" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FROZEN" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TREE" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BLIND" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SEAL" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SLEEP" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SPELLING" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="PARALYS" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CONFUSION" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MADNESS" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TRUE_MADNESS" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ROT" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="STONE" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="GOLDY" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CUT" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BREAK" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DESTROY" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEAD" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_NOMAL" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_FLAME" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_WIND" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ERATH" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ICE" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_THNDER" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="16"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="32"/>
+    <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="16"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="CHOP" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="STAB" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="IMPACT" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="FLAME" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ICE" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="WATER" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="THNDER" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="AIR" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EARTH" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="LIGHT" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="DARK" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="HOLY" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="MYSTERY" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EVIL" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="NONE" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_POISON" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FLAME" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FROZEN" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BLIND" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SEAL" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SLEEP" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_PARALYS" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CONFUSION" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_MADNESS" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_TRUE_MADNESS" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_ROT" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_STONE" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_GOLDY" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CUT" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BREAK" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DESTROY" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DEAD" value="0.25"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="LV" value="16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="HP" value="16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MP" value="16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="STR" value="16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SPD" value="16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEX" value="16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="POW" value="16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SAN" value="16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MOV" value="16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="EXP" value="16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="ATK" value="16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEF" value="16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="AVO" value="0.25"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_P" value="0.25"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_V" value="0.25"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_P" value="0.25"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_V" value="0.25"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_ATK" value="16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_DEF" value="16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_AVO" value="0.25"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_P" value="0.25"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_V" value="0.25"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_P" value="0.25"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_V" value="0.25"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="LV" value="16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="HP" value="16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MP" value="16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="STR" value="16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SPD" value="16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEX" value="16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="POW" value="16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SAN" value="16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MOV" value="16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="EXP" value="16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="ATK" value="16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEF" value="16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="AVO" value="0.25"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_P" value="0.25"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_V" value="0.25"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_P" value="0.25"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_V" value="0.25"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_ATK" value="16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_DEF" value="16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_AVO" value="0.25"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_P" value="0.25"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_V" value="0.25"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_P" value="0.25"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_V" value="0.25"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEFENCE" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="AVOIDANCE" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ESCAPED" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="REGENE" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MOIST" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="OIL" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="POISON" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FLAME" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FROZEN" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TREE" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BLIND" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SEAL" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SLEEP" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SPELLING" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="PARALYS" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CONFUSION" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MADNESS" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TRUE_MADNESS" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ROT" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="STONE" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="GOLDY" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CUT" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BREAK" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DESTROY" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEAD" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_NOMAL" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_FLAME" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_WIND" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ERATH" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ICE" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_THNDER" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="8"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="16"/>
+    <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="8"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="CHOP" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="STAB" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="IMPACT" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="FLAME" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ICE" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="WATER" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="THNDER" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="AIR" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EARTH" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="LIGHT" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="DARK" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="HOLY" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="MYSTERY" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EVIL" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="NONE" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_POISON" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FLAME" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FROZEN" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BLIND" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SEAL" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SLEEP" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_PARALYS" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CONFUSION" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_MADNESS" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_TRUE_MADNESS" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_ROT" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_STONE" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_GOLDY" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CUT" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BREAK" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DESTROY" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DEAD" value="0.125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="LV" value="8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="HP" value="8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MP" value="8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="STR" value="8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SPD" value="8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEX" value="8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="POW" value="8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SAN" value="8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MOV" value="8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="EXP" value="8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="ATK" value="8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEF" value="8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="AVO" value="0.125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_P" value="0.125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_V" value="0.125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_P" value="0.125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_V" value="0.125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_ATK" value="8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_DEF" value="8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_AVO" value="0.125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_P" value="0.125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_V" value="0.125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_P" value="0.125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_V" value="0.125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="LV" value="8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="HP" value="8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MP" value="8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="STR" value="8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SPD" value="8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEX" value="8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="POW" value="8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SAN" value="8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MOV" value="8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="EXP" value="8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="ATK" value="8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEF" value="8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="AVO" value="0.125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_P" value="0.125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_V" value="0.125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_P" value="0.125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_V" value="0.125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_ATK" value="8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_DEF" value="8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_AVO" value="0.125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_P" value="0.125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_V" value="0.125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_P" value="0.125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_V" value="0.125"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEFENCE" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="AVOIDANCE" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ESCAPED" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="REGENE" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MOIST" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="OIL" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="POISON" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FLAME" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FROZEN" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TREE" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BLIND" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SEAL" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SLEEP" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SPELLING" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="PARALYS" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CONFUSION" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MADNESS" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TRUE_MADNESS" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ROT" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="STONE" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="GOLDY" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CUT" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BREAK" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DESTROY" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEAD" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_NOMAL" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_FLAME" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_WIND" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ERATH" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ICE" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_THNDER" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="4"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="8"/>
+    <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="4"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="CHOP" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="STAB" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="IMPACT" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="FLAME" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ICE" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="WATER" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="THNDER" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="AIR" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EARTH" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="LIGHT" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="DARK" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="HOLY" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="MYSTERY" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EVIL" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="NONE" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_POISON" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FLAME" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FROZEN" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BLIND" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SEAL" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SLEEP" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_PARALYS" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CONFUSION" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_MADNESS" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_TRUE_MADNESS" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_ROT" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_STONE" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_GOLDY" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CUT" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BREAK" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DESTROY" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DEAD" value="0.0625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="LV" value="4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="HP" value="4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MP" value="4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="STR" value="4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SPD" value="4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEX" value="4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="POW" value="4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SAN" value="4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MOV" value="4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="EXP" value="4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="ATK" value="4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEF" value="4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="AVO" value="0.0625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_P" value="0.0625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_V" value="0.0625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_P" value="0.0625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_V" value="0.0625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_ATK" value="4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_DEF" value="4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_AVO" value="0.0625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_P" value="0.0625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_V" value="0.0625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_P" value="0.0625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_V" value="0.0625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="LV" value="4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="HP" value="4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MP" value="4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="STR" value="4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SPD" value="4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEX" value="4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="POW" value="4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SAN" value="4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MOV" value="4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="EXP" value="4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="ATK" value="4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEF" value="4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="AVO" value="0.0625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_P" value="0.0625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_V" value="0.0625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_P" value="0.0625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_V" value="0.0625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_ATK" value="4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_DEF" value="4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_AVO" value="0.0625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_P" value="0.0625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_V" value="0.0625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_P" value="0.0625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_V" value="0.0625"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEFENCE" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="AVOIDANCE" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ESCAPED" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="REGENE" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MOIST" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="OIL" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="POISON" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FLAME" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FROZEN" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TREE" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BLIND" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SEAL" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SLEEP" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SPELLING" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="PARALYS" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CONFUSION" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MADNESS" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TRUE_MADNESS" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ROT" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="STONE" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="GOLDY" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CUT" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BREAK" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DESTROY" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEAD" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_NOMAL" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_FLAME" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_WIND" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ERATH" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ICE" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_THNDER" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="2"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="4"/>
+    <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="2"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="CHOP" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="STAB" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="IMPACT" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="FLAME" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ICE" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="WATER" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="THNDER" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="AIR" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EARTH" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="LIGHT" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="DARK" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="HOLY" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="MYSTERY" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EVIL" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="NONE" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_POISON" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FLAME" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FROZEN" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BLIND" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SEAL" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SLEEP" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_PARALYS" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CONFUSION" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_MADNESS" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_TRUE_MADNESS" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_ROT" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_STONE" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_GOLDY" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CUT" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BREAK" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DESTROY" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DEAD" value="0.03125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="LV" value="2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="HP" value="2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MP" value="2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="STR" value="2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SPD" value="2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEX" value="2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="POW" value="2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SAN" value="2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MOV" value="2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="EXP" value="2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="ATK" value="2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEF" value="2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="AVO" value="0.03125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_P" value="0.03125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_V" value="0.03125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_P" value="0.03125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_V" value="0.03125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_ATK" value="2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_DEF" value="2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_AVO" value="0.03125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_P" value="0.03125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_V" value="0.03125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_P" value="0.03125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_V" value="0.03125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="LV" value="2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="HP" value="2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MP" value="2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="STR" value="2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SPD" value="2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEX" value="2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="POW" value="2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SAN" value="2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MOV" value="2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="EXP" value="2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="ATK" value="2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEF" value="2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="AVO" value="0.03125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_P" value="0.03125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_V" value="0.03125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_P" value="0.03125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_V" value="0.03125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_ATK" value="2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_DEF" value="2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_AVO" value="0.03125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_P" value="0.03125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_V" value="0.03125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_P" value="0.03125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_V" value="0.03125"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEFENCE" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="AVOIDANCE" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ESCAPED" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="REGENE" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MOIST" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="OIL" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="POISON" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FLAME" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FROZEN" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TREE" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BLIND" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SEAL" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SLEEP" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SPELLING" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="PARALYS" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CONFUSION" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MADNESS" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TRUE_MADNESS" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ROT" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="STONE" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="GOLDY" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CUT" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BREAK" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DESTROY" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEAD" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_NOMAL" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_FLAME" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_WIND" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ERATH" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ICE" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_THNDER" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="1"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="2"/>
+    <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="CHOP" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="STAB" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="IMPACT" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="FLAME" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ICE" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="WATER" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="THNDER" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="AIR" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EARTH" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="LIGHT" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="DARK" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="HOLY" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="MYSTERY" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EVIL" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="NONE" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_POISON" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FLAME" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FROZEN" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BLIND" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SEAL" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SLEEP" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_PARALYS" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CONFUSION" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_MADNESS" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_TRUE_MADNESS" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_ROT" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_STONE" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_GOLDY" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CUT" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BREAK" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DESTROY" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DEAD" value="0.015625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="LV" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="HP" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MP" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="STR" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SPD" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEX" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="POW" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SAN" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MOV" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="EXP" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="ATK" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEF" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="AVO" value="0.015625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_P" value="0.015625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_V" value="0.015625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_P" value="0.015625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_V" value="0.015625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_ATK" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_DEF" value="1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_AVO" value="0.015625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_P" value="0.015625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_V" value="0.015625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_P" value="0.015625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_V" value="0.015625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="LV" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="HP" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MP" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="STR" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SPD" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEX" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="POW" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SAN" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MOV" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="EXP" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="ATK" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEF" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="AVO" value="0.015625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_P" value="0.015625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_V" value="0.015625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_P" value="0.015625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_V" value="0.015625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_ATK" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_DEF" value="1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_AVO" value="0.015625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_P" value="0.015625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_V" value="0.015625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_P" value="0.015625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_V" value="0.015625"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="CHOP" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="STAB" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="IMPACT" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="FLAME" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ICE" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="WATER" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="THNDER" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="AIR" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EARTH" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="LIGHT" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="DARK" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="HOLY" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="MYSTERY" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EVIL" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="NONE" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_POISON" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FLAME" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FROZEN" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BLIND" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SEAL" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SLEEP" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_PARALYS" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CONFUSION" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_MADNESS" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_TRUE_MADNESS" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_ROT" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_STONE" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_GOLDY" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CUT" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BREAK" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DESTROY" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DEAD" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="LV" value="-64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="HP" value="-64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MP" value="-64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="STR" value="-64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SPD" value="-64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEX" value="-64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="POW" value="-64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SAN" value="-64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MOV" value="-64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="EXP" value="-64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="ATK" value="-64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEF" value="-64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="AVO" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_P" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_V" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_P" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_V" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_ATK" value="-64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_DEF" value="-64"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_AVO" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_P" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_V" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_P" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_V" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="LV" value="-64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="HP" value="-64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MP" value="-64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="STR" value="-64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SPD" value="-64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEX" value="-64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="POW" value="-64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SAN" value="-64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MOV" value="-64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="EXP" value="-64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="ATK" value="-64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEF" value="-64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="AVO" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_P" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_V" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_P" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_V" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_ATK" value="-64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_DEF" value="-64"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_AVO" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_P" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_V" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_P" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_V" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEFENCE" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="AVOIDANCE" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ESCAPED" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="REGENE" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MOIST" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="OIL" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="POISON" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FLAME" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FROZEN" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TREE" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BLIND" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SEAL" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SLEEP" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SPELLING" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="PARALYS" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CONFUSION" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MADNESS" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TRUE_MADNESS" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ROT" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="STONE" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="GOLDY" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CUT" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BREAK" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DESTROY" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEAD" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_NOMAL" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_FLAME" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_WIND" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ERATH" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ICE" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_THNDER" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="-32"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="-32"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="-64"/>
+    <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="-32"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="LV" value="-64"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="HP" value="-64"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="MP" value="-64"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="STR" value="-64"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="SPD" value="-64"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="DEX" value="-64"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="POW" value="-64"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="SAN" value="-64"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="MOV" value="-64"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="EXP" value="-64"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="ATK" value="-64"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="DEF" value="-64"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="M_ATK" value="-64"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="M_DEF" value="-64"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="CHOP" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="STAB" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="IMPACT" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="FLAME" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ICE" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="WATER" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="THNDER" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="AIR" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EARTH" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="LIGHT" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="DARK" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="HOLY" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="MYSTERY" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EVIL" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="NONE" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_POISON" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FLAME" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FROZEN" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BLIND" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SEAL" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SLEEP" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_PARALYS" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CONFUSION" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_MADNESS" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_TRUE_MADNESS" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_ROT" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_STONE" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_GOLDY" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CUT" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BREAK" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DESTROY" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DEAD" value="-0.5"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="LV" value="-32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="HP" value="-32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MP" value="-32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="STR" value="-32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SPD" value="-32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEX" value="-32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="POW" value="-32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SAN" value="-32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MOV" value="-32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="EXP" value="-32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="ATK" value="-32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEF" value="-32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="AVO" value="-0.5"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_P" value="-0.5"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_V" value="-0.5"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_P" value="-0.5"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_V" value="-0.5"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_ATK" value="-32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_DEF" value="-32"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_AVO" value="-0.5"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_P" value="-0.5"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_V" value="-0.5"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_P" value="-0.5"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_V" value="-0.5"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="LV" value="-32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="HP" value="-32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MP" value="-32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="STR" value="-32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SPD" value="-32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEX" value="-32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="POW" value="-32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SAN" value="-32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MOV" value="-32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="EXP" value="-32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="ATK" value="-32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEF" value="-32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="AVO" value="-0.5"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_P" value="-0.5"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_V" value="-0.5"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_P" value="-0.5"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_V" value="-0.5"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_ATK" value="-32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_DEF" value="-32"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_AVO" value="-0.5"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_P" value="-0.5"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_V" value="-0.5"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_P" value="-0.5"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_V" value="-0.5"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEFENCE" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="AVOIDANCE" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ESCAPED" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="REGENE" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MOIST" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="OIL" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="POISON" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FLAME" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FROZEN" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TREE" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BLIND" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SEAL" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SLEEP" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SPELLING" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="PARALYS" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CONFUSION" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MADNESS" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TRUE_MADNESS" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ROT" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="STONE" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="GOLDY" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CUT" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BREAK" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DESTROY" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEAD" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_NOMAL" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_FLAME" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_WIND" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ERATH" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ICE" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_THNDER" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="-16"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="-16"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="-32"/>
+    <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="-16"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="LV" value="-32"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="HP" value="-32"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="MP" value="-32"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="STR" value="-32"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="SPD" value="-32"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="DEX" value="-32"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="POW" value="-32"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="SAN" value="-32"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="MOV" value="-32"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="EXP" value="-32"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="ATK" value="-32"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="DEF" value="-32"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="M_ATK" value="-32"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="M_DEF" value="-32"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="CHOP" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="STAB" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="IMPACT" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="FLAME" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ICE" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="WATER" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="THNDER" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="AIR" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EARTH" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="LIGHT" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="DARK" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="HOLY" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="MYSTERY" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EVIL" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="NONE" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_POISON" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FLAME" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FROZEN" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BLIND" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SEAL" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SLEEP" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_PARALYS" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CONFUSION" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_MADNESS" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_TRUE_MADNESS" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_ROT" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_STONE" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_GOLDY" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CUT" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BREAK" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DESTROY" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DEAD" value="-0.25"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="LV" value="-16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="HP" value="-16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MP" value="-16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="STR" value="-16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SPD" value="-16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEX" value="-16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="POW" value="-16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SAN" value="-16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MOV" value="-16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="EXP" value="-16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="ATK" value="-16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEF" value="-16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="AVO" value="-0.25"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_P" value="-0.25"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_V" value="-0.25"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_P" value="-0.25"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_V" value="-0.25"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_ATK" value="-16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_DEF" value="-16"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_AVO" value="-0.25"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_P" value="-0.25"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_V" value="-0.25"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_P" value="-0.25"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_V" value="-0.25"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="LV" value="-16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="HP" value="-16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MP" value="-16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="STR" value="-16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SPD" value="-16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEX" value="-16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="POW" value="-16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SAN" value="-16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MOV" value="-16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="EXP" value="-16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="ATK" value="-16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEF" value="-16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="AVO" value="-0.25"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_P" value="-0.25"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_V" value="-0.25"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_P" value="-0.25"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_V" value="-0.25"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_ATK" value="-16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_DEF" value="-16"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_AVO" value="-0.25"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_P" value="-0.25"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_V" value="-0.25"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_P" value="-0.25"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_V" value="-0.25"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEFENCE" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="AVOIDANCE" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ESCAPED" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="REGENE" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MOIST" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="OIL" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="POISON" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FLAME" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FROZEN" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TREE" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BLIND" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SEAL" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SLEEP" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SPELLING" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="PARALYS" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CONFUSION" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MADNESS" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TRUE_MADNESS" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ROT" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="STONE" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="GOLDY" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CUT" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BREAK" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DESTROY" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEAD" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_NOMAL" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_FLAME" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_WIND" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ERATH" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ICE" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_THNDER" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="-8"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="-8"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="-16"/>
+    <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="-8"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="LV" value="-16"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="HP" value="-16"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="MP" value="-16"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="STR" value="-16"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="SPD" value="-16"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="DEX" value="-16"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="POW" value="-16"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="SAN" value="-16"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="MOV" value="-16"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="EXP" value="-16"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="ATK" value="-16"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="DEF" value="-16"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="M_ATK" value="-16"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="M_DEF" value="-16"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="CHOP" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="STAB" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="IMPACT" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="FLAME" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ICE" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="WATER" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="THNDER" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="AIR" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EARTH" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="LIGHT" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="DARK" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="HOLY" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="MYSTERY" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EVIL" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="NONE" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_POISON" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FLAME" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FROZEN" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BLIND" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SEAL" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SLEEP" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_PARALYS" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CONFUSION" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_MADNESS" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_TRUE_MADNESS" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_ROT" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_STONE" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_GOLDY" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CUT" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BREAK" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DESTROY" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DEAD" value="-0.125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="LV" value="-8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="HP" value="-8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MP" value="-8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="STR" value="-8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SPD" value="-8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEX" value="-8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="POW" value="-8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SAN" value="-8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MOV" value="-8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="EXP" value="-8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="ATK" value="-8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEF" value="-8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="AVO" value="-0.125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_P" value="-0.125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_V" value="-0.125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_P" value="-0.125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_V" value="-0.125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_ATK" value="-8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_DEF" value="-8"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_AVO" value="-0.125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_P" value="-0.125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_V" value="-0.125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_P" value="-0.125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_V" value="-0.125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="LV" value="-8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="HP" value="-8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MP" value="-8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="STR" value="-8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SPD" value="-8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEX" value="-8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="POW" value="-8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SAN" value="-8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MOV" value="-8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="EXP" value="-8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="ATK" value="-8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEF" value="-8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="AVO" value="-0.125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_P" value="-0.125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_V" value="-0.125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_P" value="-0.125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_V" value="-0.125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_ATK" value="-8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_DEF" value="-8"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_AVO" value="-0.125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_P" value="-0.125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_V" value="-0.125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_P" value="-0.125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_V" value="-0.125"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEFENCE" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="AVOIDANCE" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ESCAPED" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="REGENE" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MOIST" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="OIL" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="POISON" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FLAME" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FROZEN" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TREE" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BLIND" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SEAL" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SLEEP" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SPELLING" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="PARALYS" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CONFUSION" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MADNESS" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TRUE_MADNESS" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ROT" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="STONE" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="GOLDY" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CUT" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BREAK" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DESTROY" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEAD" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_NOMAL" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_FLAME" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_WIND" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ERATH" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ICE" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_THNDER" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="-4"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="-4"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="-8"/>
+    <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="-4"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="LV" value="-8"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="HP" value="-8"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="MP" value="-8"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="STR" value="-8"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="SPD" value="-8"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="DEX" value="-8"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="POW" value="-8"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="SAN" value="-8"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="MOV" value="-8"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="EXP" value="-8"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="ATK" value="-8"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="DEF" value="-8"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="M_ATK" value="-8"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="M_DEF" value="-8"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="CHOP" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="STAB" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="IMPACT" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="FLAME" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ICE" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="WATER" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="THNDER" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="AIR" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EARTH" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="LIGHT" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="DARK" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="HOLY" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="MYSTERY" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EVIL" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="NONE" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_POISON" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FLAME" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FROZEN" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BLIND" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SEAL" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SLEEP" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_PARALYS" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CONFUSION" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_MADNESS" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_TRUE_MADNESS" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_ROT" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_STONE" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_GOLDY" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CUT" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BREAK" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DESTROY" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DEAD" value="-0.0625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="LV" value="-4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="HP" value="-4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MP" value="-4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="STR" value="-4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SPD" value="-4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEX" value="-4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="POW" value="-4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SAN" value="-4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MOV" value="-4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="EXP" value="-4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="ATK" value="-4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEF" value="-4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="AVO" value="-0.0625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_P" value="-0.0625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_V" value="-0.0625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_P" value="-0.0625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_V" value="-0.0625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_ATK" value="-4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_DEF" value="-4"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_AVO" value="-0.0625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_P" value="-0.0625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_V" value="-0.0625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_P" value="-0.0625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_V" value="-0.0625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="LV" value="-4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="HP" value="-4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MP" value="-4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="STR" value="-4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SPD" value="-4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEX" value="-4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="POW" value="-4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SAN" value="-4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MOV" value="-4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="EXP" value="-4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="ATK" value="-4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEF" value="-4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="AVO" value="-0.0625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_P" value="-0.0625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_V" value="-0.0625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_P" value="-0.0625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_V" value="-0.0625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_ATK" value="-4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_DEF" value="-4"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_AVO" value="-0.0625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_P" value="-0.0625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_V" value="-0.0625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_P" value="-0.0625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_V" value="-0.0625"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEFENCE" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="AVOIDANCE" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ESCAPED" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="REGENE" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MOIST" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="OIL" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="POISON" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FLAME" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FROZEN" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TREE" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BLIND" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SEAL" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SLEEP" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SPELLING" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="PARALYS" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CONFUSION" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MADNESS" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TRUE_MADNESS" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ROT" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="STONE" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="GOLDY" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CUT" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BREAK" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DESTROY" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEAD" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_NOMAL" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_FLAME" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_WIND" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ERATH" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ICE" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_THNDER" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="-2"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="-2"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="-4"/>
+    <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="-2"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="LV" value="-4"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="HP" value="-4"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="MP" value="-4"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="STR" value="-4"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="SPD" value="-4"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="DEX" value="-4"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="POW" value="-4"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="SAN" value="-4"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="MOV" value="-4"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="EXP" value="-4"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="ATK" value="-4"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="DEF" value="-4"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="M_ATK" value="-4"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="M_DEF" value="-4"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="CHOP" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="STAB" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="IMPACT" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="FLAME" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ICE" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="WATER" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="THNDER" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="AIR" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EARTH" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="LIGHT" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="DARK" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="HOLY" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="MYSTERY" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EVIL" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="NONE" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_POISON" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FLAME" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FROZEN" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BLIND" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SEAL" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SLEEP" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_PARALYS" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CONFUSION" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_MADNESS" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_TRUE_MADNESS" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_ROT" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_STONE" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_GOLDY" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CUT" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BREAK" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DESTROY" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DEAD" value="-0.03125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="LV" value="-2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="HP" value="-2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MP" value="-2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="STR" value="-2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SPD" value="-2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEX" value="-2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="POW" value="-2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SAN" value="-2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MOV" value="-2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="EXP" value="-2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="ATK" value="-2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEF" value="-2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="AVO" value="-0.03125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_P" value="-0.03125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_V" value="-0.03125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_P" value="-0.03125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_V" value="-0.03125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_ATK" value="-2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_DEF" value="-2"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_AVO" value="-0.03125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_P" value="-0.03125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_V" value="-0.03125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_P" value="-0.03125"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_V" value="-0.03125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="LV" value="-2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="HP" value="-2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MP" value="-2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="STR" value="-2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SPD" value="-2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEX" value="-2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="POW" value="-2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SAN" value="-2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MOV" value="-2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="EXP" value="-2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="ATK" value="-2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEF" value="-2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="AVO" value="-0.03125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_P" value="-0.03125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_V" value="-0.03125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_P" value="-0.03125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_V" value="-0.03125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_ATK" value="-2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_DEF" value="-2"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_AVO" value="-0.03125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_P" value="-0.03125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_V" value="-0.03125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_P" value="-0.03125"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_V" value="-0.03125"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEFENCE" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="AVOIDANCE" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ESCAPED" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="REGENE" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MOIST" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="OIL" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="POISON" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FLAME" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="FROZEN" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TREE" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BLIND" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SEAL" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SLEEP" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="SPELLING" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="PARALYS" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CONFUSION" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="MADNESS" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="TRUE_MADNESS" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="ROT" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="STONE" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="GOLDY" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="CUT" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="BREAK" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DESTROY" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="DEAD" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_NOMAL" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_FLAME" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_WIND" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ERATH" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_ICE" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_THNDER" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="-1"/>
+    <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="-1"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="-2"/>
+    <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="-1"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="LV" value="-2"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="HP" value="-2"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="MP" value="-2"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="STR" value="-2"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="SPD" value="-2"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="DEX" value="-2"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="POW" value="-2"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="SAN" value="-2"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="MOV" value="-2"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="EXP" value="-2"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="ATK" value="-2"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="DEF" value="-2"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="M_ATK" value="-2"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="M_DEF" value="-2"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="CHOP" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="STAB" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="IMPACT" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="FLAME" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ICE" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="WATER" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="THNDER" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="AIR" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EARTH" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="LIGHT" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="DARK" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="HOLY" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="MYSTERY" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="EVIL" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="NONE" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_POISON" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FLAME" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_FROZEN" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BLIND" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SEAL" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_SLEEP" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_PARALYS" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CONFUSION" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_MADNESS" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_TRUE_MADNESS" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_ROT" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_STONE" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_GOLDY" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_CUT" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_BREAK" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DESTROY" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="C_DEAD" value="-0.015625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="LV" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="HP" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MP" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="STR" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SPD" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEX" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="POW" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="SAN" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="MOV" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="EXP" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="ATK" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="DEF" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="AVO" value="-0.015625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_P" value="-0.015625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CUT_V" value="-0.015625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_P" value="-0.015625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="CRT_V" value="-0.015625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_ATK" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_DEF" value="-1"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_AVO" value="-0.015625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_P" value="-0.015625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CUT_V" value="-0.015625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_P" value="-0.015625"/>
+    <page mct="DAMAGE_STATUS_DIRECT" name="’¼Úì—p‚ÌpŽ®" tgtName="M_CRT_V" value="-0.015625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="LV" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="HP" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MP" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="STR" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SPD" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEX" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="POW" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="SAN" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="MOV" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="EXP" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="ATK" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="DEF" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="AVO" value="-0.015625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_P" value="-0.015625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CUT_V" value="-0.015625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_P" value="-0.015625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="CRT_V" value="-0.015625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_ATK" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_DEF" value="-1"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_AVO" value="-0.015625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_P" value="-0.015625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_V" value="-0.015625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_P" value="-0.015625"/>
+    <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_V" value="-0.015625"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="-1"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="LV" value="-1"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="HP" value="-1"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="MP" value="-1"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="STR" value="-1"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="SPD" value="-1"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="DEX" value="-1"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="POW" value="-1"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="SAN" value="-1"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="MOV" value="-1"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="EXP" value="-1"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="ATK" value="-1"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="DEF" value="-1"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="M_ATK" value="-1"/>
+    <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="M_DEF" value="-1"/>
+    <page mct="P" name="Šm—¦‚ÌpŽ®" value="1"/>
+    <page mct="P" name="Šm—¦‚ÌpŽ®" value="0.5"/>
+    <page mct="P" name="Šm—¦‚ÌpŽ®" value="0.25"/>
+    <page mct="P" name="Šm—¦‚ÌpŽ®" value="0.125"/>
+    <page mct="P" name="Šm—¦‚ÌpŽ®" value="0.0625"/>
+    <page mct="P" name="Šm—¦‚ÌpŽ®" value="0.03125"/>
+    <page mct="P" name="Šm—¦‚ÌpŽ®" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ALCHEMY" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPIRIT" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPACE_TIME" value="1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ALCHEMY" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPIRIT" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPACE_TIME" value="0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ALCHEMY" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPIRIT" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPACE_TIME" value="0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ALCHEMY" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPIRIT" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPACE_TIME" value="0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ALCHEMY" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPIRIT" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPACE_TIME" value="0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ALCHEMY" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPIRIT" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPACE_TIME" value="0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ALCHEMY" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPIRIT" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPACE_TIME" value="0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ALCHEMY" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPIRIT" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPACE_TIME" value="-1"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ALCHEMY" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPIRIT" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPACE_TIME" value="-0.5"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ALCHEMY" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPIRIT" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPACE_TIME" value="-0.25"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ALCHEMY" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPIRIT" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPACE_TIME" value="-0.125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ALCHEMY" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPIRIT" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPACE_TIME" value="-0.0625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ALCHEMY" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPIRIT" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPACE_TIME" value="-0.03125"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="ALCHEMY" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPIRIT" value="-0.015625"/>
+    <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="SPACE_TIME" value="-0.015625"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="ALCHEMY"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="SPIRIT"/>
+    <page mct="HEAL_ATTRIN" name="‘®«’l‰ñ•œ‚ÌpŽ®" tgtName="SPACE_TIME"/>
+    <page mct="SET_ATTR" name="‘®«‚ÌpŽ®" tgtName="ALCHEMY"/>
+    <page mct="SET_ATTR" name="‘®«‚ÌpŽ®" tgtName="SPIRIT"/>
+    <!-- Žž‹ó‚ÌpŽ®‚Íƒhƒƒbƒv‚µ‚È‚¢ -->
+    <!--
+    <page mct="SET_ATTR" name="‘®«‚ÌpŽ®" tgtName="SPACE_TIME"/>  
+    -->
+    
+
+
+    <!-- –{‚Ì’è‹` -->
+    <book name="–‚p‚Ì‘u”j‰óŒõüv" desc="‚±‚Ì–{‚ðŽ‚Á‚Ä‚¢‚é‚ÆˆÈ‰º‚Ì–‚–@‚ð—˜—p‚Å‚«‚éB/Eu”j‰óŒõüv" value="2800000">
+        <!--‰ð‘Ì‚µ‚½‚Æ‚«‚É“¾‚ç‚ê‚éƒy[ƒW -->
+        <page mct="SET_ATTR" name="‘®«‚ÌpŽ®" tgtName="LIGHT"/>
+        <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="64"/>
+        <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="32"/>
+        <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="16"/>
+        <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="4"/>
+        <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="-4"/>
+        <page mct="TO_TEAM" name="ƒOƒ‹[ƒv‰»‚ÌpŽ®"/>
+        <page mct="ENEMY" name="“G‘ÎÛ‚ÌpŽ®"/>
+        <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="HP" value="-64"/>
+        <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="HP" value="-64"/>
+        <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="HP" value="-32"/>
+        <page mct="P" name="Šm—¦‚ÌpŽ®" value="0.5"/>
+        <page mct="P" name="Šm—¦‚ÌpŽ®" value="0.25"/>   
+        <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="MP" value="-32"/>
+        <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="SAN" value="-32"/>
+    </book>
+    <book name="–‚p‚Ì‘u˜B‹à–‚–@‚Pv" desc="‚±‚Ì–{‚ðŽ‚Á‚Ä‚¢‚é‚ÆˆÈ‰º‚Ì–‚–@‚ð—˜—p‚Å‚«‚éB/Eu˜B‹à•¨Ž¿˜B¬v/Eu˜B‹à”š”­v" value="32000" >
+        <!--‰ð‘Ì‚µ‚½‚Æ‚«‚É“¾‚ç‚ê‚éƒy[ƒW -->
+        <page mct="SET_ATTR" name="‘®«‚ÌpŽ®" tgtName="ALCHEMY"/>
+        <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="32"/>
+        <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="16"/>
+        <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="2"/>
+        <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="-2"/>
+        <page mct="ENEMY" name="“G‘ÎÛ‚ÌpŽ®"/>
+        <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="HP" value="-32"/>
+        <page mct="P" name="Šm—¦‚ÌpŽ®" value="0.25"/>   
+        <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="MP" value="-16"/>
+        <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="SAN" value="-16"/>
+    </book>
+ 
+ 
+    
 </KinugasaBookList>

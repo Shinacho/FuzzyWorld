@@ -24,13 +24,13 @@ THE SOFTWARE.
 -->
 <kinugasaFieldMapData mg="2" textStorageName="003" eventStorageName="003">
 
-	<event name="E_03" x="9" y="2" script="resource/data/E03.xml" />
+	<event name="E_03" x="9" y="2" script="resource/data/E003.xml" />
 	
-	<event name="E_041" x="5" y="2" script="resource/data/E04.xml" />
-	<event name="E_042" x="4" y="2" script="resource/data/E04.xml" />
-	<event name="E_05" x="3" y="2" script="resource/data/E05.xml" />
-	<event name="E_06" x="2" y="2" script="resource/data/E06.xml" />
-	<event name="E_043" x="1" y="2" script="resource/data/E04.xml" />
+	<event name="E_041" x="5" y="2" script="resource/data/E007.xml" />
+	<event name="E_042" x="4" y="2" script="resource/data/E004.xml" />
+	<event name="E_05" x="3" y="2" script="resource/data/E005.xml" />
+	<event name="E_06" x="2" y="2" script="resource/data/E006.xml" />
+	<event name="E_043" x="1" y="2" script="resource/data/E004.xml" />
 	
 	
 	<inOutNode name="ND_03_0001" x="1" y="10" tgtMap="WM" exitNode="ND_04_EXIT" tooltip="ワールドマップ" accepterName="TRUE" outDir="NORTH" se="SE/足音.wav"/>

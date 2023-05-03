@@ -25,9 +25,10 @@ package fuzzyworld1;
 
 import java.awt.Color;
 import java.awt.Graphics2D;
+import java.util.HashMap;
+import java.util.Map;
 import kinugasa.game.GameLogic;
 import kinugasa.game.GameManager;
-import kinugasa.game.GameOption;
 import kinugasa.game.GameTimeManager;
 import kinugasa.game.GraphicsContext;
 import kinugasa.game.I18N;
@@ -38,11 +39,11 @@ import kinugasa.game.input.InputState;
 import kinugasa.game.system.GameSystem;
 import kinugasa.game.ui.Dialog;
 import kinugasa.game.ui.DialogOption;
-import kinugasa.game.ui.FontModel;
 import kinugasa.graphics.ColorChanger;
 import kinugasa.graphics.ColorTransitionModel;
 import kinugasa.graphics.FadeCounter;
 import kinugasa.object.FadeEffect;
+import kinugasa.resource.sound.SoundStorage;
 import kinugasa.util.FrameTimeCounter;
 
 /**
@@ -57,6 +58,7 @@ public class OPLogic extends GameLogic {
 	}
 	private FieldMap map;
 	private int stage = 0;
+	private Map<String, String> nameMap;
 
 	@Override
 	public void load() {
@@ -80,6 +82,32 @@ public class OPLogic extends GameLogic {
 				));
 		waitTime1 = new FrameTimeCounter(180);
 		stage = 4;
+		nameMap = new HashMap<>();
+		nameMap.put("あ", "あなたは・・・とても急いでいるようですね。");
+		nameMap.put("ああああ", "あなたは・・・急いでいるようですね。");
+		nameMap.put("a", "あなたは・・・とても急いでいるようですね。");
+		nameMap.put("aaaa", "あなたは・・・急いでいるようですね。");
+		nameMap.put("とんぬら", "あなたは・・・伝説の勇者のようですね。");
+		nameMap.put("トンヌラ", "あなたは・・・伝説の勇者のようですね。");
+		nameMap.put("ほも", "あなたは・・・入力速度を考慮したのですか？。はい、よーいスタート。");
+		nameMap.put("ほよ", "あなたは・・・入力速度を考慮したのですか？。はい、よーいスタート。");
+		nameMap.put("homo", "あなたは・・・入力速度を考慮したのですか？。はい、よーいスタート。");
+		nameMap.put("hoyo", "あなたは・・・入力速度を考慮したのですか？。はい、よーいスタート。");
+		nameMap.put("のんけ", "あなたは・・・のんけではありませんね？はい、よーいスタート。");
+		nameMap.put("サマル", "あなたは・・・途中で呪われそうな名前ですね。");
+		nameMap.put("すけさん", "あなたは・・・途中で呪われそうな名前ですね。");
+		nameMap.put("もょもと", "あなたは・・・レベル48ですか？残念ながらそのような機能はありません。");
+		nameMap.put("リンク", "あなたは・・・時の勇者ですか？");
+		nameMap.put("hoge", "あなたは・・・テストユーザですか？");
+		nameMap.put("piyo", "あなたは・・・テストユーザですか？");
+		nameMap.put("fuga", "あなたは・・・テストユーザですか？");
+		nameMap.put("ほげ", "あなたは・・・テストユーザですか？");
+		nameMap.put("ぴよ", "あなたは・・・テストユーザですか？");
+		nameMap.put("ふが", "あなたは・・・テストユーザですか？");
+		nameMap.put("そば", "あなたは・・・お蕎麦大好きですね！");
+		nameMap.put("蕎麦", "あなたは・・・お蕎麦大好きですね！");
+		nameMap.put("soba", "あなたは・・・お蕎麦大好きですね！");
+		
 	}
 
 	@Override
@@ -115,6 +143,21 @@ public class OPLogic extends GameLogic {
 			case 8:
 				if (GameSystem.isDebugMode()) {
 					System.out.println("FUZZY WORLD へようこそ, " + Const.Player.pc1Name);
+					if (nameMap.containsKey(Const.Player.pc1Name)) {
+						System.out.println(nameMap.get(Const.Player.pc1Name));
+					}
+					if ("qwerty".contains(Const.Player.pc1Name)) {
+						System.out.println("あなたは・・・なかなか適当な人のようですね。");
+					}
+					if ("asdfgh".contains(Const.Player.pc1Name)) {
+						System.out.println("あなたは・・・なかなか適当な人のようですね。");
+					}
+					if (Const.Player.pc1Name.contains("<") || Const.Player.pc1Name.contains(">")) {
+						System.out.println("フフフ・・・そのような名前にしても、この世界は壊れません。無駄ですよ。");
+					}
+					if (Const.Player.pc1Name.contains("\\") || Const.Player.pc1Name.contains("\\")) {
+						System.out.println("フフフ・・・そのような名前にしても、この世界は壊れません。無駄ですよ。");
+					}
 					System.out.println("あなたには・・・このメッセージが見えているのですね。");
 					System.out.println("あなたの使命は金の円盤にしたがって世界を正すこと。");
 					System.out.println("我々に正しい世界をもたらしてください"

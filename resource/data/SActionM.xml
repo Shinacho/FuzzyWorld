@@ -25,145 +25,1065 @@ THE SOFTWARE.
 <KinugasActionMaster>
 
 
-	<!-- ƒoƒgƒ‹ƒAƒNƒVƒ‡ƒ“ðŒ‚Ì’è‹` -->
-	<term name="Œ•‘•”õ" tt="EQ_WEAPON_TYPE" value="Œ•" />
-	<term name="|‚ÌŒ•‘•”õ" tt="EQ_ITEM" value="|‚ÌŒ•" />
-	<term name="“S‚ÌŒ•‘•”õ" tt="EQ_ITEM" value="“S‚ÌŒ•" />
-	<term name="˜r‘•”õ" tt="EQ_ANY_ITEM" value="˜r" />
-	<term name="˜r–¢‘•”õ" tt="NO_EQ_ITEM" value="˜r" />
-	<term name="“ª–¢‘•”õ" tt="NO_EQ_ITEM" value="“ª" />
-	<term name="Î‚±‚ë•Û—L" tt="HAS_ITEM" value="Î‚±‚ë" />
-	<term name="‰Î‰Š‚Ì‘•Û—L" tt="HAS_BOOK" value="‰Î‰Š‚Ì‘" />
-	<term name="ðŒ‚È‚µ" tt="NONE" />
-
-	<!-- ƒAƒjƒ[ƒVƒ‡ƒ“‚Ì’è‹` -->
-	<animation name="’ÊíUŒ‚" spriteSheet="resource/data/image/testAnimation.png" w="16" h="16" tc="20" mg="2"/>
+    <!-- ƒoƒgƒ‹ƒAƒNƒVƒ‡ƒ“ðŒ‚Ì’è‹` -->
+    <term name="˜r‘•”õ" tt="EQ_ANY_ITEM" value="˜r" />
+    <term name="˜r–¢‘•”õ" tt="NO_EQ_ANY_ITEM" value="˜r" />
 	
-	<!-- ƒTƒEƒ“ƒh -->
-	<sound name="’ÊíUŒ‚" file="resource/se/choice3.wav" />
-	
-	<!--ƒAƒCƒeƒ€-->
-	<item name="‹™Žt‚Ì”ñíH" desc="’cŽq‚Ì‚æ‚¤‚È“úŽ‚¿‚·‚é”ñíH‚¾" waitTime="60" sound="’ÊíUŒ‚" term="ðŒ‚È‚µ">
-		<battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" spread="0.1" dct="DIRECT" animation="’ÊíUŒ‚" />
-		<battleEvent tt="SELF" pt="ITEM_LOST" tgtName="‹™Žt‚Ì”ñíH" p="1.0" />
-		<fieldEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" spread="0.1" dct="DIRECT" animation="’ÊíUŒ‚" />
-		<fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="‹™Žt‚Ì”ñíH" p="1.0" />
-	</item>
-	<item name="" desc="" >
-	
-	</item>
-	
-	
-	<!--
-	<item name="‚»‚Î’cŽq" desc="‚»‚Î•²‚Åì‚Á‚½–¡‚í‚¢[‚¢’cŽq‚¾" waitTime="60" sound="’ÊíUŒ‚" term="ðŒ‚È‚µ">
-		<battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="NONE" value="+15" p="1" spread="0.1" dct="DIRECT" animation="’ÊíUŒ‚" />
-		<battleEvent tt="SELF" pt="ITEM_LOST" tgtName="‚»‚Î’cŽq" p="1.0" />
-		<fieldEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="NONE" value="+15" p="1" spread="0.1" dct="DIRECT" animation="’ÊíUŒ‚" />
-		<fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="‚»‚Î’cŽq" p="1.0" />
-	</item>
-	<item name="‚â‚­‚»‚¤" desc="‚¯‚ª‚ÉŒø‚­‘‚¾" waitTime="60" sound="’ÊíUŒ‚" term="ðŒ‚È‚µ">
-		<battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="NONE" value="+30" p="1" spread="0.1" dct="DIRECT" animation="’ÊíUŒ‚" />
-		<battleEvent tt="SELF" pt="ITEM_LOST" tgtName="‚â‚­‚»‚¤" p="1.0" />
-		<fieldEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="NONE" value="+30" p="1" spread="0.1" dct="DIRECT" animation="’ÊíUŒ‚" />
-		<fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="‚â‚­‚»‚¤" p="1.0" />
-	</item>
-	<item name="•S–¼ŠÛ" desc="‚¯‚ª‚É‚æ‚­Œø‚­–ò‚¾" waitTime="60" sound="’ÊíUŒ‚" term="ðŒ‚È‚µ">
-		<battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="NONE" value="+60" p="1" spread="0.1" dct="DIRECT" animation="’ÊíUŒ‚" />
-		<battleEvent tt="SELF" pt="ITEM_LOST" tgtName="•S–¼ŠÛ" p="1.0" />
-		<fieldEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="NONE" value="+60" p="1" spread="0.1" dct="DIRECT" animation="’ÊíUŒ‚" />
-		<fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="•S–¼ŠÛ" p="1.0" />
-	</item>
-	-->
+    <term name="“ª‘•”õ" tt="EQ_ANY_ITEM" value="“ª" />
+    <term name="“ª–¢‘•”õ" tt="NO_EQ_ANY_ITEM" value="“ª" />
 
-	<!--
-	<item name="”jŽ×‚ÌŒ•" desc="ƒAƒCƒeƒ€‚Æ‚µ‚Ä‚àŽg‚¦‚é¹‚È‚éŒ•‚¾" slot="˜r" wmt="Œ•" area="30" dcs="STR">
-		<battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-30" attr="FLAME" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
-		<eqStatus tgt="ATK" value="65" />
-		<eqAttr tgt="HOLY" value="15" />
-	</item>	
+    <term name="“·‘•”õ" tt="EQ_ANY_ITEM" value="“·" />
+    <term name="“·–¢‘•”õ" tt="NO_EQ_ANY_ITEM" value="“·" />
+
+    <term name="‘«‘•”õ" tt="EQ_ANY_ITEM" value="‘«" />
+    <term name="‘«–¢‘•”õ" tt="NO_EQ_ANY_ITEM" value="‘«" />
+
+    <term name="Œ•‘•”õ" tt="EQ_WEAPON_TYPE" value="Œ•" />
+    <term name="’ZŒ•‘•”õ" tt="EQ_WEAPON_TYPE" value="’ZŒ•" />
+    <term name="‘åŒ•‘•”õ" tt="EQ_WEAPON_TYPE" value="‘åŒ•" />
+    <term name="“ËŒ•‘•”õ" tt="EQ_WEAPON_TYPE" value="“ËŒ•" />
+    <term name="“‘•”õ" tt="EQ_WEAPON_TYPE" value="“" />
+    <term name="‘„‘•”õ" tt="EQ_WEAPON_TYPE" value="‘„" />
+    <term name="‚E’ZŒ•‘•”õ" tt="EQ_WEAPON_TYPE" value="‚E’ZŒ•" />
+    <term name="ƒƒCƒX‘•”õ" tt="EQ_WEAPON_TYPE" value="ƒƒCƒX" />
+    <term name="‹|‘•”õ" tt="EQ_WEAPON_TYPE" value="‹|" />
+    <term name="e‘•”õ" tt="EQ_WEAPON_TYPE" value="e" />
+    <term name="•Ú‘•”õ" tt="EQ_WEAPON_TYPE" value="•Ú" />
+    <term name="ñ‘•”õ" tt="EQ_WEAPON_TYPE" value="ñ" />
+    <term name="Š™‘•”õ" tt="EQ_WEAPON_TYPE" value="Š™" />
+
+    <term name="eŒ••t‚«" tt="EQ_ITEM_NAME_CONTAINS" value="eŒ••t‚«" />
+    <term name="“Å‹|‘•”õ" tt="EQ_ITEM_NAME_CONTAINS" value="“Å•t‚«" />
 	
-	<item name="|‚ÌŒ•" desc="|‚Å‚Å‚«‚½ä•v‚È—¼n‚ÌŒ•‚¾" slot="˜r" wmt="Œ•" area="28" dcs="STR">
-		<eqStatus tgt="ATK" value="45" />
-	</item>	
+    <term name="–‚p‚Ì‘u”j‰óŒõüvŠŽ" tt="HAS_BOOK" value="–‚p‚Ì‘u”j‰óŒõüv" />
+    <term name="–‚p‚Ì‘u˜B‹à–‚–@‚PvŠŽ" tt="HAS_BOOK" value="–‚p‚Ì‘u˜B‹à–‚–@‚Pv" />
+
+
+    <term name="ðŒ‚È‚µ" tt="NONE" />
+
+    <!-- ƒAƒjƒ[ƒVƒ‡ƒ“‚Ì’è‹` -->
+    <animation name="’ÊíUŒ‚" spriteSheet="resource/data/image/testAnimation.png" w="16" h="16" tc="20" mg="2"/>
 	
-	<item name="“S‚ÌŒ•" desc="“S‚Å‚Å‚«‚½ˆê”Ê“I‚È—¼n‚ÌŒ•‚¾" slot="˜r" wmt="Œ•" area="28" dcs="STR">
-		<eqStatus tgt="ATK" value="30" />
-	</item>
-
-	<item name="“S‚ÌƒŒƒCƒsƒA" desc="“S‚Å‚Å‚«‚½ˆê”Ê“I‚ÈŽh“ËŒ•‚¾" slot="˜r" wmt="“ËŒ•" area="28" dcs="STR,DEX">
-		<eqStatus tgt="ATK" value="30" />
-	</item>
-	-->
+    <!-- ƒTƒEƒ“ƒh -->
+    <sound name="’ÊíUŒ‚" file="resource/se/choice3.wav" />
 	
-	<item name="‚¢‚¢Š´‚¶‚Ì–_‚«‚ê" desc="‚»‚Ì•Ó‚É“]‚ª‚Á‚Ä‚¢‚½–Ø‚Ì–_‚¾" slot="˜r" wmt="ƒƒCƒX" area="28" dcs="STR">
-		<eqStatus tgt="ATK" value="6" />
-	</item>
-	<!--
-	<item name="Î‚±‚ë" desc="‰½‚Ì•Ï“N‚à‚È‚¢Î‚±‚ë‚¾‚ªA“Š‚°‚é‚Æ’É‚»‚¤‚¾" />
-	-->
-
-	<!--’ÊíUŒ‚ -->
-	<attack name="ŒU¾Ø‚è" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="Œ•‘•”õ" area="8" waitTime="60" sound="’ÊíUŒ‚" >
-		<battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
-	</attack>
-	<attack name="‚±‚Ô‚µ" desc="‰£‚è‚©‚©‚é" term="˜r–¢‘•”õ" area="24" waitTime="48" sound="’ÊíUŒ‚" >
-		<battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-5" p="0.75" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
-	</attack>
-	<attack name="Î‚±‚ë“Š±" desc="Î‚±‚ë‚ð“Š‚°‚é" term="Î‚±‚ë•Û—L" area="128" waitTime="60" sound="’ÊíUŒ‚" >
-		<battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-5" p="0.5" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
-		<battleEvent tt="ONE_ENEMY" pt="ITEM_LOST" tgtName="Î‚±‚ë" value="1" p="1"/>
-	</attack>
-		
-	<!-- “Á‹Z -->
-	<spAttack name="‰ñ“]Ø‚è" desc="‘å‰ñ“]‚µ‚ÄØ‚è•t‚¯‚é" term="Œ•‘•”õ" area="10" waitTime="120" sound="’ÊíUŒ‚" >
-		<battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-8" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
-	</spAttack>
-	<spAttack name="‹øŽh‚µ" desc="—¼n‚ÌŒ•‚ðŽh‚·" term="|‚ÌŒ•‘•”õ,“S‚ÌŒ•‘•”õ" area="8" waitTime="120" sound="’ÊíUŒ‚">
-		<battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-8" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
-	</spAttack>
-
-	<!-- –‚–@Ží—Þ -->
-	<magic name="ƒtƒ@ƒCƒAƒ{ƒ‹ƒg" desc="‰Š–‚–@‚ÌŠî‘b“I‚ÈpŽ®‚¾" area="128" term="‰Î‰Š‚Ì‘•Û—L" waitTime="70" sound="’ÊíUŒ‚">
-		<battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" value="-30" attr="FLAME" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="USER_TO_TGT_8"/>
-		<battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT" />
-	</magic>
-
-	<magic name="“V’n—‹–Â" desc="‹CÛ–‚–@‚É•ª—Þ‚³‚ê‚é‚à‚Ì‚ÅAâ‘å‚È—‹‚ðŒÄ‚Ñ‹N‚±‚·" spellTime="2" area="256" term="‰Î‰Š‚Ì‘•Û—L" waitTime="90" sound="’ÊíUŒ‚">
-		<battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-60" attr="THNDER" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="USER_TO_TGT_8" />
-		<battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-15" attr="NONE" p="1" dct="DIRECT"/>
-	</magic>
-
-	<magic name="¶–½‰ñ•œ" desc="¶–½‚Ì_”é‚É‚æ‚è‘Ì—Í‚ð‰ñ•œ‚·‚é" fieldUse="true" spellTime="1" area="128" term="‰Î‰Š‚Ì‘•Û—L" waitTime="80" sound="’ÊíUŒ‚">
-		<battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="+15" attr="MYSTERY" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
-		<battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-15" attr="NONE" p="1" dct="DIRECT" />
-		<fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="+15" attr="MYSTERY" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
-		<fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-15" attr="NONE" p="1" dct="DIRECT" />
-	</magic>
-
- 	<magic name="ƒGƒAƒXƒ‰ƒbƒVƒ…" desc="‚·‚é‚Ç‚¢^‹ó”g‚É‚æ‚è“G‚ðØ‚è—ô‚­" spellTime="5" area="128" waitTime="80" sound="’ÊíUŒ‚">
-		<battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-15" attr="CHOP" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
-		<battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-15" attr="AIR" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
-		<battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-24" attr="NONE" p="1" dct="DIRECT"  />
-	</magic>
-
-	<!--‚»‚Ì‘¼-->
-	<other name="“¦‚°‚é" desc="“¦‘–‚·‚é" sort="6">
-		<battleEvent tt="SELF" pt="NONE" p="1"/>
-	</other>
-	<other name="ó‘Ô" desc="ƒXƒe[ƒ^ƒXŠm”F" sort="4">
-		<battleEvent tt="SELF" pt="NONE" p="1"/>
-	</other>
-	<other name="–hŒä" desc="–hŒä‚·‚é"  sort="2">
-		<battleEvent tt="SELF" pt="NONE" p="1"/>
-	</other>
-	<other name="‰ñ”ð" desc="‰ñ”ð‚·‚é"  sort="3">
-		<battleEvent tt="SELF" pt="NONE" p="1"/>
-	</other>
-	<other name="ˆÚ“®" desc="ˆÚ“®‚·‚é"  sort="0">
-		<battleEvent tt="SELF" pt="NONE" p="1"/>
-	</other>
-	<other name="Šm’è" desc="Šm’è‚·‚é"  sort="-1">
-		<battleEvent tt="SELF" pt="NONE" p="1"/>
-	</other>
+    <!--ƒAƒCƒeƒ€-->
 	
+    <!--
+    <item name="”jŽ×‚ÌŒ•" desc="ƒAƒCƒeƒ€‚Æ‚µ‚Ä‚àŽg‚¦‚é¹‚È‚éŒ•‚¾" value="" slot="˜r" wmt="Œ•" area="30" dcs="STR">
+            <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-30" attr="FLAME" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
+            <eqStatus tgt="ATK" value="65" />
+            <eqAttr tgt="HOLY" value="15" />
+    </item>	
+    -->
+	
+	
+    <!-- ƒL[ƒAƒCƒeƒ€ -->
+    <item name="ƒL[ƒAƒCƒeƒ€" desc="ŽÌ‚Ä‚ç‚ê‚È‚¢ƒAƒCƒeƒ€‚ÌƒeƒXƒg‚¾B" value="999" canSale="false" />
+
+    <!-- ‘fÞ -->
+    <material name="“S•Ð" value="20" />
+    <material name="‡‹à‘fÞ" value="200" />
+    <material name="”ç" value="200" />
+    <material name="–Ø•Ð" value="20" />
+    <material name="•z" value="20" />
+    <material name="‚Ë‚¶" value="20" />
+    <material name="‚Î‚Ë" value="20" />
+    <material name="•R" value="20" />
+    <material name="ƒƒCƒ„[" value="20" />
+    <material name="˜B‹à•¨Ž¿" value="100" />
+    <material name="‚â‚³‚®‚êƒƒ^ƒ‹‚Ì‚©‚¯‚ç" value="7800" />
+    <material name="“ø‚Ì‚©‚¯‚ç" value="19900" />
+    <material name="ƒƒKƒgƒ“ƒƒ_ƒ‹" value="10000" />
+    <material name="¬‚³‚ÈƒRƒCƒ“" value="10000" />
+	
+    <!-- ƒAƒCƒeƒ€ -->
+    <item name="’N‚©‚Ì“ú‹Lu2022-12-26v" desc="—V‚ñ‚Å‚­‚ê‚Ä‚ ‚è‚ª‚Æ‚¤I¡‚Í2022”N12ŒŽ26“ú21:30B/FWŠJ”­ŠJŽn‚©‚ç2‚©ŒŽ‚­‚ç‚¢‚Å‚·B/–‚pƒEƒCƒ“ƒhƒE‚Ìˆ—‚ðì‚Á‚Ä‚¢‚Ü‚·B/–ˆ“úŽdŽ–‚ÌŒãƒRƒcƒRƒcì‚Á‚Ä‚¢‚Ü‚·‚ªA‚È‚©‚È‚©i‚Ý‚Ü‚¹‚ñ‚ËB" value="1"/>
+    <item name="‚â‚³‚®‚êƒƒ^ƒ‹‚ÌŒ•" desc="ƒ‚ƒ“ƒXƒ^[‚Ì“ÁŽê‚È‡‹à‚ðŽg‚Á‚Äì‚ç‚ê‚½”ñí‚Éd‚¢Œ•‚¾B/ƒNƒŠƒeƒBƒJƒ‹UŒ‚‚ªo‚â‚·‚¢B" value="196500" slot="˜r" wmt="Œ•" area="34" dcs="STR">
+        <eqStatus tgt="ATK" value="130" />
+        <eqStatus tgt="AVO" value="-0.05" />
+        <eqStatus tgt="CUT_P" value="+0.09" />
+        <eqStatus tgt="CRT_P" value="+0.25" />
+        <eqStatus tgt="CRT_V" value="+0.25" />
+        <upgrade order="0" value="25000">
+            <material name="‚â‚³‚®‚êƒƒ^ƒ‹‚Ì‚©‚¯‚ç" num="2"/>
+            <material name="“S•Ð" />
+            <addStatus tgt="ATK" value="+13" />
+        </upgrade>
+        <upgrade order="1" value="25000">
+            <material name="‚â‚³‚®‚êƒƒ^ƒ‹‚Ì‚©‚¯‚ç" num="2"/>
+            <material name="“S•Ð" />
+            <addStatus tgt="ATK" value="+13" />
+        </upgrade>
+        <disassembly>
+            <material name="‚â‚³‚®‚êƒƒ^ƒ‹‚Ì‚©‚¯‚ç" />
+            <material name="“S•Ð" num="2"/>
+            <material name="–Ø•Ð" num="2"/>
+            <material name="”ç" />
+        </disassembly>
+    </item>
+    <item name="‹™Žt‚Ì”ñíH" desc="‹™‚Éo‚ç‚ê‚È‚¢‚Æ‚«‚â‹Ù‹}”ð“ïŽž‚ÉH‚×‚é‚½‚ß‚ÌA“úŽ‚¿‚·‚é”ñíH‚¾B" value="150" waitTime="60" sound="’ÊíUŒ‚" term="ðŒ‚È‚µ">
+        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="‹™Žt‚Ì”ñíH" p="1.0" />
+        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="‹™Žt‚Ì”ñíH" p="1.0" />
+    </item>
+    <item name="Ž–¯‚Ì•ž" desc="‚Ó‚Â‚¤‚Ì•ž‚¾B" value="980" slot="“·">
+        <eqStatus tgt="DEF" value="3" />
+        <eqAttr tgt="IMPACT" value="-0.08"/>
+        <eqAttr tgt="CHOP" value="-0.08"/>
+    </item>
+    <item name="‹™Žt‚Ì‚¨Žç‚è" desc="‹™Žt‚ª‹™‚Ì¬Œ÷‚ð‹F‚Á‚ÄŽ‚Á‚Ä‚¢‚­‚¨Žç‚è‚¾B" value="980" slot="ƒAƒ~ƒ…ƒŒƒbƒg">
+        <eqAttr tgt="WATER" value="-0.10"/>
+    </item>
+    <item name="‚Ë‚±‚Ñ[‚ñ‚ÌƒXƒgƒ‰ƒbƒv" desc="‚Ë‚±‚Ñ[‚ñ‚Ì‚©‚í‚¢‚¢ƒXƒgƒ‰ƒbƒv‚¾B" value="980" slot="ƒAƒ~ƒ…ƒŒƒbƒg">
+        <eqAttr tgt="MYSTERY" value="-0.15"/>
+    </item>
+    <item name="ƒfƒ…[ƒNŒN‚ÌƒXƒgƒ‰ƒbƒv" desc="ƒfƒ…[ƒNŒN‚Ì‚©‚í‚¢‚¢ƒXƒgƒ‰ƒbƒv‚¾B" value="980" slot="ƒAƒ~ƒ…ƒŒƒbƒg">
+        <eqAttr tgt="MYSTERY" value="-0.25"/>
+    </item>
+    <item name="Ž–¯‚ÌŒC" desc="‚Ó‚Â‚¤‚ÌŒC‚¾B" value="640" slot="‘«">
+        <eqStatus tgt="DEF" value="1" />
+        <eqStatus tgt="SPD" value="2" />
+        <eqStatus tgt="AVO" value="0.05" />
+    </item>
+    <item name="–`Œ¯ŽÒ‚ÌƒR[ƒg" desc="–`Œ¯ŽÒ‚Ì‚½‚ß‚ÌŠæä‚Å•Ö—˜‚ÈƒR[ƒg‚¾B" value="12150" slot="“·">
+        <eqStatus tgt="DEF" value="16" />
+        <eqAttr tgt="IMPACT" value="-0.13"/>
+        <eqAttr tgt="STAB" value="-0.02"/>
+        <eqAttr tgt="CHOP" value="-0.13"/>
+    </item>
+    <item name="–`Œ¯ŽÒ‚Ìƒu[ƒc" desc="–`Œ¯ŽÒ‚Ì‚½‚ß‚Ì•à‚«‚â‚·‚¢ƒu[ƒc‚¾B" value="7270" slot="‘«">
+        <eqStatus tgt="DEF" value="4" />
+        <eqStatus tgt="SPD" value="5" />
+        <eqStatus tgt="AVO" value="0.05" />
+    </item>
+    <item name="—·l‚Ì•ž" desc="—·l‚Ì‚½‚ß‚Ìä•v‚È•ž‚¾B" value="3360" slot="“·">
+        <eqStatus tgt="DEF" value="11" />
+        <eqAttr tgt="IMPACT" value="-0.09"/>
+        <eqAttr tgt="STAB" value="-0.02"/>
+        <eqAttr tgt="CHOP" value="-0.09"/>
+    </item>
+    <item name="”_–¯‚Ì–ª" desc="˜m‚Åì‚ç‚ê‚½ˆÀ‰¿‚ÈŠO“…‚ÌˆêŽí‚¾BÕŒ‚‘Ï«‚ª‚‚¢B" value="2100" slot="“·">
+        <eqStatus tgt="DEF" value="9" />
+        <eqAttr tgt="IMPACT" value="-0.15"/>
+        <eqAttr tgt="STAB" value="-0.03"/>
+        <eqAttr tgt="CHOP" value="-0.18"/>
+        <eqAttr tgt="ICE" value="-0.10"/>
+        <eqAttr tgt="WATER" value="-0.10"/>
+    </item>
+    <item name="½›çŽq" desc="½‚Åì‚ç‚ê‚½–hŒä—Í‚Ì‚‚¢–h‹ï‚¾B" value="210000" slot="“·">
+        <eqStatus tgt="DEF" value="21" />
+        <eqAttr tgt="STAB" value="-0.07"/>
+        <eqAttr tgt="CHOP" value="-0.18"/>
+    </item>
+    <item name="½›çŽq“ü‚èƒR[ƒg" desc="½›çŽq‚Ìã‚ÉƒR[ƒg‚ð‰HD‚Á‚Ä–hŒä«”\‚ð‚‚ß‚½–h‹ï‚¾" value="240000" slot="“·">
+        <eqStatus tgt="DEF" value="35" />
+        <eqAttr tgt="IMPACT" value="-0.10"/>
+        <eqAttr tgt="STAB" value="-0.9"/>
+        <eqAttr tgt="CHOP" value="-0.18"/>
+    </item>
+    <item name="‹›”ç‚ÌƒR[ƒg" desc="‹›‚Ì”ç‚Åì‚ç‚ê‚½A’¿‚µ‚¢ŠO“…‚¾B" value="30000" slot="“·">
+        <eqStatus tgt="DEF" value="8" />
+        <eqAttr tgt="IMPACT" value="-0.10"/>
+        <eqAttr tgt="STAB" value="-0.03"/>
+        <eqAttr tgt="CHOP" value="-0.10"/>
+        <eqAttr tgt="WATER" value="-0.10"/>
+        <eqAttr tgt="ICE" value="-0.10"/>
+    </item>
+    <item name="‹›”ç‚ÌŒC" desc="‹›‚Ì”ç‚Åì‚ç‚ê‚½A’¿‚µ‚¢ŒC‚¾B" value="4100" slot="‘«">
+        <eqStatus tgt="SPD" value="3" />
+        <eqStatus tgt="AVO" value="0.03" />
+        <eqAttr tgt="WATER" value="-0.10"/>
+        <eqAttr tgt="ICE" value="-0.10"/>
+    </item>
+    <item name="Šë‚È‚¢…’…" desc="‚Æ‚ñ‚Å‚à‚È‚¢ƒfƒUƒCƒ“‚Ì…’…‚¾I‚·‚²‚¢I/—«‚µ‚©g‚É’…‚¯‚ç‚ê‚È‚¢B" value="40000" slot="“·">
+        <eqipTerm type="STATUS_IS" tgt="ATTR" value="1" />
+        <eqStatus tgt="SPD" value="3" />
+        <eqStatus tgt="DEF" value="3" />
+        <eqAttr tgt="WATER" value="-0.10"/>
+    </item>
+    <item name="ŠëŒ¯‹É‚Ü‚è‚È‚¢ŠCƒpƒ“" desc="‚â‚Î‚¢ƒfƒUƒCƒ“‚ÌŠCƒpƒ“‚¾IƒMƒŠƒZ[[[ƒtI/’j«‚µ‚©g‚É’…‚¯‚ç‚ê‚È‚¢B" value="20000" slot="“·">
+        <eqipTerm type="STATUS_IS" tgt="ATTR" value="0" />
+        <eqStatus tgt="SPD" value="3" />
+        <eqStatus tgt="DEF" value="3" />
+        <eqAttr tgt="WATER" value="-0.10"/>
+    </item>
+    <item name="‘—š" desc="ˆÀ‰¿‚¾‚ªŒy‚¢—š•¨‚¾B" value="410" slot="‘«">
+        <eqStatus tgt="SPD" value="3" />
+        <eqStatus tgt="AVO" value="0.06" />
+    </item>
+    <item name="s¤l‚Ì•ž" desc="s¤l‚ª‚æ‚­’…‚Ä‚¢‚éä•v‚Å’·Ž‚¿‚·‚é•ž‚¾B" value="4100" slot="“·">
+        <eqStatus tgt="DEF" value="10" />
+        <eqAttr tgt="IMPACT" value="-0.08"/>
+        <eqAttr tgt="CHOP" value="-0.08"/>
+    </item>
+    <item name="–Ø–È‚ÌŽè@" desc="–Ø–È‚Å‚Å‚«‚½Žè@‚¾B“ª‚ÉŠª‚¯‚Î‰½‚à‚È‚¢‚æ‚è‚Ü‚µ‚¾‚ë‚¤B" value="230" slot="“ª">
+        <eqStatus tgt="DEF" value="1" />
+        <eqAttr tgt="IMPACT" value="-0.02"/>
+        <eqAttr tgt="CHOP" value="-0.02"/>
+    </item>
+    <item name="“°êE‹à‘¾˜Y‚ÌŠpŠ•" desc="“`à‚Ì—³Žë‚è‚±‚Æ“°êE‹à‘¾˜YŽ‚ª‚æ‚­‚©‚Ô‚Á‚Ä‚¢‚éŠp•t‚«‚Ì“SŠ•‚¾B" value="7200" slot="“ª">
+        <eqStatus tgt="DEF" value="14" />
+        <eqAttr tgt="IMPACT" value="-0.09"/>
+        <eqAttr tgt="CHOP" value="-0.09"/>
+        <eqAttr tgt="STAB" value="-0.03"/>
+    </item>
+    <item name="‚»‚Î’cŽq" desc="‚»‚Î•²‚Åì‚Á‚½–¡‚í‚¢[‚¢’cŽq‚¾B‚¤‚Ü‚¢II" value="80" waitTime="60" sound="’ÊíUŒ‚" term="ðŒ‚È‚µ">
+        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="‚»‚Î’cŽq" p="1.0" />
+        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="‚»‚Î’cŽq" p="1.0" />
+    </item>
+    <item name="o‘OuŽè‘Å‚¿‚à‚è‚»‚Î1’šv" desc="“`““I‚Èƒk[ƒhƒ‹H•i‚¾I‚±‚ê‚Í‚¤‚Ü‚¢‚¼IIŽŠ‚‚ÌH‚×•¨‚¾III" value="480" waitTime="60" sound="’ÊíUŒ‚" term="ðŒ‚È‚µ">
+        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="o‘OuŽè‘Å‚¿‚à‚è‚»‚Î1’šv" p="1.0" />
+        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="o‘OuŽè‘Å‚¿‚à‚è‚»‚Î1’šv" p="1.0" />
+    </item>
+    <item name="‹†‹É‚ÌuŽè‘Å‚¿‚à‚è‚»‚Îv" desc="‹†‹É‚Ì‚»‚Î‚Å‚ ‚éB‚¤‚Ü‚·‚¬‚éEEE" value="980" waitTime="60" sound="’ÊíUŒ‚" term="ðŒ‚È‚µ">
+        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+8" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="‹†‹É‚ÌuŽè‘Å‚¿‚à‚è‚»‚Îv" p="1.0" />
+        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+8" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="‹†‹É‚ÌuŽè‘Å‚¿‚à‚è‚»‚Îv" p="1.0" />
+    </item>
+    <item name="ƒCƒ“ƒXƒ^ƒ“ƒg‚»‚Î" desc="“`““I‚Èƒk[ƒhƒ‹H•i‚ÌŒ»‘ã”Å‚¾BŽèŒy‚ÉH‚×‚ç‚ê‚éB" value="260" waitTime="60" sound="’ÊíUŒ‚" term="ðŒ‚È‚µ">
+        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ƒCƒ“ƒXƒ^ƒ“ƒgE‚»‚Î" p="1.0" />
+        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ƒCƒ“ƒXƒ^ƒ“ƒgE‚»‚Î" p="1.0" />
+    </item>
+    <item name="”j‰óŒõü“" desc="•’i‚Í•¿‚¾‚¯‚¾‚ªAí“¬Žž‚É‚Í”j‰ó–‚–@‚ð—˜—p‚µ‚½’´‚‰·‚Ìn‚ðo‚·–‚–@‚ÌŒ•‚¾B/‚Šm—¦‚Å‘¦Ž€‚³‚¹‚éB" value="12000000" slot="˜r" wmt="“" area="48" dcs="STR">
+        <eqStatus tgt="ATK" value="1192" />
+    </item>
+    <item name="‚¢‚¢Š´‚¶‚Ì–_‚«‚ê" desc="‚»‚Ì•Ó‚É“]‚ª‚Á‚Ä‚¢‚½–Ø‚Ì–_‚¾B" value="50" slot="˜r" wmt="ƒƒCƒX" area="28" dcs="STR">
+        <eqStatus tgt="ATK" value="7" />
+        <eqStatus tgt="AVO" value="-0.02" />
+        <eqStatus tgt="CUT_P" value="+0.02" />
+    </item>
+    <item name="‚¨‹›" desc="•’Ê‚Ì‹›‚¾B‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H" value="50" slot="˜r" wmt="ƒƒCƒX" area="12" dcs="STR">
+        <eqStatus tgt="ATK" value="1" />
+    </item>
+    <item name="’´“Á‘å‚¨‹›" desc="•’Ê‚Ì‹›‚¾B‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H" value="5000" slot="˜r" wmt="ƒƒCƒX" area="30" dcs="STR">
+        <eqStatus tgt="ATK" value="2" />
+    </item>
+    <item name="’´‘å“Á‰¿‚¨‹›" desc="•’Ê‚Ì‹›‚¾B‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H" value="500" slot="˜r" wmt="ƒƒCƒX" area="30" dcs="STR">
+        <eqStatus tgt="ATK" value="2" />
+    </item>
+    <item name="‹™Žt‚ÌŽ…Øçõ" desc="‹™Žt‚ª“úí“I‚ÉŽg‚¤çõ‚¾B–Ô‚âŽ…‚ðØ‚Á‚Ä‚¢‚é‚Ì‚¾‚ë‚¤B/UŒ‚”ÍˆÍ‚Í‹·‚¢‚ªA’áŠm—¦‚ÅØ’f‚ð”­¶‚³‚¹‚éB" value="1400" slot="˜r" wmt="’ZŒ•" area="14" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="8" />
+    </item>
+    <item name="‹™–Ô" desc="‹™Žt‚ªŽg‚¤–Ô‚¾‚ªA‚Ð‚àó‚É‚Ü‚Æ‚ß‚ê‚Î•Ú‚ÉŽ—‚½•Ší‚Æ‚µ‚ÄŽg‚¦‚»‚¤‚¾B" value="4500" slot="˜r" wmt="•Ú" area="40" dcs="DEX">
+        <eqStatus tgt="ATK" value="9" />
+    </item>
+    <item name="‚ä‚©‚è‚Ì‚à‚Ý‚ ‚°" desc="‚±‚ê‚Í‚à‚Ý‚ ‚°‚¾IH‚×‚é‚±‚Æ‚à‚Å‚«‚éB/‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H" value="45000" slot="˜r" wmt="•Ú" area="25" dcs="DEX">
+        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="‚ä‚©‚è‚Ì‚à‚Ý‚ ‚°" p="1.0" />
+        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="‚ä‚©‚è‚Ì‚à‚Ý‚ ‚°" p="1.0" />
+        <eqStatus tgt="ATK" value="1" />
+    </item>
+    <item name="‚Ü‚È”Â" desc="ˆê”Ê“I‚È‚Ü‚È”Â‚¾B‚‚Ì‘ã‚í‚è‚É‚È‚é‚©‚à‚µ‚ê‚È‚¢B" value="450" slot="˜r" wmt="‘å‚" area="18" dcs="DEX">
+        <eqStatus tgt="ATK" value="2" />
+    </item>
+    <item name="‚‹‰‚Ü‚È”Â" desc="‚‹‰‚È‚Ü‚È”Â‚¾B‚‚Ì‘ã‚í‚è‚É‚È‚é‚©‚à‚µ‚ê‚È‚¢B" value="20000" slot="˜r" wmt="‘å‚" area="20" dcs="DEX">
+        <eqStatus tgt="ATK" value="4" />
+    </item>
+    <item name="‹˜" desc="Œš’z‚ÉŽg‚¤ˆê”Ê“I‚È‹˜‚¾B’áŠm—¦‚ÅØ’f‚ð”­¶‚³‚¹‚éB" value="2200" slot="˜r" wmt="Œ•" area="32" dcs="STR,DEX" >
+        <eqStatus tgt="ATK" value="17" />
+        <eqStatus tgt="AVO" value="-0.02" />
+        <eqStatus tgt="CUT_P" value="+0.02" />
+    </item>
+    <item name="–ö—t•ï’š" desc="‹›‚Ìg‚ðØ‚é‚Ì‚É“K‚µ‚½×‚¢•ï’š‚¾B" value="3200" slot="˜r" wmt="’ZŒ•" area="21" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="28" />
+    </item>
+    <item name="• Š„‚«•ï’š" desc="‚Â‚é‚µ‚½Šl•¨‚Ì• ‚ðŽJ‚­‚½‚ß‚Ì“Ý‚¢F‚ð‚µ‚½•ï’š‚¾B" value="2600" slot="˜r" wmt="’ZŒ•" area="19" dcs="STR">
+        <eqStatus tgt="ATK" value="20" />
+    </item>
+    <item name="Žô‚í‚ê‚½œ“Ÿ•i‚Ì• Š„‚«•ï’š" desc="‚»‚ÌÌ”D•w‚Ì• ‚ð‚³‚Î‚¢‚½‚Æ‚àŒ¾‚í‚ê‚éA‚¢‚í‚­‚Â‚«‚Ì•ï’š‚¾B/¡‚Å‚àŒŒ‚Ì“õ‚¢‚ª‚·‚éB" value="100" slot="˜r" wmt="’ZŒ•" area="19" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="22" />
+        <eqStatus tgt="SAN" value="-20" />
+        <eqStatus tgt="POW" value="-20" />
+    </item>
+    <item name="ƒxƒŒƒ\ƒA‚É”„‚ç‚ê‚½–––…‚Ì‰…”O‚Ì˜r" desc="‚»‚ÌÌA‚È‚ñ‚Å‚à‰®‚É”„‚ç‚ê‚½‚Æ‚¢‚¤–…‚Ì‰…”O‚ªh‚Á‚½˜r‚¾B/¡‚Å‚àŒŒ‚Ì“õ‚¢‚ª‚·‚éB" value="100" slot="˜r" wmt="ƒƒCƒX" area="19" dcs="DEX">
+        <eqStatus tgt="ATK" value="21" />
+        <eqStatus tgt="SAN" value="-40" />
+        <eqStatus tgt="POW" value="-40" />
+    </item>
+    <item name="‹›‰®‚Ì’·•ï’š" desc="‹‘å‚È‹›‚à‚³‚Î‚¯‚éA‹›‰®‚ªŽg‚¤’·•ï’š‚¾B/’áŠm—¦‚ÅØ’f‚ð”­¶‚³‚¹‚éB" value="9500" slot="˜r" wmt="“" area="28" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="32" />
+    </item>
+    <item name="ƒUEƒIƒTƒJƒiEƒJƒbƒ^[" desc="‘åŒ^‹›—Þ‚ð‰ð‘Ì‚·‚é‚Ì‚ÉŽg‚¤‹‘å‚Èn‚¾B/‚Šm—¦‚ÅØ’f‚ð”­¶‚³‚¹‚éB" value="75000" slot="˜r" wmt="“" area="55" dcs="STR">
+        <eqStatus tgt="ATK" value="48" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.06" />
+    </item>
+    <item name="ƒUEƒIƒTƒiƒJEƒJƒbƒ^[" desc="‘åŒ^‹›—Þ‚ð‰ð‘Ì‚·‚é‚Ì‚ÉŽg‚¤‹‘å‚Èn‚¾B/‹C‚ð‚Â‚¯‚ëA‚±‚ê‚Íƒpƒ`ƒ‚ƒ“‚¾‚¼B" value="7500" slot="˜r" wmt="“" area="55" dcs="STR">
+        <eqStatus tgt="ATK" value="24" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.06" />
+    </item>
+    <item name="ŒL" desc="ˆê”Ê“I‚È”_‹ï‚¾‚ªA‘„‚ÉŽ—‚½•Ší‚Æ‚µ‚ÄŽg‚¦‚»‚¤‚¾B" value="800" slot="˜r" wmt="‘„" area="32" dcs="STR">
+        <eqStatus tgt="ATK" value="12" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.03" />
+    </item>
+    <item name="‹™Žt‚Ìçó" desc="‹™Žt‚ªŽg‚¤çó‚¾B‘„‚ÉŽ—‚½•Ší‚Æ‚µ‚ÄŽg‚¦‚»‚¤‚¾B" value="1200" slot="˜r" wmt="‘„" area="38" dcs="STR">
+        <eqStatus tgt="ATK" value="19" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.03" />
+    </item>
+    <item name="›" desc="ˆê”Ê“I‚È”_‹ï‚¾‚ªAŠ™‚ÉŽ—‚½•Ší‚Æ‚µ‚ÄŽg‚¦‚»‚¤‚¾B" value="800" slot="˜r" wmt="Š™" area="32" dcs="STR">
+        <eqStatus tgt="ATK" value="12" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.03" />
+    </item>
+    <item name="ƒVƒƒƒxƒ‹" desc="ˆê”Ê“I‚È”_‹ï‚¾‚ªAŒ•‚ÉŽ—‚½•Ší‚Æ‚µ‚ÄŽg‚¦‚»‚¤‚¾B/’n•û‚É‚æ‚Á‚Ä‚ÍƒVƒ‡ƒxƒ‹‚Æ‚©ƒXƒRƒbƒv‚Æ‚à‚¢‚¤‚ç‚µ‚¢B" value="750" slot="˜r" wmt="Œ•" area="32" dcs="STR">
+        <eqStatus tgt="ATK" value="12" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.03" />
+    </item>
+    <item name="Œ˜–Ø‚ÌŽRñ" desc="‚©‚È‚èŠæä‚È–Ø‚Ì–_‚ÅAƒƒCƒX‚ÉŽ—‚½•Ší‚Æ‚µ‚ÄŽg‚¦‚»‚¤‚¾B" value="800" slot="˜r" wmt="ƒƒCƒX" area="40" dcs="STR">
+        <eqStatus tgt="ATK" value="10" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.09" />
+    </item>
+    <item name="‚¨‚½‚Ü" desc="ƒX[ƒv‚ð‚·‚­‚¤‚Ì‚É‚Â‚©‚¤’²—Ší‹ï‚¾B" value="800" slot="˜r" wmt="ƒƒCƒX" area="25" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="5" />
+    </item>
+    <item name="–Ø’Æ" desc="Œš’z—p‚Ì–Ø’Æ‚¾B…‚É•‚‚­B" value="800" slot="˜r" wmt="ƒƒCƒX" area="17" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="13" />
+        <eqAttr tgt="WATER" value="-0.01"/>
+    </item>
+    <item name="‹à’Æ" desc="Œš’z—p‚Ì‹à’Æ‚¾B…‚É•‚‚©‚È‚¢B" value="1800" slot="˜r" wmt="ƒƒCƒX" area="19" dcs="STR">
+        <eqStatus tgt="ATK" value="17" />
+        <eqAttr tgt="WATER" value="+0.01"/>
+    </item>
+    <item name="“B" desc="Œš’z—p‚Ì“B‚¾B‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H" value="80" slot="˜r" wmt="“ËŒ•" area="3" dcs="DEX">
+        <eqStatus tgt="ATK" value="3" />
+    </item>
+    <item name="ƒlƒM" desc="‚Ç‚±‚É‚Å‚à‚ ‚é¶‚ÌƒlƒM‚¾B‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H" value="120" slot="˜r" wmt="ƒƒCƒX" area="16" dcs="DEX">
+        <eqStatus tgt="ATK" value="1" />
+    </item>
+    <item name="¬M‚ÌƒI[ƒ‹" desc="¬M‚ði‚ß‚é‚Æ‚«‚ÉŽg‚¤ƒI[ƒ‹‚¾B‘åŒ•‚ÉŽ—‚½•Ší‚Æ‚µ‚ÄŽg‚¦‚»‚¤‚¾B/ƒAƒNƒVƒ‡ƒ“u’§”­v‚ªŽg‚¦‚éB" value="3800" slot="˜r" wmt="‘åŒ•" area="40" dcs="STR">
+        <eqStatus tgt="ATK" value="11" />
+        <eqStatus tgt="AVO" value="-0.08" />
+        <eqStatus tgt="CUT_P" value="+0.10" />
+    </item>
+    <item name="ƒtƒ‰ƒCƒpƒ“" desc="‰½‚©‚ðÄ‚­‚Æ‚«‚ÉŽg‚¤ŒúŽè‚ÅŠæä‚È“ç‚ÌˆêŽí‚¾B" value="1600" slot="˜r" wmt="ƒƒCƒX" area="30" dcs="STR">
+        <eqStatus tgt="ATK" value="13" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.13" />
+    </item>
+    <item name="_Œo’÷‚ßƒsƒbƒN" desc="‹™Žt‚ªŽg‚¤“¹‹ï‚¾‚ªA“ËŒ•‚ÉŽ—‚½•Ší‚Æ‚µ‚ÄŽg‚¦‚»‚¤‚¾B/’áŠm—¦‚Å‘¦Ž€‚ð”­¶‚³‚¹‚éB" value="800" slot="˜r" wmt="“ËŒ•" area="13" dcs="DEX">
+        <eqStatus tgt="ATK" value="7" />
+    </item>
+    <item name="–Dj" desc="ˆê”Ê“I‚È‰Æ’ë—p•i‚¾B‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H" value="80" slot="˜r" wmt="“ËŒ•" area="2" dcs="DEX">
+        <eqStatus tgt="ATK" value="1" />
+    </item>
+    <item name="‹É‘¾–Dj" desc="ˆê”Ê“I‚È‰Æ’ë—p•i‚¾BŽh‚³‚Á‚½‚ç‚©‚È‚è’É‚»‚¤‚¾EEE" value="80" slot="˜r" wmt="“ËŒ•" area="2" dcs="DEX">
+        <eqStatus tgt="ATK" value="5" />
+    </item>
+    <item name="‹Æ–±—pE’´‹É‘¾–Dj" desc="‚±‚ñ‚È‚É‘¾‚¢j‚ðˆê‘Ì‰½‚ÉŽg‚¤‚Á‚Ä‚¢‚¤‚ñ‚¾IH‚à‚Í‚â–_‚¾‚¼II" value="800" slot="˜r" wmt="“ËŒ•" area="2" dcs="DEX">
+        <eqStatus tgt="ATK" value="10" />
+    </item>
+    <item name="ŽŽìE’´â‹É‘¾–Dj" desc="‘¾‚¢I‘¾‚¢I‘¾‚¢[I‘¾‚·‚¬‚éIII" value="8000" slot="˜r" wmt="“ËŒ•" area="2" dcs="DEX">
+        <eqStatus tgt="ATK" value="30" />
+    </item>
+    <item name="çõ" desc="ˆê”Ê“I‚È‰Æ’ë—p•i‚¾‚ªA“ËŒ•‚ÉŽ—‚½•Ší‚Æ‚µ‚ÄŽg‚¦‚»‚¤‚¾B" value="640" slot="˜r" wmt="“ËŒ•" area="18" dcs="DEX">
+        <eqStatus tgt="ATK" value="8" />
+    </item>
+    <item name="‰ù’†¬“" desc="ˆê”Ê“I‚É•‹y‚µ‚Ä‚¢‚éAÜ‚èô‚ÝŽ®‚Ì–œ”\¬“‚¾B" value="900" slot="˜r" wmt="’ZŒ•" area="14" dcs="DEX">
+        <eqStatus tgt="ATK" value="10" />
+    </item>
+    <item name="–œ”\‰Æ’ë•ï’š" desc="ˆê”Ê“I‚É•‹y‚µ‚Ä‚¢‚éA‰Æ’ë—p‚Ì•ï’š‚¾B" value="2200" slot="˜r" wmt="’ZŒ•" area="19" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="22" />
+    </item>
+    <item name="Š„‚ê‚½Žð•r" desc="Š„‚ê‚Ä‚µ‚Ü‚Á‚½Žð•r‚¾B‚È‚©‚È‚©‰s‚­ŠëŒ¯‚Å‚ ‚éB" value="200" slot="˜r" wmt="’ZŒ•" area="17" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="17" />
+    </item>
+    <item name="–¼“u‰Š‹S‚Ì’Z“v" desc="‰Š‚Ì•¶—l‚ª‚ ‚µ‚ç‚í‚ê‚½‰s‚¢’Z“‚¾B" value="1123400" slot="˜r" wmt="’ZŒ•" area="21" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="89.3" />
+        <eqAttr tgt="FLAME" value="-0.10" />
+    </item>
+    <item name="–ìŠOŠˆ“®—p‚Ì¬“" desc="ˆê”Ê“I‚É•‹y‚µ‚Ä‚¢‚éA–ìŠOŠˆ“®—p‚Ì¬“‚¾B" value="1600" slot="˜r" wmt="’ZŒ•" area="19" dcs="DEX">
+        <eqStatus tgt="ATK" value="11" />
+    </item>
+    <item name="œ“Ÿ•i‚Ì‘¾“" desc="ŒÃ‚Ñ‚½“‚¾Bn‚±‚Ú‚ê‚Í‚ ‚é‚ªA‚Ü‚¾‹P‚«‚ðŽ¸‚Á‚Ä‚Í‚¢‚È‚¢B" value="80000" slot="˜r" wmt="“" area="34" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="33" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.04" />
+    </item>
+    <item name="–³–Á‚Ì‘¾“" desc="‚¢‚Â’N‚ªì‚Á‚½‚Æ‚à‚í‚©‚ç‚È‚¢–³–Á‚Ì‘¾“‚¾B" value="86500" slot="˜r" wmt="“" area="34" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="44" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.04" />
+        <eqStatus tgt="CRT_P" value="+0.07" />
+        <eqStatus tgt="CRT_V" value="+0.10" />
+    </item>
+    <item name="–¼“u—H—ì‰®•~‚Ì’ëŽtv" desc="“Œ‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢‘¾“‚¾B" value="909500" slot="˜r" wmt="“" area="34" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="72" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.05" />
+        <eqStatus tgt="CRT_P" value="+0.18" />
+        <eqStatus tgt="CRT_V" value="+0.18" />
+    </item>
+    <item name="–¼“uk‰ev" desc="“Œ‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢‘¾“‚¾B" value="894400" slot="˜r" wmt="“" area="34" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="43" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.04" />
+        <eqStatus tgt="CRT_P" value="+0.17" />
+        <eqStatus tgt="CRT_V" value="+1.36" />
+    </item>
+    <item name="–¼“u–iŠÛv" desc="“Œ‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢‘¾“‚¾B" value="250000" slot="˜r" wmt="“" area="34" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="92" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.04" />
+        <eqStatus tgt="CRT_P" value="+0.12" />
+        <eqStatus tgt="CRT_V" value="+0.75" />
+    </item>
+    <item name="–¼“u‚k‚Ìg‚«‰Øv" desc="“Œ‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢‘¾“‚¾B" value="489000" slot="˜r" wmt="“" area="34" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="95" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.04" />
+        <eqStatus tgt="CRT_P" value="+0.12" />
+        <eqStatus tgt="CRT_V" value="+0.80" />
+        <eqAttr tgt="C_ROT" value="-0.25" />
+    </item>
+    <item name="–¼“uŽžŒv“ƒ‚Ì“µv" desc="“Œ‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢‘¾“‚¾B" value="3200000" slot="˜r" wmt="“" area="34" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="99" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.04" />
+        <eqStatus tgt="CRT_P" value="+0.12" />
+        <eqStatus tgt="CRT_V" value="+0.80" />
+        <eqAttr tgt="MYSTERY" value="-0.25" />
+    </item>
+    <item name="–¼“u•s’m‰Îv" desc="“Œ‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢‘¾“‚¾B/‰Î‘®«‚ÌUŒ‚‚ª‚Å‚«‚éB" value="430000" slot="˜r" wmt="“" area="34" dcs="STR,DEX">
+        <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-30" attr="FLAME" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
+        <eqStatus tgt="ATK" value="99" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.05" />
+        <eqStatus tgt="CRT_P" value="+0.19" />
+        <eqStatus tgt="CRT_V" value="+1.25" />
+        <eqAttr tgt="FLAME" value="-0.10" />
+        <eqAttr tgt="ICE" value="-0.10" />
+        <eqAttr tgt="WATER" value="-0.10" />
+    </item>
+    <item name="–¼“uŽév" desc="“Œ‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢‘¾“‚¾B/ƒNƒŠƒeƒBƒJƒ‹ƒ_ƒ[ƒW‚ª”ñí‚É‚‚¢B" value="4050000" slot="˜r" wmt="“" area="34" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="108" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.05" />
+        <eqStatus tgt="CRT_P" value="+0.18" />
+        <eqStatus tgt="CRT_V" value="+4.00" />
+    </item>
+    <item name="–¼“u“øv" desc="“Œ‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢‘¾“‚¾B/ƒNƒŠƒeƒBƒJƒ‹UŒ‚‚ª”­¶‚µ‚â‚·‚¢B" value="7050000" slot="˜r" wmt="“" area="34" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="116" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.05" />
+        <eqStatus tgt="CRT_P" value="+0.90" />
+        <eqStatus tgt="CRT_V" value="+0.25" />
+    </item>
+    <item name="–¼“uH…v" desc="“Œ‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢‘¾“‚¾B" value="6000000" slot="˜r" wmt="“" area="34" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="112" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.10" />
+        <eqStatus tgt="CRT_P" value="+0.25" />
+        <eqStatus tgt="CRT_V" value="+0.25" />
+    </item>
+    <item name="–¼“uƒAƒVƒ‡ƒX‚Ì—zŒõv" desc="“Œ‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢‘¾“‚¾B" value="3200000" slot="˜r" wmt="“" area="30" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="86" />
+        <eqStatus tgt="AVO" value="-0.02" />
+        <eqStatus tgt="CUT_P" value="+0.08" />
+        <eqStatus tgt="CRT_P" value="+0.22" />
+        <eqStatus tgt="CRT_V" value="+0.22" />
+    </item>
+    <item name="–¼“uŒŽŠÛ™Âv" desc="“Œ‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢‘¾“‚¾B" value="9990000" slot="˜r" wmt="“" area="32" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="148" />
+        <eqStatus tgt="AVO" value="-0.02" />
+        <eqStatus tgt="CUT_P" value="+0.08" />
+        <eqStatus tgt="CRT_P" value="+0.25" />
+        <eqStatus tgt="CRT_V" value="+2.5" />
+    </item>
+    <item name="œ“Ÿ•i‚Ì’·Œ•" desc="ŒÃ‚Ñ‚½’·Œ•‚¾Bn‚±‚Ú‚ê‚Í‚ ‚é‚ªA‚Ü‚¾‹P‚«‚ðŽ¸‚Á‚Ä‚Í‚¢‚È‚¢B" value="80000" slot="˜r" wmt="Œ•" area="32" dcs="STR">
+        <eqStatus tgt="ATK" value="33" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.07" />
+    </item>
+    <item name="Žë—Â‹|–î" desc="Žë—Â‚ÉŽg‚í‚ê‚éˆÀ‰¿‚È‹|‚¾B" value="4200" slot="˜r" wmt="‹|" area="26" dcs="DEX">
+        <eqStatus tgt="ATK" value="30" />
+        <eqStatus tgt="AVO" value="-0.03" />
+    </item>
+    <item name="“Å•t‚«‚ÌŽë—Â‹|–î" desc="Žë—Â‚ÉŽg‚í‚ê‚éˆÀ‰¿‚È‹|‚¾B" value="6600" slot="˜r" wmt="‹|" area="26" dcs="DEX">
+        <eqStatus tgt="ATK" value="32" />
+        <eqStatus tgt="AVO" value="-0.03" />
+    </item>
+    <item name="ƒxƒ‹ƒ}–‚“¹eu‚Q‚UŒ^v" desc="ƒxƒ‹ƒ}‘‚Ì‹ŒŽ®‰»‚µ‚½•à•º‘•”õ‚¾B" value="110000" slot="˜r" wmt="e" area="26" dcs="DEX">
+        <eqStatus tgt="ATK" value="98" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CRT_P" value="+0.04" />
+        <eqStatus tgt="CRT_V" value="+0.25" />
+    </item>
+    <item name="ƒxƒ‹ƒ}–‚“¹eu‚P‚P‚PŒ^v" desc="ƒxƒ‹ƒ}‘‚Ì•W€“I‚È•à•º‘•”õ‚¾B" value="160000" slot="˜r" wmt="e" area="26" dcs="DEX">
+        <eqStatus tgt="ATK" value="133" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CRT_P" value="+0.08" />
+        <eqStatus tgt="CRT_V" value="+0.25" />
+    </item>
+    <item name="ƒxƒ‹ƒ}–‚“¹eu‚P‚T‚VŒ^v" desc="ƒxƒ‹ƒ}‘‚Ì‹ß‘ã“I‚È•à•º‘•”õ‚¾B" value="175000" slot="˜r" wmt="e" area="26" dcs="DEX">
+        <eqStatus tgt="ATK" value="147" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CRT_P" value="+0.09" />
+        <eqStatus tgt="CRT_V" value="+0.25" />
+    </item>
+    <item name="eŒ••t‚«ƒxƒ‹ƒ}–‚“¹eu‚Q‚UŒ^v" desc="ƒxƒ‹ƒ}‘‚Ì‹ŒŽ®‰»‚µ‚½•à•º‘•”õ‚¾BeŒ•‚ª‚Â‚¢‚Ä‚¢‚é‚Ì‚ÅA‹ßÚUŒ‚‚ª‰Â”\‚¾B" value="110000" slot="˜r" wmt="e" area="26" dcs="DEX">
+        <eqStatus tgt="ATK" value="98" />
+        <eqStatus tgt="AVO" value="-0.06" />
+        <eqStatus tgt="CRT_P" value="+0.04" />
+        <eqStatus tgt="CRT_V" value="+0.25" />
+    </item>
+    <item name="eŒ••t‚«ƒxƒ‹ƒ}–‚“¹eu‚P‚P‚PŒ^v" desc="ƒxƒ‹ƒ}‘‚Ì•W€“I‚È•à•º‘•”õ‚¾BeŒ•‚ª‚Â‚¢‚Ä‚¢‚é‚Ì‚ÅA‹ßÚUŒ‚‚ª‰Â”\‚¾B" value="160000" slot="˜r" wmt="e" area="28" dcs="DEX">
+        <eqStatus tgt="ATK" value="133" />
+        <eqStatus tgt="AVO" value="-0.06" />
+        <eqStatus tgt="CRT_P" value="+0.08" />
+        <eqStatus tgt="CRT_V" value="+0.25" />
+    </item>
+    <item name="eŒ••t‚«ƒxƒ‹ƒ}–‚“¹eu‚P‚T‚VŒ^v" desc="ƒxƒ‹ƒ}‘‚Ì‹ß‘ã“I‚È•à•º‘•”õ‚¾BeŒ•‚ª‚Â‚¢‚Ä‚¢‚é‚Ì‚ÅA‹ßÚUŒ‚‚ª‰Â”\‚¾B" value="175000" slot="˜r" wmt="e" area="29" dcs="DEX">
+        <eqStatus tgt="ATK" value="147" />
+        <eqStatus tgt="AVO" value="-0.06" />
+        <eqStatus tgt="CRT_P" value="+0.09" />
+        <eqStatus tgt="CRT_V" value="+0.25" />
+    </item>
+    <item name="ƒxƒ‹ƒ}‚ÌeŒ•" desc="ƒxƒ‹ƒ}‘‚Ì•W€“I‚ÈeŒ•‚¾B" value="175000" slot="˜r" wmt="’ZŒ•" area="22" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="20" />
+    </item>
+    <item name="“Å•t‚«‚ÌŽë—ÂœW" desc="Žë—Â‚ÅŽg—p‚³‚ê‚éœW‚¾BŽdŠ|‚¯‹|‚Æ‚µ‚ÄŽg‚í‚ê‚é‚±‚Æ‚ª‘½‚¢B" value="19000" slot="˜r" wmt="œW" area="22" dcs="DEX">
+        <eqStatus tgt="ATK" value="40" />
+        <eqStatus tgt="AVO" value="-0.09" />
+        <eqStatus tgt="CRT_P" value="+0.03" />
+        <eqStatus tgt="CRT_V" value="+0.10" />
+    </item>
+    <item name="•ºŽm‚ÌœW" desc="³‹KŒR‚ª‘•”õ‚µ‚Ä‚¢‚éA•W€“I‚ÅŠæä‚Éì‚ç‚ê‚½œW‚¾B" value="120000" slot="˜r" wmt="œW" area="26" dcs="DEX">
+        <eqStatus tgt="ATK" value="58" />
+        <eqStatus tgt="AVO" value="-0.09" />
+        <eqStatus tgt="CRT_P" value="+0.03" />
+        <eqStatus tgt="CRT_V" value="+0.10" />
+    </item>
+    <item name="•ºŽm‚Ì’¼Œ•" desc="³‹KŒR‚ª‘•”õ‚µ‚Ä‚¢‚éA•W€“I‚ÅŠæä‚Éì‚ç‚ê‚½|‚ÌŒ•‚¾B" value="89500" slot="˜r" wmt="Œ•" area="37" dcs="STR">
+        <eqStatus tgt="ATK" value="45" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.11" />
+    </item>
+    <item name="ƒfƒ‹ƒtƒBƒ“EƒXƒŒƒCƒ„[" desc="‚©‚Â‚Ä‚Þ‚©‚Â‚­‚¨‚Î‚³‚ñ‚ðŽEŠQ‚µ‚½‚Æ‚¢‚í‚ê‚éŒ•‚¾" value="85000" slot="˜r" wmt="Œ•" area="40" dcs="STR">
+        <eqStatus tgt="ATK" value="38" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.14" />
+    </item>
+    <item name="Ü‚ê‚½’¼Œ•" desc="Ü‚ê‚Ä‚µ‚Ü‚Á‚½’¼Œ•‚¾B’ZŒ•‚Æ‚µ‚ÄŽg‚¦‚»‚¤‚¾‚ªA’¼Œ•“Á—L‚ÌŠæä‚³‚à”õ‚¦‚Ä‚¢‚éB" value="3200" slot="˜r" wmt="’ZŒ•" area="16" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="18" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.11" />
+    </item>
+    <item name="Ü‚ê‚½“`à‚ÌŒ•u“úŒŽv" desc="_˜b‚É“oê‚·‚éÜ‚ê‚Ä‚µ‚Ü‚Á‚½“`à‚ÌŒ•‚¾B/’ZŒ•‚Æ‚µ‚ÄŽg‚¦‚»‚¤‚¾‚ªA’¼Œ•“Á—L‚ÌŠæä‚³‚à”õ‚¦‚Ä‚¢‚éB/ƒNƒŠƒeƒBƒJƒ‹UŒ‚‚ªo‚â‚·‚¢B" value="32000000" slot="˜r" wmt="’ZŒ•" area="18" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="251"/>
+        <eqStatus tgt="AVO" value="-0.04" />
+        <eqStatus tgt="CUT_P" value="+0.16" />
+        <eqStatus tgt="CRT_P" value="+0.75" />
+        <eqStatus tgt="CRT_V" value="+0.20" />
+    </item>
+    <item name="“`à‚ÌŒ•u¼‰‹v" desc="_˜b‚É“oê‚·‚é“`à‚ÌŒ•‚¾B/ƒNƒŠƒeƒBƒJƒ‹ƒ_ƒ[ƒW‚ª‚‚¢B" value="67550000" slot="˜r" wmt="Œ•" area="38" dcs="STR">
+        <eqStatus tgt="ATK" value="251"/>
+        <eqStatus tgt="AVO" value="-0.05" />
+        <eqStatus tgt="CUT_P" value="+0.22" />
+        <eqStatus tgt="CRT_P" value="+0.10" />
+        <eqStatus tgt="CRT_V" value="+2.50" />
+    </item>
+    <item name="“`à‚ÌŒ•u“G‚­‚¾‚«v" desc="_˜b‚É“oê‚·‚é“`à‚ÌŒ•‚¾B" value="69576000" slot="˜r" wmt="Œ•" area="38" dcs="STR">
+        <eqStatus tgt="ATK" value="174"/>
+        <eqStatus tgt="AVO" value="-0.05" />
+        <eqStatus tgt="CUT_P" value="+0.19" />
+        <eqStatus tgt="CRT_P" value="+0.15" />
+        <eqStatus tgt="CRT_V" value="+0.70" />
+    </item>
+    <item name="u‚¤‚½‚í‚ê‚µŽÖ—¬”h‚Ì‹â‚ÌŒ•v" desc="¼‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢Œ•‚¾B" value="6500000" slot="˜r" wmt="Œ•" area="38" dcs="STR">
+        <eqStatus tgt="ATK" value="115"/>
+        <eqStatus tgt="AVO" value="-0.05" />
+        <eqStatus tgt="CUT_P" value="+0.15" />
+        <eqStatus tgt="CRT_P" value="+0.15" />
+        <eqStatus tgt="CRT_V" value="+0.70" />
+    </item>
+    <item name="u‚¤‚½‚í‚ê‚µŽÖ—¬”h‚Ì|‚ÌŒ•v" desc="¼‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢Œ•‚¾B" value="6500000" slot="˜r" wmt="Œ•" area="38" dcs="STR">
+        <eqStatus tgt="ATK" value="145"/>
+        <eqStatus tgt="AVO" value="-0.07" />
+        <eqStatus tgt="CUT_P" value="+0.24" />
+        <eqStatus tgt="CRT_P" value="+0.20" />
+        <eqStatus tgt="CRT_V" value="+0.20" />
+    </item>
+    <item name="“º‚ÌŒ•" desc="”äŠr“IˆÀ‰¿‚È—ÊŽY•i‚Ì“º‚ÌŒ•‚¾B" value="4400" slot="˜r" wmt="Œ•" area="32" dcs="STR">
+        <eqStatus tgt="ATK" value="21" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.06" />
+    </item>
+    <item name="“S‚ÌŒ•" desc="”äŠr“IˆÀ‰¿‚È—ÊŽY•i‚Ì“S‚ÌŒ•‚¾B" value="8200" slot="˜r" wmt="Œ•" area="34" dcs="STR">
+        <eqStatus tgt="ATK" value="27" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.08" />
+    </item>
+    <item name="|‚ÌŒ•" desc="”äŠr“IˆÀ‰¿‚È—ÊŽY•i‚Ì|‚ÌŒ•‚¾B" value="11400" slot="˜r" wmt="Œ•" area="34" dcs="STR">
+        <eqStatus tgt="ATK" value="38" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.10" />
+    </item>
+    <item name="”¹‚ÌŒ•" desc="‚Æ‚Ä‚àŒy‚¢‹à‘®‚Åì‚ç‚ê‚½Œ•‚¾B" value="25600" slot="˜r" wmt="Œ•" area="32" dcs="DEX" count="2">
+        <eqStatus tgt="ATK" value="66" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.5" />
+    </item>
+    <item name="”¨‚Ì¬Š™" desc="”_ì‹Æ‚ÉŽg‚¤¬Š™‚¾B’áŠm—¦‚ÅØ’f‚ð”­¶‚³‚¹‚éB" value="1750" slot="˜r" wmt="Š™" area="16" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="11" />
+    </item>
+    <item name="”_–¯‚Ì‘åŠ™" desc="ŽG‘‚ðˆê‹C‚ÉŠ ‚èŽæ‚é‘åŠ™‚¾B’áŠm—¦‚Å‘¦Ž€‚ð”­¶‚³‚¹‚éB" value="3800" slot="˜r" wmt="Š™" area="42" dcs="STR">
+        <eqStatus tgt="ATK" value="15" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.03" />
+    </item>
+    <item name="Žë—Â‘„" desc="Žë—Â‚ÅŽg—p‚·‚éˆê”Ê“I‚È‘„‚¾B" value="2120" slot="˜r" wmt="‘„" area="48" dcs="STR">
+        <eqStatus tgt="ATK" value="14" />
+        <eqStatus tgt="AVO" value="-0.07" />
+        <eqStatus tgt="CUT_P" value="+0.03" />
+    </item>
+    <item name="–¼‘„u‰áŽJv" desc="”ò‚ñ‚Å‚¢‚é‰á‚ð‚à—¼’f‚µ‚½‚Æ‚¢‚í‚ê‚é–¼‘„‚¾B" value="7500000" slot="˜r" wmt="‘„" area="54" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="142" />
+        <eqStatus tgt="AVO" value="-0.11" />
+        <eqStatus tgt="CUT_P" value="+0.07" />
+        <eqStatus tgt="CRT_P" value="+0.10" />
+        <eqStatus tgt="CRT_V" value="+0.50" />
+    </item>
+    <item name="–¼‘„u—c‚«ŒŽv" desc="–¼‘„‚¾B" value="6600000" slot="˜r" wmt="‘„" area="50" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="142" />
+        <eqStatus tgt="AVO" value="-0.11" />
+        <eqStatus tgt="CUT_P" value="+0.08" />
+        <eqStatus tgt="CRT_P" value="+0.30" />
+        <eqStatus tgt="CRT_V" value="+0.30" />
+    </item>
+    <item name="’Ð•¨Î" desc="”ñí‚Éd‚¢Î‚Ì‰ò‚¾B/Žè‚Ì“Í‚­”ÍˆÍ‚µ‚©UŒ‚‚Å‚«‚È‚¢‚ªAŠæä‚È‚Ì‚ÅŽç‚è‚É‚à–ð—§‚Â‚¾‚ë‚¤B/’áŠm—¦‚Å‹Câ‚ð”­¶‚³‚¹‚éB" value="380" slot="˜r" wmt="‚E’ZŒ•" area="8" dcs="STR">
+        <eqStatus tgt="ATK" value="14" />
+        <eqStatus tgt="DEF" value="2" />
+        <eqStatus tgt="SPD" value="-6" />
+        <eqStatus tgt="DEX" value="-10" />
+        <eqStatus tgt="AVO" value="-0.15" />
+        <eqStatus tgt="CUT_P" value="+0.09" />
+    </item>
+    <item name="’M‚ÌŠW‚Æ‰ù’†¬“" desc="‚Ç‚±‚É‚Å‚à‚ ‚é’M‚ÌŠW‚ÆA‰ù’†¬“‚Ì‘g‚Ý‡‚í‚¹‚¾B/‘¦È‚Ì‚‚Æ‚µ‚Ä—˜—p‚Å‚«‚»‚¤‚¾B" value="1150" slot="˜r" wmt="‚E’ZŒ•" area="12" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="10" />
+        <eqStatus tgt="DEF" value="2" />
+        <eqStatus tgt="SPD" value="-2" />
+        <eqStatus tgt="DEX" value="-6" />
+        <eqStatus tgt="AVO" value="-0.10" />
+        <eqStatus tgt="CUT_P" value="+0.11" />
+    </item>
+    <item name="‚¨“ç‚ÌŠW‚Æ–ö—t•ï’š" desc="‚Ç‚±‚É‚Å‚à‚ ‚é“ç‚ÌŠW‚ÆA–ö—t•ï’š‚Ì‘g‚Ý‡‚í‚¹‚¾B/‘¦È‚Ì‚‚Æ‚µ‚Ä—˜—p‚Å‚«‚»‚¤‚¾B" value="3200" slot="˜r" wmt="‚E’ZŒ•" area="18" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="28" />
+        <eqStatus tgt="DEF" value="4" />
+        <eqStatus tgt="SPD" value="-3" />
+        <eqStatus tgt="DEX" value="-7" />
+        <eqStatus tgt="AVO" value="-0.10" />
+        <eqStatus tgt="CUT_P" value="+0.13" />
+    </item>
+    <item name="‡”Â‚Ì‚‚Æ|‚ÌƒVƒ‡[ƒgƒ\[ƒh" desc="–`Œ¯ŽÒ‚ª‚æ‚­Žg‚Á‚Ä‚¢‚é–Ø‚Ì‚‚ÆƒVƒ‡[ƒgƒ\[ƒh‚Ì‘g‚Ý‡‚í‚¹‚¾B" value="49000" slot="˜r" wmt="‚E’ZŒ•" area="20" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="31" />
+        <eqStatus tgt="DEF" value="10" />
+        <eqStatus tgt="SPD" value="-4" />
+        <eqStatus tgt="DEX" value="-7" />
+        <eqStatus tgt="AVO" value="-0.14" />
+        <eqStatus tgt="CUT_P" value="+0.19" />
+    </item>
+    <item name="ƒoƒbƒNƒ‰[‚Æ|‚ÌƒVƒ‡[ƒgƒ\[ƒh" desc="–`Œ¯ŽÒ‚ª‚æ‚­Žg‚Á‚Ä‚¢‚é–Ø‚Ì‚‚ÆƒVƒ‡[ƒgƒ\[ƒh‚Ì‘g‚Ý‡‚í‚¹‚¾B" value="49000" slot="˜r" wmt="‚E’ZŒ•" area="20" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="31" />
+        <eqStatus tgt="DEF" value="7" />
+        <eqStatus tgt="SPD" value="-1" />
+        <eqStatus tgt="DEX" value="-6" />
+        <eqStatus tgt="AVO" value="-0.9" />
+        <eqStatus tgt="CUT_P" value="+0.13" />
+    </item>
+    <item name="³‹KŒR‘O‰q‚Ìƒ^ƒ[ƒV[ƒ‹ƒh" desc="”ñí‚ÉŠæä‚Å‹‘å‚È‚‚¾B" value="138000" slot="˜r" wmt="‘å‚" area="22" dcs="STR">
+        <eqStatus tgt="ATK" value="14" />
+        <eqStatus tgt="DEF" value="35" />
+        <eqStatus tgt="SPD" value="-10" />
+        <eqStatus tgt="DEX" value="-10" />
+        <eqStatus tgt="AVO" value="-0.20" />
+        <eqStatus tgt="CUT_P" value="+0.55" />
+    </item>
+
+    <!--’ÊíUŒ‚ -->
+	
+    <attack name="‚±‚Ô‚µ" desc="‰£‚è‚©‚©‚é" term="˜r–¢‘•”õ" area="20" waitTime="48" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-5" p="0.75" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="Œ•UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="Œ•‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="‹øŽh‚µ" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="Œ•‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="’ZŒ•UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="’ZŒ•‘•”õ" area="16" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="ƒXƒ^ƒu" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="’ZŒ•‘•”õ" area="16" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="~‚è‰º‚ë‚µ" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="‘åŒ•‘•”õ" area="32" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="‚Ô‚ñ‰ñ‚µ" desc="ˆÐ—Í‚Í’á‚¢‚ª–½’†‚µ‚â‚·‚¢" term="‘åŒ•‘•”õ" area="32" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="“ËŒ•UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="“ËŒ•‘•”õ" area="22" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="ŠZ‚Ç‚¨‚µ" desc="–hŒä—Í–³Ž‹" term="“ËŒ•‘•”õ" area="22" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.50" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="ŒU¾Ø‚è" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="“‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="•‚ÅØ‚è" desc="–½’†‚µ‚â‚·‚¢" term="“‘•”õ" area="20" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-8" p="0.99" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="Žh‚µž‚Ý" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="“‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-8" p="0.99" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="‘„UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="‘„‘•”õ" area="36" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="‚ƒoƒbƒVƒ…" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="‚E’ZŒ•‘•”õ" area="19" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="Ø‚è‚Â‚¯" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="‚E’ZŒ•‘•”õ" area="16" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="ƒƒCƒXUŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="ƒƒCƒX‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="ƒwƒbƒhEƒCƒ“ƒpƒNƒg" desc="‚Šm—¦‚Å‹Câ‚ª”­¶" term="ƒƒCƒX‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="‹|ŽËŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="‹|‘•”õ" area="236" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="–îŽh" desc="–î‚É‚æ‚é‹ßÚUŒ‚" term="‹|‘•”õ" area="23" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="“Å–îŽËŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="“Å‹|‘•”õ" area="236" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="TEAM_ENEMY" pt="ADD_CONDITION" tgtName="POISON" attr="C_POISON" p="0.75" animation="’ÊíUŒ‚" />
+    </attack>
+    <attack name="œWŽËŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="e‘•”õ" area="197" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="eŽËŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="e‘•”õ" area="172" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="eŒ•UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="e‘•”õ,eŒ••t‚«" area="32" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="e°UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="e‘•”õ" area="32" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-6" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="•ÚUŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="•Ú‘•”õ" area="32" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="ñUŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="ñ‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="Š™UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="Š™‘•”õ" area="20" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+    <attack name="ŽñŽë‚è" desc="–½’†—¦‚Í’á‚¢‚ª‚Ü‚ê‚É‘¦Ž€‚ª”­¶" term="Š™‘•”õ" area="20" waitTime="60" sound="’ÊíUŒ‚" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    </attack>
+
+    <!-- “Á‹Z -->
+    <!--
+    <spAttack name="‰ñ“]Ø‚è" desc="‘å‰ñ“]‚µ‚ÄØ‚è•t‚¯‚é" term="Œ•‘•”õ" area="10" waitTime="120" sound="’ÊíUŒ‚" >
+            <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-8" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
+    </spAttack>
+    <spAttack name="‹øŽh‚µ" desc="—¼n‚ÌŒ•‚ðŽh‚·" term="|‚ÌŒ•‘•”õ,“S‚ÌŒ•‘•”õ" area="8" waitTime="120" sound="’ÊíUŒ‚">
+            <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-8" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
+    </spAttack>
+    -->	
+
+    <!-- –‚–@Ží—Þ -->
+    <!--
+    <magic name="ƒtƒ@ƒCƒAƒ{ƒ‹ƒg" desc="‰Š–‚–@‚ÌŠî‘b“I‚ÈpŽ®‚¾" area="128" term="‰Î‰Š‚Ì‘•Û—L" waitTime="70" sound="’ÊíUŒ‚">
+            <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" value="-30" attr="FLAME" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="USER_TO_TGT_8"/>
+            <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT" />
+    </magic>
+
+    <magic name="“V’n—‹–Â" desc="‹CÛ–‚–@‚É•ª—Þ‚³‚ê‚é‚à‚Ì‚ÅAâ‘å‚È—‹‚ðŒÄ‚Ñ‹N‚±‚·" spellTime="2" area="256" term="‰Î‰Š‚Ì‘•Û—L" waitTime="90" sound="’ÊíUŒ‚">
+            <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-60" attr="THNDER" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="USER_TO_TGT_8" />
+            <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-15" attr="NONE" p="1" dct="DIRECT"/>
+    </magic>
+
+    <magic name="¶–½‰ñ•œ" desc="¶–½‚Ì_”é‚É‚æ‚è‘Ì—Í‚ð‰ñ•œ‚·‚é" fieldUse="true" spellTime="1" area="128" term="‰Î‰Š‚Ì‘•Û—L" waitTime="80" sound="’ÊíUŒ‚">
+            <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="+15" attr="MYSTERY" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
+            <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-15" attr="NONE" p="1" dct="DIRECT" />
+            <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="+15" attr="MYSTERY" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
+            <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-15" attr="NONE" p="1" dct="DIRECT" />
+    </magic>
+
+    <magic name="ƒGƒAƒXƒ‰ƒbƒVƒ…" desc="‚·‚é‚Ç‚¢^‹ó”g‚É‚æ‚è“G‚ðØ‚è—ô‚­" spellTime="5" area="128" waitTime="80" sound="’ÊíUŒ‚">
+            <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-15" attr="CHOP" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
+            <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-15" attr="AIR" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
+            <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    -->	
+    <magic name="”j‰óŒõü" desc="‚·‚×‚Ä‚ðÁ–Å‚³‚¹‚é‘å–‚–@‚¾B" term="–‚p‚Ì‘u”j‰óŒõüvŠŽ" spellTime="5" area="480" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-150" attr="LIGHT" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="SAN" value="-24" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="˜B‹à•¨Ž¿˜B¬" desc="˜B‹à•¨Ž¿‚ð˜B¬‚µ‚Ä“G‚É•t’…‚³‚¹‚éB" term="–‚p‚Ì‘u˜B‹à–‚–@‚PvŠŽ" spellTime="5" area="38" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-32" attr="ALCHEMY" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
+        <battleEvent tt="TEAM_ENEMY" pt="ADD_CONDITION" tgtName="GOLDY" attr="ALCHEMY" p="0.1" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="˜B‹à”š”­" desc="˜B¬‚µ‚½˜AŒg•¨Ž¿‚ð”š”j‚·‚éB" term="–‚p‚Ì‘u˜B‹à–‚–@‚PvŠŽ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
+        <battleEvent tt="ALL" pt="ADD_CONDITION" tgtName="GOLDY" p="0.1" attr="ALCHEMY" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    
+    
+    
+    <magic name="ƒeƒXƒg–‚–@1" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@2" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@3" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@4" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@5" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@6" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@7" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@8" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@9" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@10" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@11" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@12" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@13" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@14" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@15" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@16" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@17" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@18" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@19" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@20" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@21" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@22" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@23" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@24" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@25" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@26" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@27" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@28" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@29" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@30" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@31" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@32" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@33" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@34" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@35" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@36" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@37" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@38" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@39" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@40" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@41" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@42" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@43" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@44" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@45" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@46" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@47" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@48" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@49" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@50" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@51" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="ƒeƒXƒg–‚–@52" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+
+	
+	
+    <!--‚»‚Ì‘¼-->
+    <other name="“¦‚°‚é" desc="“¦‘–‚·‚é" sort="6">
+        <battleEvent tt="SELF" pt="NONE" p="1"/>
+    </other>
+    <other name="ó‘Ô" desc="ƒXƒe[ƒ^ƒXŠm”F" sort="4">
+        <battleEvent tt="SELF" pt="NONE" p="1"/>
+    </other>
+    <other name="–hŒä" desc="–hŒä‚·‚é"  sort="2">
+        <battleEvent tt="SELF" pt="NONE" p="1"/>
+    </other>
+    <other name="‰ñ”ð" desc="‰ñ”ð‚·‚é"  sort="3">
+        <battleEvent tt="SELF" pt="NONE" p="1"/>
+    </other>
+    <other name="ˆÚ“®" desc="ˆÚ“®‚·‚é"  sort="0">
+        <battleEvent tt="SELF" pt="NONE" p="1"/>
+    </other>
+    <other name="Šm’è" desc="Šm’è‚·‚é"  sort="-1">
+        <battleEvent tt="SELF" pt="NONE" p="1"/>
+    </other>
+
 </KinugasActionMaster>

@@ -1,612 +1,642 @@
-2022/12/20 19:09:25 INFO this is D:/Project/FuzzyWorld1/
-2022/12/20 19:09:25 INFO translate\ja.ini
-2022/12/20 19:09:25 INFO BEACH=海岸
-2022/12/20 19:09:25 INFO NO_ITEM=アイテムを持っていない
-2022/12/20 19:09:25 INFO LOAD_GAME=つづきから
-2022/12/20 19:09:25 INFO CONFU_STOP=混乱して動けなかった！
-2022/12/20 19:09:25 INFO TALK=話す
-2022/12/20 19:09:25 INFO CHAPTER1=序章
-2022/12/20 19:09:25 INFO CHAPTER2=第一章
-2022/12/20 19:09:25 INFO IS_CONFU=混乱している！
-2022/12/20 19:09:25 INFO NO_TARGET=効果範囲内に対象がいない
-2022/12/20 19:09:25 INFO NODAMAGE=ダメージを受けなかった！！
-2022/12/20 19:09:25 INFO TOMAGISHUT=漁師の小屋
-2022/12/20 19:09:25 INFO GAME_PAD_TEST=コントローラーテスト
-2022/12/20 19:09:25 INFO GOLDEN_RECORD=金の円盤にしたがって世界を正せ
-2022/12/20 19:09:25 INFO SPELL_END=の詠唱を終了した！！
-2022/12/20 19:09:25 INFO AVOIDANCE=回避に専念した！
-2022/12/20 19:09:25 INFO FIELD=フィールド
-2022/12/20 19:09:25 INFO ATTR_DOWN=耐性が下がった！
-2022/12/20 19:09:25 INFO IS=は
-2022/12/20 19:09:25 INFO NEW_GAME=はじめから
-2022/12/20 19:09:25 INFO SURVEY=調べる
-2022/12/20 19:09:25 INFO DAMAGE=のダメージ！！
-2022/12/20 19:09:25 INFO REMOVE_CDNTION=から回復した
-2022/12/20 19:09:25 INFO ITEM_DROP=がなくなった
-2022/12/20 19:09:25 INFO HEALDAMAGE=回復した！！
-2022/12/20 19:09:25 INFO SHORTAGE=足りない
-2022/12/20 19:09:25 INFO CHAPTER1_SUBTITLE=介入者
-2022/12/20 19:09:25 INFO ATTR_UP=耐性が上がった！
-2022/12/20 19:09:25 INFO ISMOVE=は移動した！
-2022/12/20 19:09:25 INFO ITEM_ADD=を入手した
-2022/12/20 19:09:25 INFO CHAPTER2_SUBTITLE=記憶喪失の男
-2022/12/20 19:09:25 INFO GIVE_UP=諦める
-2022/12/20 19:09:25 INFO WHO_WILL_HOLD_IT=誰が持つ？
-2022/12/20 19:09:25 INFO WHATDO=どうする
-2022/12/20 19:09:25 INFO WAS=が
-2022/12/20 19:09:25 INFO GAME_EXIT=おわる
-2022/12/20 19:09:25 INFO CANT_HAVE=これ以上物を持てない
-2022/12/20 19:09:25 INFO SPECIAL_ATTACK=特技
-2022/12/20 19:09:25 INFO CAN_HAVE=あとn個持てる
-2022/12/20 19:09:25 INFO OF_WHAT=により
-2022/12/20 19:09:25 INFO NO_EFFECT=効果がなかった
-2022/12/20 19:09:25 INFO RETURN=戻る
-2022/12/20 19:09:25 INFO DEFENCE=防御に専念した！
-2022/12/20 19:09:25 INFO ITEM_USE=道具
-2022/12/20 19:09:25 INFO S=の
-2022/12/20 19:09:25 INFO ARE_YOU_SURE_EXIT=本当に終了しますか？
-2022/12/20 19:09:25 INFO MAGIC=魔術
-2022/12/20 19:09:25 INFO OF=を
-2022/12/20 19:09:25 INFO MISS=ミス！
-2022/12/20 19:09:25 INFO SPELL_START=の詠唱を開始した！！
-2022/12/20 19:09:25 INFO SKIP=スキップ
-2022/12/20 19:09:25 INFO TURN=ターン
-2022/12/20 19:09:25 INFO CONFIRM=確認
-2022/12/20 19:09:25 INFO NO_NPC=その方向にはダレモイナイ
-2022/12/20 19:09:25 INFO BUT=しかし
-2022/12/20 19:09:25 INFO CANT_ESCAPE=戦闘エリアの中心にいては逃げられない！！
-2022/12/20 19:09:25 INFO ISESCAPE=は逃げ出した！！
-2022/12/20 19:09:25 INFO ISFAILED=は失敗した！！
-2022/12/20 19:09:25 INFO APPEARANCE=体現れた！！
-2022/12/20 19:09:25 INFO TARGET_SELECT=ターゲット選択
-2022/12/20 19:09:25 INFO GAMEPAD_NOTFOUND=コントローラは有効化されていません。コントローラを使う場合はゲームを再起動してください。
-2022/12/20 19:09:25 INFO PLEASE_NAME=今回の介入者の名前は？
-2022/12/20 19:09:25 INFO IS_EQIP=を装備した
-2022/12/20 19:09:25 INFO IS_GET=を手に入れた
-2022/12/20 19:09:25 INFO OPEN=開く
-2022/12/20 19:09:25 INFO USE_ITEM=を使ってみた
-2022/12/20 19:09:25 INFO OTHER=行動
-2022/12/20 19:09:25 INFO WAS_EQIP=をすでに装備している
-2022/12/20 19:09:25 INFO ACTION=行動
-2022/12/20 19:09:25 INFO SUB_TITLE=魔法使いと不死の秘術
-2022/12/20 19:09:25 INFO MOVE=移動
-2022/12/20 19:09:25 INFO SUBMIT=決定
-2022/12/20 19:09:25 INFO SPELLTIME=詠唱時間
-2022/12/20 19:09:25 INFO ATTACK=攻撃
-2022/12/20 19:09:25 INFO TO=に
-2022/12/20 19:09:25 INFO MUSIC_ROOM=ミュージックルーム
-2022/12/20 19:09:25 INFO CANT_MOVE=動けなかった！！
-2022/12/20 19:09:25 INFO ROOM=部屋
-2022/12/20 19:09:25 INFO lockFile:.\KLOCK_1988553300191523288.lck is created
-2022/12/20 19:09:25 INFO Fuzzy World is start
-2022/12/20 19:09:26 INFO > Storage : printAll : 気怠い探偵.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 灼熱の地獄.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 作戦会議.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 氷のダンジョン.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 妖精の森.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : バトル1（リメイク）＿古.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 普通な感じの街.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : とてものどかな村.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : さわやかな冒険.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : バトル１（新）.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : バトル２（新）.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : のどかな村.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 夢の世界.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 廃れた都市.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 大ボス.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 神殿.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : バトル1（リメイク）.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : ラストダンジョン.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 変質者のテーマ.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 世界の真相.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 睨み合い.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 静寂空間.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 決意.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 残酷な運命.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 工業都市.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 静かなる決意.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 不気味なダンジョン.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 探検.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : まあいいか.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : デジタル空間.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 不思議な森.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 洞窟.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : シューティング・ステージ３.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 風の魔法使いのテーマ.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 愉快または間抜け.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : ボーナスゲーム.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : フィールド２.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : シューティング・ステージ１.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 小ボス.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 異形のものとの戦い.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 厳かなダンジョン.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : エスニック・プレース.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : シューティング・ステージ２.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : バトル１（旧）.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 怪しい取引.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 明るいダンジョン.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 明るい街.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 歴史ある街.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 刻一刻.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 変な村.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 風の魔法使いの戦い.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : おぞましい真実.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 悪の軍団.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : フィールド３.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 眠らない大都会.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : エンディング.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 大ボス_古.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 天空の魔法都市.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 師匠とのイベント戦.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 結末.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 王都.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : お祭りの町.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 奇襲攻撃！.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 軍事作戦.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : ユニークな街.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : フィールド.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 変質者との戦い.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 中ボス.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 知的探求.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 魔力の間.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : フィールド５.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : シューティング・ステージ４.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 疑い.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 軍事作戦２.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 効果音＿バトルターン開始.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : choice3.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 足音.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : Choice1.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 効果音＿選択1.wav
-2022/12/20 19:09:26 INFO > Storage : printAll : 効果音＿戦闘開始.wav
-2022/12/20 19:09:26 INFO CachedSound is loaded name=[効果音＿選択1.wav](90.3333 ms)
-2022/12/20 19:09:26 INFO CachedSound is loaded name=[フィールド５.wav](66.5428 ms)
-2022/12/20 19:09:33 INFO XMLFile [chipAttr.xml] is loaded
-2022/12/20 19:09:33 INFO > Storage : printAll : 石ころ
-2022/12/20 19:09:33 INFO > Storage : printAll : 時計
-2022/12/20 19:09:33 INFO > Storage : printAll : CLOSE
-2022/12/20 19:09:33 INFO > Storage : printAll : 汎用イベント
-2022/12/20 19:09:33 INFO > Storage : printAll : 荒地
-2022/12/20 19:09:33 INFO > Storage : printAll : 蝋燭
-2022/12/20 19:09:33 INFO > Storage : printAll : 入口
-2022/12/20 19:09:33 INFO > Storage : printAll : 平地
-2022/12/20 19:09:33 INFO > Storage : printAll : 崖
-2022/12/20 19:09:33 INFO > Storage : printAll : 小屋
-2022/12/20 19:09:33 INFO > Storage : printAll : 紙
-2022/12/20 19:09:33 INFO > Storage : printAll : 石壁
-2022/12/20 19:09:33 INFO > Storage : printAll : 本棚
-2022/12/20 19:09:33 INFO > Storage : printAll : 木
-2022/12/20 19:09:33 INFO > Storage : printAll : 山小屋
-2022/12/20 19:09:33 INFO > Storage : printAll : 本
-2022/12/20 19:09:33 INFO > Storage : printAll : 港
-2022/12/20 19:09:33 INFO > Storage : printAll : 木橋
-2022/12/20 19:09:33 INFO > Storage : printAll : 廃墟
-2022/12/20 19:09:33 INFO > Storage : printAll : はしご
-2022/12/20 19:09:33 INFO > Storage : printAll : 町
-2022/12/20 19:09:33 INFO > Storage : printAll : 机
-2022/12/20 19:09:33 INFO > Storage : printAll : 舗装道路
-2022/12/20 19:09:33 INFO > Storage : printAll : 機械
-2022/12/20 19:09:33 INFO > Storage : printAll : 樽
-2022/12/20 19:09:33 INFO > Storage : printAll : ベッド
-2022/12/20 19:09:33 INFO > Storage : printAll : 屋根
-2022/12/20 19:09:33 INFO > Storage : printAll : 煙突
-2022/12/20 19:09:33 INFO > Storage : printAll : 草
-2022/12/20 19:09:33 INFO > Storage : printAll : 井戸
-2022/12/20 19:09:33 INFO > Storage : printAll : 噴水
-2022/12/20 19:09:33 INFO > Storage : printAll : 橋
-2022/12/20 19:09:33 INFO > Storage : printAll : スイッチ
-2022/12/20 19:09:33 INFO > Storage : printAll : 洞窟
-2022/12/20 19:09:33 INFO > Storage : printAll : 魔方陣
-2022/12/20 19:09:33 INFO > Storage : printAll : 砂漠
-2022/12/20 19:09:33 INFO > Storage : printAll : 岩盤
-2022/12/20 19:09:33 INFO > Storage : printAll : 火器
-2022/12/20 19:09:33 INFO > Storage : printAll : 村
-2022/12/20 19:09:33 INFO > Storage : printAll : 畑
-2022/12/20 19:09:33 INFO > Storage : printAll : 塔
-2022/12/20 19:09:33 INFO > Storage : printAll : 枯木
-2022/12/20 19:09:33 INFO > Storage : printAll : 丘陵
-2022/12/20 19:09:33 INFO > Storage : printAll : 兜
-2022/12/20 19:09:33 INFO > Storage : printAll : 松明
-2022/12/20 19:09:33 INFO > Storage : printAll : 池
-2022/12/20 19:09:33 INFO > Storage : printAll : 籠
-2022/12/20 19:09:33 INFO > Storage : printAll : 森林
-2022/12/20 19:09:33 INFO > Storage : printAll : 草原
-2022/12/20 19:09:33 INFO > Storage : printAll : 山岳
-2022/12/20 19:09:33 INFO > Storage : printAll : 食べ物
-2022/12/20 19:09:33 INFO > Storage : printAll : 杭
-2022/12/20 19:09:33 INFO > Storage : printAll : 木床
-2022/12/20 19:09:33 INFO > Storage : printAll : ポスト
-2022/12/20 19:09:33 INFO > Storage : printAll : 岩礁
-2022/12/20 19:09:33 INFO > Storage : printAll : 穴
-2022/12/20 19:09:33 INFO > Storage : printAll : 登山道
-2022/12/20 19:09:33 INFO > Storage : printAll : 桶
-2022/12/20 19:09:33 INFO > Storage : printAll : 海
-2022/12/20 19:09:33 INFO > Storage : printAll : 食器
-2022/12/20 19:09:33 INFO > Storage : printAll : 楽器
-2022/12/20 19:09:33 INFO > Storage : printAll : 河川
-2022/12/20 19:09:33 INFO > Storage : printAll : 作物
-2022/12/20 19:09:33 INFO > Storage : printAll : 絨毯
-2022/12/20 19:09:33 INFO > Storage : printAll : 高山
-2022/12/20 19:09:33 INFO > Storage : printAll : 浅瀬
-2022/12/20 19:09:33 INFO > Storage : printAll : 袋
-2022/12/20 19:09:33 INFO > Storage : printAll : かまど
-2022/12/20 19:09:33 INFO > Storage : printAll : 植木鉢
-2022/12/20 19:09:33 INFO > Storage : printAll : 壁画
-2022/12/20 19:09:33 INFO > Storage : printAll : 窓
-2022/12/20 19:09:33 INFO > Storage : printAll : 砂浜
-2022/12/20 19:09:33 INFO > Storage : printAll : 木壁
-2022/12/20 19:09:33 INFO > Storage : printAll : 密林
-2022/12/20 19:09:33 INFO > Storage : printAll : 木階段
-2022/12/20 19:09:33 INFO > Storage : printAll : 毒の池
-2022/12/20 19:09:33 INFO > Storage : printAll : 焚火
-2022/12/20 19:09:33 INFO > Storage : printAll : 水晶玉
-2022/12/20 19:09:33 INFO > Storage : printAll : レバー
-2022/12/20 19:09:33 INFO > Storage : printAll : 調理器具
-2022/12/20 19:09:33 INFO > Storage : printAll : 鎧
-2022/12/20 19:09:33 INFO > Storage : printAll : 骨
-2022/12/20 19:09:33 INFO > Storage : printAll : 岩
-2022/12/20 19:09:33 INFO > Storage : printAll : 薪
-2022/12/20 19:09:33 INFO > Storage : printAll : 貨幣
-2022/12/20 19:09:33 INFO > Storage : printAll : キノコ
-2022/12/20 19:09:33 INFO > Storage : printAll : 花
-2022/12/20 19:09:33 INFO > Storage : printAll : 箱
-2022/12/20 19:09:33 INFO > Storage : printAll : 都市
-2022/12/20 19:09:33 INFO > Storage : printAll : ドレッサー
-2022/12/20 19:09:33 INFO > Storage : printAll : 間仕切り
-2022/12/20 19:09:33 INFO > Storage : printAll : 石橋
-2022/12/20 19:09:33 INFO > Storage : printAll : 城壁
-2022/12/20 19:09:33 INFO > Storage : printAll : VOID
-2022/12/20 19:09:33 INFO > Storage : printAll : 宝箱
-2022/12/20 19:09:33 INFO > Storage : printAll : 暖炉
-2022/12/20 19:09:33 INFO > Storage : printAll : 藁
-2022/12/20 19:09:33 INFO > Storage : printAll : 崩壊橋
-2022/12/20 19:09:33 INFO > Storage : printAll : 土砂
-2022/12/20 19:09:33 INFO > Storage : printAll : 城
-2022/12/20 19:09:33 INFO > Storage : printAll : 石階段
-2022/12/20 19:09:33 INFO > Storage : printAll : 彫像
-2022/12/20 19:09:33 INFO > Storage : printAll : 武器
-2022/12/20 19:09:33 INFO > Storage : printAll : 案山子
-2022/12/20 19:09:33 INFO > Storage : printAll : 苗
-2022/12/20 19:09:33 INFO > Storage : printAll : 看板
-2022/12/20 19:09:33 INFO > Storage : printAll : 棚
-2022/12/20 19:09:33 INFO > Storage : printAll : 流し台
-2022/12/20 19:09:33 INFO > Storage : printAll : 凍結池
-2022/12/20 19:09:33 INFO > Storage : printAll : 人形
-2022/12/20 19:09:33 INFO > Storage : printAll : 椅子
-2022/12/20 19:09:33 INFO > Storage : printAll : 藪
-2022/12/20 19:09:33 INFO > Storage : printAll : 墓標
-2022/12/20 19:09:33 INFO > Storage : printAll : 道路
-2022/12/20 19:09:33 INFO > Storage : printAll : 深い池
-2022/12/20 19:09:33 INFO > Storage : printAll : 鉄壁
-2022/12/20 19:09:33 INFO > Storage : printAll : 石碑
-2022/12/20 19:09:33 INFO > Storage : printAll : 柱
-2022/12/20 19:09:33 INFO > Storage : printAll : 柵
-2022/12/20 19:09:33 INFO > Storage : printAll : 瓶
-2022/12/20 19:09:33 INFO > Storage : printAll : 壷
-2022/12/20 19:09:33 INFO > Storage : printAll : 石床
-2022/12/20 19:09:33 INFO > Storage : printAll : 筆記具
-2022/12/20 19:09:33 INFO > Storage : printAll : 丸太
-2022/12/20 19:09:33 INFO > Storage : printAll : 盾
-2022/12/20 19:09:33 INFO > Storage : printAll : ドア
-2022/12/20 19:09:33 INFO XMLFile [vehicle.xml] is loaded
-2022/12/20 19:09:33 INFO > Storage : printAll : WALK
-2022/12/20 19:09:33 INFO XMLFile [chipSet_inner16.xml] is loaded
-2022/12/20 19:09:33 INFO ImageUtil loaded filePath=[resource/data/image/inner16.png](7.8805 ms)
-2022/12/20 19:09:33 INFO > Storage : printAll : inner16.png
-2022/12/20 19:09:33 INFO XMLFile [fms.xml] is loaded
-2022/12/20 19:09:33 INFO > Storage : printAll : BEACH
-2022/12/20 19:09:33 INFO > Storage : printAll : ROOM
-2022/12/20 19:09:33 INFO > Storage : printAll : TOMAGISHUT
-2022/12/20 19:09:33 INFO XMLFile [map01.xml] is loaded
-2022/12/20 19:09:33 INFO ImageUtil loaded filePath=[resource/data/image/darkeffect.png](9.9554 ms)
-2022/12/20 19:09:33 INFO temp file C:\Users\owner\AppData\Local\Temp\ktf_2316839129177286867.tmp is created
-2022/12/20 19:09:33 INFO ImageUtil loaded filePath=[resource/data/image/unknown.png](0.643 ms)
-2022/12/20 19:10:04 INFO XMLFile [SWMTM.xml] is loaded
-2022/12/20 19:10:04 INFO XMLFile [SStatusM.xml] is loaded
-2022/12/20 19:10:04 INFO > Storage : printAll : CRT_P
-2022/12/20 19:10:04 INFO > Storage : printAll : APP
-2022/12/20 19:10:04 INFO > Storage : printAll : SAN
-2022/12/20 19:10:04 INFO > Storage : printAll : SIZ
-2022/12/20 19:10:04 INFO > Storage : printAll : SPD
-2022/12/20 19:10:04 INFO > Storage : printAll : HP
-2022/12/20 19:10:04 INFO > Storage : printAll : CRT_V
-2022/12/20 19:10:04 INFO > Storage : printAll : CHR
-2022/12/20 19:10:04 INFO > Storage : printAll : INT
-2022/12/20 19:10:04 INFO > Storage : printAll : STR
-2022/12/20 19:10:04 INFO > Storage : printAll : M_CRT_P
-2022/12/20 19:10:04 INFO > Storage : printAll : EDU
-2022/12/20 19:10:04 INFO > Storage : printAll : M_CRT_V
-2022/12/20 19:10:04 INFO > Storage : printAll : M_DEF
-2022/12/20 19:10:04 INFO > Storage : printAll : CUT_V
-2022/12/20 19:10:04 INFO > Storage : printAll : M_AVO
-2022/12/20 19:10:04 INFO > Storage : printAll : MP
-2022/12/20 19:10:04 INFO > Storage : printAll : CON
-2022/12/20 19:10:04 INFO > Storage : printAll : DEF
-2022/12/20 19:10:04 INFO > Storage : printAll : CUT_P
-2022/12/20 19:10:04 INFO > Storage : printAll : M_ATK
-2022/12/20 19:10:04 INFO > Storage : printAll : M_CUT_V
-2022/12/20 19:10:04 INFO > Storage : printAll : LCK
-2022/12/20 19:10:04 INFO > Storage : printAll : MOV
-2022/12/20 19:10:04 INFO > Storage : printAll : M_CUT_P
-2022/12/20 19:10:04 INFO > Storage : printAll : DEX
-2022/12/20 19:10:04 INFO > Storage : printAll : ATK
-2022/12/20 19:10:04 INFO > Storage : printAll : POW
-2022/12/20 19:10:04 INFO > Storage : printAll : AVO
-2022/12/20 19:10:04 INFO > Storage : printAll : EXP
-2022/12/20 19:10:04 INFO XMLFile [SAttrM.xml] is loaded
-2022/12/20 19:10:04 INFO > Storage : printAll : EARTH
-2022/12/20 19:10:04 INFO > Storage : printAll : C_CONFUSION
-2022/12/20 19:10:04 INFO > Storage : printAll : C_BREAK
-2022/12/20 19:10:04 INFO > Storage : printAll : MYSTERY
-2022/12/20 19:10:04 INFO > Storage : printAll : C_DESTROY
-2022/12/20 19:10:04 INFO > Storage : printAll : C_FLAME
-2022/12/20 19:10:04 INFO > Storage : printAll : C_MADNESS
-2022/12/20 19:10:04 INFO > Storage : printAll : C_SEAL
-2022/12/20 19:10:04 INFO > Storage : printAll : C_DEAD
-2022/12/20 19:10:04 INFO > Storage : printAll : C_GOLDY
-2022/12/20 19:10:04 INFO > Storage : printAll : CHOP
-2022/12/20 19:10:04 INFO > Storage : printAll : C_POISON
-2022/12/20 19:10:04 INFO > Storage : printAll : C_BLIND
-2022/12/20 19:10:04 INFO > Storage : printAll : NONE
-2022/12/20 19:10:04 INFO > Storage : printAll : WATER
-2022/12/20 19:10:04 INFO > Storage : printAll : C_STONE
-2022/12/20 19:10:04 INFO > Storage : printAll : STAB
-2022/12/20 19:10:04 INFO > Storage : printAll : THNDER
-2022/12/20 19:10:04 INFO > Storage : printAll : C_FROZEN
-2022/12/20 19:10:04 INFO > Storage : printAll : LIGHT
-2022/12/20 19:10:04 INFO > Storage : printAll : C_ROT
-2022/12/20 19:10:04 INFO > Storage : printAll : C_SLEEP
-2022/12/20 19:10:04 INFO > Storage : printAll : DARK
-2022/12/20 19:10:04 INFO > Storage : printAll : ICE
-2022/12/20 19:10:04 INFO > Storage : printAll : AIR
-2022/12/20 19:10:04 INFO > Storage : printAll : FLAME
-2022/12/20 19:10:04 INFO > Storage : printAll : IMPACT
-2022/12/20 19:10:04 INFO > Storage : printAll : C_PARALYS
-2022/12/20 19:10:04 INFO > Storage : printAll : EVIL
-2022/12/20 19:10:04 INFO > Storage : printAll : HOLY
-2022/12/20 19:10:04 INFO > Storage : printAll : C_TRUE_MADNESS
-2022/12/20 19:10:04 INFO > Storage : printAll : C_CUT
-2022/12/20 19:10:04 INFO XMLFile [SConditionM.xml] is loaded
-2022/12/20 19:10:04 INFO > Storage : printAll : SLEEP
-2022/12/20 19:10:04 INFO > Storage : printAll : DESTROY
-2022/12/20 19:10:04 INFO > Storage : printAll : MADNESS
-2022/12/20 19:10:04 INFO > Storage : printAll : DEFENCE
-2022/12/20 19:10:04 INFO > Storage : printAll : REGENE
-2022/12/20 19:10:04 INFO > Storage : printAll : BREAK
-2022/12/20 19:10:04 INFO > Storage : printAll : SEAL
-2022/12/20 19:10:04 INFO > Storage : printAll : ESCAPED
-2022/12/20 19:10:04 INFO > Storage : printAll : CUT
-2022/12/20 19:10:04 INFO > Storage : printAll : AVOIDANCE
-2022/12/20 19:10:04 INFO > Storage : printAll : NOMAL
-2022/12/20 19:10:04 INFO > Storage : printAll : MOIST
-2022/12/20 19:10:04 INFO > Storage : printAll : TRUE_MADNESS
-2022/12/20 19:10:04 INFO > Storage : printAll : FLAME
-2022/12/20 19:10:04 INFO > Storage : printAll : BLIND
-2022/12/20 19:10:04 INFO > Storage : printAll : OIL
-2022/12/20 19:10:04 INFO > Storage : printAll : GOLDY
-2022/12/20 19:10:04 INFO > Storage : printAll : CONFUSION
-2022/12/20 19:10:04 INFO > Storage : printAll : ROT
-2022/12/20 19:10:04 INFO > Storage : printAll : POISON
-2022/12/20 19:10:04 INFO > Storage : printAll : TREE
-2022/12/20 19:10:04 INFO > Storage : printAll : PARALYS
-2022/12/20 19:10:04 INFO > Storage : printAll : DEAD
-2022/12/20 19:10:04 INFO > Storage : printAll : FROZEN
-2022/12/20 19:10:04 INFO > Storage : printAll : STONE
-2022/12/20 19:10:04 INFO > Storage : printAll : SPELLING
-2022/12/20 19:10:04 INFO > Storage : printAll : F_DARK
-2022/12/20 19:10:04 INFO > Storage : printAll : F_THNDER
-2022/12/20 19:10:04 INFO > Storage : printAll : F_ERATH
-2022/12/20 19:10:04 INFO > Storage : printAll : F_FLAME
-2022/12/20 19:10:04 INFO > Storage : printAll : F_ICE
-2022/12/20 19:10:04 INFO > Storage : printAll : F_GOLD
-2022/12/20 19:10:04 INFO > Storage : printAll : F_WIND
-2022/12/20 19:10:04 INFO > Storage : printAll : F_RAIN
-2022/12/20 19:10:04 INFO > Storage : printAll : F_NOMAL
-2022/12/20 19:10:04 INFO XMLFile [SItemSlotM.xml] is loaded
-2022/12/20 19:10:04 INFO > Storage : printAll : 頭
-2022/12/20 19:10:04 INFO > Storage : printAll : 足
-2022/12/20 19:10:04 INFO > Storage : printAll : 胴
-2022/12/20 19:10:04 INFO > Storage : printAll : 腕
-2022/12/20 19:10:04 INFO XMLFile [SBookM.xml] is loaded
-2022/12/20 19:10:04 INFO XMLFile [SRaceM.xml] is loaded
-2022/12/20 19:10:04 INFO > Storage : printAll : HUMAN
-2022/12/20 19:10:04 INFO > Storage : printAll : かたつむり
-2022/12/20 19:10:04 INFO XMLFile [SActionM.xml] is loaded
-2022/12/20 19:10:04 INFO > Storage : printAll : 鉄の剣装備
-2022/12/20 19:10:04 INFO > Storage : printAll : 条件なし
-2022/12/20 19:10:04 INFO > Storage : printAll : 頭未装備
-2022/12/20 19:10:04 INFO > Storage : printAll : 剣装備
-2022/12/20 19:10:04 INFO > Storage : printAll : 鋼の剣装備
-2022/12/20 19:10:04 INFO > Storage : printAll : 腕未装備
-2022/12/20 19:10:04 INFO > Storage : printAll : 石ころ保有
-2022/12/20 19:10:04 INFO > Storage : printAll : 腕装備
-2022/12/20 19:10:04 INFO > Storage : printAll : 火炎の書保有
-2022/12/20 19:10:04 INFO ImageUtil loaded filePath=[resource/data/image/testAnimation.png](0.6969 ms)
-2022/12/20 19:10:04 INFO > Storage : printAll : 破邪の剣
-2022/12/20 19:10:04 INFO > Storage : printAll : 石ころ
-2022/12/20 19:10:04 INFO > Storage : printAll : 漁師の非常食
-2022/12/20 19:10:04 INFO > Storage : printAll : 百名丸
-2022/12/20 19:10:04 INFO > Storage : printAll : 鉄の剣
-2022/12/20 19:10:04 INFO > Storage : printAll : 鉄のレイピア
-2022/12/20 19:10:04 INFO > Storage : printAll : いい感じの棒きれ
-2022/12/20 19:10:04 INFO > Storage : printAll : そば団子
-2022/12/20 19:10:04 INFO > Storage : printAll : 鋼の剣
-2022/12/20 19:10:04 INFO > Storage : printAll : やくそう
-2022/12/20 19:10:04 INFO > Storage : printAll : 串刺し
-2022/12/20 19:10:04 INFO > Storage : printAll : ファイアボルト
-2022/12/20 19:10:04 INFO > Storage : printAll : 天地雷鳴
-2022/12/20 19:10:04 INFO > Storage : printAll : 袈裟切り
-2022/12/20 19:10:04 INFO > Storage : printAll : 回避
-2022/12/20 19:10:04 INFO > Storage : printAll : 生命回復
-2022/12/20 19:10:04 INFO > Storage : printAll : 石ころ投擲
-2022/12/20 19:10:04 INFO > Storage : printAll : 確定
-2022/12/20 19:10:04 INFO > Storage : printAll : こぶし
-2022/12/20 19:10:04 INFO > Storage : printAll : エアスラッシュ
-2022/12/20 19:10:04 INFO > Storage : printAll : 移動
-2022/12/20 19:10:04 INFO > Storage : printAll : 回転切り
-2022/12/20 19:10:04 INFO > Storage : printAll : 状態
-2022/12/20 19:10:04 INFO > Storage : printAll : 防御
-2022/12/20 19:10:04 INFO > Storage : printAll : 逃げる
-2022/12/20 19:10:04 INFO XMLFile [SBattleFieldM.xml] is loaded
-2022/12/20 19:10:04 INFO ImageUtil loaded filePath=[resource/data/image/tree.png](0.6692 ms)
-2022/12/20 19:10:04 INFO ImageUtil loaded filePath=[resource/data/image/stone.png](0.5181 ms)
-2022/12/20 19:10:04 INFO ImageUtil loaded filePath=[resource/data/image/bf1.png](7.8482 ms)
-2022/12/20 19:10:04 INFO ImageUtil loaded filePath=[resource/data/image/c2.png](0.6329 ms)
-2022/12/20 19:10:04 INFO ImageUtil cached filePath=[resource/data/image/c2.png](0.0021 ms)
-2022/12/20 19:10:04 INFO ImageUtil cached filePath=[resource/data/image/c2.png](5.0E-4 ms)
-2022/12/20 19:10:04 INFO ImageUtil cached filePath=[resource/data/image/c2.png](4.0E-4 ms)
-2022/12/20 19:10:04 INFO XMLFile [chipSet_outer16.xml] is loaded
-2022/12/20 19:10:04 INFO ImageUtil loaded filePath=[resource/data/image/outer16.png](2.4616 ms)
-2022/12/20 19:10:04 INFO > Storage : printAll : inner16.png
-2022/12/20 19:10:04 INFO > Storage : printAll : outer16.png
-2022/12/20 19:10:04 INFO XMLFile [tss.xml] is loaded
-2022/12/20 19:10:04 INFO > Storage : printAll : 002
-2022/12/20 19:10:04 INFO > Storage : printAll : 003
-2022/12/20 19:10:04 INFO XMLFile [map02.xml] is loaded
-2022/12/20 19:10:04 INFO XMLFile [text02.xml] is loaded
-2022/12/20 19:10:04 INFO XMLFile [E02.xml] is loaded
-2022/12/20 19:10:04 INFO > Storage : printAll : 001
-2022/12/20 19:10:04 INFO > Storage : printAll : 002
-2022/12/20 19:10:04 INFO ImageUtil loaded filePath=[resource/data/image/seaChip16.png](0.6958 ms)
-2022/12/20 19:10:04 INFO ImageUtil loaded filePath=[resource/data/image/cloudeffect.png](7.1144 ms)
-2022/12/20 19:10:05 INFO temp file C:\Users\owner\AppData\Local\Temp\ktf_1093224550649607873.tmp is created
-2022/12/20 19:10:05 INFO XMLFile [E01.xml] is loaded
-2022/12/20 19:10:05 INFO ImageUtil loaded filePath=[resource/data/image/c3.png](0.624 ms)
-2022/12/20 19:10:12 INFO XMLFile [text02.xml] is loaded
-2022/12/20 19:10:12 INFO XMLFile [E02.xml] is loaded
-2022/12/20 19:10:12 INFO > Storage : printAll : 001
-2022/12/20 19:10:12 INFO > Storage : printAll : 002
-2022/12/20 19:10:15 INFO XMLFile [text02.xml] is loaded
-2022/12/20 19:10:15 INFO XMLFile [E02.xml] is loaded
-2022/12/20 19:10:15 INFO > Storage : printAll : 001
-2022/12/20 19:10:15 INFO > Storage : printAll : 002
-2022/12/20 19:10:16 INFO XMLFile [map03.xml] is loaded
-2022/12/20 19:10:16 INFO XMLFile [text03.xml] is loaded
-2022/12/20 19:10:16 INFO > Storage : printAll : 050
-2022/12/20 19:10:16 INFO > Storage : printAll : 051
-2022/12/20 19:10:16 INFO > Storage : printAll : 052
-2022/12/20 19:10:16 INFO > Storage : printAll : 053
-2022/12/20 19:10:16 INFO > Storage : printAll : 054
-2022/12/20 19:10:16 INFO > Storage : printAll : 010
-2022/12/20 19:10:16 INFO > Storage : printAll : 011
-2022/12/20 19:10:16 INFO > Storage : printAll : 055
-2022/12/20 19:10:16 INFO > Storage : printAll : 012
-2022/12/20 19:10:16 INFO > Storage : printAll : 056
-2022/12/20 19:10:16 INFO > Storage : printAll : 013
-2022/12/20 19:10:16 INFO > Storage : printAll : 057
-2022/12/20 19:10:16 INFO > Storage : printAll : 058
-2022/12/20 19:10:16 INFO > Storage : printAll : 014
-2022/12/20 19:10:16 INFO > Storage : printAll : 015
-2022/12/20 19:10:16 INFO > Storage : printAll : 059
-2022/12/20 19:10:16 INFO > Storage : printAll : 016
-2022/12/20 19:10:16 INFO > Storage : printAll : 017
-2022/12/20 19:10:16 INFO > Storage : printAll : 018
-2022/12/20 19:10:16 INFO > Storage : printAll : 019
-2022/12/20 19:10:16 INFO > Storage : printAll : 060
-2022/12/20 19:10:16 INFO > Storage : printAll : 061
-2022/12/20 19:10:16 INFO > Storage : printAll : 062
-2022/12/20 19:10:16 INFO > Storage : printAll : 063
-2022/12/20 19:10:16 INFO > Storage : printAll : 064
-2022/12/20 19:10:16 INFO > Storage : printAll : 020
-2022/12/20 19:10:16 INFO > Storage : printAll : 021
-2022/12/20 19:10:16 INFO > Storage : printAll : 065
-2022/12/20 19:10:16 INFO > Storage : printAll : 066
-2022/12/20 19:10:16 INFO > Storage : printAll : 022
-2022/12/20 19:10:16 INFO > Storage : printAll : 001
-2022/12/20 19:10:16 INFO > Storage : printAll : 067
-2022/12/20 19:10:16 INFO > Storage : printAll : 002
-2022/12/20 19:10:16 INFO > Storage : printAll : 003
-2022/12/20 19:10:16 INFO > Storage : printAll : 004
-2022/12/20 19:10:16 INFO > Storage : printAll : 005
-2022/12/20 19:10:16 INFO > Storage : printAll : 007
-2022/12/20 19:10:16 INFO > Storage : printAll : 008
-2022/12/20 19:10:16 INFO > Storage : printAll : 009
-2022/12/20 19:10:16 INFO XMLFile [E03.xml] is loaded
-2022/12/20 19:10:16 INFO XMLFile [E04.xml] is loaded
-2022/12/20 19:10:16 INFO XMLFile [E04.xml] is loaded
-2022/12/20 19:10:16 INFO XMLFile [E05.xml] is loaded
-2022/12/20 19:10:16 INFO XMLFile [E06.xml] is loaded
-2022/12/20 19:10:16 INFO XMLFile [E04.xml] is loaded
-2022/12/20 19:10:16 INFO ImageUtil cached filePath=[resource/data/image/c3.png](8.0E-4 ms)
-2022/12/20 19:10:18 INFO XMLFile [text03.xml] is loaded
-2022/12/20 19:10:18 INFO > Storage : printAll : 050
-2022/12/20 19:10:18 INFO > Storage : printAll : 051
-2022/12/20 19:10:18 INFO > Storage : printAll : 052
-2022/12/20 19:10:18 INFO > Storage : printAll : 053
-2022/12/20 19:10:18 INFO > Storage : printAll : 054
-2022/12/20 19:10:18 INFO > Storage : printAll : 010
-2022/12/20 19:10:18 INFO > Storage : printAll : 011
-2022/12/20 19:10:18 INFO > Storage : printAll : 055
-2022/12/20 19:10:18 INFO > Storage : printAll : 012
-2022/12/20 19:10:18 INFO > Storage : printAll : 056
-2022/12/20 19:10:18 INFO > Storage : printAll : 013
-2022/12/20 19:10:18 INFO > Storage : printAll : 057
-2022/12/20 19:10:18 INFO > Storage : printAll : 058
-2022/12/20 19:10:18 INFO > Storage : printAll : 014
-2022/12/20 19:10:18 INFO > Storage : printAll : 015
-2022/12/20 19:10:18 INFO > Storage : printAll : 059
-2022/12/20 19:10:18 INFO > Storage : printAll : 016
-2022/12/20 19:10:18 INFO > Storage : printAll : 017
-2022/12/20 19:10:18 INFO > Storage : printAll : 018
-2022/12/20 19:10:18 INFO > Storage : printAll : 019
-2022/12/20 19:10:18 INFO > Storage : printAll : 060
-2022/12/20 19:10:18 INFO > Storage : printAll : 061
-2022/12/20 19:10:18 INFO > Storage : printAll : 062
-2022/12/20 19:10:18 INFO > Storage : printAll : 063
-2022/12/20 19:10:18 INFO > Storage : printAll : 064
-2022/12/20 19:10:18 INFO > Storage : printAll : 020
-2022/12/20 19:10:18 INFO > Storage : printAll : 021
-2022/12/20 19:10:18 INFO > Storage : printAll : 065
-2022/12/20 19:10:18 INFO > Storage : printAll : 066
-2022/12/20 19:10:18 INFO > Storage : printAll : 022
-2022/12/20 19:10:18 INFO > Storage : printAll : 001
-2022/12/20 19:10:18 INFO > Storage : printAll : 067
-2022/12/20 19:10:18 INFO > Storage : printAll : 002
-2022/12/20 19:10:18 INFO > Storage : printAll : 003
-2022/12/20 19:10:18 INFO > Storage : printAll : 004
-2022/12/20 19:10:18 INFO > Storage : printAll : 005
-2022/12/20 19:10:18 INFO > Storage : printAll : 007
-2022/12/20 19:10:18 INFO > Storage : printAll : 008
-2022/12/20 19:10:18 INFO > Storage : printAll : 009
-2022/12/20 19:10:28 INFO XMLFile [text03.xml] is loaded
-2022/12/20 19:10:28 INFO > Storage : printAll : 050
-2022/12/20 19:10:28 INFO > Storage : printAll : 051
-2022/12/20 19:10:28 INFO > Storage : printAll : 052
-2022/12/20 19:10:28 INFO > Storage : printAll : 053
-2022/12/20 19:10:28 INFO > Storage : printAll : 054
-2022/12/20 19:10:28 INFO > Storage : printAll : 010
-2022/12/20 19:10:28 INFO > Storage : printAll : 011
-2022/12/20 19:10:28 INFO > Storage : printAll : 055
-2022/12/20 19:10:28 INFO > Storage : printAll : 012
-2022/12/20 19:10:28 INFO > Storage : printAll : 056
-2022/12/20 19:10:28 INFO > Storage : printAll : 013
-2022/12/20 19:10:28 INFO > Storage : printAll : 057
-2022/12/20 19:10:28 INFO > Storage : printAll : 058
-2022/12/20 19:10:28 INFO > Storage : printAll : 014
-2022/12/20 19:10:28 INFO > Storage : printAll : 015
-2022/12/20 19:10:28 INFO > Storage : printAll : 059
-2022/12/20 19:10:28 INFO > Storage : printAll : 016
-2022/12/20 19:10:28 INFO > Storage : printAll : 017
-2022/12/20 19:10:28 INFO > Storage : printAll : 018
-2022/12/20 19:10:28 INFO > Storage : printAll : 019
-2022/12/20 19:10:28 INFO > Storage : printAll : 060
-2022/12/20 19:10:28 INFO > Storage : printAll : 061
-2022/12/20 19:10:28 INFO > Storage : printAll : 062
-2022/12/20 19:10:28 INFO > Storage : printAll : 063
-2022/12/20 19:10:28 INFO > Storage : printAll : 064
-2022/12/20 19:10:28 INFO > Storage : printAll : 020
-2022/12/20 19:10:28 INFO > Storage : printAll : 021
-2022/12/20 19:10:28 INFO > Storage : printAll : 065
-2022/12/20 19:10:28 INFO > Storage : printAll : 066
-2022/12/20 19:10:28 INFO > Storage : printAll : 022
-2022/12/20 19:10:28 INFO > Storage : printAll : 001
-2022/12/20 19:10:28 INFO > Storage : printAll : 067
-2022/12/20 19:10:28 INFO > Storage : printAll : 002
-2022/12/20 19:10:28 INFO > Storage : printAll : 003
-2022/12/20 19:10:28 INFO > Storage : printAll : 004
-2022/12/20 19:10:28 INFO > Storage : printAll : 005
-2022/12/20 19:10:28 INFO > Storage : printAll : 007
-2022/12/20 19:10:28 INFO > Storage : printAll : 008
-2022/12/20 19:10:28 INFO > Storage : printAll : 009
-2022/12/20 19:10:54 INFO lockFile:.\KLOCK_1988553300191523288.lck is deleted
-2022/12/20 19:10:54 INFO TempFileStorage : all temp file is deleted
+2023/05/03 21:22:14 INFO this is D:/Project/FuzzyWorld1/
+2023/05/03 21:22:14 INFO translate\ja.ini
+2023/05/03 21:22:14 INFO LOAD_GAME=つづきから
+2023/05/03 21:22:14 INFO ORDER_SELECT=前列／後列を設定
+2023/05/03 21:22:14 INFO CAN_USE_FIELD=このアイテムはフィールド上で使用できる
+2023/05/03 21:22:14 INFO FRONT=前列
+2023/05/03 21:22:14 INFO DISASSEMBLY=解体
+2023/05/03 21:22:14 INFO NO_TARGET=効果範囲内に対象がいない
+2023/05/03 21:22:14 INFO ACTION_EFFECT=基礎威力
+2023/05/03 21:22:14 INFO NODAMAGE=ダメージを受けなかった！！
+2023/05/03 21:22:14 INFO NONE=なし
+2023/05/03 21:22:14 INFO TOMAGISHUT=漁師の小屋
+2023/05/03 21:22:14 INFO GAME_PAD_TEST=コントローラーテスト
+2023/05/03 21:22:14 INFO CURRENT_CONDITION=発生中の効果
+2023/05/03 21:22:14 INFO CAN_USE_BATTLE=このアイテムは戦闘中に使用できる
+2023/05/03 21:22:14 INFO IF_DISASSEMBLY_GET=解体すると以下の素材を得られる
+2023/05/03 21:22:14 INFO FIELD=フィールド
+2023/05/03 21:22:14 INFO ATTR_DOWN=耐性が下がった！
+2023/05/03 21:22:14 INFO IS=は
+2023/05/03 21:22:14 INFO NEW_GAME=はじめから
+2023/05/03 21:22:14 INFO SURVEY=調べる
+2023/05/03 21:22:14 INFO REMOVE_CDNTION=から回復した
+2023/05/03 21:22:14 INFO ACTION_ATTR=属性
+2023/05/03 21:22:14 INFO ITEM=道具
+2023/05/03 21:22:14 INFO PASS=渡す
+2023/05/03 21:22:14 INFO HEALDAMAGE=回復した！！
+2023/05/03 21:22:14 INFO SHORTAGE=が足りない
+2023/05/03 21:22:14 INFO CHECK=調べる
+2023/05/03 21:22:14 INFO ATTR_UP=耐性が上がった！
+2023/05/03 21:22:14 INFO MAP=地図
+2023/05/03 21:22:14 INFO WMT=武器種類
+2023/05/03 21:22:14 INFO CHAPTER2_SUBTITLE=記憶喪失の男
+2023/05/03 21:22:14 INFO DCT_DIRECT=直接計算方式
+2023/05/03 21:22:14 INFO WHO_WILL_HOLD_IT=誰が持つ？
+2023/05/03 21:22:14 INFO SPECIAL_ATTACK=特技
+2023/05/03 21:22:14 INFO CAN_HAVE=あとn個持てる
+2023/05/03 21:22:14 INFO PASSED=を渡した
+2023/05/03 21:22:14 INFO NO_EFFECT=効果がなかった
+2023/05/03 21:22:14 INFO CHANGE_ATTR=属性値変更
+2023/05/03 21:22:14 INFO P=確率
+2023/05/03 21:22:14 INFO ORDER=隊列
+2023/05/03 21:22:14 INFO S=の
+2023/05/03 21:22:14 INFO WAS_DISASSEMBLY=を解体した
+2023/05/03 21:22:14 INFO ARE_YOU_SURE_EXIT=本当に終了しますか？
+2023/05/03 21:22:14 INFO REMOVE_CONDITION=状態異常cを回復する
+2023/05/03 21:22:14 INFO SKIP=スキップ
+2023/05/03 21:22:14 INFO TURN=ターン
+2023/05/03 21:22:14 INFO SAVE=保存
+2023/05/03 21:22:14 INFO WAS_DROP=を捨てた
+2023/05/03 21:22:14 INFO MATERIAL=素材
+2023/05/03 21:22:14 INFO BUT=しかし
+2023/05/03 21:22:14 INFO CANT_ESCAPE=戦闘エリアの中心にいては逃げられない！！
+2023/05/03 21:22:14 INFO ISESCAPE=は逃げ出した！！
+2023/05/03 21:22:14 INFO APPEARANCE=体現れた！！
+2023/05/03 21:22:14 INFO TARGET_SELECT=ターゲット選択
+2023/05/03 21:22:14 INFO GAMEPAD_NOTFOUND=コントローラは有効化されていません。コントローラを使う場合はゲームを再起動してください。
+2023/05/03 21:22:14 INFO PLEASE_NAME=今回の介入者の名前は？
+2023/05/03 21:22:14 INFO USE=使う
+2023/05/03 21:22:14 INFO SCREEN_SHOT=スクリーンショットの保存
+2023/05/03 21:22:14 INFO IS_EQIP=を装備した
+2023/05/03 21:22:14 INFO OPEN=開く
+2023/05/03 21:22:14 INFO USE_ITEM=を使った
+2023/05/03 21:22:14 INFO OTHER=行動
+2023/05/03 21:22:14 INFO WAS_EQIP=をすでに装備している
+2023/05/03 21:22:14 INFO SUB_TITLE=魔法使いと不死の秘術
+2023/05/03 21:22:14 INFO SUBMIT=決定
+2023/05/03 21:22:14 INFO SPELLTIME=詠唱時間
+2023/05/03 21:22:14 INFO TO=に
+2023/05/03 21:22:14 INFO MENU=メニュー
+2023/05/03 21:22:14 INFO CANT_MOVE=動けなかった！！
+2023/05/03 21:22:14 INFO TARGET=対象
+2023/05/03 21:22:14 INFO BEACH=海岸
+2023/05/03 21:22:14 INFO ACTION_COUNT=この武器はn回攻撃できる
+2023/05/03 21:22:14 INFO NO_ITEM=アイテムを持っていない
+2023/05/03 21:22:14 INFO CAN_UPGRADE=あとn回強化できる
+2023/05/03 21:22:14 INFO CONFU_STOP=混乱して動けなかった！
+2023/05/03 21:22:14 INFO NOT_EQIP=は装備できない
+2023/05/03 21:22:14 INFO REALLY_DISASSEMBLY=本当に解体する？
+2023/05/03 21:22:14 INFO THIS_ITEM_CANT_UPGRADE=このアイテムは強化できない
+2023/05/03 21:22:14 INFO NOTHING_ITEM=何も持っていない
+2023/05/03 21:22:14 INFO TALK=話す
+2023/05/03 21:22:14 INFO VALUE=価値
+2023/05/03 21:22:14 INFO ADD_CONDITION=状態異常cを付与する
+2023/05/03 21:22:14 INFO CHAPTER1=序章
+2023/05/03 21:22:14 INFO INFO=情報
+2023/05/03 21:22:14 INFO CHAPTER2=第一章
+2023/05/03 21:22:14 INFO IS_CONFU=混乱している！
+2023/05/03 21:22:14 INFO STATUS=状態
+2023/05/03 21:22:14 INFO AREA=範囲
+2023/05/03 21:22:14 INFO RESET_ITEM=を持ち替えた
+2023/05/03 21:22:14 INFO NOTHING_MAGIC=使える魔法はない
+2023/05/03 21:22:14 INFO GOLDEN_RECORD=金の円盤にしたがって世界を正せ
+2023/05/03 21:22:14 INFO SPELL_END=の詠唱を終了した！！
+2023/05/03 21:22:14 INFO AVOIDANCE=回避に専念した！
+2023/05/03 21:22:14 INFO BATTLE_ACTION=戦闘中効果
+2023/05/03 21:22:14 INFO PAGE=術式
+2023/05/03 21:22:14 INFO DCT_USE_DAMAGE_CALC=ダメージ計算方式
+2023/05/03 21:22:14 INFO DCT_PERCENT_OF_MAX=最大値計算方式
+2023/05/03 21:22:14 INFO DAMAGE=ダメージ
+2023/05/03 21:22:14 INFO ITEM_DROP=を失った
+2023/05/03 21:22:14 INFO REMOVE_EQUP=を外した
+2023/05/03 21:22:14 INFO THIS_ITEM_CANT_DISASSE=このアイテムは解体できない
+2023/05/03 21:22:14 INFO DCS=ダメージ計算ステータス
+2023/05/03 21:22:14 INFO CHAPTER1_SUBTITLE=介入者
+2023/05/03 21:22:14 INFO CANT_USE_FIELD=この魔法はフィールドでは使えない
+2023/05/03 21:22:14 INFO ISMOVE=は移動した！
+2023/05/03 21:22:14 INFO ITEM_ADD=アイテムiを入手する
+2023/05/03 21:22:14 INFO GET_PAGE=枚手に入れた
+2023/05/03 21:22:14 INFO GIVE_UP=諦める
+2023/05/03 21:22:14 INFO WHO_DO_PASS=を誰に渡す？
+2023/05/03 21:22:14 INFO NO=いや
+2023/05/03 21:22:14 INFO MONEY=所持金
+2023/05/03 21:22:14 INFO WHATDO=どうする
+2023/05/03 21:22:14 INFO WHO_DO_USE=を誰に使う？
+2023/05/03 21:22:14 INFO YES=ああ
+2023/05/03 21:22:14 INFO WAS=が
+2023/05/03 21:22:14 INFO GAME_EXIT=おわる
+2023/05/03 21:22:14 INFO CANT_HAVE=これ以上物を持てない
+2023/05/03 21:22:14 INFO OF_WHAT=により
+2023/05/03 21:22:14 INFO COMPOSITE=合成
+2023/05/03 21:22:14 INFO DROP=捨てる
+2023/05/03 21:22:14 INFO RETURN=戻る
+2023/05/03 21:22:14 INFO DEFENCE=防御に専念した！
+2023/05/03 21:22:14 INFO ITEM_USE=道具
+2023/05/03 21:22:14 INFO FIELD_ACTION=フィールド効果
+2023/05/03 21:22:14 INFO MAGIC=魔術
+2023/05/03 21:22:14 INFO OF=を
+2023/05/03 21:22:14 INFO MISS=ミス！
+2023/05/03 21:22:14 INFO SPELL_START=の詠唱を開始した！！
+2023/05/03 21:22:14 INFO SLOT=部位
+2023/05/03 21:22:14 INFO REALLY_DROP=を本当に捨てる？
+2023/05/03 21:22:14 INFO CONFIRM=確認
+2023/05/03 21:22:14 INFO NO_NPC=その方向にはダレモイナイ
+2023/05/03 21:22:14 INFO DCT_PERCENT_OF_NOW=現在値計算方式
+2023/05/03 21:22:14 INFO ISFAILED=は失敗した！！
+2023/05/03 21:22:14 INFO ITEM_LOST=アイテムiを失う
+2023/05/03 21:22:14 INFO CANT_USE_BATTLE=この魔法は戦闘中は使えない
+2023/05/03 21:22:14 INFO IS_GET=を手に入れた
+2023/05/03 21:22:14 INFO ATTR=有効度
+2023/05/03 21:22:14 INFO EQIP=装備
+2023/05/03 21:22:14 INFO ACTION=戦闘中の行動
+2023/05/03 21:22:14 INFO MOVE=移動
+2023/05/03 21:22:14 INFO USE_MAGIC=を詠唱した
+2023/05/03 21:22:14 INFO BOOK=魔術書
+2023/05/03 21:22:14 INFO CANT_SALE=このアイテムは売ったり捨てたりできない
+2023/05/03 21:22:14 INFO ATTACK=攻撃
+2023/05/03 21:22:14 INFO BACK=後列
+2023/05/03 21:22:14 INFO S_PAGE=の術式のページ
+2023/05/03 21:22:14 INFO MUSIC_ROOM=ミュージックルーム
+2023/05/03 21:22:14 INFO ROOM=部屋
+2023/05/03 21:22:14 INFO lockFile:.\KLOCK_11256320640993151720.lck is created
+2023/05/03 21:22:14 INFO Fuzzy World is start
+2023/05/03 21:22:14 INFO CachedSound is loaded name=[効果音＿選択1.wav](88.2496 ms)
+2023/05/03 21:22:14 INFO CachedSound is loaded name=[フィールド３.wav](31.5218 ms)
+2023/05/03 21:22:22 INFO CachedSound : [気怠い探偵.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [灼熱の地獄.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [作戦会議.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [氷のダンジョン.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [妖精の森.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [バトル1（リメイク）＿古.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [普通な感じの街.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [とてものどかな村.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [さわやかな冒険.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [バトル１（新）.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [バトル２（新）.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [のどかな村.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [夢の世界.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [廃れた都市.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [大ボス.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [神殿.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [バトル1（リメイク）.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [ラストダンジョン.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [変質者のテーマ.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [世界の真相.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [睨み合い.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [静寂空間.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [決意.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [残酷な運命.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [工業都市.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [静かなる決意.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [不気味なダンジョン.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [探検.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [まあいいか.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [デジタル空間.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [不思議な森.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [洞窟.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [シューティング・ステージ３.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [風の魔法使いのテーマ.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [愉快または間抜け.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [ボーナスゲーム.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [フィールド２.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [シューティング・ステージ１.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [小ボス.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [異形のものとの戦い.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [厳かなダンジョン.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [エスニック・プレース.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [シューティング・ステージ２.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [バトル１（旧）.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [怪しい取引.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [明るいダンジョン.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [明るい街.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [歴史ある街.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [刻一刻.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [変な村.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [風の魔法使いの戦い.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [おぞましい真実.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [悪の軍団.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [フィールド３.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [眠らない大都会.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [エンディング.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [大ボス_古.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [天空の魔法都市.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [師匠とのイベント戦.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [結末.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [王都.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [お祭りの町.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [奇襲攻撃！.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [軍事作戦.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [ユニークな街.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [フィールド.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [変質者との戦い.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [中ボス.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [知的探求.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [魔力の間.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [フィールド５.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [シューティング・ステージ４.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [疑い.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound : [軍事作戦２.wav] : is disposed
+2023/05/03 21:22:22 INFO CachedSound is loaded name=[フィールド３.wav](30.9253 ms)
+2023/05/03 21:23:00 INFO CachedSound : [気怠い探偵.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [灼熱の地獄.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [作戦会議.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [氷のダンジョン.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [妖精の森.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [バトル1（リメイク）＿古.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [普通な感じの街.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [とてものどかな村.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [さわやかな冒険.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [バトル１（新）.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [バトル２（新）.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [のどかな村.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [夢の世界.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [廃れた都市.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [大ボス.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [神殿.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [バトル1（リメイク）.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [ラストダンジョン.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [変質者のテーマ.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [世界の真相.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [睨み合い.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [静寂空間.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [決意.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [残酷な運命.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [工業都市.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [静かなる決意.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [不気味なダンジョン.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [探検.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [まあいいか.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [デジタル空間.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [不思議な森.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [洞窟.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [シューティング・ステージ３.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [風の魔法使いのテーマ.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [愉快または間抜け.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [ボーナスゲーム.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [フィールド２.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [シューティング・ステージ１.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [小ボス.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [異形のものとの戦い.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [厳かなダンジョン.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [エスニック・プレース.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [シューティング・ステージ２.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [バトル１（旧）.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [怪しい取引.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [明るいダンジョン.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [明るい街.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [歴史ある街.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [刻一刻.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [変な村.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [風の魔法使いの戦い.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [おぞましい真実.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [悪の軍団.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [フィールド３.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [眠らない大都会.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [エンディング.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [大ボス_古.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [天空の魔法都市.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [師匠とのイベント戦.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [結末.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [王都.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [お祭りの町.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [奇襲攻撃！.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [軍事作戦.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [ユニークな街.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [フィールド.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [変質者との戦い.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [中ボス.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [知的探求.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [魔力の間.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [フィールド５.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [シューティング・ステージ４.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [疑い.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound : [軍事作戦２.wav] : is disposed
+2023/05/03 21:23:00 INFO CachedSound is loaded name=[フィールド３.wav](30.5422 ms)
+2023/05/03 21:23:08 INFO CachedSound : [気怠い探偵.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [灼熱の地獄.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [作戦会議.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [氷のダンジョン.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [妖精の森.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [バトル1（リメイク）＿古.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [普通な感じの街.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [とてものどかな村.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [さわやかな冒険.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [バトル１（新）.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [バトル２（新）.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [のどかな村.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [夢の世界.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [廃れた都市.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [大ボス.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [神殿.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [バトル1（リメイク）.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [ラストダンジョン.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [変質者のテーマ.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [世界の真相.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [睨み合い.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [静寂空間.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [決意.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [残酷な運命.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [工業都市.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [静かなる決意.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [不気味なダンジョン.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [探検.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [まあいいか.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [デジタル空間.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [不思議な森.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [洞窟.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [シューティング・ステージ３.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [風の魔法使いのテーマ.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [愉快または間抜け.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [ボーナスゲーム.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [フィールド２.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [シューティング・ステージ１.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [小ボス.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [異形のものとの戦い.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [厳かなダンジョン.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [エスニック・プレース.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [シューティング・ステージ２.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [バトル１（旧）.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [怪しい取引.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [明るいダンジョン.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [明るい街.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [歴史ある街.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [刻一刻.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [変な村.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [風の魔法使いの戦い.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [おぞましい真実.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [悪の軍団.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [フィールド３.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [眠らない大都会.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [エンディング.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [大ボス_古.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [天空の魔法都市.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [師匠とのイベント戦.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [結末.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [王都.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [お祭りの町.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [奇襲攻撃！.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [軍事作戦.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [ユニークな街.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [フィールド.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [変質者との戦い.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [中ボス.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [知的探求.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [魔力の間.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [フィールド５.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [シューティング・ステージ４.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [疑い.wav] : is disposed
+2023/05/03 21:23:08 INFO CachedSound : [軍事作戦２.wav] : is disposed
+2023/05/03 21:23:12 INFO XMLFile [chipAttr.xml] is loaded
+2023/05/03 21:23:12 INFO XMLFile [vehicle.xml] is loaded
+2023/05/03 21:23:12 INFO XMLFile [chipSet_inner16.xml] is loaded
+2023/05/03 21:23:12 INFO ImageUtil loaded filePath=[resource/data/image/inner16.png](6.8526 ms)
+2023/05/03 21:23:12 INFO XMLFile [fms.xml] is loaded
+2023/05/03 21:23:12 INFO XMLFile [map01.xml] is loaded
+2023/05/03 21:23:12 INFO ImageUtil loaded filePath=[resource/data/image/darkeffect.png](9.4598 ms)
+2023/05/03 21:23:12 INFO temp file C:\Users\owner\AppData\Local\Temp\ktf_4636030837956168766.tmp is created
+2023/05/03 21:23:12 INFO ImageUtil loaded filePath=[resource/data/image/unknown.png](0.5929 ms)
+2023/05/03 21:23:22 INFO XMLFile [SWMTM.xml] is loaded
+2023/05/03 21:23:22 INFO XMLFile [SStatusM.xml] is loaded
+2023/05/03 21:23:22 INFO XMLFile [SAttrM.xml] is loaded
+2023/05/03 21:23:23 INFO XMLFile [SConditionM.xml] is loaded
+2023/05/03 21:23:23 INFO XMLFile [SItemSlotM.xml] is loaded
+2023/05/03 21:23:23 INFO XMLFile [SBookM.xml] is loaded
+2023/05/03 21:23:23 INFO XMLFile [SRaceM.xml] is loaded
+2023/05/03 21:23:23 INFO XMLFile [SActionM.xml] is loaded
+2023/05/03 21:23:23 INFO ImageUtil loaded filePath=[resource/data/image/testAnimation.png](0.4957 ms)
+2023/05/03 21:23:23 INFO XMLFile [SBattleFieldM.xml] is loaded
+2023/05/03 21:23:23 INFO ImageUtil loaded filePath=[resource/data/image/tree.png](0.5333 ms)
+2023/05/03 21:23:23 INFO ImageUtil loaded filePath=[resource/data/image/stone.png](0.3938 ms)
+2023/05/03 21:23:23 INFO ImageUtil loaded filePath=[resource/data/image/bf1.png](7.8817 ms)
+2023/05/03 21:23:23 INFO ImageUtil loaded filePath=[resource/data/image/c2.png](0.5418 ms)
+2023/05/03 21:23:23 INFO ImageUtil cached filePath=[resource/data/image/c2.png](0.0018 ms)
+2023/05/03 21:23:23 INFO ImageUtil cached filePath=[resource/data/image/c2.png](4.0E-4 ms)
+2023/05/03 21:23:23 INFO ImageUtil cached filePath=[resource/data/image/c2.png](4.0E-4 ms)
+2023/05/03 21:23:23 INFO XMLFile [chipSet_outer16.xml] is loaded
+2023/05/03 21:23:23 INFO ImageUtil loaded filePath=[resource/data/image/outer16.png](1.9337 ms)
+2023/05/03 21:23:23 INFO XMLFile [tss.xml] is loaded
+2023/05/03 21:23:23 INFO XMLFile [map02.xml] is loaded
+2023/05/03 21:23:23 INFO XMLFile [text02.xml] is loaded
+2023/05/03 21:23:23 INFO XMLFile [E002.xml] is loaded
+2023/05/03 21:23:23 INFO ImageUtil loaded filePath=[resource/data/image/seaChip16.png](0.5051 ms)
+2023/05/03 21:23:23 INFO ImageUtil loaded filePath=[resource/data/image/cloudeffect.png](3.7205 ms)
+2023/05/03 21:23:24 INFO temp file C:\Users\owner\AppData\Local\Temp\ktf_7018858287429153510.tmp is created
+2023/05/03 21:23:24 INFO XMLFile [E001.xml] is loaded
+2023/05/03 21:23:24 INFO ImageUtil loaded filePath=[resource/data/image/c3.png](0.846 ms)
+2023/05/03 21:23:24 INFO start event : FieldEvent{name=E_01_0, order=0, location=D2Idx{x=31, y=35}, eventType=DISABLE_OPERATION, storageName=null, targetName=null, value=null, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:24 INFO ->done
+2023/05/03 21:23:24 INFO start event : FieldEvent{name=E_01_1, order=1, location=D2Idx{x=31, y=35}, eventType=STOP_ALL_SOUND, storageName=BGM, targetName=null, value=null, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:24 INFO ->done
+2023/05/03 21:23:24 INFO start event : FieldEvent{name=E_01_2, order=2, location=D2Idx{x=31, y=35}, eventType=PLAY_SOUND, storageName=BGM, targetName=フィールド５.wav, value=null, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:24 INFO CachedSound is loaded name=[フィールド５.wav](36.8493 ms)
+2023/05/03 21:23:24 INFO ->done
+2023/05/03 21:23:24 INFO start event : FieldEvent{name=E_01_3, order=10, location=D2Idx{x=31, y=35}, eventType=WAIT, storageName=, targetName=, value=180, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:24 INFO ->done
+2023/05/03 21:23:27 INFO start event : FieldEvent{name=E_01_4, order=20, location=D2Idx{x=31, y=35}, eventType=NPC_MOVE_AND_WAIT_THAT, storageName=, targetName=NPC02, value=30,35, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:27 INFO ->done
+2023/05/03 21:23:30 INFO start event : FieldEvent{name=E_01_5, order=30, location=D2Idx{x=31, y=35}, eventType=NPC_LOCK_LOCATION, storageName=, targetName=NPC02, value=, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:30 INFO ->done
+2023/05/03 21:23:30 INFO start event : FieldEvent{name=E_01_6, order=40, location=D2Idx{x=31, y=35}, eventType=SHOW_MESSAGE_FROM_TEXTSTORAGE, storageName=002, targetName=, value=001, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:30 INFO XMLFile [text02.xml] is loaded
+2023/05/03 21:23:30 INFO XMLFile [E002.xml] is loaded
+2023/05/03 21:23:30 INFO ->done
+2023/05/03 21:23:31 INFO start event : FieldEvent{name=001_0, order=0, location=null, eventType=DISABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:31 INFO ->done
+2023/05/03 21:23:31 INFO start event : FieldEvent{name=001_1, order=10, location=null, eventType=WAIT, storageName=, targetName=, value=120, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:31 INFO ->done
+2023/05/03 21:23:33 INFO start event : FieldEvent{name=001_2, order=20, location=null, eventType=NPC_DIR_TO, storageName=, targetName=NPC02, value=NORTH, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:33 INFO ->done
+2023/05/03 21:23:33 INFO start event : FieldEvent{name=001_3, order=30, location=null, eventType=SHOW_MESSAGE_FROM_TEXTSTORAGE, storageName=002, targetName=, value=002, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:33 INFO XMLFile [text02.xml] is loaded
+2023/05/03 21:23:33 INFO XMLFile [E002.xml] is loaded
+2023/05/03 21:23:33 INFO ->done
+2023/05/03 21:23:35 INFO start event : FieldEvent{name=001_4, order=40, location=null, eventType=FADE_OUT, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:35 INFO ->done
+2023/05/03 21:23:36 INFO start event : FieldEvent{name=001_5, order=50, location=null, eventType=SET_QUEST_LINE, storageName=, targetName=MAIN, value=1, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:36 INFO ->done
+2023/05/03 21:23:36 INFO start event : FieldEvent{name=001_6, order=100, location=null, eventType=CHANGE_MAP, storageName=, targetName=TOMAGISHUT, value=9,2, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:36 INFO ->done
+2023/05/03 21:23:36 INFO XMLFile [map03.xml] is loaded
+2023/05/03 21:23:36 INFO XMLFile [text03.xml] is loaded
+2023/05/03 21:23:36 INFO XMLFile [E003.xml] is loaded
+2023/05/03 21:23:36 INFO XMLFile [E007.xml] is loaded
+2023/05/03 21:23:36 INFO XMLFile [E004.xml] is loaded
+2023/05/03 21:23:36 INFO XMLFile [E005.xml] is loaded
+2023/05/03 21:23:36 INFO XMLFile [E006.xml] is loaded
+2023/05/03 21:23:36 INFO XMLFile [E004.xml] is loaded
+2023/05/03 21:23:36 INFO ImageUtil cached filePath=[resource/data/image/c3.png](8.0E-4 ms)
+2023/05/03 21:23:36 INFO start event : FieldEvent{name=E_03_0, order=100, location=D2Idx{x=9, y=2}, eventType=PC_DIR_TO, storageName=, targetName=0, value=WEST, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:36 INFO ->done
+2023/05/03 21:23:36 INFO start event : FieldEvent{name=E_03_1, order=110, location=D2Idx{x=9, y=2}, eventType=WAIT, storageName=, targetName=, value=60, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:36 INFO ->done
+2023/05/03 21:23:37 INFO start event : FieldEvent{name=E_03_2, order=120, location=D2Idx{x=9, y=2}, eventType=FADE_IN, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:37 INFO ->done
+2023/05/03 21:23:38 INFO start event : FieldEvent{name=E_03_3, order=130, location=D2Idx{x=9, y=2}, eventType=SHOW_MESSAGE_FROM_TEXTSTORAGE, storageName=003, targetName=, value=001, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:38 INFO XMLFile [text03.xml] is loaded
+2023/05/03 21:23:38 INFO ->done
+2023/05/03 21:23:46 INFO start event : FieldEvent{name=E_03_4, order=140, location=D2Idx{x=9, y=2}, eventType=NPC_MOVE_AND_WAIT_THAT, storageName=, targetName=NPC02, value=1,11, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:46 INFO ->done
+2023/05/03 21:23:49 INFO start event : FieldEvent{name=E_03_5, order=160, location=D2Idx{x=9, y=2}, eventType=FADE_OUT, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:49 INFO ->done
+2023/05/03 21:23:50 INFO start event : FieldEvent{name=E_03_6, order=170, location=D2Idx{x=9, y=2}, eventType=WAIT, storageName=, targetName=, value=60, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:50 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_7, order=172, location=D2Idx{x=9, y=2}, eventType=ADD_ITEM, storageName=null, targetName=0, value=庶民の服, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_8, order=173, location=D2Idx{x=9, y=2}, eventType=ADD_ITEM, storageName=null, targetName=0, value=庶民の靴, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_9, order=174, location=D2Idx{x=9, y=2}, eventType=EQIP_ITEM, storageName=null, targetName=0, value=庶民の服, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_10, order=175, location=D2Idx{x=9, y=2}, eventType=EQIP_ITEM, storageName=null, targetName=0, value=庶民の靴, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_29, order=205, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_POISON, value=0.9, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_30, order=206, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_FLAME, value=0.9, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_31, order=207, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_FROZEN, value=0.9, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_32, order=208, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_BLIND, value=0.9, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_33, order=209, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_SEAL, value=0.9, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_22, order=211, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,HOLY, value=1, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_21, order=211, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,DARK, value=1, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_12, order=211, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,STAB, value=1, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_11, order=211, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,CHOP, value=1, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_23, order=212, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,MYSTERY, value=1, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_13, order=212, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,IMPACT, value=1, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_24, order=213, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,EVIL, value=1, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_14, order=213, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,FLAME, value=1, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_25, order=214, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,NONE, value=1, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_15, order=214, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,ICE, value=1, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_26, order=215, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,ALCHEMY, value=1, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_16, order=215, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,WATER, value=1, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_27, order=216, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,SPIRIT, value=1, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_17, order=216, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,THNDER, value=1, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_28, order=217, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,SPACE_TIME, value=1, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_18, order=217, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,AIR, value=1, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_19, order=218, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,EARTH, value=1, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_20, order=219, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,LIGHT, value=1, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_35, order=220, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_PARALYS, value=0.9, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_34, order=220, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_SLEEP, value=0.9, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_36, order=222, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_CONFUSION, value=0.9, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_37, order=223, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_MADNESS, value=0.9, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_38, order=224, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_TRUE_MADNESS, value=0.9, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_39, order=225, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_ROT, value=0.9, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_40, order=226, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_STONE, value=0.9, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_41, order=227, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_GOLDY, value=0.9, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_42, order=228, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_CUT, value=0.9, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_43, order=229, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_BREAK, value=0.9, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_45, order=230, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_DEAD, value=0.9, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_44, order=230, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_DESTROY, value=0.9, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_46, order=300, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,LV, value=1, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_47, order=301, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,HP, value=125, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_48, order=302, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,MP, value=5, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_49, order=303, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,STR, value=35, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_50, order=304, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,SPD, value=35, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_51, order=305, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,DEX, value=35, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_52, order=306, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,POW, value=35, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_53, order=307, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,SAN, value=50, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_54, order=308, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,MOV, value=35, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_55, order=309, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,EXP, value=0, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_56, order=310, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,ATK, value=35, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_57, order=311, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,DEF, value=9, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_58, order=312, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,AVO, value=0.025, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_59, order=313, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,CUT_P, value=0.01, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_60, order=314, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,CUT_V, value=1.5, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_61, order=315, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,CRT_P, value=0.01, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_62, order=316, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,CRT_V, value=1.5, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:51 INFO start event : FieldEvent{name=E_03_63, order=317, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_ATK, value=30, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:51 INFO ->done
+2023/05/03 21:23:52 INFO start event : FieldEvent{name=E_03_64, order=318, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_DEF, value=6, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:52 INFO ->done
+2023/05/03 21:23:52 INFO start event : FieldEvent{name=E_03_65, order=319, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_AVO, value=0.025, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:52 INFO ->done
+2023/05/03 21:23:52 INFO start event : FieldEvent{name=E_03_66, order=320, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_CUT_P, value=0.01, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:52 INFO ->done
+2023/05/03 21:23:52 INFO start event : FieldEvent{name=E_03_67, order=321, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_CUT_V, value=1.5, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:52 INFO ->done
+2023/05/03 21:23:52 INFO start event : FieldEvent{name=E_03_68, order=322, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_CRT_P, value=0.01, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:52 INFO ->done
+2023/05/03 21:23:52 INFO start event : FieldEvent{name=E_03_69, order=323, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_CRT_V, value=1.5, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:52 INFO ->done
+2023/05/03 21:23:52 INFO start event : FieldEvent{name=E_03_70, order=324, location=D2Idx{x=9, y=2}, eventType=SET_STATUS_MAX, storageName=null, targetName=0,SAN, value=100, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:52 INFO ->done
+2023/05/03 21:23:52 INFO start event : FieldEvent{name=E_03_71, order=325, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,ATTR, value=0, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:52 INFO ->done
+2023/05/03 21:23:52 INFO start event : FieldEvent{name=E_03_72, order=1800, location=D2Idx{x=9, y=2}, eventType=FADE_IN, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:52 INFO ->done
+2023/05/03 21:23:52 INFO start event : FieldEvent{name=E_03_73, order=1900, location=D2Idx{x=9, y=2}, eventType=NPC_MOVE_AND_WAIT_THAT, storageName=, targetName=NPC02, value=8,2, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:52 INFO ->done
+2023/05/03 21:23:55 INFO start event : FieldEvent{name=E_03_74, order=1950, location=D2Idx{x=9, y=2}, eventType=NPC_DIR_TO, storageName=, targetName=NPC02, value=EAST, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:55 INFO ->done
+2023/05/03 21:23:55 INFO start event : FieldEvent{name=E_03_75, order=2000, location=D2Idx{x=9, y=2}, eventType=SHOW_MESSAGE_FROM_TEXTSTORAGE, storageName=003, targetName=, value=050, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:55 INFO XMLFile [text03.xml] is loaded
+2023/05/03 21:23:55 INFO ->done
+2023/05/03 21:23:57 INFO start event : FieldEvent{name=E_03_76, order=2100, location=D2Idx{x=9, y=2}, eventType=NPC_MOVE_AND_WAIT_THAT, storageName=, targetName=NPC02, value=1,11, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:23:57 INFO ->done
+2023/05/03 21:24:00 INFO start event : FieldEvent{name=E_03_77, order=2200, location=D2Idx{x=9, y=2}, eventType=NPC_REMOVE, storageName=, targetName=NPC02, value=, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:24:00 INFO ->done
+2023/05/03 21:24:00 INFO start event : FieldEvent{name=E_03_78, order=2300, location=D2Idx{x=9, y=2}, eventType=ENABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[]}
+2023/05/03 21:24:00 INFO ->done
+2023/05/03 21:24:03 INFO start event : FieldEvent{name=E_041_0, order=100, location=D2Idx{x=5, y=2}, eventType=MANUAL_EVENT, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[]}
+2023/05/03 21:24:03 INFO ->done
+2023/05/03 21:24:03 INFO start event : FieldEvent{name=E_041_1, order=110, location=D2Idx{x=5, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=!PC1は棚を調べた, disposeWhenExec=false, exists=true, term=[]}
+2023/05/03 21:24:03 INFO ->done
+2023/05/03 21:24:03 INFO start event : FieldEvent{name=E_041_2, order=115, location=D2Idx{x=5, y=2}, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E07_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=TOMAGISHUT_E07, value=}]}
+2023/05/03 21:24:03 INFO start event : FieldEvent{name=E_041_3, order=120, location=D2Idx{x=5, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=木綿の手拭を見つけた！, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E07_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=TOMAGISHUT_E07, value=}]}
+2023/05/03 21:24:03 INFO ->done
+2023/05/03 21:24:04 INFO start event : FieldEvent{name=E_041_4, order=130, location=D2Idx{x=5, y=2}, eventType=SET_FLG_TMP, storageName=ITEMS, targetName=TOMAGISHUT_E07, value=ON, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E07_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=TOMAGISHUT_E07, value=}]}
+2023/05/03 21:24:04 INFO ->done
+2023/05/03 21:24:04 INFO start event : FieldEvent{name=E_041_5, order=150, location=D2Idx{x=5, y=2}, eventType=GET_ITEM, storageName=, targetName=, value=木綿の手拭, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E07_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=TOMAGISHUT_E07, value=}]}
+2023/05/03 21:24:04 INFO ->done
+2023/05/03 21:24:06 INFO start event : FieldEvent{name=E_041_0, order=100, location=D2Idx{x=5, y=2}, eventType=MANUAL_EVENT, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[]}
+2023/05/03 21:24:06 INFO ->done
+2023/05/03 21:24:06 INFO start event : FieldEvent{name=E_041_1, order=110, location=D2Idx{x=5, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=!PC1は棚を調べた, disposeWhenExec=false, exists=true, term=[]}
+2023/05/03 21:24:06 INFO ->done
+2023/05/03 21:24:06 INFO start event : FieldEvent{name=E_041_2, order=115, location=D2Idx{x=5, y=2}, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E07_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=TOMAGISHUT_E07, value=}]}
+2023/05/03 21:24:06 INFO start event : FieldEvent{name=E_041_3, order=120, location=D2Idx{x=5, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=木綿の手拭を見つけた！, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E07_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=TOMAGISHUT_E07, value=}]}
+2023/05/03 21:24:06 INFO ->done
+2023/05/03 21:24:06 INFO start event : FieldEvent{name=E_041_4, order=130, location=D2Idx{x=5, y=2}, eventType=SET_FLG_TMP, storageName=ITEMS, targetName=TOMAGISHUT_E07, value=ON, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E07_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=TOMAGISHUT_E07, value=}]}
+2023/05/03 21:24:06 INFO ->done
+2023/05/03 21:24:06 INFO start event : FieldEvent{name=E_041_5, order=150, location=D2Idx{x=5, y=2}, eventType=GET_ITEM, storageName=, targetName=, value=木綿の手拭, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E07_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=TOMAGISHUT_E07, value=}]}
+2023/05/03 21:24:06 INFO ->done
+2023/05/03 21:24:10 INFO CachedSound is loaded name=[効果音＿選択2.wav](1.5151 ms)
+2023/05/03 21:25:34 INFO lockFile:.\KLOCK_11256320640993151720.lck is deleted
+2023/05/03 21:25:34 INFO TempFileStorage : all temp file is deleted

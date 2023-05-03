@@ -25,11 +25,11 @@ THE SOFTWARE.
 
 
 <kinugasaText lSep="/">
- 	<text id="001" tc="0" eventScript="resource/data/E02.xml" >
+ 	<text id="001" tc="1" eventScript="resource/data/E002.xml" >
 ＊「おい。生きてるか？大丈夫か？
 	</text>
 	
-	<text id="002" tc="0" >
+	<text id="002" tc="1" >
 ＊「おーい！！誰か来てくれー！！人が倒れている！息はあるようだー！！
 	</text>
 

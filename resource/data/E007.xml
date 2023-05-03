@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!--
+The MIT License
+
+Copyright 2016 Dra.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+-->
+<kinugasaFielEventScript undead="true">
+	<term name="TOMAGISHUT_E07_FLG_NOT_EXISTS" ett="NO_EXISTS_FLG" stName="ITEMS" tgtName="TOMAGISHUT_E07" value="" />
+
+	
+	<event order="100" fet="MANUAL_EVENT" stName="" tgtName="" value="" term=""/>
+	<event order="110" fet="SHOW_MESSAGE_DIRECT" stName="" tgtName="" value="!PC1は棚を調べた" term=""/>
+	
+	
+	<event order="115" fet="IF" stName="" tgtName="" value="" term="TOMAGISHUT_E07_FLG_NOT_EXISTS"/>
+		<event order="120" fet="SHOW_MESSAGE_DIRECT" stName="" tgtName="" value="木綿の手拭を見つけた！" term=""/>
+		<event order="130" fet="SET_FLG_TMP" stName="ITEMS" tgtName="TOMAGISHUT_E07" value="ON" term=""/> 
+		<event order="150" fet="GET_ITEM" stName="" tgtName="" value="木綿の手拭" term=""/>
+		<!-- アイテムが取得された場合、commit,reset,end、取得されなかった場合、reset,end-->
+	<event order="170" fet="END_IF" stName="" tgtName="" value="" term=""/>
+
+
+	<event order="205" fet="SHOW_MESSAGE_DIRECT" stName="" tgtName="" value="漁の道具などが置いてある。有用な物はなにも見つからなかった。" term=""/>
+	<event order="400" fet="END_AND_RESET_EVENT" stName="" tgtName="" value="" term=""/>
+
+</kinugasaFielEventScript>

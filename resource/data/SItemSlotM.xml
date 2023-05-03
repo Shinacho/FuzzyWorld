@@ -27,6 +27,7 @@ THE SOFTWARE.
 	<slot name="胴" />
 	<slot name="腕" />
 	<slot name="足" />
+	<slot name="アミュレット" />
 	
 	
 	

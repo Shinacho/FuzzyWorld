@@ -76,6 +76,8 @@ public class TitleLogic extends GameLogic {
 						Const.Chapter.current = "CHAPTER1";
 						Const.Chapter.currentSubTitle = "CHAPTER1_SUBTITLE";
 						Const.Chapter.nextLogic = Const.LogicName.OP;
+						SoundStorage.getInstance().get("BGM").stopAll();
+						SoundStorage.getInstance().get("BGM").dispose();
 						gls.changeTo(Const.LogicName.CHAPTER_TITLE);
 					}
 				}),
@@ -109,7 +111,7 @@ public class TitleLogic extends GameLogic {
 
 		sound = SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load();
 
-		SoundStorage.getInstance().get("BGM").get("フィールド５.wav").load().play();
+		SoundStorage.getInstance().get("BGM").get("フィールド３.wav").load().play();
 		atsg.setSelectedIdx(selected);
 
 		if (Const.Input.gamepad) {
