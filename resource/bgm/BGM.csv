@@ -13,9 +13,11 @@
 デジタル空間.wav,0.66,EOF,START
 バトル1（リメイク）.wav,0.66,EOF,START
 バトル1（リメイク）＿古.wav,0.66,EOF,START
+バトル（連結）.wav,0.66,EOF,START
 バトル１（新）.wav,0.66,EOF,START
 バトル１（旧）.wav,0.66,EOF,START
 バトル２（新）.wav,0.66,EOF,START
+バトル２（旧）.wav,0.66,EOF,START
 フィールド.wav,0.66,EOF,START
 フィールド２.wav,0.66,EOF,START
 フィールド３.wav,0.66,EOF,START
@@ -23,6 +25,7 @@
 ボーナスゲーム.wav,0.66,EOF,START
 ユニークな街.wav,0.66,EOF,START
 ラストダンジョン.wav,0.66,EOF,START
+不思議なダンジョン.wav,0.66,EOF,START
 不思議な森.wav,0.66,EOF,START
 不気味なダンジョン.wav,0.66,EOF,START
 世界の真相.wav,0.66,EOF,START
@@ -47,6 +50,7 @@
 悪の軍団.wav,0.66,EOF,START
 愉快または間抜け.wav,0.66,EOF,START
 探検.wav,0.66,EOF,START
+斜陽の帝国.wav,0.66,EOF,START
 明るいダンジョン.wav,0.66,EOF,START
 明るい街.wav,0.66,EOF,START
 普通な感じの街.wav,0.66,EOF,START
@@ -57,6 +61,7 @@
 決意.wav,0.66,EOF,START
 洞窟.wav,0.66,EOF,START
 灼熱の地獄.wav,0.66,EOF,START
+狂気の人.wav,0.66,EOF,START
 王都.wav,0.66,EOF,START
 異形のものとの戦い.wav,0.66,EOF,START
 疑い.wav,0.66,EOF,START
@@ -65,10 +70,13 @@
 知的探求.wav,0.66,EOF,START
 神殿.wav,0.66,EOF,START
 結末.wav,0.66,EOF,START
+見知らぬ土地・見知らぬ文化.wav,0.66,EOF,START
 軍事作戦.wav,0.66,EOF,START
 軍事作戦２.wav,0.66,EOF,START
+重厚なダンジョン.wav,0.66,EOF,START
 静かなる決意.wav,0.66,EOF,START
 静寂空間.wav,0.66,EOF,START
 風の魔法使いのテーマ.wav,0.66,EOF,START
 風の魔法使いの戦い.wav,0.66,EOF,START
+風の魔法使いの戦い２.wav,0.66,EOF,START
 魔力の間.wav,0.66,EOF,START

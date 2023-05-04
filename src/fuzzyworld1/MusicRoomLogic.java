@@ -26,7 +26,10 @@ package fuzzyworld1;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics2D;
+import java.awt.image.BufferedImage;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import kinugasa.game.GameLogic;
 import kinugasa.game.GameManager;
 import kinugasa.game.GameOption;
@@ -37,11 +40,13 @@ import kinugasa.game.input.GamePadButton;
 import kinugasa.game.input.InputState;
 import kinugasa.game.input.InputType;
 import kinugasa.game.input.Keys;
-import kinugasa.game.ui.FontModel;
 import kinugasa.game.ui.MusicRoom;
-import kinugasa.game.ui.SimpleTextLabelModel;
-import kinugasa.game.ui.TextLabelSprite;
-import kinugasa.object.FourDirection;
+import kinugasa.graphics.ARGBColor;
+import kinugasa.graphics.Animation;
+import kinugasa.graphics.ImageEditor;
+import kinugasa.graphics.ImageUtil;
+import kinugasa.graphics.RenderingQuality;
+import kinugasa.object.AnimationSprite;
 import kinugasa.resource.sound.SoundStorage;
 import kinugasa.util.FrameTimeCounter;
 
@@ -80,6 +85,8 @@ public class MusicRoomLogic extends GameLogic {
 		SoundStorage.getInstance().get("BGM").dispose();
 	}
 
+	private SoundNameSprite soundNameSprite = new SoundNameSprite(380, 64);
+
 	@Override
 	public void update(GameTimeManager gtm, InputState is) {
 		if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
@@ -91,6 +98,7 @@ public class MusicRoomLogic extends GameLogic {
 
 		if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
 			mr.play();
+			soundNameSprite.setText(mr.getSelected().getText().replaceAll(".wav", ""));
 		}
 		if (is.isPressed(GamePadButton.X, Keys.O, InputType.SINGLE)) {
 			try {
@@ -103,6 +111,7 @@ public class MusicRoomLogic extends GameLogic {
 			gls.changeTo(Const.LogicName.TITLE_LOGIC);
 		}
 		mr.update();
+		soundNameSprite.update();
 	}
 
 	@Override
@@ -113,6 +122,30 @@ public class MusicRoomLogic extends GameLogic {
 		g2.drawString("MUSIC ROOM", 12, 32);
 		g2.dispose();
 		mr.draw(g);
+		soundNameSprite.draw(g);
 	}
 
+	static class SoundNameSprite extends AnimationSprite {
+
+		public SoundNameSprite(int x, int y) {
+			super(x, y, 300, 300);
+		}
+
+		void setText(String t) {
+			List<BufferedImage> images = new ArrayList<>();
+			for (int i = 0; i < 360; i++) {
+				BufferedImage image = ImageUtil.newImage((int) getWidth(), (int) getHeight());
+				Graphics2D g = ImageUtil.createGraphics2D(image, RenderingQuality.QUALITY);
+				g.setColor(new Color(ARGBColor.CLEAR_WHITE));
+				g.fillRect(0, 0, (int) getWidth(), (int) getHeight());
+				g.setColor(Color.BLACK);
+				g.drawString(t, getWidth() / 2 - (t.length() / 2 * 12), getHeight() / 2 - 8);
+				g.dispose();
+				image = ImageEditor.rotate(image, i, null);
+				images.add(image);
+			}
+			setAnimation(new Animation(new FrameTimeCounter(1), images));
+		}
+
+	}
 }
