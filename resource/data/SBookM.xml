@@ -283,7 +283,7 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="32"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="32"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="32"/>
-    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="64"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="-64"/>
     <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="32"/>
     <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="CHOP" value="0.5"/>
     <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="STAB" value="0.5"/>
@@ -399,7 +399,7 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="16"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="16"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="16"/>
-    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="32"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="-32"/>
     <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="16"/>
     <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="CHOP" value="0.25"/>
     <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="STAB" value="0.25"/>
@@ -515,7 +515,7 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="8"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="8"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="8"/>
-    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="16"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="-16"/>
     <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="8"/>
     <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="CHOP" value="0.125"/>
     <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="STAB" value="0.125"/>
@@ -631,7 +631,7 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="4"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="4"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="4"/>
-    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="8"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="-8"/>
     <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="4"/>
     <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="CHOP" value="0.0625"/>
     <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="STAB" value="0.0625"/>
@@ -747,7 +747,7 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="2"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="2"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="2"/>
-    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="4"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="-4"/>
     <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="2"/>
     <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="CHOP" value="0.03125"/>
     <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="STAB" value="0.03125"/>
@@ -863,7 +863,7 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="1"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="1"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="1"/>
-    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="2"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="-2"/>
     <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="1"/>
     <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="CHOP" value="0.015625"/>
     <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="STAB" value="0.015625"/>
@@ -945,7 +945,7 @@ THE SOFTWARE.
     <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_V" value="0.015625"/>
     <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_P" value="0.015625"/>
     <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_V" value="0.015625"/>
-    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="1"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="-1"/>
     <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="CHOP" value="-1"/>
     <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="STAB" value="-1"/>
     <page mct="ADD_ATTRIN" name="‘®«’l•ÏX‚ÌpŽ®" tgtName="IMPACT" value="-1"/>
@@ -1060,7 +1060,7 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="-32"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="-32"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="-32"/>
-    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="-64"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="64"/>
     <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="-32"/>
     <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="LV" value="-64"/>
     <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="HP" value="-64"/>
@@ -1190,7 +1190,7 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="-16"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="-16"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="-16"/>
-    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="-32"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="32"/>
     <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="-16"/>
     <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="LV" value="-32"/>
     <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="HP" value="-32"/>
@@ -1320,7 +1320,7 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="-8"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="-8"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="-8"/>
-    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="-16"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="16"/>
     <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="-8"/>
     <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="LV" value="-16"/>
     <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="HP" value="-16"/>
@@ -1450,7 +1450,7 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="-4"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="-4"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="-4"/>
-    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="-8"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="8"/>
     <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="-4"/>
     <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="LV" value="-8"/>
     <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="HP" value="-8"/>
@@ -1580,7 +1580,7 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="-2"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="-2"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="-2"/>
-    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="-4"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="4"/>
     <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="-2"/>
     <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="LV" value="-4"/>
     <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="HP" value="-4"/>
@@ -1710,7 +1710,7 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_RAIN" value="-1"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_DARK" value="-1"/>
     <page mct="ADD_CONDITION_TIME" name="ó‘ÔˆÙíŽžŠÔ•ÏX‚ÌpŽ®" tgtName="F_GOLD" value="-1"/>
-    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="-2"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="2"/>
     <page mct="ADD_SPELL_TIME" name="‰r¥ŽžŠÔ•ÏX‚ÌpŽ®" value="-1"/>
     <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="LV" value="-2"/>
     <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="HP" value="-2"/>
@@ -1806,7 +1806,7 @@ THE SOFTWARE.
     <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CUT_V" value="-0.015625"/>
     <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_P" value="-0.015625"/>
     <page mct="DAMAGE_STATUS_CALC" name="ì—p‚ÌpŽ®" tgtName="M_CRT_V" value="-0.015625"/>
-    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="-1"/>
+    <page mct="ADD_AREA" name="ì—p”ÍˆÍ•ÏX‚ÌpŽ®" value="1"/>
     <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="LV" value="-1"/>
     <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="HP" value="-1"/>
     <page mct="CAST_COST" name="‘ãž‚ÌpŽ®" tgtName="MP" value="-1"/>

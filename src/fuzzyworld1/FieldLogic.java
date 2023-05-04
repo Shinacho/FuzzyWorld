@@ -467,6 +467,7 @@ public class FieldLogic extends GameLogic {
 		if (menu.isVisible()) {
 			//ステータス切替
 			if (statusDescWindow != null && statusDescWindow.isVisible()) {
+				statusDescWindow.update();
 				//ステータス詳細非表示の場合はカーソル移動可能
 				if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
 					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
@@ -475,6 +476,14 @@ public class FieldLogic extends GameLogic {
 				if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
 					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
 					statusDescWindow.prevPc();
+				}
+				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+					statusDescWindow.prev();
+				}
+				if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+					statusDescWindow.next();
 				}
 			} else if (orderSelectWindow != null && orderSelectWindow.isVisible()) {
 				orderSelectWindow.update();
@@ -623,8 +632,8 @@ public class FieldLogic extends GameLogic {
 				//ブックウインドウの処理
 				bookWindow.update();
 				switch (bookWindow.currentMode()) {
-					case ITEM_AND_USER_SELECT:
-						//アイテム選択モード
+					case BOOK_AND_USER_SELECT:
+						//選択モード
 						if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
 							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
 							bookWindow.nextPC();
@@ -687,6 +696,7 @@ public class FieldLogic extends GameLogic {
 				}
 			} else if (materialWindow != null && materialWindow.isVisible()) {
 				//素材ウインドウの処理
+				materialWindow.update();
 				if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
 					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
 					materialWindow.switchMode();
@@ -695,9 +705,13 @@ public class FieldLogic extends GameLogic {
 					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
 					materialWindow.switchMode();
 				}
-				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-					SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-					materialWindow.nextPage();
+				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+					materialWindow.prev();
+				}
+				if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+					materialWindow.next();
 				}
 			} else {
 				//どのウインドウも非表示の場合はメニューのカーソル移動可能
@@ -710,84 +724,60 @@ public class FieldLogic extends GameLogic {
 					menu.prevSelect();
 				}
 			}
+			//Aボタン・・・メニュー決定
 			if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
 				if (statusDescWindow != null && statusDescWindow.isVisible()) {
 					SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
 					switch (statusWindowType) {
 						case 0:
-							if (statusDescWindow.hasNextPage()) {
-								statusDescWindow.nextPage();
-								statusDescWindow.update();
-							} else {
-								statusDescWindow = new AttrDescWindow(
-										24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4,
-										24 + 8,
-										(float) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
-										Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32,
-										GameSystem.getInstance().getPartyStatus()
-								);
-								statusWindowType++;
-							}
+							statusDescWindow = new AttrDescWindow(
+									(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
+									24 + 8,
+									(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
+									(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32),
+									GameSystem.getInstance().getPartyStatus()
+							);
+							statusWindowType++;
 							break;
 						case 1:
-							if (statusDescWindow.hasNextPage()) {
-								statusDescWindow.nextPage();
-								statusDescWindow.update();
-							} else {
-								statusDescWindow = new EqipItemWindow(
-										24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4,
-										24 + 8,
-										(float) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
-										Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32,
-										GameSystem.getInstance().getPartyStatus()
-								);
-								statusWindowType++;
-							}
+							statusDescWindow = new EqipItemWindow(
+									(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
+									24 + 8,
+									(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
+									(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32),
+									GameSystem.getInstance().getPartyStatus()
+							);
+							statusWindowType++;
 							break;
 						case 2:
-							if (statusDescWindow.hasNextPage()) {
-								statusDescWindow.nextPage();
-								statusDescWindow.update();
-							} else {
-								statusDescWindow = new ActionDescWindow(
-										24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4,
-										24 + 8,
-										(float) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
-										Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32,
-										GameSystem.getInstance().getPartyStatus()
-								);
-								statusWindowType++;
-							}
+							statusDescWindow = new ActionDescWindow(
+									(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
+									24 + 8,
+									(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
+									(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32),
+									GameSystem.getInstance().getPartyStatus()
+							);
+							statusWindowType++;
 							break;
 						case 3:
-							if (statusDescWindow.hasNextPage()) {
-								statusDescWindow.nextPage();
-								statusDescWindow.update();
-							} else {
-								statusDescWindow = new ConditionDescWindow(
-										24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4,
-										24 + 8,
-										(float) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
-										Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32,
-										GameSystem.getInstance().getPartyStatus()
-								);
-								statusWindowType++;
-							}
+							statusDescWindow = new ConditionDescWindow(
+									(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
+									24 + 8,
+									(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
+									(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32),
+									GameSystem.getInstance().getPartyStatus()
+							);
+							statusWindowType++;
 							break;
 						case 4:
-							if (statusDescWindow.hasNextPage()) {
-								statusDescWindow.nextPage();
-								statusDescWindow.update();
-							} else {
-								statusDescWindow = new StatusDescWindow(
-										24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4,
-										24 + 8,
-										(float) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
-										Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32,
-										GameSystem.getInstance().getPartyStatus()
-								);
-								statusWindowType = 0;
-							}
+							statusDescWindow = new StatusDescWindow(
+									(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
+									24 + 8,
+									(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
+									(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32),
+									GameSystem.getInstance().getPartyStatus()
+							);
+							statusWindowType = 0;
 							break;
 					}
 				} else if ((itemWindow == null || !itemWindow.isVisible())
@@ -798,10 +788,10 @@ public class FieldLogic extends GameLogic {
 					switch (menu.getSelect()) {
 						case Const.MenuIdx.STATUS:
 							statusDescWindow = new StatusDescWindow(
-									24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4,
+									(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
 									24 + 8,
-									(float) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
-									Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32,
+									(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
+									(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32),
 									GameSystem.getInstance().getPartyStatus()
 							);
 							statusWindowType = 0;
@@ -823,10 +813,10 @@ public class FieldLogic extends GameLogic {
 							break;
 						case Const.MenuIdx.MAGIC:
 							magicWindow = new MagicWindow(
-									24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4,
+									(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
 									24 + 8,
-									(float) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
-									Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32);
+									(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
+									(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32));
 							break;
 						case Const.MenuIdx.BOOK:
 							bookWindow = new BookWindow(
@@ -837,10 +827,10 @@ public class FieldLogic extends GameLogic {
 							break;
 						case Const.MenuIdx.MATERIAL:
 							materialWindow = new MaterialPageWindow(
-									24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4,
+									(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
 									24 + 8,
-									(float) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
-									Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32);
+									(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
+									(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32));
 							break;
 						case Const.MenuIdx.INFO:
 							break;
