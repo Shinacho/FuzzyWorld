@@ -136,10 +136,10 @@ public class MusicRoomLogic extends GameLogic {
 			for (int i = 0; i < 360; i++) {
 				BufferedImage image = ImageUtil.newImage((int) getWidth(), (int) getHeight());
 				Graphics2D g = ImageUtil.createGraphics2D(image, RenderingQuality.QUALITY);
-				g.setColor(new Color(ARGBColor.CLEAR_WHITE));
-				g.fillRect(0, 0, (int) getWidth(), (int) getHeight());
+				g.setColor(Color.WHITE);
+				g.fillOval(0, 0, (int) getWidth(), (int) getHeight());
 				g.setColor(Color.BLACK);
-				g.drawString(t, getWidth() / 2 - (t.length() / 2 * 12), getHeight() / 2 - 8);
+				g.drawString(t, getWidth() / 2 - (t.length() / 2 * 12), getHeight() / 2);
 				g.dispose();
 				image = ImageEditor.rotate(image, i, null);
 				images.add(image);
