@@ -81,7 +81,6 @@ THE SOFTWARE.
 	<event order="304" fet="INIT_STATUS" tgtName="0,SPD" value="35"/>
 	<event order="305" fet="INIT_STATUS" tgtName="0,DEX" value="35"/>
 	<event order="306" fet="INIT_STATUS" tgtName="0,POW" value="35"/>
-	<event order="307" fet="INIT_STATUS" tgtName="0,SAN" value="50"/>
 	<event order="308" fet="INIT_STATUS" tgtName="0,MOV" value="35"/>
 	<event order="309" fet="INIT_STATUS" tgtName="0,EXP" value="0"/>
 	<event order="310" fet="INIT_STATUS" tgtName="0,ATK" value="35"/>
@@ -98,9 +97,15 @@ THE SOFTWARE.
 	<event order="321" fet="INIT_STATUS" tgtName="0,M_CUT_V" value="1.5"/>
 	<event order="322" fet="INIT_STATUS" tgtName="0,M_CRT_P" value="0.01"/>
 	<event order="323" fet="INIT_STATUS" tgtName="0,M_CRT_V" value="1.5"/>
-	<event order="324" fet="SET_STATUS_MAX" tgtName="0,SAN" value="100"/>
+	<event order="324" fet="INIT_STATUS" tgtName="0,SAN" value="50"/>
 	<event order="325" fet="INIT_STATUS" tgtName="0,ATTR" value="0"/>
-
+	
+	<event order="400" fet="SET_STATUS_MAX" tgtName="0,SAN" value="99" />
+	
+	
+	
+	
+	
 	<event order="1800" fet="FADE_IN" stName="" tgtName="" value="" term=""/>
 	<event order="1900" fet="NPC_MOVE_AND_WAIT_THAT" stName="" tgtName="NPC02" value="8,2" term="" />
 	<event order="1950" fet="NPC_DIR_TO" stName="" tgtName="NPC02" value="EAST" term="" />
