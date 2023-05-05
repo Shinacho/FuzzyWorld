@@ -143,7 +143,7 @@ public class FieldLogic extends GameLogic {
 
 		QuestLineStorage.getInstance().add(new QuestLine("MAIN"));
 
-		OperationSprite.getInstance().setText("(ENTER)");
+		OperationSprite.getInstance().setText("↑↓:" + I18N.translate("MOVE") + " / " + "(ENTER)");
 
 		menu = new MessageWindow(24, 24,
 				Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4,
@@ -531,6 +531,7 @@ public class FieldLogic extends GameLogic {
 						break;
 					case CHOICE_USE:
 					case DROP_CONFIRM:
+					case DISASSE_CONFIRM:
 						//用途選択モード
 						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
 							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();

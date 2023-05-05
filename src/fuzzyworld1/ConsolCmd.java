@@ -481,7 +481,7 @@ public class ConsolCmd extends javax.swing.JFrame {
 
         jLabel6.setText("ページ名");
 
-        jTextField3.setText("属性の術式,空気");
+        jTextField3.setText("状態異常時間変更の術式(消滅,-1)");
 
         jButton10.setText("検索");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
@@ -929,7 +929,7 @@ public class ConsolCmd extends javax.swing.JFrame {
 		jTextArea1.setText(jTextArea1.getText() + "SLOT:" + i.getEqipmentSlot() + "\r\n");
 		jTextArea1.setText(jTextArea1.getText() + "MWT:" + i.getWeaponMagicType() + "\r\n");
 		jTextArea1.setText(jTextArea1.getText() + "WAIT_TIME:" + i.getWaitTime() + "\r\n");
-		jTextArea1.setText(jTextArea1.getText() + "DISASSE:" + i.getDissasseMaterials() + "\r\n");
+		jTextArea1.setText(jTextArea1.getText() + "DISASSE:" + i.getDisasseMaterials() + "\r\n");
 		jTextArea1.setText(jTextArea1.getText() + "CAN_UPGRADE:" + i.canUpgrade() + "\r\n");
 		jTextArea1.setText(jTextArea1.getText() + "CURRENT_UPGRADE:" + i.getCurrentUpgrade() + "\r\n");
 		jTextArea1.setText(jTextArea1.getText() + "UPGRADE:" + i.getUpgradeMaterials() + "\r\n");

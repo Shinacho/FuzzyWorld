@@ -24,9 +24,7 @@
 package fuzzyworld1;
 
 import java.awt.Color;
-import java.awt.image.BufferedImage;
 import java.io.File;
-import java.text.SimpleDateFormat;
 import javax.swing.JFileChooser;
 import kinugasa.game.GameLogicStorage;
 import kinugasa.game.GameManager;
@@ -43,12 +41,8 @@ import kinugasa.game.I18N;
 import kinugasa.game.PlayerConstants;
 import kinugasa.game.input.InputType;
 import kinugasa.game.input.Keys;
-import kinugasa.game.system.ConditionKey;
-import kinugasa.game.system.ConditionValueStorage;
 import kinugasa.graphics.ImageUtil;
 import kinugasa.resource.sound.SoundStorage;
-import kinugasa.resource.text.XMLElement;
-import kinugasa.resource.text.XMLFile;
 
 /**
  *

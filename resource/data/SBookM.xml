@@ -72,30 +72,30 @@ THE SOFTWARE.
     <page mct="HEAL_ATTRIN" name="属性値回復の術式" tgtName="C_BREAK"/>
     <page mct="HEAL_ATTRIN" name="属性値回復の術式" tgtName="C_DESTROY"/>
     <page mct="HEAL_ATTRIN" name="属性値回復の術式" tgtName="C_DEAD"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="LV"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="HP"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="MP"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="STR"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="SPD"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="DEX"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="POW"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="SAN"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="MOV"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="EXP"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="ATK"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="DEF"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="AVO"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="CUT_P"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="CUT_V"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="CRT_P"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="CRT_V"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="M_ATK"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="M_DEF"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="M_AVO"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="M_CUT_P"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="M_CUT_V"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="M_CRT_P"/>
-    <page mct="HEAL_STATUS" name="ダメージ完全回復の術式" tgtName="M_CRT_V"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="LV"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="HP"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="MP"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="STR"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="SPD"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="DEX"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="POW"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="SAN"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="MOV"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="EXP"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="ATK"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="DEF"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="AVO"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="CUT_P"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="CUT_V"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="CRT_P"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="CRT_V"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="M_ATK"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="M_DEF"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="M_AVO"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="M_CUT_P"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="M_CUT_V"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="M_CRT_P"/>
+    <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="M_CRT_V"/>
     <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="DEFENCE"/>
     <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="AVOIDANCE"/>
     <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="ESCAPED"/>
