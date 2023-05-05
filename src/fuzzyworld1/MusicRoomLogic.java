@@ -41,7 +41,6 @@ import kinugasa.game.input.InputState;
 import kinugasa.game.input.InputType;
 import kinugasa.game.input.Keys;
 import kinugasa.game.ui.MusicRoom;
-import kinugasa.graphics.ARGBColor;
 import kinugasa.graphics.Animation;
 import kinugasa.graphics.ImageEditor;
 import kinugasa.graphics.ImageUtil;
@@ -77,6 +76,7 @@ public class MusicRoomLogic extends GameLogic {
 		} else {
 			OperationSprite.getInstance().setText("[ENTER]:" + I18N.translate("SUBMIT") + " / " + "Å™Å´:" + I18N.translate("MOVE") + " / " + "[BACK SPACE]::" + I18N.translate("RETURN") + " / " + "[O]:" + I18N.translate("OPEN"));
 		}
+		soundNameSprite = new SoundNameSprite(380, 64);
 	}
 
 	@Override
@@ -85,7 +85,7 @@ public class MusicRoomLogic extends GameLogic {
 		SoundStorage.getInstance().get("BGM").dispose();
 	}
 
-	private SoundNameSprite soundNameSprite = new SoundNameSprite(380, 64);
+	private SoundNameSprite soundNameSprite;
 
 	@Override
 	public void update(GameTimeManager gtm, InputState is) {

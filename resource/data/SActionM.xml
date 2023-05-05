@@ -47,6 +47,7 @@ THE SOFTWARE.
     <term name="盾・短剣装備" tt="EQ_WEAPON_TYPE" value="盾・短剣" />
     <term name="メイス装備" tt="EQ_WEAPON_TYPE" value="メイス" />
     <term name="弓装備" tt="EQ_WEAPON_TYPE" value="弓" />
+    <term name="弩装備" tt="EQ_WEAPON_TYPE" value="弩" />
     <term name="銃装備" tt="EQ_WEAPON_TYPE" value="銃" />
     <term name="鞭装備" tt="EQ_WEAPON_TYPE" value="鞭" />
     <term name="杖装備" tt="EQ_WEAPON_TYPE" value="杖" />
@@ -122,7 +123,7 @@ THE SOFTWARE.
             <material name="皮" />
         </disassembly>
     </item>
-    <item name="漁師の非常食" desc="漁に出られないときや緊急避難時に食べるための、日持ちする非常食だ。" value="150" waitTime="60" sound="通常攻撃" term="条件なし">
+    <item name="漁師の非常食" desc="漁に出られないときや緊急避難時に食べるための、日持ちする非常食だ。/味方一人の体力を小回復する" value="150" waitTime="60" sound="通常攻撃" term="条件なし">
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT" animation="通常攻撃" />
         <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="漁師の非常食" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT" animation="通常攻撃" />
@@ -229,25 +230,25 @@ THE SOFTWARE.
         <eqAttr tgt="CHOP" value="-0.09"/>
         <eqAttr tgt="STAB" value="-0.03"/>
     </item>
-    <item name="そば団子" desc="そば粉で作った味わい深い団子だ。うまい！！" value="80" waitTime="60" sound="通常攻撃" term="条件なし">
+    <item name="そば団子" desc="そば粉で作った味わい深い団子だ。うまい！！/味方一人の体力を小回復する" value="80" waitTime="60" sound="通常攻撃" term="条件なし">
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT" animation="通常攻撃" />
         <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="そば団子" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT" animation="通常攻撃" />
         <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="そば団子" p="1.0" />
     </item>
-    <item name="出前「手打ちもりそば1丁」" desc="伝統的なヌードル食品だ！これはうまいぞ！！至高の食べ物だ！！！" value="480" waitTime="60" sound="通常攻撃" term="条件なし">
+    <item name="出前「手打ちもりそば1丁」" desc="伝統的なヌードル食品だ！これはうまいぞ！！至高の食べ物だ！！！/味方一人の体力を小回復する" value="480" waitTime="60" sound="通常攻撃" term="条件なし">
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT" animation="通常攻撃" />
         <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="出前「手打ちもりそば1丁」" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT" animation="通常攻撃" />
         <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="出前「手打ちもりそば1丁」" p="1.0" />
     </item>
-    <item name="究極の「手打ちもりそば」" desc="究極のそばである。うますぎる・・・" value="980" waitTime="60" sound="通常攻撃" term="条件なし">
+    <item name="究極の「手打ちもりそば」" desc="究極のそばである。うますぎる・・・/味方一人の体力を小回復する" value="980" waitTime="60" sound="通常攻撃" term="条件なし">
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+8" p="1" dct="DIRECT" animation="通常攻撃" />
         <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="究極の「手打ちもりそば」" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+8" p="1" dct="DIRECT" animation="通常攻撃" />
         <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="究極の「手打ちもりそば」" p="1.0" />
     </item>
-    <item name="インスタントそば" desc="伝統的なヌードル食品の現代版だ。手軽に食べられる。" value="260" waitTime="60" sound="通常攻撃" term="条件なし">
+    <item name="インスタントそば" desc="伝統的なヌードル食品の現代版だ。手軽に食べられる。/味方一人の体力を小回復する" value="260" waitTime="60" sound="通常攻撃" term="条件なし">
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT" animation="通常攻撃" />
         <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="インスタント・そば" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT" animation="通常攻撃" />
@@ -777,7 +778,7 @@ THE SOFTWARE.
         <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="NONE"/>
         <battleEvent tt="TEAM_ENEMY" pt="ADD_CONDITION" tgtName="POISON" attr="C_POISON" p="0.75" animation="通常攻撃" />
     </attack>
-    <attack name="弩射撃" desc="武器による通常攻撃" term="銃装備" area="197" waitTime="60" sound="通常攻撃" >
+    <attack name="弩射撃" desc="武器による通常攻撃" term="弩装備" area="197" waitTime="60" sound="通常攻撃" >
         <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="NONE"/>
     </attack>
     <attack name="銃射撃" desc="武器による通常攻撃" term="銃装備" area="172" waitTime="60" sound="通常攻撃" >
@@ -855,215 +856,22 @@ THE SOFTWARE.
     
     
     
-    <magic name="テスト魔法1" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
+    <magic name="テスト魔法バトルALL" desc="テスト用の魔法だ。/味方一人の体力を小回復する。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
         <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
         <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-    <magic name="テスト魔法2" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法3" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法4" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法5" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法6" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法7" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法8" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法9" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法10" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法11" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法12" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法13" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法14" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法15" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法16" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法17" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法18" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法19" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法20" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法21" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法22" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法23" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法24" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法25" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法26" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法27" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法28" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
+    <magic name="テスト魔法フィールドALL" desc="テスト用の魔法だ。/味方一人の体力を小回復する。" term="条件なし"  sound="通常攻撃">       
         <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
         <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-    <magic name="テスト魔法29" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
+    <magic name="テスト魔法バトルOP" desc="テスト用の魔法だ。/味方一人の体力を小回復する。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
+        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+    <magic name="テスト魔法フィールドOP" desc="テスト用の魔法だ。/味方一人の体力を小回復する。" term="条件なし" sound="通常攻撃">       
+        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
         <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-    <magic name="テスト魔法30" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法31" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法32" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法33" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法34" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法35" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法36" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法37" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法38" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法39" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法40" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法41" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法42" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法43" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法44" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法45" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法46" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法47" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法48" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法49" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法50" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法51" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="テスト魔法52" desc="テスト用の魔法だ。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-
 	
 	
     <!--その他-->

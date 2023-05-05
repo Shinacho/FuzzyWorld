@@ -23,6 +23,7 @@
  */
 package fuzzyworld1;
 
+import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -78,6 +79,7 @@ import kinugasa.game.ui.SimpleMessageWindowModel;
 import kinugasa.game.ui.Text;
 import kinugasa.game.ui.TextStorageStorage;
 import kinugasa.graphics.Animation;
+import kinugasa.graphics.ImageEditor;
 import kinugasa.graphics.SpriteSheet;
 import kinugasa.object.FourDirection;
 import kinugasa.object.KVector;
@@ -835,7 +837,7 @@ public class FieldLogic extends GameLogic {
 						case Const.MenuIdx.INFO:
 							break;
 						case Const.MenuIdx.MAP:
-							KImage mapImage = map.createMiniMap(1f / 8f, false, true);
+							KImage mapImage = map.createMiniMap(1f / 3f, false, true);//TODO:‰¼
 							Dialog.image(I18N.translate(map.getName()) + I18N.translate("S") + I18N.translate("MAP"), mapImage.get());
 							break;
 					}
