@@ -436,7 +436,7 @@ public class FieldLogic extends GameLogic {
 				OperationSprite.getInstance().setText("©¨ª«:" + I18N.translate("MOVE")
 						+ " / "
 						+ (FieldMap.getEnterOperation().equals("(ENTER)") ? "M" : "(X)") + ":" + I18N.translate("MENU")
-						+ (menu.isVisible() ? " / " + menuOpe : ""));
+						+ (menu.isVisible() ? " / " + menuOpe + " / " + (Const.Input.gamepad ? "(B)" : "(BackSpace)") + ":" + I18N.translate("CANCEL") : ""));
 
 				//ƒƒjƒ…[‘€ì
 				if (is.isPressed(GamePadButton.X, Keys.M, InputType.SINGLE)) {

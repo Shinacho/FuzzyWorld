@@ -151,7 +151,7 @@ THE SOFTWARE.
 	<choice id="053" tc="1" text="トマギ「さあ行こう。">
 		<option id="053_1" next="060">ああ。</option>
 		<option id="053_2" next="054">わかった。遠いのか？</option>
-		<option id="053_3" next="068">ここは漁村だろう？船では町に行けないのか？</option>
+		<option id="053_3" next="068">何で行くんだ？船か？</option>
 	</choice>	
 	
 	<text id="054" tc="1" next="055">
@@ -231,7 +231,7 @@ THE SOFTWARE.
 	</choice>
 
 	<text id="068" tc="1" next="053">
-トマギ「そうだが、ここは内海なんだ。コラロルカは外海だから、船では行けないのさ。/
+トマギ「いや歩いて行く。ここは内海なんだ。コラロルカは外海だから、船では行けないのさ。/
 	</text>
 
 </kinugasaText>

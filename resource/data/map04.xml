@@ -34,6 +34,10 @@ THE SOFTWARE.
 	
 	<inOutNode name="ND_04_0002" x="8" y="12" tgtMap="TOMAGISHUT" exitNode="ND_03_0001" tooltip="漁師の小屋" accepterName="TRUE" outDir="NORTH" se="SE/足音.wav"/>
 
+	<inOutNode name="ND_04_0003" x="7" y="16" tgtMap="WORLDMAP" exitNode="ND_05_0001" tooltip="ワールドマップ" accepterName="TRUE" outDir="NORTH" se="SE/足音.wav"/>
+	<inOutNode name="ND_04_0004" x="8" y="16" tgtMap="WORLDMAP" exitNode="ND_05_0001" tooltip="ワールドマップ" accepterName="TRUE" outDir="NORTH" se="SE/足音.wav"/>
+
+
 	<npc name="NPC02" initialIdx="7,13" NPCMoveModel="NOT_MOVE" image="resource/data/image/c3.png" s="0,32,32" w="96,32,32" e="64,32,32" n="32,32,32" frame="32" initialDir="EAST"/>
 
 	<backLayer chipSet="outer16.png" lineSeparator ="/">
