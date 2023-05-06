@@ -23,7 +23,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 -->
 <kinugasaQuestLine>
-	<line id="MAIN" stage="1" title="◆冒険の始まり" desc="    　海岸で気を失っていたあなたは漁師のトマギに助けられた。/    　自分の記憶を探すための旅が今始まる。/   　 コラロルカの町にいるという探偵に会いに行こう。" >
+	<line id="MAIN" stage="1" title="◆冒険の始まり" desc="海岸で気を失っていたあなたは漁師のトマギに助けられた。/自分の記憶を探すための旅が今始まる。/まずはコラロルカの町にいるという探偵に会いに行こう。" >
 		<!-- ロード時に適用するNPC移動 -->
 		<removeNPC mapID="TOMAGISHUT" NPCID="NPC02" />
 	</line>
