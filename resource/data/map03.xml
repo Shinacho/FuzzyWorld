@@ -33,7 +33,7 @@ THE SOFTWARE.
 	<event name="E_043" x="1" y="2" script="resource/data/E004.xml" />
 	
 	
-	<inOutNode name="ND_03_0001" x="1" y="10" tgtMap="WM" exitNode="ND_04_EXIT" tooltip="ワールドマップ" accepterName="TRUE" outDir="NORTH" se="SE/足音.wav"/>
+	<inOutNode name="ND_03_0001" x="1" y="10" tgtMap="TOMAGISHUT_OUTER" exitNode="ND_04_0001" tooltip="外へ" accepterName="TRUE" outDir="SOUTH" se="SE/足音.wav"/>
 
 	<npc name="NPC02" initialIdx="8,2" NPCMoveModel="NOT_MOVE" image="resource/data/image/c3.png" s="0,32,32" w="96,32,32" e="64,32,32" n="32,32,32" frame="32" initialDir="EAST"/>
 

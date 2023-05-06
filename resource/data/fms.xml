@@ -29,6 +29,8 @@ THE SOFTWARE.
     <fieldMap name="BEACH" data="resource/data/map02.xml"/>
 	
     <fieldMap name="TOMAGISHUT" data="resource/data/map03.xml"/>
+	
+    <fieldMap name="TOMAGISHUT_OUTER" data="resource/data/map04.xml"/>
 
 
 	

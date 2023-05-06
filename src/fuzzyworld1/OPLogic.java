@@ -38,6 +38,7 @@ import kinugasa.game.field4.FieldMapXMLLoader;
 import kinugasa.game.input.InputState;
 import kinugasa.game.system.GameSystem;
 import kinugasa.game.ui.Dialog;
+import kinugasa.game.ui.DialogIcon;
 import kinugasa.game.ui.DialogOption;
 import kinugasa.graphics.ColorChanger;
 import kinugasa.graphics.ColorTransitionModel;
@@ -107,7 +108,7 @@ public class OPLogic extends GameLogic {
 		nameMap.put("そば", "あなたは・・・お蕎麦大好きですね！");
 		nameMap.put("蕎麦", "あなたは・・・お蕎麦大好きですね！");
 		nameMap.put("soba", "あなたは・・・お蕎麦大好きですね！");
-		
+
 	}
 
 	@Override
@@ -137,6 +138,10 @@ public class OPLogic extends GameLogic {
 				stage++;
 				break;
 			case 7:
+				if (Dialog.yesOrNo("FUZZY WORLD", DialogIcon.QUESTION, Const.Player.pc1Name + I18N.translate("YOUR_NAME_IS")) != DialogOption.YES) {
+					stage--;
+					break;
+				}
 				Dialog.info(Const.Player.pc1Name + ",\r\n" + I18N.translate("GOLDEN_RECORD"));
 				stage++;
 				break;
@@ -155,7 +160,7 @@ public class OPLogic extends GameLogic {
 					if (Const.Player.pc1Name.contains("<") || Const.Player.pc1Name.contains(">")) {
 						System.out.println("フフフ・・・そのような名前にしても、この世界は壊れません。無駄ですよ。");
 					}
-					if (Const.Player.pc1Name.contains("\\") || Const.Player.pc1Name.contains("\\")) {
+					if (Const.Player.pc1Name.contains("\\") || Const.Player.pc1Name.contains("\"")) {
 						System.out.println("フフフ・・・そのような名前にしても、この世界は壊れません。無駄ですよ。");
 					}
 					System.out.println("あなたには・・・このメッセージが見えているのですね。");

@@ -24,7 +24,7 @@ THE SOFTWARE.
 -->
 
 <kinugasaVehicle>
-    <vehicle name="WALK" speed="2">
+    <vehicle name="WALK" speed="2.5f">
 	<stepOn attribute="VOID" />
 	<stepOn attribute="•½’n" />
 	<stepOn attribute="‘Œ´" />
@@ -65,7 +65,6 @@ THE SOFTWARE.
 	<stepOn attribute="Î°" />
 	<stepOn attribute="•Ü‘•“¹˜H" />
 	<stepOn attribute="ãOŸ~" />
-	<stepOn attribute="ƒhƒA" />
 	<stepOn attribute="“üŒû" />
 	<stepOn attribute="ˆÖŽq" />
 	<stepOn attribute="œ" />

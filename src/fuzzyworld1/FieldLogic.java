@@ -82,7 +82,11 @@ import kinugasa.game.ui.SimpleMessageWindowModel;
 import kinugasa.game.ui.Text;
 import kinugasa.game.ui.TextStorageStorage;
 import kinugasa.graphics.Animation;
+import kinugasa.graphics.ColorChanger;
+import kinugasa.graphics.ColorTransitionModel;
+import kinugasa.graphics.FadeCounter;
 import kinugasa.graphics.SpriteSheet;
+import kinugasa.object.FadeEffect;
 import kinugasa.object.FourDirection;
 import kinugasa.object.KVector;
 import kinugasa.resource.KImage;
@@ -202,9 +206,11 @@ public class FieldLogic extends GameLogic {
 			ms.addMoneyType(I18N.translate("DARESU_GOLD"));
 			ms.addMoneyType(I18N.translate("BERUMA_SILVER"));
 		}
+		stage = 0;
 	}
 	private FieldMap map;
 	private int stage;//changeMap用ステージ
+	private FadeEffect fadeEffect;
 	private boolean waiting = false;
 	private MessageWindow mw;
 	private boolean first = false;
@@ -225,697 +231,748 @@ public class FieldLogic extends GameLogic {
 
 	@Override
 	public void update(GameTimeManager gtm, InputState is) {
-		//update
+		//テスト用
+//		System.out.println(map == null ? null : map.getCamera().cameraCantMoveDesc + " / " + stage);
 		map.update();
 		FieldEventSystem.getInstance().update();
-		if (mw != null) {
-			mw.update();
-		}
-		//event
-		if (waiting) {
-			map.move();
-			if (!FieldEventSystem.getInstance().isExecuting()) {
-				waiting = false;
-				return;
-			} else {
-				return;
-			}
-		}
-		//チートコンソール
-		if (is.isPressed(Keys.AT, InputType.SINGLE)) {
-			ConsolCmd cmd = new ConsolCmd();
-			cmd.setVisible(true);
-			try {
-				while (true) {
-					Thread.sleep(300);
-					if (!cmd.isVisible()) {
-						break;
-					}
+		switch (stage) {
+			case 0:
+				//update
+				if (mw != null) {
+					mw.update();
 				}
-			} catch (InterruptedException ex) {
-			}
-		}
-		//mw処理
-		if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-			//初回実行時に使ったデバイスを検査
-			if (!first) {
-				if (is.isPressed(Keys.ENTER, InputType.SINGLE)) {
-					FieldMap.setEnterOperation("(ENTER)");
-				} else {
-					FieldMap.setEnterOperation("(A)");
-				}
-				OperationSprite.getInstance().setText(FieldMap.getEnterOperation());
-				first = true;
-			}
-			if (mw != null && mw.isVisible()) {
-				if (!mw.isAllVisible()) {
-					mw.allText();
-				} else if (mw.isChoice()) {
-					if (mw.getChoiceOption().hasNext()) {
-						mw.choicesNext();
+				//event
+				if (waiting) {
+					map.move();
+					if (!FieldEventSystem.getInstance().isExecuting()) {
+						waiting = false;
+						return;
 					} else {
-						map.closeMessagWindow();
+						return;
 					}
-					if (FieldEventSystem.getInstance().hasItem()) {
-						//「調べる」によるアイテム取得処理
-						Item i = FieldEventSystem.getInstance().getItem();
-						if (i == null) {
-							throw new GameSystemException("item is null");
-						}
-						if (mw.getSelect() >= GameSystem.getInstance().getParty().size()) {
-							//諦める
-							mw.setVisible(false);
-							mw = null;
-							FieldEventSystem.getInstance().clearTmpFlags();
-							FieldEventSystem.getInstance().endEvent();
-							FieldEventSystem.getInstance().reset();
-						} else {
-							//持ち物数の判定
-							if (GameSystem.getInstance().getParty().get(mw.getSelect()).getStatus().getItemBag().canAdd()) {
-								GameSystem.getInstance().getParty().get(mw.getSelect()).getStatus().getItemBag().add(i);
-								FieldEventSystem.getInstance().commitFlags();
-								FieldEventSystem.getInstance().endEvent();
-								FieldEventSystem.getInstance().reset();
-								mw.setVisible(false);
-								mw = null;
-							} else {
-								//持てない
-								mw.setText(GameSystem.getInstance().getParty().get(mw.getSelect()).getStatus().getName() + I18N.translate("IS") + I18N.translate("CANT_HAVE"));
-								mw.allText();
-								mw.setVisible(true);
-								FieldEventSystem.getInstance().clearTmpFlags();
-								FieldEventSystem.getInstance().endEvent();
-								FieldEventSystem.getInstance().reset();
+				}
+				//チートコンソール
+				if (is.isPressed(Keys.AT, InputType.SINGLE)) {
+					ConsolCmd cmd = new ConsolCmd();
+					cmd.setVisible(true);
+					try {
+						while (true) {
+							Thread.sleep(300);
+							if (!cmd.isVisible()) {
+								break;
 							}
 						}
-					}
-				} else if (mw.hasNext()) {
-					mw.next();
-				} else {
-					mw.setVisible(false);
-					map.closeMessagWindow();
-				}
-			} else if (!FieldEventSystem.getInstance().hasEvent() && map.canTalk()) {
-				mw = map.talk();
-			}
-			FieldMapTile t = map.getCurrentTile();
-			if (t.hasInNode()) {
-				//NodeによるChangeMap処理
-				map = map.changeMap();
-				return;
-			}
-
-			if (mw != null && mw.isVisible()) {
-				return;
-			}
-			//調べるコマンド
-			if (FieldEventSystem.getInstance().isManual() && menu != null && !menu.isVisible()) {
-				while (FieldEventSystem.getInstance().hasEvent()) {
-					UserOperationRequire r = FieldEventSystem.getInstance().exec();
-					switch (r) {
-						case CONTINUE:
-							break;
-						case WAIT_FOR_EVENT:
-							waiting = true;
-							return;
-						case CHANGE_MAP:
-							map = map.changeMap(FieldEventSystem.getInstance().getNode());
-							FieldMap.getPlayerCharacter().get(0).setShadow(true);
-							return;
-						case GAME_OVER:
-							gls.changeTo("GAME_OVER");
-							return;
-						case SHOW_MESSAGE:
-							mw = FieldEventSystem.getInstance().showMessageWindow();
-							return;
-						case CLOSE_MESSAGE:
-							if (mw != null) {
-								mw.setVisible(false);
-							}
-							mw = null;
-							return;
-						case TO_BATTLE:
-							GameSystem.getInstance().battleStart(FieldEventSystem.getInstance().getEncountInfo());
-							gls.changeTo("BATTLE");
-							return;
-						case GET_ITEAM:
-							mw = FieldEventSystem.getInstance().showItemGetMessageWindow();
-							return;
+					} catch (InterruptedException ex) {
 					}
 				}
-			}
-		}
-		if (mw != null && mw.isChoice()) {
-			if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-				mw.nextSelect();
-			}
-			if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-				mw.prevSelect();
-			}
-		}
-		if (mw != null && mw.isVisible()) {
-			return;
-		}
-		//FMイベント処理
-
-		if (FieldEventSystem.getInstance().hasEvent()) {
-			//イベントセットにマニュアルが入っている場合は即時実行しない
-			if (!FieldEventSystem.getInstance().isManual()) {
-				UserOperationRequire r = FieldEventSystem.getInstance().exec();
-				switch (r) {
-					case CONTINUE:
-						break;
-					case WAIT_FOR_EVENT:
-						waiting = true;
-						return;
-					case CHANGE_MAP:
-						map = map.changeMap(FieldEventSystem.getInstance().getNode());
-						FieldMap.getPlayerCharacter().get(0).setShadow(true);
-						return;
-					case GAME_OVER:
-						gls.changeTo("GAME_OVER");
-						return;
-					case SHOW_MESSAGE:
-						mw = FieldEventSystem.getInstance().showMessageWindow();
-						return;
-					case CLOSE_MESSAGE:
-						if (mw != null) {
-							mw.setVisible(false);
-						}
-						mw = null;
-						return;
-					case TO_BATTLE:
-						GameSystem.getInstance().battleStart(FieldEventSystem.getInstance().getEncountInfo());
-						gls.changeTo("BATTLE");
-						return;
-				}
-			}
-		}
-		//ユーザオペレーション可否確認
-
-		if (!FieldEventSystem.getInstance().isUserOperation()) {
-			return;
-		}
-		String menuOpe = (FieldMap.getEnterOperation() + ":" + I18N.translate("SUBMIT"));
-		OperationSprite.getInstance().setText("←→↑↓:" + I18N.translate("MOVE")
-				+ " / "
-				+ (FieldMap.getEnterOperation().equals("(ENTER)") ? "M" : "(X)") + ":" + I18N.translate("MENU")
-				+ (menu.isVisible() ? " / " + menuOpe : ""));
-
-		//メニュー操作
-		if (is.isPressed(GamePadButton.X, Keys.M, InputType.SINGLE)) {
-			//メニュー表示
-			SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-			menu.switchVisible();
-			statusDescWindow = null;
-			itemWindow = null;
-			magicWindow = null;
-			bookWindow = null;
-			materialWindow = null;
-			orderSelectWindow = null;
-			infoWindow = null;
-			if (menu.isVisible()) {
-				statusWindow = new FieldStatusWindows(
-						Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 24 + 4,
-						GameSystem.getInstance().getPartyStatus());
-			} else {
-				statusWindow.setVisible(false);
-			}
-			GameSystem.getInstance().getPartyStatus().forEach(p -> p.updateAction());
-		}
-		if (is.isPressed(GamePadButton.B, Keys.BACK_SPACE, InputType.SINGLE)) {
-			statusWindow = new FieldStatusWindows(
-					Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 24 + 4,
-					GameSystem.getInstance().getPartyStatus());
-			GameSystem.getInstance().getPartyStatus().forEach(p -> p.updateAction());
-			if (statusDescWindow != null && statusDescWindow.isVisible()) {
-				SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-				statusDescWindow = null;
-			} else if (itemWindow != null && itemWindow.isVisible()) {
-				SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-				if (itemWindow.close()) {
-					itemWindow = null;
-				}
-			} else if (bookWindow != null && bookWindow.isVisible()) {
-				SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-				if (bookWindow.close()) {
-					bookWindow = null;
-				}
-			} else if (magicWindow != null && magicWindow.isVisible()) {
-				SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-				if (magicWindow.close()) {
-					magicWindow = null;
-				}
-			} else if (materialWindow != null && materialWindow.isVisible()) {
-				SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-				materialWindow = null;
-			} else if (orderSelectWindow != null && orderSelectWindow.isVisible()) {
-				SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-				orderSelectWindow = null;
-			} else if (infoWindow != null && infoWindow.isVisible()) {
-				SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-				infoWindow = null;
-			} else {
-				SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-				menu.setVisible(false);
-				statusWindow.setVisible(false);
-			}
-		}
-		if (menu.isVisible()) {
-			//ステータス切替
-			if (statusDescWindow != null && statusDescWindow.isVisible()) {
-				statusDescWindow.update();
-				//ステータス詳細非表示の場合はカーソル移動可能
-				if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
-					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-					statusDescWindow.nextPc();
-				}
-				if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
-					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-					statusDescWindow.prevPc();
-				}
-				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-					statusDescWindow.prev();
-				}
-				if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-					statusDescWindow.next();
-				}
-			} else if (orderSelectWindow != null && orderSelectWindow.isVisible()) {
-				orderSelectWindow.update();
-				//隊列ウインドウの処理
-				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-					orderSelectWindow.prevPC();
-				}
-				if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-					orderSelectWindow.nextPC();
-				}
+				//mw処理
 				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-					SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-					orderSelectWindow.changeOrder();
-				}
-			} else if (itemWindow != null && itemWindow.isVisible()) {
-				//アイテムウインドウの処理
-				itemWindow.update();
-				switch (itemWindow.currentMode()) {
-					case ITEM_AND_USER_SELECT:
-						//アイテム選択モード
-						if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							itemWindow.nextPC();
+					//初回実行時に使ったデバイスを検査
+					if (!first) {
+						if (is.isPressed(Keys.ENTER, InputType.SINGLE)) {
+							FieldMap.setEnterOperation("(ENTER)");
+						} else {
+							FieldMap.setEnterOperation("(A)");
 						}
-						if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							itemWindow.prevPC();
-						}
-						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							itemWindow.prevSelect();
-						}
-						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							itemWindow.nextSelect();
-						}
-						if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-							itemWindow.select();//次の操作へ
-						}
-						break;
-					case CHOICE_USE:
-					case DROP_CONFIRM:
-					case DISASSE_CONFIRM:
-						//用途選択モード
-						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							itemWindow.prevSelect();
-						}
-						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							itemWindow.nextSelect();
-						}
-						if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-							itemWindow.select();//次の操作へ
-						}
-						break;
-					case TARGET_SELECT:
-						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							itemWindow.prevPC();
-						}
-						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							itemWindow.nextPC();
-						}
-						if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-							itemWindow.select();//次の操作へ
-						}
-						break;
-					case WAIT_MSG_CLOSE_TO_CU:
-					case WAIT_MSG_CLOSE_TO_IUS:
-						if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-							itemWindow.select();//次の操作へ
-						}
-						break;
-				}
-			} else if (magicWindow != null && magicWindow.isVisible()) {
-				//魔法ウインドウの処理
-				magicWindow.update();
-				switch (magicWindow.getCurrentMode()) {
-					case MAGIC_AND_USER_SELECT:
-						if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							magicWindow.nextPC();
-						}
-						if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							magicWindow.prevPC();
-						}
-						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							magicWindow.prevSelect();
-						}
-						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							magicWindow.nextSelect();
-						}
-						if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-							magicWindow.select();//次の操作へ
-						}
-						break;
-					case CHOICE_USE:
-						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							magicWindow.prevSelect();
-						}
-						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							magicWindow.nextSelect();
-						}
-						if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-							magicWindow.select();//次の操作へ
-						}
-						break;
-					case TARGET_SELECT:
-						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							magicWindow.prevPC();
-						}
-						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							magicWindow.nextPC();
-						}
-						if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-							magicWindow.select();//次の操作へ
-						}
-						break;
-					case WAIT_MSG_CLOSE_TO_CU:
-					case WAIT_MSG_CLOSE_TO_MUS:
-						if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-							magicWindow.select();//次の操作へ
-						}
-						break;
-				}
-
-			} else if (bookWindow != null && bookWindow.isVisible()) {
-				//ブックウインドウの処理
-				bookWindow.update();
-				switch (bookWindow.currentMode()) {
-					case BOOK_AND_USER_SELECT:
-						//選択モード
-						if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							bookWindow.nextPC();
-						}
-						if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							bookWindow.prevPC();
-						}
-						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							bookWindow.prevSelect();
-						}
-						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							bookWindow.nextSelect();
-						}
-						if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-							bookWindow.select();//次の操作へ
-						}
-						break;
-					case CHOICE_USE:
-					case DROP_CONFIRM:
-					case DISASSEMBLY_CONFIRM:
-						//用途選択モード
-						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							bookWindow.prevSelect();
-						}
-						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							bookWindow.nextSelect();
-						}
-						if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-							bookWindow.select();//次の操作へ
-						}
-						break;
-					case TARGET_SELECT:
-						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							bookWindow.prevPC();
-						}
-						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-							bookWindow.nextPC();
-						}
-						if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-							bookWindow.select();//次の操作へ
-						}
-						break;
-					case WAIT_MSG_CLOSE_TO_CU:
-					case WAIT_MSG_CLOSE_TO_IUS:
-						if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-							bookWindow.select();//次の操作へ
-						}
-						break;
-				}
-			} else if (materialWindow != null && materialWindow.isVisible()) {
-				//素材ウインドウの処理
-				materialWindow.update();
-				if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
-					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-					materialWindow.switchMode();
-				}
-				if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
-					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-					materialWindow.switchMode();
-				}
-				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-					materialWindow.prev();
-				}
-				if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-					materialWindow.next();
-				}
-			} else if (infoWindow != null && infoWindow.isVisible()) {
-				infoWindow.update();
-				if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
-					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-					infoWindow.switchMode();
-				}
-				if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
-					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-					infoWindow.switchMode();
-				}
-				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-					infoWindow.prevSelect();
-				}
-				if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-					infoWindow.nextSelect();
-				}
-			} else {
-				//どのウインドウも非表示の場合はメニューのカーソル移動可能
-				if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-					menu.nextSelect();
-				}
-				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
-					menu.prevSelect();
-				}
-			}
-			//Aボタン・・・メニュー決定
-			if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-				if (statusDescWindow != null && statusDescWindow.isVisible()) {
-					SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-					switch (statusWindowType) {
-						case 0:
-							statusDescWindow = new AttrDescWindow(
-									(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
-									24 + 8,
-									(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
-									(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32),
-									GameSystem.getInstance().getPartyStatus()
-							);
-							statusWindowType++;
-							break;
-						case 1:
-							statusDescWindow = new EqipItemWindow(
-									(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
-									24 + 8,
-									(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
-									(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32),
-									GameSystem.getInstance().getPartyStatus()
-							);
-							statusWindowType++;
-							break;
-						case 2:
-							statusDescWindow = new ActionDescWindow(
-									(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
-									24 + 8,
-									(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
-									(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32),
-									GameSystem.getInstance().getPartyStatus()
-							);
-							statusWindowType++;
-							break;
-						case 3:
-							statusDescWindow = new ConditionDescWindow(
-									(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
-									24 + 8,
-									(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
-									(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32),
-									GameSystem.getInstance().getPartyStatus()
-							);
-							statusWindowType++;
-							break;
-						case 4:
-							statusDescWindow = new StatusDescWindow(
-									(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
-									24 + 8,
-									(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
-									(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32),
-									GameSystem.getInstance().getPartyStatus()
-							);
-							statusWindowType = 0;
-							break;
+						OperationSprite.getInstance().setText(FieldMap.getEnterOperation());
+						first = true;
 					}
-				} else if ((itemWindow == null || !itemWindow.isVisible())
-						&& (bookWindow == null || !bookWindow.isVisible())
-						&& (materialWindow == null || !materialWindow.isVisible())
-						&& (magicWindow == null || !magicWindow.isVisible())
-						&& (infoWindow == null || !infoWindow.isVisible())) {
-					SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-					switch (menu.getSelect()) {
-						case Const.MenuIdx.STATUS:
-							statusDescWindow = new StatusDescWindow(
-									(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
-									24 + 8,
-									(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
-									(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32),
-									GameSystem.getInstance().getPartyStatus()
-							);
-							statusWindowType = 0;
-							break;
-						case Const.MenuIdx.ORDER:
-							orderSelectWindow = new OrderSelectWindow(
-									24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4,
-									24 + 8,
-									(float) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
-									Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32
-							);
-							break;
-						case Const.MenuIdx.ITEM:
-							itemWindow = new ItemWindow(
-									24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4,
-									24 + 8,
-									(float) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
-									Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32);
-							break;
-						case Const.MenuIdx.MAGIC:
-							magicWindow = new MagicWindow(
-									(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
-									24 + 8,
-									(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
-									(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32));
-							break;
-						case Const.MenuIdx.BOOK:
-							bookWindow = new BookWindow(
-									24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4,
-									24 + 8,
-									(float) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
-									Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32);
-							break;
-						case Const.MenuIdx.MATERIAL:
-							materialWindow = new MaterialPageWindow(
-									(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
-									24 + 8,
-									(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
-									(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32));
-							break;
-						case Const.MenuIdx.INFO:
-							infoWindow = new InfoWindow(
-									(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
-									24 + 8,
-									(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
-									(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32));
-							break;
-						case Const.MenuIdx.MAP:
-							KImage mapImage = map.createMiniMap(1f / 3f, false, true);//TODO:仮
-							Dialog.image(I18N.translate(map.getName()) + I18N.translate("S") + I18N.translate("MAP"), mapImage.get());
-							break;
+					if (mw != null && mw.isVisible()) {
+						if (!mw.isAllVisible()) {
+							mw.allText();
+						} else if (mw.isChoice()) {
+							if (mw.getChoiceOption().hasNext()) {
+								mw.choicesNext();
+							} else {
+								map.closeMessagWindow();
+							}
+							if (FieldEventSystem.getInstance().hasItem()) {
+								//「調べる」によるアイテム取得処理
+								Item i = FieldEventSystem.getInstance().getItem();
+								if (i == null) {
+									throw new GameSystemException("item is null");
+								}
+								if (mw.getSelect() >= GameSystem.getInstance().getParty().size()) {
+									//諦める
+									mw.setVisible(false);
+									mw = null;
+									FieldEventSystem.getInstance().clearTmpFlags();
+									FieldEventSystem.getInstance().endEvent();
+									FieldEventSystem.getInstance().reset();
+								} else {
+									//持ち物数の判定
+									if (GameSystem.getInstance().getParty().get(mw.getSelect()).getStatus().getItemBag().canAdd()) {
+										GameSystem.getInstance().getParty().get(mw.getSelect()).getStatus().getItemBag().add(i);
+										FieldEventSystem.getInstance().commitFlags();
+										FieldEventSystem.getInstance().endEvent();
+										FieldEventSystem.getInstance().reset();
+										mw.setVisible(false);
+										mw = null;
+									} else {
+										//持てない
+										mw.setText(GameSystem.getInstance().getParty().get(mw.getSelect()).getStatus().getName() + I18N.translate("IS") + I18N.translate("CANT_HAVE"));
+										mw.allText();
+										mw.setVisible(true);
+										FieldEventSystem.getInstance().clearTmpFlags();
+										FieldEventSystem.getInstance().endEvent();
+										FieldEventSystem.getInstance().reset();
+									}
+								}
+							}
+						} else if (mw.hasNext()) {
+							mw.next();
+						} else {
+							mw.setVisible(false);
+							map.closeMessagWindow();
+						}
+					} else if (!FieldEventSystem.getInstance().hasEvent() && map.canTalk()) {
+						mw = map.talk();
+					}
+					FieldMapTile t = map.getCurrentTile();
+					if (t.hasInNode()) {
+						//NodeによるChangeMap処理
+						fadeEffect = new FadeEffect(gm.getWindow().getInternalBounds().width, gm.getWindow().getInternalBounds().height,
+								new ColorChanger(
+										ColorTransitionModel.valueOf(0),
+										ColorTransitionModel.valueOf(0),
+										ColorTransitionModel.valueOf(0),
+										new FadeCounter(0, +6)));
+						stage++;
+						return;
+					}
+
+					if (mw != null && mw.isVisible()) {
+						return;
+					}
+					//調べるコマンド
+					if (FieldEventSystem.getInstance().isManual() && menu != null && !menu.isVisible()) {
+						while (FieldEventSystem.getInstance().hasEvent()) {
+							UserOperationRequire r = FieldEventSystem.getInstance().exec();
+							switch (r) {
+								case CONTINUE:
+									break;
+								case WAIT_FOR_EVENT:
+									waiting = true;
+									return;
+								case CHANGE_MAP:
+									map = map.changeMap(FieldEventSystem.getInstance().getNode());
+									FieldMap.getPlayerCharacter().get(0).setShadow(true);
+									return;
+								case GAME_OVER:
+									gls.changeTo("GAME_OVER");
+									return;
+								case SHOW_MESSAGE:
+									mw = FieldEventSystem.getInstance().showMessageWindow();
+									return;
+								case CLOSE_MESSAGE:
+									if (mw != null) {
+										mw.setVisible(false);
+									}
+									mw = null;
+									return;
+								case TO_BATTLE:
+									GameSystem.getInstance().battleStart(FieldEventSystem.getInstance().getEncountInfo());
+									gls.changeTo("BATTLE");
+									return;
+								case GET_ITEAM:
+									mw = FieldEventSystem.getInstance().showItemGetMessageWindow();
+									return;
+							}
+						}
 					}
 				}
-			}
-			return;
-		}
+				if (mw != null && mw.isChoice()) {
+					if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+						mw.nextSelect();
+					}
+					if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+						mw.prevSelect();
+					}
+				}
+				if (mw != null && mw.isVisible()) {
+					return;
+				}
+				//FMイベント処理
 
-		//FM_MOVE
-		KVector v = new KVector(0, 0);
-		if (Const.Input.gamepad && is.getGamePadState() != null) {
-			v = new KVector(is.getGamePadState().sticks.LEFT.getLocation(VehicleStorage.getInstance().getCurrentVehicle().getSpeed()));
-		}
+				if (FieldEventSystem.getInstance().hasEvent()) {
+					//イベントセットにマニュアルが入っている場合は即時実行しない
+					if (!FieldEventSystem.getInstance().isManual()) {
+						UserOperationRequire r = FieldEventSystem.getInstance().exec();
+						switch (r) {
+							case CONTINUE:
+								break;
+							case WAIT_FOR_EVENT:
+								waiting = true;
+								return;
+							case CHANGE_MAP:
+								map = map.changeMap(FieldEventSystem.getInstance().getNode());
+								FieldMap.getPlayerCharacter().get(0).setShadow(true);
+								return;
+							case GAME_OVER:
+								gls.changeTo("GAME_OVER");
+								return;
+							case SHOW_MESSAGE:
+								mw = FieldEventSystem.getInstance().showMessageWindow();
+								return;
+							case CLOSE_MESSAGE:
+								if (mw != null) {
+									mw.setVisible(false);
+								}
+								mw = null;
+								return;
+							case TO_BATTLE:
+								GameSystem.getInstance().battleStart(FieldEventSystem.getInstance().getEncountInfo());
+								gls.changeTo("BATTLE");
+								return;
+						}
+					}
+				}
+				//ユーザオペレーション可否確認
 
-		if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.CONTINUE)) {
-			v.setAngle(FourDirection.WEST);
-			v.setSpeed(VehicleStorage.getInstance().getCurrentVehicle().getSpeed());
-		} else if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.CONTINUE)) {
-			v.setAngle(FourDirection.EAST);
-			v.setSpeed(VehicleStorage.getInstance().getCurrentVehicle().getSpeed());
-		}
+				if (!FieldEventSystem.getInstance().isUserOperation()) {
+					return;
+				}
+				String menuOpe = (FieldMap.getEnterOperation() + ":" + I18N.translate("SUBMIT"));
+				OperationSprite.getInstance().setText("←→↑↓:" + I18N.translate("MOVE")
+						+ " / "
+						+ (FieldMap.getEnterOperation().equals("(ENTER)") ? "M" : "(X)") + ":" + I18N.translate("MENU")
+						+ (menu.isVisible() ? " / " + menuOpe : ""));
 
-		if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.CONTINUE)) {
-			v.setAngle(FourDirection.NORTH);
-			v.setSpeed(VehicleStorage.getInstance().getCurrentVehicle().getSpeed());
-		} else if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.CONTINUE)) {
-			v.setAngle(FourDirection.SOUTH);
-			v.setSpeed(VehicleStorage.getInstance().getCurrentVehicle().getSpeed());
-		}
+				//メニュー操作
+				if (is.isPressed(GamePadButton.X, Keys.M, InputType.SINGLE)) {
+					//メニュー表示
+					SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+					menu.switchVisible();
+					statusDescWindow = null;
+					itemWindow = null;
+					magicWindow = null;
+					bookWindow = null;
+					materialWindow = null;
+					orderSelectWindow = null;
+					infoWindow = null;
+					if (menu.isVisible()) {
+						statusWindow = new FieldStatusWindows(
+								Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 24 + 4,
+								GameSystem.getInstance().getPartyStatus());
+					} else {
+						statusWindow.setVisible(false);
+					}
+					GameSystem.getInstance().getPartyStatus().forEach(p -> p.updateAction());
+				}
+				if (is.isPressed(GamePadButton.B, Keys.BACK_SPACE, InputType.SINGLE)) {
+					statusWindow = new FieldStatusWindows(
+							Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 24 + 4,
+							GameSystem.getInstance().getPartyStatus());
+					GameSystem.getInstance().getPartyStatus().forEach(p -> p.updateAction());
+					if (statusDescWindow != null && statusDescWindow.isVisible()) {
+						SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+						statusDescWindow = null;
+					} else if (itemWindow != null && itemWindow.isVisible()) {
+						SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+						if (itemWindow.close()) {
+							itemWindow = null;
+						}
+					} else if (bookWindow != null && bookWindow.isVisible()) {
+						SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+						if (bookWindow.close()) {
+							bookWindow = null;
+						}
+					} else if (magicWindow != null && magicWindow.isVisible()) {
+						SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+						if (magicWindow.close()) {
+							magicWindow = null;
+						}
+					} else if (materialWindow != null && materialWindow.isVisible()) {
+						SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+						materialWindow = null;
+					} else if (orderSelectWindow != null && orderSelectWindow.isVisible()) {
+						SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+						orderSelectWindow = null;
+					} else if (infoWindow != null && infoWindow.isVisible()) {
+						SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+						infoWindow = null;
+					} else {
+						SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+						menu.setVisible(false);
+						statusWindow.setVisible(false);
+					}
+				}
+				if (menu.isVisible()) {
+					//ステータス切替
+					if (statusDescWindow != null && statusDescWindow.isVisible()) {
+						statusDescWindow.update();
+						//ステータス詳細非表示の場合はカーソル移動可能
+						if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
+							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+							statusDescWindow.nextPc();
+						}
+						if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
+							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+							statusDescWindow.prevPc();
+						}
+						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+							statusDescWindow.prev();
+						}
+						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+							statusDescWindow.next();
+						}
+					} else if (orderSelectWindow != null && orderSelectWindow.isVisible()) {
+						orderSelectWindow.update();
+						//隊列ウインドウの処理
+						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+							orderSelectWindow.prevPC();
+						}
+						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+							orderSelectWindow.nextPC();
+						}
+						if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+							SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+							orderSelectWindow.changeOrder();
+						}
+					} else if (itemWindow != null && itemWindow.isVisible()) {
+						//アイテムウインドウの処理
+						itemWindow.update();
+						switch (itemWindow.currentMode()) {
+							case ITEM_AND_USER_SELECT:
+								//アイテム選択モード
+								if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									itemWindow.nextPC();
+								}
+								if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									itemWindow.prevPC();
+								}
+								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									itemWindow.prevSelect();
+								}
+								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									itemWindow.nextSelect();
+								}
+								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+									itemWindow.select();//次の操作へ
+								}
+								break;
+							case CHOICE_USE:
+							case DROP_CONFIRM:
+							case DISASSE_CONFIRM:
+								//用途選択モード
+								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									itemWindow.prevSelect();
+								}
+								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									itemWindow.nextSelect();
+								}
+								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+									itemWindow.select();//次の操作へ
+								}
+								break;
+							case TARGET_SELECT:
+								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									itemWindow.prevPC();
+								}
+								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									itemWindow.nextPC();
+								}
+								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+									itemWindow.select();//次の操作へ
+								}
+								break;
+							case WAIT_MSG_CLOSE_TO_CU:
+							case WAIT_MSG_CLOSE_TO_IUS:
+								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+									itemWindow.select();//次の操作へ
+								}
+								break;
+						}
+					} else if (magicWindow != null && magicWindow.isVisible()) {
+						//魔法ウインドウの処理
+						magicWindow.update();
+						switch (magicWindow.getCurrentMode()) {
+							case MAGIC_AND_USER_SELECT:
+								if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									magicWindow.nextPC();
+								}
+								if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									magicWindow.prevPC();
+								}
+								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									magicWindow.prevSelect();
+								}
+								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									magicWindow.nextSelect();
+								}
+								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+									magicWindow.select();//次の操作へ
+								}
+								break;
+							case CHOICE_USE:
+								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									magicWindow.prevSelect();
+								}
+								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									magicWindow.nextSelect();
+								}
+								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+									magicWindow.select();//次の操作へ
+								}
+								break;
+							case TARGET_SELECT:
+								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									magicWindow.prevPC();
+								}
+								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									magicWindow.nextPC();
+								}
+								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+									magicWindow.select();//次の操作へ
+								}
+								break;
+							case WAIT_MSG_CLOSE_TO_CU:
+							case WAIT_MSG_CLOSE_TO_MUS:
+								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+									magicWindow.select();//次の操作へ
+								}
+								break;
+						}
 
-		map.setVector(v);
+					} else if (bookWindow != null && bookWindow.isVisible()) {
+						//ブックウインドウの処理
+						bookWindow.update();
+						switch (bookWindow.currentMode()) {
+							case BOOK_AND_USER_SELECT:
+								//選択モード
+								if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									bookWindow.nextPC();
+								}
+								if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									bookWindow.prevPC();
+								}
+								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									bookWindow.prevSelect();
+								}
+								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									bookWindow.nextSelect();
+								}
+								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+									bookWindow.select();//次の操作へ
+								}
+								break;
+							case CHOICE_USE:
+							case DROP_CONFIRM:
+							case DISASSEMBLY_CONFIRM:
+								//用途選択モード
+								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									bookWindow.prevSelect();
+								}
+								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									bookWindow.nextSelect();
+								}
+								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+									bookWindow.select();//次の操作へ
+								}
+								break;
+							case TARGET_SELECT:
+								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									bookWindow.prevPC();
+								}
+								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+									bookWindow.nextPC();
+								}
+								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+									bookWindow.select();//次の操作へ
+								}
+								break;
+							case WAIT_MSG_CLOSE_TO_CU:
+							case WAIT_MSG_CLOSE_TO_IUS:
+								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+									SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+									bookWindow.select();//次の操作へ
+								}
+								break;
+						}
+					} else if (materialWindow != null && materialWindow.isVisible()) {
+						//素材ウインドウの処理
+						materialWindow.update();
+						if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
+							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+							materialWindow.switchMode();
+						}
+						if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
+							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+							materialWindow.switchMode();
+						}
+						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+							materialWindow.prev();
+						}
+						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+							materialWindow.next();
+						}
+					} else if (infoWindow != null && infoWindow.isVisible()) {
+						infoWindow.update();
+						if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
+							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+							infoWindow.switchMode();
+						}
+						if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
+							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+							infoWindow.switchMode();
+						}
+						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+							infoWindow.prevSelect();
+						}
+						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+							infoWindow.nextSelect();
+						}
+					} else {
+						//どのウインドウも非表示の場合はメニューのカーソル移動可能
+						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+							menu.nextSelect();
+						}
+						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+							SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+							menu.prevSelect();
+						}
+					}
+					//Aボタン・・・メニュー決定
+					if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+						if (statusDescWindow != null && statusDescWindow.isVisible()) {
+							SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+							int pcIdx = statusDescWindow.getPcIdx();
+							switch (statusWindowType) {
+								case 0:
+									statusDescWindow = new AttrDescWindow(
+											(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
+											24 + 8,
+											(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
+											(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32),
+											GameSystem.getInstance().getPartyStatus()
+									);
+									statusDescWindow.setPcIdx(pcIdx);
+									statusWindowType++;
+									break;
+								case 1:
+									statusDescWindow = new EqipItemWindow(
+											(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
+											24 + 8,
+											(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
+											(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32),
+											GameSystem.getInstance().getPartyStatus()
+									);
+									statusDescWindow.setPcIdx(pcIdx);
+									statusWindowType++;
+									break;
+								case 2:
+									statusDescWindow = new ActionDescWindow(
+											(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
+											24 + 8,
+											(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
+											(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32),
+											GameSystem.getInstance().getPartyStatus()
+									);
+									statusDescWindow.setPcIdx(pcIdx);
+									statusWindowType++;
+									break;
+								case 3:
+									statusDescWindow = new ConditionDescWindow(
+											(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
+											24 + 8,
+											(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
+											(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32),
+											GameSystem.getInstance().getPartyStatus()
+									);
+									statusDescWindow.setPcIdx(pcIdx);
+									statusWindowType++;
+									break;
+								case 4:
+									statusDescWindow = new StatusDescWindow(
+											(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
+											24 + 8,
+											(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
+											(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32),
+											GameSystem.getInstance().getPartyStatus()
+									);
+									statusDescWindow.setPcIdx(pcIdx);
+									statusWindowType = 0;
+									break;
+							}
+						} else if ((itemWindow == null || !itemWindow.isVisible())
+								&& (bookWindow == null || !bookWindow.isVisible())
+								&& (materialWindow == null || !materialWindow.isVisible())
+								&& (magicWindow == null || !magicWindow.isVisible())
+								&& (infoWindow == null || !infoWindow.isVisible())) {
+							SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+							switch (menu.getSelect()) {
+								case Const.MenuIdx.STATUS:
+									statusDescWindow = new StatusDescWindow(
+											(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
+											24 + 8,
+											(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
+											(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32),
+											GameSystem.getInstance().getPartyStatus()
+									);
+									statusWindowType = 0;
+									break;
+								case Const.MenuIdx.ORDER:
+									orderSelectWindow = new OrderSelectWindow(
+											24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4,
+											24 + 8,
+											(float) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
+											Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32
+									);
+									break;
+								case Const.MenuIdx.ITEM:
+									itemWindow = new ItemWindow(
+											24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4,
+											24 + 8,
+											(float) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
+											Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32);
+									break;
+								case Const.MenuIdx.MAGIC:
+									magicWindow = new MagicWindow(
+											(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
+											24 + 8,
+											(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
+											(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32));
+									break;
+								case Const.MenuIdx.BOOK:
+									bookWindow = new BookWindow(
+											24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4,
+											24 + 8,
+											(float) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
+											Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32);
+									break;
+								case Const.MenuIdx.MATERIAL:
+									materialWindow = new MaterialPageWindow(
+											(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
+											24 + 8,
+											(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
+											(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32));
+									break;
+								case Const.MenuIdx.INFO:
+									infoWindow = new InfoWindow(
+											(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
+											24 + 8,
+											(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
+											(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32));
+									break;
+								case Const.MenuIdx.MAP:
+									KImage mapImage = map.createMiniMap(1f / 3f, false, true);//TODO:仮
+									Dialog.image(I18N.translate(map.getName()) + I18N.translate("S") + I18N.translate("MAP"), mapImage.get());
+									break;
+							}
+						}
+					}
 
-		map.move();
-		//PCの向き調整
-		PlayerCharacterSprite c = FieldMap.getPlayerCharacter().get(0);
+				}
+				if (menu != null && menu.isVisible()) {
+					return;
+				}
 
-		if (v.getSpeed() != 0 && map.getCamera().getMode() == FieldMapCameraMode.FOLLOW_TO_CENTER) {
-			c.to(v.round());
+				//FM_MOVE
+				KVector v = new KVector(0, 0);
+				if (Const.Input.gamepad && is.getGamePadState() != null) {
+					v = new KVector(is.getGamePadState().sticks.LEFT.getLocation(VehicleStorage.getInstance().getCurrentVehicle().getSpeed()));
+				}
+
+				if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.CONTINUE)) {
+					v.setAngle(FourDirection.WEST);
+					v.setSpeed(VehicleStorage.getInstance().getCurrentVehicle().getSpeed());
+				} else if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.CONTINUE)) {
+					v.setAngle(FourDirection.EAST);
+					v.setSpeed(VehicleStorage.getInstance().getCurrentVehicle().getSpeed());
+				}
+
+				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.CONTINUE)) {
+					v.setAngle(FourDirection.NORTH);
+					v.setSpeed(VehicleStorage.getInstance().getCurrentVehicle().getSpeed());
+				} else if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.CONTINUE)) {
+					v.setAngle(FourDirection.SOUTH);
+					v.setSpeed(VehicleStorage.getInstance().getCurrentVehicle().getSpeed());
+				}
+
+				map.setVector(v);
+
+				map.move();
+				//PCの向き調整
+				PlayerCharacterSprite c = FieldMap.getPlayerCharacter().get(0);
+
+				if (v.getSpeed() != 0 && map.getCamera().getMode() == FieldMapCameraMode.FOLLOW_TO_CENTER) {
+					c.to(v.round());
+				}
+				break;
+			case 1:
+				if (fadeEffect.isEnded()) {
+					fadeEffect = new FadeEffect(gm.getWindow().getInternalBounds().width, gm.getWindow().getInternalBounds().height,
+							new ColorChanger(
+									ColorTransitionModel.valueOf(0),
+									ColorTransitionModel.valueOf(0),
+									ColorTransitionModel.valueOf(0),
+									ColorTransitionModel.valueOf(255)
+							));
+					map = map.changeMap();
+					stage++;
+				}
+				break;
+			case 2:
+				fadeEffect = new FadeEffect(gm.getWindow().getInternalBounds().width, gm.getWindow().getInternalBounds().height,
+						new ColorChanger(
+								ColorTransitionModel.valueOf(0),
+								ColorTransitionModel.valueOf(0),
+								ColorTransitionModel.valueOf(0),
+								new FadeCounter(255, -6)
+						));
+				stage++;
+				break;
+			case 3:
+				if (fadeEffect.isEnded()) {
+					stage = 0;
+				}
+				break;
+			default:
+				throw new AssertionError("undefined FL stage : " + stage);
 		}
 
 	}
@@ -953,6 +1010,9 @@ public class FieldLogic extends GameLogic {
 		}
 		OperationSprite.getInstance().draw(g);
 		FieldEventSystem.getInstance().draw(g);
+		if (fadeEffect != null) {
+			fadeEffect.draw(g);
+		}
 	}
 
 }

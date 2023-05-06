@@ -552,6 +552,42 @@ THE SOFTWARE.
 		<mapChip name="031013" attribute="VOID"/>
 		<mapChip name="031014" attribute="VOID"/>
 		<mapChip name="031015" attribute="VOID"/>
+		
+		<mapChip name="035009" attribute="–Ø" />
+		<mapChip name="035010" attribute="–Ø" />
+		<mapChip name="036009" attribute="–Ø" />
+		<mapChip name="036010" attribute="–Ø" />
+		
+		<mapChip name="038009" attribute="VOID" />
+		<mapChip name="038010" attribute="VOID" />
+		<mapChip name="038011" attribute="VOID" />
+		<mapChip name="038012" attribute="VOID" />
+		<mapChip name="038013" attribute="VOID" />
+		
+		<mapChip name="039009" attribute="‰®ª" />
+		<mapChip name="039010" attribute="‰®ª" />
+		<mapChip name="039011" attribute="‰®ª" />
+		<mapChip name="039012" attribute="‰®ª" />
+		<mapChip name="039013" attribute="‰®ª" />
+		
+		<mapChip name="040009" attribute="‰®ª" />
+		<mapChip name="040010" attribute="‰®ª" />
+		<mapChip name="040011" attribute="‰®ª" />
+		<mapChip name="040012" attribute="‰®ª" />
+		<mapChip name="040013" attribute="‰®ª" />
+		
+		<mapChip name="041009" attribute="–Ø•Ç" />
+		<mapChip name="041010" attribute="–Ø•Ç" />
+		<mapChip name="041011" attribute="–Ø•Ç" />
+		<mapChip name="041012" attribute="–Ø•Ç" />
+		<mapChip name="041013" attribute="–Ø•Ç" />
+		
+		<mapChip name="042009" attribute="–Ø•Ç" />
+		<mapChip name="042010" attribute="–Ø•Ç" />
+		<mapChip name="042011" attribute="ƒhƒA" />
+		<mapChip name="042012" attribute="–Ø•Ç" />
+		<mapChip name="042013" attribute="–Ø•Ç" />
+		
     </chipSet>
 
 </kinugasaChipSet>
