@@ -74,7 +74,7 @@ public class MusicRoomLogic extends GameLogic {
 		if (Const.Input.gamepad) {
 			OperationSprite.getInstance().setText("(A):" + I18N.translate("SUBMIT") + " / " + "ª«:" + I18N.translate("MOVE") + " / " + "(B):" + I18N.translate("RETURN") + " / " + "(X):" + I18N.translate("OPEN"));
 		} else {
-			OperationSprite.getInstance().setText("[ENTER]:" + I18N.translate("SUBMIT") + " / " + "ª«:" + I18N.translate("MOVE") + " / " + "[BACK SPACE]::" + I18N.translate("RETURN") + " / " + "[O]:" + I18N.translate("OPEN"));
+			OperationSprite.getInstance().setText("[ENTER]:" + I18N.translate("SUBMIT") + " / " + "ª«:" + I18N.translate("MOVE") + " / " + "[BACK SPACE]:" + I18N.translate("RETURN") + " / " + "[O]:" + I18N.translate("OPEN"));
 		}
 		soundNameSprite = new SoundNameSprite(380, 64);
 	}

@@ -23,7 +23,6 @@
  */
 package fuzzyworld1;
 
-import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -59,16 +58,20 @@ import kinugasa.game.system.FieldStatusWindows;
 import kinugasa.game.system.GameSystem;
 import kinugasa.game.system.GameSystemException;
 import kinugasa.game.system.GameSystemXMLLoader;
+import kinugasa.game.system.InfoWindow;
 import kinugasa.game.system.Item;
 import kinugasa.game.system.ItemStorage;
 import kinugasa.game.system.ItemWindow;
 import kinugasa.game.system.MagicWindow;
 import kinugasa.game.system.MaterialPageWindow;
+import kinugasa.game.system.Money;
+import kinugasa.game.system.MoneySystem;
 import kinugasa.game.system.OrderSelectWindow;
 import kinugasa.game.system.PCStatusWindow;
 import kinugasa.game.system.PlayerCharacter;
 import kinugasa.game.system.QuestLine;
 import kinugasa.game.system.QuestLineStorage;
+import kinugasa.game.system.QuestStageStorage;
 import kinugasa.game.system.RaceStorage;
 import kinugasa.game.system.Status;
 import kinugasa.game.system.StatusDescWindow;
@@ -79,7 +82,6 @@ import kinugasa.game.ui.SimpleMessageWindowModel;
 import kinugasa.game.ui.Text;
 import kinugasa.game.ui.TextStorageStorage;
 import kinugasa.graphics.Animation;
-import kinugasa.graphics.ImageEditor;
 import kinugasa.graphics.SpriteSheet;
 import kinugasa.object.FourDirection;
 import kinugasa.object.KVector;
@@ -111,6 +113,7 @@ public class FieldLogic extends GameLogic {
 				.addWeaponMagicTypeStorage("resource/data/SWMTM.xml")
 				.addBattleField("resource/data/SBattleFieldM.xml")
 				.addConditionValueStorage("resource/data/SConditionM.xml")
+				.addQuestStage("resource/data/SQuestM.xml")
 				.load();
 		float x = Const.Screen.WIDTH / 2 - 16;
 		float y = Const.Screen.HEIGHT / 2 - 16;
@@ -192,6 +195,13 @@ public class FieldLogic extends GameLogic {
 				}
 			}
 		}
+
+		//マネー初期登録
+		{
+			MoneySystem ms = GameSystem.getInstance().getMoneySystem();
+			ms.addMoneyType(I18N.translate("DARESU_GOLD"));
+			ms.addMoneyType(I18N.translate("BERUMA_SILVER"));
+		}
 	}
 	private FieldMap map;
 	private int stage;//changeMap用ステージ
@@ -207,6 +217,7 @@ public class FieldLogic extends GameLogic {
 	private OrderSelectWindow orderSelectWindow;
 	private MaterialPageWindow materialWindow;
 	private MagicWindow magicWindow;
+	private InfoWindow infoWindow;
 
 	@Override
 	public void dispose() {
@@ -422,6 +433,7 @@ public class FieldLogic extends GameLogic {
 			bookWindow = null;
 			materialWindow = null;
 			orderSelectWindow = null;
+			infoWindow = null;
 			if (menu.isVisible()) {
 				statusWindow = new FieldStatusWindows(
 						Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 24 + 4,
@@ -460,6 +472,9 @@ public class FieldLogic extends GameLogic {
 			} else if (orderSelectWindow != null && orderSelectWindow.isVisible()) {
 				SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
 				orderSelectWindow = null;
+			} else if (infoWindow != null && infoWindow.isVisible()) {
+				SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+				infoWindow = null;
 			} else {
 				SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
 				menu.setVisible(false);
@@ -716,6 +731,24 @@ public class FieldLogic extends GameLogic {
 					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
 					materialWindow.next();
 				}
+			} else if (infoWindow != null && infoWindow.isVisible()) {
+				infoWindow.update();
+				if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
+					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+					infoWindow.switchMode();
+				}
+				if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
+					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+					infoWindow.switchMode();
+				}
+				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+					infoWindow.prevSelect();
+				}
+				if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+					SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load().stopAndPlay();
+					infoWindow.nextSelect();
+				}
 			} else {
 				//どのウインドウも非表示の場合はメニューのカーソル移動可能
 				if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
@@ -786,7 +819,8 @@ public class FieldLogic extends GameLogic {
 				} else if ((itemWindow == null || !itemWindow.isVisible())
 						&& (bookWindow == null || !bookWindow.isVisible())
 						&& (materialWindow == null || !materialWindow.isVisible())
-						&& (magicWindow == null || !magicWindow.isVisible())) {
+						&& (magicWindow == null || !magicWindow.isVisible())
+						&& (infoWindow == null || !infoWindow.isVisible())) {
 					SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
 					switch (menu.getSelect()) {
 						case Const.MenuIdx.STATUS:
@@ -836,6 +870,11 @@ public class FieldLogic extends GameLogic {
 									(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32));
 							break;
 						case Const.MenuIdx.INFO:
+							infoWindow = new InfoWindow(
+									(int) (24 + Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 8 + 4),
+									24 + 8,
+									(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 1.5),
+									(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32));
 							break;
 						case Const.MenuIdx.MAP:
 							KImage mapImage = map.createMiniMap(1f / 3f, false, true);//TODO:仮
@@ -908,6 +947,9 @@ public class FieldLogic extends GameLogic {
 		}
 		if (magicWindow != null) {
 			magicWindow.draw(g);
+		}
+		if (infoWindow != null) {
+			infoWindow.draw(g);
 		}
 		OperationSprite.getInstance().draw(g);
 		FieldEventSystem.getInstance().draw(g);
