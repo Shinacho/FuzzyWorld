@@ -22,7 +22,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 -->
-<kinugasaFieldMapData mg="2" esName="01" encountCounterDefault="4" >
+<kinugasaFieldMapData mg="2" esName="01" encountCounterDefault="32" >
 
 	<bgm mode="STOP_AND_PLAY" mapName="BGM" soundName="フィールド５.wav" />
 

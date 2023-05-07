@@ -361,7 +361,7 @@ public class FieldLogic extends GameLogic {
 									return;
 								case CHANGE_MAP:
 									fieldMap = fieldMap.changeMap(FieldEventSystem.getInstance().getNode());
-									//最初のチェンジマップイベントでシャドーとアニメーションストップを設定する
+									//最初のチェンジマップイベントでシャドーを設定する
 									FieldMap.getPlayerCharacter().get(0).setShadow(true);
 									return;
 								case GAME_OVER:
@@ -840,6 +840,7 @@ public class FieldLogic extends GameLogic {
 							}
 						} else if ((itemWindow == null || !itemWindow.isVisible())
 								&& (bookWindow == null || !bookWindow.isVisible())
+								&& (orderSelectWindow == null || !orderSelectWindow.isVisible())
 								&& (materialWindow == null || !materialWindow.isVisible())
 								&& (magicWindow == null || !magicWindow.isVisible())
 								&& (infoWindow == null || !infoWindow.isVisible())) {

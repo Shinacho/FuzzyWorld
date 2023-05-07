@@ -142,6 +142,7 @@ public class TitleLogic extends GameLogic {
 						return;
 					}
 					if (selected == 0) {
+						SoundStorage.getInstance().get("SE").get("効果音＿ゲームスタート.wav").load().stopAndPlay();
 						nextStage();
 						return;
 					}

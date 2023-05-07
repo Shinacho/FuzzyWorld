@@ -24,6 +24,7 @@
 package fuzzyworld1;
 
 import java.awt.Color;
+import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import kinugasa.game.GameLogic;
 import kinugasa.game.GameManager;
@@ -33,10 +34,14 @@ import kinugasa.game.I18N;
 import kinugasa.game.input.InputState;
 import kinugasa.game.input.InputType;
 import kinugasa.game.input.Keys;
+import kinugasa.game.system.BattleCommand;
 import kinugasa.game.system.BattleResult;
 import kinugasa.game.system.BattleResultValues;
 import kinugasa.game.system.BattleSystem;
 import kinugasa.game.system.GameSystem;
+import kinugasa.game.ui.Dialog;
+import kinugasa.game.ui.DialogIcon;
+import kinugasa.game.ui.DialogOption;
 
 /**
  *
@@ -52,21 +57,42 @@ public class BattleLogic extends GameLogic {
 	@Override
 	public void load() {
 		battleSystem = GameSystem.getInstance().getBattleSystem();
-
+		stage = 0;
 	}
 
 	@Override
 	public void dispose() {
 	}
 	private BattleSystem battleSystem;
+	private BattleCommand cmd;
+	private Point2D.Float playerMoveInitialLocation;
+	private int stage;
 
 	@Override
 	public void update(GameTimeManager gtm, InputState is) {
 		//テスト用緊急脱出装置
-		if (is.isPressed(Keys.ESCAPE, InputType.SINGLE)) {
-			battleSystem.setBattleResultValue(new BattleResultValues(BattleResult.WIN, 123, new ArrayList<>(), "FIELD"));
-			BattleResultValues result = GameSystem.getInstance().battleEnd();
-			gls.changeTo("FIELD");
+		if (GameSystem.isDebugMode()) {
+			if (is.isPressed(Keys.ESCAPE, InputType.SINGLE)) {
+				if (Dialog.yesOrNo("確認", DialogIcon.QUESTION, I18N.translate("BATTLE_CLOSE")) == DialogOption.YES) {
+					battleSystem.setBattleResultValue(new BattleResultValues(BattleResult.WIN, 123, new ArrayList<>(), "FIELD"));
+					BattleResultValues result = GameSystem.getInstance().battleEnd();
+					gls.changeTo("FIELD");
+				}
+			}
+		}
+		//チートコンソール
+		if (is.isPressed(Keys.AT, InputType.SINGLE)) {
+			ConsolCmd cmd = new ConsolCmd();
+			cmd.setVisible(true);
+			try {
+				while (true) {
+					Thread.sleep(300);
+					if (!cmd.isVisible()) {
+						break;
+					}
+				}
+			} catch (InterruptedException ex) {
+			}
 		}
 
 	}
