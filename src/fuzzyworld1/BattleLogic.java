@@ -24,11 +24,19 @@
 package fuzzyworld1;
 
 import java.awt.Color;
+import java.util.ArrayList;
 import kinugasa.game.GameLogic;
 import kinugasa.game.GameManager;
 import kinugasa.game.GameTimeManager;
 import kinugasa.game.GraphicsContext;
+import kinugasa.game.I18N;
 import kinugasa.game.input.InputState;
+import kinugasa.game.input.InputType;
+import kinugasa.game.input.Keys;
+import kinugasa.game.system.BattleResult;
+import kinugasa.game.system.BattleResultValues;
+import kinugasa.game.system.BattleSystem;
+import kinugasa.game.system.GameSystem;
 
 /**
  *
@@ -43,14 +51,24 @@ public class BattleLogic extends GameLogic {
 
 	@Override
 	public void load() {
+		battleSystem = GameSystem.getInstance().getBattleSystem();
+
 	}
 
 	@Override
 	public void dispose() {
 	}
+	private BattleSystem battleSystem;
 
 	@Override
 	public void update(GameTimeManager gtm, InputState is) {
+		//テスト用緊急脱出装置
+		if (is.isPressed(Keys.ESCAPE, InputType.SINGLE)) {
+			battleSystem.setBattleResultValue(new BattleResultValues(BattleResult.WIN, 123, new ArrayList<>(), "FIELD"));
+			BattleResultValues result = GameSystem.getInstance().battleEnd();
+			gls.changeTo("FIELD");
+		}
+
 	}
 
 	@Override

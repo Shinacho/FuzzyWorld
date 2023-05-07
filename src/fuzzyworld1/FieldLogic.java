@@ -104,8 +104,18 @@ public class FieldLogic extends GameLogic {
 		super(Const.LogicName.FIELD, gm);
 	}
 
+	private boolean loaded = false;
+
 	@Override
 	public void load() {
+		statusWindowType = 0;
+		stage = 0;
+		waiting = false;
+		battle = false;
+		if (loaded) {
+			fieldMap.getBgm().play();
+			return;
+		}
 		//PCのADD
 		new GameSystemXMLLoader()
 				.addAttrKeyStorage("resource/data/SAttrM.xml")
@@ -125,16 +135,15 @@ public class FieldLogic extends GameLogic {
 		float x = Const.Screen.WIDTH / 2 - 16;
 		float y = Const.Screen.HEIGHT / 2 - 16;
 		Status pc1Status = new Status(Const.Player.pc1Name, RaceStorage.getInstance().get("HUMAN"));
-		Animation south = new Animation(new FrameTimeCounter(30), new SpriteSheet("resource/data/image/c2.png").rows(0, 32, 32).images());
-		Animation west = new Animation(new FrameTimeCounter(30), new SpriteSheet("resource/data/image/c2.png").rows(96, 32, 32).images());
-		Animation east = new Animation(new FrameTimeCounter(30), new SpriteSheet("resource/data/image/c2.png").rows(64, 32, 32).images());
-		Animation north = new Animation(new FrameTimeCounter(30), new SpriteSheet("resource/data/image/c2.png").rows(32, 32, 32).images());
+		Animation south = new Animation(new FrameTimeCounter(14), new SpriteSheet("resource/data/image/c2.png").rows(0, 32, 32).images());
+		Animation west = new Animation(new FrameTimeCounter(14), new SpriteSheet("resource/data/image/c2.png").rows(96, 32, 32).images());
+		Animation east = new Animation(new FrameTimeCounter(14), new SpriteSheet("resource/data/image/c2.png").rows(64, 32, 32).images());
+		Animation north = new Animation(new FrameTimeCounter(14), new SpriteSheet("resource/data/image/c2.png").rows(32, 32, 32).images());
 
 		FourDirAnimation anime = new FourDirAnimation(south, west, east, north);
 		PlayerCharacterSprite pcs = new PlayerCharacterSprite(x, y, 32, 32, new D2Idx(31, 35), anime, FourDirection.NORTH);
 		pcs.setShadow(false);
 		PlayerCharacter pc1 = new PlayerCharacter(pc1Status, pcs);
-		pc1.getSprite().getAnimation().setStop(true);
 		GameSystem.getInstance().getParty().add(pc1);
 		GameSystem.getInstance().updateParty();
 		//map
@@ -148,12 +157,7 @@ public class FieldLogic extends GameLogic {
 
 		Text.getReplaceMap().put("!PC1", Const.Player.pc1Name);
 
-		stage = 0;
-		waiting = false;
-
 		QuestLineStorage.getInstance().add(new QuestLine("MAIN"));
-
-		OperationSprite.getInstance().setText("↑↓:" + I18N.translate("MOVE") + " / " + "(ENTER)");
 
 		menu = new MessageWindow(24, 24,
 				Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4,
@@ -183,8 +187,6 @@ public class FieldLogic extends GameLogic {
 		StatusDescWindow.setVisibleMaxStatusList(List.of("HP", "MP", "SAN"));
 		AttrDescWindow.setUnvisibleAttrName(List.of("NONE"));
 
-		statusWindowType = 0;
-
 		if (CMDargs.getInstance().getArgs() != null) {
 			if (CMDargs.getInstance().getArgs().length > 0) {
 				if (GameSystem.isDebugMode()) {
@@ -209,8 +211,7 @@ public class FieldLogic extends GameLogic {
 			ms.addMoneyType(I18N.translate("DARESU_GOLD"));
 			ms.addMoneyType(I18N.translate("BERUMA_SILVER"));
 		}
-		stage = 0;
-		battle = false;
+		loaded = true;
 	}
 	private FieldMap fieldMap;
 	private int stage;//changeMap用ステージ
@@ -279,7 +280,6 @@ public class FieldLogic extends GameLogic {
 						} else {
 							FieldMap.setEnterOperation("(A)");
 						}
-						OperationSprite.getInstance().setText(FieldMap.getEnterOperation());
 						first = true;
 					}
 					if (mw != null && mw.isVisible()) {
@@ -361,6 +361,7 @@ public class FieldLogic extends GameLogic {
 									return;
 								case CHANGE_MAP:
 									fieldMap = fieldMap.changeMap(FieldEventSystem.getInstance().getNode());
+									//最初のチェンジマップイベントでシャドーとアニメーションストップを設定する
 									FieldMap.getPlayerCharacter().get(0).setShadow(true);
 									return;
 								case GAME_OVER:
@@ -437,12 +438,6 @@ public class FieldLogic extends GameLogic {
 				if (!FieldEventSystem.getInstance().isUserOperation()) {
 					return;
 				}
-				String menuOpe = (FieldMap.getEnterOperation() + ":" + I18N.translate("SUBMIT"));
-				OperationSprite.getInstance().setText("←→↑↓:" + I18N.translate("MOVE")
-						+ " / "
-						+ (FieldMap.getEnterOperation().equals("(ENTER)") ? "M" : "(X)") + ":" + I18N.translate("MENU")
-						+ (menu.isVisible() ? " / " + menuOpe + " / " + (Const.Input.gamepad ? "(B)" : "(BackSpace)") + ":" + I18N.translate("CANCEL") : ""));
-
 				//メニュー操作
 				if (is.isPressed(GamePadButton.X, Keys.M, InputType.SINGLE)) {
 					//メニュー表示
@@ -918,7 +913,7 @@ public class FieldLogic extends GameLogic {
 
 				//-------------------FM_MOVE
 				KVector v = new KVector(0, 0);
-				if (Const.Input.gamepad && is.getGamePadState() != null) {
+				if (is.getGamePadState() != null) {
 					v = new KVector(is.getGamePadState().sticks.LEFT.getLocation(VehicleStorage.getInstance().getCurrentVehicle().getSpeed()));
 				}
 
@@ -937,6 +932,9 @@ public class FieldLogic extends GameLogic {
 					v.setAngle(FourDirection.SOUTH);
 					v.setSpeed(VehicleStorage.getInstance().getCurrentVehicle().getSpeed());
 				}
+				if (v.getSpeed() == 0f) {
+					break;
+				}
 
 				fieldMap.setVector(v);
 
@@ -945,6 +943,7 @@ public class FieldLogic extends GameLogic {
 				PlayerCharacterSprite c = FieldMap.getPlayerCharacter().get(0);
 
 				if (v.getSpeed() != 0 && fieldMap.getCamera().getMode() == FieldMapCameraMode.FOLLOW_TO_CENTER) {
+					c.updateAnimation();
 					c.to(v.round());
 				}
 
@@ -1034,7 +1033,6 @@ public class FieldLogic extends GameLogic {
 		if (infoWindow != null) {
 			infoWindow.draw(g);
 		}
-		OperationSprite.getInstance().draw(g);
 		FieldEventSystem.getInstance().draw(g);
 		if (fadeEffect != null) {
 			fadeEffect.draw(g);

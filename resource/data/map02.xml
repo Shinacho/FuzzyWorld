@@ -30,7 +30,7 @@ THE SOFTWARE.
 	<event name="E_01" x="31" y="35" script="resource/data/E001.xml" />
 		
 		
-	<npc name="NPC02" initialIdx="18,35" NPCMoveModel="NOT_MOVE" image="resource/data/image/c3.png" s="0,32,32" w="96,32,32" e="64,32,32" n="32,32,32" frame="32" initialDir="EAST"/>
+	<npc name="NPC02" initialIdx="18,35" NPCMoveModel="NOT_MOVE" image="resource/data/image/c3.png" s="0,32,32" w="96,32,32" e="64,32,32" n="32,32,32" frame="14" initialDir="EAST"/>
 
 
 	<backLayer chipSet="outer16.png" lineSeparator ="/">

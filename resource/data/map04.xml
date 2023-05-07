@@ -38,7 +38,7 @@ THE SOFTWARE.
 	<inOutNode name="ND_04_0004" x="7" y="16" tgtMap="WORLDMAP" exitNode="ND_05_0001" tooltip="ワールドマップ" accepterName="TRUE" outDir="NORTH" se="SE/足音.wav"/>
 
 
-	<npc name="NPC02" initialIdx="7,13" NPCMoveModel="NOT_MOVE" image="resource/data/image/c3.png" s="0,32,32" w="96,32,32" e="64,32,32" n="32,32,32" frame="32" initialDir="EAST"/>
+	<npc name="NPC02" initialIdx="6,13" NPCMoveModel="NOT_MOVE" image="resource/data/image/c3.png" s="0,32,32" w="96,32,32" e="64,32,32" n="32,32,32" frame="32" initialDir="EAST"/>
 
 	<backLayer chipSet="outer16.png" lineSeparator ="/">
 010000,010000,010000,010000,010000,010000,010000,010000,010000,010000,010000,010000,010000,010000,010000,010000,010000,010000/

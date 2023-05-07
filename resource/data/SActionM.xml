@@ -1253,7 +1253,7 @@ THE SOFTWARE.
     </magic>
     
     
-    
+    <!--
     <magic name="テスト魔法バトルALL" desc="テスト用の魔法だ。/味方一人の体力を小回復する。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
         <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
         <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
@@ -1270,6 +1270,7 @@ THE SOFTWARE.
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
         <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
+    -->
 	
 	
     <!--その他-->

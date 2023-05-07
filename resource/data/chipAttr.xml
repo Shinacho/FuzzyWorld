@@ -41,13 +41,13 @@ THE SOFTWARE.
     <attribute name="‚ŽR" />
     <attribute name="‰Íì" />
     <attribute name="‹´" />
-    <attribute name="ó£" />
-    <attribute name="ŠC" />
+    <attribute name="ó£"  encountBaseValue="1"/>
+    <attribute name="ŠC"  encountBaseValue="1"/>
     <attribute name="é" />
     <attribute name="“ƒ" />
     <attribute name="“´ŒA" />
     <attribute name="”Ä—pƒCƒxƒ“ƒg" />
-    <attribute name="“¹˜H" />
+    <attribute name="“¹˜H"  encountBaseValue="1"/>
     <attribute name="é•Ç" />
     <attribute name="`" />
     <attribute name="“oŽR“¹" />
@@ -57,9 +57,9 @@ THE SOFTWARE.
     <attribute name="ŠâÊ" />
     <attribute name="ò" />
     <attribute name="Šâ" />
-    <attribute name="”¨" />
+    <attribute name="”¨"  encountBaseValue="1"/>
     <attribute name="ŠR" />
-    <attribute name="r’n" />
+    <attribute name="r’n"  encountBaseValue="1"/>
     <attribute name="Šâ”Õ" />
     
     <!--“à‘•E’¬—p-->

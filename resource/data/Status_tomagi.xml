@@ -25,7 +25,7 @@ THE SOFTWARE.
 
 <kinugasaPlayerCharacter name="ƒgƒ}ƒM" race="HUMAN">
 
-	<spritesheet image="resource/data/image/c3.png" tc="32" w="32" h="32" ny="32" sy="0" ey="64" wy="96" />
+	<spritesheet image="resource/data/image/c3.png" tc="14" w="32" h="32" ny="32" sy="0" ey="64" wy="96" />
 	
 	<status key="LV" max="99" min="1" value="3" />
 	<status key="HP" max="213" min="0" value="213" />

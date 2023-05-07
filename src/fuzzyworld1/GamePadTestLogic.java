@@ -60,7 +60,6 @@ public class GamePadTestLogic extends GameLogic {
 	public void load() {
 		gp = new GamePadStatusMonitor();
 		sound = SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load();
-		OperationSprite.getInstance().setText("(B):" + I18N.translate("RETURN"));
 	}
 
 	@Override

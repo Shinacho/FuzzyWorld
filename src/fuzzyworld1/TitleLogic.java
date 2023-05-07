@@ -114,12 +114,6 @@ public class TitleLogic extends GameLogic {
 		SoundStorage.getInstance().get("BGM").get("フィールド３.wav").load().play();
 		atsg.setSelectedIdx(selected);
 
-		if (Const.Input.gamepad) {
-			OperationSprite.getInstance().setText("(A):" + I18N.translate("SUBMIT") + " / " + "↑↓:" + I18N.translate("MOVE"));
-		} else {
-			OperationSprite.getInstance().setText("[ENTER]:" + I18N.translate("SUBMIT") + " / " + "↑↓:" + I18N.translate("MOVE"));
-		}
-
 	}
 
 	@Override
@@ -148,7 +142,6 @@ public class TitleLogic extends GameLogic {
 						return;
 					}
 					if (selected == 0) {
-						OperationSprite.getInstance().setText("");
 						nextStage();
 						return;
 					}

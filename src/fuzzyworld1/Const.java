@@ -37,10 +37,8 @@ public class Const {
 		public static final String LOAD_GAME = "LOAD_GAME";
 		public static final String MUSIC_ROOM = "MUSIC_ROOM";
 		public static final String GAMEPAD_TEST = "GAMEPAD_TEST";
-		public static final String E1 = "E1";
-		public static final String FIELDMAP = "FIELDMAP";
 		public static final String CHAPTER_TITLE = "CHAPTER_TITLE";
-		public static final String FIELD = "CHAPTER_1";
+		public static final String FIELD = "FIELD";
 		public static final String BATTLE = "BATTLE";
 	}
 
@@ -48,11 +46,6 @@ public class Const {
 
 		public static int WIDTH = 1440;
 		public static int HEIGHT = 960;
-	}
-
-	public static class Input {
-
-		public static boolean gamepad;
 	}
 
 	public static class Player {
@@ -67,8 +60,9 @@ public class Const {
 		public static String nextLogic;
 
 	}
-	
-	public static class MenuIdx{
+
+	public static class MenuIdx {
+
 		public static final int STATUS = 0;
 		public static final int ORDER = 1;
 		public static final int ITEM = 2;
@@ -77,7 +71,7 @@ public class Const {
 		public static final int MATERIAL = 5;
 		public static final int INFO = 6;
 		public static final int MAP = 7;
-		
+
 	}
 
 }

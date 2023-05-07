@@ -64,13 +64,10 @@ public class GM extends GameManager {
 
 	@Override
 	protected void startUp() {
-		Const.Input.gamepad = GameOption.getInstance().isUseGamePad();
 		Const.Screen.WIDTH = GameOption.getInstance().getWindowSize().width;
 		Const.Screen.HEIGHT = GameOption.getInstance().getWindowSize().height;
 		SoundLoader.loadList("resource/bgm/BGM.csv");
 		SoundLoader.loadList("resource/se/SE.csv");
-		OperationSprite.getInstance().setX(24);
-		OperationSprite.getInstance().setY(450);
 		fps = new FPSLabel((int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() - 70), 12);
 		//
 		gls = GameLogicStorage.getInstance();
@@ -83,6 +80,7 @@ public class GM extends GameManager {
 		gls.add(new BattleLogic(this));
 
 		gls.changeTo(Const.LogicName.TITLE_LOGIC);
+		getWindow().setTitle("Fuzzy World" + " -" + I18N.translate("SUB_TITLE") + "-");
 		//
 	}
 
@@ -116,7 +114,6 @@ public class GM extends GameManager {
 
 	@Override
 	protected void draw(GraphicsContext gc) {
-		OperationSprite.getInstance().draw(gc);
 		gls.getCurrent().draw(gc);
 		fps.draw(gc);
 	}

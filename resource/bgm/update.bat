@@ -1,0 +1,2 @@
+copy ..\..\..\BGM\!wav\* .
+pause
