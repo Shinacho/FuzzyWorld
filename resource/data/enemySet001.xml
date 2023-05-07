@@ -26,12 +26,13 @@ THE SOFTWARE.
 
 
 	<set name="01" p="0.75" bgmMode="PAUSE" BGM="BGM/ƒoƒgƒ‹1iƒŠƒƒCƒNj.wav" win="FIELD" lose="GAME_OVER">
-		<enemy name="–ì“" />
-		<enemy name="“®‚©‚È‚¢–‚pŽt" />
-		<enemy name="“®‚­–‚pŽt" />
-		<enemy name="MP‚ª‘«‚è‚È‚¢–‚pŽt" />
-		<enemy name="ŽR‘¯" />
-		<enemy name="ˆ«Š¿" />
+		<enemy name="YATO" />
+		<enemy name="YATO_NOMOVE" />
+		<enemy name="MAGE_NOMOVE" />
+		<enemy name="MAGE_MPSHORT" />
+		<enemy name="MAGE" />
+		<enemy name="SANZOKU" />
+		<enemy name="ACKAN" />
 	</set>
 	
 </KinugasaEnemySet>

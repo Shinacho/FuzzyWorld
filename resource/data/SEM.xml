@@ -23,83 +23,87 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 -->
 <KinugasaEnemyMap>
-	<enemy name="–ì“" visibleName="–ì“" image="resource/data/image/M1.png" race="lŠÔ"  vehicle="WALK">
+	<enemy name="YATO" visibleName="–ì“" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK">
 		<status name="HP" value="80" min="0" max="80"/>
 		<status name="MOV" value="70" min="0" max="75" />
 		<status name="EXP" value="100"  min="0" max="200"/>
 		<attrIn name="STAB" value="0.5"/>
-		<dropItem name="Î‚±‚ë" n="1" p="1"/>
 		<action name="‚±‚Ô‚µ" />
 		<action name="ˆÚ“®"/>
 	</enemy>
 
-	<enemy name="“®‚©‚È‚¢–ì“" visibleName="“®‚©‚È‚¢–ì“" image="resource/data/image/M1.png" race="lŠÔ"  vehicle="WALK">
+	<enemy name="YATO_NOMOVE" visibleName="“®‚©‚È‚¢–ì“" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK">
 		<status name="HP" value="80" min="0" max="80"/>
 		<status name="MOV" value="80" min="0" max="75" />
 		<status name="EXP" value="120" min="0" max="200"/>
 		<attrIn name="STAB" value="0.5"/>
-		<dropItem name="Î‚±‚ë" n="1" p="1"/>
 		<action name="‚±‚Ô‚µ" />
 		<action name="–hŒä" />
 	</enemy>
 	
-	<enemy name="“®‚©‚È‚¢–‚pŽt" visibleName="“®‚©‚È‚¢–‚pŽt" image="resource/data/image/M1.png" race="lŠÔ"  vehicle="WALK">
+	<enemy name="MAGE_NOMOVE" visibleName="“®‚©‚È‚¢–‚pŽt" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK">
 		<status name="HP" value="80" min="0" max="80"/>
 		<status name="MP" value="80" min="0" max="80"/>
 		<status name="MOV" value="40" min="0" max="75" />
 		<status name="SAN" value="40" min="0" max="75" />
 		<status name="EXP" value="120" min="0" max="200"/>
 		<action name="‚±‚Ô‚µ"/>
+		<!--
 		<action name="“V’n—‹–Â"/>
 		<action name="ƒtƒ@ƒCƒAƒ{ƒ‹ƒg"/>
 		<book name="‰Î‰Š‚Ì‘" />
+		-->
 	</enemy>
 	
-	<enemy name="MP‚ª‘«‚è‚È‚¢–‚pŽt" visibleName="MP‚ª‘«‚è‚È‚¢–‚pŽt" image="resource/data/image/M1.png" race="lŠÔ"  vehicle="WALK">
+	<enemy name="MAGE_MPSHORT" visibleName="MP‚ª‘«‚è‚È‚¢–‚pŽt" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK">
 		<status name="HP" value="80" min="0" max="80"/>
 		<status name="MP" value="2" min="0" max="2"/>
 		<status name="MOV" value="40" min="0" max="75" />
 		<status name="SAN" value="40" min="0" max="75" />
 		<status name="EXP" value="120" min="0" max="200"/>
 		<action name="‚±‚Ô‚µ"/>
+		<!--
 		<action name="“V’n—‹–Â"/>
 		<action name="ƒtƒ@ƒCƒAƒ{ƒ‹ƒg"/>
 		<book name="‰Î‰Š‚Ì‘" />
+		-->
 	</enemy>	
-	<enemy name="“®‚­–‚pŽt" visibleName="“®‚­–‚pŽt" image="resource/data/image/M1.png" race="lŠÔ"  vehicle="WALK">
+	<enemy name="MAGE" visibleName="“®‚­–‚pŽt" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK">
 		<status name="HP" value="80" min="0" max="80"/>
 		<status name="MP" value="80" min="0" max="80"/>
 		<status name="MOV" value="40" min="0" max="75" />
 		<status name="SAN" value="40" min="0" max="75" />
 		<status name="EXP" value="120" min="0" max="200"/>
 		<action name="‚±‚Ô‚µ"/>
+		<!--
 		<action name="“V’n—‹–Â"/>
 		<action name="ƒtƒ@ƒCƒAƒ{ƒ‹ƒg"/>
 		<book name="‰Î‰Š‚Ì‘" />
-		<action name="ˆÚ“®"/>
+		-->
 	</enemy>
 	
 	
-	<enemy name="ŽR‘¯" visibleName="ŽR‘¯" image="resource/data/image/M2.png" race="lŠÔ"  vehicle="WALK">
+	<enemy name="SANZOKU" visibleName="ŽR‘¯" image="resource/data/image/M2.png" race="HUMAN"  vehicle="WALK">
 		<status name="HP" value="200" min="0" max="200"/>
 		<status name="MOV" value="80" min="0" max="95" />
 		<status name="EXP" value="150"  min="0" max="200"/>
 		<attrIn name="STAB" value="0.5"/>
-		<dropItem name="Î‚±‚ë" n="1" p="1"/>
 		<action name="‚±‚Ô‚µ"/>
-		<action name="ˆÚ“®" />
 	</enemy>
 
-	<enemy name="ˆ«Š¿" visibleName="ˆ«Š¿" image="resource/data/image/M3.png" race="lŠÔ"  vehicle="WALK">
+	<enemy name="ACKAN" visibleName="ˆ«Š¿" image="resource/data/image/M3.png" race="HUMAN"  vehicle="WALK">
 		<status name="HP" value="250" min="0" max="250"/>
 		<status name="MOV" value="110" min="0" max="110" />
 		<status name="EXP" value="200"  min="0" max="200"/>
 		<attrIn name="STAB" value="0.5"/>
+		<action name="‚±‚Ô‚µ"/>
+		<!--
 		<dropItem name="Î‚±‚ë" n="1" p="1"/>
 		<eqip name="|‚ÌŒ•" />
 		<action name="ŒU¾Ø‚è"/>
 		<action name="‰ñ“]Ø‚è" />
 		<action name="ˆÚ“®" />
+		-->
 	</enemy>
 	
 </KinugasaEnemyMap>

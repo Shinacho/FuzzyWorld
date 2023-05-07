@@ -32,6 +32,8 @@ THE SOFTWARE.
 	
     <fieldMap name="TOMAGISHUT_OUTER" data="resource/data/map04.xml"/>
 
+    <fieldMap name="WORLDMAP" data="resource/data/map05.xml"/>
+
 
 	
 	

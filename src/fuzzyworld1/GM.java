@@ -80,6 +80,7 @@ public class GM extends GameManager {
 		gls.add(new OPLogic(this));
 		gls.add(new ChapterTitleLogic(this));
 		gls.add(new FieldLogic(this));
+		gls.add(new BattleLogic(this));
 
 		gls.changeTo(Const.LogicName.TITLE_LOGIC);
 		//

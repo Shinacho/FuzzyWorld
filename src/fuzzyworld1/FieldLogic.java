@@ -118,6 +118,9 @@ public class FieldLogic extends GameLogic {
 				.addBattleField("resource/data/SBattleFieldM.xml")
 				.addConditionValueStorage("resource/data/SConditionM.xml")
 				.addQuestStage("resource/data/SQuestM.xml")
+				.addEnemyMaster("resource/data/SEM.xml")
+				.addEnemySet("resource/data/SESSM.xml")
+				.setEnemyProgressBarKey("HP")
 				.load();
 		float x = Const.Screen.WIDTH / 2 - 16;
 		float y = Const.Screen.HEIGHT / 2 - 16;
@@ -138,10 +141,10 @@ public class FieldLogic extends GameLogic {
 		MapChipSetStorage.getInstance().readFromXML("resource/data/chipSet_outer16.xml");
 		TextStorageStorage.getInstance().readFromXML("resource/data/tss.xml");
 		FieldMap.getCurrentInstance().dispose();
-		map = FieldMapStorage.getInstance().get("BEACH").build();
-		map.setCurrentIdx(new D2Idx(31, 35));//31,35のイベントが自動起動する
-		map.getCamera().updateToCenter();
-		map.setVector(new KVector(0, 0));
+		fieldMap = FieldMapStorage.getInstance().get("BEACH").build();
+		fieldMap.setCurrentIdx(new D2Idx(31, 35));//31,35のイベントが自動起動する
+		fieldMap.getCamera().updateToCenter();
+		fieldMap.setVector(new KVector(0, 0));
 
 		Text.getReplaceMap().put("!PC1", Const.Player.pc1Name);
 
@@ -207,8 +210,9 @@ public class FieldLogic extends GameLogic {
 			ms.addMoneyType(I18N.translate("BERUMA_SILVER"));
 		}
 		stage = 0;
+		battle = false;
 	}
-	private FieldMap map;
+	private FieldMap fieldMap;
 	private int stage;//changeMap用ステージ
 	private FadeEffect fadeEffect;
 	private boolean waiting = false;
@@ -224,6 +228,7 @@ public class FieldLogic extends GameLogic {
 	private MaterialPageWindow materialWindow;
 	private MagicWindow magicWindow;
 	private InfoWindow infoWindow;
+	private boolean battle = false;
 
 	@Override
 	public void dispose() {
@@ -232,8 +237,8 @@ public class FieldLogic extends GameLogic {
 	@Override
 	public void update(GameTimeManager gtm, InputState is) {
 		//テスト用
-//		System.out.println(map == null ? null : map.getCamera().cameraCantMoveDesc + " / " + stage);
-		map.update();
+//		System.out.println(fieldMap == null ? null : fieldMap.getCamera().cameraCantMoveDesc + " / " + stage);
+		fieldMap.update();
 		FieldEventSystem.getInstance().update();
 		switch (stage) {
 			case 0:
@@ -243,7 +248,7 @@ public class FieldLogic extends GameLogic {
 				}
 				//event
 				if (waiting) {
-					map.move();
+					fieldMap.move();
 					if (!FieldEventSystem.getInstance().isExecuting()) {
 						waiting = false;
 						return;
@@ -284,7 +289,7 @@ public class FieldLogic extends GameLogic {
 							if (mw.getChoiceOption().hasNext()) {
 								mw.choicesNext();
 							} else {
-								map.closeMessagWindow();
+								fieldMap.closeMessagWindow();
 							}
 							if (FieldEventSystem.getInstance().hasItem()) {
 								//「調べる」によるアイテム取得処理
@@ -323,12 +328,12 @@ public class FieldLogic extends GameLogic {
 							mw.next();
 						} else {
 							mw.setVisible(false);
-							map.closeMessagWindow();
+							fieldMap.closeMessagWindow();
 						}
-					} else if (!FieldEventSystem.getInstance().hasEvent() && map.canTalk()) {
-						mw = map.talk();
+					} else if (!FieldEventSystem.getInstance().hasEvent() && fieldMap.canTalk()) {
+						mw = fieldMap.talk();
 					}
-					FieldMapTile t = map.getCurrentTile();
+					FieldMapTile t = fieldMap.getCurrentTile();
 					if (t.hasInNode()) {
 						//NodeによるChangeMap処理
 						fadeEffect = new FadeEffect(gm.getWindow().getInternalBounds().width, gm.getWindow().getInternalBounds().height,
@@ -355,7 +360,7 @@ public class FieldLogic extends GameLogic {
 									waiting = true;
 									return;
 								case CHANGE_MAP:
-									map = map.changeMap(FieldEventSystem.getInstance().getNode());
+									fieldMap = fieldMap.changeMap(FieldEventSystem.getInstance().getNode());
 									FieldMap.getPlayerCharacter().get(0).setShadow(true);
 									return;
 								case GAME_OVER:
@@ -372,6 +377,7 @@ public class FieldLogic extends GameLogic {
 									return;
 								case TO_BATTLE:
 									GameSystem.getInstance().battleStart(FieldEventSystem.getInstance().getEncountInfo());
+									//フェードアウトはイベントで！！
 									gls.changeTo("BATTLE");
 									return;
 								case GET_ITEAM:
@@ -392,8 +398,7 @@ public class FieldLogic extends GameLogic {
 				if (mw != null && mw.isVisible()) {
 					return;
 				}
-				//FMイベント処理
-
+				//FM自動イベント処理
 				if (FieldEventSystem.getInstance().hasEvent()) {
 					//イベントセットにマニュアルが入っている場合は即時実行しない
 					if (!FieldEventSystem.getInstance().isManual()) {
@@ -405,7 +410,7 @@ public class FieldLogic extends GameLogic {
 								waiting = true;
 								return;
 							case CHANGE_MAP:
-								map = map.changeMap(FieldEventSystem.getInstance().getNode());
+								fieldMap = fieldMap.changeMap(FieldEventSystem.getInstance().getNode());
 								FieldMap.getPlayerCharacter().get(0).setShadow(true);
 								return;
 							case GAME_OVER:
@@ -421,6 +426,7 @@ public class FieldLogic extends GameLogic {
 								mw = null;
 								return;
 							case TO_BATTLE:
+								//フェードアウトはイベントで！！！！
 								GameSystem.getInstance().battleStart(FieldEventSystem.getInstance().getEncountInfo());
 								gls.changeTo("BATTLE");
 								return;
@@ -428,7 +434,6 @@ public class FieldLogic extends GameLogic {
 					}
 				}
 				//ユーザオペレーション可否確認
-
 				if (!FieldEventSystem.getInstance().isUserOperation()) {
 					return;
 				}
@@ -899,8 +904,8 @@ public class FieldLogic extends GameLogic {
 											(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32));
 									break;
 								case Const.MenuIdx.MAP:
-									KImage mapImage = map.createMiniMap(1f / 3f, false, true);//TODO:仮
-									Dialog.image(I18N.translate(map.getName()) + I18N.translate("S") + I18N.translate("MAP"), mapImage.get());
+									KImage mapImage = fieldMap.createMiniMap(1f / 3f, false, true);//TODO:仮
+									Dialog.image(I18N.translate(fieldMap.getName()) + I18N.translate("S") + I18N.translate("MAP"), mapImage.get());
 									break;
 							}
 						}
@@ -911,7 +916,7 @@ public class FieldLogic extends GameLogic {
 					return;
 				}
 
-				//FM_MOVE
+				//-------------------FM_MOVE
 				KVector v = new KVector(0, 0);
 				if (Const.Input.gamepad && is.getGamePadState() != null) {
 					v = new KVector(is.getGamePadState().sticks.LEFT.getLocation(VehicleStorage.getInstance().getCurrentVehicle().getSpeed()));
@@ -933,15 +938,31 @@ public class FieldLogic extends GameLogic {
 					v.setSpeed(VehicleStorage.getInstance().getCurrentVehicle().getSpeed());
 				}
 
-				map.setVector(v);
+				fieldMap.setVector(v);
 
-				map.move();
+				fieldMap.move();
 				//PCの向き調整
 				PlayerCharacterSprite c = FieldMap.getPlayerCharacter().get(0);
 
-				if (v.getSpeed() != 0 && map.getCamera().getMode() == FieldMapCameraMode.FOLLOW_TO_CENTER) {
+				if (v.getSpeed() != 0 && fieldMap.getCamera().getMode() == FieldMapCameraMode.FOLLOW_TO_CENTER) {
 					c.to(v.round());
 				}
+
+				//--------------エンカウント処理
+				//効果音＿戦闘開始.wav
+				if (fieldMap.isEncount()) {
+					SoundStorage.getInstance().get("SE").get("効果音＿戦闘開始.wav").load().stopAndPlay();
+					battle = true;
+					fadeEffect = new FadeEffect(gm.getWindow().getInternalBounds().width, gm.getWindow().getInternalBounds().height,
+							new ColorChanger(
+									ColorTransitionModel.valueOf(0),
+									ColorTransitionModel.valueOf(0),
+									ColorTransitionModel.valueOf(0),
+									new FadeCounter(0, +6)
+							));
+					stage++;
+				}
+
 				break;
 			case 1:
 				if (fadeEffect.isEnded()) {
@@ -952,7 +973,12 @@ public class FieldLogic extends GameLogic {
 									ColorTransitionModel.valueOf(0),
 									ColorTransitionModel.valueOf(255)
 							));
-					map = map.changeMap();
+					if (battle) {
+						GameSystem.getInstance().battleStart(fieldMap.createEncountInfo());
+						gls.changeTo(Const.LogicName.BATTLE);
+					} else {
+						fieldMap = fieldMap.changeMap();
+					}
 					stage++;
 				}
 				break;
@@ -979,7 +1005,7 @@ public class FieldLogic extends GameLogic {
 
 	@Override
 	public void draw(GraphicsContext g) {
-		map.draw(g);
+		fieldMap.draw(g);
 		if (mw != null) {
 			mw.draw(g);
 		}

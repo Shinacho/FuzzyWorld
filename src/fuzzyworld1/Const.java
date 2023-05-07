@@ -41,6 +41,7 @@ public class Const {
 		public static final String FIELDMAP = "FIELDMAP";
 		public static final String CHAPTER_TITLE = "CHAPTER_TITLE";
 		public static final String FIELD = "CHAPTER_1";
+		public static final String BATTLE = "BATTLE";
 	}
 
 	public static class Screen {

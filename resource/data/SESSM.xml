@@ -23,7 +23,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 -->
 <KinugasaESS>
-	<enemySet name="01" file="resource/field/data/enemy/enemySet001.xml" />
+	<enemySet name="01" file="resource/data/enemySet001.xml" />
 	
 	
 </KinugasaESS>
