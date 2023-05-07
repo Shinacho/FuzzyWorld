@@ -1,785 +1,612 @@
-2023/05/07 16:42:57 INFO this is D:/Project/FuzzyWorld/
-2023/05/07 16:42:57 INFO translate\ja.ini
-2023/05/07 16:42:57 INFO LOAD_GAME=つづきから
-2023/05/07 16:42:57 INFO ORDER_SELECT=前列／後列を設定
-2023/05/07 16:42:57 INFO CAN_USE_FIELD=このアイテムはフィールド上で使用できる
-2023/05/07 16:42:57 INFO QSUB=サブ
-2023/05/07 16:42:57 INFO FRONT=前列
-2023/05/07 16:42:57 INFO DISASSEMBLY=解体
-2023/05/07 16:42:57 INFO NO_TARGET=効果範囲内に対象がいない
-2023/05/07 16:42:57 INFO ACTION_EFFECT=基礎威力
-2023/05/07 16:42:57 INFO NODAMAGE=ダメージを受けなかった！！
-2023/05/07 16:42:57 INFO NONE=なし
-2023/05/07 16:42:57 INFO TOMAGISHUT=漁師の小屋
-2023/05/07 16:42:57 INFO SUB=減った
-2023/05/07 16:42:57 INFO GAME_PAD_TEST=コントローラーテスト
-2023/05/07 16:42:57 INFO CURRENT_CONDITION=発生中の効果
-2023/05/07 16:42:57 INFO CAN_USE_BATTLE=このアイテムは戦闘中に使用できる
-2023/05/07 16:42:57 INFO IF_DISASSEMBLY_GET=解体すると以下の素材を得られる
-2023/05/07 16:42:57 INFO FIELD=フィールド
-2023/05/07 16:42:57 INFO ATTR_DOWN=耐性が下がった！
-2023/05/07 16:42:57 INFO IS=は
-2023/05/07 16:42:57 INFO NEW_GAME=はじめから
-2023/05/07 16:42:57 INFO SURVEY=調べる
-2023/05/07 16:42:57 INFO REMOVE_CDNTION=から回復した
-2023/05/07 16:42:57 INFO ACTION_ATTR=属性
-2023/05/07 16:42:57 INFO ITEM=道具
-2023/05/07 16:42:57 INFO PASS=渡す
-2023/05/07 16:42:57 INFO HEALDAMAGE=回復した
-2023/05/07 16:42:57 INFO SHORTAGE=が足りない
-2023/05/07 16:42:57 INFO CHECK=調べる
-2023/05/07 16:42:57 INFO CONDITION=状態異常
-2023/05/07 16:42:57 INFO ATTR_UP=耐性が上がった！
-2023/05/07 16:42:57 INFO MAP=地図
-2023/05/07 16:42:57 INFO WMT=武器種類
-2023/05/07 16:42:57 INFO PARTY=味方
-2023/05/07 16:42:57 INFO CHAPTER2_SUBTITLE=失踪者
-2023/05/07 16:42:57 INFO DCT_DIRECT=直接計算方式
-2023/05/07 16:42:57 INFO WHO_WILL_HOLD_IT=誰が持つ？
-2023/05/07 16:42:57 INFO TOMAGISHUT_OUTER=漁師の小屋の屋外
-2023/05/07 16:42:57 INFO SPECIAL_ATTACK=特技
-2023/05/07 16:42:57 INFO CAN_HAVE=あとn個持てる
-2023/05/07 16:42:57 INFO PASSED=を渡した
-2023/05/07 16:42:57 INFO NO_EFFECT=効果がなかった
-2023/05/07 16:42:57 INFO CHANGE_ATTR=属性値変更
-2023/05/07 16:42:57 INFO P=確率
-2023/05/07 16:42:57 INFO ORDER=隊列
-2023/05/07 16:42:57 INFO S=の
-2023/05/07 16:42:57 INFO WAS_DISASSEMBLY=を解体した
-2023/05/07 16:42:57 INFO ARE_YOU_SURE_EXIT=本当に終了しますか？
-2023/05/07 16:42:57 INFO REMOVE_CONDITION=状態異常cを回復する
-2023/05/07 16:42:57 INFO SKIP=スキップ
-2023/05/07 16:42:57 INFO GET_MATE=個手に入れた
-2023/05/07 16:42:57 INFO TURN=ターン
-2023/05/07 16:42:57 INFO SAVE=保存
-2023/05/07 16:42:57 INFO BERUMA_SILVER=ベルマ銀貨
-2023/05/07 16:42:57 INFO WAS_DROP=を捨てた
-2023/05/07 16:42:57 INFO MATERIAL=素材
-2023/05/07 16:42:57 INFO QUEST=クエスト
-2023/05/07 16:42:57 INFO BUT=しかし
-2023/05/07 16:42:57 INFO CANT_ESCAPE=戦闘エリアの中心にいては逃げられない！！
-2023/05/07 16:42:57 INFO ISESCAPE=は逃げ出した！！
-2023/05/07 16:42:57 INFO APPEARANCE=体現れた！！
-2023/05/07 16:42:57 INFO TARGET_SELECT=ターゲット選択
-2023/05/07 16:42:57 INFO GAMEPAD_NOTFOUND=コントローラは有効化されていません。コントローラを使う場合はゲームを再起動してください。
-2023/05/07 16:42:57 INFO PLEASE_NAME=今回の介入者の名前は？
-2023/05/07 16:42:57 INFO USE=使う
-2023/05/07 16:42:57 INFO SCREEN_SHOT=スクリーンショットの保存
-2023/05/07 16:42:57 INFO IS_EQIP=を装備した
-2023/05/07 16:42:57 INFO OPEN=開く
-2023/05/07 16:42:57 INFO USE_ITEM=を使った
-2023/05/07 16:42:57 INFO OTHER=行動
-2023/05/07 16:42:57 INFO WAS_EQIP=をすでに装備している
-2023/05/07 16:42:57 INFO SUB_TITLE=魔法使いと不死の秘術
-2023/05/07 16:42:57 INFO SUBMIT=決定
-2023/05/07 16:42:57 INFO SPELLTIME=詠唱時間
-2023/05/07 16:42:57 INFO CANCEL=キャンセル
-2023/05/07 16:42:57 INFO TO=に
-2023/05/07 16:42:57 INFO MENU=メニュー
-2023/05/07 16:42:57 INFO CANT_MOVE=動けなかった！！
-2023/05/07 16:42:57 INFO TARGET=対象
-2023/05/07 16:42:57 INFO BEACH=海岸
-2023/05/07 16:42:57 INFO ACTION_COUNT=この武器はn回攻撃できる
-2023/05/07 16:42:57 INFO NO_ITEM=アイテムを持っていない
-2023/05/07 16:42:57 INFO CAN_UPGRADE=あとn回強化できる
-2023/05/07 16:42:57 INFO CONFU_STOP=混乱して動けなかった！
-2023/05/07 16:42:57 INFO NOT_EQIP=は装備できない
-2023/05/07 16:42:57 INFO REALLY_DISASSEMBLY=本当に解体する？
-2023/05/07 16:42:57 INFO THIS_ITEM_CANT_UPGRADE=このアイテムは強化できない
-2023/05/07 16:42:57 INFO NOTHING_ITEM=何も持っていない
-2023/05/07 16:42:57 INFO TALK=話す
-2023/05/07 16:42:57 INFO VALUE=価値
-2023/05/07 16:42:57 INFO ADD_CONDITION=状態異常cを付与する
-2023/05/07 16:42:57 INFO CHAPTER1=序部
-2023/05/07 16:42:57 INFO INFO=情報
-2023/05/07 16:42:57 INFO CHAPTER2=第一部
-2023/05/07 16:42:57 INFO IS_CONFU=混乱している！
-2023/05/07 16:42:57 INFO STATUS=状態
-2023/05/07 16:42:57 INFO AREA=範囲
-2023/05/07 16:42:57 INFO RESET_ITEM=を持ち替えた
-2023/05/07 16:42:57 INFO NOTHING_MAGIC=使える魔法はない
-2023/05/07 16:42:57 INFO MAIN=メイン
-2023/05/07 16:42:57 INFO CANT_DISASSEMBLY=このアイテムは解体できない
-2023/05/07 16:42:57 INFO GOLDEN_RECORD=金の円盤にしたがって世界を正せ
-2023/05/07 16:42:57 INFO DARESU_GOLD=ダレス金貨
-2023/05/07 16:42:57 INFO SPELL_END=の詠唱を終了した！！
-2023/05/07 16:42:57 INFO AVOIDANCE=回避に専念した！
-2023/05/07 16:42:57 INFO BATTLE_ACTION=戦闘中効果
-2023/05/07 16:42:57 INFO PAGE=術式
-2023/05/07 16:42:57 INFO DCT_USE_DAMAGE_CALC=ダメージ計算方式
-2023/05/07 16:42:57 INFO DCT_PERCENT_OF_MAX=最大値計算方式
-2023/05/07 16:42:57 INFO DAMAGE=作用
-2023/05/07 16:42:57 INFO ITEM_DROP=を失った
-2023/05/07 16:42:57 INFO REMOVE_EQUP=を外した
-2023/05/07 16:42:57 INFO THIS_ITEM_CANT_DISASSE=このアイテムは解体できない
-2023/05/07 16:42:57 INFO DCS=ダメージ計算ステータス
-2023/05/07 16:42:57 INFO CHAPTER1_SUBTITLE=介入者
-2023/05/07 16:42:57 INFO CANT_USE_FIELD=この魔法はフィールドでは使えない
-2023/05/07 16:42:57 INFO ISMOVE=は移動した！
-2023/05/07 16:42:57 INFO ITEM_ADD=アイテムiを入手する
-2023/05/07 16:42:57 INFO GET_PAGE=枚手に入れた
-2023/05/07 16:42:57 INFO GIVE_UP=諦める
-2023/05/07 16:42:57 INFO WHO_DO_PASS=を誰に渡す？
-2023/05/07 16:42:57 INFO NO=いや
-2023/05/07 16:42:57 INFO MONEY=所持金
-2023/05/07 16:42:57 INFO WHATDO=どうする
-2023/05/07 16:42:57 INFO WHO_DO_USE=を誰に使う？
-2023/05/07 16:42:57 INFO YES=ああ
-2023/05/07 16:42:57 INFO WAS=が
-2023/05/07 16:42:57 INFO GAME_EXIT=おわる
-2023/05/07 16:42:57 INFO CANT_HAVE=これ以上物を持てない
-2023/05/07 16:42:57 INFO OF_WHAT=により
-2023/05/07 16:42:57 INFO COMPOSITE=合成
-2023/05/07 16:42:57 INFO DROP=捨てる
-2023/05/07 16:42:57 INFO RETURN=戻る
-2023/05/07 16:42:57 INFO DEFENCE=防御に専念した！
-2023/05/07 16:42:57 INFO ITEM_USE=道具
-2023/05/07 16:42:57 INFO BATTLE_CLOSE=【デバッグ用】戦闘を即時終了しますか？
-2023/05/07 16:42:57 INFO FIELD_ACTION=フィールド効果
-2023/05/07 16:42:57 INFO MAGIC=魔術
-2023/05/07 16:42:57 INFO OF=を
-2023/05/07 16:42:57 INFO MISS=ミス！
-2023/05/07 16:42:57 INFO SPELL_START=の詠唱を開始した！！
-2023/05/07 16:42:57 INFO SLOT=部位
-2023/05/07 16:42:57 INFO REALLY_DROP=を本当に捨てる？
-2023/05/07 16:42:57 INFO CONFIRM=確認
-2023/05/07 16:42:57 INFO NO_NPC=その方向にはダレモイナイ
-2023/05/07 16:42:57 INFO DCT_PERCENT_OF_NOW=現在値計算方式
-2023/05/07 16:42:57 INFO ISFAILED=は失敗した！！
-2023/05/07 16:42:57 INFO ITEM_LOST=アイテムiを失う
-2023/05/07 16:42:57 INFO CANT_USE_BATTLE=この魔法は戦闘中は使えない
-2023/05/07 16:42:57 INFO IS_GET=を手に入れた
-2023/05/07 16:42:57 INFO ATTR=有効度
-2023/05/07 16:42:57 INFO YOUR_NAME_IS=、という名前でよいのかね？
-2023/05/07 16:42:57 INFO EQIP=装備
-2023/05/07 16:42:57 INFO ACTION=戦闘中の行動
-2023/05/07 16:42:57 INFO MOVE=移動
-2023/05/07 16:42:57 INFO USE_MAGIC=を詠唱した
-2023/05/07 16:42:57 INFO BOOK=魔術書
-2023/05/07 16:42:57 INFO CANT_SALE=このアイテムは売ったり捨てたりできない
-2023/05/07 16:42:57 INFO ATTACK=攻撃
-2023/05/07 16:42:57 INFO BACK=後列
-2023/05/07 16:42:57 INFO S_PAGE=の術式のページ
-2023/05/07 16:42:57 INFO MUSIC_ROOM=ミュージックルーム
-2023/05/07 16:42:57 INFO ROOM=部屋
-2023/05/07 16:42:57 INFO lockFile:.\KLOCK_15645494865291085763.lck is created
-2023/05/07 16:42:57 INFO Fuzzy World is start
-2023/05/07 16:42:57 INFO CachedSound is loaded name=[効果音＿選択1.wav](84.3218 ms)
-2023/05/07 16:42:57 INFO CachedSound is loaded name=[フィールド３.wav](35.8985 ms)
-2023/05/07 16:43:05 INFO CachedSound is loaded name=[効果音＿ゲームスタート.wav](5.4624 ms)
-2023/05/07 16:43:06 INFO CachedSound : [気怠い探偵.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [灼熱の地獄.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [作戦会議.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [氷のダンジョン.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [妖精の森.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [バトル1（リメイク）＿古.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [普通な感じの街.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [とてものどかな村.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [さわやかな冒険.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [風の魔法使いの戦い２.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [バトル１（新）.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [バトル２（新）.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [のどかな村.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [夢の世界.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [廃れた都市.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [大ボス.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [見知らぬ土地・見知らぬ文化.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [神殿.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [バトル1（リメイク）.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [ラストダンジョン.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [不思議なダンジョン.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [変質者のテーマ.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [世界の真相.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [睨み合い.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [静寂空間.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [重厚なダンジョン.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [決意.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [残酷な運命.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [工業都市.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [狂気の人.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [静かなる決意.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [不気味なダンジョン.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [探検.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [まあいいか.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [デジタル空間.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [不思議な森.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [洞窟.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [シューティング・ステージ３.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [風の魔法使いのテーマ.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [愉快または間抜け.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [ボーナスゲーム.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [フィールド２.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [シューティング・ステージ１.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [小ボス.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [異形のものとの戦い.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [バトル２（旧）.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [厳かなダンジョン.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [エスニック・プレース.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [シューティング・ステージ２.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [バトル１（旧）.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [怪しい取引.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [明るいダンジョン.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [明るい街.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [歴史ある街.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [刻一刻.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [変な村.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [斜陽の帝国.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [風の魔法使いの戦い.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [おぞましい真実.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [悪の軍団.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [バトル（連結）.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [フィールド３.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [眠らない大都会.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [エンディング.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [大ボス_古.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [天空の魔法都市.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [師匠とのイベント戦.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [結末.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [王都.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [お祭りの町.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [奇襲攻撃！.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [軍事作戦.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [ユニークな街.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [フィールド.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [変質者との戦い.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [中ボス.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [知的探求.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [魔力の間.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [フィールド５.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [シューティング・ステージ４.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [疑い.wav] : is disposed
-2023/05/07 16:43:06 INFO CachedSound : [軍事作戦２.wav] : is disposed
-2023/05/07 16:43:10 INFO XMLFile [chipAttr.xml] is loaded
-2023/05/07 16:43:10 INFO XMLFile [vehicle.xml] is loaded
-2023/05/07 16:43:10 INFO XMLFile [chipSet_inner16.xml] is loaded
-2023/05/07 16:43:10 INFO ImageUtil loaded filePath=[resource/data/image/inner16.png](6.8638 ms)
-2023/05/07 16:43:10 INFO XMLFile [fms.xml] is loaded
-2023/05/07 16:43:10 INFO XMLFile [map01.xml] is loaded
-2023/05/07 16:43:11 INFO ImageUtil loaded filePath=[resource/data/image/darkeffect.png](9.6898 ms)
-2023/05/07 16:43:11 INFO temp file C:\Users\owner\AppData\Local\Temp\ktf_2184928401474268968.tmp is created
-2023/05/07 16:43:11 INFO ImageUtil loaded filePath=[resource/data/image/unknown.png](0.5368 ms)
-2023/05/07 16:43:21 INFO XMLFile [SWMTM.xml] is loaded
-2023/05/07 16:43:21 INFO XMLFile [SStatusM.xml] is loaded
-2023/05/07 16:43:21 INFO XMLFile [SAttrM.xml] is loaded
-2023/05/07 16:43:21 INFO XMLFile [SConditionM.xml] is loaded
-2023/05/07 16:43:21 INFO XMLFile [SItemSlotM.xml] is loaded
-2023/05/07 16:43:21 INFO XMLFile [SBookM.xml] is loaded
-2023/05/07 16:43:21 INFO XMLFile [SRaceM.xml] is loaded
-2023/05/07 16:43:21 INFO XMLFile [SActionM.xml] is loaded
-2023/05/07 16:43:21 INFO ImageUtil loaded filePath=[resource/data/image/testAnimation.png](0.5124 ms)
-2023/05/07 16:43:21 INFO XMLFile [SBattleFieldM.xml] is loaded
-2023/05/07 16:43:21 INFO ImageUtil loaded filePath=[resource/data/image/tree.png](0.5582 ms)
-2023/05/07 16:43:21 INFO ImageUtil loaded filePath=[resource/data/image/stone.png](0.4004 ms)
-2023/05/07 16:43:21 INFO ImageUtil loaded filePath=[resource/data/image/bf1.png](6.6443 ms)
-2023/05/07 16:43:21 INFO XMLFile [SEM.xml] is loaded
-2023/05/07 16:43:21 INFO ImageUtil loaded filePath=[resource/data/image/M1.png](0.475 ms)
-2023/05/07 16:43:21 INFO ImageUtil cached filePath=[resource/data/image/M1.png](0.0016 ms)
-2023/05/07 16:43:21 INFO ImageUtil cached filePath=[resource/data/image/M1.png](5.0E-4 ms)
-2023/05/07 16:43:21 INFO ImageUtil cached filePath=[resource/data/image/M1.png](5.0E-4 ms)
-2023/05/07 16:43:21 INFO ImageUtil cached filePath=[resource/data/image/M1.png](5.0E-4 ms)
-2023/05/07 16:43:21 INFO ImageUtil loaded filePath=[resource/data/image/M2.png](0.4573 ms)
-2023/05/07 16:43:21 INFO ImageUtil loaded filePath=[resource/data/image/M3.png](0.4156 ms)
-2023/05/07 16:43:21 INFO XMLFile [SESSM.xml] is loaded
-2023/05/07 16:43:21 INFO XMLFile [SQuestM.xml] is loaded
-2023/05/07 16:43:21 INFO ImageUtil loaded filePath=[resource/data/image/c2.png](0.4844 ms)
-2023/05/07 16:43:21 INFO ImageUtil cached filePath=[resource/data/image/c2.png](6.0E-4 ms)
-2023/05/07 16:43:21 INFO ImageUtil cached filePath=[resource/data/image/c2.png](5.0E-4 ms)
-2023/05/07 16:43:21 INFO ImageUtil cached filePath=[resource/data/image/c2.png](5.0E-4 ms)
-2023/05/07 16:43:21 INFO XMLFile [chipSet_outer16.xml] is loaded
-2023/05/07 16:43:21 INFO ImageUtil loaded filePath=[resource/data/image/outer16.png](1.4664 ms)
-2023/05/07 16:43:21 INFO XMLFile [tss.xml] is loaded
-2023/05/07 16:43:21 INFO XMLFile [map02.xml] is loaded
-2023/05/07 16:43:21 INFO XMLFile [text02.xml] is loaded
-2023/05/07 16:43:21 INFO XMLFile [E002.xml] is loaded
-2023/05/07 16:43:21 INFO ImageUtil loaded filePath=[resource/data/image/seaChip16.png](0.4939 ms)
-2023/05/07 16:43:21 INFO ImageUtil loaded filePath=[resource/data/image/cloudeffect.png](4.9313 ms)
-2023/05/07 16:43:22 INFO temp file C:\Users\owner\AppData\Local\Temp\ktf_13767700119605216546.tmp is created
-2023/05/07 16:43:22 INFO XMLFile [E001.xml] is loaded
-2023/05/07 16:43:22 INFO ImageUtil loaded filePath=[resource/data/image/c3.png](0.5724 ms)
-2023/05/07 16:43:22 INFO start event : FieldEvent{name=E_01_0, order=0, location=D2Idx{x=31, y=35}, eventType=DISABLE_OPERATION, storageName=null, targetName=null, value=null, disposeWhenExec=true, exists=true, term=[]}
-2023/05/07 16:43:22 INFO ->done
-2023/05/07 16:43:22 INFO start event : FieldEvent{name=E_01_1, order=1, location=D2Idx{x=31, y=35}, eventType=STOP_ALL_SOUND, storageName=BGM, targetName=null, value=null, disposeWhenExec=true, exists=true, term=[]}
-2023/05/07 16:43:22 INFO ->done
-2023/05/07 16:43:22 INFO start event : FieldEvent{name=E_01_2, order=2, location=D2Idx{x=31, y=35}, eventType=PLAY_SOUND, storageName=BGM, targetName=フィールド５.wav, value=null, disposeWhenExec=true, exists=true, term=[]}
-2023/05/07 16:43:22 INFO CachedSound is loaded name=[フィールド５.wav](40.5875 ms)
-2023/05/07 16:43:22 INFO ->done
-2023/05/07 16:43:22 INFO start event : FieldEvent{name=E_01_3, order=10, location=D2Idx{x=31, y=35}, eventType=WAIT, storageName=, targetName=, value=180, disposeWhenExec=true, exists=true, term=[]}
-2023/05/07 16:43:22 INFO ->done
-2023/05/07 16:43:25 INFO start event : FieldEvent{name=E_01_4, order=20, location=D2Idx{x=31, y=35}, eventType=NPC_MOVE_AND_WAIT_THAT, storageName=, targetName=NPC02, value=30,35, disposeWhenExec=true, exists=true, term=[]}
-2023/05/07 16:43:25 INFO ->done
-2023/05/07 16:43:28 INFO start event : FieldEvent{name=E_01_5, order=30, location=D2Idx{x=31, y=35}, eventType=NPC_LOCK_LOCATION, storageName=, targetName=NPC02, value=, disposeWhenExec=true, exists=true, term=[]}
-2023/05/07 16:43:28 INFO ->done
-2023/05/07 16:43:29 INFO start event : FieldEvent{name=E_01_6, order=40, location=D2Idx{x=31, y=35}, eventType=SHOW_MESSAGE_FROM_TEXTSTORAGE, storageName=002, targetName=, value=001, disposeWhenExec=true, exists=true, term=[]}
-2023/05/07 16:43:29 INFO XMLFile [text02.xml] is loaded
-2023/05/07 16:43:29 INFO XMLFile [E002.xml] is loaded
-2023/05/07 16:43:29 INFO ->done
-2023/05/07 16:43:29 INFO start event : FieldEvent{name=001_0, order=0, location=null, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:43:29 INFO start event : FieldEvent{name=001_1, order=5, location=null, eventType=DISABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:43:29 INFO ->done
-2023/05/07 16:43:29 INFO start event : FieldEvent{name=001_2, order=10, location=null, eventType=WAIT, storageName=, targetName=, value=120, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:43:29 INFO ->done
-2023/05/07 16:43:31 INFO start event : FieldEvent{name=001_3, order=20, location=null, eventType=NPC_DIR_TO, storageName=, targetName=NPC02, value=NORTH, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:43:31 INFO ->done
-2023/05/07 16:43:32 INFO start event : FieldEvent{name=001_4, order=30, location=null, eventType=SHOW_MESSAGE_FROM_TEXTSTORAGE, storageName=002, targetName=, value=002, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:43:32 INFO XMLFile [text02.xml] is loaded
-2023/05/07 16:43:32 INFO XMLFile [E002.xml] is loaded
-2023/05/07 16:43:32 INFO ->done
-2023/05/07 16:43:34 INFO start event : FieldEvent{name=001_5, order=40, location=null, eventType=FADE_OUT, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:43:34 INFO ->done
-2023/05/07 16:43:35 INFO start event : FieldEvent{name=001_6, order=50, location=null, eventType=SET_QUEST_LINE, storageName=, targetName=MAIN, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:43:35 INFO ->done
-2023/05/07 16:43:35 INFO start event : FieldEvent{name=001_7, order=100, location=null, eventType=CHANGE_MAP, storageName=, targetName=TOMAGISHUT, value=9,2,WEST, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:43:35 INFO ->done
-2023/05/07 16:43:35 INFO XMLFile [map03.xml] is loaded
-2023/05/07 16:43:35 INFO XMLFile [text03.xml] is loaded
-2023/05/07 16:43:35 INFO XMLFile [E003.xml] is loaded
-2023/05/07 16:43:35 INFO XMLFile [E007.xml] is loaded
-2023/05/07 16:43:35 INFO XMLFile [E004.xml] is loaded
-2023/05/07 16:43:35 INFO XMLFile [E005.xml] is loaded
-2023/05/07 16:43:35 INFO XMLFile [E006.xml] is loaded
-2023/05/07 16:43:35 INFO XMLFile [E004.xml] is loaded
-2023/05/07 16:43:35 INFO ImageUtil cached filePath=[resource/data/image/c3.png](9.0E-4 ms)
-2023/05/07 16:43:35 INFO start event : FieldEvent{name=E_03_0, order=0, location=D2Idx{x=9, y=2}, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:43:35 INFO start event : FieldEvent{name=E_03_1, order=100, location=D2Idx{x=9, y=2}, eventType=PC_DIR_TO, storageName=, targetName=0, value=WEST, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:43:35 INFO ->done
-2023/05/07 16:43:35 INFO start event : FieldEvent{name=E_03_2, order=110, location=D2Idx{x=9, y=2}, eventType=WAIT, storageName=, targetName=, value=60, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:43:35 INFO ->done
-2023/05/07 16:43:36 INFO start event : FieldEvent{name=E_03_3, order=120, location=D2Idx{x=9, y=2}, eventType=FADE_IN, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:43:36 INFO ->done
-2023/05/07 16:43:37 INFO start event : FieldEvent{name=E_03_4, order=130, location=D2Idx{x=9, y=2}, eventType=SHOW_MESSAGE_FROM_TEXTSTORAGE, storageName=003, targetName=, value=001, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:43:37 INFO XMLFile [text03.xml] is loaded
-2023/05/07 16:43:37 INFO ->done
-2023/05/07 16:44:00 INFO start event : FieldEvent{name=E_03_5, order=140, location=D2Idx{x=9, y=2}, eventType=NPC_MOVE_AND_WAIT_THAT, storageName=, targetName=NPC02, value=1,11, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:00 INFO ->done
-2023/05/07 16:44:03 INFO start event : FieldEvent{name=E_03_6, order=160, location=D2Idx{x=9, y=2}, eventType=FADE_OUT, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:03 INFO ->done
-2023/05/07 16:44:03 INFO start event : FieldEvent{name=E_03_7, order=170, location=D2Idx{x=9, y=2}, eventType=WAIT, storageName=, targetName=, value=60, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:03 INFO ->done
-2023/05/07 16:44:04 INFO start event : FieldEvent{name=E_03_8, order=172, location=D2Idx{x=9, y=2}, eventType=ADD_ITEM, storageName=null, targetName=0, value=庶民の服, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:04 INFO ->done
-2023/05/07 16:44:04 INFO start event : FieldEvent{name=E_03_9, order=173, location=D2Idx{x=9, y=2}, eventType=ADD_ITEM, storageName=null, targetName=0, value=庶民の靴, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:04 INFO ->done
-2023/05/07 16:44:04 INFO start event : FieldEvent{name=E_03_10, order=174, location=D2Idx{x=9, y=2}, eventType=EQIP_ITEM, storageName=null, targetName=0, value=庶民の服, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:04 INFO ->done
-2023/05/07 16:44:04 INFO start event : FieldEvent{name=E_03_11, order=175, location=D2Idx{x=9, y=2}, eventType=EQIP_ITEM, storageName=null, targetName=0, value=庶民の靴, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:04 INFO ->done
-2023/05/07 16:44:04 INFO start event : FieldEvent{name=E_03_30, order=205, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_POISON, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:04 INFO ->done
-2023/05/07 16:44:04 INFO start event : FieldEvent{name=E_03_31, order=206, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_FLAME, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:04 INFO ->done
-2023/05/07 16:44:04 INFO start event : FieldEvent{name=E_03_32, order=207, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_FROZEN, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:04 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_33, order=208, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_BLIND, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_34, order=209, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_SEAL, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_23, order=211, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,HOLY, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_22, order=211, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,DARK, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_13, order=211, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,STAB, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_12, order=211, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,CHOP, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_24, order=212, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,MYSTERY, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_14, order=212, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,IMPACT, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_25, order=213, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,EVIL, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_15, order=213, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,FLAME, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_26, order=214, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,NONE, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_16, order=214, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,ICE, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_27, order=215, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,ALCHEMY, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_17, order=215, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,WATER, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_28, order=216, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,SPIRIT, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_18, order=216, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,THNDER, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_29, order=217, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,SPACE_TIME, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_19, order=217, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,AIR, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_20, order=218, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,EARTH, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_21, order=219, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,LIGHT, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_36, order=220, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_PARALYS, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_35, order=220, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_SLEEP, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_37, order=222, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_CONFUSION, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_38, order=223, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_MADNESS, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_39, order=224, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_TRUE_MADNESS, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_40, order=225, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_ROT, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_41, order=226, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_STONE, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_42, order=227, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_GOLDY, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_43, order=228, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_CUT, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_44, order=229, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_BREAK, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_46, order=230, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_DEAD, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_45, order=230, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_DESTROY, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_47, order=300, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,LV, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_48, order=301, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,HP, value=125, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_49, order=302, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,MP, value=5, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_50, order=303, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,STR, value=35, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_51, order=304, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,SPD, value=35, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_52, order=305, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,DEX, value=35, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_53, order=306, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,POW, value=35, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_54, order=308, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,MOV, value=35, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_55, order=309, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,EXP, value=0, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_56, order=310, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,ATK, value=35, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_57, order=311, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,DEF, value=9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_58, order=312, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,AVO, value=0.025, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_59, order=313, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,CUT_P, value=0.01, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_60, order=314, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,CUT_V, value=1.5, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_61, order=315, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,CRT_P, value=0.01, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_62, order=316, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,CRT_V, value=1.5, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_63, order=317, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_ATK, value=30, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_64, order=318, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_DEF, value=6, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_65, order=319, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_AVO, value=0.025, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_66, order=320, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_CUT_P, value=0.01, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_67, order=321, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_CUT_V, value=1.5, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_68, order=322, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_CRT_P, value=0.01, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_69, order=323, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_CRT_V, value=1.5, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_70, order=324, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,SAN, value=50, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_71, order=325, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,ATTR, value=0, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_72, order=400, location=D2Idx{x=9, y=2}, eventType=SET_STATUS_MAX, storageName=null, targetName=0,SAN, value=99, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:05 INFO start event : FieldEvent{name=E_03_73, order=1800, location=D2Idx{x=9, y=2}, eventType=FADE_IN, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:05 INFO ->done
-2023/05/07 16:44:06 INFO start event : FieldEvent{name=E_03_74, order=1900, location=D2Idx{x=9, y=2}, eventType=NPC_MOVE_AND_WAIT_THAT, storageName=, targetName=NPC02, value=8,2, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:06 INFO ->done
-2023/05/07 16:44:09 INFO start event : FieldEvent{name=E_03_75, order=1950, location=D2Idx{x=9, y=2}, eventType=NPC_DIR_TO, storageName=, targetName=NPC02, value=EAST, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:09 INFO ->done
-2023/05/07 16:44:09 INFO start event : FieldEvent{name=E_03_76, order=2000, location=D2Idx{x=9, y=2}, eventType=SHOW_MESSAGE_FROM_TEXTSTORAGE, storageName=003, targetName=, value=050, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:09 INFO XMLFile [text03.xml] is loaded
-2023/05/07 16:44:09 INFO ->done
-2023/05/07 16:44:14 INFO start event : FieldEvent{name=E_03_77, order=2100, location=D2Idx{x=9, y=2}, eventType=NPC_MOVE_AND_WAIT_THAT, storageName=, targetName=NPC02, value=1,11, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:14 INFO ->done
-2023/05/07 16:44:16 INFO start event : FieldEvent{name=E_03_78, order=2200, location=D2Idx{x=9, y=2}, eventType=NPC_REMOVE, storageName=, targetName=NPC02, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:16 INFO ->done
-2023/05/07 16:44:16 INFO start event : FieldEvent{name=E_03_79, order=3000, location=D2Idx{x=9, y=2}, eventType=END_IF, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:16 INFO start event : FieldEvent{name=E_03_80, order=3100, location=D2Idx{x=9, y=2}, eventType=ENABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[]}
-2023/05/07 16:44:16 INFO ->done
-2023/05/07 16:44:16 INFO start event : FieldEvent{name=E_03_81, order=3250, location=D2Idx{x=9, y=2}, eventType=SET_FLG_DIRECT, storageName=STORY, targetName=TOMAGISHUT_E02, value=ON, disposeWhenExec=true, exists=true, term=[]}
-2023/05/07 16:44:16 INFO ->done
-2023/05/07 16:44:18 INFO start event : FieldEvent{name=E_03_0, order=0, location=D2Idx{x=9, y=2}, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:18 INFO start event : FieldEvent{name=E_03_1, order=100, location=D2Idx{x=9, y=2}, eventType=PC_DIR_TO, storageName=, targetName=0, value=WEST, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:18 INFO ->, but this event is dead
-2023/05/07 16:44:18 INFO start event : FieldEvent{name=E_03_2, order=110, location=D2Idx{x=9, y=2}, eventType=WAIT, storageName=, targetName=, value=60, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:18 INFO ->, but this event is dead
-2023/05/07 16:44:18 INFO start event : FieldEvent{name=E_03_3, order=120, location=D2Idx{x=9, y=2}, eventType=FADE_IN, storageName=, targetName=, value=, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:18 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_4, order=130, location=D2Idx{x=9, y=2}, eventType=SHOW_MESSAGE_FROM_TEXTSTORAGE, storageName=003, targetName=, value=001, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_5, order=140, location=D2Idx{x=9, y=2}, eventType=NPC_MOVE_AND_WAIT_THAT, storageName=, targetName=NPC02, value=1,11, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_6, order=160, location=D2Idx{x=9, y=2}, eventType=FADE_OUT, storageName=, targetName=, value=, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_7, order=170, location=D2Idx{x=9, y=2}, eventType=WAIT, storageName=, targetName=, value=60, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_8, order=172, location=D2Idx{x=9, y=2}, eventType=ADD_ITEM, storageName=null, targetName=0, value=庶民の服, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_9, order=173, location=D2Idx{x=9, y=2}, eventType=ADD_ITEM, storageName=null, targetName=0, value=庶民の靴, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_10, order=174, location=D2Idx{x=9, y=2}, eventType=EQIP_ITEM, storageName=null, targetName=0, value=庶民の服, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_11, order=175, location=D2Idx{x=9, y=2}, eventType=EQIP_ITEM, storageName=null, targetName=0, value=庶民の靴, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_30, order=205, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_POISON, value=0.9, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_0, order=0, location=D2Idx{x=9, y=2}, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_1, order=100, location=D2Idx{x=9, y=2}, eventType=PC_DIR_TO, storageName=, targetName=0, value=WEST, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_2, order=110, location=D2Idx{x=9, y=2}, eventType=WAIT, storageName=, targetName=, value=60, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_3, order=120, location=D2Idx{x=9, y=2}, eventType=FADE_IN, storageName=, targetName=, value=, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_4, order=130, location=D2Idx{x=9, y=2}, eventType=SHOW_MESSAGE_FROM_TEXTSTORAGE, storageName=003, targetName=, value=001, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_5, order=140, location=D2Idx{x=9, y=2}, eventType=NPC_MOVE_AND_WAIT_THAT, storageName=, targetName=NPC02, value=1,11, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_6, order=160, location=D2Idx{x=9, y=2}, eventType=FADE_OUT, storageName=, targetName=, value=, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_7, order=170, location=D2Idx{x=9, y=2}, eventType=WAIT, storageName=, targetName=, value=60, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_8, order=172, location=D2Idx{x=9, y=2}, eventType=ADD_ITEM, storageName=null, targetName=0, value=庶民の服, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_9, order=173, location=D2Idx{x=9, y=2}, eventType=ADD_ITEM, storageName=null, targetName=0, value=庶民の靴, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_10, order=174, location=D2Idx{x=9, y=2}, eventType=EQIP_ITEM, storageName=null, targetName=0, value=庶民の服, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_11, order=175, location=D2Idx{x=9, y=2}, eventType=EQIP_ITEM, storageName=null, targetName=0, value=庶民の靴, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_30, order=205, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_POISON, value=0.9, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_31, order=206, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_FLAME, value=0.9, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_32, order=207, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_FROZEN, value=0.9, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_33, order=208, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_BLIND, value=0.9, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_34, order=209, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_SEAL, value=0.9, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_23, order=211, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,HOLY, value=1, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_22, order=211, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,DARK, value=1, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_13, order=211, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,STAB, value=1, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_12, order=211, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,CHOP, value=1, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:19 INFO start event : FieldEvent{name=E_03_24, order=212, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,MYSTERY, value=1, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:19 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_14, order=212, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,IMPACT, value=1, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_25, order=213, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,EVIL, value=1, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_15, order=213, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,FLAME, value=1, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_26, order=214, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,NONE, value=1, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_16, order=214, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,ICE, value=1, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_27, order=215, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,ALCHEMY, value=1, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_17, order=215, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,WATER, value=1, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_28, order=216, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,SPIRIT, value=1, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_18, order=216, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,THNDER, value=1, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_29, order=217, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,SPACE_TIME, value=1, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_19, order=217, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,AIR, value=1, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_20, order=218, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,EARTH, value=1, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_21, order=219, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,LIGHT, value=1, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_36, order=220, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_PARALYS, value=0.9, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_35, order=220, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_SLEEP, value=0.9, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_37, order=222, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_CONFUSION, value=0.9, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_38, order=223, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_MADNESS, value=0.9, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_39, order=224, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_TRUE_MADNESS, value=0.9, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_40, order=225, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_ROT, value=0.9, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_41, order=226, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_STONE, value=0.9, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_42, order=227, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_GOLDY, value=0.9, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_43, order=228, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_CUT, value=0.9, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_44, order=229, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_BREAK, value=0.9, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_46, order=230, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_DEAD, value=0.9, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_45, order=230, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_DESTROY, value=0.9, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_47, order=300, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,LV, value=1, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_48, order=301, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,HP, value=125, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_49, order=302, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,MP, value=5, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_50, order=303, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,STR, value=35, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_51, order=304, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,SPD, value=35, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_52, order=305, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,DEX, value=35, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_53, order=306, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,POW, value=35, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_54, order=308, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,MOV, value=35, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_55, order=309, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,EXP, value=0, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_56, order=310, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,ATK, value=35, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_57, order=311, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,DEF, value=9, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_58, order=312, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,AVO, value=0.025, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_59, order=313, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,CUT_P, value=0.01, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_60, order=314, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,CUT_V, value=1.5, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_61, order=315, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,CRT_P, value=0.01, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_62, order=316, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,CRT_V, value=1.5, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_63, order=317, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_ATK, value=30, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_64, order=318, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_DEF, value=6, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_65, order=319, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_AVO, value=0.025, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_66, order=320, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_CUT_P, value=0.01, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_67, order=321, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_CUT_V, value=1.5, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_68, order=322, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_CRT_P, value=0.01, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_69, order=323, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_CRT_V, value=1.5, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_70, order=324, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,SAN, value=50, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_71, order=325, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,ATTR, value=0, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_72, order=400, location=D2Idx{x=9, y=2}, eventType=SET_STATUS_MAX, storageName=null, targetName=0,SAN, value=99, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_73, order=1800, location=D2Idx{x=9, y=2}, eventType=FADE_IN, storageName=, targetName=, value=, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_74, order=1900, location=D2Idx{x=9, y=2}, eventType=NPC_MOVE_AND_WAIT_THAT, storageName=, targetName=NPC02, value=8,2, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_75, order=1950, location=D2Idx{x=9, y=2}, eventType=NPC_DIR_TO, storageName=, targetName=NPC02, value=EAST, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_76, order=2000, location=D2Idx{x=9, y=2}, eventType=SHOW_MESSAGE_FROM_TEXTSTORAGE, storageName=003, targetName=, value=050, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_77, order=2100, location=D2Idx{x=9, y=2}, eventType=NPC_MOVE_AND_WAIT_THAT, storageName=, targetName=NPC02, value=1,11, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_78, order=2200, location=D2Idx{x=9, y=2}, eventType=NPC_REMOVE, storageName=, targetName=NPC02, value=, disposeWhenExec=true, exists=false, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_79, order=3000, location=D2Idx{x=9, y=2}, eventType=END_IF, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/07 16:44:20 INFO start event : FieldEvent{name=E_03_80, order=3100, location=D2Idx{x=9, y=2}, eventType=ENABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=true, exists=false, term=[]}
-2023/05/07 16:44:20 INFO ->, but this event is dead
-2023/05/07 16:44:21 INFO start event : FieldEvent{name=E_03_81, order=3250, location=D2Idx{x=9, y=2}, eventType=SET_FLG_DIRECT, storageName=STORY, targetName=TOMAGISHUT_E02, value=ON, disposeWhenExec=true, exists=false, term=[]}
-2023/05/07 16:44:21 INFO ->, but this event is dead
-2023/05/07 16:44:25 INFO start event : FieldEvent{name=E_043_0, order=100, location=D2Idx{x=1, y=2}, eventType=MANUAL_EVENT, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[]}
-2023/05/07 16:44:25 INFO ->done
-2023/05/07 16:44:25 INFO start event : FieldEvent{name=E_043_1, order=110, location=D2Idx{x=1, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=!PC1は棚を調べた, disposeWhenExec=false, exists=true, term=[]}
-2023/05/07 16:44:25 INFO ->done
-2023/05/07 16:44:25 INFO start event : FieldEvent{name=E_043_2, order=123, location=D2Idx{x=1, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=漁の道具などが置いてある。有用な物はなにも見つからなかった。, disposeWhenExec=false, exists=true, term=[]}
-2023/05/07 16:44:25 INFO ->done
-2023/05/07 16:44:26 INFO start event : FieldEvent{name=E_043_3, order=400, location=D2Idx{x=1, y=2}, eventType=END_AND_RESET_EVENT, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[]}
-2023/05/07 16:44:27 INFO start event : FieldEvent{name=E_043_0, order=100, location=D2Idx{x=1, y=2}, eventType=MANUAL_EVENT, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[]}
-2023/05/07 16:44:27 INFO ->done
-2023/05/07 16:44:27 INFO start event : FieldEvent{name=E_043_1, order=110, location=D2Idx{x=1, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=!PC1は棚を調べた, disposeWhenExec=false, exists=true, term=[]}
-2023/05/07 16:44:27 INFO ->done
-2023/05/07 16:44:28 INFO start event : FieldEvent{name=E_043_2, order=123, location=D2Idx{x=1, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=漁の道具などが置いてある。有用な物はなにも見つからなかった。, disposeWhenExec=false, exists=true, term=[]}
-2023/05/07 16:44:28 INFO ->done
-2023/05/07 16:44:30 INFO start event : FieldEvent{name=E_043_3, order=400, location=D2Idx{x=1, y=2}, eventType=END_AND_RESET_EVENT, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[]}
-2023/05/07 16:44:33 INFO CachedSound : [足音.wav] : is disposed
-2023/05/07 16:44:33 INFO ! > CachedSound : [足音.wav] : UN SUPPORTED CONTROL : Type=[Master Gain]
-2023/05/07 16:44:33 INFO CachedSound is loaded name=[足音.wav](2.6623 ms)
-2023/05/07 16:44:33 INFO XMLFile [map04.xml] is loaded
-2023/05/07 16:44:33 INFO XMLFile [text03.xml] is loaded
-2023/05/07 16:44:33 INFO ImageUtil loaded filePath=[resource/data/image/glassField16.png](0.6765 ms)
-2023/05/07 16:44:33 INFO XMLFile [E008.xml] is loaded
-2023/05/07 16:44:33 INFO ImageUtil cached filePath=[resource/data/image/c3.png](0.0011 ms)
-2023/05/07 16:44:34 INFO start event : FieldEvent{name=E_04_0, order=0, location=D2Idx{x=7, y=13}, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:34 INFO start event : FieldEvent{name=E_04_1, order=5, location=D2Idx{x=7, y=13}, eventType=RESET_CAMERA, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:34 INFO ->done
-2023/05/07 16:44:34 INFO start event : FieldEvent{name=E_04_2, order=10, location=D2Idx{x=7, y=13}, eventType=DISABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:34 INFO ->done
-2023/05/07 16:44:34 INFO start event : FieldEvent{name=E_04_3, order=100, location=D2Idx{x=7, y=13}, eventType=WAIT, storageName=, targetName=, value=50, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:34 INFO ->done
-2023/05/07 16:44:35 INFO start event : FieldEvent{name=E_04_4, order=150, location=D2Idx{x=7, y=13}, eventType=NPC_DIR_TO, storageName=, targetName=NPC02, value=EAST, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:35 INFO ->done
-2023/05/07 16:44:35 INFO start event : FieldEvent{name=E_04_5, order=200, location=D2Idx{x=7, y=13}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=トマギ「よし、それじゃあ行こう。街道から外れるなよ。野盗やらが出るからな。/, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:35 INFO ->done
-2023/05/07 16:44:38 INFO start event : FieldEvent{name=E_04_6, order=220, location=D2Idx{x=7, y=13}, eventType=NPC_REMOVE, storageName=, targetName=NPC02, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:38 INFO ->done
-2023/05/07 16:44:38 INFO start event : FieldEvent{name=E_04_7, order=225, location=D2Idx{x=7, y=13}, eventType=PC_ADD, storageName=, targetName=, value=resource/data/Status_tomagi.xml, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:38 INFO XMLFile [Status_tomagi.xml] is loaded
-2023/05/07 16:44:38 INFO ImageUtil cached filePath=[resource/data/image/c3.png](0.001 ms)
-2023/05/07 16:44:38 INFO ->done
-2023/05/07 16:44:38 INFO start event : FieldEvent{name=E_04_8, order=999, location=D2Idx{x=7, y=13}, eventType=ENABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:38 INFO ->done
-2023/05/07 16:44:38 INFO start event : FieldEvent{name=E_04_9, order=2500, location=D2Idx{x=7, y=13}, eventType=SET_FLG_DIRECT, storageName=STORY, targetName=TOMAGISHUT_E08, value=ON, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:38 INFO ->done
-2023/05/07 16:44:38 INFO start event : FieldEvent{name=E_04_10, order=3000, location=D2Idx{x=7, y=13}, eventType=END_IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:39 INFO start event : FieldEvent{name=E_04_0, order=0, location=D2Idx{x=7, y=13}, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:39 INFO start event : FieldEvent{name=E_04_1, order=5, location=D2Idx{x=7, y=13}, eventType=RESET_CAMERA, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:39 INFO ->, but this event is disable
-2023/05/07 16:44:39 INFO start event : FieldEvent{name=E_04_2, order=10, location=D2Idx{x=7, y=13}, eventType=DISABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:39 INFO ->, but this event is disable
-2023/05/07 16:44:39 INFO start event : FieldEvent{name=E_04_3, order=100, location=D2Idx{x=7, y=13}, eventType=WAIT, storageName=, targetName=, value=50, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:39 INFO ->, but this event is disable
-2023/05/07 16:44:39 INFO start event : FieldEvent{name=E_04_4, order=150, location=D2Idx{x=7, y=13}, eventType=NPC_DIR_TO, storageName=, targetName=NPC02, value=EAST, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:39 INFO ->, but this event is disable
-2023/05/07 16:44:39 INFO start event : FieldEvent{name=E_04_5, order=200, location=D2Idx{x=7, y=13}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=トマギ「よし、それじゃあ行こう。街道から外れるなよ。野盗やらが出るからな。/, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:39 INFO ->, but this event is disable
-2023/05/07 16:44:39 INFO start event : FieldEvent{name=E_04_6, order=220, location=D2Idx{x=7, y=13}, eventType=NPC_REMOVE, storageName=, targetName=NPC02, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:39 INFO ->, but this event is disable
-2023/05/07 16:44:39 INFO start event : FieldEvent{name=E_04_7, order=225, location=D2Idx{x=7, y=13}, eventType=PC_ADD, storageName=, targetName=, value=resource/data/Status_tomagi.xml, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:39 INFO ->, but this event is disable
-2023/05/07 16:44:39 INFO start event : FieldEvent{name=E_04_8, order=999, location=D2Idx{x=7, y=13}, eventType=ENABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:39 INFO ->, but this event is disable
-2023/05/07 16:44:39 INFO start event : FieldEvent{name=E_04_9, order=2500, location=D2Idx{x=7, y=13}, eventType=SET_FLG_DIRECT, storageName=STORY, targetName=TOMAGISHUT_E08, value=ON, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:39 INFO ->, but this event is disable
-2023/05/07 16:44:39 INFO start event : FieldEvent{name=E_04_10, order=3000, location=D2Idx{x=7, y=13}, eventType=END_IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:47 INFO start event : FieldEvent{name=E_04_0, order=0, location=D2Idx{x=7, y=13}, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:47 INFO start event : FieldEvent{name=E_04_1, order=5, location=D2Idx{x=7, y=13}, eventType=RESET_CAMERA, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:47 INFO ->, but this event is disable
-2023/05/07 16:44:47 INFO start event : FieldEvent{name=E_04_2, order=10, location=D2Idx{x=7, y=13}, eventType=DISABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:47 INFO ->, but this event is disable
-2023/05/07 16:44:47 INFO start event : FieldEvent{name=E_04_3, order=100, location=D2Idx{x=7, y=13}, eventType=WAIT, storageName=, targetName=, value=50, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:47 INFO ->, but this event is disable
-2023/05/07 16:44:47 INFO start event : FieldEvent{name=E_04_4, order=150, location=D2Idx{x=7, y=13}, eventType=NPC_DIR_TO, storageName=, targetName=NPC02, value=EAST, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:47 INFO ->, but this event is disable
-2023/05/07 16:44:47 INFO start event : FieldEvent{name=E_04_5, order=200, location=D2Idx{x=7, y=13}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=トマギ「よし、それじゃあ行こう。街道から外れるなよ。野盗やらが出るからな。/, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:47 INFO ->, but this event is disable
-2023/05/07 16:44:47 INFO start event : FieldEvent{name=E_04_6, order=220, location=D2Idx{x=7, y=13}, eventType=NPC_REMOVE, storageName=, targetName=NPC02, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:47 INFO ->, but this event is disable
-2023/05/07 16:44:47 INFO start event : FieldEvent{name=E_04_7, order=225, location=D2Idx{x=7, y=13}, eventType=PC_ADD, storageName=, targetName=, value=resource/data/Status_tomagi.xml, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:47 INFO ->, but this event is disable
-2023/05/07 16:44:47 INFO start event : FieldEvent{name=E_04_8, order=999, location=D2Idx{x=7, y=13}, eventType=ENABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:47 INFO ->, but this event is disable
-2023/05/07 16:44:47 INFO start event : FieldEvent{name=E_04_9, order=2500, location=D2Idx{x=7, y=13}, eventType=SET_FLG_DIRECT, storageName=STORY, targetName=TOMAGISHUT_E08, value=ON, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:47 INFO ->, but this event is disable
-2023/05/07 16:44:47 INFO start event : FieldEvent{name=E_04_10, order=3000, location=D2Idx{x=7, y=13}, eventType=END_IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/07 16:44:48 INFO CachedSound : [足音.wav] : is disposed
-2023/05/07 16:44:48 INFO CachedSound : [足音.wav] : is disposed
-2023/05/07 16:44:48 INFO CachedSound : [足音.wav] : is disposed
-2023/05/07 16:44:48 INFO ! > CachedSound : [足音.wav] : UN SUPPORTED CONTROL : Type=[Master Gain]
-2023/05/07 16:44:48 INFO CachedSound is loaded name=[足音.wav](1.8153 ms)
-2023/05/07 16:44:48 INFO XMLFile [map05.xml] is loaded
-2023/05/07 16:44:48 INFO ImageUtil cached filePath=[resource/data/image/seaChip16.png](9.0E-4 ms)
-2023/05/07 16:44:59 INFO lockFile:.\KLOCK_15645494865291085763.lck is deleted
-2023/05/07 16:44:59 INFO TempFileStorage : all temp file is deleted
+2023/05/07 19:03:00 INFO this is D:/Project/FuzzyWorld/
+2023/05/07 19:03:00 INFO translate\ja.ini
+2023/05/07 19:03:00 INFO LOAD_GAME=つづきから
+2023/05/07 19:03:00 INFO ORDER_SELECT=前列／後列を設定
+2023/05/07 19:03:00 INFO CAN_USE_FIELD=このアイテムはフィールド上で使用できる
+2023/05/07 19:03:00 INFO QSUB=サブ
+2023/05/07 19:03:00 INFO FRONT=前列
+2023/05/07 19:03:00 INFO DISASSEMBLY=解体
+2023/05/07 19:03:00 INFO NO_TARGET=効果範囲内に対象がいない
+2023/05/07 19:03:00 INFO ACTION_EFFECT=基礎威力
+2023/05/07 19:03:00 INFO NODAMAGE=ダメージを受けなかった！！
+2023/05/07 19:03:00 INFO NONE=なし
+2023/05/07 19:03:00 INFO TOMAGISHUT=漁師の小屋
+2023/05/07 19:03:00 INFO SUB=減った
+2023/05/07 19:03:00 INFO GAME_PAD_TEST=コントローラーテスト
+2023/05/07 19:03:00 INFO CURRENT_CONDITION=発生中の効果
+2023/05/07 19:03:00 INFO CAN_USE_BATTLE=このアイテムは戦闘中に使用できる
+2023/05/07 19:03:00 INFO IF_DISASSEMBLY_GET=解体すると以下の素材を得られる
+2023/05/07 19:03:00 INFO FIELD=フィールド
+2023/05/07 19:03:00 INFO ATTR_DOWN=耐性が下がった！
+2023/05/07 19:03:00 INFO IS=は
+2023/05/07 19:03:00 INFO NEW_GAME=はじめから
+2023/05/07 19:03:00 INFO SURVEY=調べる
+2023/05/07 19:03:00 INFO REMOVE_CDNTION=から回復した
+2023/05/07 19:03:00 INFO ACTION_ATTR=属性
+2023/05/07 19:03:00 INFO ITEM=道具
+2023/05/07 19:03:00 INFO PASS=渡す
+2023/05/07 19:03:00 INFO HEALDAMAGE=回復した
+2023/05/07 19:03:00 INFO SHORTAGE=が足りない
+2023/05/07 19:03:00 INFO CHECK=調べる
+2023/05/07 19:03:00 INFO CONDITION=状態異常
+2023/05/07 19:03:00 INFO ATTR_UP=耐性が上がった！
+2023/05/07 19:03:00 INFO MAP=地図
+2023/05/07 19:03:00 INFO WMT=武器種類
+2023/05/07 19:03:00 INFO PARTY=味方
+2023/05/07 19:03:00 INFO CHAPTER2_SUBTITLE=失踪者
+2023/05/07 19:03:00 INFO DCT_DIRECT=直接計算方式
+2023/05/07 19:03:00 INFO WHO_WILL_HOLD_IT=誰が持つ？
+2023/05/07 19:03:00 INFO WORLDMAP=ワールドマップ
+2023/05/07 19:03:00 INFO TOMAGISHUT_OUTER=漁師の小屋の屋外
+2023/05/07 19:03:00 INFO SPECIAL_ATTACK=特技
+2023/05/07 19:03:00 INFO CAN_HAVE=あとn個持てる
+2023/05/07 19:03:00 INFO PASSED=を渡した
+2023/05/07 19:03:00 INFO NO_EFFECT=効果がなかった
+2023/05/07 19:03:00 INFO CHANGE_ATTR=属性値変更
+2023/05/07 19:03:00 INFO P=確率
+2023/05/07 19:03:00 INFO ORDER=隊列
+2023/05/07 19:03:00 INFO S=の
+2023/05/07 19:03:00 INFO WAS_DISASSEMBLY=を解体した
+2023/05/07 19:03:00 INFO ARE_YOU_SURE_EXIT=本当に終了しますか？
+2023/05/07 19:03:00 INFO REMOVE_CONDITION=状態異常cを回復する
+2023/05/07 19:03:00 INFO SKIP=スキップ
+2023/05/07 19:03:00 INFO GET_MATE=個手に入れた
+2023/05/07 19:03:00 INFO TURN=ターン
+2023/05/07 19:03:00 INFO SAVE=保存
+2023/05/07 19:03:00 INFO BERUMA_SILVER=ベルマ銀貨
+2023/05/07 19:03:00 INFO WAS_DROP=を捨てた
+2023/05/07 19:03:00 INFO MATERIAL=素材
+2023/05/07 19:03:00 INFO QUEST=クエスト
+2023/05/07 19:03:00 INFO BUT=しかし
+2023/05/07 19:03:00 INFO CANT_ESCAPE=戦闘エリアの中心にいては逃げられない！！
+2023/05/07 19:03:00 INFO ISESCAPE=は逃げ出した！！
+2023/05/07 19:03:00 INFO APPEARANCE=体現れた！！
+2023/05/07 19:03:00 INFO TARGET_SELECT=ターゲット選択
+2023/05/07 19:03:00 INFO GAMEPAD_NOTFOUND=コントローラは有効化されていません。コントローラを使う場合はゲームを再起動してください。
+2023/05/07 19:03:00 INFO PLEASE_NAME=今回の介入者の名前は？
+2023/05/07 19:03:00 INFO USE=使う
+2023/05/07 19:03:00 INFO SCREEN_SHOT=スクリーンショットの保存
+2023/05/07 19:03:00 INFO IS_EQIP=を装備した
+2023/05/07 19:03:00 INFO OPEN=開く
+2023/05/07 19:03:00 INFO USE_ITEM=を使った
+2023/05/07 19:03:00 INFO OTHER=行動
+2023/05/07 19:03:00 INFO WAS_EQIP=をすでに装備している
+2023/05/07 19:03:00 INFO SUB_TITLE=魔法使いと不死の秘術
+2023/05/07 19:03:00 INFO SUBMIT=決定
+2023/05/07 19:03:00 INFO SPELLTIME=詠唱時間
+2023/05/07 19:03:00 INFO CANCEL=キャンセル
+2023/05/07 19:03:00 INFO TO=に
+2023/05/07 19:03:00 INFO MENU=メニュー
+2023/05/07 19:03:00 INFO CANT_MOVE=動けなかった！！
+2023/05/07 19:03:00 INFO TARGET=対象
+2023/05/07 19:03:00 INFO BEACH=海岸
+2023/05/07 19:03:00 INFO ACTION_COUNT=この武器はn回攻撃できる
+2023/05/07 19:03:00 INFO NO_ITEM=アイテムを持っていない
+2023/05/07 19:03:00 INFO CAN_UPGRADE=あとn回強化できる
+2023/05/07 19:03:00 INFO CONFU_STOP=混乱して動けなかった！
+2023/05/07 19:03:00 INFO NOT_EQIP=は装備できない
+2023/05/07 19:03:00 INFO REALLY_DISASSEMBLY=本当に解体する？
+2023/05/07 19:03:00 INFO THIS_ITEM_CANT_UPGRADE=このアイテムは強化できない
+2023/05/07 19:03:00 INFO NOTHING_ITEM=何も持っていない
+2023/05/07 19:03:00 INFO TALK=話す
+2023/05/07 19:03:00 INFO VALUE=価値
+2023/05/07 19:03:00 INFO ADD_CONDITION=状態異常cを付与する
+2023/05/07 19:03:00 INFO CHAPTER1=序部
+2023/05/07 19:03:00 INFO INFO=情報
+2023/05/07 19:03:00 INFO CHAPTER2=第一部
+2023/05/07 19:03:00 INFO IS_CONFU=混乱している！
+2023/05/07 19:03:00 INFO STATUS=状態
+2023/05/07 19:03:00 INFO AREA=範囲
+2023/05/07 19:03:00 INFO RESET_ITEM=を持ち替えた
+2023/05/07 19:03:00 INFO NOTHING_MAGIC=使える魔法はない
+2023/05/07 19:03:00 INFO MAIN=メイン
+2023/05/07 19:03:00 INFO CANT_DISASSEMBLY=このアイテムは解体できない
+2023/05/07 19:03:00 INFO GOLDEN_RECORD=金の円盤にしたがって世界を正せ
+2023/05/07 19:03:00 INFO DARESU_GOLD=ダレス金貨
+2023/05/07 19:03:00 INFO SPELL_END=の詠唱を終了した！！
+2023/05/07 19:03:00 INFO AVOIDANCE=回避に専念した！
+2023/05/07 19:03:00 INFO BATTLE_ACTION=戦闘中効果
+2023/05/07 19:03:00 INFO PAGE=術式
+2023/05/07 19:03:00 INFO DCT_USE_DAMAGE_CALC=ダメージ計算方式
+2023/05/07 19:03:00 INFO DCT_PERCENT_OF_MAX=最大値計算方式
+2023/05/07 19:03:00 INFO DAMAGE=作用
+2023/05/07 19:03:00 INFO ITEM_DROP=を失った
+2023/05/07 19:03:00 INFO REMOVE_EQUP=を外した
+2023/05/07 19:03:00 INFO THIS_ITEM_CANT_DISASSE=このアイテムは解体できない
+2023/05/07 19:03:00 INFO DCS=ダメージ計算ステータス
+2023/05/07 19:03:00 INFO CHAPTER1_SUBTITLE=介入者
+2023/05/07 19:03:00 INFO CANT_USE_FIELD=この魔法はフィールドでは使えない
+2023/05/07 19:03:00 INFO ISMOVE=は移動した！
+2023/05/07 19:03:00 INFO ITEM_ADD=アイテムiを入手する
+2023/05/07 19:03:00 INFO GET_PAGE=枚手に入れた
+2023/05/07 19:03:00 INFO GIVE_UP=諦める
+2023/05/07 19:03:00 INFO WHO_DO_PASS=を誰に渡す？
+2023/05/07 19:03:00 INFO NO=いや
+2023/05/07 19:03:00 INFO MONEY=所持金
+2023/05/07 19:03:00 INFO WHATDO=どうする
+2023/05/07 19:03:00 INFO WHO_DO_USE=を誰に使う？
+2023/05/07 19:03:00 INFO YES=ああ
+2023/05/07 19:03:00 INFO WAS=が
+2023/05/07 19:03:00 INFO GAME_EXIT=おわる
+2023/05/07 19:03:00 INFO CANT_HAVE=これ以上物を持てない
+2023/05/07 19:03:00 INFO OF_WHAT=により
+2023/05/07 19:03:00 INFO COMPOSITE=合成
+2023/05/07 19:03:00 INFO DROP=捨てる
+2023/05/07 19:03:00 INFO RETURN=戻る
+2023/05/07 19:03:00 INFO DEFENCE=防御に専念した！
+2023/05/07 19:03:00 INFO ITEM_USE=道具
+2023/05/07 19:03:00 INFO BATTLE_CLOSE=【デバッグ用】戦闘を即時終了しますか？
+2023/05/07 19:03:00 INFO FIELD_ACTION=フィールド効果
+2023/05/07 19:03:00 INFO MAGIC=魔術
+2023/05/07 19:03:00 INFO OF=を
+2023/05/07 19:03:00 INFO MISS=ミス！
+2023/05/07 19:03:00 INFO SPELL_START=の詠唱を開始した！！
+2023/05/07 19:03:00 INFO SLOT=部位
+2023/05/07 19:03:00 INFO REALLY_DROP=を本当に捨てる？
+2023/05/07 19:03:00 INFO CONFIRM=確認
+2023/05/07 19:03:00 INFO NO_NPC=その方向にはダレモイナイ
+2023/05/07 19:03:00 INFO DCT_PERCENT_OF_NOW=現在値計算方式
+2023/05/07 19:03:00 INFO ISFAILED=は失敗した！！
+2023/05/07 19:03:00 INFO ITEM_LOST=アイテムiを失う
+2023/05/07 19:03:00 INFO CANT_USE_BATTLE=この魔法は戦闘中は使えない
+2023/05/07 19:03:00 INFO IS_GET=を手に入れた
+2023/05/07 19:03:00 INFO ATTR=有効度
+2023/05/07 19:03:00 INFO YOUR_NAME_IS=、という名前でよいのかね？
+2023/05/07 19:03:00 INFO EQIP=装備
+2023/05/07 19:03:00 INFO ACTION=戦闘中の行動
+2023/05/07 19:03:00 INFO MOVE=移動
+2023/05/07 19:03:00 INFO USE_MAGIC=を詠唱した
+2023/05/07 19:03:00 INFO BOOK=魔術書
+2023/05/07 19:03:00 INFO CANT_SALE=このアイテムは売ったり捨てたりできない
+2023/05/07 19:03:00 INFO ATTACK=攻撃
+2023/05/07 19:03:00 INFO BACK=後列
+2023/05/07 19:03:00 INFO S_PAGE=の術式のページ
+2023/05/07 19:03:00 INFO MUSIC_ROOM=ミュージックルーム
+2023/05/07 19:03:00 INFO ROOM=部屋
+2023/05/07 19:03:00 INFO lockFile:.\KLOCK_7776693394924032349.lck is created
+2023/05/07 19:03:00 INFO Fuzzy World is start
+2023/05/07 19:03:00 INFO CachedSound is loaded name=[効果音＿選択1.wav](86.24071 ms)
+2023/05/07 19:03:00 INFO CachedSound is loaded name=[フィールド３.wav](30.775 ms)
+2023/05/07 19:03:01 INFO CachedSound is loaded name=[効果音＿ゲームスタート.wav](8.401 ms)
+2023/05/07 19:03:03 INFO CachedSound : [気怠い探偵.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [灼熱の地獄.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [作戦会議.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [氷のダンジョン.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [妖精の森.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [バトル1（リメイク）＿古.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [普通な感じの街.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [とてものどかな村.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [さわやかな冒険.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [風の魔法使いの戦い２.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [バトル１（新）.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [バトル２（新）.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [のどかな村.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [夢の世界.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [廃れた都市.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [大ボス.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [見知らぬ土地・見知らぬ文化.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [神殿.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [バトル1（リメイク）.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [ラストダンジョン.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [不思議なダンジョン.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [変質者のテーマ.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [世界の真相.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [睨み合い.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [静寂空間.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [重厚なダンジョン.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [決意.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [残酷な運命.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [工業都市.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [狂気の人.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [静かなる決意.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [不気味なダンジョン.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [探検.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [まあいいか.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [デジタル空間.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [不思議な森.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [洞窟.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [シューティング・ステージ３.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [風の魔法使いのテーマ.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [愉快または間抜け.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [ボーナスゲーム.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [フィールド２.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [シューティング・ステージ１.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [小ボス.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [異形のものとの戦い.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [バトル２（旧）.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [厳かなダンジョン.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [エスニック・プレース.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [シューティング・ステージ２.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [バトル１（旧）.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [怪しい取引.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [明るいダンジョン.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [明るい街.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [歴史ある街.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [刻一刻.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [変な村.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [斜陽の帝国.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [風の魔法使いの戦い.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [おぞましい真実.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [悪の軍団.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [バトル（連結）.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [フィールド３.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [眠らない大都会.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [エンディング.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [大ボス_古.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [天空の魔法都市.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [師匠とのイベント戦.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [結末.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [王都.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [お祭りの町.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [奇襲攻撃！.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [軍事作戦.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [ユニークな街.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [フィールド.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [変質者との戦い.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [中ボス.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [知的探求.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [魔力の間.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [フィールド５.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [シューティング・ステージ４.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [疑い.wav] : is disposed
+2023/05/07 19:03:03 INFO CachedSound : [軍事作戦２.wav] : is disposed
+2023/05/07 19:03:07 INFO XMLFile [chipAttr.xml] is loaded
+2023/05/07 19:03:07 INFO XMLFile [vehicle.xml] is loaded
+2023/05/07 19:03:07 INFO XMLFile [chipSet_inner16.xml] is loaded
+2023/05/07 19:03:07 INFO ImageUtil loaded filePath=[resource/data/image/inner16.png](7.0522 ms)
+2023/05/07 19:03:07 INFO XMLFile [fms.xml] is loaded
+2023/05/07 19:03:07 INFO XMLFile [map01.xml] is loaded
+2023/05/07 19:03:07 INFO ImageUtil loaded filePath=[resource/data/image/darkeffect.png](9.7803 ms)
+2023/05/07 19:03:07 INFO temp file C:\Users\owner\AppData\Local\Temp\ktf_12942279499983242868.tmp is created
+2023/05/07 19:03:07 INFO ImageUtil loaded filePath=[resource/data/image/unknown.png](0.5643 ms)
+2023/05/07 19:03:16 INFO XMLFile [SWMTM.xml] is loaded
+2023/05/07 19:03:16 INFO XMLFile [SStatusM.xml] is loaded
+2023/05/07 19:03:16 INFO XMLFile [SAttrM.xml] is loaded
+2023/05/07 19:03:16 INFO XMLFile [SConditionM.xml] is loaded
+2023/05/07 19:03:16 INFO XMLFile [SItemSlotM.xml] is loaded
+2023/05/07 19:03:16 INFO XMLFile [SBookM.xml] is loaded
+2023/05/07 19:03:16 INFO XMLFile [SRaceM.xml] is loaded
+2023/05/07 19:03:16 INFO XMLFile [SActionM.xml] is loaded
+2023/05/07 19:03:16 INFO ImageUtil loaded filePath=[resource/data/image/testAnimation.png](0.5099 ms)
+2023/05/07 19:03:16 INFO XMLFile [SBattleFieldM.xml] is loaded
+2023/05/07 19:03:16 INFO ImageUtil loaded filePath=[resource/data/image/tree.png](0.5623 ms)
+2023/05/07 19:03:16 INFO ImageUtil loaded filePath=[resource/data/image/stone.png](0.512 ms)
+2023/05/07 19:03:16 INFO ImageUtil loaded filePath=[resource/data/image/bf1.png](7.7625 ms)
+2023/05/07 19:03:16 INFO XMLFile [SEM.xml] is loaded
+2023/05/07 19:03:16 INFO ImageUtil loaded filePath=[resource/data/image/M1.png](0.4325 ms)
+2023/05/07 19:03:16 INFO ImageUtil cached filePath=[resource/data/image/M1.png](0.0015 ms)
+2023/05/07 19:03:16 INFO ImageUtil cached filePath=[resource/data/image/M1.png](4.0E-4 ms)
+2023/05/07 19:03:16 INFO ImageUtil cached filePath=[resource/data/image/M1.png](5.0E-4 ms)
+2023/05/07 19:03:16 INFO ImageUtil cached filePath=[resource/data/image/M1.png](4.0E-4 ms)
+2023/05/07 19:03:16 INFO ImageUtil loaded filePath=[resource/data/image/M2.png](0.4638 ms)
+2023/05/07 19:03:16 INFO ImageUtil loaded filePath=[resource/data/image/M3.png](0.4711 ms)
+2023/05/07 19:03:16 INFO XMLFile [SESSM.xml] is loaded
+2023/05/07 19:03:16 INFO XMLFile [SQuestM.xml] is loaded
+2023/05/07 19:03:16 INFO ImageUtil loaded filePath=[resource/data/image/c2.png](0.4983 ms)
+2023/05/07 19:03:16 INFO ImageUtil cached filePath=[resource/data/image/c2.png](4.0E-4 ms)
+2023/05/07 19:03:16 INFO ImageUtil cached filePath=[resource/data/image/c2.png](5.0E-4 ms)
+2023/05/07 19:03:16 INFO ImageUtil cached filePath=[resource/data/image/c2.png](4.0E-4 ms)
+2023/05/07 19:03:16 INFO XMLFile [chipSet_outer16.xml] is loaded
+2023/05/07 19:03:16 INFO ImageUtil loaded filePath=[resource/data/image/outer16.png](1.677 ms)
+2023/05/07 19:03:16 INFO XMLFile [tss.xml] is loaded
+2023/05/07 19:03:16 INFO XMLFile [map02.xml] is loaded
+2023/05/07 19:03:16 INFO XMLFile [text02.xml] is loaded
+2023/05/07 19:03:16 INFO XMLFile [E002.xml] is loaded
+2023/05/07 19:03:16 INFO ImageUtil loaded filePath=[resource/data/image/seaChip16.png](0.4814 ms)
+2023/05/07 19:03:16 INFO ImageUtil loaded filePath=[resource/data/image/cloudeffect.png](4.9862 ms)
+2023/05/07 19:03:17 INFO temp file C:\Users\owner\AppData\Local\Temp\ktf_3723933451647825762.tmp is created
+2023/05/07 19:03:17 INFO XMLFile [E001.xml] is loaded
+2023/05/07 19:03:17 INFO ImageUtil loaded filePath=[resource/data/image/c3.png](0.5343 ms)
+2023/05/07 19:03:17 INFO start event : FieldEvent{name=E_01_0, order=0, location=D2Idx{x=31, y=35}, eventType=DISABLE_OPERATION, storageName=null, targetName=null, value=null, disposeWhenExec=true, exists=true, term=[]}
+2023/05/07 19:03:17 INFO ->done
+2023/05/07 19:03:17 INFO start event : FieldEvent{name=E_01_1, order=1, location=D2Idx{x=31, y=35}, eventType=STOP_ALL_SOUND, storageName=BGM, targetName=null, value=null, disposeWhenExec=true, exists=true, term=[]}
+2023/05/07 19:03:17 INFO ->done
+2023/05/07 19:03:17 INFO start event : FieldEvent{name=E_01_2, order=2, location=D2Idx{x=31, y=35}, eventType=PLAY_SOUND, storageName=BGM, targetName=フィールド５.wav, value=null, disposeWhenExec=true, exists=true, term=[]}
+2023/05/07 19:03:17 INFO CachedSound is loaded name=[フィールド５.wav](57.6795 ms)
+2023/05/07 19:03:17 INFO ->done
+2023/05/07 19:03:17 INFO start event : FieldEvent{name=E_01_3, order=10, location=D2Idx{x=31, y=35}, eventType=WAIT, storageName=, targetName=, value=180, disposeWhenExec=true, exists=true, term=[]}
+2023/05/07 19:03:17 INFO ->done
+2023/05/07 19:03:20 INFO start event : FieldEvent{name=E_01_4, order=20, location=D2Idx{x=31, y=35}, eventType=NPC_MOVE_AND_WAIT_THAT, storageName=, targetName=NPC02, value=30,35, disposeWhenExec=true, exists=true, term=[]}
+2023/05/07 19:03:20 INFO ->done
+2023/05/07 19:03:24 INFO start event : FieldEvent{name=E_01_5, order=30, location=D2Idx{x=31, y=35}, eventType=NPC_LOCK_LOCATION, storageName=, targetName=NPC02, value=, disposeWhenExec=true, exists=true, term=[]}
+2023/05/07 19:03:24 INFO ->done
+2023/05/07 19:03:24 INFO start event : FieldEvent{name=E_01_6, order=40, location=D2Idx{x=31, y=35}, eventType=SHOW_MESSAGE_FROM_TEXTSTORAGE, storageName=002, targetName=, value=001, disposeWhenExec=true, exists=true, term=[]}
+2023/05/07 19:03:24 INFO XMLFile [text02.xml] is loaded
+2023/05/07 19:03:24 INFO XMLFile [E002.xml] is loaded
+2023/05/07 19:03:24 INFO ->done
+2023/05/07 19:03:24 INFO start event : FieldEvent{name=001_0, order=0, location=null, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:24 INFO start event : FieldEvent{name=001_1, order=5, location=null, eventType=DISABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:24 INFO ->done
+2023/05/07 19:03:24 INFO start event : FieldEvent{name=001_2, order=10, location=null, eventType=WAIT, storageName=, targetName=, value=120, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:24 INFO ->done
+2023/05/07 19:03:26 INFO start event : FieldEvent{name=001_3, order=20, location=null, eventType=NPC_DIR_TO, storageName=, targetName=NPC02, value=NORTH, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:26 INFO ->done
+2023/05/07 19:03:26 INFO start event : FieldEvent{name=001_4, order=30, location=null, eventType=SHOW_MESSAGE_FROM_TEXTSTORAGE, storageName=002, targetName=, value=002, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:26 INFO XMLFile [text02.xml] is loaded
+2023/05/07 19:03:26 INFO XMLFile [E002.xml] is loaded
+2023/05/07 19:03:26 INFO ->done
+2023/05/07 19:03:27 INFO start event : FieldEvent{name=001_5, order=40, location=null, eventType=FADE_OUT, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:27 INFO ->done
+2023/05/07 19:03:28 INFO start event : FieldEvent{name=001_6, order=50, location=null, eventType=SET_QUEST_LINE, storageName=, targetName=MAIN, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:28 INFO ->done
+2023/05/07 19:03:28 INFO start event : FieldEvent{name=001_7, order=100, location=null, eventType=CHANGE_MAP, storageName=, targetName=TOMAGISHUT, value=9,2,WEST, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:28 INFO ->done
+2023/05/07 19:03:28 INFO XMLFile [map03.xml] is loaded
+2023/05/07 19:03:28 INFO XMLFile [text03.xml] is loaded
+2023/05/07 19:03:28 INFO XMLFile [E003.xml] is loaded
+2023/05/07 19:03:28 INFO XMLFile [E007.xml] is loaded
+2023/05/07 19:03:28 INFO XMLFile [E004.xml] is loaded
+2023/05/07 19:03:28 INFO XMLFile [E005.xml] is loaded
+2023/05/07 19:03:28 INFO XMLFile [E006.xml] is loaded
+2023/05/07 19:03:28 INFO XMLFile [E004.xml] is loaded
+2023/05/07 19:03:28 INFO ImageUtil cached filePath=[resource/data/image/c3.png](0.0011 ms)
+2023/05/07 19:03:28 INFO start event : FieldEvent{name=E_03_0, order=0, location=D2Idx{x=9, y=2}, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:28 INFO start event : FieldEvent{name=E_03_1, order=100, location=D2Idx{x=9, y=2}, eventType=PC_DIR_TO, storageName=, targetName=0, value=WEST, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:28 INFO ->done
+2023/05/07 19:03:28 INFO start event : FieldEvent{name=E_03_2, order=110, location=D2Idx{x=9, y=2}, eventType=WAIT, storageName=, targetName=, value=60, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:28 INFO ->done
+2023/05/07 19:03:29 INFO start event : FieldEvent{name=E_03_3, order=120, location=D2Idx{x=9, y=2}, eventType=FADE_IN, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:29 INFO ->done
+2023/05/07 19:03:30 INFO start event : FieldEvent{name=E_03_4, order=130, location=D2Idx{x=9, y=2}, eventType=SHOW_MESSAGE_FROM_TEXTSTORAGE, storageName=003, targetName=, value=001, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:30 INFO XMLFile [text03.xml] is loaded
+2023/05/07 19:03:30 INFO ->done
+2023/05/07 19:03:32 INFO start event : FieldEvent{name=E_03_5, order=140, location=D2Idx{x=9, y=2}, eventType=NPC_MOVE_AND_WAIT_THAT, storageName=, targetName=NPC02, value=1,11, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:32 INFO ->done
+2023/05/07 19:03:35 INFO start event : FieldEvent{name=E_03_6, order=160, location=D2Idx{x=9, y=2}, eventType=FADE_OUT, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:35 INFO ->done
+2023/05/07 19:03:36 INFO start event : FieldEvent{name=E_03_7, order=170, location=D2Idx{x=9, y=2}, eventType=WAIT, storageName=, targetName=, value=60, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:36 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_8, order=172, location=D2Idx{x=9, y=2}, eventType=ADD_ITEM, storageName=null, targetName=0, value=庶民の服, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_9, order=173, location=D2Idx{x=9, y=2}, eventType=ADD_ITEM, storageName=null, targetName=0, value=庶民の靴, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_10, order=174, location=D2Idx{x=9, y=2}, eventType=EQIP_ITEM, storageName=null, targetName=0, value=庶民の服, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_11, order=175, location=D2Idx{x=9, y=2}, eventType=EQIP_ITEM, storageName=null, targetName=0, value=庶民の靴, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_30, order=205, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_POISON, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_31, order=206, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_FLAME, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_32, order=207, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_FROZEN, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_33, order=208, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_BLIND, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_34, order=209, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_SEAL, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_23, order=211, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,HOLY, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_22, order=211, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,DARK, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_13, order=211, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,STAB, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_12, order=211, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,CHOP, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_24, order=212, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,MYSTERY, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_14, order=212, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,IMPACT, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_25, order=213, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,EVIL, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_15, order=213, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,FLAME, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_26, order=214, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,NONE, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_16, order=214, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,ICE, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_27, order=215, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,ALCHEMY, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_17, order=215, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,WATER, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_28, order=216, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,SPIRIT, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_18, order=216, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,THNDER, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_29, order=217, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,SPACE_TIME, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_19, order=217, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,AIR, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_20, order=218, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,EARTH, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_21, order=219, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,LIGHT, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_36, order=220, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_PARALYS, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_35, order=220, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_SLEEP, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_37, order=222, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_CONFUSION, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_38, order=223, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_MADNESS, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_39, order=224, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_TRUE_MADNESS, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_40, order=225, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_ROT, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_41, order=226, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_STONE, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_42, order=227, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_GOLDY, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_43, order=228, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_CUT, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_44, order=229, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_BREAK, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_46, order=230, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_DEAD, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_45, order=230, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_DESTROY, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_47, order=300, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,LV, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_48, order=301, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,HP, value=125, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_49, order=302, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,MP, value=5, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_50, order=303, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,STR, value=35, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_51, order=304, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,SPD, value=35, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_52, order=305, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,DEX, value=35, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_53, order=306, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,POW, value=35, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_54, order=308, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,MOV, value=35, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:37 INFO start event : FieldEvent{name=E_03_55, order=309, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,EXP, value=0, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:37 INFO ->done
+2023/05/07 19:03:38 INFO start event : FieldEvent{name=E_03_56, order=310, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,ATK, value=35, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:38 INFO ->done
+2023/05/07 19:03:38 INFO start event : FieldEvent{name=E_03_57, order=311, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,DEF, value=9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:38 INFO ->done
+2023/05/07 19:03:38 INFO start event : FieldEvent{name=E_03_58, order=312, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,AVO, value=0.025, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:38 INFO ->done
+2023/05/07 19:03:38 INFO start event : FieldEvent{name=E_03_59, order=313, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,CUT_P, value=0.01, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:38 INFO ->done
+2023/05/07 19:03:38 INFO start event : FieldEvent{name=E_03_60, order=314, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,CUT_V, value=1.5, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:38 INFO ->done
+2023/05/07 19:03:38 INFO start event : FieldEvent{name=E_03_61, order=315, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,CRT_P, value=0.01, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:38 INFO ->done
+2023/05/07 19:03:38 INFO start event : FieldEvent{name=E_03_62, order=316, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,CRT_V, value=1.5, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:38 INFO ->done
+2023/05/07 19:03:38 INFO start event : FieldEvent{name=E_03_63, order=317, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_ATK, value=30, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:38 INFO ->done
+2023/05/07 19:03:38 INFO start event : FieldEvent{name=E_03_64, order=318, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_DEF, value=6, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:38 INFO ->done
+2023/05/07 19:03:38 INFO start event : FieldEvent{name=E_03_65, order=319, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_AVO, value=0.025, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:38 INFO ->done
+2023/05/07 19:03:38 INFO start event : FieldEvent{name=E_03_66, order=320, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_CUT_P, value=0.01, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:38 INFO ->done
+2023/05/07 19:03:38 INFO start event : FieldEvent{name=E_03_67, order=321, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_CUT_V, value=1.5, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:38 INFO ->done
+2023/05/07 19:03:38 INFO start event : FieldEvent{name=E_03_68, order=322, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_CRT_P, value=0.01, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:38 INFO ->done
+2023/05/07 19:03:38 INFO start event : FieldEvent{name=E_03_69, order=323, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_CRT_V, value=1.5, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:38 INFO ->done
+2023/05/07 19:03:38 INFO start event : FieldEvent{name=E_03_70, order=324, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,SAN, value=50, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:38 INFO ->done
+2023/05/07 19:03:38 INFO start event : FieldEvent{name=E_03_71, order=325, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,ATTR, value=0, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:38 INFO ->done
+2023/05/07 19:03:38 INFO start event : FieldEvent{name=E_03_72, order=400, location=D2Idx{x=9, y=2}, eventType=SET_STATUS_MAX, storageName=null, targetName=0,SAN, value=99, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:38 INFO ->done
+2023/05/07 19:03:38 INFO start event : FieldEvent{name=E_03_73, order=1800, location=D2Idx{x=9, y=2}, eventType=FADE_IN, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:38 INFO ->done
+2023/05/07 19:03:39 INFO start event : FieldEvent{name=E_03_74, order=1900, location=D2Idx{x=9, y=2}, eventType=NPC_MOVE_AND_WAIT_THAT, storageName=, targetName=NPC02, value=8,2, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:39 INFO ->done
+2023/05/07 19:03:41 INFO start event : FieldEvent{name=E_03_75, order=1950, location=D2Idx{x=9, y=2}, eventType=NPC_DIR_TO, storageName=, targetName=NPC02, value=EAST, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:41 INFO ->done
+2023/05/07 19:03:41 INFO start event : FieldEvent{name=E_03_76, order=2000, location=D2Idx{x=9, y=2}, eventType=SHOW_MESSAGE_FROM_TEXTSTORAGE, storageName=003, targetName=, value=050, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:41 INFO XMLFile [text03.xml] is loaded
+2023/05/07 19:03:41 INFO ->done
+2023/05/07 19:03:42 INFO start event : FieldEvent{name=E_03_77, order=2100, location=D2Idx{x=9, y=2}, eventType=NPC_MOVE_AND_WAIT_THAT, storageName=, targetName=NPC02, value=1,11, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:42 INFO ->done
+2023/05/07 19:03:44 INFO start event : FieldEvent{name=E_03_78, order=2200, location=D2Idx{x=9, y=2}, eventType=NPC_REMOVE, storageName=, targetName=NPC02, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:44 INFO ->done
+2023/05/07 19:03:44 INFO start event : FieldEvent{name=E_03_79, order=3000, location=D2Idx{x=9, y=2}, eventType=END_IF, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
+2023/05/07 19:03:44 INFO start event : FieldEvent{name=E_03_80, order=3100, location=D2Idx{x=9, y=2}, eventType=ENABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[]}
+2023/05/07 19:03:44 INFO ->done
+2023/05/07 19:03:44 INFO start event : FieldEvent{name=E_03_81, order=3250, location=D2Idx{x=9, y=2}, eventType=SET_FLG_DIRECT, storageName=STORY, targetName=TOMAGISHUT_E02, value=ON, disposeWhenExec=true, exists=true, term=[]}
+2023/05/07 19:03:44 INFO ->done
+2023/05/07 19:03:45 INFO CachedSound is loaded name=[効果音＿選択2.wav](1.5641 ms)
+2023/05/07 19:03:51 INFO CachedSound : [足音.wav] : is disposed
+2023/05/07 19:03:51 INFO ! > CachedSound : [足音.wav] : UN SUPPORTED CONTROL : Type=[Master Gain]
+2023/05/07 19:03:51 INFO CachedSound is loaded name=[足音.wav](6.7419 ms)
+2023/05/07 19:03:51 INFO XMLFile [map04.xml] is loaded
+2023/05/07 19:03:51 INFO XMLFile [text03.xml] is loaded
+2023/05/07 19:03:51 INFO ImageUtil loaded filePath=[resource/data/image/glassField16.png](0.5335 ms)
+2023/05/07 19:03:51 INFO XMLFile [E008.xml] is loaded
+2023/05/07 19:03:51 INFO ImageUtil cached filePath=[resource/data/image/c3.png](0.001 ms)
+2023/05/07 19:03:52 INFO start event : FieldEvent{name=E_04_0, order=0, location=D2Idx{x=7, y=13}, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:03:52 INFO start event : FieldEvent{name=E_04_1, order=5, location=D2Idx{x=7, y=13}, eventType=RESET_CAMERA, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:03:52 INFO ->done
+2023/05/07 19:03:52 INFO start event : FieldEvent{name=E_04_2, order=10, location=D2Idx{x=7, y=13}, eventType=DISABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:03:52 INFO ->done
+2023/05/07 19:03:52 INFO start event : FieldEvent{name=E_04_3, order=100, location=D2Idx{x=7, y=13}, eventType=WAIT, storageName=, targetName=, value=50, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:03:52 INFO ->done
+2023/05/07 19:03:53 INFO start event : FieldEvent{name=E_04_4, order=150, location=D2Idx{x=7, y=13}, eventType=NPC_DIR_TO, storageName=, targetName=NPC02, value=EAST, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:03:53 INFO ->done
+2023/05/07 19:03:53 INFO start event : FieldEvent{name=E_04_5, order=200, location=D2Idx{x=7, y=13}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=トマギ「よし、それじゃあ行こう。街道から外れるなよ。野盗やらが出るからな。/, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:03:53 INFO ->done
+2023/05/07 19:03:53 INFO start event : FieldEvent{name=E_04_6, order=220, location=D2Idx{x=7, y=13}, eventType=NPC_REMOVE, storageName=, targetName=NPC02, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:03:53 INFO ->done
+2023/05/07 19:03:53 INFO start event : FieldEvent{name=E_04_7, order=225, location=D2Idx{x=7, y=13}, eventType=PC_ADD, storageName=, targetName=, value=resource/data/Status_tomagi.xml, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:03:53 INFO XMLFile [Status_tomagi.xml] is loaded
+2023/05/07 19:03:53 INFO ImageUtil cached filePath=[resource/data/image/c3.png](0.0016 ms)
+2023/05/07 19:03:53 INFO ->done
+2023/05/07 19:03:53 INFO start event : FieldEvent{name=E_04_8, order=999, location=D2Idx{x=7, y=13}, eventType=ENABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:03:53 INFO ->done
+2023/05/07 19:03:53 INFO start event : FieldEvent{name=E_04_9, order=2500, location=D2Idx{x=7, y=13}, eventType=SET_FLG_DIRECT, storageName=STORY, targetName=TOMAGISHUT_E08, value=ON, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:03:53 INFO ->done
+2023/05/07 19:03:53 INFO start event : FieldEvent{name=E_04_10, order=3000, location=D2Idx{x=7, y=13}, eventType=END_IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:03:58 INFO CachedSound : [足音.wav] : is disposed
+2023/05/07 19:03:58 INFO CachedSound : [足音.wav] : is disposed
+2023/05/07 19:03:58 INFO CachedSound : [足音.wav] : is disposed
+2023/05/07 19:03:58 INFO ! > CachedSound : [足音.wav] : UN SUPPORTED CONTROL : Type=[Master Gain]
+2023/05/07 19:03:58 INFO CachedSound is loaded name=[足音.wav](1.8331 ms)
+2023/05/07 19:03:58 INFO XMLFile [map05.xml] is loaded
+2023/05/07 19:03:58 INFO ImageUtil cached filePath=[resource/data/image/seaChip16.png](0.0012 ms)
+2023/05/07 19:05:27 INFO CachedSound : [足音.wav] : is disposed
+2023/05/07 19:05:27 INFO ! > CachedSound : [足音.wav] : UN SUPPORTED CONTROL : Type=[Master Gain]
+2023/05/07 19:05:27 INFO CachedSound is loaded name=[足音.wav](2.5564 ms)
+2023/05/07 19:05:27 INFO XMLFile [map04.xml] is loaded
+2023/05/07 19:05:27 INFO XMLFile [text03.xml] is loaded
+2023/05/07 19:05:27 INFO ImageUtil cached filePath=[resource/data/image/glassField16.png](0.0013 ms)
+2023/05/07 19:05:27 INFO XMLFile [E008.xml] is loaded
+2023/05/07 19:05:29 INFO start event : FieldEvent{name=E_04_0, order=0, location=D2Idx{x=7, y=13}, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:05:29 INFO start event : FieldEvent{name=E_04_1, order=5, location=D2Idx{x=7, y=13}, eventType=RESET_CAMERA, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:05:29 INFO ->, but this event is disable
+2023/05/07 19:05:29 INFO start event : FieldEvent{name=E_04_2, order=10, location=D2Idx{x=7, y=13}, eventType=DISABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:05:29 INFO ->, but this event is disable
+2023/05/07 19:05:29 INFO start event : FieldEvent{name=E_04_3, order=100, location=D2Idx{x=7, y=13}, eventType=WAIT, storageName=, targetName=, value=50, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:05:29 INFO ->, but this event is disable
+2023/05/07 19:05:29 INFO start event : FieldEvent{name=E_04_4, order=150, location=D2Idx{x=7, y=13}, eventType=NPC_DIR_TO, storageName=, targetName=NPC02, value=EAST, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:05:29 INFO ->, but this event is disable
+2023/05/07 19:05:29 INFO start event : FieldEvent{name=E_04_5, order=200, location=D2Idx{x=7, y=13}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=トマギ「よし、それじゃあ行こう。街道から外れるなよ。野盗やらが出るからな。/, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:05:29 INFO ->, but this event is disable
+2023/05/07 19:05:29 INFO start event : FieldEvent{name=E_04_6, order=220, location=D2Idx{x=7, y=13}, eventType=NPC_REMOVE, storageName=, targetName=NPC02, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:05:29 INFO ->, but this event is disable
+2023/05/07 19:05:29 INFO start event : FieldEvent{name=E_04_7, order=225, location=D2Idx{x=7, y=13}, eventType=PC_ADD, storageName=, targetName=, value=resource/data/Status_tomagi.xml, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:05:29 INFO ->, but this event is disable
+2023/05/07 19:05:29 INFO start event : FieldEvent{name=E_04_8, order=999, location=D2Idx{x=7, y=13}, eventType=ENABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:05:29 INFO ->, but this event is disable
+2023/05/07 19:05:29 INFO start event : FieldEvent{name=E_04_9, order=2500, location=D2Idx{x=7, y=13}, eventType=SET_FLG_DIRECT, storageName=STORY, targetName=TOMAGISHUT_E08, value=ON, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:05:29 INFO ->, but this event is disable
+2023/05/07 19:05:29 INFO start event : FieldEvent{name=E_04_10, order=3000, location=D2Idx{x=7, y=13}, eventType=END_IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:05:30 INFO CachedSound : [足音.wav] : is disposed
+2023/05/07 19:05:30 INFO CachedSound : [足音.wav] : is disposed
+2023/05/07 19:05:30 INFO CachedSound : [足音.wav] : is disposed
+2023/05/07 19:05:30 INFO ! > CachedSound : [足音.wav] : UN SUPPORTED CONTROL : Type=[Master Gain]
+2023/05/07 19:05:30 INFO CachedSound is loaded name=[足音.wav](1.3789 ms)
+2023/05/07 19:05:30 INFO XMLFile [map03.xml] is loaded
+2023/05/07 19:05:30 INFO XMLFile [text03.xml] is loaded
+2023/05/07 19:05:30 INFO XMLFile [E003.xml] is loaded
+2023/05/07 19:05:30 INFO XMLFile [E007.xml] is loaded
+2023/05/07 19:05:30 INFO XMLFile [E004.xml] is loaded
+2023/05/07 19:05:30 INFO XMLFile [E005.xml] is loaded
+2023/05/07 19:05:30 INFO XMLFile [E006.xml] is loaded
+2023/05/07 19:05:30 INFO XMLFile [E004.xml] is loaded
+2023/05/07 19:05:34 INFO CachedSound : [足音.wav] : is disposed
+2023/05/07 19:05:34 INFO ! > CachedSound : [足音.wav] : UN SUPPORTED CONTROL : Type=[Master Gain]
+2023/05/07 19:05:34 INFO CachedSound is loaded name=[足音.wav](3.0471 ms)
+2023/05/07 19:05:34 INFO XMLFile [map04.xml] is loaded
+2023/05/07 19:05:34 INFO XMLFile [text03.xml] is loaded
+2023/05/07 19:05:34 INFO ImageUtil cached filePath=[resource/data/image/glassField16.png](9.0E-4 ms)
+2023/05/07 19:05:34 INFO XMLFile [E008.xml] is loaded
+2023/05/07 19:05:34 INFO start event : FieldEvent{name=E_04_0, order=0, location=D2Idx{x=7, y=13}, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:05:34 INFO start event : FieldEvent{name=E_04_1, order=5, location=D2Idx{x=7, y=13}, eventType=RESET_CAMERA, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:05:34 INFO ->, but this event is disable
+2023/05/07 19:05:34 INFO start event : FieldEvent{name=E_04_2, order=10, location=D2Idx{x=7, y=13}, eventType=DISABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:05:34 INFO ->, but this event is disable
+2023/05/07 19:05:34 INFO start event : FieldEvent{name=E_04_3, order=100, location=D2Idx{x=7, y=13}, eventType=WAIT, storageName=, targetName=, value=50, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:05:34 INFO ->, but this event is disable
+2023/05/07 19:05:34 INFO start event : FieldEvent{name=E_04_4, order=150, location=D2Idx{x=7, y=13}, eventType=NPC_DIR_TO, storageName=, targetName=NPC02, value=EAST, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
+2023/05/07 19:05:34 INFO ->, but this event is disable
+2023/05/07 19:05:36 INFO CachedSound : [足音.wav] : is disposed
+2023/05/07 19:05:36 INFO CachedSound : [足音.wav] : is disposed
+2023/05/07 19:05:36 INFO CachedSound : [足音.wav] : is disposed
+2023/05/07 19:05:36 INFO ! > CachedSound : [足音.wav] : UN SUPPORTED CONTROL : Type=[Master Gain]
+2023/05/07 19:05:36 INFO CachedSound is loaded name=[足音.wav](1.2806 ms)
+2023/05/07 19:05:36 INFO XMLFile [map05.xml] is loaded
+2023/05/07 19:05:36 INFO ImageUtil cached filePath=[resource/data/image/seaChip16.png](8.0E-4 ms)
+2023/05/07 19:05:42 INFO CachedSound is loaded name=[効果音＿戦闘開始.wav](1.7496 ms)
+2023/05/07 19:05:43 INFO XMLFile [enemySet001.xml] is loaded
+2023/05/07 19:05:43 INFO CachedSound is loaded name=[バトル1（リメイク）.wav](41.497 ms)
+2023/05/07 19:05:51 INFO lockFile:.\KLOCK_7776693394924032349.lck is deleted
+2023/05/07 19:05:51 INFO TempFileStorage : all temp file is deleted

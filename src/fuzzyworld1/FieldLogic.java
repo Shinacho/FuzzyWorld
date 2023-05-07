@@ -272,7 +272,7 @@ public class FieldLogic extends GameLogic {
 					}
 				}
 				//mw処理
-				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE) && (menu == null || !menu.isVisible())) {
 					//初回実行時に使ったデバイスを検査
 					if (!first) {
 						if (is.isPressed(Keys.ENTER, InputType.SINGLE)) {
@@ -900,7 +900,7 @@ public class FieldLogic extends GameLogic {
 											(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 - 32));
 									break;
 								case Const.MenuIdx.MAP:
-									KImage mapImage = fieldMap.createMiniMap(1f / 3f, false, true);//TODO:仮
+									KImage mapImage = fieldMap.createMiniMap(512, 512, true);
 									Dialog.image(I18N.translate(fieldMap.getName()) + I18N.translate("S") + I18N.translate("MAP"), mapImage.get());
 									break;
 							}
