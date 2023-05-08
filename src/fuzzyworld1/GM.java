@@ -78,8 +78,9 @@ public class GM extends GameManager {
 		gls.add(new ChapterTitleLogic(this));
 		gls.add(new FieldLogic(this));
 		gls.add(new BattleLogic(this));
+		gls.add(new SSLogic(this));
 
-		gls.changeTo(Const.LogicName.TITLE_LOGIC);
+		gls.changeTo(Const.LogicName.SS_LOGIC);
 		getWindow().setTitle("Fuzzy World" + " -" + I18N.translate("SUB_TITLE") + "-");
 		//
 	}

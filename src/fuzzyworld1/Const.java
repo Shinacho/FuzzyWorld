@@ -40,6 +40,7 @@ public class Const {
 		public static final String CHAPTER_TITLE = "CHAPTER_TITLE";
 		public static final String FIELD = "FIELD";
 		public static final String BATTLE = "BATTLE";
+		public static final String SS_LOGIC = "SS";
 	}
 
 	public static class Screen {

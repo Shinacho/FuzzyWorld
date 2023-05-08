@@ -1,7 +1,7 @@
 /*
  * The MIT License
  *
- * Copyright 2022 Shinacho.
+ * Copyright 2023 Shinacho.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -24,46 +24,44 @@
 package fuzzyworld1;
 
 import java.awt.Color;
-import java.awt.Graphics2D;
+import java.awt.image.BufferedImage;
 import kinugasa.game.GameLogic;
 import kinugasa.game.GameManager;
-import kinugasa.game.GameOption;
 import kinugasa.game.GameTimeManager;
 import kinugasa.game.GraphicsContext;
-import kinugasa.game.I18N;
+import kinugasa.game.input.GamePadButton;
 import kinugasa.game.input.InputState;
-import kinugasa.game.ui.FontModel;
+import kinugasa.game.input.InputType;
+import kinugasa.game.input.Keys;
 import kinugasa.graphics.ColorChanger;
 import kinugasa.graphics.ColorTransitionModel;
 import kinugasa.graphics.FadeCounter;
+import kinugasa.graphics.ImageUtil;
 import kinugasa.object.FadeEffect;
+import kinugasa.resource.sound.SoundStorage;
 import kinugasa.util.FrameTimeCounter;
 
 /**
  *
- * @vesion 1.0.0 - 2022/12/16_21:12:55<br>
+ * @vesion 1.0.0 - 2023/05/08_19:07:18<br>
  * @author Shinacho<br>
  */
-public class ChapterTitleLogic extends GameLogic {
+public class SSLogic extends GameLogic {
 
-	public ChapterTitleLogic(GameManager gm) {
-		super(Const.LogicName.CHAPTER_TITLE, gm);
+	public SSLogic(GameManager gm) {
+		super(Const.LogicName.SS_LOGIC, gm);
 	}
+
 	private FrameTimeCounter waitTime1;
 	private FadeEffect effect;
 	private int stage;
+	private BufferedImage ssImage;
 
 	@Override
 	public void load() {
-		effect = new FadeEffect(gm.getWindow().getWidth(), gm.getWindow().getHeight(),
-				new ColorChanger(
-						ColorTransitionModel.valueOf(0),
-						ColorTransitionModel.valueOf(0),
-						ColorTransitionModel.valueOf(0),
-						new FadeCounter(255, -6)
-				));
-		waitTime1 = new FrameTimeCounter(150);
-		stage = 0;
+		waitTime1 = new FrameTimeCounter(120);
+		stage = -1;
+		ssImage = ImageUtil.load("resource/data/image/ss.png");
 	}
 
 	@Override
@@ -72,7 +70,21 @@ public class ChapterTitleLogic extends GameLogic {
 
 	@Override
 	public void update(GameTimeManager gtm, InputState is) {
+		if (is.isAnyButtonInput()) {
+			stage = 4;
+		}
 		switch (stage) {
+			case -1:
+				effect = new FadeEffect(gm.getWindow().getWidth(), gm.getWindow().getHeight(),
+						new ColorChanger(
+								ColorTransitionModel.valueOf(0),
+								ColorTransitionModel.valueOf(0),
+								ColorTransitionModel.valueOf(0),
+								new FadeCounter(255, -8)
+						));
+				SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹QSS.wav").load().stopAndPlay();
+				stage++;
+				break;
 			case 0:
 				if (effect.isEnded()) {
 					stage++;
@@ -89,31 +101,31 @@ public class ChapterTitleLogic extends GameLogic {
 								ColorTransitionModel.valueOf(0),
 								ColorTransitionModel.valueOf(0),
 								ColorTransitionModel.valueOf(0),
-								new FadeCounter(0, +6)
+								new FadeCounter(0, +8)
 						));
 				stage++;
 				break;
 			case 3:
 				if (effect.isEnded()) {
-					gls.changeTo(Const.Chapter.nextLogic);
 					stage++;
 				}
+				break;
+			case 4:
+				gls.changeTo(Const.LogicName.TITLE_LOGIC);
 				break;
 		}
 	}
 
 	@Override
 	public void draw(GraphicsContext g) {
-		Graphics2D g2 = g.create();
-		int x = 64;
-		int y = 64;
-		g2.setColor(Color.WHITE);
-		g2.setFont(FontModel.DEFAULT.clone().setFontSize(32).getFont());
-		g2.drawString(I18N.translate(Const.Chapter.current), x, y);
-		x += 48;
-		y += 64;
-		g2.drawString("- " + I18N.translate(Const.Chapter.currentSubTitle) + " -", x, y);
+		if (stage != -1) {
+			g.drawImage(ssImage, 0, 0);
+		}
 		effect.draw(g);
-		g2.dispose();
+		if (stage >= 4) {
+			g.setColor(Color.BLACK);
+			g.fillRect(0, 0, gm.getWindow().getWidth(), gm.getWindow().getHeight());
+		}
 	}
+
 }

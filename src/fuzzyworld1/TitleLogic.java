@@ -68,7 +68,7 @@ public class TitleLogic extends GameLogic {
 
 	@Override
 	public void load() {
-		stage = 0;
+		stage = -2;
 		atsg = new ActionTextSpriteGroup(540, 340,
 				new ActionTextSprite(I18N.translate("NEW_GAME"), new SimpleTextLabelModel(FontModel.DEFAULT.clone().setFontSize(14)), 0, 0, 18, 0, new Action() {
 					@Override
@@ -124,6 +124,22 @@ public class TitleLogic extends GameLogic {
 	@Override
 	public void update(GameTimeManager gtm, InputState is) {
 		switch (stage) {
+			case -2:
+				effect = new FadeEffect(gm.getWindow().getWidth(), gm.getWindow().getHeight(),
+						new ColorChanger(
+								ColorTransitionModel.valueOf(0),
+								ColorTransitionModel.valueOf(0),
+								ColorTransitionModel.valueOf(0),
+								new FadeCounter(255, -8)
+						));
+				stage++;
+				break;
+			case -1:
+				if (effect.isEnded()) {
+					effect = null;
+					stage++;
+				}
+				break;
 			case 0:
 				if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
 					atsg.next();
