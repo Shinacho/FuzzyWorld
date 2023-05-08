@@ -97,6 +97,7 @@ public class BattleLogic extends GameLogic {
 
 	@Override
 	public void update(GameTimeManager gtm, InputState is) {
+		//テスト用処理---------------------------------------------------------------
 		//テスト用緊急脱出装置
 		if (GameSystem.isDebugMode()) {
 			if (is.isPressed(Keys.ESCAPE, InputType.SINGLE)) {
