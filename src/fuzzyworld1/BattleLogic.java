@@ -1,7 +1,7 @@
 /*
  * The MIT License
  *
- * Copyright 2023 Dra.
+ * Copyright 2023 Shinacho.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -26,6 +26,7 @@ package fuzzyworld1;
 import java.awt.Color;
 import java.awt.geom.Point2D;
 import java.util.ArrayList;
+import java.util.List;
 import kinugasa.game.GameLogic;
 import kinugasa.game.GameManager;
 import kinugasa.game.GameTimeManager;
@@ -35,10 +36,12 @@ import kinugasa.game.input.InputState;
 import kinugasa.game.input.InputType;
 import kinugasa.game.input.Keys;
 import kinugasa.game.system.BattleCommand;
+import kinugasa.game.system.BattleConfig;
 import kinugasa.game.system.BattleResult;
 import kinugasa.game.system.BattleResultValues;
 import kinugasa.game.system.BattleSystem;
 import kinugasa.game.system.GameSystem;
+import kinugasa.game.system.Status;
 import kinugasa.game.ui.Dialog;
 import kinugasa.game.ui.DialogIcon;
 import kinugasa.game.ui.DialogOption;
@@ -46,7 +49,7 @@ import kinugasa.game.ui.DialogOption;
 /**
  *
  * @vesion 1.0.0 - 2023/05/07_12:06:58<br>
- * @author Dra211<br>
+ * @author Shinacho<br>
  */
 public class BattleLogic extends GameLogic {
 
@@ -58,11 +61,35 @@ public class BattleLogic extends GameLogic {
 	public void load() {
 		battleSystem = GameSystem.getInstance().getBattleSystem();
 		stage = 0;
+
+		if (!loaded) {
+			BattleConfig.addWinLoseLogic((List<Status> party, List<Status> enemy) -> {
+				// パーティのコンディションを確認
+				boolean lose = true;
+				for (Status s : party) {
+					lose &= (s.hasCondition("DEAD") || s.hasCondition("DESTROY"));
+				}
+				if (lose) {
+					return BattleResult.LOSE;
+				}
+				boolean win = true;
+				for (Status s : enemy) {
+					win &= (s.hasCondition("DEAD") || s.hasCondition("DESTROY"));
+				}
+				if (win) {
+					return BattleResult.LOSE;
+				}
+				return BattleResult.NOT_YET;
+			});
+		}
+
+		loaded = true;
 	}
 
 	@Override
 	public void dispose() {
 	}
+	private boolean loaded = false;
 	private BattleSystem battleSystem;
 	private BattleCommand cmd;
 	private Point2D.Float playerMoveInitialLocation;
@@ -97,20 +124,17 @@ public class BattleLogic extends GameLogic {
 
 		//--------------------------------------------------------------------------
 		battleSystem.update();
-		
+
 		switch (stage) {
 			case 0:
-				
+
 				break;
 			case 1:
-				
+
 			default:
 				throw new AssertionError();
 		}
-		
-		
-		
-		
+
 	}
 
 	@Override
