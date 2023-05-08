@@ -12,12 +12,12 @@
 シューティング・ステージ４.wav,0.66,EOF,START
 デジタル空間.wav,0.66,EOF,START
 バトル1（リメイク）.wav,0.22,EOF,START
-バトル1（リメイク）＿古.wav,0.66,EOF,START
-バトル（連結）.wav,0.22,EOF,START
-バトル１（新）.wav,0.22,EOF,START
-バトル１（旧）.wav,0.66,EOF,START
+バトル１（新）.wav,0.66,EOF,START
+バトル１（旧）.wav,0.22,EOF,START
+バトル１～２.wav,0.22,EOF,START
 バトル２（新）.wav,0.66,EOF,START
 バトル２（旧）.wav,0.66,EOF,START
+バトル３.wav,0.66,EOF,START
 フィールド.wav,0.66,EOF,START
 フィールド２.wav,0.66,EOF,START
 フィールド３.wav,0.66,EOF,START
@@ -37,8 +37,6 @@
 変質者との戦い.wav,0.66,EOF,START
 変質者のテーマ.wav,0.66,EOF,START
 夢の世界.wav,0.66,EOF,START
-大ボス.wav,0.66,EOF,START
-大ボス_古.wav,0.66,EOF,START
 天空の魔法都市.wav,0.66,EOF,START
 奇襲攻撃！.wav,0.66,EOF,START
 妖精の森.wav,0.66,EOF,START
@@ -78,5 +76,7 @@
 静寂空間.wav,0.66,EOF,START
 風の魔法使いのテーマ.wav,0.66,EOF,START
 風の魔法使いの戦い.wav,0.66,EOF,START
+風の魔法使いの戦い２.wav,0.66,EOF,START
+魔力の間.wav,0.66,EOF,START
 風の魔法使いの戦い２.wav,0.66,EOF,START
 魔力の間.wav,0.66,EOF,START
