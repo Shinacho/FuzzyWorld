@@ -95,12 +95,27 @@ public class BattleLogic extends GameLogic {
 			}
 		}
 
+		//--------------------------------------------------------------------------
+		battleSystem.update();
+		
+		switch (stage) {
+			case 0:
+				
+				break;
+			case 1:
+				
+			default:
+				throw new AssertionError();
+		}
+		
+		
+		
+		
 	}
 
 	@Override
 	public void draw(GraphicsContext g) {
-		g.setColor(Color.WHITE);
-		g.drawString("BATTLE LOGIC", 123, 123);
+		battleSystem.draw(g);
 	}
 
 }
