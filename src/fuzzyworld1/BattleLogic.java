@@ -81,9 +81,9 @@ public class BattleLogic extends GameLogic {
 				}
 				return BattleResult.NOT_YET;
 			});
+			loaded = true;
 		}
 
-		loaded = true;
 	}
 
 	@Override
