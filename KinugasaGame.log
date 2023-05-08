@@ -1,173 +1,497 @@
-2023/05/08 19:21:21 INFO this is D:/Project/FuzzyWorld/
-2023/05/08 19:21:21 INFO translate\ja.ini
-2023/05/08 19:21:21 INFO LOAD_GAME=つづきから
-2023/05/08 19:21:21 INFO ORDER_SELECT=前列／後列を設定
-2023/05/08 19:21:21 INFO CAN_USE_FIELD=このアイテムはフィールド上で使用できる
-2023/05/08 19:21:21 INFO QSUB=サブ
-2023/05/08 19:21:21 INFO FRONT=前列
-2023/05/08 19:21:21 INFO DISASSEMBLY=解体
-2023/05/08 19:21:21 INFO NO_TARGET=効果範囲内に対象がいない
-2023/05/08 19:21:21 INFO ACTION_EFFECT=基礎威力
-2023/05/08 19:21:21 INFO NODAMAGE=ダメージを受けなかった！！
-2023/05/08 19:21:21 INFO NONE=なし
-2023/05/08 19:21:21 INFO TOMAGISHUT=漁師の小屋
-2023/05/08 19:21:21 INFO SUB=減った
-2023/05/08 19:21:21 INFO GAME_PAD_TEST=コントローラーテスト
-2023/05/08 19:21:21 INFO CURRENT_CONDITION=発生中の効果
-2023/05/08 19:21:21 INFO CAN_USE_BATTLE=このアイテムは戦闘中に使用できる
-2023/05/08 19:21:21 INFO IF_DISASSEMBLY_GET=解体すると以下の素材を得られる
-2023/05/08 19:21:21 INFO FIELD=フィールド
-2023/05/08 19:21:21 INFO ATTR_DOWN=耐性が下がった！
-2023/05/08 19:21:21 INFO IS=は
-2023/05/08 19:21:21 INFO NEW_GAME=はじめから
-2023/05/08 19:21:21 INFO SURVEY=調べる
-2023/05/08 19:21:21 INFO REMOVE_CDNTION=から回復した
-2023/05/08 19:21:21 INFO ACTION_ATTR=属性
-2023/05/08 19:21:21 INFO ITEM=道具
-2023/05/08 19:21:21 INFO PASS=渡す
-2023/05/08 19:21:21 INFO HEALDAMAGE=回復した
-2023/05/08 19:21:21 INFO SHORTAGE=が足りない
-2023/05/08 19:21:21 INFO CHECK=調べる
-2023/05/08 19:21:21 INFO CONDITION=状態異常
-2023/05/08 19:21:21 INFO ATTR_UP=耐性が上がった！
-2023/05/08 19:21:21 INFO MAP=地図
-2023/05/08 19:21:21 INFO WMT=武器種類
-2023/05/08 19:21:21 INFO PARTY=味方
-2023/05/08 19:21:21 INFO CHAPTER2_SUBTITLE=失踪者
-2023/05/08 19:21:21 INFO DCT_DIRECT=直接計算方式
-2023/05/08 19:21:21 INFO WHO_WILL_HOLD_IT=誰が持つ？
-2023/05/08 19:21:21 INFO WORLDMAP=ワールドマップ
-2023/05/08 19:21:21 INFO TOMAGISHUT_OUTER=漁師の小屋の屋外
-2023/05/08 19:21:21 INFO SPECIAL_ATTACK=特技
-2023/05/08 19:21:21 INFO CAN_HAVE=あとn個持てる
-2023/05/08 19:21:21 INFO PASSED=を渡した
-2023/05/08 19:21:21 INFO NO_EFFECT=効果がなかった
-2023/05/08 19:21:21 INFO CHANGE_ATTR=属性値変更
-2023/05/08 19:21:21 INFO P=確率
-2023/05/08 19:21:21 INFO ORDER=隊列
-2023/05/08 19:21:21 INFO S=の
-2023/05/08 19:21:21 INFO WAS_DISASSEMBLY=を解体した
-2023/05/08 19:21:21 INFO ARE_YOU_SURE_EXIT=本当に終了しますか？
-2023/05/08 19:21:21 INFO REMOVE_CONDITION=状態異常cを回復する
-2023/05/08 19:21:21 INFO SKIP=スキップ
-2023/05/08 19:21:21 INFO GET_MATE=個手に入れた
-2023/05/08 19:21:21 INFO TURN=ターン
-2023/05/08 19:21:21 INFO SAVE=保存
-2023/05/08 19:21:21 INFO BERUMA_SILVER=ベルマ銀貨
-2023/05/08 19:21:21 INFO WAS_DROP=を捨てた
-2023/05/08 19:21:21 INFO MATERIAL=素材
-2023/05/08 19:21:21 INFO QUEST=クエスト
-2023/05/08 19:21:21 INFO BUT=しかし
-2023/05/08 19:21:21 INFO CANT_ESCAPE=戦闘エリアの中心にいては逃げられない！！
-2023/05/08 19:21:21 INFO ISESCAPE=は逃げ出した！！
-2023/05/08 19:21:21 INFO APPEARANCE=体現れた！！
-2023/05/08 19:21:21 INFO TARGET_SELECT=ターゲット選択
-2023/05/08 19:21:21 INFO GAMEPAD_NOTFOUND=コントローラは有効化されていません。コントローラを使う場合はゲームを再起動してください。
-2023/05/08 19:21:21 INFO PLEASE_NAME=今回の介入者の名前は？
-2023/05/08 19:21:21 INFO USE=使う
-2023/05/08 19:21:21 INFO SCREEN_SHOT=スクリーンショットの保存
-2023/05/08 19:21:21 INFO IS_EQIP=を装備した
-2023/05/08 19:21:21 INFO OPEN=開く
-2023/05/08 19:21:21 INFO USE_ITEM=を使った
-2023/05/08 19:21:21 INFO OTHER=行動
-2023/05/08 19:21:21 INFO WAS_EQIP=をすでに装備している
-2023/05/08 19:21:21 INFO SUB_TITLE=魔法使いと不死の秘術
-2023/05/08 19:21:21 INFO SUBMIT=決定
-2023/05/08 19:21:21 INFO SPELLTIME=詠唱時間
-2023/05/08 19:21:21 INFO CANCEL=キャンセル
-2023/05/08 19:21:21 INFO TO=に
-2023/05/08 19:21:21 INFO MENU=メニュー
-2023/05/08 19:21:21 INFO CANT_MOVE=動けなかった！！
-2023/05/08 19:21:21 INFO TARGET=対象
-2023/05/08 19:21:21 INFO BEACH=海岸
-2023/05/08 19:21:21 INFO ACTION_COUNT=この武器はn回攻撃できる
-2023/05/08 19:21:21 INFO NO_ITEM=アイテムを持っていない
-2023/05/08 19:21:21 INFO CAN_UPGRADE=あとn回強化できる
-2023/05/08 19:21:21 INFO CONFU_STOP=混乱して動けなかった！
-2023/05/08 19:21:21 INFO NOT_EQIP=は装備できない
-2023/05/08 19:21:21 INFO REALLY_DISASSEMBLY=本当に解体する？
-2023/05/08 19:21:21 INFO THIS_ITEM_CANT_UPGRADE=このアイテムは強化できない
-2023/05/08 19:21:21 INFO NOTHING_ITEM=何も持っていない
-2023/05/08 19:21:21 INFO TALK=話す
-2023/05/08 19:21:21 INFO VALUE=価値
-2023/05/08 19:21:21 INFO ADD_CONDITION=状態異常cを付与する
-2023/05/08 19:21:21 INFO CHAPTER1=序部
-2023/05/08 19:21:21 INFO INFO=情報
-2023/05/08 19:21:21 INFO CHAPTER2=第一部
-2023/05/08 19:21:21 INFO IS_CONFU=混乱している！
-2023/05/08 19:21:21 INFO STATUS=状態
-2023/05/08 19:21:21 INFO AREA=範囲
-2023/05/08 19:21:21 INFO RESET_ITEM=を持ち替えた
-2023/05/08 19:21:21 INFO NOTHING_MAGIC=使える魔法はない
-2023/05/08 19:21:21 INFO MAIN=メイン
-2023/05/08 19:21:21 INFO CANT_DISASSEMBLY=このアイテムは解体できない
-2023/05/08 19:21:21 INFO GOLDEN_RECORD=金の円盤にしたがって世界を正せ
-2023/05/08 19:21:21 INFO DARESU_GOLD=ダレス金貨
-2023/05/08 19:21:21 INFO SPELL_END=の詠唱を終了した！！
-2023/05/08 19:21:21 INFO AVOIDANCE=回避に専念した！
-2023/05/08 19:21:21 INFO BATTLE_ACTION=戦闘中効果
-2023/05/08 19:21:21 INFO PAGE=術式
-2023/05/08 19:21:21 INFO DCT_USE_DAMAGE_CALC=ダメージ計算方式
-2023/05/08 19:21:21 INFO DCT_PERCENT_OF_MAX=最大値計算方式
-2023/05/08 19:21:21 INFO DAMAGE=作用
-2023/05/08 19:21:21 INFO ITEM_DROP=を失った
-2023/05/08 19:21:21 INFO REMOVE_EQUP=を外した
-2023/05/08 19:21:21 INFO THIS_ITEM_CANT_DISASSE=このアイテムは解体できない
-2023/05/08 19:21:21 INFO DCS=ダメージ計算ステータス
-2023/05/08 19:21:21 INFO CHAPTER1_SUBTITLE=介入者
-2023/05/08 19:21:21 INFO CANT_USE_FIELD=この魔法はフィールドでは使えない
-2023/05/08 19:21:21 INFO ISMOVE=は移動した！
-2023/05/08 19:21:21 INFO ITEM_ADD=アイテムiを入手する
-2023/05/08 19:21:21 INFO GET_PAGE=枚手に入れた
-2023/05/08 19:21:21 INFO GIVE_UP=諦める
-2023/05/08 19:21:21 INFO WHO_DO_PASS=を誰に渡す？
-2023/05/08 19:21:21 INFO NO=いや
-2023/05/08 19:21:21 INFO MONEY=所持金
-2023/05/08 19:21:21 INFO WHATDO=どうする
-2023/05/08 19:21:21 INFO WHO_DO_USE=を誰に使う？
-2023/05/08 19:21:21 INFO YES=ああ
-2023/05/08 19:21:21 INFO WAS=が
-2023/05/08 19:21:21 INFO GAME_EXIT=おわる
-2023/05/08 19:21:21 INFO CANT_HAVE=これ以上物を持てない
-2023/05/08 19:21:21 INFO OF_WHAT=により
-2023/05/08 19:21:21 INFO COMPOSITE=合成
-2023/05/08 19:21:21 INFO DROP=捨てる
-2023/05/08 19:21:21 INFO RETURN=戻る
-2023/05/08 19:21:21 INFO DEFENCE=防御に専念した！
-2023/05/08 19:21:21 INFO ITEM_USE=道具
-2023/05/08 19:21:21 INFO BATTLE_CLOSE=【デバッグ用】戦闘を即時終了しますか？
-2023/05/08 19:21:21 INFO FIELD_ACTION=フィールド効果
-2023/05/08 19:21:21 INFO MAGIC=魔術
-2023/05/08 19:21:21 INFO OF=を
-2023/05/08 19:21:21 INFO MISS=ミス！
-2023/05/08 19:21:21 INFO SPELL_START=の詠唱を開始した！！
-2023/05/08 19:21:21 INFO SLOT=部位
-2023/05/08 19:21:21 INFO REALLY_DROP=を本当に捨てる？
-2023/05/08 19:21:21 INFO CONFIRM=確認
-2023/05/08 19:21:21 INFO NO_NPC=その方向にはダレモイナイ
-2023/05/08 19:21:21 INFO DCT_PERCENT_OF_NOW=現在値計算方式
-2023/05/08 19:21:21 INFO ISFAILED=は失敗した！！
-2023/05/08 19:21:21 INFO ITEM_LOST=アイテムiを失う
-2023/05/08 19:21:21 INFO CANT_USE_BATTLE=この魔法は戦闘中は使えない
-2023/05/08 19:21:21 INFO IS_GET=を手に入れた
-2023/05/08 19:21:21 INFO ATTR=有効度
-2023/05/08 19:21:21 INFO YOUR_NAME_IS=、という名前でよいのかね？
-2023/05/08 19:21:21 INFO EQIP=装備
-2023/05/08 19:21:21 INFO ACTION=戦闘中の行動
-2023/05/08 19:21:21 INFO MOVE=移動
-2023/05/08 19:21:21 INFO USE_MAGIC=を詠唱した
-2023/05/08 19:21:21 INFO BOOK=魔術書
-2023/05/08 19:21:21 INFO CANT_SALE=このアイテムは売ったり捨てたりできない
-2023/05/08 19:21:21 INFO ATTACK=攻撃
-2023/05/08 19:21:21 INFO BACK=後列
-2023/05/08 19:21:21 INFO S_PAGE=の術式のページ
-2023/05/08 19:21:21 INFO MUSIC_ROOM=ミュージックルーム
-2023/05/08 19:21:21 INFO ROOM=部屋
-2023/05/08 19:21:21 INFO lockFile:.\KLOCK_3499355867341973685.lck is created
-2023/05/08 19:21:21 INFO Fuzzy World is start
-2023/05/08 19:21:21 INFO ImageUtil loaded filePath=[resource/data/image/ss.png](9.1342 ms)
-2023/05/08 19:21:21 INFO CachedSound is loaded name=[効果音＿SS.wav](86.589 ms)
-2023/05/08 19:21:24 INFO CachedSound is loaded name=[効果音＿選択1.wav](1.462 ms)
-2023/05/08 19:21:24 INFO CachedSound is loaded name=[フィールド３.wav](28.8279 ms)
-2023/05/08 19:21:34 INFO lockFile:.\KLOCK_3499355867341973685.lck is deleted
-2023/05/08 19:21:34 INFO TempFileStorage : all temp file is deleted
+2023/05/08 20:13:39 INFO this is D:/Project/FuzzyWorld/
+2023/05/08 20:13:39 INFO translate\ja.ini
+2023/05/08 20:13:39 INFO LOAD_GAME=つづきから
+2023/05/08 20:13:39 INFO ORDER_SELECT=前列／後列を設定
+2023/05/08 20:13:39 INFO CAN_USE_FIELD=このアイテムはフィールド上で使用できる
+2023/05/08 20:13:39 INFO QSUB=サブ
+2023/05/08 20:13:39 INFO FRONT=前列
+2023/05/08 20:13:39 INFO DISASSEMBLY=解体
+2023/05/08 20:13:39 INFO NO_TARGET=効果範囲内に対象がいない
+2023/05/08 20:13:39 INFO ACTION_EFFECT=基礎威力
+2023/05/08 20:13:39 INFO NODAMAGE=ダメージを受けなかった！！
+2023/05/08 20:13:39 INFO NONE=なし
+2023/05/08 20:13:39 INFO TOMAGISHUT=漁師の小屋
+2023/05/08 20:13:39 INFO SUB=減った
+2023/05/08 20:13:39 INFO GAME_PAD_TEST=コントローラーテスト
+2023/05/08 20:13:39 INFO CURRENT_CONDITION=発生中の効果
+2023/05/08 20:13:39 INFO CAN_USE_BATTLE=このアイテムは戦闘中に使用できる
+2023/05/08 20:13:39 INFO IF_DISASSEMBLY_GET=解体すると以下の素材を得られる
+2023/05/08 20:13:39 INFO FIELD=フィールド
+2023/05/08 20:13:39 INFO ATTR_DOWN=耐性が下がった！
+2023/05/08 20:13:39 INFO IS=は
+2023/05/08 20:13:39 INFO NEW_GAME=はじめから
+2023/05/08 20:13:39 INFO SURVEY=調べる
+2023/05/08 20:13:39 INFO REMOVE_CDNTION=から回復した
+2023/05/08 20:13:39 INFO ACTION_ATTR=属性
+2023/05/08 20:13:39 INFO ITEM=道具
+2023/05/08 20:13:39 INFO PASS=渡す
+2023/05/08 20:13:39 INFO HEALDAMAGE=回復した
+2023/05/08 20:13:39 INFO SHORTAGE=が足りない
+2023/05/08 20:13:39 INFO CHECK=調べる
+2023/05/08 20:13:39 INFO CONDITION=状態異常
+2023/05/08 20:13:39 INFO ATTR_UP=耐性が上がった！
+2023/05/08 20:13:39 INFO MAP=地図
+2023/05/08 20:13:39 INFO WMT=武器種類
+2023/05/08 20:13:39 INFO PARTY=味方
+2023/05/08 20:13:39 INFO CHAPTER2_SUBTITLE=失踪者
+2023/05/08 20:13:39 INFO DCT_DIRECT=直接計算方式
+2023/05/08 20:13:39 INFO WHO_WILL_HOLD_IT=誰が持つ？
+2023/05/08 20:13:39 INFO WORLDMAP=ワールドマップ
+2023/05/08 20:13:39 INFO TOMAGISHUT_OUTER=漁師の小屋の屋外
+2023/05/08 20:13:39 INFO SPECIAL_ATTACK=特技
+2023/05/08 20:13:39 INFO CAN_HAVE=あとn個持てる
+2023/05/08 20:13:39 INFO PASSED=を渡した
+2023/05/08 20:13:39 INFO NO_EFFECT=効果がなかった
+2023/05/08 20:13:39 INFO CHANGE_ATTR=属性値変更
+2023/05/08 20:13:39 INFO P=確率
+2023/05/08 20:13:39 INFO ORDER=隊列
+2023/05/08 20:13:39 INFO S=の
+2023/05/08 20:13:39 INFO WAS_DISASSEMBLY=を解体した
+2023/05/08 20:13:39 INFO ARE_YOU_SURE_EXIT=本当に終了しますか？
+2023/05/08 20:13:39 INFO REMOVE_CONDITION=状態異常cを回復する
+2023/05/08 20:13:39 INFO SKIP=スキップ
+2023/05/08 20:13:39 INFO GET_MATE=個手に入れた
+2023/05/08 20:13:39 INFO TURN=ターン
+2023/05/08 20:13:39 INFO SAVE=保存
+2023/05/08 20:13:39 INFO BERUMA_SILVER=ベルマ銀貨
+2023/05/08 20:13:39 INFO WAS_DROP=を捨てた
+2023/05/08 20:13:39 INFO MATERIAL=素材
+2023/05/08 20:13:39 INFO QUEST=クエスト
+2023/05/08 20:13:39 INFO BUT=しかし
+2023/05/08 20:13:39 INFO CANT_ESCAPE=戦闘エリアの中心にいては逃げられない！！
+2023/05/08 20:13:39 INFO ISESCAPE=は逃げ出した！！
+2023/05/08 20:13:39 INFO APPEARANCE=体現れた！！
+2023/05/08 20:13:39 INFO TARGET_SELECT=ターゲット選択
+2023/05/08 20:13:39 INFO GAMEPAD_NOTFOUND=コントローラは有効化されていません。コントローラを使う場合はゲームを再起動してください。
+2023/05/08 20:13:39 INFO PLEASE_NAME=今回の介入者の名前は？
+2023/05/08 20:13:39 INFO USE=使う
+2023/05/08 20:13:39 INFO SCREEN_SHOT=スクリーンショットの保存
+2023/05/08 20:13:39 INFO IS_EQIP=を装備した
+2023/05/08 20:13:39 INFO OPEN=開く
+2023/05/08 20:13:39 INFO USE_ITEM=を使った
+2023/05/08 20:13:39 INFO OTHER=行動
+2023/05/08 20:13:39 INFO WAS_EQIP=をすでに装備している
+2023/05/08 20:13:39 INFO SUB_TITLE=魔法使いと不死の秘術
+2023/05/08 20:13:39 INFO SUBMIT=決定
+2023/05/08 20:13:39 INFO SPELLTIME=詠唱時間
+2023/05/08 20:13:39 INFO CANCEL=キャンセル
+2023/05/08 20:13:39 INFO TO=に
+2023/05/08 20:13:39 INFO MENU=メニュー
+2023/05/08 20:13:39 INFO CANT_MOVE=動けなかった！！
+2023/05/08 20:13:39 INFO TARGET=対象
+2023/05/08 20:13:39 INFO BEACH=海岸
+2023/05/08 20:13:39 INFO ACTION_COUNT=この武器はn回攻撃できる
+2023/05/08 20:13:39 INFO NO_ITEM=アイテムを持っていない
+2023/05/08 20:13:39 INFO CAN_UPGRADE=あとn回強化できる
+2023/05/08 20:13:39 INFO CONFU_STOP=混乱して動けなかった！
+2023/05/08 20:13:39 INFO NOT_EQIP=は装備できない
+2023/05/08 20:13:39 INFO REALLY_DISASSEMBLY=本当に解体する？
+2023/05/08 20:13:39 INFO THIS_ITEM_CANT_UPGRADE=このアイテムは強化できない
+2023/05/08 20:13:39 INFO NOTHING_ITEM=何も持っていない
+2023/05/08 20:13:39 INFO TALK=話す
+2023/05/08 20:13:39 INFO VALUE=価値
+2023/05/08 20:13:39 INFO ADD_CONDITION=状態異常cを付与する
+2023/05/08 20:13:39 INFO CHAPTER1=序部
+2023/05/08 20:13:39 INFO INFO=情報
+2023/05/08 20:13:39 INFO CHAPTER2=第一部
+2023/05/08 20:13:39 INFO IS_CONFU=混乱している！
+2023/05/08 20:13:39 INFO STATUS=状態
+2023/05/08 20:13:39 INFO AREA=範囲
+2023/05/08 20:13:39 INFO RESET_ITEM=を持ち替えた
+2023/05/08 20:13:39 INFO NOTHING_MAGIC=使える魔法はない
+2023/05/08 20:13:39 INFO MAIN=メイン
+2023/05/08 20:13:39 INFO CANT_DISASSEMBLY=このアイテムは解体できない
+2023/05/08 20:13:39 INFO GOLDEN_RECORD=金の円盤にしたがって世界を正せ
+2023/05/08 20:13:39 INFO DARESU_GOLD=ダレス金貨
+2023/05/08 20:13:39 INFO SPELL_END=の詠唱を終了した！！
+2023/05/08 20:13:39 INFO AVOIDANCE=回避に専念した！
+2023/05/08 20:13:39 INFO BATTLE_ACTION=戦闘中効果
+2023/05/08 20:13:39 INFO PAGE=術式
+2023/05/08 20:13:39 INFO DCT_USE_DAMAGE_CALC=ダメージ計算方式
+2023/05/08 20:13:39 INFO DCT_PERCENT_OF_MAX=最大値計算方式
+2023/05/08 20:13:39 INFO DAMAGE=作用
+2023/05/08 20:13:39 INFO ITEM_DROP=を失った
+2023/05/08 20:13:39 INFO REMOVE_EQUP=を外した
+2023/05/08 20:13:39 INFO THIS_ITEM_CANT_DISASSE=このアイテムは解体できない
+2023/05/08 20:13:39 INFO DCS=ダメージ計算ステータス
+2023/05/08 20:13:39 INFO CHAPTER1_SUBTITLE=介入者
+2023/05/08 20:13:39 INFO CANT_USE_FIELD=この魔法はフィールドでは使えない
+2023/05/08 20:13:39 INFO ISMOVE=は移動した！
+2023/05/08 20:13:39 INFO ITEM_ADD=アイテムiを入手する
+2023/05/08 20:13:39 INFO GET_PAGE=枚手に入れた
+2023/05/08 20:13:39 INFO GIVE_UP=諦める
+2023/05/08 20:13:39 INFO WHO_DO_PASS=を誰に渡す？
+2023/05/08 20:13:39 INFO NO=いや
+2023/05/08 20:13:39 INFO MONEY=所持金
+2023/05/08 20:13:39 INFO WHATDO=どうする
+2023/05/08 20:13:39 INFO WHO_DO_USE=を誰に使う？
+2023/05/08 20:13:39 INFO YES=ああ
+2023/05/08 20:13:39 INFO WAS=が
+2023/05/08 20:13:39 INFO GAME_EXIT=おわる
+2023/05/08 20:13:39 INFO CANT_HAVE=これ以上物を持てない
+2023/05/08 20:13:39 INFO OF_WHAT=により
+2023/05/08 20:13:39 INFO COMPOSITE=合成
+2023/05/08 20:13:39 INFO DROP=捨てる
+2023/05/08 20:13:39 INFO RETURN=戻る
+2023/05/08 20:13:39 INFO DEFENCE=防御に専念した！
+2023/05/08 20:13:39 INFO ITEM_USE=道具
+2023/05/08 20:13:39 INFO BATTLE_CLOSE=【デバッグ用】戦闘を即時終了しますか？
+2023/05/08 20:13:39 INFO FIELD_ACTION=フィールド効果
+2023/05/08 20:13:39 INFO MAGIC=魔術
+2023/05/08 20:13:39 INFO OF=を
+2023/05/08 20:13:39 INFO MISS=ミス！
+2023/05/08 20:13:39 INFO SPELL_START=の詠唱を開始した！！
+2023/05/08 20:13:39 INFO SLOT=部位
+2023/05/08 20:13:39 INFO REALLY_DROP=を本当に捨てる？
+2023/05/08 20:13:39 INFO CONFIRM=確認
+2023/05/08 20:13:39 INFO NO_NPC=その方向にはダレモイナイ
+2023/05/08 20:13:39 INFO DCT_PERCENT_OF_NOW=現在値計算方式
+2023/05/08 20:13:39 INFO ISFAILED=は失敗した！！
+2023/05/08 20:13:39 INFO ITEM_LOST=アイテムiを失う
+2023/05/08 20:13:39 INFO CANT_USE_BATTLE=この魔法は戦闘中は使えない
+2023/05/08 20:13:39 INFO IS_GET=を手に入れた
+2023/05/08 20:13:39 INFO ATTR=有効度
+2023/05/08 20:13:39 INFO YOUR_NAME_IS=、という名前でよいのかね？
+2023/05/08 20:13:39 INFO EQIP=装備
+2023/05/08 20:13:39 INFO ACTION=戦闘中の行動
+2023/05/08 20:13:39 INFO MOVE=移動
+2023/05/08 20:13:39 INFO USE_MAGIC=を詠唱した
+2023/05/08 20:13:39 INFO BOOK=魔術書
+2023/05/08 20:13:39 INFO CANT_SALE=このアイテムは売ったり捨てたりできない
+2023/05/08 20:13:39 INFO ATTACK=攻撃
+2023/05/08 20:13:39 INFO BACK=後列
+2023/05/08 20:13:39 INFO S_PAGE=の術式のページ
+2023/05/08 20:13:39 INFO MUSIC_ROOM=ミュージックルーム
+2023/05/08 20:13:39 INFO ROOM=部屋
+2023/05/08 20:13:39 INFO lockFile:.\KLOCK_5011058188082003296.lck is created
+2023/05/08 20:13:39 INFO Fuzzy World is start
+2023/05/08 20:13:39 INFO ImageUtil loaded filePath=[resource/data/image/ss.png](8.6762 ms)
+2023/05/08 20:13:39 INFO CachedSound is loaded name=[効果音＿SS.wav](87.6926 ms)
+2023/05/08 20:13:42 INFO CachedSound is loaded name=[効果音＿選択1.wav](1.4207 ms)
+2023/05/08 20:13:42 INFO CachedSound is loaded name=[フィールド３.wav](29.4184 ms)
+2023/05/08 20:13:47 INFO CachedSound : [気怠い探偵.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [灼熱の地獄.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [作戦会議.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [氷のダンジョン.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [妖精の森.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [普通な感じの街.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [とてものどかな村.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [さわやかな冒険.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [風の魔法使いの戦い２.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [バトル１（新）.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [バトル２（新）.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [のどかな村.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [夢の世界.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [廃れた都市.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [見知らぬ土地・見知らぬ文化.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [神殿.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [バトル1（リメイク）.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [ラストダンジョン.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [不思議なダンジョン.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [変質者のテーマ.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [世界の真相.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [睨み合い.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [静寂空間.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [バトル１?２.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [重厚なダンジョン.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [決意.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [残酷な運命.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [工業都市.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [狂気の人.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [静かなる決意.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [不気味なダンジョン.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [探検.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [まあいいか.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [デジタル空間.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [不思議な森.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [洞窟.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [シューティング・ステージ３.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [風の魔法使いのテーマ.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [愉快または間抜け.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [ボーナスゲーム.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [フィールド２.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [シューティング・ステージ１.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [小ボス.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [異形のものとの戦い.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [バトル２（旧）.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [厳かなダンジョン.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [エスニック・プレース.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [シューティング・ステージ２.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [バトル１（旧）.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [怪しい取引.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [明るいダンジョン.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [明るい街.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [歴史ある街.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [刻一刻.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [変な村.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [斜陽の帝国.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [風の魔法使いの戦い.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [おぞましい真実.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [悪の軍団.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [フィールド３.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [眠らない大都会.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [エンディング.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [天空の魔法都市.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [師匠とのイベント戦.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [結末.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [王都.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [お祭りの町.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [奇襲攻撃！.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [軍事作戦.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [ユニークな街.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [フィールド.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [変質者との戦い.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [中ボス.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [知的探求.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [魔力の間.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [フィールド５.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [バトル３.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [シューティング・ステージ４.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [疑い.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound : [軍事作戦２.wav] : is disposed
+2023/05/08 20:13:47 INFO CachedSound is loaded name=[バトル１?２.wav](55.5074 ms)
+2023/05/08 20:26:34 INFO CachedSound : [気怠い探偵.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [灼熱の地獄.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [作戦会議.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [氷のダンジョン.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [妖精の森.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [普通な感じの街.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [とてものどかな村.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [さわやかな冒険.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [風の魔法使いの戦い２.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [バトル１（新）.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [バトル２（新）.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [のどかな村.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [夢の世界.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [廃れた都市.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [見知らぬ土地・見知らぬ文化.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [神殿.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [バトル1（リメイク）.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [ラストダンジョン.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [不思議なダンジョン.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [変質者のテーマ.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [世界の真相.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [睨み合い.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [静寂空間.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [バトル１?２.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [重厚なダンジョン.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [決意.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [残酷な運命.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [工業都市.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [狂気の人.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [静かなる決意.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [不気味なダンジョン.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [探検.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [まあいいか.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [デジタル空間.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [不思議な森.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [洞窟.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [シューティング・ステージ３.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [風の魔法使いのテーマ.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [愉快または間抜け.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [ボーナスゲーム.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [フィールド２.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [シューティング・ステージ１.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [小ボス.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [異形のものとの戦い.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [バトル２（旧）.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [厳かなダンジョン.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [エスニック・プレース.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [シューティング・ステージ２.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [バトル１（旧）.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [怪しい取引.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [明るいダンジョン.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [明るい街.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [歴史ある街.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [刻一刻.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [変な村.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [斜陽の帝国.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [風の魔法使いの戦い.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [おぞましい真実.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [悪の軍団.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [フィールド３.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [眠らない大都会.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [エンディング.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [天空の魔法都市.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [師匠とのイベント戦.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [結末.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [王都.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [お祭りの町.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [奇襲攻撃！.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [軍事作戦.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [ユニークな街.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [フィールド.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [変質者との戦い.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [中ボス.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [知的探求.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [魔力の間.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [フィールド５.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [バトル３.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [シューティング・ステージ４.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [疑い.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound : [軍事作戦２.wav] : is disposed
+2023/05/08 20:26:34 INFO CachedSound is loaded name=[フィールド３.wav](20.7661 ms)
+2023/05/08 20:26:37 INFO CachedSound : [気怠い探偵.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [灼熱の地獄.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [作戦会議.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [氷のダンジョン.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [妖精の森.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [普通な感じの街.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [とてものどかな村.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [さわやかな冒険.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [風の魔法使いの戦い２.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [バトル１（新）.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [バトル２（新）.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [のどかな村.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [夢の世界.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [廃れた都市.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [見知らぬ土地・見知らぬ文化.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [神殿.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [バトル1（リメイク）.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [ラストダンジョン.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [不思議なダンジョン.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [変質者のテーマ.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [世界の真相.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [睨み合い.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [静寂空間.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [バトル１?２.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [重厚なダンジョン.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [決意.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [残酷な運命.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [工業都市.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [狂気の人.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [静かなる決意.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [不気味なダンジョン.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [探検.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [まあいいか.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [デジタル空間.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [不思議な森.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [洞窟.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [シューティング・ステージ３.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [風の魔法使いのテーマ.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [愉快または間抜け.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [ボーナスゲーム.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [フィールド２.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [シューティング・ステージ１.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [小ボス.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [異形のものとの戦い.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [バトル２（旧）.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [厳かなダンジョン.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [エスニック・プレース.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [シューティング・ステージ２.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [バトル１（旧）.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [怪しい取引.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [明るいダンジョン.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [明るい街.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [歴史ある街.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [刻一刻.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [変な村.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [斜陽の帝国.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [風の魔法使いの戦い.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [おぞましい真実.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [悪の軍団.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [フィールド３.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [眠らない大都会.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [エンディング.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [天空の魔法都市.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [師匠とのイベント戦.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [結末.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [王都.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [お祭りの町.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [奇襲攻撃！.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [軍事作戦.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [ユニークな街.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [フィールド.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [変質者との戦い.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [中ボス.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [知的探求.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [魔力の間.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [フィールド５.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [バトル３.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [シューティング・ステージ４.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [疑い.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound : [軍事作戦２.wav] : is disposed
+2023/05/08 20:26:37 INFO CachedSound is loaded name=[お祭りの町.wav](19.7957 ms)
+2023/05/08 20:26:38 INFO CachedSound : [気怠い探偵.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [灼熱の地獄.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [作戦会議.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [氷のダンジョン.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [妖精の森.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [普通な感じの街.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [とてものどかな村.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [さわやかな冒険.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [風の魔法使いの戦い２.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [バトル１（新）.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [バトル２（新）.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [のどかな村.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [夢の世界.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [廃れた都市.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [見知らぬ土地・見知らぬ文化.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [神殿.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [バトル1（リメイク）.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [ラストダンジョン.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [不思議なダンジョン.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [変質者のテーマ.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [世界の真相.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [睨み合い.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [静寂空間.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [バトル１?２.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [重厚なダンジョン.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [決意.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [残酷な運命.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [工業都市.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [狂気の人.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [静かなる決意.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [不気味なダンジョン.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [探検.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [まあいいか.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [デジタル空間.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [不思議な森.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [洞窟.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [シューティング・ステージ３.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [風の魔法使いのテーマ.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [愉快または間抜け.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [ボーナスゲーム.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [フィールド２.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [シューティング・ステージ１.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [小ボス.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [異形のものとの戦い.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [バトル２（旧）.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [厳かなダンジョン.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [エスニック・プレース.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [シューティング・ステージ２.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [バトル１（旧）.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [怪しい取引.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [明るいダンジョン.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [明るい街.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [歴史ある街.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [刻一刻.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [変な村.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [斜陽の帝国.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [風の魔法使いの戦い.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [おぞましい真実.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [悪の軍団.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [フィールド３.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [眠らない大都会.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [エンディング.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [天空の魔法都市.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [師匠とのイベント戦.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [結末.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [王都.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [お祭りの町.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [奇襲攻撃！.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [軍事作戦.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [ユニークな街.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [フィールド.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [変質者との戦い.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [中ボス.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [知的探求.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [魔力の間.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [フィールド５.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [バトル３.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [シューティング・ステージ４.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [疑い.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound : [軍事作戦２.wav] : is disposed
+2023/05/08 20:26:38 INFO CachedSound is loaded name=[フィールド３.wav](18.9307 ms)
+2023/05/08 20:26:39 INFO lockFile:.\KLOCK_5011058188082003296.lck is deleted
+2023/05/08 20:26:39 INFO TempFileStorage : all temp file is deleted

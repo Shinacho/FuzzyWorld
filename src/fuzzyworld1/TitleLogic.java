@@ -215,7 +215,7 @@ public class TitleLogic extends GameLogic {
 		f = new Font(Font.SERIF, Font.PLAIN, 16);
 		g.setFont(f);
 		g.setColor(Color.DARK_GRAY);
-		g.drawString(Versions.COPY_RIGHT, 16, 16);
+		g.drawString(Versions.COPY_RIGHT, 16, 450);
 
 		if (effect != null) {
 			if (effect.isEnded()) {
