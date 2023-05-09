@@ -29,7 +29,7 @@ THE SOFTWARE.
 	
 	<status key="LV" max="99" min="1" value="3" />
 	<status key="HP" max="213" min="0" value="213" />
-	<status key="MP" max="0" min="0" value="0" />
+	<status key="MP" max="1" min="1" value="1" />
 	
 	<status key="STR" max="42" min="0" value="42" />
 	<status key="SPD" max="30" min="0" value="30" />
@@ -55,6 +55,7 @@ THE SOFTWARE.
 	<status key="M_CRT_P" max="0.01" min="0" value="0.01" />
 	<status key="M_CRT_V" max="1.5" min="0" value="1.5" />
 	<status key="ATTR" max="1" min="0" value="0" />
+	<status key="CAN_MAGIC" max="1" min="0" value="0" />
 
 
 

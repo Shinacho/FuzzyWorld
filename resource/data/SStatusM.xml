@@ -55,6 +55,8 @@ THE SOFTWARE.
 	
 	
 	<status order="40" name="ATTR" min="0" max="8" desc="‘•”õ‘®«"/>
+	<status order="41" name="CAN_MAGIC" min="0" max="1" desc="–‚pŽg—p‰Â”Û"/>
+	
 
 	
 </KinugasaStatus>

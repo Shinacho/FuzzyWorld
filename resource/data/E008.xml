@@ -37,6 +37,8 @@ THE SOFTWARE.
 		<event order="220" fet="NPC_REMOVE" stName="" tgtName="NPC02" value="" term="" />
 		<event order="225" fet="PC_ADD" stName="" tgtName="" value="resource/data/Status_tomagi.xml" term="" />
 	
+		<event order="410" fet="UPDATE_ACTION_OF_ALL_PC" tgtName="" value="" />
+
 		<event order="999" fet="ENABLE_OPERATION" stName="" tgtName="" value="" term="" />
 
 		<event order="2500" fet="SET_FLG_DIRECT" stName="STORY" tgtName="TOMAGISHUT_E08" value="ON" term="" />

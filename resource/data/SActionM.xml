@@ -58,7 +58,7 @@ THE SOFTWARE.
 	
     <term name="魔術の書「破壊光線」所持" tt="HAS_BOOK" value="魔術の書「破壊光線」" />
     <term name="魔術の書「錬金魔法１」所持" tt="HAS_BOOK" value="魔術の書「錬金魔法１」" />
-
+    <term name="魔術使用可能" tt="STATUS_IS" value="CAN_MAGIC,1" />
 
     <term name="条件なし" tt="NONE" />
 
@@ -95,7 +95,7 @@ THE SOFTWARE.
     <material name="ワイヤー" value="20" />
     <material name="鎖" value="140" />
     <material name="錬金物質" value="100" />
-    <material name="ベリタ結晶" value="100" />
+    <material name="ベリタ結晶コーティング" value="100" />
     <material name="やさぐれメタルのかけら" value="7800" />
     <material name="虹のかけら" value="19900" />
     <material name="メガトンメダル" value="10000" />
@@ -147,13 +147,13 @@ THE SOFTWARE.
             <material name="紐" num="1"/>
         </disassembly>
     </item>
-    <item name="ねこびーんのストラップ" desc="ねこびーんのかわいいストラップだ。" value="980" slot="アミュレット">
+    <item name="ねこびーんのストラップ" desc="ねこびーんのかわいいストラップだ。/この世に存在するものとは思えない一品だ。" value="980" slot="アミュレット">
         <eqAttr tgt="MYSTERY" value="-0.15"/>
         <disassembly>
             <material name="紐" num="1"/>
         </disassembly>
     </item>
-    <item name="デューク君のストラップ" desc="デューク君のかわいいストラップだ。" value="980" slot="アミュレット">
+    <item name="デューク君のストラップ" desc="デューク君のかわいいストラップだ。/この世に存在するものとは思えない一品だ。" value="980" slot="アミュレット">
         <eqAttr tgt="MYSTERY" value="-0.25"/>
         <disassembly>
             <material name="紐" num="1"/>
@@ -376,8 +376,22 @@ THE SOFTWARE.
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" animation="通常攻撃" />
         <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="イワシ" p="1.0" />
     </item>
-    <item name="立派なキノコ" desc="デカいキノコだ。これを武器として使うのか？正気か？" value="20" slot="腕" wmt="メイス" area="4" dcs="STR">
-        <eqStatus tgt="ATK" value="1" />
+    <item name="カジキ" desc="魚だ。これを武器として使うのか？正気か？" value="8000" slot="腕" wmt="槍" area="14" dcs="STR">
+        <eqStatus tgt="ATK" value="16" />
+        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" animation="通常攻撃" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="カジキ" p="1.0" />
+        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" animation="通常攻撃" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="カジキ" p="1.0" />
+    </item>
+    <item name="サメ" desc="魚だ。これを武器として使うのか？正気か？" value="8000" slot="腕" wmt="剣" area="14" dcs="STR">
+        <eqStatus tgt="ATK" value="16" />
+        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" animation="通常攻撃" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="サメ" p="1.0" />
+        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" animation="通常攻撃" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="サメ" p="1.0" />
+    </item>
+    <item name="立派なキノコ" desc="デカいキノコだ。これを武器として使うのか？正気か？" value="200" slot="腕" wmt="メイス" area="4" dcs="STR">
+        <eqStatus tgt="ATK" value="2" />
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" animation="通常攻撃" />
         <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="立派なキノコ" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" animation="通常攻撃" />
@@ -390,12 +404,19 @@ THE SOFTWARE.
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" animation="通常攻撃" />
         <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="しょぼいキノコ" p="1.0" />
     </item>
-    <item name="お魚" desc="普通の魚だ。これを武器として使うのか？正気か？" value="50" slot="腕" wmt="メイス" area="12" dcs="STR">
+    <item name="ハイパーキノコ" desc="すごいキノコだ。これを武器として使うのか？正気か？" value="114514" slot="腕" wmt="メイス" area="4" dcs="STR">
+        <eqStatus tgt="ATK" value="3" />
+        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" animation="通常攻撃" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ハイパーキノコ" p="1.0" />
+        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" animation="通常攻撃" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ハイパーキノコ" p="1.0" />
+    </item>
+    <item name="謎のお魚" desc="普通の魚だ。これを武器として使うのか？正気か？" value="50" slot="腕" wmt="メイス" area="12" dcs="STR">
         <eqStatus tgt="ATK" value="1" />
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="お魚" p="1.0" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="謎のお魚" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" animation="通常攻撃" />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="お魚" p="1.0" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="謎のお魚" p="1.0" />
     </item>
     <item name="超特大お魚" desc="普通の魚だ。これを武器として使うのか？正気か？" value="5000" slot="腕" wmt="メイス" area="30" dcs="STR">
         <eqStatus tgt="ATK" value="2" />
@@ -577,6 +598,10 @@ THE SOFTWARE.
     </item>
     <item name="ネギ" desc="どこにでもある生のネギだ。これを武器として使うのか？正気か？" value="120" slot="腕" wmt="メイス" area="16" dcs="DEX">
         <eqStatus tgt="ATK" value="1" />
+        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT" animation="通常攻撃" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ネギ" p="1.0" />
+        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT" animation="通常攻撃" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ネギ" p="1.0" />
     </item>
     <item name="小舟のオール" desc="小舟を進めるときに使うオールだ。大剣に似た武器として使えそうだ。/アクション「挑発」が使える。" value="3800" slot="腕" wmt="大剣" area="40" dcs="STR">
         <eqStatus tgt="ATK" value="11" />
@@ -600,17 +625,11 @@ THE SOFTWARE.
             <material name="鉄片" num="1"/>
         </disassembly>
     </item>
-    <item name="縫針" desc="一般的な家庭用品だ。これを武器として使うのか？正気か？" value="80" slot="腕" wmt="突剣" area="2" dcs="DEX">
+    <item name="縫針" desc="一般的な家庭用品だ。これを武器として使うのか？正気か？" value="8" slot="腕" wmt="突剣" area="2" dcs="DEX">
         <eqStatus tgt="ATK" value="1" />
-        <disassembly>
-            <material name="鉄片" num="1"/>
-        </disassembly>
     </item>
     <item name="極太縫針" desc="一般的な家庭用品だ。刺さったらかなり痛そうだ・・・" value="80" slot="腕" wmt="突剣" area="2" dcs="DEX">
         <eqStatus tgt="ATK" value="5" />
-        <disassembly>
-            <material name="鉄片" num="1"/>
-        </disassembly>
     </item>
     <item name="業務用・超極太縫針" desc="こんなに太い針を一体何に使うっていうんだ！？もはや棒だぞ！！" value="800" slot="腕" wmt="突剣" area="2" dcs="DEX">
         <eqStatus tgt="ATK" value="10" />
@@ -643,8 +662,12 @@ THE SOFTWARE.
             <material name="鉄片" num="1"/>
         </disassembly>
     </item>
-    <item name="割れた酒瓶" desc="割れてしまった酒瓶だ。なかなか鋭く危険である。" value="200" slot="腕" wmt="短剣" area="17" dcs="STR,DEX">
+    <item name="割れた酒瓶" desc="割れてしまった酒瓶だ。なかなか鋭く危険である。" value="20" slot="腕" wmt="短剣" area="17" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="17" />
+        <eqAttr tgt="FLAME" value="-0.10" />
+    </item>
+    <item name="割れた激辛ソースの瓶" desc="割れてしまった瓶だ。なかなか鋭く危険である。ホットだ。" value="20" slot="腕" wmt="短剣" area="17" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="12" />
     </item>
     <item name="名刀「炎鬼の短刀」" desc="炎の文様があしらわれた鋭い短刀だ。" value="1123400" slot="腕" wmt="短剣" area="21" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="89.3" />
@@ -665,6 +688,16 @@ THE SOFTWARE.
             <material name="木片" num="1"/>
             <material name="鉄片" num="2"/>
             <material name="合金" num="2"/>
+        </disassembly>
+    </item>
+    <item name="手製の竹光" desc="誰かが簡単につくった竹製の刀を模した武器だ。" value="2200" slot="腕" wmt="刀" area="32" dcs="STR,DEX">
+        <eqStatus tgt="ATK" value="12" />
+        <eqStatus tgt="AVO" value="-0.03" />
+        <eqStatus tgt="CUT_P" value="+0.04" />
+        <eqStatus tgt="CRT_P" value="+0.07" />
+        <eqStatus tgt="CRT_V" value="+0.10" />
+        <disassembly>
+            <material name="木片" num="4"/>
         </disassembly>
     </item>
     <item name="無銘の太刀" desc="いつ誰が作ったともわからない無銘の太刀だ。" value="86500" slot="腕" wmt="刀" area="34" dcs="STR,DEX">
@@ -752,14 +785,14 @@ THE SOFTWARE.
         <eqStatus tgt="CRT_P" value="+0.25" />
         <eqStatus tgt="CRT_V" value="+0.25" />
     </item>
-    <item name="名刀「アショスの陽光」" desc="東の国で作られた、名刀ともいわれる鋭い太刀だ。" value="3200000" slot="腕" wmt="刀" area="30" dcs="STR,DEX">
+    <item name="アショスの陽光" desc="東の国で作られた、鋭い太刀だ。" value="3200000" slot="腕" wmt="刀" area="30" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="86" />
         <eqStatus tgt="AVO" value="-0.02" />
         <eqStatus tgt="CUT_P" value="+0.08" />
         <eqStatus tgt="CRT_P" value="+0.22" />
         <eqStatus tgt="CRT_V" value="+0.22" />
     </item>
-    <item name="名刀「月丸卍」" desc="東の国で作られた、名刀ともいわれる鋭い太刀だ。" value="9990000" slot="腕" wmt="刀" area="32" dcs="STR,DEX">
+    <item name="名刀「月光丸卍」" desc="東の国で作られた、名刀ともいわれる鋭い太刀だ。" value="9990000" slot="腕" wmt="刀" area="32" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="148" />
         <eqStatus tgt="AVO" value="-0.02" />
         <eqStatus tgt="CUT_P" value="+0.08" />
@@ -803,7 +836,7 @@ THE SOFTWARE.
             <material name="鉄片" num="2"/>
             <material name="ねじ" num="2"/>
             <material name="錬金物質" num="1"/>
-            <material name="ベリタ結晶" num="1"/>
+            <material name="ベリタ結晶コーティング" num="1"/>
         </disassembly>
     </item>
     <item name="ベルマ魔道銃「１１１型」" desc="ベルマ国の標準的な歩兵装備だ。" value="160000" slot="腕" wmt="銃" area="26" dcs="DEX">
@@ -817,7 +850,7 @@ THE SOFTWARE.
             <material name="鉄片" num="2"/>
             <material name="ねじ" num="2"/>
             <material name="錬金物質" num="1"/>
-            <material name="ベリタ結晶" num="1"/>
+            <material name="ベリタ結晶コーティング" num="1"/>
         </disassembly>
     </item>
     <item name="ベルマ魔道銃「１５７型」" desc="ベルマ国の近代的な歩兵装備だ。" value="175000" slot="腕" wmt="銃" area="26" dcs="DEX">
@@ -831,7 +864,7 @@ THE SOFTWARE.
             <material name="鉄片" num="2"/>
             <material name="ねじ" num="2"/>
             <material name="錬金物質" num="1"/>
-            <material name="ベリタ結晶" num="1"/>
+            <material name="ベリタ結晶コーティング" num="1"/>
         </disassembly>
     </item>
     <item name="銃剣付きベルマ魔道銃「２６型」" desc="ベルマ国の旧式化した歩兵装備だ。銃剣がついているので、近接攻撃が可能だ。" value="110000" slot="腕" wmt="銃" area="26" dcs="DEX">
@@ -845,7 +878,7 @@ THE SOFTWARE.
             <material name="鉄片" num="4"/>
             <material name="ねじ" num="2"/>
             <material name="錬金物質" num="1"/>
-            <material name="ベリタ結晶" num="1"/>
+            <material name="ベリタ結晶コーティング" num="1"/>
         </disassembly>
     </item>
     <item name="銃剣付きベルマ魔道銃「１１１型」" desc="ベルマ国の標準的な歩兵装備だ。銃剣がついているので、近接攻撃が可能だ。" value="160000" slot="腕" wmt="銃" area="28" dcs="DEX">
@@ -859,7 +892,7 @@ THE SOFTWARE.
             <material name="鉄片" num="4"/>
             <material name="ねじ" num="2"/>
             <material name="錬金物質" num="1"/>
-            <material name="ベリタ結晶" num="1"/>
+            <material name="ベリタ結晶コーティング" num="1"/>
         </disassembly>
     </item>
     <item name="銃剣付きベルマ魔道銃「１５７型」" desc="ベルマ国の近代的な歩兵装備だ。銃剣がついているので、近接攻撃が可能だ。" value="175000" slot="腕" wmt="銃" area="29" dcs="DEX">
@@ -873,7 +906,7 @@ THE SOFTWARE.
             <material name="鉄片" num="4"/>
             <material name="ねじ" num="2"/>
             <material name="錬金物質" num="1"/>
-            <material name="ベリタ結晶" num="1"/>
+            <material name="ベリタ結晶コーティング" num="1"/>
         </disassembly>
     </item>
     <item name="ベルマの銃剣" desc="ベルマ国の標準的な銃剣だ。" value="175000" slot="腕" wmt="短剣" area="22" dcs="STR,DEX">
@@ -917,7 +950,8 @@ THE SOFTWARE.
     <item name="デルフィン・スレイヤー" desc="かつてむかつくおばさんを殺害したといわれる剣だ/クリティカル攻撃が出やすい" value="85000" slot="腕" wmt="剣" area="40" dcs="STR">
         <eqStatus tgt="ATK" value="38" />
         <eqStatus tgt="AVO" value="-0.03" />
-        <eqStatus tgt="CUT_P" value="+0.14" />
+        <eqStatus tgt="CRT_P" value="+0.25" />
+        <eqStatus tgt="CUT_P" value="+0.10" />
         <disassembly>
             <material name="木片" num="1"/>
             <material name="鉄片" num="3"/>
@@ -978,7 +1012,7 @@ THE SOFTWARE.
             <material name="合金" num="1"/>
         </disassembly>
     </item>
-    <item name="鉄の剣" desc="比較的安価な量産品の鉄の剣だ。" value="8200" slot="腕" wmt="剣" area="34" dcs="STR">
+    <item name="鉄の剣" desc="比較的安価な量産品の鉄の剣だ。" value="11200" slot="腕" wmt="剣" area="34" dcs="STR">
         <eqStatus tgt="ATK" value="27" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.08" />
@@ -988,7 +1022,7 @@ THE SOFTWARE.
             <material name="合金" num="1"/>
         </disassembly>
     </item>
-    <item name="鋼の剣" desc="比較的安価な量産品の鋼の剣だ。" value="11400" slot="腕" wmt="剣" area="34" dcs="STR">
+    <item name="鋼の剣" desc="比較的安価な量産品の鋼の剣だ。" value="21400" slot="腕" wmt="剣" area="34" dcs="STR">
         <eqStatus tgt="ATK" value="38" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.10" />
@@ -998,7 +1032,7 @@ THE SOFTWARE.
             <material name="合金" num="2"/>
         </disassembly>
     </item>
-    <item name="隼の剣" desc="とても軽い金属で作られた剣だ。" value="25600" slot="腕" wmt="剣" area="32" dcs="DEX" count="2">
+    <item name="隼の剣" desc="とても軽い金属で作られた細身の美しい剣だ。" value="25600" slot="腕" wmt="剣" area="32" dcs="DEX" count="2">
         <eqStatus tgt="ATK" value="66" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.05" />
@@ -1039,13 +1073,6 @@ THE SOFTWARE.
         <eqStatus tgt="CUT_P" value="+0.07" />
         <eqStatus tgt="CRT_P" value="+0.10" />
         <eqStatus tgt="CRT_V" value="+0.50" />
-    </item>
-    <item name="名槍「幼き月」" desc="名槍だ。" value="6600000" slot="腕" wmt="槍" area="50" dcs="STR,DEX">
-        <eqStatus tgt="ATK" value="142" />
-        <eqStatus tgt="AVO" value="-0.11" />
-        <eqStatus tgt="CUT_P" value="+0.08" />
-        <eqStatus tgt="CRT_P" value="+0.30" />
-        <eqStatus tgt="CRT_V" value="+0.30" />
     </item>
     <item name="漬物石" desc="非常に重い石の塊だ。/手の届く範囲しか攻撃できないが、頑丈なので守りにも役立つだろう。/低確率で気絶を発生させる。" value="380" slot="腕" wmt="盾・短剣" area="8" dcs="STR">
         <eqStatus tgt="ATK" value="14" />
@@ -1244,41 +1271,39 @@ THE SOFTWARE.
             <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
     -->	
-    <magic name="破壊光線" desc="すべてを消滅させる大魔法だ。" term="魔術の書「破壊光線」所持" spellTime="5" area="480" waitTime="80" sound="通常攻撃">
+    <magic name="破壊光線" desc="すべてを消滅させる大魔法だ。" term="魔術の書「破壊光線」所持,魔術使用可能" spellTime="5" area="480" waitTime="80" sound="通常攻撃">
         <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-150" attr="LIGHT" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" />
         <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
         <battleEvent tt="SELF" pt="STATUS" tgtName="SAN" value="-24" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-    <magic name="錬金物質錬成" desc="錬金物質を錬成して敵に付着させる。" term="魔術の書「錬金魔法１」所持" spellTime="5" area="38" waitTime="80" sound="通常攻撃">
+    <magic name="錬金物質錬成" desc="錬金物質を錬成して敵に付着させる。" term="魔術の書「錬金魔法１」所持,魔術使用可能" spellTime="5" area="38" waitTime="80" sound="通常攻撃">
         <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-32" attr="ALCHEMY" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" />
         <battleEvent tt="TEAM_ENEMY" pt="ADD_CONDITION" tgtName="GOLDY" attr="ALCHEMY" p="0.1" animation="通常攻撃" />
         <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-    <magic name="錬金爆発" desc="錬成した連携物質を爆破する。" term="魔術の書「錬金魔法１」所持" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
+    <magic name="錬金爆発" desc="錬成した連携物質を爆破する。" term="魔術の書「錬金魔法１」所持,魔術使用可能" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
         <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" />
         <battleEvent tt="ALL" pt="ADD_CONDITION" tgtName="GOLDY" p="0.1" attr="ALCHEMY" animation="通常攻撃" />
         <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
     
     
-    <!--
-    <magic name="テスト魔法バトルALL" desc="テスト用の魔法だ。/味方一人の体力をわずかに回復する。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
+    <magic name="テスト魔法バトルALL" desc="テスト用の魔法だ。/味方一人の体力をわずかに回復する。" term="魔術使用可能" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
         <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
         <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-    <magic name="テスト魔法フィールドALL" desc="テスト用の魔法だ。/味方一人の体力をわずかに回復する。" term="条件なし"  sound="通常攻撃">       
+    <magic name="テスト魔法フィールドALL" desc="テスト用の魔法だ。/味方一人の体力をわずかに回復する。" term="魔術使用可能"  sound="通常攻撃">       
         <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
         <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-    <magic name="テスト魔法バトルOP" desc="テスト用の魔法だ。/味方一人の体力をわずかに回復する。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
+    <magic name="テスト魔法バトルOP" desc="テスト用の魔法だ。/味方一人の体力をわずかに回復する。" term="魔術使用可能" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
         <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-    <magic name="テスト魔法フィールドOP" desc="テスト用の魔法だ。/味方一人の体力をわずかに回復する。" term="条件なし" sound="通常攻撃">       
+    <magic name="テスト魔法フィールドOP" desc="テスト用の魔法だ。/味方一人の体力をわずかに回復する。" term="魔術使用可能" sound="通常攻撃">       
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
         <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-    -->
 	
 	
     <!--その他-->

@@ -42,6 +42,7 @@ import kinugasa.game.input.GamePadButton;
 import kinugasa.game.input.InputState;
 import kinugasa.game.input.InputType;
 import kinugasa.game.input.Keys;
+import kinugasa.game.ui.FontModel;
 import kinugasa.game.ui.MusicRoom;
 import kinugasa.graphics.Animation;
 import kinugasa.graphics.ImageEditor;
@@ -115,7 +116,7 @@ public class MusicRoomLogic extends GameLogic {
 	public void draw(GraphicsContext g) {
 		Graphics2D g2 = g.create();
 		g2.setColor(Color.WHITE);
-		g2.setFont(new Font("MONOSPACED", Font.PLAIN, 24));
+		g2.setFont(new Font(FontModel.DEFAULT.getFont().getName(), Font.PLAIN, 24));
 		g2.drawString("MUSIC ROOM", 12, 32);
 		g2.dispose();
 		mr.draw(g);
@@ -134,9 +135,10 @@ public class MusicRoomLogic extends GameLogic {
 				BufferedImage image = ImageUtil.newImage((int) getWidth(), (int) getHeight());
 				Graphics2D g = ImageUtil.createGraphics2D(image, RenderingQuality.QUALITY);
 				g.setColor(Color.WHITE);
+				g.setFont(new Font(FontModel.DEFAULT.getFont().getName(), Font.PLAIN, 16));
 				g.fillOval(0, 0, (int) getWidth(), (int) getHeight());
 				g.setColor(Color.BLACK);
-				g.drawString(t, getWidth() / 2 - (t.length() / 2 * 12), getHeight() / 2);
+				g.drawString(t, getWidth() / 2 - (t.length() / 2 * 17), getHeight() / 2);
 				g.dispose();
 				image = ImageEditor.rotate(image, i, null);
 				images.add(image);

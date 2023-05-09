@@ -102,10 +102,11 @@ THE SOFTWARE.
 		<event order="323" fet="INIT_STATUS" tgtName="0,M_CRT_V" value="1.5"/>
 		<event order="324" fet="INIT_STATUS" tgtName="0,SAN" value="50"/>
 		<event order="325" fet="INIT_STATUS" tgtName="0,ATTR" value="0"/>
+		<event order="325" fet="INIT_STATUS" tgtName="0,CAN_MAGIC" value="1"/>
 		
 		<event order="400" fet="SET_STATUS_MAX" tgtName="0,SAN" value="99" />
 		
-		
+		<event order="410" fet="UPDATE_ACTION_OF_ALL_PC" tgtName="" value="" />
 		
 		
 		

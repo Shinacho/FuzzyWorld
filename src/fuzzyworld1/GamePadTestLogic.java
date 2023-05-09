@@ -79,7 +79,7 @@ public class GamePadTestLogic extends GameLogic {
 	public void draw(GraphicsContext g) {
 		Graphics2D g2 = g.create();
 		g2.setColor(Color.WHITE);
-		g2.setFont(new Font("MONOSPACED", Font.PLAIN, 24));
+		g2.setFont(new Font(FontModel.DEFAULT.getFont().getName(), Font.PLAIN, 24));
 		g2.drawString("GAMEPAD TEST", 12, 32);
 		g2.dispose();
 		gp.draw(g);

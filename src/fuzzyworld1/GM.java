@@ -35,7 +35,6 @@ import kinugasa.game.GameManager;
 import kinugasa.game.GameOption;
 import kinugasa.game.GameTimeManager;
 import kinugasa.game.GraphicsContext;
-import kinugasa.game.LockUtil;
 import kinugasa.game.input.InputState;
 import kinugasa.game.system.GameSystem;
 import kinugasa.game.ui.FPSLabel;
@@ -45,7 +44,7 @@ import kinugasa.game.I18N;
 import kinugasa.game.PlayerConstants;
 import kinugasa.game.input.InputType;
 import kinugasa.game.input.Keys;
-import kinugasa.game.system.GameSystemException;
+import kinugasa.game.system.Status;
 import kinugasa.game.ui.FontModel;
 import kinugasa.graphics.ImageUtil;
 import kinugasa.resource.sound.SoundStorage;
@@ -63,27 +62,6 @@ public class GM extends GameManager {
 
 	private GM() {
 		super(GameOption.fromGUI("Fuzzy World", ON_DISABLE, ON_DISABLE, ON_ENABLE).setBackColor(new Color(0, 32, 66)));
-	}
-	private FPSLabel fps;
-	private GameLogicStorage gls;
-
-	@Override
-	protected void startUp() {
-		Const.Screen.WIDTH = GameOption.getInstance().getWindowSize().width;
-		Const.Screen.HEIGHT = GameOption.getInstance().getWindowSize().height;
-		SoundLoader.loadList("resource/bgm/BGM.csv");
-		SoundLoader.loadList("resource/se/SE.csv");
-		fps = new FPSLabel((int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() - 70), 12);
-		//
-		gls = GameLogicStorage.getInstance();
-		gls.add(new TitleLogic(this));
-		gls.add(new MusicRoomLogic(this));
-		gls.add(new GamePadTestLogic(this));
-		gls.add(new OPLogic(this));
-		gls.add(new ChapterTitleLogic(this));
-		gls.add(new FieldLogic(this));
-		gls.add(new BattleLogic(this));
-		gls.add(new SSLogic(this));
 		//
 		//フォントのロード
 		//
@@ -94,6 +72,29 @@ public class GM extends GameManager {
 		} catch (Exception ex) {
 			GameLog.printInfo("font.txt is not found or font name is not found, using default font[MONOSPACED]");
 		}
+	}
+	private FPSLabel fps;
+	private GameLogicStorage gls;
+
+	@Override
+	protected void startUp() {
+		Const.Screen.WIDTH = GameOption.getInstance().getWindowSize().width;
+		Const.Screen.HEIGHT = GameOption.getInstance().getWindowSize().height;
+		Status.canMagicStatusName = "CAN_MAGIC";
+		Status.canMagicStatusValue = "1";
+		SoundLoader.loadList("resource/bgm/BGM.csv");
+		SoundLoader.loadList("resource/se/SE.csv");
+		fps = new FPSLabel((int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() - 60), 12);
+		//
+		gls = GameLogicStorage.getInstance();
+		gls.add(new TitleLogic(this));
+		gls.add(new MusicRoomLogic(this));
+		gls.add(new GamePadTestLogic(this));
+		gls.add(new OPLogic(this));
+		gls.add(new ChapterTitleLogic(this));
+		gls.add(new FieldLogic(this));
+		gls.add(new BattleLogic(this));
+		gls.add(new SSLogic(this));
 
 		gls.changeTo(Const.LogicName.SS_LOGIC);
 		getWindow().setTitle("Fuzzy World" + " -" + I18N.translate("SUB_TITLE") + "-");

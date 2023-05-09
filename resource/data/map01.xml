@@ -24,7 +24,7 @@ THE SOFTWARE.
 -->
 <kinugasaFieldMapData mg="2" >
 
-	<before name="dark" image="resource/data/image/darkeffect.png" mg="2" tp="0.75"/>
+	<before name="dark" image="resource/data/image/darkeffect.png" mg="2" tp="0.85"/>
 	
 	<npc name="NPC01" initialIdx="4,5" NPCMoveModel="NOT_MOVE" image="resource/data/image/unknown.png" s="0,32,32" w="0,32,32" e="0,32,32" n="0,32,32" initialDir="NORTH"/>
 
