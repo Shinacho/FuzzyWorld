@@ -59,7 +59,7 @@ public class SSLogic extends GameLogic {
 
 	@Override
 	public void load() {
-		waitTime1 = new FrameTimeCounter(120);
+		waitTime1 = new FrameTimeCounter(150);
 		stage = -1;
 		ssImage = ImageUtil.load("resource/data/image/ss.png");
 	}

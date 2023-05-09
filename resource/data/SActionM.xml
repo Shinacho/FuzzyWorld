@@ -126,7 +126,7 @@ THE SOFTWARE.
             <material name="皮" />
         </disassembly>
     </item>
-    <item name="漁師の非常食" desc="漁に出られないときや緊急避難時に食べるための、日持ちする非常食だ。/味方一人の体力を小回復する" value="150" waitTime="60" sound="通常攻撃" term="条件なし">
+    <item name="漁師の非常食" desc="漁に出られないときや緊急避難時に食べるための、日持ちする非常食だ。/味方一人の体力をわずかに回復する" value="150" waitTime="60" sound="通常攻撃" term="条件なし">
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT" animation="通常攻撃" />
         <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="漁師の非常食" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT" animation="通常攻撃" />
@@ -312,25 +312,19 @@ THE SOFTWARE.
             <material name="鉄片" num="4"/>
         </disassembly>
     </item>
-    <item name="そば団子" desc="そば粉で作った味わい深い団子だ。うまい！！/味方一人の体力を小回復する" value="80" waitTime="60" sound="通常攻撃" term="条件なし">
+    <item name="そば団子" desc="そば粉で作った味わい深い団子だ。うまい！！/味方一人の体力をわずかに回復する" value="80" waitTime="60" sound="通常攻撃" term="条件なし">
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT" animation="通常攻撃" />
         <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="そば団子" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT" animation="通常攻撃" />
         <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="そば団子" p="1.0" />
     </item>
-    <item name="出前「手打ちもりそば1丁」" desc="伝統的なヌードル食品だ！これはうまいぞ！！至高の食べ物だ！！！/味方一人の体力を小回復する" value="480" waitTime="60" sound="通常攻撃" term="条件なし">
+    <item name="出前「手打ちもりそば」" desc="伝統的なヌードル食品だ！これはうまいぞ！！至高の食べ物だ！！！/味方一人の体力をわずかに回復する" value="480" waitTime="60" sound="通常攻撃" term="条件なし">
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT" animation="通常攻撃" />
         <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="出前「手打ちもりそば1丁」" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT" animation="通常攻撃" />
         <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="出前「手打ちもりそば1丁」" p="1.0" />
     </item>
-    <item name="究極の「手打ちもりそば」" desc="究極のそばである。うますぎる・・・/味方一人の体力を小回復する" value="980" waitTime="60" sound="通常攻撃" term="条件なし">
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+8" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="究極の「手打ちもりそば」" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+8" p="1" dct="DIRECT" animation="通常攻撃" />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="究極の「手打ちもりそば」" p="1.0" />
-    </item>
-    <item name="インスタントそば" desc="伝統的なヌードル食品の現代版だ。手軽に食べられる。/味方一人の体力を小回復する" value="260" waitTime="60" sound="通常攻撃" term="条件なし">
+    <item name="インスタントそば" desc="伝統的なヌードル食品の現代版だ。手軽に食べられる。/味方一人の体力をわずかに回復する" value="260" waitTime="60" sound="通常攻撃" term="条件なし">
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT" animation="通常攻撃" />
         <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="インスタント・そば" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT" animation="通常攻撃" />
@@ -381,6 +375,20 @@ THE SOFTWARE.
         <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="イワシ" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" animation="通常攻撃" />
         <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="イワシ" p="1.0" />
+    </item>
+    <item name="立派なキノコ" desc="デカいキノコだ。これを武器として使うのか？正気か？" value="20" slot="腕" wmt="メイス" area="4" dcs="STR">
+        <eqStatus tgt="ATK" value="1" />
+        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" animation="通常攻撃" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="立派なキノコ" p="1.0" />
+        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" animation="通常攻撃" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="立派なキノコ" p="1.0" />
+    </item>
+    <item name="しょぼいキノコ" desc="小さいキノコだ。これを武器として使うのか？正気か？" value="20" slot="腕" wmt="メイス" area="4" dcs="STR">
+        <eqStatus tgt="ATK" value="1" />
+        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" animation="通常攻撃" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="しょぼいキノコ" p="1.0" />
+        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" animation="通常攻撃" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="しょぼいキノコ" p="1.0" />
     </item>
     <item name="お魚" desc="普通の魚だ。これを武器として使うのか？正気か？" value="50" slot="腕" wmt="メイス" area="12" dcs="STR">
         <eqStatus tgt="ATK" value="1" />
@@ -906,7 +914,7 @@ THE SOFTWARE.
             <material name="鉄片" num="3"/>
         </disassembly>
     </item>
-    <item name="デルフィン・スレイヤー" desc="かつてむかつくおばさんを殺害したといわれる剣だ" value="85000" slot="腕" wmt="剣" area="40" dcs="STR">
+    <item name="デルフィン・スレイヤー" desc="かつてむかつくおばさんを殺害したといわれる剣だ/クリティカル攻撃が出やすい" value="85000" slot="腕" wmt="剣" area="40" dcs="STR">
         <eqStatus tgt="ATK" value="38" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.14" />
@@ -1254,19 +1262,19 @@ THE SOFTWARE.
     
     
     <!--
-    <magic name="テスト魔法バトルALL" desc="テスト用の魔法だ。/味方一人の体力を小回復する。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
+    <magic name="テスト魔法バトルALL" desc="テスト用の魔法だ。/味方一人の体力をわずかに回復する。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
         <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
         <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-    <magic name="テスト魔法フィールドALL" desc="テスト用の魔法だ。/味方一人の体力を小回復する。" term="条件なし"  sound="通常攻撃">       
+    <magic name="テスト魔法フィールドALL" desc="テスト用の魔法だ。/味方一人の体力をわずかに回復する。" term="条件なし"  sound="通常攻撃">       
         <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
         <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-    <magic name="テスト魔法バトルOP" desc="テスト用の魔法だ。/味方一人の体力を小回復する。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
+    <magic name="テスト魔法バトルOP" desc="テスト用の魔法だ。/味方一人の体力をわずかに回復する。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
         <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-    <magic name="テスト魔法フィールドOP" desc="テスト用の魔法だ。/味方一人の体力を小回復する。" term="条件なし" sound="通常攻撃">       
+    <magic name="テスト魔法フィールドOP" desc="テスト用の魔法だ。/味方一人の体力をわずかに回復する。" term="条件なし" sound="通常攻撃">       
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
         <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>

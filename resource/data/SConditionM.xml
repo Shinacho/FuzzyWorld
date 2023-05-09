@@ -115,6 +115,13 @@ THE SOFTWARE.
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="AVO" value="-0.75" p="0.5" />
 	</cCondition>
 	
+	<cCondition name="SWOON" desc="‹Câ" pri="60">
+		<effect ect="CONTINUE" time="10/50" ett="STOP" p="1" />
+		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="DEX" value="-0.75" p="0.5" />
+		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SPD" value="-0.75" p="0.5" />
+		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="AVO" value="-0.75" p="0.5" />
+	</cCondition>
+	
 	<cCondition name="CONFUSION" desc="¬—" pri="71">
 		<effect ect="CONTINUE" time="5/25" ett="CONFU" p="1"/>
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="POW" value="-0.25" p="0.5" />

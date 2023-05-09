@@ -75,7 +75,7 @@ import kinugasa.game.system.QuestStageStorage;
 import kinugasa.game.system.RaceStorage;
 import kinugasa.game.system.Status;
 import kinugasa.game.system.StatusDescWindow;
-	import kinugasa.game.ui.Choice;
+import kinugasa.game.ui.Choice;
 import kinugasa.game.ui.Dialog;
 import kinugasa.game.ui.MessageWindow;
 import kinugasa.game.ui.SimpleMessageWindowModel;
@@ -492,7 +492,9 @@ public class FieldLogic extends GameLogic {
 						SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
 						infoWindow = null;
 					} else {
-						SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
+						if (menu != null && menu.isVisible()) {
+							SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
+						}
 						menu.setVisible(false);
 						statusWindow.setVisible(false);
 					}

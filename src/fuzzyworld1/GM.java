@@ -24,7 +24,10 @@
 package fuzzyworld1;
 
 import java.awt.Color;
+import java.awt.Font;
 import java.io.File;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
 import javax.swing.JFileChooser;
 import kinugasa.game.GameLogicStorage;
 import kinugasa.game.GameManager;
@@ -41,6 +44,8 @@ import kinugasa.game.I18N;
 import kinugasa.game.PlayerConstants;
 import kinugasa.game.input.InputType;
 import kinugasa.game.input.Keys;
+import kinugasa.game.system.GameSystemException;
+import kinugasa.game.ui.FontModel;
 import kinugasa.graphics.ImageUtil;
 import kinugasa.resource.sound.SoundStorage;
 
@@ -52,7 +57,6 @@ import kinugasa.resource.sound.SoundStorage;
 public class GM extends GameManager {
 
 	public static void main(String[] args) {
-		LockUtil.deleteAllLockFile();
 		new GM().gameStart();
 	}
 
@@ -79,6 +83,16 @@ public class GM extends GameManager {
 		gls.add(new FieldLogic(this));
 		gls.add(new BattleLogic(this));
 		gls.add(new SSLogic(this));
+		//
+		//フォントのロード
+		//
+		String fontName = "MONOSPACED";
+		try {
+			fontName = Files.readAllLines(new File("resource/data/font.txt").toPath(), Charset.forName("MS932")).get(0);
+			FontModel.DEFAULT.setFont(new Font(fontName, Font.PLAIN, FontModel.DEFAULT.getFont().getSize()));
+		} catch (Exception ex) {
+			throw new GameSystemException("font.txt is cant open or font name is not found");
+		}
 
 		gls.changeTo(Const.LogicName.SS_LOGIC);
 		getWindow().setTitle("Fuzzy World" + " -" + I18N.translate("SUB_TITLE") + "-");
