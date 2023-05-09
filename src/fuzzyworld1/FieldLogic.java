@@ -918,18 +918,18 @@ public class FieldLogic extends GameLogic {
 					v = new KVector(is.getGamePadState().sticks.LEFT.getLocation(VehicleStorage.getInstance().getCurrentVehicle().getSpeed()));
 				}
 
-				if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.CONTINUE)) {
+				if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.CONTINUE) || is.isPressed(Keys.A, InputType.CONTINUE)) {
 					v.setAngle(FourDirection.WEST);
 					v.setSpeed(VehicleStorage.getInstance().getCurrentVehicle().getSpeed());
-				} else if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.CONTINUE)) {
+				} else if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.CONTINUE) || is.isPressed(Keys.D, InputType.CONTINUE)) {
 					v.setAngle(FourDirection.EAST);
 					v.setSpeed(VehicleStorage.getInstance().getCurrentVehicle().getSpeed());
 				}
 
-				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.CONTINUE)) {
+				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.CONTINUE) || is.isPressed(Keys.W, InputType.CONTINUE)) {
 					v.setAngle(FourDirection.NORTH);
 					v.setSpeed(VehicleStorage.getInstance().getCurrentVehicle().getSpeed());
-				} else if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.CONTINUE)) {
+				} else if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.CONTINUE) || is.isPressed(Keys.S, InputType.CONTINUE)) {
 					v.setAngle(FourDirection.SOUTH);
 					v.setSpeed(VehicleStorage.getInstance().getCurrentVehicle().getSpeed());
 				}

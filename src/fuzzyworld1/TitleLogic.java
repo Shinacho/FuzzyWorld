@@ -210,7 +210,8 @@ public class TitleLogic extends GameLogic {
 		f = new Font(Font.SERIF, Font.PLAIN, 28);
 		g.setFont(f);
 		g.drawString("-" + I18N.translate("SUB_TITLE") + "-", 38, 120);
-		g.drawLine(16, 85, 240, 85);
+		g.drawLine(-2, 85, 440, 85);
+		g.drawLine(440, 85, 1280, 700);
 
 		f = new Font(Font.SERIF, Font.PLAIN, 16);
 		g.setFont(f);
