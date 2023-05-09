@@ -29,6 +29,7 @@ import java.io.File;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import javax.swing.JFileChooser;
+import kinugasa.game.GameLog;
 import kinugasa.game.GameLogicStorage;
 import kinugasa.game.GameManager;
 import kinugasa.game.GameOption;
@@ -91,7 +92,7 @@ public class GM extends GameManager {
 			fontName = Files.readAllLines(new File("resource/data/font.txt").toPath(), Charset.forName("MS932")).get(0);
 			FontModel.DEFAULT.setFont(new Font(fontName, Font.PLAIN, FontModel.DEFAULT.getFont().getSize()));
 		} catch (Exception ex) {
-			throw new GameSystemException("font.txt is cant open or font name is not found");
+			GameLog.printInfo("font.txt is not found or font name is not found, using default font[MONOSPACED]");
 		}
 
 		gls.changeTo(Const.LogicName.SS_LOGIC);

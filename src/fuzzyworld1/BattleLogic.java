@@ -107,7 +107,7 @@ public class BattleLogic extends GameLogic {
 					win &= (s.hasCondition("DEAD") || s.hasCondition("DESTROY"));
 				}
 				if (win) {
-					return BattleResult.LOSE;
+					return BattleResult.WIN;
 				}
 				return BattleResult.NOT_YET;
 			});
