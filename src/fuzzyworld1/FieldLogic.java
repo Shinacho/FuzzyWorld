@@ -64,14 +64,12 @@ import kinugasa.game.system.ItemStorage;
 import kinugasa.game.system.ItemWindow;
 import kinugasa.game.system.MagicWindow;
 import kinugasa.game.system.MaterialPageWindow;
-import kinugasa.game.system.Money;
 import kinugasa.game.system.MoneySystem;
 import kinugasa.game.system.OrderSelectWindow;
 import kinugasa.game.system.PCStatusWindow;
 import kinugasa.game.system.PlayerCharacter;
 import kinugasa.game.system.QuestLine;
 import kinugasa.game.system.QuestLineStorage;
-import kinugasa.game.system.QuestStageStorage;
 import kinugasa.game.system.RaceStorage;
 import kinugasa.game.system.Status;
 import kinugasa.game.system.StatusDescWindow;
@@ -183,7 +181,7 @@ public class FieldLogic extends GameLogic {
 				GameSystem.getInstance().getPartyStatus());
 		statusWindow.setVisible(false);
 
-		StatusDescWindow.setUnvisibleStatusList(List.of("EXP", "CUT_V", "CRT_P", "CRT_V", "M_CUT_V", "M_CRT_P", "M_CRT_V", "ATTR"));
+		StatusDescWindow.setUnvisibleStatusList(List.of("EXP", "CUT_V", "CRT_P", "CRT_V", "M_CUT_V", "M_CRT_P", "M_CRT_V", "ATTR", "CAN_MAGIC"));
 		StatusDescWindow.setVisibleMaxStatusList(List.of("HP", "MP", "SAN"));
 		AttrDescWindow.setUnvisibleAttrName(List.of("NONE"));
 

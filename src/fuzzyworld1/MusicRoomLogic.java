@@ -42,8 +42,10 @@ import kinugasa.game.input.GamePadButton;
 import kinugasa.game.input.InputState;
 import kinugasa.game.input.InputType;
 import kinugasa.game.input.Keys;
+import kinugasa.game.system.PCStatusWindow;
 import kinugasa.game.ui.FontModel;
 import kinugasa.game.ui.MusicRoom;
+import kinugasa.game.ui.SimpleMessageWindowModel;
 import kinugasa.graphics.Animation;
 import kinugasa.graphics.ImageEditor;
 import kinugasa.graphics.ImageUtil;
@@ -72,7 +74,7 @@ public class MusicRoomLogic extends GameLogic {
 				48,
 				(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() - 48),
 				(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 * 2),
-				20);
+				SimpleMessageWindowModel.maxLine);
 
 		soundNameSprite = new SoundNameSprite(380, 64);
 	}

@@ -44,8 +44,10 @@ import kinugasa.game.I18N;
 import kinugasa.game.PlayerConstants;
 import kinugasa.game.input.InputType;
 import kinugasa.game.input.Keys;
+import kinugasa.game.system.PCStatusWindow;
 import kinugasa.game.system.Status;
 import kinugasa.game.ui.FontModel;
+import kinugasa.game.ui.SimpleMessageWindowModel;
 import kinugasa.graphics.ImageUtil;
 import kinugasa.resource.sound.SoundStorage;
 
@@ -82,6 +84,7 @@ public class GM extends GameManager {
 		Const.Screen.HEIGHT = GameOption.getInstance().getWindowSize().height;
 		Status.canMagicStatusName = "CAN_MAGIC";
 		Status.canMagicStatusValue = "1";
+		SimpleMessageWindowModel.maxLine = 22;
 		SoundLoader.loadList("resource/bgm/BGM.csv");
 		SoundLoader.loadList("resource/se/SE.csv");
 		fps = new FPSLabel((int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() - 60), 12);

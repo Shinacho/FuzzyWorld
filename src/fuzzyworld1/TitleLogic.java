@@ -201,9 +201,9 @@ public class TitleLogic extends GameLogic {
 	public void draw(GraphicsContext gc) {
 		//image‚É‘‚¢‚½•û‚ª‘‚¢‚©‚à‚µ‚ê‚È‚¢‚ªAŠÈˆÕ‚È‚Ì‚Å‚±‚±‚Å’¼Ú‘‚­
 		gc.setColor(Color.WHITE);
-		Font f = new Font(Font.SERIF, Font.PLAIN, 40);
 		atsg.draw(gc);
 		Graphics2D g = gc.create();
+		Font f = new Font(FontModel.DEFAULT.getFont().getName(), Font.PLAIN, 40);
 		g.setFont(f);
 		g.drawString("Fuzzy World", 24, 70);
 
