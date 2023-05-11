@@ -29,7 +29,13 @@ THE SOFTWARE.
 	<obstacle name="Î" image="resource/data/image/stone.png" w="16" h="16" mg="2"/>
 	
 	
-	<bf chipAttrName="•½’n" image="resource/data/image/bf1.png" default="true" obstacleMax="8" obstacleName="Î,–Ø"/>
+	<bf chipAttrName="•½’n" image="resource/data/image/bf_mori.png" default="true" obstacleMax="8" obstacleName="Î,–Ø"/>
+	<bf chipAttrName="X—Ñ" image="resource/data/image/bf_mori.png" obstacleMax="12" obstacleName="Î,–Ø"/>
+	<bf chipAttrName="åM" image="resource/data/image/bf_mori.png" obstacleMax="6" obstacleName="Î,–Ø"/>
+	<bf chipAttrName="‘Œ´" image="resource/data/image/bf_mori.png" obstacleMax="4" obstacleName="Î,–Ø"/>
+	
+	
+	
 	
 	
 	

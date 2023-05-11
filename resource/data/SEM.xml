@@ -22,8 +22,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 -->
-<KinugasaEnemyMap>
-	<enemy name="YATO" visibleName="–ì“" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK">
+<KinugasaEnemyMap>	
+	<!--name‚Íd•¡‚µ‚È‚¢“à•”“I‚È“G‚Ì–¼Ì‚ÅAvisibleName‚Íd•¡‰Â”\‚È•\Ž¦‚³‚ê‚é–¼‘O-->
+	<enemy name="–ì“" visibleName="–ì“" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE">
 		<status name="HP" value="80" min="0" max="80"/>
 		<status name="MOV" value="70" min="0" max="75" />
 		<status name="EXP" value="100"  min="0" max="200"/>
@@ -32,7 +33,7 @@ THE SOFTWARE.
 		<action name="ˆÚ“®"/>
 	</enemy>
 
-	<enemy name="YATO_NOMOVE" visibleName="“®‚©‚È‚¢–ì“" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK">
+	<enemy name="“®‚©‚È‚¢–ì“" visibleName="“®‚©‚È‚¢–ì“" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE">
 		<status name="HP" value="80" min="0" max="80"/>
 		<status name="MOV" value="80" min="0" max="75" />
 		<status name="EXP" value="120" min="0" max="200"/>
@@ -41,7 +42,7 @@ THE SOFTWARE.
 		<action name="–hŒä" />
 	</enemy>
 	
-	<enemy name="MAGE_NOMOVE" visibleName="“®‚©‚È‚¢–‚pŽt" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK">
+	<enemy name="“®‚©‚È‚¢–‚pŽt" visibleName="“®‚©‚È‚¢–‚pŽt" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE">
 		<status name="HP" value="80" min="0" max="80"/>
 		<status name="MP" value="80" min="0" max="80"/>
 		<status name="MOV" value="40" min="0" max="75" />
@@ -55,7 +56,7 @@ THE SOFTWARE.
 		-->
 	</enemy>
 	
-	<enemy name="MAGE_MPSHORT" visibleName="MP‚ª‘«‚è‚È‚¢–‚pŽt" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK">
+	<enemy name="MP‚ª‘«‚è‚È‚¢–‚pŽt" visibleName="MP‚ª‘«‚è‚È‚¢–‚pŽt" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE">
 		<status name="HP" value="80" min="0" max="80"/>
 		<status name="MP" value="2" min="0" max="2"/>
 		<status name="MOV" value="40" min="0" max="75" />
@@ -68,7 +69,7 @@ THE SOFTWARE.
 		<book name="‰Î‰Š‚Ì‘" />
 		-->
 	</enemy>	
-	<enemy name="MAGE" visibleName="“®‚­–‚pŽt" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK">
+	<enemy name="“®‚­–‚pŽt" visibleName="“®‚­–‚pŽt" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE">
 		<status name="HP" value="80" min="0" max="80"/>
 		<status name="MP" value="80" min="0" max="80"/>
 		<status name="MOV" value="40" min="0" max="75" />
@@ -83,7 +84,7 @@ THE SOFTWARE.
 	</enemy>
 	
 	
-	<enemy name="SANZOKU" visibleName="ŽR‘¯" image="resource/data/image/M2.png" race="HUMAN"  vehicle="WALK">
+	<enemy name="ŽR‘¯" visibleName="ŽR‘¯" image="resource/data/image/M2.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE">
 		<status name="HP" value="200" min="0" max="200"/>
 		<status name="MOV" value="80" min="0" max="95" />
 		<status name="EXP" value="150"  min="0" max="200"/>
@@ -91,7 +92,7 @@ THE SOFTWARE.
 		<action name="‚±‚Ô‚µ"/>
 	</enemy>
 
-	<enemy name="ACKAN" visibleName="ˆ«Š¿" image="resource/data/image/M3.png" race="HUMAN"  vehicle="WALK">
+	<enemy name="ˆ«Š¿" visibleName="ˆ«Š¿" image="resource/data/image/M3.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE">
 		<status name="HP" value="250" min="0" max="250"/>
 		<status name="MOV" value="110" min="0" max="110" />
 		<status name="EXP" value="200"  min="0" max="200"/>

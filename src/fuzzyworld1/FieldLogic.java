@@ -111,7 +111,9 @@ public class FieldLogic extends GameLogic {
 		waiting = false;
 		battle = false;
 		if (loaded) {
-			fieldMap.getBgm().play();
+			if (fieldMap.getBgm() != null) {
+				fieldMap.getBgm().play();
+			}
 			return;
 		}
 		//PC‚ÌADD
@@ -159,7 +161,7 @@ public class FieldLogic extends GameLogic {
 
 		menu = new MessageWindow(24, 24,
 				Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4,
-				Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() / 2 - 16,
+				Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() / 2 - 40,
 				new SimpleMessageWindowModel().setNextIcon(""));
 		List<Text> options = new ArrayList<>();
 		options.add(new Text(I18N.translate("STATUS")));

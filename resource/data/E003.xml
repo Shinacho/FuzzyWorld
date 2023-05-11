@@ -117,6 +117,9 @@ THE SOFTWARE.
 		<event order="2100" fet="NPC_MOVE_AND_WAIT_THAT" stName="" tgtName="NPC02" value="1,11" term="" />
 		<event order="2200" fet="NPC_REMOVE" stName="" tgtName="NPC02" value="" term="" />
 		<!-- MAIN:1 -->
+		
+	<!-- テスト用 -->
+	<event order="2999" fet="START_BATTLE" stName="01" value="" term=""/>
 	
 	<event order="3000" fet="END_IF" stName="" tgtName="" value="" term=""/>
 	<event order="3100" fet="ENABLE_OPERATION" stName="" tgtName="" value="" term="" />
