@@ -28,6 +28,7 @@ import java.awt.Font;
 import java.io.File;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
+import javax.swing.ImageIcon;
 import javax.swing.JFileChooser;
 import kinugasa.game.GameLog;
 import kinugasa.game.GameLogicStorage;
@@ -47,6 +48,7 @@ import kinugasa.game.input.Keys;
 import kinugasa.game.system.Status;
 import kinugasa.game.ui.FontModel;
 import kinugasa.game.ui.SimpleMessageWindowModel;
+import kinugasa.game.ui.SimpleTextLabelModel;
 import kinugasa.graphics.ImageUtil;
 import kinugasa.resource.sound.SoundStorage;
 
@@ -58,7 +60,11 @@ import kinugasa.resource.sound.SoundStorage;
 public class GM extends GameManager {
 
 	public static void main(String[] args) {
-		new GM().gameStart();
+		try {
+			new GM().gameStart();
+		} catch (Throwable ex) {
+			System.out.println(ex);
+		}
 	}
 
 	private GM() {
@@ -107,6 +113,7 @@ public class GM extends GameManager {
 		//
 		gls.changeTo(Const.LogicName.SS_LOGIC);
 		getWindow().setTitle("Fuzzy World" + " -" + I18N.translate("SUB_TITLE") + "-");
+		getWindow().setIconImage(new ImageIcon(getClass().getResource("icon.png")).getImage());
 		//
 	}
 

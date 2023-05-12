@@ -73,12 +73,12 @@ public class SoundVolumeForm extends javax.swing.JFrame {
 			switch (l[0]) {
 				case "BGM":
 					jSlider1.setValue(intVal);
-					jLabel4.setText(val + "");
+					jLabel4.setText((val * 100 + "").split("[.]")[0] + "%");
 					mulBgm = val;
 					break;
 				case "SE":
 					jSlider2.setValue(intVal);
-					jLabel5.setText(val + "");
+					jLabel5.setText((val * 100 + "").split("[.]")[0] + "%");
 					mulSe = val;
 					break;
 				default:
@@ -159,6 +159,10 @@ public class SoundVolumeForm extends javax.swing.JFrame {
             }
         });
 
+        jLabel4.setText("100%");
+
+        jLabel5.setText("100%");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -183,7 +187,7 @@ public class SoundVolumeForm extends javax.swing.JFrame {
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addComponent(jSlider2, javax.swing.GroupLayout.DEFAULT_SIZE, 265, Short.MAX_VALUE)
                                     .addComponent(jSlider1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))))
@@ -195,29 +199,33 @@ public class SoundVolumeForm extends javax.swing.JFrame {
                 .addGap(12, 12, 12)
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jSlider1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel4))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jSlider1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel2)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3)
-                    .addComponent(jSlider2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jLabel3)
+                        .addComponent(jSlider2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton1)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void jSlider2StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_jSlider2StateChanged
-		jLabel5.setText((mulSe = (float) (jSlider2.getValue() * 0.1)) + "");
+		mulSe = (float) (jSlider2.getValue() * 0.1);
+		jLabel5.setText((mulSe * 100 + "").split("[.]")[0] + "%");
     }//GEN-LAST:event_jSlider2StateChanged
 
     private void jSlider1StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_jSlider1StateChanged
-		jLabel4.setText((mulBgm = (float) (jSlider1.getValue() * 0.1)) + "");
+		mulBgm = (float) (jSlider1.getValue() * 0.1);
+		jLabel4.setText((mulBgm * 100 + "").split("[.]")[0] + "%");
     }//GEN-LAST:event_jSlider1StateChanged
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -250,17 +258,47 @@ public class SoundVolumeForm extends javax.swing.JFrame {
 		if (evt.getKeyCode() == Keys.ENTER.getKeyCode()) {
 			jButton1.doClick();
 		}
+		if(evt.getKeyCode() == Keys.UP.getKeyCode()){
+			jSlider2.grabFocus();
+			return;
+		}
+		if(evt.getKeyCode() == Keys.DOWN.getKeyCode()){
+			jSlider1.grabFocus();
+			return;
+		}
     }//GEN-LAST:event_jButton1KeyPressed
 
     private void jSlider2KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jSlider2KeyPressed
 		if (evt.getKeyCode() == Keys.ENTER.getKeyCode()) {
 			jButton1.doClick();
+			return;
+		}
+		if(evt.getKeyCode() == Keys.UP.getKeyCode()){
+			jSlider2.setValue(jSlider2.getValue() - 1);
+			jSlider1.grabFocus();
+			return;
+		}
+		if(evt.getKeyCode() == Keys.DOWN.getKeyCode()){
+			jSlider2.setValue(jSlider2.getValue() + 1);
+			jButton1.grabFocus();
+			return;
 		}
     }//GEN-LAST:event_jSlider2KeyPressed
 
     private void jSlider1KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jSlider1KeyPressed
 		if (evt.getKeyCode() == Keys.ENTER.getKeyCode()) {
 			jButton1.doClick();
+			return;
+		}
+		if(evt.getKeyCode() == Keys.UP.getKeyCode()){
+			jSlider1.setValue(jSlider1.getValue() - 1);
+			jButton1.grabFocus();
+			return;
+		}
+		if(evt.getKeyCode() == Keys.DOWN.getKeyCode()){
+			jSlider1.setValue(jSlider1.getValue() + 1);
+			jSlider2.grabFocus();
+			return;
 		}
     }//GEN-LAST:event_jSlider1KeyPressed
 
