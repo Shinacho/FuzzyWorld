@@ -25,6 +25,7 @@ package fuzzyworld1;
 
 import java.awt.Color;
 import java.awt.Font;
+import java.awt.Rectangle;
 import java.io.File;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
@@ -43,12 +44,12 @@ import kinugasa.resource.sound.SoundLoader;
 import static kinugasa.game.GameOption.GUILockMode.*;
 import kinugasa.game.I18N;
 import kinugasa.game.PlayerConstants;
+import kinugasa.game.input.GamePadButton;
 import kinugasa.game.input.InputType;
 import kinugasa.game.input.Keys;
 import kinugasa.game.system.Status;
 import kinugasa.game.ui.FontModel;
 import kinugasa.game.ui.SimpleMessageWindowModel;
-import kinugasa.game.ui.SimpleTextLabelModel;
 import kinugasa.graphics.ImageUtil;
 import kinugasa.resource.sound.SoundStorage;
 
@@ -68,7 +69,7 @@ public class GM extends GameManager {
 	}
 
 	private GM() {
-		super(GameOption.fromGUI("Fuzzy World", ON_DISABLE, ON_DISABLE, ON_ENABLE).setBackColor(new Color(0, 32, 66)));
+		super(GameOption.fromGUI("Kinugasa Game Launcher", ON_DISABLE, ON_DISABLE, ON_ENABLE).setBackColor(new Color(0, 32, 66)));
 		//
 		//フォントのロード
 		//
@@ -129,16 +130,18 @@ public class GM extends GameManager {
 		}
 
 		//スクリーンショット
-		if (is.isPressed(Keys.F12, InputType.SINGLE)) {
+		if (is.isPressed(GamePadButton.BACK, Keys.F12, InputType.SINGLE)) {
 			JFileChooser c = new JFileChooser();
 			c.setDialogTitle(I18N.translate("SCREEN_SHOT"));
 			c.setSelectedFile(new File(PlayerConstants.getInstance().DESKTOP_PATH + "/screenShot_" + System.currentTimeMillis() + ".png"));
 			c.setMultiSelectionEnabled(false);
+
 			int r = c.showSaveDialog(null);
 			if (r == JFileChooser.APPROVE_OPTION) {
 				File f = c.getSelectedFile();
 				SoundStorage.getInstance().get("SE").get("screenShot.wav").load().stopAndPlay();
-				ImageUtil.screenShot(f.getAbsolutePath(), getWindow().getBounds());
+				Rectangle rec = getWindow().getBounds();
+				ImageUtil.screenShot(f.getAbsolutePath(), rec);
 			}
 		}
 

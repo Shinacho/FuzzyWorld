@@ -57,7 +57,7 @@ public class SoundVolumeForm extends javax.swing.JFrame {
 	}
 
 	private void init() {
-		setIconImage(ImageUtil.load("resource/data/image/icon.png"));
+		setIconImage(new ImageIcon(getClass().getResource("icon.png")).getImage());
 		CSVFile file = new CSVFile("resource/data/volume.txt");
 		file.load();
 		List<String[]> data = file.getData();
@@ -258,12 +258,16 @@ public class SoundVolumeForm extends javax.swing.JFrame {
 		if (evt.getKeyCode() == Keys.ENTER.getKeyCode()) {
 			jButton1.doClick();
 		}
-		if(evt.getKeyCode() == Keys.UP.getKeyCode()){
+		if (evt.getKeyCode() == Keys.UP.getKeyCode()) {
 			jSlider2.grabFocus();
 			return;
 		}
-		if(evt.getKeyCode() == Keys.DOWN.getKeyCode()){
+		if (evt.getKeyCode() == Keys.DOWN.getKeyCode()) {
 			jSlider1.grabFocus();
+			return;
+		}
+		if (evt.getKeyCode() == Keys.BACK_SPACE.getKeyCode()) {
+			setVisible(false);
 			return;
 		}
     }//GEN-LAST:event_jButton1KeyPressed
@@ -273,14 +277,18 @@ public class SoundVolumeForm extends javax.swing.JFrame {
 			jButton1.doClick();
 			return;
 		}
-		if(evt.getKeyCode() == Keys.UP.getKeyCode()){
+		if (evt.getKeyCode() == Keys.UP.getKeyCode()) {
 			jSlider2.setValue(jSlider2.getValue() - 1);
 			jSlider1.grabFocus();
 			return;
 		}
-		if(evt.getKeyCode() == Keys.DOWN.getKeyCode()){
+		if (evt.getKeyCode() == Keys.DOWN.getKeyCode()) {
 			jSlider2.setValue(jSlider2.getValue() + 1);
 			jButton1.grabFocus();
+			return;
+		}
+		if (evt.getKeyCode() == Keys.BACK_SPACE.getKeyCode()) {
+			setVisible(false);
 			return;
 		}
     }//GEN-LAST:event_jSlider2KeyPressed
@@ -290,14 +298,18 @@ public class SoundVolumeForm extends javax.swing.JFrame {
 			jButton1.doClick();
 			return;
 		}
-		if(evt.getKeyCode() == Keys.UP.getKeyCode()){
+		if (evt.getKeyCode() == Keys.UP.getKeyCode()) {
 			jSlider1.setValue(jSlider1.getValue() - 1);
 			jButton1.grabFocus();
 			return;
 		}
-		if(evt.getKeyCode() == Keys.DOWN.getKeyCode()){
+		if (evt.getKeyCode() == Keys.DOWN.getKeyCode()) {
 			jSlider1.setValue(jSlider1.getValue() + 1);
 			jSlider2.grabFocus();
+			return;
+		}
+		if (evt.getKeyCode() == Keys.BACK_SPACE.getKeyCode()) {
+			setVisible(false);
 			return;
 		}
     }//GEN-LAST:event_jSlider1KeyPressed
