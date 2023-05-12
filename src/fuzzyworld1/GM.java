@@ -44,7 +44,6 @@ import kinugasa.game.I18N;
 import kinugasa.game.PlayerConstants;
 import kinugasa.game.input.InputType;
 import kinugasa.game.input.Keys;
-import kinugasa.game.system.PCStatusWindow;
 import kinugasa.game.system.Status;
 import kinugasa.game.ui.FontModel;
 import kinugasa.game.ui.SimpleMessageWindowModel;
@@ -85,8 +84,14 @@ public class GM extends GameManager {
 		Status.canMagicStatusName = "CAN_MAGIC";
 		Status.canMagicStatusValue = "1";
 		SimpleMessageWindowModel.maxLine = 22;
-		SoundLoader.loadList("resource/bgm/BGM.csv");
-		SoundLoader.loadList("resource/se/SE.csv");
+		SoundVolumeForm volumeForm = SoundVolumeForm.getInstance();
+		float volumeBgm = volumeForm.getMulBgm();
+		float volumeSe = volumeForm.getMulSe();
+		if (GameSystem.isDebugMode()) {
+			System.out.println("volume: BGM[" + volumeBgm + "] se:[" + volumeSe + "]");
+		}
+		SoundLoader.loadList("resource/bgm/BGM.csv", volumeBgm);
+		SoundLoader.loadList("resource/se/SE.csv", volumeSe);
 		fps = new FPSLabel((int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() - 60), 12);
 		//
 		gls = GameLogicStorage.getInstance();
@@ -99,6 +104,7 @@ public class GM extends GameManager {
 		gls.add(new BattleLogic(this));
 		gls.add(new SSLogic(this));
 
+		//
 		gls.changeTo(Const.LogicName.SS_LOGIC);
 		getWindow().setTitle("Fuzzy World" + " -" + I18N.translate("SUB_TITLE") + "-");
 		//

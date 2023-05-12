@@ -27,6 +27,10 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.Toolkit;
+import java.awt.event.KeyEvent;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.SwingUtilities;
 import kinugasa.game.GameLogic;
 import kinugasa.game.GameManager;
 import kinugasa.game.GameOption;
@@ -42,6 +46,7 @@ import kinugasa.game.ui.FontModel;
 import kinugasa.game.ui.SimpleTextLabelModel;
 import kinugasa.resource.sound.SoundStorage;
 import kinugasa.game.I18N;
+import kinugasa.game.input.KeyConnection;
 import kinugasa.game.input.Keys;
 import kinugasa.game.ui.Dialog;
 import kinugasa.graphics.ColorChanger;
@@ -64,12 +69,11 @@ public class TitleLogic extends GameLogic {
 	}
 	private ActionTextSpriteGroup atsg;
 	private int selected;
-	private Sound sound;
 
 	@Override
 	public void load() {
 		stage = -2;
-		atsg = new ActionTextSpriteGroup(540, 340,
+		atsg = new ActionTextSpriteGroup(540, 320,
 				new ActionTextSprite(I18N.translate("NEW_GAME"), new SimpleTextLabelModel(FontModel.DEFAULT.clone().setFontSize(14)), 0, 0, 18, 0, new Action() {
 					@Override
 					public void exec() {
@@ -100,6 +104,12 @@ public class TitleLogic extends GameLogic {
 						gls.changeTo(Const.LogicName.GAMEPAD_TEST);
 					}
 				}),
+				new ActionTextSprite(I18N.translate("SOUND_VOLUME"), new SimpleTextLabelModel(FontModel.DEFAULT.clone().setFontSize(14)), 0, 0, 18, 0, new Action() {
+					@Override
+					public void exec() {
+						SwingUtilities.invokeLater(() -> SoundVolumeForm.getInstance().setVisible(true));
+					}
+				}),
 				new ActionTextSprite(I18N.translate("GAME_EXIT"), new SimpleTextLabelModel(FontModel.DEFAULT.clone().setFontSize(14)), 0, 0, 18, 0, new Action() {
 					@Override
 					public void exec() {
@@ -108,8 +118,6 @@ public class TitleLogic extends GameLogic {
 					}
 				})
 		);
-
-		sound = SoundStorage.getInstance().get("SE").get("å¯â âπÅQëIë1.wav").load();
 
 		SoundStorage.getInstance().get("BGM").get("ÉtÉBÅ[ÉãÉhÇR.wav").load().play();
 		atsg.setSelectedIdx(selected);
@@ -143,18 +151,25 @@ public class TitleLogic extends GameLogic {
 			case 0:
 				if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
 					atsg.next();
-					sound.stopAndPlay();
+					SoundStorage.getInstance().get("SE").get("å¯â âπÅQëIë1.wav").load().stopAndPlay();
 					selected = atsg.getSelectedIdx();
 				}
 				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
 					atsg.prev();
-					sound.stopAndPlay();
+					SoundStorage.getInstance().get("SE").get("å¯â âπÅQëIë1.wav").load().stopAndPlay();
 					selected = atsg.getSelectedIdx();
 				}
 				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+					selected = atsg.getSelectedIdx();
+					if (selected == 4) {
+						atsg.exec();
+						is.keyReleaseEvent(gm, Keys.ENTER);
+						return;
+					}
 					if (selected == 3 && !GameOption.getInstance().isUseGamePad()) {
 						Toolkit.getDefaultToolkit().beep();
 						Dialog.info(I18N.translate("GAMEPAD_NOTFOUND"));
+						is.keyReleaseEvent(gm, Keys.ENTER);
 						return;
 					}
 					if (selected == 0) {
@@ -162,8 +177,7 @@ public class TitleLogic extends GameLogic {
 						nextStage();
 						return;
 					}
-					selected = atsg.getSelectedIdx();
-					sound.stopAndPlay();
+					SoundStorage.getInstance().get("SE").get("å¯â âπÅQëIë1.wav").load().stopAndPlay();
 					atsg.exec();
 				}
 				break;

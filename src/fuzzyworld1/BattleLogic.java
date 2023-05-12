@@ -43,6 +43,7 @@ import kinugasa.game.system.BattleResultValues;
 import kinugasa.game.system.BattleSystem;
 import kinugasa.game.system.Enemy;
 import kinugasa.game.system.GameSystem;
+import kinugasa.game.system.OperationResult;
 import kinugasa.game.system.SpeedCalcModelStorage;
 import kinugasa.game.system.Status;
 import kinugasa.game.ui.Dialog;
@@ -106,6 +107,7 @@ public class BattleLogic extends GameLogic {
 			});
 			choiceSound1 = SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load();
 			choiceSound2 = SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load();
+			playerOpeStart = SoundStorage.getInstance().get("SE").get("効果音＿バトルターン開始.wav").load();
 			loaded = true;
 		}
 
@@ -118,7 +120,7 @@ public class BattleLogic extends GameLogic {
 	private BattleSystem battleSystem;
 	private BattleCommand cmd;
 	private Point2D.Float playerMoveInitialLocation;
-	private Sound choiceSound1, choiceSound2;
+	private Sound choiceSound1, choiceSound2, playerOpeStart;
 
 	@Override
 	public void update(GameTimeManager gtm, InputState is) {
@@ -159,7 +161,10 @@ public class BattleLogic extends GameLogic {
 				//処理なし
 				break;
 			case WAITING_EXEC_CMD:
-				battleSystem.execCmd();//EXEC_ACTIONやCMD＿SELECTに入る
+				BattleCommand cmd = battleSystem.execCmd();//EXEC_ACTIONやCMD＿SELECTに入る
+				if (cmd.isUserOperation()) {
+					playerOpeStart.stopAndPlay();
+				}
 				break;
 			case CMD_SELECT:
 				//CMDWからコマンドを選択
@@ -177,10 +182,29 @@ public class BattleLogic extends GameLogic {
 					choiceSound1.stopAndPlay();
 					battleSystem.nextCmdSelect();
 				}
+				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+					choiceSound1.stopAndPlay();
+					OperationResult rs = battleSystem.commitCmd();
+				}
 				break;
 			case ESCAPING:
 				break;
 			case ITEM_CHOICE_USE:
+				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+					choiceSound1.stopAndPlay();
+					battleSystem.prevItemChoiceUseWindowSelect();
+				} else if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+					choiceSound1.stopAndPlay();
+					battleSystem.nextItemChoiceUseWindowSelect();
+				}
+				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+					choiceSound1.stopAndPlay();
+					battleSystem.commitItemChoiceUse();
+				}
+				if (is.isPressed(GamePadButton.B, Keys.BACK_SPACE, InputType.SINGLE)) {
+					choiceSound1.stopAndPlay();
+					battleSystem.cancelItemChoice();
+				}
 				break;
 			case SHOW_STATUS:
 				break;
