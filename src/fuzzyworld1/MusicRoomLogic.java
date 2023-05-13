@@ -28,8 +28,11 @@ import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import kinugasa.game.GameLogic;
 import kinugasa.game.GameManager;
 import kinugasa.game.GameOption;
@@ -40,6 +43,7 @@ import kinugasa.game.input.InputState;
 import kinugasa.game.input.InputType;
 import kinugasa.game.input.Keys;
 import kinugasa.game.ui.FontModel;
+import kinugasa.game.ui.MessageWindow;
 import kinugasa.game.ui.MusicRoom;
 import kinugasa.game.ui.SimpleMessageWindowModel;
 import kinugasa.graphics.Animation;
@@ -48,6 +52,7 @@ import kinugasa.graphics.ImageUtil;
 import kinugasa.graphics.RenderingQuality;
 import kinugasa.object.AnimationSprite;
 import kinugasa.resource.sound.SoundStorage;
+import kinugasa.resource.text.CSVFile;
 import kinugasa.util.FrameTimeCounter;
 
 /**
@@ -62,6 +67,8 @@ public class MusicRoomLogic extends GameLogic {
 	}
 
 	private MusicRoom mr;
+	private MessageWindow comment;
+	private Map<String, String> commentMap = new HashMap<>();
 
 	@Override
 	public void load() {
@@ -71,7 +78,15 @@ public class MusicRoomLogic extends GameLogic {
 				(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() - 48),
 				(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 * 2),
 				SimpleMessageWindowModel.maxLine);
-
+		comment = new MessageWindow(240, 280, 442, 140, new SimpleMessageWindowModel(""));
+		//コメントマップのロード
+		CSVFile file = new CSVFile("resource/bgm/bgmComment.csv", Charset.forName("UTF-8")).load();
+		for (String[] l : file.getData()) {
+			if (l.length == 2) {
+				commentMap.put(l[0], l[1]);
+			}
+		}
+		file.dispose();
 		soundNameSprite = new SoundNameSprite(380, 64);
 	}
 
@@ -93,6 +108,12 @@ public class MusicRoomLogic extends GameLogic {
 		}
 
 		if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+			if (commentMap.containsKey(mr.getSelected().getText())) {
+				comment.setText(commentMap.get(mr.getSelected().getText()));
+				comment.allText();
+			} else {
+				comment.setText("");
+			}
 			mr.play();
 			soundNameSprite.setText(mr.getSelected().getText().replaceAll(".wav", ""));
 		}
@@ -119,6 +140,7 @@ public class MusicRoomLogic extends GameLogic {
 		g2.dispose();
 		mr.draw(g);
 		soundNameSprite.draw(g);
+		comment.draw(g);
 	}
 
 	static class SoundNameSprite extends AnimationSprite {

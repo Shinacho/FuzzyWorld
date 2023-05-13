@@ -223,6 +223,21 @@ public class BattleLogic extends GameLogic {
 				}
 				break;
 			case TARGET_SELECT:
+				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+					choiceSound1.stopAndPlay();
+					battleSystem.prevTargetSelect();
+				} else if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+					choiceSound1.stopAndPlay();
+					battleSystem.nextTargetSelect();
+				}
+				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+					choiceSound1.stopAndPlay();
+					battleSystem.commitTargetSelect();
+				}
+				if (is.isPressed(GamePadButton.B, Keys.BACK_SPACE, InputType.SINGLE)) {
+					choiceSound1.stopAndPlay();
+					battleSystem.cancelTargetSelect();
+				}
 				break;
 			case PLAYER_MOVE:
 				break;

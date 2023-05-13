@@ -235,6 +235,20 @@ THE SOFTWARE.
             <material name="鎖" num="4"/>
         </disassembly>
     </item>
+    <item name="プレートアーマー" desc="金属板で作られた非常に頑丈で重い鎧だ" value="300000" slot="胴">
+        <eqStatus tgt="DEF" value="55" />
+        <eqAttr tgt="IMPACT" value="-0.01"/>
+        <eqAttr tgt="STAB" value="-0.12"/>
+        <eqAttr tgt="CHOP" value="-0.35"/>
+        <disassembly>
+            <material name="皮" num="1"/>
+            <material name="布" num="1"/>
+            <material name="紐" num="1"/>
+            <material name="ワイヤー" num="2"/>
+            <material name="鎖" num="1"/>
+            <material name="鉄片" num="4"/>
+        </disassembly>
+    </item>
     <item name="魚皮のコート" desc="魚の皮で作られた、珍しい外套だ。" value="30000" slot="胴">
         <eqStatus tgt="DEF" value="8" />
         <eqAttr tgt="IMPACT" value="-0.10"/>
@@ -1290,6 +1304,7 @@ THE SOFTWARE.
         <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
     
+    <!--
     <magic name="テスト魔法バトルALL" desc="テスト用の魔法だ。/味方一人の体力をわずかに回復する。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
         <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
         <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
@@ -1306,7 +1321,7 @@ THE SOFTWARE.
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
         <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-	
+    -->
 	
     <!--その他-->
     <other name="逃走" desc="逃走する" sort="5">

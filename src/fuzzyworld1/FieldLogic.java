@@ -230,6 +230,7 @@ public class FieldLogic extends GameLogic {
 	private MagicWindow magicWindow;
 	private InfoWindow infoWindow;
 	private boolean battle = false;
+	private FrameTimeCounter mapChangeWaitTime;
 
 	@Override
 	public void dispose() {
@@ -436,6 +437,12 @@ public class FieldLogic extends GameLogic {
 				}
 				//ユーザオペレーション可否確認
 				if (!FieldEventSystem.getInstance().isUserOperation()) {
+					return;
+				}
+				if (mapChangeWaitTime != null) {
+					if (mapChangeWaitTime.isReaching()) {
+						mapChangeWaitTime = null;
+					}
 					return;
 				}
 				//メニュー操作
@@ -980,6 +987,7 @@ public class FieldLogic extends GameLogic {
 						gls.changeTo(Const.LogicName.BATTLE);
 					} else {
 						fieldMap = fieldMap.changeMap();
+						mapChangeWaitTime = new FrameTimeCounter(20);
 					}
 					stage++;
 				}
