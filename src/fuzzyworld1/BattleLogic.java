@@ -33,9 +33,11 @@ import kinugasa.game.GameTimeManager;
 import kinugasa.game.GraphicsContext;
 import kinugasa.game.I18N;
 import kinugasa.game.input.GamePadButton;
+import kinugasa.game.input.GamePadButtons;
 import kinugasa.game.input.InputState;
 import kinugasa.game.input.InputType;
 import kinugasa.game.input.Keys;
+import kinugasa.game.input.MouseButtons;
 import kinugasa.game.system.BattleCommand;
 import kinugasa.game.system.BattleConfig;
 import kinugasa.game.system.BattleResult;
@@ -155,6 +157,11 @@ public class BattleLogic extends GameLogic {
 		if (battleSystem.waitAction()) {
 			return;
 		}
+		//戦況図
+		if (is.isPressed(GamePadButton.LB, Keys.SHIFT, InputType.SINGLE)) {
+			battleSystem.switchShowMode();
+		} 
+		//モード別処理
 		switch (battleSystem.getStage()) {
 			case STARTUP:
 			case INITIAL_MOVING:
@@ -208,7 +215,12 @@ public class BattleLogic extends GameLogic {
 				break;
 			case SHOW_STATUS:
 				break;
-			case SHOW_ITEM:
+			case SHOW_ITEM_DESC:
+				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)
+						|| is.isPressed(GamePadButton.B, Keys.BACK_SPACE, InputType.SINGLE)) {
+					choiceSound1.stopAndPlay();
+					battleSystem.cancelItemDescShow();
+				}
 				break;
 			case TARGET_SELECT:
 				break;
@@ -216,6 +228,7 @@ public class BattleLogic extends GameLogic {
 				break;
 			case EXECUTING_ACTION:
 			case EXECUTING_MOVE:
+				//処理なし（ステージが自動更新されるまで待つ）
 				break;
 			case BATLE_END:
 				//TODO:バトルエンド処理

@@ -28,6 +28,10 @@ THE SOFTWARE.
 	<event order="0" fet="IF" stName="" tgtName="" value="" term="TOMAGISHUT_E02_FLG_NOT_EXISTS"/>
 	
 		<event order="100" fet="PC_DIR_TO" stName="" tgtName="0" value="WEST" term=""/>
+		<event order="101" fet="NPC_ANIMATION_IDX_TO" stName="" tgtName="NPC02" value="1" term=""/>
+		<event order="102" fet="PC_ANIMATION_IDX_TO" stName="" tgtName="0" value="1" term=""/>
+		
+		
 		<event order="110" fet="WAIT" stName="" tgtName="" value="60" term=""/>
 		<event order="120" fet="FADE_IN" stName="" tgtName="" value="" term=""/>
 		<event order="130" fet="SHOW_MESSAGE_FROM_TEXTSTORAGE" stName="003" tgtName="" value="001" term="" />
@@ -113,14 +117,16 @@ THE SOFTWARE.
 		<event order="1800" fet="FADE_IN" stName="" tgtName="" value="" term=""/>
 		<event order="1900" fet="NPC_MOVE_AND_WAIT_THAT" stName="" tgtName="NPC02" value="8,2" term="" />
 		<event order="1950" fet="NPC_DIR_TO" stName="" tgtName="NPC02" value="EAST" term="" />
+		<event order="1951" fet="NPC_ANIMATION_IDX_TO" stName="" tgtName="NPC02" value="1" term=""/>
 		<event order="2000" fet="SHOW_MESSAGE_FROM_TEXTSTORAGE" stName="003" tgtName="" value="050" term="" />
 		<event order="2100" fet="NPC_MOVE_AND_WAIT_THAT" stName="" tgtName="NPC02" value="1,11" term="" />
 		<event order="2200" fet="NPC_REMOVE" stName="" tgtName="NPC02" value="" term="" />
 		<!-- MAIN:1 -->
 		
 	<!-- テスト用 -->
+	<!--
 	<event order="2999" fet="START_BATTLE" stName="01" value="" term=""/>
-	
+	-->
 	<event order="3000" fet="END_IF" stName="" tgtName="" value="" term=""/>
 	<event order="3100" fet="ENABLE_OPERATION" stName="" tgtName="" value="" term="" />
 	<event order="3250" fet="SET_FLG_DIRECT" stName="STORY" tgtName="TOMAGISHUT_E02" value="ON" term="" />
