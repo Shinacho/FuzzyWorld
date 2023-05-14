@@ -88,7 +88,7 @@ THE SOFTWARE.
 		<event order="304" fet="INIT_STATUS" tgtName="0,SPD" value="35"/>
 		<event order="305" fet="INIT_STATUS" tgtName="0,DEX" value="35"/>
 		<event order="306" fet="INIT_STATUS" tgtName="0,POW" value="35"/>
-		<event order="308" fet="INIT_STATUS" tgtName="0,MOV" value="44"/>
+		<event order="308" fet="INIT_STATUS" tgtName="0,MOV" value="45"/>
 		<event order="309" fet="INIT_STATUS" tgtName="0,EXP" value="0"/>
 		<event order="310" fet="INIT_STATUS" tgtName="0,ATK" value="35"/>
 		<event order="311" fet="INIT_STATUS" tgtName="0,DEF" value="9"/>

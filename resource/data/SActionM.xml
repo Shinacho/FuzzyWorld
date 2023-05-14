@@ -1164,7 +1164,7 @@ THE SOFTWARE.
 
     <!--’ÊíUŒ‚ -->
 	
-    <attack name="‚±‚Ô‚µ" desc="‰£‚è‚©‚©‚é" term="˜r–¢‘•”õ" area="20" waitTime="48" sound="’ÊíUŒ‚" >
+    <attack name="‚±‚Ô‚µ" desc="‰£‚è‚©‚©‚é" term="˜r–¢‘•”õ" area="999" waitTime="48" sound="’ÊíUŒ‚" >
         <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-5" p="0.75" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
     </attack>
     <attack name="Œ•UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="Œ•‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚" >
