@@ -72,7 +72,7 @@ public class BattleLogic extends GameLogic {
 		battleSystem = GameSystem.getInstance().getBattleSystem();
 
 		if (!loaded) {
-			SpeedCalcModelStorage.getInstance().setCurrent("SPD_20%");
+			SpeedCalcModelStorage.getInstance().setCurrent("SPD_50%RANDOM");
 			Enemy.setProgressBarKey("HP");
 			BattleConfig.StatusKey.hp = "HP";
 			BattleConfig.StatusKey.move = "MOV";

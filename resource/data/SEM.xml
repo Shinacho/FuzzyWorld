@@ -28,6 +28,7 @@ THE SOFTWARE.
 		<status name="HP" value="80" min="0" max="80"/>
 		<status name="MOV" value="70" min="0" max="75" />
 		<status name="EXP" value="100"  min="0" max="200"/>
+		<status name="SPD" value="100"  min="0" max="200"/>
 		<attrIn name="STAB" value="0.5"/>
 		<action name="‚±‚Ô‚µ" />
 		<action name="ˆÚ“®"/>
@@ -48,26 +49,19 @@ THE SOFTWARE.
 		<status name="MOV" value="40" min="0" max="75" />
 		<status name="SAN" value="40" min="0" max="75" />
 		<status name="EXP" value="120" min="0" max="200"/>
-		<action name="‚±‚Ô‚µ"/>
-		<!--
-		<action name="“V’n—‹–Â"/>
-		<action name="ƒtƒ@ƒCƒAƒ{ƒ‹ƒg"/>
-		<book name="‰Î‰Š‚Ì‘" />
-		-->
+		<action name="˜B‹à•¨Ž¿˜B¬"/>
+		<book name="–‚p‚Ì‘u˜B‹à–‚–@‚Pv" />
 	</enemy>
 	
 	<enemy name="MP‚ª‘«‚è‚È‚¢–‚pŽt" visibleName="MP‚ª‘«‚è‚È‚¢–‚pŽt" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE">
 		<status name="HP" value="80" min="0" max="80"/>
-		<status name="MP" value="2" min="0" max="2"/>
+		<status name="MP" value="2" min="0" max="1"/>
 		<status name="MOV" value="40" min="0" max="75" />
 		<status name="SAN" value="40" min="0" max="75" />
 		<status name="EXP" value="120" min="0" max="200"/>
-		<action name="‚±‚Ô‚µ"/>
-		<!--
-		<action name="“V’n—‹–Â"/>
-		<action name="ƒtƒ@ƒCƒAƒ{ƒ‹ƒg"/>
-		<book name="‰Î‰Š‚Ì‘" />
-		-->
+		<action name="˜B‹à•¨Ž¿˜B¬"/>
+		<action name="ˆÚ“®"/>
+		<book name="–‚p‚Ì‘u˜B‹à–‚–@‚Pv" />
 	</enemy>	
 	<enemy name="“®‚­–‚pŽt" visibleName="“®‚­–‚pŽt" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE">
 		<status name="HP" value="80" min="0" max="80"/>
@@ -75,12 +69,9 @@ THE SOFTWARE.
 		<status name="MOV" value="40" min="0" max="75" />
 		<status name="SAN" value="40" min="0" max="75" />
 		<status name="EXP" value="120" min="0" max="200"/>
-		<action name="‚±‚Ô‚µ"/>
-		<!--
-		<action name="“V’n—‹–Â"/>
-		<action name="ƒtƒ@ƒCƒAƒ{ƒ‹ƒg"/>
-		<book name="‰Î‰Š‚Ì‘" />
-		-->
+		<action name="˜B‹à•¨Ž¿˜B¬"/>
+		<action name="ˆÚ“®"/>
+		<book name="–‚p‚Ì‘u˜B‹à–‚–@‚Pv" />
 	</enemy>
 	
 	

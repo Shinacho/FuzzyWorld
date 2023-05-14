@@ -32,6 +32,9 @@ THE SOFTWARE.
 
 	<!-- 状態異常のマスタ定、魔法、スキル、装備による効果も同じストレージに追加することができる	-->
 
+	<cCondition name="CASTING" desc="詠唱中" pri="1">
+		<effect ect="CONTINUE" time="INFINITY" ett="STOP" p="1" />
+	</cCondition>
 	
 	<cCondition name="DEFENCE" desc="防御" pri="1" >
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="DEF" value="+0.33" p="1" />
