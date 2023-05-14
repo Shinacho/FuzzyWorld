@@ -33,11 +33,9 @@ import kinugasa.game.GameTimeManager;
 import kinugasa.game.GraphicsContext;
 import kinugasa.game.I18N;
 import kinugasa.game.input.GamePadButton;
-import kinugasa.game.input.GamePadButtons;
 import kinugasa.game.input.InputState;
 import kinugasa.game.input.InputType;
 import kinugasa.game.input.Keys;
-import kinugasa.game.input.MouseButtons;
 import kinugasa.game.system.BattleCommand;
 import kinugasa.game.system.BattleConfig;
 import kinugasa.game.system.BattleResult;
@@ -45,7 +43,6 @@ import kinugasa.game.system.BattleResultValues;
 import kinugasa.game.system.BattleSystem;
 import kinugasa.game.system.Enemy;
 import kinugasa.game.system.GameSystem;
-import kinugasa.game.system.OperationResult;
 import kinugasa.game.system.SpeedCalcModelStorage;
 import kinugasa.game.system.Status;
 import kinugasa.game.ui.Dialog;
@@ -137,20 +134,6 @@ public class BattleLogic extends GameLogic {
 				}
 			}
 		}
-		//チートコンソール
-		if (is.isPressed(Keys.AT, InputType.SINGLE)) {
-			ConsolCmd cmd = new ConsolCmd();
-			cmd.setVisible(true);
-			try {
-				while (true) {
-					Thread.sleep(300);
-					if (!cmd.isVisible()) {
-						break;
-					}
-				}
-			} catch (InterruptedException ex) {
-			}
-		}
 
 		//--------------------------------------------------------------------------
 		battleSystem.update();
@@ -191,7 +174,7 @@ public class BattleLogic extends GameLogic {
 				}
 				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
 					choiceSound1.stopAndPlay();
-					OperationResult rs = battleSystem.commitCmd();
+					battleSystem.commitCmd();
 				}
 				break;
 			case ESCAPING:
@@ -214,6 +197,28 @@ public class BattleLogic extends GameLogic {
 				}
 				break;
 			case SHOW_STATUS:
+				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+					choiceSound1.stopAndPlay();
+					battleSystem.prevStatusWindowSelect();
+				} else if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+					choiceSound1.stopAndPlay();
+					battleSystem.nextStatusWindowSelect();
+				}
+				if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
+					choiceSound2.stopAndPlay();
+					battleSystem.prevStatusWindowChara();
+				} else if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
+					choiceSound2.stopAndPlay();
+					battleSystem.nextStatusWindowChara();
+				}
+				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+					choiceSound1.stopAndPlay();
+					battleSystem.nextStatusWindowPage();
+				}
+				if (is.isPressed(GamePadButton.B, Keys.BACK_SPACE, InputType.SINGLE)) {
+					choiceSound1.stopAndPlay();
+					battleSystem.cancelStatusDesc();
+				}
 				break;
 			case SHOW_ITEM_DESC:
 				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)

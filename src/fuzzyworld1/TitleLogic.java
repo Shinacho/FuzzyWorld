@@ -27,6 +27,7 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.Toolkit;
+import java.util.Random;
 import javax.swing.SwingUtilities;
 import kinugasa.game.GameLogic;
 import kinugasa.game.GameManager;
@@ -114,7 +115,11 @@ public class TitleLogic extends GameLogic {
 				})
 		);
 
-		SoundStorage.getInstance().get("BGM").get("フィールド３.wav").load().play();
+		if (kinugasa.util.Random.percent(0.5f)) {
+			SoundStorage.getInstance().get("BGM").get("フィールド３.wav").load().play();
+		}else{
+			SoundStorage.getInstance().get("BGM").get("フィールド２.wav").load().play();
+		}
 		atsg.setSelectedIdx(selected);
 
 	}

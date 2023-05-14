@@ -34,6 +34,7 @@ THE SOFTWARE.
 	
 	<inOutNode name="ND_04_0002" x="7" y="12" tgtMap="TOMAGISHUT" exitNode="ND_03_0001" tooltip="漁師の小屋" accepterName="TRUE" outDir="NORTH" se="SE/足音.wav"/>
 
+	<inOutNode name="ND_04_0005" x="5" y="16" tgtMap="WORLDMAP" exitNode="ND_05_0001" tooltip="ワールドマップ" accepterName="TRUE" outDir="NORTH" se="SE/足音.wav"/>
 	<inOutNode name="ND_04_0003" x="6" y="16" tgtMap="WORLDMAP" exitNode="ND_05_0001" tooltip="ワールドマップ" accepterName="TRUE" outDir="NORTH" se="SE/足音.wav"/>
 	<inOutNode name="ND_04_0004" x="7" y="16" tgtMap="WORLDMAP" exitNode="ND_05_0001" tooltip="ワールドマップ" accepterName="TRUE" outDir="NORTH" se="SE/足音.wav"/>
 

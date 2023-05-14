@@ -251,7 +251,11 @@ public class SoundVolumeForm extends javax.swing.JFrame {
 
 		setVisible(false);
 		SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
-		SoundStorage.getInstance().get("BGM").get("フィールド３.wav").load().stopAndPlay();
+		if (kinugasa.util.Random.percent(0.5f)) {
+			SoundStorage.getInstance().get("BGM").get("フィールド３.wav").load().play();
+		}else{
+			SoundStorage.getInstance().get("BGM").get("フィールド２.wav").load().play();
+		}
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton1KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jButton1KeyPressed

@@ -132,7 +132,7 @@ public class OPLogic extends GameLogic {
 			case 6:
 				Dialog.InputResult r = null;
 				do {
-					r = Dialog.input(I18N.translate("PLEASE_NAME"), 4);
+					r = Dialog.input(I18N.translate("PLEASE_NAME"), 5);
 				} while (r.value == null || r.value.equals("") || r.result != DialogOption.YES);
 				Const.Player.pc1Name = r.value;
 				stage++;

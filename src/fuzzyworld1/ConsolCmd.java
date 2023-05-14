@@ -71,6 +71,9 @@ public class ConsolCmd extends javax.swing.JFrame {
 	}
 
 	private void init() {
+		if (GameSystem.getInstance().getPartyStatus().isEmpty()) {
+			return;
+		}
 		for (Status s : GameSystem.getInstance().getPartyStatus()) {
 			jComboBox1.addItem(s.getName());
 			jComboBox2.addItem(s.getName());

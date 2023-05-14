@@ -144,6 +144,20 @@ public class GM extends GameManager {
 				ImageUtil.screenShot(f.getAbsolutePath(), rec);
 			}
 		}
+		//チートコンソール
+		if (is.isPressed(Keys.AT, InputType.SINGLE)) {
+			ConsolCmd cmd = new ConsolCmd();
+			cmd.setVisible(true);
+			try {
+				while (true) {
+					Thread.sleep(300);
+					if (!cmd.isVisible()) {
+						break;
+					}
+				}
+			} catch (InterruptedException ex) {
+			}
+		}
 
 		gls.getCurrent().update(gtm, is);
 	}

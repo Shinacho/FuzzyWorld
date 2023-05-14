@@ -161,7 +161,7 @@ public class FieldLogic extends GameLogic {
 
 		menu = new MessageWindow(24, 24,
 				Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4,
-				Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() / 2 - 40,
+				Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() / 2 - 44,
 				new SimpleMessageWindowModel().setNextIcon(""));
 		List<Text> options = new ArrayList<>();
 		options.add(new Text(I18N.translate("STATUS")));
@@ -256,20 +256,6 @@ public class FieldLogic extends GameLogic {
 						return;
 					} else {
 						return;
-					}
-				}
-				//チートコンソール
-				if (is.isPressed(Keys.AT, InputType.SINGLE)) {
-					ConsolCmd cmd = new ConsolCmd();
-					cmd.setVisible(true);
-					try {
-						while (true) {
-							Thread.sleep(300);
-							if (!cmd.isVisible()) {
-								break;
-							}
-						}
-					} catch (InterruptedException ex) {
 					}
 				}
 				//mw処理
