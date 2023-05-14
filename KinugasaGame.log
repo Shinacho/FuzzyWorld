@@ -1,495 +1,663 @@
-2023/05/14 10:58:29 INFO this is D:/Project/FuzzyWorld/
-2023/05/14 10:58:29 INFO translate\ja.ini
-2023/05/14 10:58:29 INFO LOAD_GAME=つづきから
-2023/05/14 10:58:29 INFO ORDER_SELECT=前列／後列を設定
-2023/05/14 10:58:29 INFO CAN_USE_FIELD=このアイテムはフィールド上で使用できる
-2023/05/14 10:58:29 INFO QSUB=サブ
-2023/05/14 10:58:29 INFO FRONT=前列
-2023/05/14 10:58:29 INFO DISASSEMBLY=解体
-2023/05/14 10:58:29 INFO NO_TARGET=効果範囲内に対象がいない
-2023/05/14 10:58:29 INFO ACTION_EFFECT=基礎威力
-2023/05/14 10:58:29 INFO NODAMAGE=ダメージを受けなかった！！
-2023/05/14 10:58:29 INFO NONE=なし
-2023/05/14 10:58:29 INFO TOMAGISHUT=漁師の小屋
-2023/05/14 10:58:29 INFO SUB=減った
-2023/05/14 10:58:29 INFO GAME_PAD_TEST=コントローラーテスト
-2023/05/14 10:58:29 INFO CURRENT_CONDITION=発生中の効果
-2023/05/14 10:58:29 INFO CAN_USE_BATTLE=このアイテムは戦闘中に使用できる
-2023/05/14 10:58:29 INFO IF_DISASSEMBLY_GET=解体すると以下の素材を得られる
-2023/05/14 10:58:29 INFO FIELD=フィールド
-2023/05/14 10:58:29 INFO ATTR_DOWN=耐性が下がった！
-2023/05/14 10:58:29 INFO IS=は
-2023/05/14 10:58:29 INFO NEW_GAME=はじめから
-2023/05/14 10:58:29 INFO SURVEY=調べる
-2023/05/14 10:58:29 INFO REMOVE_CDNTION=から回復した
-2023/05/14 10:58:29 INFO ACTION_ATTR=属性
-2023/05/14 10:58:29 INFO ITEM=道具
-2023/05/14 10:58:29 INFO PASS=渡す
-2023/05/14 10:58:29 INFO HEALDAMAGE=回復した
-2023/05/14 10:58:29 INFO SHORTAGE=が足りない
-2023/05/14 10:58:29 INFO CHECK=調べる
-2023/05/14 10:58:29 INFO CONDITION=状態異常
-2023/05/14 10:58:29 INFO ATTR_UP=耐性が上がった！
-2023/05/14 10:58:29 INFO MAP=地図
-2023/05/14 10:58:29 INFO WMT=武器種類
-2023/05/14 10:58:29 INFO PARTY=味方
-2023/05/14 10:58:29 INFO CHAPTER2_SUBTITLE=失踪者
-2023/05/14 10:58:29 INFO DCT_DIRECT=直接計算方式
-2023/05/14 10:58:29 INFO WHO_WILL_HOLD_IT=誰が持つ？
-2023/05/14 10:58:29 INFO WORLDMAP=ワールドマップ
-2023/05/14 10:58:29 INFO TOMAGISHUT_OUTER=漁師の小屋の屋外
-2023/05/14 10:58:29 INFO SPECIAL_ATTACK=特技
-2023/05/14 10:58:29 INFO CAN_HAVE=あとn個持てる
-2023/05/14 10:58:29 INFO PASSED=を渡した
-2023/05/14 10:58:29 INFO NO_EFFECT=効果がなかった
-2023/05/14 10:58:29 INFO CHANGE_ATTR=属性値変更
-2023/05/14 10:58:29 INFO P=確率
-2023/05/14 10:58:29 INFO ORDER=隊列
-2023/05/14 10:58:29 INFO S=の
-2023/05/14 10:58:29 INFO WAS_DISASSEMBLY=を解体した
-2023/05/14 10:58:29 INFO ARE_YOU_SURE_EXIT=本当に終了しますか？
-2023/05/14 10:58:29 INFO REMOVE_CONDITION=状態異常cを回復する
-2023/05/14 10:58:29 INFO SKIP=スキップ
-2023/05/14 10:58:29 INFO GET_MATE=個手に入れた
-2023/05/14 10:58:29 INFO TURN=ターン
-2023/05/14 10:58:29 INFO SAVE=保存
-2023/05/14 10:58:29 INFO BERUMA_SILVER=ベルマ銀貨
-2023/05/14 10:58:29 INFO WAS_DROP=を捨てた
-2023/05/14 10:58:29 INFO MATERIAL=素材
-2023/05/14 10:58:29 INFO QUEST=クエスト
-2023/05/14 10:58:29 INFO BUT=しかし
-2023/05/14 10:58:29 INFO CANT_ESCAPE=戦闘エリアの中心にいては逃げられない！！
-2023/05/14 10:58:29 INFO ISESCAPE=は逃げ出した！！
-2023/05/14 10:58:29 INFO CONDITION_DOING=状態になっている
-2023/05/14 10:58:29 INFO APPEARANCE=体現れた！！
-2023/05/14 10:58:29 INFO TARGET_SELECT=ターゲット選択
-2023/05/14 10:58:29 INFO GAMEPAD_NOTFOUND=コントローラは有効化されていません。コントローラを使う場合はゲームを再起動してください。
-2023/05/14 10:58:29 INFO PLEASE_NAME=今回の介入者の名前は？
-2023/05/14 10:58:29 INFO USE=使う
-2023/05/14 10:58:29 INFO SCREEN_SHOT=スクリーンショットの保存
-2023/05/14 10:58:29 INFO IS_EQIP=を装備した
-2023/05/14 10:58:29 INFO OPEN=開く
-2023/05/14 10:58:29 INFO USE_ITEM=を使った
-2023/05/14 10:58:29 INFO OTHER=行動
-2023/05/14 10:58:29 INFO WAS_EQIP=をすでに装備している
-2023/05/14 10:58:29 INFO SUB_TITLE=魔法使いと不死の秘術
-2023/05/14 10:58:29 INFO SUBMIT=決定
-2023/05/14 10:58:29 INFO SPELLTIME=詠唱時間
-2023/05/14 10:58:29 INFO CANCEL=キャンセル
-2023/05/14 10:58:29 INFO TO=に
-2023/05/14 10:58:29 INFO MENU=メニュー
-2023/05/14 10:58:29 INFO CANT_MOVE=動けなかった！！
-2023/05/14 10:58:29 INFO TARGET=対象
-2023/05/14 10:58:29 INFO BEACH=海岸
-2023/05/14 10:58:29 INFO ACTION_COUNT=この武器はn回攻撃できる
-2023/05/14 10:58:29 INFO NO_ITEM=アイテムを持っていない
-2023/05/14 10:58:29 INFO CAN_UPGRADE=あとn回強化できる
-2023/05/14 10:58:29 INFO CONFU_STOP=混乱して動けなかった！
-2023/05/14 10:58:29 INFO NOT_EQIP=は装備できない
-2023/05/14 10:58:29 INFO REALLY_DISASSEMBLY=本当に解体する？
-2023/05/14 10:58:29 INFO THIS_ITEM_CANT_UPGRADE=このアイテムは強化できない
-2023/05/14 10:58:29 INFO NOTHING_ITEM=何も持っていない
-2023/05/14 10:58:29 INFO TALK=話す
-2023/05/14 10:58:29 INFO VALUE=価値
-2023/05/14 10:58:29 INFO ADD_CONDITION=状態異常cを付与する
-2023/05/14 10:58:29 INFO CHAPTER1=序部
-2023/05/14 10:58:29 INFO INFO=情報
-2023/05/14 10:58:29 INFO CHAPTER2=第一部
-2023/05/14 10:58:29 INFO SOUND_VOLUME=音量設定
-2023/05/14 10:58:29 INFO IS_CONFU=混乱している！
-2023/05/14 10:58:29 INFO STATUS=状態
-2023/05/14 10:58:29 INFO AREA=範囲
-2023/05/14 10:58:29 INFO RESET_ITEM=を持ち替えた
-2023/05/14 10:58:29 INFO NOTHING_MAGIC=使える魔法はない
-2023/05/14 10:58:29 INFO MAIN=メイン
-2023/05/14 10:58:29 INFO CANT_DISASSEMBLY=このアイテムは解体できない
-2023/05/14 10:58:29 INFO CONDITION_ADD=状態になった
-2023/05/14 10:58:29 INFO GOLDEN_RECORD=金の円盤にしたがって世界を正せ
-2023/05/14 10:58:29 INFO DARESU_GOLD=ダレス金貨
-2023/05/14 10:58:29 INFO SPELL_END=の詠唱を終了した！！
-2023/05/14 10:58:29 INFO AVOIDANCE=回避に専念した！
-2023/05/14 10:58:29 INFO BATTLE_ACTION=戦闘中効果
-2023/05/14 10:58:29 INFO PAGE=術式
-2023/05/14 10:58:29 INFO DCT_USE_DAMAGE_CALC=ダメージ計算方式
-2023/05/14 10:58:29 INFO DCT_PERCENT_OF_MAX=最大値計算方式
-2023/05/14 10:58:29 INFO DAMAGE=作用
-2023/05/14 10:58:29 INFO ITEM_DROP=を失った
-2023/05/14 10:58:29 INFO REMOVE_EQUP=を外した
-2023/05/14 10:58:29 INFO THIS_ITEM_CANT_DISASSE=このアイテムは解体できない
-2023/05/14 10:58:29 INFO DCS=ダメージ計算ステータス
-2023/05/14 10:58:29 INFO CHAPTER1_SUBTITLE=介入者
-2023/05/14 10:58:29 INFO CANT_USE_FIELD=この魔法はフィールドでは使えない
-2023/05/14 10:58:29 INFO ISMOVE=は移動した！
-2023/05/14 10:58:29 INFO ITEM_ADD=アイテムiを入手する
-2023/05/14 10:58:29 INFO GET_PAGE=枚手に入れた
-2023/05/14 10:58:29 INFO GIVE_UP=諦める
-2023/05/14 10:58:29 INFO WHO_DO_PASS=を誰に渡す？
-2023/05/14 10:58:29 INFO NO=いや
-2023/05/14 10:58:29 INFO MONEY=所持金
-2023/05/14 10:58:29 INFO WHATDO=どうする
-2023/05/14 10:58:29 INFO WHO_DO_USE=を誰に使う？
-2023/05/14 10:58:29 INFO YES=ああ
-2023/05/14 10:58:29 INFO WAS=が
-2023/05/14 10:58:29 INFO GAME_EXIT=おわる
-2023/05/14 10:58:29 INFO CANT_HAVE=これ以上物を持てない
-2023/05/14 10:58:29 INFO OF_WHAT=により
-2023/05/14 10:58:29 INFO COMPOSITE=合成
-2023/05/14 10:58:29 INFO DROP=捨てる
-2023/05/14 10:58:29 INFO RETURN=戻る
-2023/05/14 10:58:29 INFO DEFENCE=防御に専念した！
-2023/05/14 10:58:29 INFO ITEM_USE=道具
-2023/05/14 10:58:29 INFO BATTLE_CLOSE=【デバッグ用】戦闘を即時終了しますか？
-2023/05/14 10:58:29 INFO FIELD_ACTION=フィールド効果
-2023/05/14 10:58:29 INFO MAGIC=魔術
-2023/05/14 10:58:29 INFO OF=を
-2023/05/14 10:58:29 INFO MISS=ミス！
-2023/05/14 10:58:29 INFO SPELL_START=の詠唱を開始した！！
-2023/05/14 10:58:29 INFO SLOT=部位
-2023/05/14 10:58:29 INFO REALLY_DROP=を本当に捨てる？
-2023/05/14 10:58:29 INFO CONFIRM=確認
-2023/05/14 10:58:29 INFO NO_NPC=その方向にはダレモイナイ
-2023/05/14 10:58:29 INFO DCT_PERCENT_OF_NOW=現在値計算方式
-2023/05/14 10:58:29 INFO ISFAILED=は失敗した！！
-2023/05/14 10:58:29 INFO ITEM_LOST=アイテムiを失う
-2023/05/14 10:58:29 INFO CANT_USE_BATTLE=この魔法は戦闘中は使えない
-2023/05/14 10:58:29 INFO IS_GET=を手に入れた
-2023/05/14 10:58:29 INFO ATTR=有効度
-2023/05/14 10:58:29 INFO YOUR_NAME_IS=、という名前でよいのかね？
-2023/05/14 10:58:29 INFO EQIP=装備
-2023/05/14 10:58:29 INFO ACTION=戦闘中の行動
-2023/05/14 10:58:29 INFO MOVE=移動
-2023/05/14 10:58:29 INFO USE_MAGIC=を詠唱した
-2023/05/14 10:58:29 INFO BOOK=魔術書
-2023/05/14 10:58:29 INFO CANT_SALE=このアイテムは売ったり捨てたりできない
-2023/05/14 10:58:29 INFO ATTACK=攻撃
-2023/05/14 10:58:29 INFO BACK=後列
-2023/05/14 10:58:29 INFO S_PAGE=の術式のページ
-2023/05/14 10:58:29 INFO MUSIC_ROOM=ミュージックルーム
-2023/05/14 10:58:29 INFO ROOM=部屋
-2023/05/14 10:58:29 INFO lockFile:.\KLOCK_18045559773268599343.lck is created
-2023/05/14 10:58:29 INFO Kinugasa Game Launcher is start
-2023/05/14 10:58:29 INFO ImageUtil loaded filePath=[resource/data/image/ss.png](8.0521 ms)
-2023/05/14 10:58:29 INFO CachedSound is loaded name=[効果音＿SS.wav](87.6626 ms)
-2023/05/14 10:58:30 INFO CachedSound is loaded name=[フィールド３.wav](29.5772 ms)
-2023/05/14 10:58:31 INFO CachedSound is loaded name=[効果音＿ゲームスタート.wav](2.0614 ms)
-2023/05/14 10:58:33 INFO CachedSound : [フィールド３.wav] : is disposed
-2023/05/14 10:58:37 INFO XMLFile [chipAttr.xml] is loaded
-2023/05/14 10:58:37 INFO XMLFile [vehicle.xml] is loaded
-2023/05/14 10:58:37 INFO XMLFile [chipSet_inner16.xml] is loaded
-2023/05/14 10:58:37 INFO ImageUtil loaded filePath=[resource/data/image/inner16.png](0.6422 ms)
-2023/05/14 10:58:37 INFO XMLFile [fms.xml] is loaded
-2023/05/14 10:58:37 INFO XMLFile [map01.xml] is loaded
-2023/05/14 10:58:37 INFO ImageUtil loaded filePath=[resource/data/image/darkeffect.png](8.1609 ms)
-2023/05/14 10:58:37 INFO temp file C:\Users\owner\AppData\Local\Temp\ktf_8455251185840327832.tmp is created
-2023/05/14 10:58:37 INFO ImageUtil loaded filePath=[resource/data/image/unknown.png](0.517999 ms)
-2023/05/14 10:58:48 INFO XMLFile [SWMTM.xml] is loaded
-2023/05/14 10:58:48 INFO XMLFile [SStatusM.xml] is loaded
-2023/05/14 10:58:48 INFO XMLFile [SAttrM.xml] is loaded
-2023/05/14 10:58:48 INFO XMLFile [SConditionM.xml] is loaded
-2023/05/14 10:58:48 INFO XMLFile [SItemSlotM.xml] is loaded
-2023/05/14 10:58:48 INFO XMLFile [SBookM.xml] is loaded
-2023/05/14 10:58:48 INFO XMLFile [SRaceM.xml] is loaded
-2023/05/14 10:58:48 INFO XMLFile [SActionM.xml] is loaded
-2023/05/14 10:58:48 INFO ImageUtil loaded filePath=[resource/data/image/testAnimation.png](0.4821 ms)
-2023/05/14 10:58:48 INFO XMLFile [SBattleFieldM.xml] is loaded
-2023/05/14 10:58:48 INFO ImageUtil loaded filePath=[resource/data/image/tree.png](0.640299 ms)
-2023/05/14 10:58:48 INFO ImageUtil loaded filePath=[resource/data/image/stone.png](0.4174 ms)
-2023/05/14 10:58:48 INFO ImageUtil loaded filePath=[resource/data/image/bf1.png](6.9453 ms)
-2023/05/14 10:58:48 INFO ImageUtil loaded filePath=[resource/data/image/bf1.png](7.5536 ms)
-2023/05/14 10:58:48 INFO ImageUtil loaded filePath=[resource/data/image/bf_mori.png](7.7446 ms)
-2023/05/14 10:58:48 INFO ImageUtil loaded filePath=[resource/data/image/bf_mori.png](7.336999 ms)
-2023/05/14 10:58:48 INFO ImageUtil loaded filePath=[resource/data/image/bf_mori.png](7.217001 ms)
-2023/05/14 10:58:48 INFO XMLFile [SEM.xml] is loaded
-2023/05/14 10:58:48 INFO ImageUtil loaded filePath=[resource/data/image/M1.png](0.4111 ms)
-2023/05/14 10:58:48 INFO ImageUtil loaded filePath=[resource/data/image/M1.png](0.388099 ms)
-2023/05/14 10:58:48 INFO ImageUtil loaded filePath=[resource/data/image/M1.png](0.3664 ms)
-2023/05/14 10:58:48 INFO ImageUtil loaded filePath=[resource/data/image/M1.png](0.448799 ms)
-2023/05/14 10:58:48 INFO ImageUtil loaded filePath=[resource/data/image/M1.png](0.443899 ms)
-2023/05/14 10:58:48 INFO ImageUtil loaded filePath=[resource/data/image/M2.png](0.3746 ms)
-2023/05/14 10:58:48 INFO ImageUtil loaded filePath=[resource/data/image/M3.png](0.4669 ms)
-2023/05/14 10:58:48 INFO XMLFile [SESSM.xml] is loaded
-2023/05/14 10:58:48 INFO XMLFile [SQuestM.xml] is loaded
-2023/05/14 10:58:48 INFO ImageUtil loaded filePath=[resource/data/image/c2.png](0.4472 ms)
-2023/05/14 10:58:48 INFO ImageUtil loaded filePath=[resource/data/image/c2.png](0.433901 ms)
-2023/05/14 10:58:48 INFO ImageUtil loaded filePath=[resource/data/image/c2.png](0.491099 ms)
-2023/05/14 10:58:48 INFO ImageUtil loaded filePath=[resource/data/image/c2.png](0.5849 ms)
-2023/05/14 10:58:48 INFO XMLFile [chipSet_outer16.xml] is loaded
-2023/05/14 10:58:48 INFO ImageUtil loaded filePath=[resource/data/image/outer16.png](1.1887 ms)
-2023/05/14 10:58:48 INFO XMLFile [tss.xml] is loaded
-2023/05/14 10:58:48 INFO XMLFile [map02.xml] is loaded
-2023/05/14 10:58:48 INFO XMLFile [text02.xml] is loaded
-2023/05/14 10:58:48 INFO XMLFile [E002.xml] is loaded
-2023/05/14 10:58:48 INFO ImageUtil loaded filePath=[resource/data/image/seaChip16.png](0.452999 ms)
-2023/05/14 10:58:48 INFO ImageUtil loaded filePath=[resource/data/image/cloudeffect.png](5.1716 ms)
-2023/05/14 10:58:49 INFO temp file C:\Users\owner\AppData\Local\Temp\ktf_971704908251495339.tmp is created
-2023/05/14 10:58:50 INFO XMLFile [E001.xml] is loaded
-2023/05/14 10:58:50 INFO ImageUtil loaded filePath=[resource/data/image/c3.png](0.4967 ms)
-2023/05/14 10:58:50 INFO start event : FieldEvent{name=E_01_0, order=0, location=D2Idx{x=31, y=35}, eventType=DISABLE_OPERATION, storageName=null, targetName=null, value=null, disposeWhenExec=true, exists=true, term=[]}
-2023/05/14 10:58:50 INFO ->done
-2023/05/14 10:58:50 INFO start event : FieldEvent{name=E_01_1, order=1, location=D2Idx{x=31, y=35}, eventType=STOP_ALL_SOUND, storageName=BGM, targetName=null, value=null, disposeWhenExec=true, exists=true, term=[]}
-2023/05/14 10:58:50 INFO ->done
-2023/05/14 10:58:50 INFO start event : FieldEvent{name=E_01_2, order=2, location=D2Idx{x=31, y=35}, eventType=PLAY_SOUND, storageName=BGM, targetName=フィールド５.wav, value=null, disposeWhenExec=true, exists=true, term=[]}
-2023/05/14 10:58:50 INFO CachedSound is loaded name=[フィールド５.wav](59.204 ms)
-2023/05/14 10:58:50 INFO ->done
-2023/05/14 10:58:50 INFO start event : FieldEvent{name=E_01_3, order=10, location=D2Idx{x=31, y=35}, eventType=WAIT, storageName=, targetName=, value=180, disposeWhenExec=true, exists=true, term=[]}
-2023/05/14 10:58:50 INFO ->done
-2023/05/14 10:58:53 INFO start event : FieldEvent{name=E_01_4, order=20, location=D2Idx{x=31, y=35}, eventType=NPC_MOVE_AND_WAIT_THAT, storageName=, targetName=NPC02, value=30,35, disposeWhenExec=true, exists=true, term=[]}
-2023/05/14 10:58:53 INFO ->done
-2023/05/14 10:58:56 INFO start event : FieldEvent{name=E_01_5, order=30, location=D2Idx{x=31, y=35}, eventType=NPC_LOCK_LOCATION, storageName=, targetName=NPC02, value=, disposeWhenExec=true, exists=true, term=[]}
-2023/05/14 10:58:56 INFO ->done
-2023/05/14 10:58:56 INFO start event : FieldEvent{name=E_01_6, order=40, location=D2Idx{x=31, y=35}, eventType=SHOW_MESSAGE_FROM_TEXTSTORAGE, storageName=002, targetName=, value=001, disposeWhenExec=true, exists=true, term=[]}
-2023/05/14 10:58:56 INFO XMLFile [text02.xml] is loaded
-2023/05/14 10:58:56 INFO XMLFile [E002.xml] is loaded
-2023/05/14 10:58:56 INFO ->done
-2023/05/14 10:58:57 INFO start event : FieldEvent{name=001_0, order=0, location=null, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:58:57 INFO start event : FieldEvent{name=001_1, order=5, location=null, eventType=DISABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:58:57 INFO ->done
-2023/05/14 10:58:57 INFO start event : FieldEvent{name=001_2, order=10, location=null, eventType=WAIT, storageName=, targetName=, value=120, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:58:57 INFO ->done
-2023/05/14 10:58:59 INFO start event : FieldEvent{name=001_3, order=20, location=null, eventType=NPC_DIR_TO, storageName=, targetName=NPC02, value=NORTH, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:58:59 INFO ->done
-2023/05/14 10:58:59 INFO start event : FieldEvent{name=001_4, order=30, location=null, eventType=SHOW_MESSAGE_FROM_TEXTSTORAGE, storageName=002, targetName=, value=002, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:58:59 INFO XMLFile [text02.xml] is loaded
-2023/05/14 10:58:59 INFO XMLFile [E002.xml] is loaded
-2023/05/14 10:58:59 INFO ->done
-2023/05/14 10:58:59 INFO start event : FieldEvent{name=001_5, order=40, location=null, eventType=FADE_OUT, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:58:59 INFO ->done
-2023/05/14 10:59:00 INFO start event : FieldEvent{name=001_6, order=50, location=null, eventType=SET_QUEST_LINE, storageName=, targetName=MAIN, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:00 INFO ->done
-2023/05/14 10:59:00 INFO start event : FieldEvent{name=001_7, order=100, location=null, eventType=CHANGE_MAP, storageName=, targetName=TOMAGISHUT, value=9,2,WEST, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:00 INFO ->done
-2023/05/14 10:59:00 INFO XMLFile [map03.xml] is loaded
-2023/05/14 10:59:00 INFO XMLFile [text03.xml] is loaded
-2023/05/14 10:59:00 INFO XMLFile [E003.xml] is loaded
-2023/05/14 10:59:00 INFO XMLFile [E007.xml] is loaded
-2023/05/14 10:59:00 INFO XMLFile [E004.xml] is loaded
-2023/05/14 10:59:00 INFO XMLFile [E005.xml] is loaded
-2023/05/14 10:59:00 INFO XMLFile [E006.xml] is loaded
-2023/05/14 10:59:00 INFO XMLFile [E004.xml] is loaded
-2023/05/14 10:59:00 INFO ImageUtil loaded filePath=[resource/data/image/c3.png](0.593001 ms)
-2023/05/14 10:59:00 INFO start event : FieldEvent{name=E_03_0, order=0, location=D2Idx{x=9, y=2}, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:00 INFO start event : FieldEvent{name=E_03_1, order=100, location=D2Idx{x=9, y=2}, eventType=PC_DIR_TO, storageName=, targetName=0, value=WEST, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:00 INFO ->done
-2023/05/14 10:59:00 INFO start event : FieldEvent{name=E_03_2, order=101, location=D2Idx{x=9, y=2}, eventType=NPC_ANIMATION_IDX_TO, storageName=, targetName=NPC02, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:00 INFO ->done
-2023/05/14 10:59:00 INFO start event : FieldEvent{name=E_03_3, order=102, location=D2Idx{x=9, y=2}, eventType=PC_ANIMATION_IDX_TO, storageName=, targetName=0, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:00 INFO ->done
-2023/05/14 10:59:00 INFO start event : FieldEvent{name=E_03_4, order=110, location=D2Idx{x=9, y=2}, eventType=WAIT, storageName=, targetName=, value=60, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:00 INFO ->done
-2023/05/14 10:59:01 INFO start event : FieldEvent{name=E_03_5, order=120, location=D2Idx{x=9, y=2}, eventType=FADE_IN, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:01 INFO ->done
-2023/05/14 10:59:02 INFO start event : FieldEvent{name=E_03_6, order=130, location=D2Idx{x=9, y=2}, eventType=SHOW_MESSAGE_FROM_TEXTSTORAGE, storageName=003, targetName=, value=001, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:02 INFO XMLFile [text03.xml] is loaded
-2023/05/14 10:59:02 INFO ->done
-2023/05/14 10:59:03 INFO start event : FieldEvent{name=E_03_7, order=140, location=D2Idx{x=9, y=2}, eventType=NPC_MOVE_AND_WAIT_THAT, storageName=, targetName=NPC02, value=1,11, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:03 INFO ->done
-2023/05/14 10:59:05 INFO start event : FieldEvent{name=E_03_8, order=160, location=D2Idx{x=9, y=2}, eventType=FADE_OUT, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:05 INFO ->done
-2023/05/14 10:59:38 INFO start event : FieldEvent{name=E_03_9, order=170, location=D2Idx{x=9, y=2}, eventType=WAIT, storageName=, targetName=, value=60, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:38 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_10, order=172, location=D2Idx{x=9, y=2}, eventType=ADD_ITEM, storageName=null, targetName=0, value=庶民の服, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_11, order=173, location=D2Idx{x=9, y=2}, eventType=ADD_ITEM, storageName=null, targetName=0, value=庶民の靴, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_12, order=174, location=D2Idx{x=9, y=2}, eventType=EQIP_ITEM, storageName=null, targetName=0, value=庶民の服, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_13, order=175, location=D2Idx{x=9, y=2}, eventType=EQIP_ITEM, storageName=null, targetName=0, value=庶民の靴, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_32, order=205, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_POISON, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_33, order=206, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_FLAME, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_34, order=207, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_FROZEN, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_35, order=208, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_BLIND, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_36, order=209, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_SEAL, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_25, order=211, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,HOLY, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_24, order=211, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,DARK, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_15, order=211, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,STAB, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_14, order=211, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,CHOP, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_26, order=212, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,MYSTERY, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_16, order=212, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,IMPACT, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_27, order=213, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,EVIL, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_17, order=213, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,FLAME, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_28, order=214, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,NONE, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_18, order=214, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,ICE, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_29, order=215, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,ALCHEMY, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_19, order=215, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,WATER, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_20, order=216, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,THNDER, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_30, order=216, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,SPIRIT, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_31, order=217, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,SPACE_TIME, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_21, order=217, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,AIR, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_22, order=218, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,EARTH, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_23, order=219, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,LIGHT, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_38, order=220, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_PARALYS, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_37, order=220, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_SLEEP, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_39, order=222, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_CONFUSION, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_40, order=223, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_MADNESS, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_41, order=224, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_TRUE_MADNESS, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_42, order=225, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_ROT, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_43, order=226, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_STONE, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_44, order=227, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_GOLDY, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_45, order=228, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_CUT, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_46, order=229, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_BREAK, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:39 INFO start event : FieldEvent{name=E_03_48, order=230, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_DEAD, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:39 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_47, order=230, location=D2Idx{x=9, y=2}, eventType=SET_ATTRIN, storageName=null, targetName=0,C_DESTROY, value=0.9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_49, order=300, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,LV, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_50, order=301, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,HP, value=125, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_51, order=302, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,MP, value=5, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_52, order=303, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,STR, value=35, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_53, order=304, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,SPD, value=35, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_54, order=305, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,DEX, value=35, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_55, order=306, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,POW, value=35, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_56, order=308, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,MOV, value=35, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_57, order=309, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,EXP, value=0, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_58, order=310, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,ATK, value=35, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_59, order=311, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,DEF, value=9, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_60, order=312, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,AVO, value=0.025, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_61, order=313, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,CUT_P, value=0.01, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_62, order=314, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,CUT_V, value=1.5, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_63, order=315, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,CRT_P, value=0.01, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_64, order=316, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,CRT_V, value=1.5, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_65, order=317, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_ATK, value=30, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_66, order=318, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_DEF, value=6, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_67, order=319, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_AVO, value=0.025, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_68, order=320, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_CUT_P, value=0.01, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_69, order=321, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_CUT_V, value=1.5, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_70, order=322, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_CRT_P, value=0.01, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_71, order=323, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,M_CRT_V, value=1.5, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_72, order=324, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,SAN, value=50, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_74, order=325, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,CAN_MAGIC, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_73, order=325, location=D2Idx{x=9, y=2}, eventType=INIT_STATUS, storageName=null, targetName=0,ATTR, value=0, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_75, order=400, location=D2Idx{x=9, y=2}, eventType=SET_STATUS_MAX, storageName=null, targetName=0,SAN, value=99, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_76, order=410, location=D2Idx{x=9, y=2}, eventType=UPDATE_ACTION_OF_ALL_PC, storageName=null, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:40 INFO start event : FieldEvent{name=E_03_77, order=1800, location=D2Idx{x=9, y=2}, eventType=FADE_IN, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:40 INFO ->done
-2023/05/14 10:59:41 INFO start event : FieldEvent{name=E_03_78, order=1900, location=D2Idx{x=9, y=2}, eventType=NPC_MOVE_AND_WAIT_THAT, storageName=, targetName=NPC02, value=8,2, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:41 INFO ->done
-2023/05/14 10:59:43 INFO start event : FieldEvent{name=E_03_79, order=1950, location=D2Idx{x=9, y=2}, eventType=NPC_DIR_TO, storageName=, targetName=NPC02, value=EAST, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:43 INFO ->done
-2023/05/14 10:59:43 INFO start event : FieldEvent{name=E_03_80, order=1951, location=D2Idx{x=9, y=2}, eventType=NPC_ANIMATION_IDX_TO, storageName=, targetName=NPC02, value=1, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:43 INFO ->done
-2023/05/14 10:59:43 INFO start event : FieldEvent{name=E_03_81, order=2000, location=D2Idx{x=9, y=2}, eventType=SHOW_MESSAGE_FROM_TEXTSTORAGE, storageName=003, targetName=, value=050, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:43 INFO XMLFile [text03.xml] is loaded
-2023/05/14 10:59:43 INFO ->done
-2023/05/14 10:59:45 INFO start event : FieldEvent{name=E_03_82, order=2100, location=D2Idx{x=9, y=2}, eventType=NPC_MOVE_AND_WAIT_THAT, storageName=, targetName=NPC02, value=1,11, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:45 INFO ->done
-2023/05/14 10:59:47 INFO start event : FieldEvent{name=E_03_83, order=2200, location=D2Idx{x=9, y=2}, eventType=NPC_REMOVE, storageName=, targetName=NPC02, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:47 INFO ->done
-2023/05/14 10:59:47 INFO start event : FieldEvent{name=E_03_84, order=3000, location=D2Idx{x=9, y=2}, eventType=END_IF, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=TOMAGISHUT_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E02, value=}]}
-2023/05/14 10:59:47 INFO start event : FieldEvent{name=E_03_85, order=3100, location=D2Idx{x=9, y=2}, eventType=ENABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[]}
-2023/05/14 10:59:47 INFO ->done
-2023/05/14 10:59:47 INFO start event : FieldEvent{name=E_03_86, order=3250, location=D2Idx{x=9, y=2}, eventType=SET_FLG_DIRECT, storageName=STORY, targetName=TOMAGISHUT_E02, value=ON, disposeWhenExec=true, exists=true, term=[]}
-2023/05/14 10:59:47 INFO ->done
-2023/05/14 10:59:51 INFO ! > CachedSound : [足音.wav] : UN SUPPORTED CONTROL : Type=[Master Gain]
-2023/05/14 10:59:51 INFO CachedSound is loaded name=[足音.wav](2.341 ms)
-2023/05/14 10:59:51 INFO XMLFile [map04.xml] is loaded
-2023/05/14 10:59:51 INFO XMLFile [text03.xml] is loaded
-2023/05/14 10:59:51 INFO ImageUtil loaded filePath=[resource/data/image/glassField16.png](0.489799 ms)
-2023/05/14 10:59:51 INFO XMLFile [E008.xml] is loaded
-2023/05/14 10:59:51 INFO ImageUtil loaded filePath=[resource/data/image/c3.png](0.489 ms)
-2023/05/14 10:59:52 INFO start event : FieldEvent{name=E_04_0, order=0, location=D2Idx{x=7, y=13}, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/14 10:59:52 INFO start event : FieldEvent{name=E_04_1, order=1, location=D2Idx{x=7, y=13}, eventType=DISABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/14 10:59:52 INFO ->done
-2023/05/14 10:59:52 INFO start event : FieldEvent{name=E_04_2, order=2, location=D2Idx{x=7, y=13}, eventType=NPC_ANIMATION_IDX_TO, storageName=, targetName=NPC02, value=1, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/14 10:59:52 INFO ->done
-2023/05/14 10:59:52 INFO start event : FieldEvent{name=E_04_3, order=5, location=D2Idx{x=7, y=13}, eventType=RESET_CAMERA, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/14 10:59:52 INFO ->done
-2023/05/14 10:59:52 INFO start event : FieldEvent{name=E_04_4, order=100, location=D2Idx{x=7, y=13}, eventType=WAIT, storageName=, targetName=, value=50, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/14 10:59:52 INFO ->done
-2023/05/14 10:59:53 INFO start event : FieldEvent{name=E_04_5, order=150, location=D2Idx{x=7, y=13}, eventType=NPC_DIR_TO, storageName=, targetName=NPC02, value=EAST, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/14 10:59:53 INFO ->done
-2023/05/14 10:59:53 INFO start event : FieldEvent{name=E_04_6, order=200, location=D2Idx{x=7, y=13}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=トマギ「よし、それじゃあ行こう。街道から外れるなよ。野盗やらが出るからな。/, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/14 10:59:53 INFO ->done
-2023/05/14 10:59:54 INFO start event : FieldEvent{name=E_04_7, order=220, location=D2Idx{x=7, y=13}, eventType=NPC_REMOVE, storageName=, targetName=NPC02, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/14 10:59:54 INFO ->done
-2023/05/14 10:59:54 INFO start event : FieldEvent{name=E_04_8, order=225, location=D2Idx{x=7, y=13}, eventType=PC_ADD, storageName=, targetName=, value=resource/data/Status_tomagi.xml, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/14 10:59:54 INFO XMLFile [Status_tomagi.xml] is loaded
-2023/05/14 10:59:54 INFO ImageUtil loaded filePath=[resource/data/image/c3.png](0.5156 ms)
-2023/05/14 10:59:54 INFO ->done
-2023/05/14 10:59:54 INFO start event : FieldEvent{name=E_04_9, order=410, location=D2Idx{x=7, y=13}, eventType=UPDATE_ACTION_OF_ALL_PC, storageName=null, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/14 10:59:54 INFO ->done
-2023/05/14 10:59:54 INFO start event : FieldEvent{name=E_04_10, order=999, location=D2Idx{x=7, y=13}, eventType=ENABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/14 10:59:54 INFO ->done
-2023/05/14 10:59:54 INFO start event : FieldEvent{name=E_04_11, order=2500, location=D2Idx{x=7, y=13}, eventType=SET_FLG_DIRECT, storageName=STORY, targetName=TOMAGISHUT_E08, value=ON, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/14 10:59:54 INFO ->done
-2023/05/14 10:59:54 INFO start event : FieldEvent{name=E_04_12, order=3000, location=D2Idx{x=7, y=13}, eventType=END_IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=TOMAGISHUT_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=TOMAGISHUT_E08, value=}]}
-2023/05/14 11:00:01 INFO CachedSound : [足音.wav] : is disposed
-2023/05/14 11:00:01 INFO ! > CachedSound : [足音.wav] : UN SUPPORTED CONTROL : Type=[Master Gain]
-2023/05/14 11:00:01 INFO CachedSound is loaded name=[足音.wav](2.1285 ms)
-2023/05/14 11:00:01 INFO XMLFile [map05.xml] is loaded
-2023/05/14 11:00:01 INFO ImageUtil loaded filePath=[resource/data/image/seaChip16.png](0.557001 ms)
-2023/05/14 11:00:01 WARNING ! > XMLElement[outNode] is nothing : kinugasaFieldMapData
-2023/05/14 11:00:02 WARNING ! > XMLElement[frontLayer] is nothing : kinugasaFieldMapData
-2023/05/14 11:00:02 WARNING ! > XMLElement[animation] is nothing : kinugasaFieldMapData
-2023/05/14 11:00:02 WARNING ! > XMLElement[event] is nothing : kinugasaFieldMapData
-2023/05/14 11:00:02 WARNING ! > XMLElement[npc] is nothing : kinugasaFieldMapData
-2023/05/14 11:00:09 INFO CachedSound is loaded name=[効果音＿戦闘開始.wav](1.8839 ms)
-2023/05/14 11:00:10 INFO XMLFile [enemySet001.xml] is loaded
-2023/05/14 11:00:10 INFO CachedSound is loaded name=[バトル1（リメイク）.wav](37.2183 ms)
-2023/05/14 11:00:10 INFO CachedSound is loaded name=[効果音＿選択1.wav](1.3401 ms)
-2023/05/14 11:00:10 INFO CachedSound is loaded name=[効果音＿選択2.wav](1.0257 ms)
-2023/05/14 11:00:10 INFO CachedSound is loaded name=[効果音＿バトルターン開始.wav](0.967899 ms)
-2023/05/14 11:04:06 INFO CachedSound is loaded name=[testSound.wav](1.451801 ms)
-2023/05/14 11:04:06 INFO ImageUtil loaded filePath=[resource/data/image/testAnimation.png](0.4242 ms)
-2023/05/14 11:04:06 WARNING java.lang.AssertionError: PC action, but action is not PC
+2023/05/14 17:17:20 INFO this is D:/Project/FuzzyWorld/
+2023/05/14 17:17:20 INFO translate\ja.ini
+2023/05/14 17:17:20 INFO LOAD_GAME=つづきから
+2023/05/14 17:17:20 INFO ORDER_SELECT=前列／後列を設定
+2023/05/14 17:17:20 INFO CAN_USE_FIELD=このアイテムはフィールド上で使用できる
+2023/05/14 17:17:20 INFO QSUB=サブ
+2023/05/14 17:17:20 INFO FRONT=前列
+2023/05/14 17:17:20 INFO DISASSEMBLY=解体
+2023/05/14 17:17:20 INFO GET_EXP=獲得経験値
+2023/05/14 17:17:20 INFO NO_TARGET=効果範囲内に対象がいない
+2023/05/14 17:17:20 INFO ACTION_EFFECT=基礎威力
+2023/05/14 17:17:20 INFO NODAMAGE=ダメージを受けなかった！！
+2023/05/14 17:17:20 INFO NOTHING=なし
+2023/05/14 17:17:20 INFO NONE=なし
+2023/05/14 17:17:20 INFO TOMAGISHUT=漁師の小屋
+2023/05/14 17:17:20 INFO SUB=減った
+2023/05/14 17:17:20 INFO GAME_PAD_TEST=コントローラーテスト
+2023/05/14 17:17:20 INFO CURRENT_CONDITION=発生中の効果
+2023/05/14 17:17:20 INFO CAN_USE_BATTLE=このアイテムは戦闘中に使用できる
+2023/05/14 17:17:20 INFO IF_DISASSEMBLY_GET=解体すると以下の素材を得られる
+2023/05/14 17:17:20 INFO FIELD=フィールド
+2023/05/14 17:17:20 INFO ATTR_DOWN=耐性が下がった！
+2023/05/14 17:17:20 INFO IS=は
+2023/05/14 17:17:20 INFO NEW_GAME=はじめから
+2023/05/14 17:17:20 INFO SURVEY=調べる
+2023/05/14 17:17:20 INFO REMOVE_CDNTION=から回復した
+2023/05/14 17:17:20 INFO ACTION_ATTR=属性
+2023/05/14 17:17:20 INFO ITEM=道具
+2023/05/14 17:17:20 INFO PASS=渡す
+2023/05/14 17:17:20 INFO HEALDAMAGE=回復した
+2023/05/14 17:17:20 INFO SHORTAGE=が足りない
+2023/05/14 17:17:20 INFO CHECK=調べる
+2023/05/14 17:17:20 INFO CONDITION=状態異常
+2023/05/14 17:17:20 INFO ATTR_UP=耐性が上がった！
+2023/05/14 17:17:20 INFO ENEMY_WAS_ESCAPED=敵は全員逃げた
+2023/05/14 17:17:20 INFO MAP=地図
+2023/05/14 17:17:20 INFO WMT=武器種類
+2023/05/14 17:17:20 INFO PARTY=味方
+2023/05/14 17:17:20 INFO CHAPTER2_SUBTITLE=失踪者
+2023/05/14 17:17:20 INFO DCT_DIRECT=直接計算方式
+2023/05/14 17:17:20 INFO WHO_WILL_HOLD_IT=誰が持つ？
+2023/05/14 17:17:20 INFO WORLDMAP=ワールドマップ
+2023/05/14 17:17:20 INFO TOMAGISHUT_OUTER=漁師の小屋の屋外
+2023/05/14 17:17:20 INFO SPECIAL_ATTACK=特技
+2023/05/14 17:17:20 INFO CAN_HAVE=あとn個持てる
+2023/05/14 17:17:20 INFO PASSED=を渡した
+2023/05/14 17:17:20 INFO NO_EFFECT=効果がなかった
+2023/05/14 17:17:20 INFO CHANGE_ATTR=属性値変更
+2023/05/14 17:17:20 INFO P=確率
+2023/05/14 17:17:20 INFO ORDER=隊列
+2023/05/14 17:17:20 INFO S=の
+2023/05/14 17:17:20 INFO WAS_DISASSEMBLY=を解体した
+2023/05/14 17:17:20 INFO ARE_YOU_SURE_EXIT=本当に終了しますか？
+2023/05/14 17:17:20 INFO REMOVE_CONDITION=状態異常cを回復する
+2023/05/14 17:17:20 INFO DROP_ITEM=獲得物資
+2023/05/14 17:17:20 INFO SKIP=スキップ
+2023/05/14 17:17:20 INFO GET_MATE=個手に入れた
+2023/05/14 17:17:20 INFO TURN=ターン
+2023/05/14 17:17:20 INFO SAVE=保存
+2023/05/14 17:17:20 INFO BERUMA_SILVER=ベルマ銀貨
+2023/05/14 17:17:20 INFO WAS_DROP=を捨てた
+2023/05/14 17:17:20 INFO MATERIAL=素材
+2023/05/14 17:17:20 INFO QUEST=クエスト
+2023/05/14 17:17:20 INFO BUT=しかし
+2023/05/14 17:17:20 INFO CANT_ESCAPE=戦闘エリアの中心にいては逃げられない！！
+2023/05/14 17:17:20 INFO ISESCAPE=は逃げ出した！！
+2023/05/14 17:17:20 INFO CONDITION_DOING=状態になっている
+2023/05/14 17:17:20 INFO APPEARANCE=体現れた！！
+2023/05/14 17:17:20 INFO TARGET_SELECT=ターゲット選択
+2023/05/14 17:17:20 INFO GAMEPAD_NOTFOUND=コントローラは有効化されていません。コントローラを使う場合はゲームを再起動してください。
+2023/05/14 17:17:20 INFO PLEASE_NAME=今回の介入者の名前は？
+2023/05/14 17:17:20 INFO USE=使う
+2023/05/14 17:17:20 INFO SCREEN_SHOT=スクリーンショットの保存
+2023/05/14 17:17:20 INFO IS_EQIP=を装備した
+2023/05/14 17:17:20 INFO OPEN=開く
+2023/05/14 17:17:20 INFO USE_ITEM=を使った
+2023/05/14 17:17:20 INFO OTHER=行動
+2023/05/14 17:17:20 INFO WAS_EQIP=をすでに装備している
+2023/05/14 17:17:20 INFO SUB_TITLE=魔法使いと不死の秘術
+2023/05/14 17:17:20 INFO SUBMIT=決定
+2023/05/14 17:17:20 INFO SPELLTIME=詠唱時間
+2023/05/14 17:17:20 INFO CANCEL=キャンセル
+2023/05/14 17:17:20 INFO TO=に
+2023/05/14 17:17:20 INFO MENU=メニュー
+2023/05/14 17:17:20 INFO CANT_MOVE=動けなかった！！
+2023/05/14 17:17:20 INFO TARGET=対象
+2023/05/14 17:17:20 INFO BEACH=海岸
+2023/05/14 17:17:20 INFO ACTION_COUNT=この武器はn回攻撃できる
+2023/05/14 17:17:20 INFO NO_ITEM=アイテムを持っていない
+2023/05/14 17:17:20 INFO CAN_UPGRADE=あとn回強化できる
+2023/05/14 17:17:20 INFO CONFU_STOP=混乱して動けなかった！
+2023/05/14 17:17:20 INFO NOT_EQIP=は装備できない
+2023/05/14 17:17:20 INFO REALLY_DISASSEMBLY=本当に解体する？
+2023/05/14 17:17:20 INFO THIS_ITEM_CANT_UPGRADE=このアイテムは強化できない
+2023/05/14 17:17:20 INFO NOTHING_ITEM=何も持っていない
+2023/05/14 17:17:20 INFO TALK=話す
+2023/05/14 17:17:20 INFO VALUE=価値
+2023/05/14 17:17:20 INFO ADD_CONDITION=状態異常cを付与する
+2023/05/14 17:17:20 INFO CHAPTER1=序部
+2023/05/14 17:17:20 INFO INFO=情報
+2023/05/14 17:17:20 INFO CHAPTER2=第一部
+2023/05/14 17:17:20 INFO SOUND_VOLUME=音量設定
+2023/05/14 17:17:20 INFO IS_CONFU=混乱している！
+2023/05/14 17:17:20 INFO PLAYER_WAS_ESCAPED=全員が逃げ切った
+2023/05/14 17:17:20 INFO STATUS=状態
+2023/05/14 17:17:20 INFO AREA=範囲
+2023/05/14 17:17:20 INFO RESET_ITEM=を持ち替えた
+2023/05/14 17:17:20 INFO NOTHING_MAGIC=使える魔法はない
+2023/05/14 17:17:20 INFO MAIN=メイン
+2023/05/14 17:17:20 INFO CANT_DISASSEMBLY=このアイテムは解体できない
+2023/05/14 17:17:20 INFO CONDITION_ADD=状態になった
+2023/05/14 17:17:20 INFO GOLDEN_RECORD=金の円盤にしたがって世界を正せ
+2023/05/14 17:17:20 INFO DARESU_GOLD=ダレス金貨
+2023/05/14 17:17:20 INFO SPELL_END=の詠唱を終了した！！
+2023/05/14 17:17:20 INFO AVOIDANCE=回避に専念した！
+2023/05/14 17:17:20 INFO BATTLE_ACTION=戦闘中効果
+2023/05/14 17:17:20 INFO PAGE=術式
+2023/05/14 17:17:20 INFO DCT_USE_DAMAGE_CALC=ダメージ計算方式
+2023/05/14 17:17:20 INFO DCT_PERCENT_OF_MAX=最大値計算方式
+2023/05/14 17:17:20 INFO DAMAGE=作用
+2023/05/14 17:17:20 INFO ITEM_DROP=を失った
+2023/05/14 17:17:20 INFO REMOVE_EQUP=を外した
+2023/05/14 17:17:20 INFO THIS_ITEM_CANT_DISASSE=このアイテムは解体できない
+2023/05/14 17:17:20 INFO DCS=ダメージ計算ステータス
+2023/05/14 17:17:20 INFO CHAPTER1_SUBTITLE=介入者
+2023/05/14 17:17:20 INFO CANT_USE_FIELD=この魔法はフィールドでは使えない
+2023/05/14 17:17:20 INFO ISMOVE=は移動した！
+2023/05/14 17:17:20 INFO ITEM_ADD=アイテムiを入手する
+2023/05/14 17:17:20 INFO GET_PAGE=枚手に入れた
+2023/05/14 17:17:20 INFO AFTER_MOVE_ATK_OK=移動後攻撃可能
+2023/05/14 17:17:20 INFO GIVE_UP=諦める
+2023/05/14 17:17:20 INFO WHO_DO_PASS=を誰に渡す？
+2023/05/14 17:17:20 INFO NO=いや
+2023/05/14 17:17:20 INFO MONEY=所持金
+2023/05/14 17:17:20 INFO WHATDO=どうする
+2023/05/14 17:17:20 INFO WHO_DO_USE=を誰に使う？
+2023/05/14 17:17:20 INFO YES=ああ
+2023/05/14 17:17:20 INFO WAS=が
+2023/05/14 17:17:20 INFO GAME_EXIT=おわる
+2023/05/14 17:17:20 INFO CANT_HAVE=これ以上物を持てない
+2023/05/14 17:17:20 INFO OF_WHAT=により
+2023/05/14 17:17:20 INFO COMPOSITE=合成
+2023/05/14 17:17:20 INFO DROP=捨てる
+2023/05/14 17:17:20 INFO RETURN=戻る
+2023/05/14 17:17:20 INFO DEFENCE=防御に専念した！
+2023/05/14 17:17:20 INFO ITEM_USE=道具
+2023/05/14 17:17:20 INFO BATTLE_CLOSE=【デバッグ用】戦闘を即時終了しますか？
+2023/05/14 17:17:20 INFO FIELD_ACTION=フィールド効果
+2023/05/14 17:17:20 INFO MAGIC=魔術
+2023/05/14 17:17:20 INFO OF=を
+2023/05/14 17:17:20 INFO MISS=ミス！
+2023/05/14 17:17:20 INFO SPELL_START=の詠唱を開始した！！
+2023/05/14 17:17:20 INFO SLOT=部位
+2023/05/14 17:17:20 INFO REALLY_DROP=を本当に捨てる？
+2023/05/14 17:17:20 INFO CONFIRM=確認
+2023/05/14 17:17:20 INFO NO_NPC=その方向にはダレモイナイ
+2023/05/14 17:17:20 INFO BATTLE_RESULT=戦闘結果
+2023/05/14 17:17:20 INFO DCT_PERCENT_OF_NOW=現在値計算方式
+2023/05/14 17:17:20 INFO ISFAILED=は失敗した！！
+2023/05/14 17:17:20 INFO AFTER_MOVE_ATK_NG=移動後攻撃不可
+2023/05/14 17:17:20 INFO ITEM_LOST=アイテムiを失う
+2023/05/14 17:17:20 INFO CANT_USE_BATTLE=この魔法は戦闘中は使えない
+2023/05/14 17:17:20 INFO IS_GET=を手に入れた
+2023/05/14 17:17:20 INFO ATTR=有効度
+2023/05/14 17:17:20 INFO YOUR_NAME_IS=、という名前でよいのかね？
+2023/05/14 17:17:20 INFO EQIP=装備
+2023/05/14 17:17:20 INFO ACTION=戦闘中の行動
+2023/05/14 17:17:20 INFO MOVE=移動
+2023/05/14 17:17:20 INFO USE_MAGIC=を詠唱した
+2023/05/14 17:17:20 INFO BOOK=魔術書
+2023/05/14 17:17:20 INFO CANT_SALE=このアイテムは売ったり捨てたりできない
+2023/05/14 17:17:20 INFO ATTACK=攻撃
+2023/05/14 17:17:20 INFO BACK=後列
+2023/05/14 17:17:20 INFO S_PAGE=の術式のページ
+2023/05/14 17:17:20 INFO MUSIC_ROOM=ミュージックルーム
+2023/05/14 17:17:20 INFO ROOM=部屋
+2023/05/14 17:17:20 INFO lockFile:.\KLOCK_1586041148397771528.lck is created
+2023/05/14 17:17:20 INFO Kinugasa Game Launcher is start
+2023/05/14 17:17:20 INFO > Storage : class=[class kinugasa.resource.sound.SoundMap]
+2023/05/14 17:17:20 INFO > Storage : printAll : 気怠い探偵.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 灼熱の地獄.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 作戦会議.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 氷のダンジョン.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 妖精の森.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 普通な感じの街.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : とてものどかな村.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : さわやかな冒険.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 風の魔法使いの戦い２.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : バトル１（新）.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : バトル２（新）.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : のどかな村.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 夢の世界.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 廃れた都市.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 見知らぬ土地・見知らぬ文化.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 神殿.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : バトル1（リメイク）.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : ラストダンジョン.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 不思議なダンジョン.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 変質者のテーマ.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 世界の真相.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 睨み合い.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 静寂空間.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : バトル１?２.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 重厚なダンジョン.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 決意.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 残酷な運命.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 工業都市.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 狂気の人.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 静かなる決意.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 不気味なダンジョン.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 探検.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : まあいいか.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : デジタル空間.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 不思議な森.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 洞窟.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : シューティング・ステージ３.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 風の魔法使いのテーマ.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 愉快または間抜け.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : ボーナスゲーム.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : フィールド２.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : シューティング・ステージ１.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 小ボス.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 異形のものとの戦い.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 厳かなダンジョン.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : エスニック・プレース.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : シューティング・ステージ２.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : バトル１（旧）.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 怪しい取引.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 明るいダンジョン.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 明るい街.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 刻一刻.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 変な村.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 斜陽の帝国.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 風の魔法使いの戦い.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : おぞましい真実.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 悪の軍団.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : フィールド３.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 眠らない大都会.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : エンディング.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 天空の魔法都市.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 師匠とのイベント戦.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 結末.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 王都.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : お祭りの町.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 奇襲攻撃！.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 軍事作戦.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : ユニークな街.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : フィールド.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 変質者との戦い.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 中ボス.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 知的探求.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 魔力の間.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : フィールド５.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : バトル３.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : シューティング・ステージ４.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 疑い.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 軍事作戦２.wav
+2023/05/14 17:17:20 INFO > Storage : ------------------------
+2023/05/14 17:17:20 INFO > Storage : class=[class kinugasa.resource.sound.SoundMap]
+2023/05/14 17:17:20 INFO > Storage : printAll : 効果音＿バトルターン開始.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : door1.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 効果音＿選択2.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 足音.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 効果音＿選択1.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 効果音＿戦闘終了（勝利）.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 効果音＿SS.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : screenShot.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 効果音＿戦闘開始.wav
+2023/05/14 17:17:20 INFO > Storage : printAll : 効果音＿ゲームスタート.wav
+2023/05/14 17:17:20 INFO > Storage : ------------------------
+2023/05/14 17:17:20 INFO ImageUtil loaded filePath=[resource/data/image/ss.png](8.1573 ms)
+2023/05/14 17:17:21 INFO CachedSound is loaded name=[効果音＿SS.wav](94.449295 ms)
+2023/05/14 17:17:24 INFO CachedSound is loaded name=[フィールド３.wav](29.7126 ms)
+2023/05/14 17:17:25 INFO CachedSound is loaded name=[効果音＿選択1.wav](5.1706 ms)
+2023/05/14 17:17:28 INFO CachedSound : [フィールド３.wav] : is disposed
+2023/05/14 17:17:28 INFO CachedSound : [効果音＿選択1.wav] : is disposed
+2023/05/14 17:17:29 INFO CachedSound : [効果音＿SS.wav] : is disposed
+2023/05/14 17:17:29 INFO > Storage : class=[class kinugasa.resource.sound.SoundMap]
+2023/05/14 17:17:29 INFO > Storage : printAll : 気怠い探偵.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 灼熱の地獄.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 作戦会議.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 氷のダンジョン.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 妖精の森.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 普通な感じの街.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : とてものどかな村.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : さわやかな冒険.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 風の魔法使いの戦い２.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : バトル１（新）.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : バトル２（新）.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : のどかな村.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 夢の世界.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 廃れた都市.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 見知らぬ土地・見知らぬ文化.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 神殿.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : バトル1（リメイク）.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : ラストダンジョン.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 不思議なダンジョン.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 変質者のテーマ.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 世界の真相.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 睨み合い.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 静寂空間.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : バトル１?２.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 重厚なダンジョン.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 決意.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 残酷な運命.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 工業都市.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 狂気の人.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 静かなる決意.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 不気味なダンジョン.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 探検.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : まあいいか.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : デジタル空間.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 不思議な森.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 洞窟.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : シューティング・ステージ３.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 風の魔法使いのテーマ.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 愉快または間抜け.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : ボーナスゲーム.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : フィールド２.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : シューティング・ステージ１.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 小ボス.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 異形のものとの戦い.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 厳かなダンジョン.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : エスニック・プレース.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : シューティング・ステージ２.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : バトル１（旧）.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 怪しい取引.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 明るいダンジョン.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 明るい街.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 刻一刻.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 変な村.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 斜陽の帝国.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 風の魔法使いの戦い.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : おぞましい真実.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 悪の軍団.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : フィールド３.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 眠らない大都会.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : エンディング.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 天空の魔法都市.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 師匠とのイベント戦.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 結末.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 王都.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : お祭りの町.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 奇襲攻撃！.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 軍事作戦.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : ユニークな街.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : フィールド.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 変質者との戦い.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 中ボス.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 知的探求.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 魔力の間.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : フィールド５.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : バトル３.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : シューティング・ステージ４.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 疑い.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 軍事作戦２.wav
+2023/05/14 17:17:29 INFO > Storage : ------------------------
+2023/05/14 17:17:29 INFO > Storage : class=[class kinugasa.resource.sound.SoundMap]
+2023/05/14 17:17:29 INFO > Storage : printAll : 効果音＿バトルターン開始.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : door1.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 効果音＿選択2.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 足音.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 効果音＿選択1.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 効果音＿戦闘終了（勝利）.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 効果音＿SS.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : screenShot.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 効果音＿戦闘開始.wav
+2023/05/14 17:17:29 INFO > Storage : printAll : 効果音＿ゲームスタート.wav
+2023/05/14 17:17:29 INFO > Storage : ------------------------
+2023/05/14 17:17:29 INFO CachedSound is loaded name=[効果音＿選択1.wav](9.6716 ms)
+2023/05/14 17:17:29 INFO CachedSound is loaded name=[フィールド３.wav](31.1747 ms)
+2023/05/14 17:17:30 INFO CachedSound : [フィールド３.wav] : is disposed
+2023/05/14 17:17:30 INFO CachedSound : [効果音＿選択1.wav] : is disposed
+2023/05/14 17:17:30 INFO > Storage : class=[class kinugasa.resource.sound.SoundMap]
+2023/05/14 17:17:30 INFO > Storage : printAll : 気怠い探偵.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 灼熱の地獄.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 作戦会議.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 氷のダンジョン.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 妖精の森.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 普通な感じの街.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : とてものどかな村.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : さわやかな冒険.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 風の魔法使いの戦い２.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : バトル１（新）.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : バトル２（新）.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : のどかな村.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 夢の世界.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 廃れた都市.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 見知らぬ土地・見知らぬ文化.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 神殿.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : バトル1（リメイク）.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : ラストダンジョン.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 不思議なダンジョン.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 変質者のテーマ.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 世界の真相.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 睨み合い.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 静寂空間.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : バトル１?２.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 重厚なダンジョン.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 決意.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 残酷な運命.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 工業都市.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 狂気の人.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 静かなる決意.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 不気味なダンジョン.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 探検.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : まあいいか.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : デジタル空間.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 不思議な森.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 洞窟.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : シューティング・ステージ３.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 風の魔法使いのテーマ.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 愉快または間抜け.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : ボーナスゲーム.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : フィールド２.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : シューティング・ステージ１.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 小ボス.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 異形のものとの戦い.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 厳かなダンジョン.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : エスニック・プレース.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : シューティング・ステージ２.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : バトル１（旧）.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 怪しい取引.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 明るいダンジョン.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 明るい街.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 刻一刻.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 変な村.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 斜陽の帝国.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 風の魔法使いの戦い.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : おぞましい真実.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 悪の軍団.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : フィールド３.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 眠らない大都会.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : エンディング.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 天空の魔法都市.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 師匠とのイベント戦.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 結末.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 王都.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : お祭りの町.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 奇襲攻撃！.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 軍事作戦.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : ユニークな街.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : フィールド.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 変質者との戦い.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 中ボス.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 知的探求.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 魔力の間.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : フィールド５.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : バトル３.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : シューティング・ステージ４.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 疑い.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 軍事作戦２.wav
+2023/05/14 17:17:30 INFO > Storage : ------------------------
+2023/05/14 17:17:30 INFO > Storage : class=[class kinugasa.resource.sound.SoundMap]
+2023/05/14 17:17:30 INFO > Storage : printAll : 効果音＿バトルターン開始.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : door1.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 効果音＿選択2.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 足音.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 効果音＿選択1.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 効果音＿戦闘終了（勝利）.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 効果音＿SS.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : screenShot.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 効果音＿戦闘開始.wav
+2023/05/14 17:17:30 INFO > Storage : printAll : 効果音＿ゲームスタート.wav
+2023/05/14 17:17:30 INFO > Storage : ------------------------
+2023/05/14 17:17:30 INFO CachedSound is loaded name=[効果音＿選択1.wav](11.6264 ms)
+2023/05/14 17:17:30 INFO CachedSound is loaded name=[フィールド３.wav](31.8573 ms)
+2023/05/14 17:17:32 INFO CachedSound : [フィールド３.wav] : is disposed
+2023/05/14 17:17:32 INFO CachedSound : [効果音＿選択1.wav] : is disposed
+2023/05/14 17:17:32 INFO > Storage : class=[class kinugasa.resource.sound.SoundMap]
+2023/05/14 17:17:32 INFO > Storage : printAll : 気怠い探偵.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 灼熱の地獄.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 作戦会議.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 氷のダンジョン.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 妖精の森.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 普通な感じの街.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : とてものどかな村.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : さわやかな冒険.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 風の魔法使いの戦い２.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : バトル１（新）.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : バトル２（新）.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : のどかな村.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 夢の世界.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 廃れた都市.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 見知らぬ土地・見知らぬ文化.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 神殿.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : バトル1（リメイク）.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : ラストダンジョン.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 不思議なダンジョン.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 変質者のテーマ.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 世界の真相.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 睨み合い.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 静寂空間.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : バトル１?２.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 重厚なダンジョン.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 決意.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 残酷な運命.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 工業都市.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 狂気の人.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 静かなる決意.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 不気味なダンジョン.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 探検.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : まあいいか.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : デジタル空間.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 不思議な森.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 洞窟.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : シューティング・ステージ３.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 風の魔法使いのテーマ.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 愉快または間抜け.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : ボーナスゲーム.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : フィールド２.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : シューティング・ステージ１.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 小ボス.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 異形のものとの戦い.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 厳かなダンジョン.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : エスニック・プレース.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : シューティング・ステージ２.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : バトル１（旧）.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 怪しい取引.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 明るいダンジョン.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 明るい街.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 刻一刻.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 変な村.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 斜陽の帝国.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 風の魔法使いの戦い.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : おぞましい真実.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 悪の軍団.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : フィールド３.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 眠らない大都会.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : エンディング.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 天空の魔法都市.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 師匠とのイベント戦.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 結末.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 王都.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : お祭りの町.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 奇襲攻撃！.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 軍事作戦.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : ユニークな街.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : フィールド.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 変質者との戦い.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 中ボス.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 知的探求.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 魔力の間.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : フィールド５.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : バトル３.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : シューティング・ステージ４.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 疑い.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 軍事作戦２.wav
+2023/05/14 17:17:32 INFO > Storage : ------------------------
+2023/05/14 17:17:32 INFO > Storage : class=[class kinugasa.resource.sound.SoundMap]
+2023/05/14 17:17:32 INFO > Storage : printAll : 効果音＿バトルターン開始.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : door1.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 効果音＿選択2.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 足音.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 効果音＿選択1.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 効果音＿戦闘終了（勝利）.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 効果音＿SS.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : screenShot.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 効果音＿戦闘開始.wav
+2023/05/14 17:17:32 INFO > Storage : printAll : 効果音＿ゲームスタート.wav
+2023/05/14 17:17:32 INFO > Storage : ------------------------
+2023/05/14 17:17:32 INFO CachedSound is loaded name=[効果音＿選択1.wav](10.2606 ms)
+2023/05/14 17:17:32 INFO CachedSound is loaded name=[フィールド２.wav](20.8649 ms)
+2023/05/14 17:17:34 INFO CachedSound : [フィールド２.wav] : is disposed
+2023/05/14 17:17:34 INFO CachedSound : [効果音＿選択1.wav] : is disposed
+2023/05/14 17:17:34 INFO > Storage : class=[class kinugasa.resource.sound.SoundMap]
+2023/05/14 17:17:34 INFO > Storage : printAll : 気怠い探偵.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 灼熱の地獄.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 作戦会議.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 氷のダンジョン.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 妖精の森.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 普通な感じの街.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : とてものどかな村.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : さわやかな冒険.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 風の魔法使いの戦い２.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : バトル１（新）.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : バトル２（新）.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : のどかな村.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 夢の世界.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 廃れた都市.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 見知らぬ土地・見知らぬ文化.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 神殿.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : バトル1（リメイク）.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : ラストダンジョン.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 不思議なダンジョン.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 変質者のテーマ.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 世界の真相.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 睨み合い.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 静寂空間.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : バトル１?２.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 重厚なダンジョン.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 決意.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 残酷な運命.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 工業都市.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 狂気の人.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 静かなる決意.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 不気味なダンジョン.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 探検.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : まあいいか.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : デジタル空間.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 不思議な森.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 洞窟.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : シューティング・ステージ３.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 風の魔法使いのテーマ.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 愉快または間抜け.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : ボーナスゲーム.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : フィールド２.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : シューティング・ステージ１.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 小ボス.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 異形のものとの戦い.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 厳かなダンジョン.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : エスニック・プレース.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : シューティング・ステージ２.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : バトル１（旧）.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 怪しい取引.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 明るいダンジョン.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 明るい街.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 刻一刻.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 変な村.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 斜陽の帝国.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 風の魔法使いの戦い.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : おぞましい真実.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 悪の軍団.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : フィールド３.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 眠らない大都会.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : エンディング.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 天空の魔法都市.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 師匠とのイベント戦.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 結末.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 王都.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : お祭りの町.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 奇襲攻撃！.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 軍事作戦.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : ユニークな街.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : フィールド.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 変質者との戦い.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 中ボス.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 知的探求.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 魔力の間.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : フィールド５.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : バトル３.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : シューティング・ステージ４.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 疑い.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 軍事作戦２.wav
+2023/05/14 17:17:34 INFO > Storage : ------------------------
+2023/05/14 17:17:34 INFO > Storage : class=[class kinugasa.resource.sound.SoundMap]
+2023/05/14 17:17:34 INFO > Storage : printAll : 効果音＿バトルターン開始.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : door1.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 効果音＿選択2.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 足音.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 効果音＿選択1.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 効果音＿戦闘終了（勝利）.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 効果音＿SS.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : screenShot.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 効果音＿戦闘開始.wav
+2023/05/14 17:17:34 INFO > Storage : printAll : 効果音＿ゲームスタート.wav
+2023/05/14 17:17:34 INFO > Storage : ------------------------
+2023/05/14 17:17:34 INFO CachedSound is loaded name=[効果音＿選択1.wav](9.8136 ms)
+2023/05/14 17:17:34 INFO CachedSound is loaded name=[フィールド２.wav](20.2768 ms)
+2023/05/14 17:17:36 INFO CachedSound : [フィールド２.wav] : is disposed
+2023/05/14 17:17:36 INFO CachedSound is loaded name=[フィールド３.wav](18.1207 ms)
+2023/05/14 17:17:39 INFO CachedSound : [フィールド３.wav] : is disposed
+2023/05/14 17:17:39 INFO CachedSound is loaded name=[フィールド２.wav](17.6926 ms)

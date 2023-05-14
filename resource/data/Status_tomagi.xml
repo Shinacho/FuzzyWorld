@@ -36,7 +36,7 @@ THE SOFTWARE.
 	<status key="DEX" max="40" min="0" value="40" />
 	<status key="POW" max="30" min="0" value="30" />
 	<status key="SAN" max="60" min="0" value="60" />
-	<status key="MOV" max="40" min="0" value="40" />
+	<status key="MOV" max="52" min="0" value="40" />
 	<status key="EXP" max="0" min="0" value="0" />
 	 
 	<status key="ATK" max="42" min="0" value="42" />

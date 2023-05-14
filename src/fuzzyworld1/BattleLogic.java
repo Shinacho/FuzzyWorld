@@ -32,10 +32,12 @@ import kinugasa.game.GameManager;
 import kinugasa.game.GameTimeManager;
 import kinugasa.game.GraphicsContext;
 import kinugasa.game.I18N;
+import kinugasa.game.field4.VehicleStorage;
 import kinugasa.game.input.GamePadButton;
 import kinugasa.game.input.InputState;
 import kinugasa.game.input.InputType;
 import kinugasa.game.input.Keys;
+import kinugasa.game.system.BattleCharacter;
 import kinugasa.game.system.BattleCommand;
 import kinugasa.game.system.BattleConfig;
 import kinugasa.game.system.BattleResult;
@@ -48,6 +50,9 @@ import kinugasa.game.system.Status;
 import kinugasa.game.ui.Dialog;
 import kinugasa.game.ui.DialogIcon;
 import kinugasa.game.ui.DialogOption;
+import kinugasa.object.BasicSprite;
+import kinugasa.object.FourDirection;
+import kinugasa.object.KVector;
 import kinugasa.resource.sound.Sound;
 import kinugasa.resource.sound.SoundStorage;
 
@@ -109,7 +114,7 @@ public class BattleLogic extends GameLogic {
 			playerOpeStart = SoundStorage.getInstance().get("SE").get("効果音＿バトルターン開始.wav").load();
 			loaded = true;
 		}
-
+		playerMoveInitialLocation = null;
 	}
 
 	@Override
@@ -143,7 +148,7 @@ public class BattleLogic extends GameLogic {
 		//戦況図
 		if (is.isPressed(GamePadButton.LB, Keys.SHIFT, InputType.SINGLE)) {
 			battleSystem.switchShowMode();
-		} 
+		}
 		//モード別処理
 		switch (battleSystem.getStage()) {
 			case STARTUP:
@@ -151,7 +156,7 @@ public class BattleLogic extends GameLogic {
 				//処理なし
 				break;
 			case WAITING_EXEC_CMD:
-				BattleCommand cmd = battleSystem.execCmd();//EXEC_ACTIONやCMD＿SELECTに入る
+				cmd = battleSystem.execCmd();//EXEC_ACTIONやCMD＿SELECTに入る
 				if (cmd.isUserOperation()) {
 					playerOpeStart.stopAndPlay();
 				}
@@ -175,9 +180,11 @@ public class BattleLogic extends GameLogic {
 				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
 					choiceSound1.stopAndPlay();
 					battleSystem.commitCmd();
+					return;
 				}
 				break;
 			case ESCAPING:
+				//処理なし（移動完了時にステージ更新される
 				break;
 			case ITEM_CHOICE_USE:
 				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
@@ -214,10 +221,12 @@ public class BattleLogic extends GameLogic {
 				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
 					choiceSound1.stopAndPlay();
 					battleSystem.nextStatusWindowPage();
+					return;
 				}
 				if (is.isPressed(GamePadButton.B, Keys.BACK_SPACE, InputType.SINGLE)) {
 					choiceSound1.stopAndPlay();
 					battleSystem.cancelStatusDesc();
+					return;
 				}
 				break;
 			case SHOW_ITEM_DESC:
@@ -225,6 +234,7 @@ public class BattleLogic extends GameLogic {
 						|| is.isPressed(GamePadButton.B, Keys.BACK_SPACE, InputType.SINGLE)) {
 					choiceSound1.stopAndPlay();
 					battleSystem.cancelItemDescShow();
+					return;
 				}
 				break;
 			case TARGET_SELECT:
@@ -238,19 +248,110 @@ public class BattleLogic extends GameLogic {
 				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
 					choiceSound1.stopAndPlay();
 					battleSystem.commitTargetSelect();
+					return;
 				}
 				if (is.isPressed(GamePadButton.B, Keys.BACK_SPACE, InputType.SINGLE)) {
 					choiceSound1.stopAndPlay();
 					battleSystem.cancelTargetSelect();
+					return;
 				}
 				break;
 			case PLAYER_MOVE:
+				if (playerMoveInitialLocation == null) {
+					playerMoveInitialLocation = battleSystem.getCurrentCmd().getSpriteCenter();
+				}
+				BattleCharacter playerChara = battleSystem.getCurrentCmd().getUser();
+				//移動後攻撃の判定
+				int remMovPoint = (int) (playerChara.getStatus().getEffectedStatus().get("MOV").getValue()
+						- Math.abs(playerMoveInitialLocation.distance(battleSystem.getCurrentCmd().getSpriteCenter())));
+				//残ポイントが最大値の半分以下の場合は攻撃できない
+				battleSystem.setMoveAction(remMovPoint > playerChara.getStatus().getEffectedStatus().get("MOV").getValue() / 2,
+						remMovPoint);
+
+				//確定、キャンセルの処理
+				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+					choiceSound1.stopAndPlay();
+					playerMoveInitialLocation = null;
+					battleSystem.commitPCsMove();
+					return;
+				}
+				if (is.isPressed(GamePadButton.B, Keys.BACK_SPACE, InputType.SINGLE)) {
+					choiceSound1.stopAndPlay();
+					playerMoveInitialLocation = null;
+					battleSystem.cancelPCsMove();
+					return;
+				}
+				KVector v = new KVector();
+				if (is.getGamePadState() != null) {
+					v = new KVector(is.getGamePadState().sticks.LEFT.getLocation(VehicleStorage.getInstance().get("WALK").getSpeed()));
+				}
+				if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.CONTINUE) || is.isPressed(Keys.A, InputType.CONTINUE)) {
+					v.setAngle(FourDirection.WEST);
+					v.setSpeed(VehicleStorage.getInstance().getCurrentVehicle().getSpeed());
+				} else if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.CONTINUE) || is.isPressed(Keys.D, InputType.CONTINUE)) {
+					v.setAngle(FourDirection.EAST);
+					v.setSpeed(VehicleStorage.getInstance().getCurrentVehicle().getSpeed());
+				}
+				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.CONTINUE) || is.isPressed(Keys.W, InputType.CONTINUE)) {
+					v.setAngle(FourDirection.NORTH);
+					v.setSpeed(VehicleStorage.getInstance().getCurrentVehicle().getSpeed());
+				} else if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.CONTINUE) || is.isPressed(Keys.S, InputType.CONTINUE)) {
+					v.setAngle(FourDirection.SOUTH);
+					v.setSpeed(VehicleStorage.getInstance().getCurrentVehicle().getSpeed());
+				}
+				//移動量判定・・・0の場合移動実行しない
+				if (v.getSpeed() == 0) {
+					return;
+				}
+				Point2D.Float nextFrameLocation = playerChara.getSprite().simulateMoveCenterLocation(v);
+				//領域判定
+				if (!battleSystem.getBattleFieldSystem().getBattleFieldAllArea().contains(nextFrameLocation)) {
+					return;
+				}
+				//障害物判定
+				if (battleSystem.getBattleFieldSystem().hitObstacle(nextFrameLocation)) {
+					return;
+				}
+				//距離判定
+				if (playerChara.getStatus().getEffectedStatus().get("MOV").getValue() <= playerMoveInitialLocation.distance(nextFrameLocation)) {
+					return;
+				}
+				//移動実行
+				playerChara.getSprite().setVector(v);
+				playerChara.getSprite().move();
+				playerChara.to(playerChara.getSprite().getVector().round());
+
+				break;
+			case AFTER_MOVE_CMD_SELECT:
+				//移動後コマンド選択
+				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+					choiceSound1.stopAndPlay();
+					battleSystem.prevCmdSelect();
+				} else if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+					choiceSound1.stopAndPlay();
+					battleSystem.nextCmdSelect();
+				}
+				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+					choiceSound1.stopAndPlay();
+					battleSystem.commitCmd();
+					return;
+				}
 				break;
 			case EXECUTING_ACTION:
 			case EXECUTING_MOVE:
 				//処理なし（ステージが自動更新されるまで待つ）
 				break;
 			case BATLE_END:
+				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+					choiceSound1.stopAndPlay();
+					BattleResultValues result = GameSystem.getInstance().battleEnd();
+					{
+						//TODO:ドロップアイテム、経験値の分配処理ここ
+						
+					}
+					gls.changeTo(Const.LogicName.FIELD);
+					return;
+				}
 				//TODO:バトルエンド処理
 				break;
 			default:
@@ -260,7 +361,8 @@ public class BattleLogic extends GameLogic {
 	}
 
 	@Override
-	public void draw(GraphicsContext g) {
+	public void draw(GraphicsContext g
+	) {
 		battleSystem.draw(g);
 	}
 

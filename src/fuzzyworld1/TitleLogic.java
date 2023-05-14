@@ -114,7 +114,8 @@ public class TitleLogic extends GameLogic {
 					}
 				})
 		);
-
+		SoundStorage.getInstance().get("BGM").stopAll();
+		SoundStorage.getInstance().get("BGM").dispose();
 		if (kinugasa.util.Random.percent(0.5f)) {
 			SoundStorage.getInstance().get("BGM").get("フィールド３.wav").load().play();
 		}else{

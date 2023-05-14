@@ -31,7 +31,7 @@ THE SOFTWARE.
 
 	<choice id="002" tc="1" text="＊「あんた海岸で倒れてたんだ。大丈夫か？">
 		<!--テスト用-->
-		<option id="002_0" next="022">もういいだろう！</option>
+		<option id="002_0" next="022">もういいだろう！こっちはテスト中で急いでいるんだ！（導入をスキップ）</option>
 		<option id="002_1" next="003">ああ・・・</option>
 		<option id="002_2" next="003">大丈夫だ・・・</option>
 	</choice>

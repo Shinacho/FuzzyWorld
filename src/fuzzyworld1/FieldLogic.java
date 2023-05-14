@@ -191,15 +191,11 @@ public class FieldLogic extends GameLogic {
 			if (CMDargs.getInstance().getArgs().length > 0) {
 				if (GameSystem.isDebugMode()) {
 					if (Arrays.stream(CMDargs.getInstance().getArgs()).anyMatch(p -> "-soba".equals(p))) {
-						System.out.println("へい！手打ちもりそば" + pc1Status.getRace().getItemBagSize() + "丁おまち！！");
+						System.out.println("へい！手打ちもりそばおまち！！");
 						System.out.println("※注意：この機能はテスト用です。");
 						for (int i = 0; i < pc1Status.getItemBag().getMax(); i++) {
-							pc1Status.getItemBag().add(ItemStorage.getInstance().get("手打ち出前もりそば1丁"));
+							pc1Status.getItemBag().add(ItemStorage.getInstance().get("出前「手打ちもりそば"));
 						}
-					}
-					if (Arrays.stream(CMDargs.getInstance().getArgs()).anyMatch(p -> "-keyitem".equals(p))) {
-						System.out.println("テスト用のキーアイテムを追加するぜ！");
-						pc1Status.getItemBag().add(ItemStorage.getInstance().get("キーアイテム"));
 					}
 				}
 			}
