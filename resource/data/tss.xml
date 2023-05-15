@@ -27,6 +27,7 @@ THE SOFTWARE.
 <kinugasaText>
  	<textFile name="002" data="resource/data/text02.xml" />
  	<textFile name="003" data="resource/data/text03.xml" />
+ 	<textFile name="006" data="resource/data/text06.xml" />
 
 	
 </kinugasaText>

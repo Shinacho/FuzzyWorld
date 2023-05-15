@@ -2,7 +2,7 @@
 <!--
 The MIT License
 
-Copyright 2016 Shinacho.
+Copyright 2015 Shinacho.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -23,19 +23,37 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 -->
 
-<kinugasaFieldMapBuilder>
-    <fieldMap name="ROOM" data="resource/data/map01.xml"/>
-	
-    <fieldMap name="BEACH" data="resource/data/map02.xml"/>
-	
-    <fieldMap name="TOMAGISHUT" data="resource/data/map03.xml"/>
-	
-    <fieldMap name="TOMAGISHUT_OUTER" data="resource/data/map04.xml"/>
 
-    <fieldMap name="WORLDMAP" data="resource/data/map05.xml"/>
+<kinugasaText lSep="/">
 
-    <fieldMap name="KARISUMI" data="resource/data/map06.xml"/>
+ 	<text id="001" tc="1">
+＊「よそ者、ここは平和な漁村だ。面倒ごとはごめんだからな。/
+　　お前を見張っているぞ。/
+	</text>
 
+ 	<text id="002" tc="1" next="003" >
+＊「ああ、お前か。海岸に倒れてた。トマギから聞いているよ。/
+	</text>
+
+	<choice id="003" tc="1" text="＊「失踪者らしいと聞いたが、難破でもしたのか？">
+		<!--テスト用-->
+		<option id="003_1" next="004">いや、本当に覚えていないんだ</option>
+	</choice>
 	
-	
-</kinugasaFieldMapBuilder>
+	<text id="004" tc="1">
+＊「そうなのか。災難だったな。家族や家やらが見つかるといいな。/
+	</text>
+		
+	<text id="005" tc="1">
+＊「あー記憶喪失のやつか。何の用だ？/
+　　介抱してやっておいていうのもなんだが、/
+　　村で面倒を起こすのだけは勘弁してくれよ。/
+	</text>
+
+	<text id="006" tc="1">
+＊「おや、話題の!PC1さんかい。面倒ごとを持ち込みおって。/
+　　用がないなら出て行ってくれ。仕事の邪魔だ。/
+	</text>
+
+
+</kinugasaText>

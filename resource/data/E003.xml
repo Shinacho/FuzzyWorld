@@ -124,7 +124,9 @@ THE SOFTWARE.
 		<!-- MAIN:1 -->
 		
 	<!-- テスト用 -->
+	<!--
 	<event order="2999" fet="START_BATTLE" stName="01" value="" term=""/>
+	-->
 
 	<event order="3000" fet="END_IF" stName="" tgtName="" value="" term=""/>
 	<event order="3100" fet="ENABLE_OPERATION" stName="" tgtName="" value="" term="" />

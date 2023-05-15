@@ -225,7 +225,7 @@ THE SOFTWARE.
 		<mapChip name="011009" attribute="‹´"/>
 		<mapChip name="011010" attribute="‹´"/>
 		<mapChip name="011011" attribute="‹´"/>
-		<mapChip name="011012" attribute="VOID"/>
+		<mapChip name="011012" attribute="VOID"/><!--”wŒi—pŠC-->
 		<mapChip name="011013" attribute="VOID"/>
 		<mapChip name="011014" attribute="VOID"/>
 		<mapChip name="011015" attribute="VOID"/>
@@ -235,9 +235,9 @@ THE SOFTWARE.
 		<mapChip name="012002" attribute="ŽRŠx"/>
 		<mapChip name="012003" attribute="Šâ"/>
 		<mapChip name="012004" attribute="”¨"/>
-		<mapChip name="012005" attribute="VOID"/>
-		<mapChip name="012006" attribute="VOID"/>
-		<mapChip name="012007" attribute="VOID"/>
+		<mapChip name="012005" attribute="”¨"/>
+		<mapChip name="012006" attribute="’I"/>
+		<mapChip name="012007" attribute="’I"/>
 		<mapChip name="012008" attribute="‹´"/>
 		<mapChip name="012009" attribute="‹´"/>
 		<mapChip name="012010" attribute="‹´"/>
@@ -588,6 +588,8 @@ THE SOFTWARE.
 		<mapChip name="042012" attribute="–Ø•Ç" />
 		<mapChip name="042013" attribute="–Ø•Ç" />
 		
+		<mapChip name="043009" attribute="–Ø•Ç" />
+		<mapChip name="043010" attribute="–Ø•Ç" />
     </chipSet>
 
 </kinugasaChipSet>

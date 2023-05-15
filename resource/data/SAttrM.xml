@@ -25,9 +25,11 @@ THE SOFTWARE.
 <KinugasaAttr>
 
 	<!--@‘Ï«E“ÁU -->
-	<aAttribute order="10" name="CHOP" desc="ŽaŒ‚"/>
-	<aAttribute order="11" name="STAB" desc="Žh“Ë"/>
-	<aAttribute order="12" name="IMPACT" desc="ÕŒ‚"/>
+	<!-- 1-10FUŒ‚A10-99:–‚–@A100`ó‘ÔˆÙí‘Ï«@-->
+	<aAttribute order="1" name="CHOP" desc="ŽaŒ‚"/>
+	<aAttribute order="2" name="STAB" desc="Žh“Ë"/>
+	<aAttribute order="3" name="IMPACT" desc="ÕŒ‚"/>
+
 	<aAttribute order="13" name="FLAME" desc="‰Š"/>
 	<aAttribute order="14" name="ICE" desc="—â‹C"/>
 	<aAttribute order="15" name="WATER" desc="…"/>

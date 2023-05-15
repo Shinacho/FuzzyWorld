@@ -37,21 +37,21 @@ THE SOFTWARE.
 	<status order="14" name="MOV" min="0" max="99" desc="行動力"/>
 	<status order="15" name="EXP" min="0" max="99999999" desc="経験値"/>
                             
-	<status order="16" name="ATK" min="0" max="9999" desc="攻撃力"/>
-	<status order="17" name="DEF" min="0" max="9999" desc="防御力"/>
+	<status order="16" name="ATK" min="0" max="99" desc="攻撃力"/>
+	<status order="17" name="DEF" min="0" max="99" desc="防御力"/>
 	<status order="18" name="AVO" min="0" max="1" desc="物理攻撃回避率"/>
 	<status order="19" name="CUT_P" min="0" max="1" desc="物理攻撃カット率"/>
-	<status order="20" name="CUT_V" min="0" max="1" desc="物理ダメージカット時の割合"/>
+	<status order="20" name="CUT_V" min="0" max="1" desc="物理ダメージカット時の減少割合"/>
 	<status order="21" name="CRT_P" min="0" max="1" desc="物理クリティカル発生率"/>
-	<status order="22" name="CRT_V" min="0" max="1" desc="物理クリティカル発生時の割合"/>
+	<status order="22" name="CRT_V" min="0" max="1" desc="物理クリティカル発生時の追加割合"/>
 	                        
 	<status order="23" name="M_ATK" min="0" max="9999" desc="魔法攻撃力"/>
 	<status order="24" name="M_DEF" min="0" max="9999" desc="魔法防御力"/>
 	<status order="25" name="M_AVO" min="0" max="1" desc="魔法攻撃回避率"/>
 	<status order="26" name="M_CUT_P" min="0" max="1" desc="魔法攻撃カット率"/>
-	<status order="27" name="M_CUT_V" min="0" max="1" desc="魔法ダメージカット時の割合"/>
+	<status order="27" name="M_CUT_V" min="0" max="1" desc="魔法ダメージカット時の減少割合"/>
 	<status order="28" name="M_CRT_P" min="0" max="1" desc="魔法クリティカル発生率"/>
-	<status order="29" name="M_CRT_V" min="0" max="1" desc="魔法クリティカル発生時の割合"/>
+	<status order="29" name="M_CRT_V" min="0" max="1" desc="魔法クリティカル発生時の追加割合"/>
 	
 	
 	<status order="40" name="ATTR" min="0" max="8" desc="装備属性"/>

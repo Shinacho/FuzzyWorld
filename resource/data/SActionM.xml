@@ -1164,8 +1164,8 @@ THE SOFTWARE.
 
     <!--’ÊíUŒ‚ -->
 	
-    <attack name="‚±‚Ô‚µ" desc="‰£‚è‚©‚©‚é" term="˜r–¢‘•”õ" area="12" waitTime="48" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-5" p="0.75" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    <attack name="‚±‚Ô‚µ" desc="‰£‚è‚©‚©‚é" term="˜r–¢‘•”õ" area="24" waitTime="48" sound="’ÊíUŒ‚">
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-10" p="0.75" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE" animationMoveType="TGT"/>
     </attack>
     <attack name="Œ•UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="Œ•‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚" >
         <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
@@ -1290,7 +1290,7 @@ THE SOFTWARE.
         <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
     <magic name="˜B‹à”š”­" desc="˜B¬‚µ‚½˜AŒg•¨Ž¿‚ð”š”j‚·‚éB" term="–‚p‚Ì‘u˜B‹à–‚–@‚PvŠŽ,–‚pŽg—p‰Â”\" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="-16" attr="ALCHEMY" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
         <battleEvent tt="ALL" pt="ADD_CONDITION" tgtName="GOLDY" p="0.1" attr="ALCHEMY" animation="’ÊíUŒ‚" />
         <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>

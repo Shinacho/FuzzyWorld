@@ -47,6 +47,7 @@ import kinugasa.game.system.Enemy;
 import kinugasa.game.system.GameSystem;
 import kinugasa.game.system.SpeedCalcModelStorage;
 import kinugasa.game.system.Status;
+import kinugasa.game.system.StatusDamageCalcModelStorage;
 import kinugasa.game.ui.Dialog;
 import kinugasa.game.ui.DialogIcon;
 import kinugasa.game.ui.DialogOption;
@@ -72,12 +73,23 @@ public class BattleLogic extends GameLogic {
 		battleSystem = GameSystem.getInstance().getBattleSystem();
 
 		if (!loaded) {
+			StatusDamageCalcModelStorage.getInstance().setCurrent("DEFAULT");
 			SpeedCalcModelStorage.getInstance().setCurrent("SPD_50%RANDOM");
 			Enemy.setProgressBarKey("HP");
 			BattleConfig.StatusKey.hp = "HP";
 			BattleConfig.StatusKey.move = "MOV";
 			BattleConfig.StatusKey.exp = "EXP";
 			BattleConfig.StatusKey.str = "STR";
+			BattleConfig.StatusKey.critAtk = "CRT_P";
+			BattleConfig.StatusKey.critMgk = "M_CRT_P";
+			BattleConfig.StatusKey.critAtkVal = "CRT_V";
+			BattleConfig.StatusKey.critMgkVal = "M_CRT_V";
+			BattleConfig.StatusKey.defAtk = "DEF";
+			BattleConfig.StatusKey.defMgk = "M_DEF";
+			BattleConfig.StatusKey.atk = "ATK";
+			BattleConfig.StatusKey.mgk = "M_ATK";
+			BattleConfig.atkDefPercent = 0.25f;
+			BattleConfig.damageMul = 5f;
 
 			BattleConfig.ActionName.avoidance = "回避";
 			BattleConfig.ActionName.escape = "逃走";
@@ -86,29 +98,34 @@ public class BattleLogic extends GameLogic {
 			BattleConfig.ActionName.commit = "確定";
 			BattleConfig.ActionName.status = "状態";
 
-			BattleConfig.addUntargetConditionNames("DEAD");
-			BattleConfig.addUntargetConditionNames("DESTROY");
-			BattleConfig.addUntargetConditionNames("ESCAPED");
+			BattleConfig.addUntargetConditionNames(
+					"DEAD");
+			BattleConfig.addUntargetConditionNames(
+					"DESTROY");
+			BattleConfig.addUntargetConditionNames(
+					"ESCAPED");
 			BattleConfig.setMagicVisibleStatusKey(Arrays.asList("MP", "SAN"));
 			BattleConfig.setVisibleStatus(Arrays.asList("HP", "MP", "SAN"));
-			BattleConfig.addWinLoseLogic((List<Status> party, List<Status> enemy) -> {
-				// パーティのコンディションを確認
-				boolean lose = true;
-				for (Status s : party) {
-					lose &= (s.hasCondition("DEAD") || s.hasCondition("DESTROY"));
-				}
-				if (lose) {
-					return BattleResult.LOSE;
-				}
-				boolean win = true;
-				for (Status s : enemy) {
-					win &= (s.hasCondition("DEAD") || s.hasCondition("DESTROY"));
-				}
-				if (win) {
-					return BattleResult.WIN;
-				}
-				return BattleResult.NOT_YET;
-			});
+			BattleConfig.addWinLoseLogic(
+					(List<Status> party, List<Status> enemy) -> {
+						// パーティのコンディションを確認
+						boolean lose = true;
+						for (Status s : party) {
+							lose &= (s.hasCondition("DEAD") || s.hasCondition("DESTROY"));
+						}
+						if (lose) {
+							return BattleResult.LOSE;
+						}
+						boolean win = true;
+						for (Status s : enemy) {
+							win &= (s.hasCondition("DEAD") || s.hasCondition("DESTROY"));
+						}
+						if (win) {
+							return BattleResult.WIN;
+						}
+						return BattleResult.NOT_YET;
+					}
+			);
 			choiceSound1 = SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load();
 			choiceSound2 = SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load();
 			playerOpeStart = SoundStorage.getInstance().get("SE").get("効果音＿バトルターン開始.wav").load();
@@ -347,7 +364,7 @@ public class BattleLogic extends GameLogic {
 					BattleResultValues result = GameSystem.getInstance().battleEnd();
 					{
 						//TODO:ドロップアイテム、経験値の分配処理ここ
-						
+
 					}
 					gls.changeTo(Const.LogicName.FIELD);
 					return;

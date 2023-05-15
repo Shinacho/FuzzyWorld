@@ -307,14 +307,18 @@ public class FieldLogic extends GameLogic {
 									}
 								}
 							}
+							return;
 						} else if (mw.hasNext()) {
 							mw.next();
+							return;
 						} else {
 							mw.setVisible(false);
 							fieldMap.closeMessagWindow();
+							return;
 						}
 					} else if (!FieldEventSystem.getInstance().hasEvent() && fieldMap.canTalk()) {
 						mw = fieldMap.talk();
+						return;
 					}
 					FieldMapTile t = fieldMap.getCurrentTile();
 					if (t.hasInNode()) {
@@ -329,9 +333,6 @@ public class FieldLogic extends GameLogic {
 						return;
 					}
 
-					if (mw != null && mw.isVisible()) {
-						return;
-					}
 					//’²‚×‚éƒRƒ}ƒ“ƒh
 					if (FieldEventSystem.getInstance().isManual() && menu != null && !menu.isVisible()) {
 						while (FieldEventSystem.getInstance().hasEvent()) {
