@@ -63,10 +63,10 @@ THE SOFTWARE.
     <term name="ðŒ‚È‚µ" tt="NONE" />
 
     <!-- ƒAƒjƒ[ƒVƒ‡ƒ“‚Ì’è‹` -->
-    <animation name="’ÊíUŒ‚" spriteSheet="resource/data/image/testAnimation.png" w="16" h="16" tc="20" mg="2"/>
+    <animation name="’ÊíUŒ‚" spriteSheet="resource/data/image/testAnimation.png" w="16" h="16" tc="6" mg="2"/>
 	
     <!-- ƒTƒEƒ“ƒh -->
-    <sound name="’ÊíUŒ‚" file="resource/se/testSound.wav" />
+    <sound name="’ÊíUŒ‚" file="resource/se/Œø‰Ê‰¹Qƒ_ƒ[ƒW.wav" />
 	
     <!--ƒAƒCƒeƒ€-->
 	
@@ -151,6 +151,12 @@ THE SOFTWARE.
         <eqAttr tgt="MYSTERY" value="-0.15"/>
         <disassembly>
             <material name="•R" num="1"/>
+        </disassembly>
+    </item>
+    <item name="‘¾—z‚ÌƒƒKƒl" desc="“ÁŽê‚È‘fÞ‚Åì‚ç‚ê‚½‹Md‚ÈƒƒKƒl‚¾B/ƒNƒŠƒeƒBƒJƒ‹ƒ_ƒ[ƒW‚ª‚‚Ü‚éB" value="980" slot="ƒAƒ~ƒ…ƒŒƒbƒg">
+        <eqStatus tgt="CRT_V" value="+1"/>
+        <disassembly>
+            <material name="‡‹à" num="1"/>
         </disassembly>
     </item>
     <item name="ƒfƒ…[ƒNŒN‚ÌƒXƒgƒ‰ƒbƒv" desc="ƒfƒ…[ƒNŒN‚Ì‚©‚í‚¢‚¢ƒXƒgƒ‰ƒbƒv‚¾B/‚±‚Ì¢‚É‘¶Ý‚·‚é‚à‚Ì‚Æ‚ÍŽv‚¦‚È‚¢ˆê•i‚¾B" value="980" slot="ƒAƒ~ƒ…ƒŒƒbƒg">
@@ -1092,7 +1098,7 @@ THE SOFTWARE.
         <eqStatus tgt="ATK" value="14" />
         <eqStatus tgt="DEF" value="2" />
         <eqStatus tgt="SPD" value="-6" />
-        <eqStatus tgt="DEX" value="-10" />
+        <eqStatus tgt="DEX" value="-20" />
         <eqStatus tgt="AVO" value="-0.15" />
         <eqStatus tgt="CUT_P" value="+0.09" />
     </item>
@@ -1150,8 +1156,8 @@ THE SOFTWARE.
     <item name="³‹KŒR‘O‰q‚Ìƒ^ƒ[ƒV[ƒ‹ƒh" desc="”ñí‚ÉŠæä‚Å‹‘å‚È‚‚¾B" value="138000" slot="˜r" wmt="‘å‚" area="22" dcs="STR">
         <eqStatus tgt="ATK" value="14" />
         <eqStatus tgt="DEF" value="35" />
-        <eqStatus tgt="SPD" value="-10" />
-        <eqStatus tgt="DEX" value="-10" />
+        <eqStatus tgt="SPD" value="-20" />
+        <eqStatus tgt="DEX" value="-20" />
         <eqStatus tgt="AVO" value="-0.20" />
         <eqStatus tgt="CUT_P" value="+0.55" />
         <disassembly>
@@ -1165,92 +1171,92 @@ THE SOFTWARE.
     <!--’ÊíUŒ‚ -->
 	
     <attack name="‚±‚Ô‚µ" desc="‰£‚è‚©‚©‚é" term="˜r–¢‘•”õ" area="24" waitTime="48" sound="’ÊíUŒ‚">
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-10" p="0.75" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE" animationMoveType="TGT"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-20" p="0.75" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT" animationMoveType="TGT"/>
     </attack>
     <attack name="Œ•UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="Œ•‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-44" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="‹øŽh‚µ" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="Œ•‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-32" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="’ZŒ•UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="’ZŒ•‘•”õ" area="16" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="ƒXƒ^ƒu" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="’ZŒ•‘•”õ" area="16" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="~‚è‰º‚ë‚µ" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="‘åŒ•‘•”õ" area="32" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="‚Ô‚ñ‰ñ‚µ" desc="ˆÐ—Í‚Í’á‚¢‚ª–½’†‚µ‚â‚·‚¢" term="‘åŒ•‘•”õ" area="32" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="“ËŒ•UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="“ËŒ•‘•”õ" area="22" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="ŠZ‚Ç‚¨‚µ" desc="–hŒä—Í–³Ž‹" term="“ËŒ•‘•”õ" area="22" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.50" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.50" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="ŒU¾Ø‚è" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="“‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="•‚ÅØ‚è" desc="–½’†‚µ‚â‚·‚¢" term="“‘•”õ" area="20" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-8" p="0.99" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-8" p="0.99" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="Žh‚µž‚Ý" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="“‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-8" p="0.99" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-8" p="0.99" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="‘„UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="‘„‘•”õ" area="36" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="‘å—§‰ñ" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="‘„‘•”õ" area="36" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="‚ƒoƒbƒVƒ…" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="‚E’ZŒ•‘•”õ" area="19" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="Ø‚è‚Â‚¯" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="‚E’ZŒ•‘•”õ" area="16" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
-    <attack name="ƒƒCƒXUŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="ƒƒCƒX‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    <attack name="ƒƒCƒXUŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="ƒƒCƒX‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚"  animationMoveType="TGT">
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-22" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
-    <attack name="ƒwƒbƒhEƒCƒ“ƒpƒNƒg" desc="’áŠm—¦‚Å‹Câ" term="ƒƒCƒX‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+    <attack name="ƒwƒbƒhEƒCƒ“ƒpƒNƒg" desc="’áŠm—¦‚Å‹Câ" term="ƒƒCƒX‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚"  animationMoveType="TGT">
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-22" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="‹|ŽËŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="‹|‘•”õ" area="236" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="–îŽh" desc="–î‚É‚æ‚é‹ßÚUŒ‚" term="‹|‘•”õ" area="23" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="“Å–îŽËŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="“Å‹|‘•”õ" area="236" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
         <battleEvent tt="TEAM_ENEMY" pt="ADD_CONDITION" tgtName="POISON" attr="C_POISON" p="0.75" animation="’ÊíUŒ‚" />
     </attack>
     <attack name="œWŽËŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="œW‘•”õ" area="197" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="eŽËŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="e‘•”õ" area="172" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="eŒ•UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="e‘•”õ,eŒ••t‚«" area="32" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="e°UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="e‘•”õ" area="32" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-6" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-6" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="•ÚUŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="•Ú‘•”õ" area="32" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="ñUŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="ñ‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="Š™UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="Š™‘•”õ" area="20" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
     <attack name="ŽñŽë‚è" desc="–½’†—¦‚Í’á‚¢‚ª‚Ü‚ê‚É‘¦Ž€‚ª”­¶" term="Š™‘•”õ" area="20" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="NONE"/>
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
     </attack>
 
 
@@ -1291,7 +1297,7 @@ THE SOFTWARE.
     </magic>
     <magic name="˜B‹à”š”­" desc="˜B¬‚µ‚½˜AŒg•¨Ž¿‚ð”š”j‚·‚éB" term="–‚p‚Ì‘u˜B‹à–‚–@‚PvŠŽ,–‚pŽg—p‰Â”\" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
         <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="-16" attr="ALCHEMY" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
-        <battleEvent tt="ALL" pt="ADD_CONDITION" tgtName="GOLDY" p="0.1" attr="ALCHEMY" animation="’ÊíUŒ‚" />
+        <battleEvent tt="ALL" pt="ADD_CONDITION" tgtName="GOLDY" p="0.01" attr="ALCHEMY" animation="’ÊíUŒ‚" />
         <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
     

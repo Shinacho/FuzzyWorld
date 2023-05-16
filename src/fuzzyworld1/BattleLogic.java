@@ -98,12 +98,9 @@ public class BattleLogic extends GameLogic {
 			BattleConfig.ActionName.commit = "ämíË";
 			BattleConfig.ActionName.status = "èÛë‘";
 
-			BattleConfig.addUntargetConditionNames(
-					"DEAD");
-			BattleConfig.addUntargetConditionNames(
-					"DESTROY");
-			BattleConfig.addUntargetConditionNames(
-					"ESCAPED");
+			BattleConfig.addUntargetConditionNames("DEAD");
+			BattleConfig.addUntargetConditionNames("DESTROY");
+			BattleConfig.addUntargetConditionNames("ESCAPED");
 			BattleConfig.setMagicVisibleStatusKey(Arrays.asList("MP", "SAN"));
 			BattleConfig.setVisibleStatus(Arrays.asList("HP", "MP", "SAN"));
 			BattleConfig.addWinLoseLogic(

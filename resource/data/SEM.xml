@@ -24,70 +24,144 @@ THE SOFTWARE.
 -->
 <KinugasaEnemyMap>	
 	<!--name‚Íd•¡‚µ‚È‚¢“à•”“I‚È“G‚Ì–¼Ì‚ÅAvisibleName‚Íd•¡‰Â”\‚È•\Ž¦‚³‚ê‚é–¼‘O-->
-	<enemy name="–ì“" visibleName="–ì“" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE">
+	<enemy name="–ì“" visibleName="–ì“" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE" deadSound="SE/Œø‰Ê‰¹Q“GÁ–Å.wav">
 		<status name="HP" value="80" min="0" max="80"/>
 		<status name="MOV" value="70" min="0" max="75" />
 		<status name="EXP" value="100"  min="0" max="200"/>
 		<status name="SPD" value="100"  min="0" max="200"/>
+		<status name="CRT_P" value="0.05" min="0" max="0.05"/>
+		<status name="M_CRT_P" value="0.05" min="0" max="0.05"/>
+		<status name="CRT_V" value="1" min="0" max="1"/>
+		<status name="M_CRT_V" value="1" min="0" max="1"/>
+		<status name="AVO" value="0.01" min="0" max="1"/>
+		<status name="M_AVO" value="0.01" min="0" max="1"/>
+		<status name="ATK" value="44" min="0" max="99" />
+		<status name="M_ATK" value="15" min="0" max="99" />
+		<status name="DEF" value="14" min="0" max="99" />
+		<status name="M_DEF" value="1" min="0" max="99" />
+		<eqip name="ƒoƒbƒNƒ‰[‚Æ|‚ÌƒVƒ‡[ƒgƒ\[ƒh" />
 		<attrIn name="STAB" value="0.5"/>
-		<action name="‚±‚Ô‚µ" />
+		<action name="‚ƒoƒbƒVƒ…" />
+		<action name="Ø‚è‚Â‚¯" />
 		<action name="ˆÚ“®"/>
 	</enemy>
 
-	<enemy name="“®‚©‚È‚¢–ì“" visibleName="“®‚©‚È‚¢–ì“" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE">
+	<enemy name="“®‚©‚È‚¢–ì“" visibleName="“®‚©‚È‚¢–ì“" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE" deadSound="SE/Œø‰Ê‰¹Q“GÁ–Å.wav">
 		<status name="HP" value="80" min="0" max="80"/>
 		<status name="MOV" value="80" min="0" max="75" />
 		<status name="EXP" value="120" min="0" max="200"/>
 		<attrIn name="STAB" value="0.5"/>
+		<status name="CRT_P" value="0.05" min="0" max="0.05"/>
+		<status name="M_CRT_P" value="0.05" min="0" max="0.05"/>
+		<status name="CRT_V" value="1" min="0" max="1"/>
+		<status name="M_CRT_V" value="1" min="0" max="1"/>
+		<status name="AVO" value="0.01" min="0" max="1"/>
+		<status name="M_AVO" value="0.01" min="0" max="1"/>
+		<status name="ATK" value="44" min="0" max="99" />
+		<status name="M_ATK" value="15" min="0" max="99" />
+		<status name="DEF" value="14" min="0" max="99" />
+		<status name="M_DEF" value="1" min="0" max="99" />
 		<action name="‚±‚Ô‚µ" />
 		<action name="–hŒä" />
 	</enemy>
 	
-	<enemy name="“®‚©‚È‚¢–‚pŽt" visibleName="“®‚©‚È‚¢–‚pŽt" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE">
+	<enemy name="“®‚©‚È‚¢–‚pŽt" visibleName="“®‚©‚È‚¢–‚pŽt" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE" deadSound="SE/Œø‰Ê‰¹Q“GÁ–Å.wav">
 		<status name="HP" value="80" min="0" max="80"/>
 		<status name="MP" value="80" min="0" max="80"/>
 		<status name="MOV" value="40" min="0" max="75" />
 		<status name="SAN" value="40" min="0" max="75" />
 		<status name="EXP" value="120" min="0" max="200"/>
+		<status name="CRT_P" value="0.05" min="0" max="0.05"/>
+		<status name="M_CRT_P" value="0.05" min="0" max="0.05"/>
+		<status name="CRT_V" value="1" min="0" max="1"/>
+		<status name="M_CRT_V" value="1" min="0" max="1"/>
+		<status name="AVO" value="0.01" min="0" max="1"/>
+		<status name="M_AVO" value="0.01" min="0" max="1"/>
+		<status name="ATK" value="44" min="0" max="99" />
+		<status name="M_ATK" value="15" min="0" max="99" />
+		<status name="DEF" value="14" min="0" max="99" />
+		<status name="M_DEF" value="1" min="0" max="99" />
 		<action name="˜B‹à•¨Ž¿˜B¬"/>
 		<book name="–‚p‚Ì‘u˜B‹à–‚–@‚Pv" />
 	</enemy>
 	
-	<enemy name="MP‚ª‘«‚è‚È‚¢–‚pŽt" visibleName="MP‚ª‘«‚è‚È‚¢–‚pŽt" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE">
+	<enemy name="MP‚ª‘«‚è‚È‚¢–‚pŽt" visibleName="MP‚ª‘«‚è‚È‚¢–‚pŽt" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE" deadSound="SE/Œø‰Ê‰¹Q“GÁ–Å.wav">
 		<status name="HP" value="80" min="0" max="80"/>
 		<status name="MP" value="2" min="0" max="1"/>
 		<status name="MOV" value="40" min="0" max="75" />
 		<status name="SAN" value="40" min="0" max="75" />
 		<status name="EXP" value="120" min="0" max="200"/>
-		<action name="˜B‹à•¨Ž¿˜B¬"/>
-		<action name="ˆÚ“®"/>
-		<book name="–‚p‚Ì‘u˜B‹à–‚–@‚Pv" />
+		<status name="CRT_P" value="0.05" min="0" max="0.05"/>
+		<status name="M_CRT_P" value="0.05" min="0" max="0.05"/>
+		<status name="CRT_V" value="1" min="0" max="1"/>
+		<status name="M_CRT_V" value="1" min="0" max="1"/>
+		<status name="AVO" value="0.01" min="0" max="1"/>
+		<status name="M_AVO" value="0.01" min="0" max="1"/>
+		<status name="ATK" value="44" min="0" max="99" />
+		<status name="M_ATK" value="15" min="0" max="99" />
+		<status name="DEF" value="14" min="0" max="99" />
+		<status name="M_DEF" value="1" min="0" max="99" />
+		<action name="”j‰óŒõü"/>
+		<book name="–‚p‚Ì‘u”j‰óŒõüv" />
 	</enemy>	
-	<enemy name="“®‚­–‚pŽt" visibleName="“®‚­–‚pŽt" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE">
+	<enemy name="“®‚­–‚pŽt" visibleName="“®‚­–‚pŽt" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE" deadSound="SE/Œø‰Ê‰¹Q“GÁ–Å.wav">
 		<status name="HP" value="80" min="0" max="80"/>
 		<status name="MP" value="80" min="0" max="80"/>
 		<status name="MOV" value="40" min="0" max="75" />
 		<status name="SAN" value="40" min="0" max="75" />
 		<status name="EXP" value="120" min="0" max="200"/>
-		<action name="˜B‹à”š”­"/>
+		<status name="CRT_P" value="0.05" min="0" max="0.05"/>
+		<status name="M_CRT_P" value="0.05" min="0" max="0.05"/>
+		<status name="CRT_V" value="1" min="0" max="1"/>
+		<status name="M_CRT_V" value="1" min="0" max="1"/>
+		<status name="AVO" value="0.01" min="0" max="1"/>
+		<status name="M_AVO" value="0.01" min="0" max="1"/>
+		<status name="ATK" value="44" min="0" max="99" />
+		<status name="M_ATK" value="15" min="0" max="99" />
+		<status name="DEF" value="14" min="0" max="99" />
+		<status name="M_DEF" value="1" min="0" max="99" />
 		<action name="ˆÚ“®"/>
-		<book name="–‚p‚Ì‘u˜B‹à–‚–@‚Pv" />
+		<action name="”j‰óŒõü"/>
+		<book name="–‚p‚Ì‘u”j‰óŒõüv" />
 	</enemy>
 	
 	
-	<enemy name="ŽR‘¯" visibleName="ŽR‘¯" image="resource/data/image/M2.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE">
+	<enemy name="ŽR‘¯" visibleName="ŽR‘¯" image="resource/data/image/M2.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE" deadSound="SE/Œø‰Ê‰¹Q“GÁ–Å.wav">
 		<status name="HP" value="200" min="0" max="200"/>
 		<status name="MOV" value="80" min="0" max="95" />
 		<status name="EXP" value="150"  min="0" max="200"/>
 		<attrIn name="STAB" value="0.5"/>
-		<action name="‚±‚Ô‚µ"/>
+		<status name="CRT_P" value="0.05" min="0" max="0.05"/>
+		<status name="M_CRT_P" value="0.05" min="0" max="0.05"/>
+		<status name="CRT_V" value="1" min="0" max="1"/>
+		<status name="M_CRT_V" value="1" min="0" max="1"/>
+		<status name="AVO" value="0.01" min="0" max="1"/>
+		<status name="M_AVO" value="0.01" min="0" max="1"/>
+		<status name="ATK" value="44" min="0" max="99" />
+		<status name="M_ATK" value="15" min="0" max="99" />
+		<status name="DEF" value="14" min="0" max="99" />
+		<status name="M_DEF" value="1" min="0" max="99" />
+		<eqip name="“S‚ÌŒ•" />
+		<action name="ˆÚ“®"/>
+		<action name="Œ•UŒ‚"/>
+		<action name="‹øŽh‚µ"/>
 	</enemy>
 
-	<enemy name="ˆ«Š¿" visibleName="ˆ«Š¿" image="resource/data/image/M3.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE">
+	<enemy name="ˆ«Š¿" visibleName="ˆ«Š¿" image="resource/data/image/M3.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE" deadSound="SE/Œø‰Ê‰¹Q“GÁ–Å.wav">
 		<status name="HP" value="250" min="0" max="250"/>
 		<status name="MOV" value="110" min="0" max="110" />
 		<status name="EXP" value="200"  min="0" max="200"/>
 		<attrIn name="STAB" value="0.5"/>
+		<status name="CRT_P" value="0.05" min="0" max="0.05"/>
+		<status name="M_CRT_P" value="0.05" min="0" max="0.05"/>
+		<status name="CRT_V" value="1" min="0" max="1"/>
+		<status name="M_CRT_V" value="1" min="0" max="1"/>
+		<status name="AVO" value="0.01" min="0" max="1"/>
+		<status name="M_AVO" value="0.01" min="0" max="1"/>
+		<status name="ATK" value="44" min="0" max="99" />
+		<status name="M_ATK" value="15" min="0" max="99" />
+		<status name="DEF" value="14" min="0" max="99" />
+		<status name="M_DEF" value="1" min="0" max="99" />
 		<action name="‚±‚Ô‚µ"/>
 		<!--
 		<dropItem name="Î‚±‚ë" n="1" p="1"/>

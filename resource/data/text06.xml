@@ -38,6 +38,7 @@ THE SOFTWARE.
 	<choice id="003" tc="1" text="＊「失踪者らしいと聞いたが、難破でもしたのか？">
 		<!--テスト用-->
 		<option id="003_1" next="004">いや、本当に覚えていないんだ</option>
+		<option id="003_2" next="004">そうかもしれない。</option>
 	</choice>
 	
 	<text id="004" tc="1">

@@ -255,6 +255,14 @@ public class FieldLogic extends GameLogic {
 					}
 				}
 				//mw処理
+				if (mw != null && mw.isChoice()) {
+					if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+						mw.nextSelect();
+					}
+					if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+						mw.prevSelect();
+					}
+				}
 				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE) && (menu == null || !menu.isVisible())) {
 					//初回実行時に使ったデバイスを検査
 					if (!first) {
@@ -307,14 +315,11 @@ public class FieldLogic extends GameLogic {
 									}
 								}
 							}
-							return;
 						} else if (mw.hasNext()) {
 							mw.next();
-							return;
 						} else {
 							mw.setVisible(false);
 							fieldMap.closeMessagWindow();
-							return;
 						}
 					} else if (!FieldEventSystem.getInstance().hasEvent() && fieldMap.canTalk()) {
 						mw = fieldMap.talk();
@@ -370,14 +375,6 @@ public class FieldLogic extends GameLogic {
 									return;
 							}
 						}
-					}
-				}
-				if (mw != null && mw.isChoice()) {
-					if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-						mw.nextSelect();
-					}
-					if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-						mw.prevSelect();
 					}
 				}
 				if (mw != null && mw.isVisible()) {

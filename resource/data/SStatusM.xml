@@ -26,8 +26,8 @@ THE SOFTWARE.
 
 	<!-- ステータスパラメータのマスタ定義 -->
 	<status order="-1" name="LV" min="0" max="99" desc="レベル"/>
-	<status order="0" name="HP" min="0" max="999999" desc="体力" when0="DEAD"/>
-	<status order="1" name="MP" min="0" max="999999" desc="魔力" when0="SWOON"/>
+	<status order="0" name="HP" min="0" max="99999" desc="体力" when0="DEAD"/>
+	<status order="1" name="MP" min="0" max="99999" desc="魔力" when0="SWOON"/>
                             
 	<status order="2" name="STR" min="0" max="99" desc="筋力" when0="DEAD"	/>
 	<status order="5" name="SPD" min="0" max="99" desc="素早さ" when0="MADNESS"/>
