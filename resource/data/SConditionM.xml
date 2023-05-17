@@ -32,7 +32,7 @@ THE SOFTWARE.
 
 	<!-- 状態異常のマスタ定、魔法、スキル、装備による効果も同じストレージに追加することができる	-->
 
-	<cCondition name="CASTING" desc="詠唱中" pri="1">
+	<cCondition name="CASTING" desc="詠唱" pri="1">
 		<effect ect="CONTINUE" time="INFINITY" ett="STOP" p="1" />
 	</cCondition>
 	
@@ -107,10 +107,6 @@ THE SOFTWARE.
 		<effect ect="CONTINUE" time="10/50" ett="STOP" p="1" />
 	</cCondition>
 	
-	<cCondition name="SPELLING" desc="詠唱" pri="50">
-		<effect ect="CONTINUE" time="INFINITY" ett="STOP" p="1" />
-	</cCondition>
-	
 	<cCondition name="PARALYS" desc="麻痺" pri="60">
 		<effect ect="CONTINUE" time="10/50" ett="STOP" p="0.25" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="DEX" value="-0.75" p="0.5" />
@@ -119,7 +115,7 @@ THE SOFTWARE.
 	</cCondition>
 	
 	<cCondition name="SWOON" desc="気絶" pri="60">
-		<effect ect="CONTINUE" time="10/50" ett="STOP" p="1" />
+		<effect ect="CONTINUE" time="10/20" ett="STOP" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="DEX" value="-0.75" p="0.5" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SPD" value="-0.75" p="0.5" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="AVO" value="-0.75" p="0.5" />

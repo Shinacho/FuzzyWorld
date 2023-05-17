@@ -41,6 +41,7 @@ public class Const {
 		public static final String FIELD = "FIELD";
 		public static final String BATTLE = "BATTLE";
 		public static final String SS_LOGIC = "SS";
+		public static final String GAME_OVER = "GAME_OVER";
 	}
 
 	public static class Screen {

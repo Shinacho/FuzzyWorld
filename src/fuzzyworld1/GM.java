@@ -110,6 +110,7 @@ public class GM extends GameManager {
 		gls.add(new FieldLogic(this));
 		gls.add(new BattleLogic(this));
 		gls.add(new SSLogic(this));
+		gls.add(new GameOverLogic(this));
 
 		//
 		gls.changeTo(Const.LogicName.SS_LOGIC);

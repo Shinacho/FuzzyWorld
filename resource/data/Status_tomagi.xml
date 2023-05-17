@@ -34,9 +34,9 @@ THE SOFTWARE.
 	<status key="STR" max="42" min="0" value="42" />
 	<status key="SPD" max="30" min="0" value="30" />
 	<status key="DEX" max="40" min="0" value="40" />
-	<status key="POW" max="30" min="0" value="30" />
+	<status key="POW" max="30" min="0" value="45" />
 	<status key="SAN" max="60" min="0" value="60" />
-	<status key="MOV" max="52" min="0" value="40" />
+	<status key="MOV" max="52" min="0" value="48" />
 	<status key="EXP" max="0" min="0" value="0" />
 	 
 	<status key="ATK" max="42" min="0" value="42" />
@@ -94,6 +94,7 @@ THE SOFTWARE.
 	<attrIn key="C_BREAK" max="99" min="1" value="0.9" />
 	<attrIn key="C_DESTROY" max="99" min="1" value="0.9" />
 	<attrIn key="C_DEAD" max="99" min="1" value="0.9" />
+	<attrIn key="C_SWOON" max="99" min="1" value="0.9" />
 
 
 

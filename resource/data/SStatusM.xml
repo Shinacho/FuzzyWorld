@@ -29,9 +29,9 @@ THE SOFTWARE.
 	<status order="0" name="HP" min="0" max="99999" desc="体力" when0="DEAD"/>
 	<status order="1" name="MP" min="0" max="99999" desc="魔力" when0="SWOON"/>
                             
-	<status order="2" name="STR" min="0" max="99" desc="筋力" when0="DEAD"	/>
-	<status order="5" name="SPD" min="0" max="99" desc="素早さ" when0="MADNESS"/>
-	<status order="6" name="DEX" min="0" max="99" desc="器用さ" when0="MADNESS"/>
+	<status order="2" name="STR" min="0" max="99" desc="筋力"/>
+	<status order="5" name="SPD" min="0" max="99" desc="素早さ" />
+	<status order="6" name="DEX" min="0" max="99" desc="器用さ" />
 	<status order="10" name="POW" min="0" max="99" desc="精神力" when0="MADNESS"/>
 	<status order="13" name="SAN" min="0" max="99" desc="正気度" when0="TRUE_MADNESS"/>
 	<status order="14" name="MOV" min="0" max="99" desc="行動力"/>
@@ -45,8 +45,8 @@ THE SOFTWARE.
 	<status order="21" name="CRT_P" min="0" max="1" desc="物理クリティカル発生率"/>
 	<status order="22" name="CRT_V" min="0" max="1" desc="物理クリティカル発生時の追加割合"/>
 	                        
-	<status order="23" name="M_ATK" min="0" max="9999" desc="魔法攻撃力"/>
-	<status order="24" name="M_DEF" min="0" max="9999" desc="魔法防御力"/>
+	<status order="23" name="M_ATK" min="0" max="99" desc="魔法攻撃力"/>
+	<status order="24" name="M_DEF" min="0" max="99" desc="魔法防御力"/>
 	<status order="25" name="M_AVO" min="0" max="1" desc="魔法攻撃回避率"/>
 	<status order="26" name="M_CUT_P" min="0" max="1" desc="魔法攻撃カット率"/>
 	<status order="27" name="M_CUT_V" min="0" max="1" desc="魔法ダメージカット時の減少割合"/>

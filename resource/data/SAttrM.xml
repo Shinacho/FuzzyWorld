@@ -58,15 +58,16 @@ THE SOFTWARE.
 	<dAttribute order="130" name="C_SLEEP" desc="–°‚è" />
 	<dAttribute order="131" name="C_PARALYS" desc="–ƒáƒ" />
 	<dAttribute order="132" name="C_CONFUSION" desc="¬—" />
-	<dAttribute order="133" name="C_MADNESS" desc="‹¶—" />
-	<dAttribute order="134" name="C_TRUE_MADNESS" desc="”­‹¶" />
-	<dAttribute order="135" name="C_ROT" desc="•…”s" />
-	<dAttribute order="136" name="C_STONE" desc="Î‰»" />
-	<dAttribute order="137" name="C_GOLDY" desc="‰©‹à‰»" />
-	<dAttribute order="138" name="C_CUT" desc="Ø’f" />
-	<dAttribute order="139" name="C_BREAK" desc="”j‰ó" />
-	<dAttribute order="140" name="C_DESTROY" desc="Á–Å" />
-	<dAttribute order="141" name="C_DEAD" desc="‘¦Ž€" />
+	<dAttribute order="133" name="C_SWOON" desc="‹Câ" />
+	<dAttribute order="134" name="C_MADNESS" desc="‹¶—" />
+	<dAttribute order="135" name="C_TRUE_MADNESS" desc="”­‹¶" />
+	<dAttribute order="136" name="C_ROT" desc="•…”s" />
+	<dAttribute order="137" name="C_STONE" desc="Î‰»" />
+	<dAttribute order="138" name="C_GOLDY" desc="‰©‹à‰»" />
+	<dAttribute order="139" name="C_CUT" desc="Ø’f" />
+	<dAttribute order="140" name="C_BREAK" desc="”j‰ó" />
+	<dAttribute order="141" name="C_DESTROY" desc="Á–Å" />
+	<dAttribute order="142" name="C_DEAD" desc="‘¦Ž€" />
 	
 	
 	

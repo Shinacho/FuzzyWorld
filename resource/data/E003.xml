@@ -80,6 +80,7 @@ THE SOFTWARE.
 		<event order="229" fet="SET_ATTRIN" tgtName="0,C_BREAK" value="0.9" />
 		<event order="230" fet="SET_ATTRIN" tgtName="0,C_DESTROY" value="0.9" />
 		<event order="230" fet="SET_ATTRIN" tgtName="0,C_DEAD" value="0.9" />
+		<event order="231" fet="SET_ATTRIN" tgtName="0,C_SWOON" value="0.9" />
     	
 		<event order="300" fet="INIT_STATUS" tgtName="0,LV" value="1"/>
 		<event order="301" fet="INIT_STATUS" tgtName="0,HP" value="125"/>
@@ -88,21 +89,21 @@ THE SOFTWARE.
 		<event order="304" fet="INIT_STATUS" tgtName="0,SPD" value="35"/>
 		<event order="305" fet="INIT_STATUS" tgtName="0,DEX" value="35"/>
 		<event order="306" fet="INIT_STATUS" tgtName="0,POW" value="35"/>
-		<event order="308" fet="INIT_STATUS" tgtName="0,MOV" value="45"/>
+		<event order="308" fet="INIT_STATUS" tgtName="0,MOV" value="55"/>
 		<event order="309" fet="INIT_STATUS" tgtName="0,EXP" value="0"/>
 		<event order="310" fet="INIT_STATUS" tgtName="0,ATK" value="35"/>
 		<event order="311" fet="INIT_STATUS" tgtName="0,DEF" value="9"/>
-		<event order="312" fet="INIT_STATUS" tgtName="0,AVO" value="0.025"/>
-		<event order="313" fet="INIT_STATUS" tgtName="0,CUT_P" value="0.01"/>
+		<event order="312" fet="INIT_STATUS" tgtName="0,AVO" value="0.05"/>
+		<event order="313" fet="INIT_STATUS" tgtName="0,CUT_P" value="0.05"/>
 		<event order="314" fet="INIT_STATUS" tgtName="0,CUT_V" value="1.5"/>
-		<event order="315" fet="INIT_STATUS" tgtName="0,CRT_P" value="0.01"/>
+		<event order="315" fet="INIT_STATUS" tgtName="0,CRT_P" value="0.05"/>
 		<event order="316" fet="INIT_STATUS" tgtName="0,CRT_V" value="1.5"/>
-		<event order="317" fet="INIT_STATUS" tgtName="0,M_ATK" value="30"/>
-		<event order="318" fet="INIT_STATUS" tgtName="0,M_DEF" value="6"/>
-		<event order="319" fet="INIT_STATUS" tgtName="0,M_AVO" value="0.025"/>
-		<event order="320" fet="INIT_STATUS" tgtName="0,M_CUT_P" value="0.01"/>
+		<event order="317" fet="INIT_STATUS" tgtName="0,M_ATK" value="35"/>
+		<event order="318" fet="INIT_STATUS" tgtName="0,M_DEF" value="35"/>
+		<event order="319" fet="INIT_STATUS" tgtName="0,M_AVO" value="0.05"/>
+		<event order="320" fet="INIT_STATUS" tgtName="0,M_CUT_P" value="0.05"/>
 		<event order="321" fet="INIT_STATUS" tgtName="0,M_CUT_V" value="1.5"/>
-		<event order="322" fet="INIT_STATUS" tgtName="0,M_CRT_P" value="0.01"/>
+		<event order="322" fet="INIT_STATUS" tgtName="0,M_CRT_P" value="0.05"/>
 		<event order="323" fet="INIT_STATUS" tgtName="0,M_CRT_V" value="1.5"/>
 		<event order="324" fet="INIT_STATUS" tgtName="0,SAN" value="50"/>
 		<event order="325" fet="INIT_STATUS" tgtName="0,ATTR" value="0"/>

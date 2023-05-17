@@ -91,6 +91,8 @@ public class BattleLogic extends GameLogic {
 			BattleConfig.atkDefPercent = 0.25f;
 			BattleConfig.damageMul = 5f;
 
+			BattleConfig.weaponSlotName = "腕";
+
 			BattleConfig.ActionName.avoidance = "回避";
 			BattleConfig.ActionName.escape = "逃走";
 			BattleConfig.ActionName.defence = "防御";
@@ -106,10 +108,7 @@ public class BattleLogic extends GameLogic {
 			BattleConfig.addWinLoseLogic(
 					(List<Status> party, List<Status> enemy) -> {
 						// パーティのコンディションを確認
-						boolean lose = true;
-						for (Status s : party) {
-							lose &= (s.hasCondition("DEAD") || s.hasCondition("DESTROY"));
-						}
+						boolean lose = party.get(0).hasCondition("DEAD") || party.get(0).hasCondition("DESTROY");
 						if (lose) {
 							return BattleResult.LOSE;
 						}
@@ -359,11 +358,14 @@ public class BattleLogic extends GameLogic {
 				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
 					choiceSound1.stopAndPlay();
 					BattleResultValues result = GameSystem.getInstance().battleEnd();
-					{
+					if (result.getBattleResult() == BattleResult.WIN) {
 						//TODO:ドロップアイテム、経験値の分配処理ここ
 
 					}
-					gls.changeTo(Const.LogicName.FIELD);
+					if(result.getBattleResult() == BattleResult.LOSE){
+						//負けた時の処理ここ
+					}
+					gls.changeTo(result.getNextLogicName());
 					return;
 				}
 				//TODO:バトルエンド処理

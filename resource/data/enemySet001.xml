@@ -28,8 +28,6 @@ THE SOFTWARE.
 	<set name="01" p="0.75" bgmMode="PAUSE" BGM="BGM/ƒoƒgƒ‹1iƒŠƒƒCƒNj.wav" winBGM="SE/Œø‰Ê‰¹Qí“¬I—¹iŸ—˜j.wav" win="FIELD" lose="GAME_OVER">
 		<enemy name="–ì“" />
 		<enemy name="–ì“" />
-		<enemy name="“®‚©‚È‚¢–ì“" />
-		<enemy name="MP‚ª‘«‚è‚È‚¢–‚pŽt" />
 		<enemy name="“®‚­–‚pŽt" />
 		<enemy name="ŽR‘¯" />
 	</set>
