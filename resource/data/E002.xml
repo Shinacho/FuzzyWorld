@@ -27,7 +27,6 @@ THE SOFTWARE.
 	<term name="TOMAGISHUT_E02_FLG_NOT_EXISTS" ett="NO_EXISTS_FLG" stName="STORY" tgtName="TOMAGISHUT_E02" value="" />
 
 	<event order="0" fet="IF" stName="" tgtName="" value="" term="TOMAGISHUT_E02_FLG_NOT_EXISTS"/>
-		<event order="2" fet="PLAY_SOUND" stName="BGM" tgtName="フィールド５.wav"/>
 		<event order="5" fet="DISABLE_OPERATION" stName="" tgtName="" value="" term=""/>
 		<event order="10" fet="WAIT" stName="" tgtName="" value="120" term=""/>
 		<event order="20" fet="NPC_DIR_TO" stName="" tgtName="NPC02" value="NORTH" term="" />

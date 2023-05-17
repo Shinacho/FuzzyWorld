@@ -28,19 +28,19 @@ THE SOFTWARE.
 	<spritesheet image="resource/data/image/c3.png" tc="14" w="32" h="32" ny="32" sy="0" ey="64" wy="96" />
 	
 	<status key="LV" max="99" min="1" value="22" />
-	<status key="HP" max="213" min="0" value="313" />
+	<status key="HP" max="313" min="0" value="313" />
 	<status key="MP" max="1" min="1" value="1" />
 	
-	<status key="STR" max="42" min="0" value="52" />
-	<status key="SPD" max="30" min="0" value="36" />
-	<status key="DEX" max="40" min="0" value="44" />
-	<status key="POW" max="30" min="0" value="45" />
+	<status key="STR" max="52" min="0" value="52" />
+	<status key="SPD" max="36" min="0" value="36" />
+	<status key="DEX" max="44" min="0" value="44" />
+	<status key="POW" max="45" min="0" value="45" />
 	<status key="SAN" max="60" min="0" value="60" />
-	<status key="MOV" max="52" min="0" value="48" />
+	<status key="MOV" max="48" min="0" value="48" />
 	<status key="EXP" max="0" min="0" value="1192" />
 	 
-	<status key="ATK" max="42" min="0" value="48" />
-	<status key="DEF" max="12" min="0" value="17" />
+	<status key="ATK" max="48" min="0" value="48" />
+	<status key="DEF" max="17" min="0" value="17" />
 	<status key="AVO" max="0.02" min="0" value="0.02" />
 	<status key="CUT_P" max="0.01" min="0" value="0.01" />
 	<status key="CUT_V" max="1.5" min="0" value="1.5" />

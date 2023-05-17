@@ -82,6 +82,7 @@ public class GM extends GameManager {
 		try {
 			fontName = Files.readAllLines(new File("resource/data/font.txt").toPath(), Charset.forName("MS932")).get(0);
 			FontModel.DEFAULT.setFont(new Font(fontName, Font.PLAIN, FontModel.DEFAULT.getFont().getSize()));
+			GameLog.printInfo("font[" + fontName + "] is loaded");
 		} catch (Exception ex) {
 			GameLog.printInfo("font.txt is not found or font name is not found, using default font[MONOSPACED]");
 		}
@@ -91,6 +92,10 @@ public class GM extends GameManager {
 
 	@Override
 	protected void startUp() {
+		GameLog.printInfo("--MEM INFO--");
+		GameLog.printInfo("TOTAL:" + Runtime.getRuntime().totalMemory() / 1024 / 1024);
+		GameLog.printInfo("MAX:" + Runtime.getRuntime().maxMemory() / 1024 / 1024);
+		GameLog.printInfo("FREE:" + Runtime.getRuntime().freeMemory() / 1024 / 1024);
 
 		Const.Screen.WIDTH = GameOption.getInstance().getWindowSize().width;
 		Const.Screen.HEIGHT = GameOption.getInstance().getWindowSize().height;
@@ -101,7 +106,7 @@ public class GM extends GameManager {
 		float volumeBgm = volumeForm.getMulBgm();
 		float volumeSe = volumeForm.getMulSe();
 		if (GameSystem.isDebugMode()) {
-			kinugasa.game.GameLog.printInfo("volume: BGM[" + volumeBgm + "] se:[" + volumeSe + "]");
+			kinugasa.game.GameLog.printInfo("volume: BGM[" + volumeBgm + "] SE:[" + volumeSe + "]");
 		}
 		SoundLoader.loadList("resource/bgm/BGM.csv", volumeBgm);
 		SoundLoader.loadList("resource/se/SE.csv", volumeSe);
