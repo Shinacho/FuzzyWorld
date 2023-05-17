@@ -78,12 +78,16 @@ public class TitleLogic extends GameLogic {
 						Const.Chapter.nextLogic = Const.LogicName.OP;
 						SoundStorage.getInstance().get("BGM").stopAll();
 						SoundStorage.getInstance().get("BGM").dispose();
+						System.gc();
 						gls.changeTo(Const.LogicName.CHAPTER_TITLE);
 					}
 				}),
 				new ActionTextSprite(I18N.translate("LOAD_GAME"), new SimpleTextLabelModel(FontModel.DEFAULT.clone().setFontSize(14)), 0, 0, 18, 0, new Action() {
 					@Override
 					public void exec() {
+						SoundStorage.getInstance().get("BGM").stopAll();
+						SoundStorage.getInstance().get("BGM").dispose();
+						System.gc();
 						gls.changeTo(Const.LogicName.LOAD_GAME);
 					}
 				}),
@@ -118,7 +122,7 @@ public class TitleLogic extends GameLogic {
 		SoundStorage.getInstance().get("BGM").dispose();
 		if (kinugasa.util.Random.percent(0.5f)) {
 			SoundStorage.getInstance().get("BGM").get("フィールド３.wav").load().play();
-		}else{
+		} else {
 			SoundStorage.getInstance().get("BGM").get("フィールド２.wav").load().play();
 		}
 		atsg.setSelectedIdx(selected);

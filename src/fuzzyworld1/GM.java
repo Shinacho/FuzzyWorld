@@ -27,8 +27,13 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.Rectangle;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.ImageIcon;
 import javax.swing.JFileChooser;
 import kinugasa.game.GameLog;
@@ -64,7 +69,7 @@ public class GM extends GameManager {
 		try {
 			new GM().gameStart();
 		} catch (Throwable ex) {
-			System.out.println(ex);
+			kinugasa.game.GameLog.printInfo(ex);
 		}
 	}
 
@@ -86,6 +91,7 @@ public class GM extends GameManager {
 
 	@Override
 	protected void startUp() {
+
 		Const.Screen.WIDTH = GameOption.getInstance().getWindowSize().width;
 		Const.Screen.HEIGHT = GameOption.getInstance().getWindowSize().height;
 		Status.canMagicStatusName = "CAN_MAGIC";
@@ -95,7 +101,7 @@ public class GM extends GameManager {
 		float volumeBgm = volumeForm.getMulBgm();
 		float volumeSe = volumeForm.getMulSe();
 		if (GameSystem.isDebugMode()) {
-			System.out.println("volume: BGM[" + volumeBgm + "] se:[" + volumeSe + "]");
+			kinugasa.game.GameLog.printInfo("volume: BGM[" + volumeBgm + "] se:[" + volumeSe + "]");
 		}
 		SoundLoader.loadList("resource/bgm/BGM.csv", volumeBgm);
 		SoundLoader.loadList("resource/se/SE.csv", volumeSe);

@@ -191,8 +191,8 @@ public class FieldLogic extends GameLogic {
 			if (CMDargs.getInstance().getArgs().length > 0) {
 				if (GameSystem.isDebugMode()) {
 					if (Arrays.stream(CMDargs.getInstance().getArgs()).anyMatch(p -> "-soba".equals(p))) {
-						System.out.println("へい！手打ちもりそばおまち！！");
-						System.out.println("※注意：この機能はテスト用です。");
+						kinugasa.game.GameLog.printInfo("へい！手打ちもりそばおまち！！");
+						kinugasa.game.GameLog.printInfo("※注意：この機能はテスト用です。");
 						for (int i = 0; i < pc1Status.getItemBag().getMax(); i++) {
 							pc1Status.getItemBag().add(ItemStorage.getInstance().get("出前「手打ちもりそば"));
 						}
@@ -235,7 +235,7 @@ public class FieldLogic extends GameLogic {
 	@Override
 	public void update(GameTimeManager gtm, InputState is) {
 		//テスト用
-//		System.out.println(fieldMap == null ? null : fieldMap.getCamera().cameraCantMoveDesc + " / " + stage);
+//		kinugasa.game.GameLog.printInfo(fieldMap == null ? null : fieldMap.getCamera().cameraCantMoveDesc + " / " + stage);
 		fieldMap.update();
 		FieldEventSystem.getInstance().update();
 		switch (stage) {

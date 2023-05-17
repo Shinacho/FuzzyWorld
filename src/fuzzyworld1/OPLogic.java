@@ -147,25 +147,25 @@ public class OPLogic extends GameLogic {
 				break;
 			case 8:
 				if (GameSystem.isDebugMode()) {
-					System.out.println("FUZZY WORLD へようこそ, " + Const.Player.pc1Name);
+					kinugasa.game.GameLog.printInfo("FUZZY WORLD へようこそ, " + Const.Player.pc1Name);
 					if (nameMap.containsKey(Const.Player.pc1Name)) {
-						System.out.println(nameMap.get(Const.Player.pc1Name));
+						kinugasa.game.GameLog.printInfo(nameMap.get(Const.Player.pc1Name));
 					}
 					if ("qwerty".contains(Const.Player.pc1Name)) {
-						System.out.println("あなたは・・・なかなか適当な人のようですね。");
+						kinugasa.game.GameLog.printInfo("あなたは・・・なかなか適当な人のようですね。");
 					}
 					if ("asdfgh".contains(Const.Player.pc1Name)) {
-						System.out.println("あなたは・・・なかなか適当な人のようですね。");
+						kinugasa.game.GameLog.printInfo("あなたは・・・なかなか適当な人のようですね。");
 					}
 					if (Const.Player.pc1Name.contains("<") || Const.Player.pc1Name.contains(">")) {
-						System.out.println("フフフ・・・そのような名前にしても、この世界は壊れません。無駄ですよ。");
+						kinugasa.game.GameLog.printInfo("フフフ・・・そのような名前にしても、この世界は壊れません。無駄ですよ。");
 					}
 					if (Const.Player.pc1Name.contains("\\") || Const.Player.pc1Name.contains("\"")) {
-						System.out.println("フフフ・・・そのような名前にしても、この世界は壊れません。無駄ですよ。");
+						kinugasa.game.GameLog.printInfo("フフフ・・・そのような名前にしても、この世界は壊れません。無駄ですよ。");
 					}
-					System.out.println("あなたには・・・このメッセージが見えているのですね。");
-					System.out.println("あなたの使命は金の円盤にしたがって世界を正すこと。");
-					System.out.println("我々に正しい世界をもたらしてください"
+					kinugasa.game.GameLog.printInfo("あなたには・・・このメッセージが見えているのですね。");
+					kinugasa.game.GameLog.printInfo("あなたの使命は金の円盤にしたがって世界を正すこと。");
+					kinugasa.game.GameLog.printInfo("我々に正しい世界をもたらしてください"
 							+ "。金の円盤にしたがって・・・");
 				}
 				effect = new FadeEffect(gm.getWindow().getWidth(), gm.getWindow().getHeight(),
