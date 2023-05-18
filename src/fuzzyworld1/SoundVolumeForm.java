@@ -229,7 +229,7 @@ public class SoundVolumeForm extends javax.swing.JFrame {
     }//GEN-LAST:event_jSlider1StateChanged
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-		//ƒeƒLƒXƒgƒtƒ@ƒCƒ‹‚ÌXV
+		//ãƒ†ã‚­ã‚¹ãƒˆãƒ•ã‚¡ã‚¤ãƒ«ã®æ›´æ–°
 		CSVFile file = new CSVFile("resource/data/volume.txt");
 		List<String[]> data = file.getData();
 		data.clear();
@@ -237,7 +237,7 @@ public class SoundVolumeForm extends javax.swing.JFrame {
 		data.add(new String[]{"SE", mulSe + ""});
 		file.save();
 		file.dispose();
-		//ƒ}ƒbƒv‚Ö‚Ì”½‰f
+		//ãƒãƒƒãƒ—ã¸ã®åæ˜ 
 		SoundStorage.getInstance().get("BGM").stopAll();
 		SoundStorage.getInstance().get("SE").stopAll();
 		SoundStorage.getInstance().get("BGM").dispose();
@@ -250,11 +250,11 @@ public class SoundVolumeForm extends javax.swing.JFrame {
 		SoundLoader.loadList("resource/se/SE.csv", mulSe);
 
 		setVisible(false);
-		SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
+		SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
 		if (kinugasa.util.Random.percent(0.5f)) {
-			SoundStorage.getInstance().get("BGM").get("ƒtƒB[ƒ‹ƒh‚R.wav").load().play();
+			SoundStorage.getInstance().get("BGM").get("ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ï¼“.wav").load().play();
 		}else{
-			SoundStorage.getInstance().get("BGM").get("ƒtƒB[ƒ‹ƒh‚Q.wav").load().play();
+			SoundStorage.getInstance().get("BGM").get("ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ï¼’.wav").load().play();
 		}
     }//GEN-LAST:event_jButton1ActionPerformed
 

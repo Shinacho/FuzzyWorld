@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -26,10 +26,10 @@ THE SOFTWARE.
 
 	<event order="0" fet="DISABLE_OPERATION" />
 	<event order="1" stName="BGM" fet="STOP_ALL_SOUND" />
-	<event order="2" fet="PLAY_SOUND" stName="SE" tgtName="効果音＿海岸.wav"/>
+	<event order="2" fet="PLAY_SOUND" stName="SE" tgtName="蜉ｹ譫憺浹�ｼｿ豬ｷ蟯ｸ.wav"/>
 	<event order="10" fet="WAIT" stName="" tgtName="" value="180" term=""/>
 	<event order="20" fet="NPC_MOVE_AND_WAIT_THAT" stName="" tgtName="NPC02" value="30,35" term="" />
-	<event order="22" fet="PLAY_SOUND" stName="BGM" tgtName="フィールド.wav"/>
+	<event order="22" fet="PLAY_SOUND" stName="BGM" tgtName="繝輔ぅ繝ｼ繝ｫ繝�.wav"/>
 	<event order="30" fet="NPC_LOCK_LOCATION" stName="" tgtName="NPC02" value="" term="" />
 	<event order="40" fet="SHOW_MESSAGE_FROM_TEXTSTORAGE" stName="002" tgtName="" value="001" term="" />
 

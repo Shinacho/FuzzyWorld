@@ -76,11 +76,11 @@ public class GM extends GameManager {
 	private GM() {
 		super(GameOption.fromGUI("Kinugasa Game Launcher", ON_DISABLE, ON_DISABLE, ON_ENABLE).setBackColor(new Color(0, 32, 66)));
 		//
-		//ƒtƒHƒ“ƒg‚Ìƒ[ƒh
+		//ãƒ•ã‚©ãƒ³ãƒˆã®ãƒ­ãƒ¼ãƒ‰
 		//
 		String fontName = "MONOSPACED";
 		try {
-			fontName = Files.readAllLines(new File("resource/data/font.txt").toPath(), Charset.forName("MS932")).get(0);
+			fontName = Files.readAllLines(new File("resource/data/font.txt").toPath(), Charset.forName("UTF-8")).get(0);
 			FontModel.DEFAULT.setFont(new Font(fontName, Font.PLAIN, FontModel.DEFAULT.getFont().getSize()));
 			GameLog.printInfo("font[" + fontName + "] is loaded");
 		} catch (Exception ex) {
@@ -141,7 +141,7 @@ public class GM extends GameManager {
 			fps.setGtm(gtm);
 		}
 
-		//ƒXƒNƒŠ[ƒ“ƒVƒ‡ƒbƒg
+		//ã‚¹ã‚¯ãƒªãƒ¼ãƒ³ã‚·ãƒ§ãƒƒãƒˆ
 		if (is.isPressed(GamePadButton.BACK, Keys.F12, InputType.SINGLE)) {
 			JFileChooser c = new JFileChooser();
 			c.setDialogTitle(I18N.translate("SCREEN_SHOT"));
@@ -156,7 +156,7 @@ public class GM extends GameManager {
 				ImageUtil.screenShot(f.getAbsolutePath(), rec);
 			}
 		}
-		//ƒ`[ƒgƒRƒ“ƒ\[ƒ‹
+		//ãƒãƒ¼ãƒˆã‚³ãƒ³ã‚½ãƒ¼ãƒ«
 		if (is.isPressed(Keys.AT, InputType.SINGLE)) {
 			ConsolCmd cmd = new ConsolCmd();
 			cmd.setVisible(true);

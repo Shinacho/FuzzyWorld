@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -24,50 +24,50 @@ THE SOFTWARE.
 -->
 <KinugasaAttr>
 
-	<!--@‘Ï«E“ÁU -->
-	<!-- 1-10FUŒ‚A10-99:–‚–@A100`ó‘ÔˆÙí‘Ï«@-->
-	<aAttribute order="1" name="CHOP" desc="ŽaŒ‚"/>
-	<aAttribute order="2" name="STAB" desc="Žh“Ë"/>
-	<aAttribute order="3" name="IMPACT" desc="ÕŒ‚"/>
+	<!--ã€€è€æ€§ãƒ»ç‰¹æ”» -->
+	<!-- 1-10ï¼šæ”»æ’ƒã€10-99:é­”æ³•ã€100ï½žçŠ¶æ…‹ç•°å¸¸è€æ€§ã€€-->
+	<aAttribute order="1" name="CHOP" desc="æ–¬æ’ƒ"/>
+	<aAttribute order="2" name="STAB" desc="åˆºçª"/>
+	<aAttribute order="3" name="IMPACT" desc="è¡æ’ƒ"/>
 
-	<aAttribute order="13" name="FLAME" desc="‰Š"/>
-	<aAttribute order="14" name="ICE" desc="—â‹C"/>
-	<aAttribute order="15" name="WATER" desc="…"/>
-	<aAttribute order="16" name="THNDER" desc="—‹"/>
-	<aAttribute order="17" name="AIR" desc="‹ó‹C"/>
-	<aAttribute order="18" name="EARTH" desc="’n"/>
-	<aAttribute order="19" name="LIGHT" desc="Œõ"/>
-	<aAttribute order="20" name="DARK" desc="ˆÅ"/>
-	<aAttribute order="21" name="HOLY" desc="_¹"/>
-	<aAttribute order="22" name="EVIL" desc="ˆ«ˆÓ"/>
-	<aAttribute order="23" name="MYSTERY" desc="_”é"/>
-	<aAttribute order="25" name="ALCHEMY" desc="˜B‹à"/> 
-	<aAttribute order="26" name="SPIRIT" desc="¸_"/> 
-	<aAttribute order="27" name="SPACE_TIME" desc="Žž‹ó"/> 
+	<aAttribute order="13" name="FLAME" desc="ç‚Ž"/>
+	<aAttribute order="14" name="ICE" desc="å†·æ°—"/>
+	<aAttribute order="15" name="WATER" desc="æ°´"/>
+	<aAttribute order="16" name="THNDER" desc="é›·"/>
+	<aAttribute order="17" name="AIR" desc="ç©ºæ°—"/>
+	<aAttribute order="18" name="EARTH" desc="åœ°"/>
+	<aAttribute order="19" name="LIGHT" desc="å…‰"/>
+	<aAttribute order="20" name="DARK" desc="é—‡"/>
+	<aAttribute order="21" name="HOLY" desc="ç¥žè–"/>
+	<aAttribute order="22" name="EVIL" desc="æ‚ªæ„"/>
+	<aAttribute order="23" name="MYSTERY" desc="ç¥žç§˜"/>
+	<aAttribute order="25" name="ALCHEMY" desc="éŒ¬é‡‘"/> 
+	<aAttribute order="26" name="SPIRIT" desc="ç²¾ç¥ž"/> 
+	<aAttribute order="27" name="SPACE_TIME" desc="æ™‚ç©º"/> 
 	
 	
 	
-	<!-- –³‚ÍMP‚ðŒ¸‚ç‚·ˆ—‚È‚Ç‚Ìƒ_ƒCƒŒƒNƒgƒ_ƒ[ƒW‚ÉŽg—p‚³‚ê‚é -->
-	<aAttribute order="99" name="NONE" desc="–³"/> 
+	<!-- ç„¡ã¯MPã‚’æ¸›ã‚‰ã™å‡¦ç†ãªã©ã®ãƒ€ã‚¤ãƒ¬ã‚¯ãƒˆãƒ€ãƒ¡ãƒ¼ã‚¸ã«ä½¿ç”¨ã•ã‚Œã‚‹ -->
+	<aAttribute order="99" name="NONE" desc="ç„¡"/> 
 
-	<dAttribute order="125" name="C_POISON" desc="“Å" />
-	<dAttribute order="126" name="C_FLAME" desc="‰Šã" />
-	<dAttribute order="127" name="C_FROZEN" desc="“€Œ‹" />
-	<dAttribute order="128" name="C_BLIND" desc="–Ó–Ú" />
-	<dAttribute order="129" name="C_SEAL" desc="••ˆó" />
-	<dAttribute order="130" name="C_SLEEP" desc="–°‚è" />
-	<dAttribute order="131" name="C_PARALYS" desc="–ƒáƒ" />
-	<dAttribute order="132" name="C_CONFUSION" desc="¬—" />
-	<dAttribute order="133" name="C_SWOON" desc="‹Câ" />
-	<dAttribute order="134" name="C_MADNESS" desc="‹¶—" />
-	<dAttribute order="135" name="C_TRUE_MADNESS" desc="”­‹¶" />
-	<dAttribute order="136" name="C_ROT" desc="•…”s" />
-	<dAttribute order="137" name="C_STONE" desc="Î‰»" />
-	<dAttribute order="138" name="C_GOLDY" desc="‰©‹à‰»" />
-	<dAttribute order="139" name="C_CUT" desc="Ø’f" />
-	<dAttribute order="140" name="C_BREAK" desc="”j‰ó" />
-	<dAttribute order="141" name="C_DESTROY" desc="Á–Å" />
-	<dAttribute order="142" name="C_DEAD" desc="‘¦Ž€" />
+	<dAttribute order="125" name="C_POISON" desc="æ¯’" />
+	<dAttribute order="126" name="C_FLAME" desc="ç‚Žä¸Š" />
+	<dAttribute order="127" name="C_FROZEN" desc="å‡çµ" />
+	<dAttribute order="128" name="C_BLIND" desc="ç›²ç›®" />
+	<dAttribute order="129" name="C_SEAL" desc="å°å°" />
+	<dAttribute order="130" name="C_SLEEP" desc="çœ ã‚Š" />
+	<dAttribute order="131" name="C_PARALYS" desc="éº»ç—º" />
+	<dAttribute order="132" name="C_CONFUSION" desc="æ··ä¹±" />
+	<dAttribute order="133" name="C_SWOON" desc="æ°—çµ¶" />
+	<dAttribute order="134" name="C_MADNESS" desc="ç‹‚ä¹±" />
+	<dAttribute order="135" name="C_TRUE_MADNESS" desc="ç™ºç‹‚" />
+	<dAttribute order="136" name="C_ROT" desc="è…æ•—" />
+	<dAttribute order="137" name="C_STONE" desc="çŸ³åŒ–" />
+	<dAttribute order="138" name="C_GOLDY" desc="é»„é‡‘åŒ–" />
+	<dAttribute order="139" name="C_CUT" desc="åˆ‡æ–­" />
+	<dAttribute order="140" name="C_BREAK" desc="ç ´å£Š" />
+	<dAttribute order="141" name="C_DESTROY" desc="æ¶ˆæ»…" />
+	<dAttribute order="142" name="C_DEAD" desc="å³æ­»" />
 	
 	
 	

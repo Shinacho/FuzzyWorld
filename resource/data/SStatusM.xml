@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -24,38 +24,38 @@ THE SOFTWARE.
 -->
 <KinugasaStatus>
 
-	<!-- ƒXƒe[ƒ^ƒXƒpƒ‰ƒ[ƒ^‚Ìƒ}ƒXƒ^’è‹` -->
-	<status order="-1" name="LV" min="0" max="99" desc="ƒŒƒxƒ‹"/>
-	<status order="0" name="HP" min="0" max="99999" desc="‘Ì—Í" when0="DEAD"/>
-	<status order="1" name="MP" min="0" max="99999" desc="–‚—Í" when0="SWOON"/>
+	<!-- ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã®ãƒžã‚¹ã‚¿å®šç¾© -->
+	<status order="-1" name="LV" min="0" max="99" desc="ãƒ¬ãƒ™ãƒ«"/>
+	<status order="0" name="HP" min="0" max="99999" desc="ä½“åŠ›" when0="DEAD"/>
+	<status order="1" name="MP" min="0" max="99999" desc="é­”åŠ›" when0="SWOON"/>
                             
-	<status order="2" name="STR" min="0" max="99" desc="‹Ø—Í"/>
-	<status order="5" name="SPD" min="0" max="99" desc="‘f‘‚³" />
-	<status order="6" name="DEX" min="0" max="99" desc="Ší—p‚³" />
-	<status order="10" name="POW" min="0" max="99" desc="¸_—Í" when0="MADNESS"/>
-	<status order="13" name="SAN" min="0" max="99" desc="³‹C“x" when0="TRUE_MADNESS"/>
-	<status order="14" name="MOV" min="0" max="99" desc="s“®—Í"/>
-	<status order="15" name="EXP" min="0" max="99999999" desc="ŒoŒ±’l"/>
+	<status order="2" name="STR" min="0" max="99" desc="ç­‹åŠ›"/>
+	<status order="5" name="SPD" min="0" max="99" desc="ç´ æ—©ã•" />
+	<status order="6" name="DEX" min="0" max="99" desc="å™¨ç”¨ã•" />
+	<status order="10" name="POW" min="0" max="99" desc="ç²¾ç¥žåŠ›" when0="MADNESS"/>
+	<status order="13" name="SAN" min="0" max="99" desc="æ­£æ°—åº¦" when0="TRUE_MADNESS"/>
+	<status order="14" name="MOV" min="0" max="99" desc="è¡Œå‹•åŠ›"/>
+	<status order="15" name="EXP" min="0" max="99999999" desc="çµŒé¨“å€¤"/>
                             
-	<status order="16" name="ATK" min="0" max="99" desc="UŒ‚—Í"/>
-	<status order="17" name="DEF" min="0" max="99" desc="–hŒä—Í"/>
-	<status order="18" name="AVO" min="0" max="1" desc="•¨—UŒ‚‰ñ”ð—¦"/>
-	<status order="19" name="CUT_P" min="0" max="1" desc="•¨—UŒ‚ƒJƒbƒg—¦"/>
-	<status order="20" name="CUT_V" min="0" max="1" desc="•¨—ƒ_ƒ[ƒWƒJƒbƒgŽž‚ÌŒ¸­Š„‡"/>
-	<status order="21" name="CRT_P" min="0" max="1" desc="•¨—ƒNƒŠƒeƒBƒJƒ‹”­¶—¦"/>
-	<status order="22" name="CRT_V" min="0" max="1" desc="•¨—ƒNƒŠƒeƒBƒJƒ‹”­¶Žž‚Ì’Ç‰ÁŠ„‡"/>
+	<status order="16" name="ATK" min="0" max="99" desc="æ”»æ’ƒåŠ›"/>
+	<status order="17" name="DEF" min="0" max="99" desc="é˜²å¾¡åŠ›"/>
+	<status order="18" name="AVO" min="0" max="1" desc="ç‰©ç†æ”»æ’ƒå›žé¿çŽ‡"/>
+	<status order="19" name="CUT_P" min="0" max="1" desc="ç‰©ç†æ”»æ’ƒã‚«ãƒƒãƒˆçŽ‡"/>
+	<status order="20" name="CUT_V" min="0" max="1" desc="ç‰©ç†ãƒ€ãƒ¡ãƒ¼ã‚¸ã‚«ãƒƒãƒˆæ™‚ã®æ¸›å°‘å‰²åˆ"/>
+	<status order="21" name="CRT_P" min="0" max="1" desc="ç‰©ç†ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«ç™ºç”ŸçŽ‡"/>
+	<status order="22" name="CRT_V" min="0" max="1" desc="ç‰©ç†ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«ç™ºç”Ÿæ™‚ã®è¿½åŠ å‰²åˆ"/>
 	                        
-	<status order="23" name="M_ATK" min="0" max="99" desc="–‚–@UŒ‚—Í"/>
-	<status order="24" name="M_DEF" min="0" max="99" desc="–‚–@–hŒä—Í"/>
-	<status order="25" name="M_AVO" min="0" max="1" desc="–‚–@UŒ‚‰ñ”ð—¦"/>
-	<status order="26" name="M_CUT_P" min="0" max="1" desc="–‚–@UŒ‚ƒJƒbƒg—¦"/>
-	<status order="27" name="M_CUT_V" min="0" max="1" desc="–‚–@ƒ_ƒ[ƒWƒJƒbƒgŽž‚ÌŒ¸­Š„‡"/>
-	<status order="28" name="M_CRT_P" min="0" max="1" desc="–‚–@ƒNƒŠƒeƒBƒJƒ‹”­¶—¦"/>
-	<status order="29" name="M_CRT_V" min="0" max="1" desc="–‚–@ƒNƒŠƒeƒBƒJƒ‹”­¶Žž‚Ì’Ç‰ÁŠ„‡"/>
+	<status order="23" name="M_ATK" min="0" max="99" desc="é­”æ³•æ”»æ’ƒåŠ›"/>
+	<status order="24" name="M_DEF" min="0" max="99" desc="é­”æ³•é˜²å¾¡åŠ›"/>
+	<status order="25" name="M_AVO" min="0" max="1" desc="é­”æ³•æ”»æ’ƒå›žé¿çŽ‡"/>
+	<status order="26" name="M_CUT_P" min="0" max="1" desc="é­”æ³•æ”»æ’ƒã‚«ãƒƒãƒˆçŽ‡"/>
+	<status order="27" name="M_CUT_V" min="0" max="1" desc="é­”æ³•ãƒ€ãƒ¡ãƒ¼ã‚¸ã‚«ãƒƒãƒˆæ™‚ã®æ¸›å°‘å‰²åˆ"/>
+	<status order="28" name="M_CRT_P" min="0" max="1" desc="é­”æ³•ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«ç™ºç”ŸçŽ‡"/>
+	<status order="29" name="M_CRT_V" min="0" max="1" desc="é­”æ³•ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«ç™ºç”Ÿæ™‚ã®è¿½åŠ å‰²åˆ"/>
 	
 	
-	<status order="40" name="ATTR" min="0" max="8" desc="‘•”õ‘®«"/>
-	<status order="41" name="CAN_MAGIC" min="0" max="1" desc="–‚pŽg—p‰Â”Û"/>
+	<status order="40" name="ATTR" min="0" max="8" desc="è£…å‚™å±žæ€§"/>
+	<status order="41" name="CAN_MAGIC" min="0" max="1" desc="é­”è¡“ä½¿ç”¨å¯å¦"/>
 	
 
 	

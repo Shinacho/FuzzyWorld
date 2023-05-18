@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -27,33 +27,33 @@ THE SOFTWARE.
 <kinugasaText lSep="/">
 
  	<text id="001" tc="1">
-���u�悻�ҁA�����͕��a�ȋ������B�ʓ|���Ƃ͂��߂񂾂���ȁB/
-�@�@���O���������Ă��邼�B/
+＊「よそ者、ここは平和な漁村だ。面倒ごとはごめんだからな。/
+　　お前を見張っているぞ。/
 	</text>
 
  	<text id="002" tc="1" next="003" >
-���u�����A���O���B�C�݂ɓ|��Ă��B�g�}�M���畷���Ă����B/
+＊「ああ、お前か。海岸に倒れてた。トマギから聞いているよ。/
 	</text>
 
-	<choice id="003" tc="1" text="���u���H�҂炵���ƕ��������A��j�ł������̂��H">
-		<!--�e�X�g�p-->
-		<option id="003_1" next="004">����A�{���Ɋo���Ă��Ȃ���</option>
-		<option id="003_2" next="004">������������Ȃ��B</option>
+	<choice id="003" tc="1" text="＊「失踪者らしいと聞いたが、難破でもしたのか？">
+		<!--テスト用-->
+		<option id="003_1" next="004">いや、本当に覚えていないんだ</option>
+		<option id="003_2" next="004">そうかもしれない。</option>
 	</choice>
 	
 	<text id="004" tc="1">
-���u�����Ȃ̂��B�Г�����ȁB�Ƒ���Ƃ�炪������Ƃ����ȁB/
+＊「そうなのか。災難だったな。家族や家やらが見つかるといいな。/
 	</text>
 		
 	<text id="005" tc="1">
-���u���[�L���r���̂���B���̗p���H/
-�@�@������Ă���Ă����Ă����̂��Ȃ񂾂��A/
-�@�@���Ŗʓ|���N�����̂����͊��ق��Ă����B/
+＊「あー記憶喪失のやつか。何の用だ？/
+　　介抱してやっておいていうのもなんだが、/
+　　村で面倒を起こすのだけは勘弁してくれよ。/
 	</text>
 
 	<text id="006" tc="1">
-���u����A�b���!PC1���񂩂��B�ʓ|���Ƃ��������݂����āB/
-�@�@�p���Ȃ��Ȃ�o�čs���Ă���B�d���̎ז����B/
+＊「おや、話題の!PC1さんかい。面倒ごとを持ち込みおって。/
+　　用がないなら出て行ってくれ。仕事の邪魔だ。/
 	</text>
 
 

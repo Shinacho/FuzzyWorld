@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -33,7 +33,7 @@ THE SOFTWARE.
 
 		<event order="100" fet="WAIT" stName="" tgtName="" value="50" term=""/>
 		<event order="150" fet="NPC_DIR_TO" stName="" tgtName="NPC02" value="EAST" term="" />
-		<event order="200" fet="SHOW_MESSAGE_DIRECT" stName="" tgtName="" value="ƒgƒ}ƒMu‚æ‚µA‚»‚ê‚¶‚á‚ s‚±‚¤BŠX“¹‚©‚çŠO‚ê‚é‚È‚æB–ì“‚â‚ç‚ªo‚é‚©‚ç‚ÈB/" term="" />
+		<event order="200" fet="SHOW_MESSAGE_DIRECT" stName="" tgtName="" value="ãƒˆãƒžã‚®ã€Œã‚ˆã—ã€ãã‚Œã˜ã‚ƒã‚è¡Œã“ã†ã€‚è¡—é“ã‹ã‚‰å¤–ã‚Œã‚‹ãªã‚ˆã€‚é‡Žç›—ã‚„ã‚‰ãŒå‡ºã‚‹ã‹ã‚‰ãªã€‚/" term="" />
 
 		<event order="220" fet="NPC_REMOVE" stName="" tgtName="NPC02" value="" term="" />
 		<event order="225" fet="PC_ADD" stName="" tgtName="" value="resource/data/Status_tomagi.xml" term="" />

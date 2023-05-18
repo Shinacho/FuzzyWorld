@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -26,49 +26,49 @@ THE SOFTWARE.
 <kinugasaVehicle>
     <vehicle name="WALK" speed="2.5f">
 	<stepOn attribute="VOID" />
-	<stepOn attribute="•½’n" />
-	<stepOn attribute="‘Œ´" />
+	<stepOn attribute="å¹³åœ°" />
+	<stepOn attribute="è‰åŽŸ" />
 	
-	<stepOn attribute="“sŽs" />
-	<stepOn attribute="’¬" />
-	<stepOn attribute="‘º" />
-	<stepOn attribute="¬‰®" />
-	<stepOn attribute="é" />
-	<stepOn attribute="“ƒ" />
-	<stepOn attribute="ŽR¬‰®" />
+	<stepOn attribute="éƒ½å¸‚" />
+	<stepOn attribute="ç”º" />
+	<stepOn attribute="æ‘" />
+	<stepOn attribute="å°å±‹" />
+	<stepOn attribute="åŸŽ" />
+	<stepOn attribute="å¡”" />
+	<stepOn attribute="å±±å°å±‹" />
 	
-	<stepOn attribute="»”™" />
-	<stepOn attribute="»•l" />
-	<stepOn attribute="åM" />
-	<stepOn attribute="X—Ñ" />
-	<stepOn attribute="–§—Ñ" />
-	<stepOn attribute="‹u—Ë" />
-	<stepOn attribute="‹´" />
-	<stepOn attribute="”Ä—pƒCƒxƒ“ƒg" />
-	<stepOn attribute="“¹˜H" />
-	<stepOn attribute="”pšÐ" />
-	<stepOn attribute="”¨" />
-	<stepOn attribute="r’n" />
-	<stepOn attribute="Šâ”Õ" />
-	<stepOn attribute="‘" />
-	<stepOn attribute="‰Ô" />
-	<stepOn attribute="ƒLƒmƒR" />
-	<stepOn attribute="–‚•ûw" />
-	<stepOn attribute="‚Í‚µ‚²" />
-	<stepOn attribute="•c" />
-	<stepOn attribute="ì•¨" />
-	<stepOn attribute="ÎŠK’i" />
-	<stepOn attribute="–ØŠK’i" />
-	<stepOn attribute="–Ø‹´" />
-	<stepOn attribute="Î‹´" />
-	<stepOn attribute="–Ø°" />
-	<stepOn attribute="Î°" />
-	<stepOn attribute="•Ü‘•“¹˜H" />
-	<stepOn attribute="ãOŸ~" />
-	<stepOn attribute="“üŒû" />
-	<stepOn attribute="ˆÖŽq" />
-	<stepOn attribute="œ" />
-	<stepOn attribute="Î‚±‚ë" />
+	<stepOn attribute="ç ‚æ¼ " />
+	<stepOn attribute="ç ‚æµœ" />
+	<stepOn attribute="è—ª" />
+	<stepOn attribute="æ£®æž—" />
+	<stepOn attribute="å¯†æž—" />
+	<stepOn attribute="ä¸˜é™µ" />
+	<stepOn attribute="æ©‹" />
+	<stepOn attribute="æ±Žç”¨ã‚¤ãƒ™ãƒ³ãƒˆ" />
+	<stepOn attribute="é“è·¯" />
+	<stepOn attribute="å»ƒå¢Ÿ" />
+	<stepOn attribute="ç•‘" />
+	<stepOn attribute="è’åœ°" />
+	<stepOn attribute="å²©ç›¤" />
+	<stepOn attribute="è‰" />
+	<stepOn attribute="èŠ±" />
+	<stepOn attribute="ã‚­ãƒŽã‚³" />
+	<stepOn attribute="é­”æ–¹é™£" />
+	<stepOn attribute="ã¯ã—ã”" />
+	<stepOn attribute="è‹—" />
+	<stepOn attribute="ä½œç‰©" />
+	<stepOn attribute="çŸ³éšŽæ®µ" />
+	<stepOn attribute="æœ¨éšŽæ®µ" />
+	<stepOn attribute="æœ¨æ©‹" />
+	<stepOn attribute="çŸ³æ©‹" />
+	<stepOn attribute="æœ¨åºŠ" />
+	<stepOn attribute="çŸ³åºŠ" />
+	<stepOn attribute="èˆ—è£…é“è·¯" />
+	<stepOn attribute="çµ¨æ¯¯" />
+	<stepOn attribute="å…¥å£" />
+	<stepOn attribute="æ¤…å­" />
+	<stepOn attribute="éª¨" />
+	<stepOn attribute="çŸ³ã“ã‚" />
     </vehicle>
 </kinugasaVehicle>
 

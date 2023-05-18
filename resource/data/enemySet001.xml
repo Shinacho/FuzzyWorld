@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -25,11 +25,11 @@ THE SOFTWARE.
 <KinugasaEnemySet>
 
 
-	<set name="01" p="0.75" bgmMode="PAUSE" BGM="BGM/ƒoƒgƒ‹‚PiVj.wav" winBGM="SE/Œø‰Ê‰¹Qí“¬I—¹iŸ—˜j.wav" win="FIELD" lose="GAME_OVER">
-		<enemy name="–ì“" />
-		<enemy name="–ì“" />
-		<enemy name="“®‚­–‚pŽt" />
-		<enemy name="ŽR‘¯" />
+	<set name="01" p="0.75" bgmMode="PAUSE" BGM="BGM/ãƒãƒˆãƒ«ï¼‘ï¼ˆæ–°ï¼‰.wav" winBGM="SE/åŠ¹æžœéŸ³ï¼¿æˆ¦é—˜çµ‚äº†ï¼ˆå‹åˆ©ï¼‰.wav" win="FIELD" lose="GAME_OVER">
+		<enemy name="é‡Žç›—" />
+		<enemy name="é‡Žç›—" />
+		<enemy name="å‹•ãé­”è¡“å¸«" />
+		<enemy name="å±±è³Š" />
 	</set>
 	
 </KinugasaEnemySet>

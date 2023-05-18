@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -39,10 +39,10 @@ THE SOFTWARE.
 		<event order="160" fet="FADE_OUT" stName="" tgtName="" value="" term=""/>
     	
 		<event order="170" fet="WAIT" stName="" tgtName="" value="60" term=""/>
-		<event order="172" fet="ADD_ITEM" tgtName="0" value="Ž–¯‚Ì•ž"/>
-		<event order="173" fet="ADD_ITEM" tgtName="0" value="Ž–¯‚ÌŒC"/>
-		<event order="174" fet="EQIP_ITEM" tgtName="0" value="Ž–¯‚Ì•ž"/>
-		<event order="175" fet="EQIP_ITEM" tgtName="0" value="Ž–¯‚ÌŒC"/>
+		<event order="172" fet="ADD_ITEM" tgtName="0" value="åº¶æ°‘ã®æœ"/>
+		<event order="173" fet="ADD_ITEM" tgtName="0" value="åº¶æ°‘ã®é´"/>
+		<event order="174" fet="EQIP_ITEM" tgtName="0" value="åº¶æ°‘ã®æœ"/>
+		<event order="175" fet="EQIP_ITEM" tgtName="0" value="åº¶æ°‘ã®é´"/>
 		
 		<event order="211" fet="SET_ATTRIN" tgtName="0,CHOP" value="1" />
 		<event order="211" fet="SET_ATTRIN" tgtName="0,STAB" value="1" />
@@ -124,7 +124,7 @@ THE SOFTWARE.
 		<event order="2200" fet="NPC_REMOVE" stName="" tgtName="NPC02" value="" term="" />
 		<!-- MAIN:1 -->
 		
-	<!-- ƒeƒXƒg—p -->
+	<!-- ãƒ†ã‚¹ãƒˆç”¨ -->
 	<!--
 	<event order="2999" fet="START_BATTLE" stName="01" value="" term=""/>
 	-->

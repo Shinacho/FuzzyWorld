@@ -116,7 +116,7 @@ public class FieldLogic extends GameLogic {
 			}
 			return;
 		}
-		//PC‚ÌADD
+		//PCã®ADD
 		new GameSystemXMLLoader()
 				.addAttrKeyStorage("resource/data/SAttrM.xml")
 				.addBattleActionStorage("resource/data/SActionM.xml")
@@ -151,7 +151,7 @@ public class FieldLogic extends GameLogic {
 		TextStorageStorage.getInstance().readFromXML("resource/data/tss.xml");
 		FieldMap.getCurrentInstance().dispose();
 		fieldMap = FieldMapStorage.getInstance().get("BEACH").build();
-		fieldMap.setCurrentIdx(new D2Idx(31, 35));//31,35‚ÌƒCƒxƒ“ƒg‚ª©“®‹N“®‚·‚é
+		fieldMap.setCurrentIdx(new D2Idx(31, 35));//31,35ã®ã‚¤ãƒ™ãƒ³ãƒˆãŒè‡ªå‹•èµ·å‹•ã™ã‚‹
 		fieldMap.getCamera().updateToCenter();
 		fieldMap.setVector(new KVector(0, 0));
 
@@ -191,17 +191,17 @@ public class FieldLogic extends GameLogic {
 			if (CMDargs.getInstance().getArgs().length > 0) {
 				if (GameSystem.isDebugMode()) {
 					if (Arrays.stream(CMDargs.getInstance().getArgs()).anyMatch(p -> "-soba".equals(p))) {
-						kinugasa.game.GameLog.printInfo("‚Ö‚¢Iè‘Å‚¿‚à‚è‚»‚Î‚¨‚Ü‚¿II");
-						kinugasa.game.GameLog.printInfo("¦’ˆÓF‚±‚Ì‹@”\‚ÍƒeƒXƒg—p‚Å‚·B");
+						kinugasa.game.GameLog.printInfo("ã¸ã„ï¼æ‰‹æ‰“ã¡ã‚‚ã‚Šãã°ãŠã¾ã¡ï¼ï¼");
+						kinugasa.game.GameLog.printInfo("â€»æ³¨æ„ï¼šã“ã®æ©Ÿèƒ½ã¯ãƒ†ã‚¹ãƒˆç”¨ã§ã™ã€‚");
 						for (int i = 0; i < pc1Status.getItemBag().getMax(); i++) {
-							pc1Status.getItemBag().add(ItemStorage.getInstance().get("o‘Ouè‘Å‚¿‚à‚è‚»‚Î"));
+							pc1Status.getItemBag().add(ItemStorage.getInstance().get("å‡ºå‰ã€Œæ‰‹æ‰“ã¡ã‚‚ã‚Šãã°"));
 						}
 					}
 				}
 			}
 		}
 
-		//ƒ}ƒl[‰Šú“o˜^
+		//ãƒãƒãƒ¼åˆæœŸç™»éŒ²
 		{
 			MoneySystem ms = GameSystem.getInstance().getMoneySystem();
 			ms.addMoneyType(I18N.translate("DARESU_GOLD"));
@@ -210,7 +210,7 @@ public class FieldLogic extends GameLogic {
 		loaded = true;
 	}
 	private FieldMap fieldMap;
-	private int stage;//changeMap—pƒXƒe[ƒW
+	private int stage;//changeMapç”¨ã‚¹ãƒ†ãƒ¼ã‚¸
 	private FadeEffect fadeEffect;
 	private boolean waiting = false;
 	private MessageWindow mw;
@@ -234,7 +234,7 @@ public class FieldLogic extends GameLogic {
 
 	@Override
 	public void update(GameTimeManager gtm, InputState is) {
-		//ƒeƒXƒg—p
+		//ãƒ†ã‚¹ãƒˆç”¨
 //		kinugasa.game.GameLog.printInfo(fieldMap == null ? null : fieldMap.getCamera().cameraCantMoveDesc + " / " + stage);
 		fieldMap.update();
 		FieldEventSystem.getInstance().update();
@@ -254,7 +254,7 @@ public class FieldLogic extends GameLogic {
 						return;
 					}
 				}
-				//mwˆ—
+				//mwå‡¦ç†
 				if (mw != null && mw.isChoice()) {
 					if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
 						mw.nextSelect();
@@ -264,7 +264,7 @@ public class FieldLogic extends GameLogic {
 					}
 				}
 				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE) && (menu == null || !menu.isVisible())) {
-					//‰‰ñÀs‚Ég‚Á‚½ƒfƒoƒCƒX‚ğŒŸ¸
+					//åˆå›å®Ÿè¡Œæ™‚ã«ä½¿ã£ãŸãƒ‡ãƒã‚¤ã‚¹ã‚’æ¤œæŸ»
 					if (!first) {
 						if (is.isPressed(Keys.ENTER, InputType.SINGLE)) {
 							FieldMap.setEnterOperation("(ENTER)");
@@ -283,20 +283,20 @@ public class FieldLogic extends GameLogic {
 								fieldMap.closeMessagWindow();
 							}
 							if (FieldEventSystem.getInstance().hasItem()) {
-								//u’²‚×‚év‚É‚æ‚éƒAƒCƒeƒ€æ“¾ˆ—
+								//ã€Œèª¿ã¹ã‚‹ã€ã«ã‚ˆã‚‹ã‚¢ã‚¤ãƒ†ãƒ å–å¾—å‡¦ç†
 								Item i = FieldEventSystem.getInstance().getItem();
 								if (i == null) {
 									throw new GameSystemException("item is null");
 								}
 								if (mw.getSelect() >= GameSystem.getInstance().getParty().size()) {
-									//’ú‚ß‚é
+									//è«¦ã‚ã‚‹
 									mw.setVisible(false);
 									mw = null;
 									FieldEventSystem.getInstance().clearTmpFlags();
 									FieldEventSystem.getInstance().endEvent();
 									FieldEventSystem.getInstance().reset();
 								} else {
-									//‚¿•¨”‚Ì”»’è
+									//æŒã¡ç‰©æ•°ã®åˆ¤å®š
 									if (GameSystem.getInstance().getParty().get(mw.getSelect()).getStatus().getItemBag().canAdd()) {
 										GameSystem.getInstance().getParty().get(mw.getSelect()).getStatus().getItemBag().add(i);
 										FieldEventSystem.getInstance().commitFlags();
@@ -305,7 +305,7 @@ public class FieldLogic extends GameLogic {
 										mw.setVisible(false);
 										mw = null;
 									} else {
-										//‚Ä‚È‚¢
+										//æŒã¦ãªã„
 										mw.setText(GameSystem.getInstance().getParty().get(mw.getSelect()).getStatus().getName() + I18N.translate("IS") + I18N.translate("CANT_HAVE"));
 										mw.allText();
 										mw.setVisible(true);
@@ -327,7 +327,7 @@ public class FieldLogic extends GameLogic {
 					}
 					FieldMapTile t = fieldMap.getCurrentTile();
 					if (t.hasInNode()) {
-						//Node‚É‚æ‚éChangeMapˆ—
+						//Nodeã«ã‚ˆã‚‹ChangeMapå‡¦ç†
 						fadeEffect = new FadeEffect(gm.getWindow().getInternalBounds().width, gm.getWindow().getInternalBounds().height,
 								new ColorChanger(
 										ColorTransitionModel.valueOf(0),
@@ -338,7 +338,7 @@ public class FieldLogic extends GameLogic {
 						return;
 					}
 
-					//’²‚×‚éƒRƒ}ƒ“ƒh
+					//èª¿ã¹ã‚‹ã‚³ãƒãƒ³ãƒ‰
 					if (FieldEventSystem.getInstance().isManual() && menu != null && !menu.isVisible()) {
 						while (FieldEventSystem.getInstance().hasEvent()) {
 							UserOperationRequire r = FieldEventSystem.getInstance().exec();
@@ -350,7 +350,7 @@ public class FieldLogic extends GameLogic {
 									return;
 								case CHANGE_MAP:
 									fieldMap = fieldMap.changeMap(FieldEventSystem.getInstance().getNode());
-									//Å‰‚Ìƒ`ƒFƒ“ƒWƒ}ƒbƒvƒCƒxƒ“ƒg‚ÅƒVƒƒƒh[‚ğİ’è‚·‚é
+									//æœ€åˆã®ãƒã‚§ãƒ³ã‚¸ãƒãƒƒãƒ—ã‚¤ãƒ™ãƒ³ãƒˆã§ã‚·ãƒ£ãƒ‰ãƒ¼ã‚’è¨­å®šã™ã‚‹
 									FieldMap.getPlayerCharacter().get(0).setShadow(true);
 									return;
 								case GAME_OVER:
@@ -367,7 +367,7 @@ public class FieldLogic extends GameLogic {
 									return;
 								case TO_BATTLE:
 									GameSystem.getInstance().battleStart(FieldEventSystem.getInstance().getEncountInfo());
-									//ƒtƒF[ƒhƒAƒEƒg‚ÍƒCƒxƒ“ƒg‚ÅII
+									//ãƒ•ã‚§ãƒ¼ãƒ‰ã‚¢ã‚¦ãƒˆã¯ã‚¤ãƒ™ãƒ³ãƒˆã§ï¼ï¼
 									gls.changeTo("BATTLE");
 									return;
 								case GET_ITEAM:
@@ -380,9 +380,9 @@ public class FieldLogic extends GameLogic {
 				if (mw != null && mw.isVisible()) {
 					return;
 				}
-				//FM©“®ƒCƒxƒ“ƒgˆ—
+				//FMè‡ªå‹•ã‚¤ãƒ™ãƒ³ãƒˆå‡¦ç†
 				if (FieldEventSystem.getInstance().hasEvent()) {
-					//ƒCƒxƒ“ƒgƒZƒbƒg‚Éƒ}ƒjƒ…ƒAƒ‹‚ª“ü‚Á‚Ä‚¢‚éê‡‚Í‘¦Às‚µ‚È‚¢
+					//ã‚¤ãƒ™ãƒ³ãƒˆã‚»ãƒƒãƒˆã«ãƒãƒ‹ãƒ¥ã‚¢ãƒ«ãŒå…¥ã£ã¦ã„ã‚‹å ´åˆã¯å³æ™‚å®Ÿè¡Œã—ãªã„
 					if (!FieldEventSystem.getInstance().isManual()) {
 						UserOperationRequire r = FieldEventSystem.getInstance().exec();
 						switch (r) {
@@ -408,14 +408,14 @@ public class FieldLogic extends GameLogic {
 								mw = null;
 								return;
 							case TO_BATTLE:
-								//ƒtƒF[ƒhƒAƒEƒg‚ÍƒCƒxƒ“ƒg‚ÅIIII
+								//ãƒ•ã‚§ãƒ¼ãƒ‰ã‚¢ã‚¦ãƒˆã¯ã‚¤ãƒ™ãƒ³ãƒˆã§ï¼ï¼ï¼ï¼
 								GameSystem.getInstance().battleStart(FieldEventSystem.getInstance().getEncountInfo());
 								gls.changeTo("BATTLE");
 								return;
 						}
 					}
 				}
-				//ƒ†[ƒUƒIƒyƒŒ[ƒVƒ‡ƒ“‰Â”ÛŠm”F
+				//ãƒ¦ãƒ¼ã‚¶ã‚ªãƒšãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³å¯å¦ç¢ºèª
 				if (!FieldEventSystem.getInstance().isUserOperation()) {
 					return;
 				}
@@ -425,10 +425,10 @@ public class FieldLogic extends GameLogic {
 					}
 					return;
 				}
-				//ƒƒjƒ…[‘€ì
+				//ãƒ¡ãƒ‹ãƒ¥ãƒ¼æ“ä½œ
 				if (is.isPressed(GamePadButton.X, Keys.M, InputType.SINGLE)) {
-					//ƒƒjƒ…[•\¦
-					SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
+					//ãƒ¡ãƒ‹ãƒ¥ãƒ¼è¡¨ç¤º
+					SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
 					menu.switchVisible();
 					statusDescWindow = null;
 					itemWindow = null;
@@ -452,323 +452,323 @@ public class FieldLogic extends GameLogic {
 							GameSystem.getInstance().getPartyStatus());
 					GameSystem.getInstance().getPartyStatus().forEach(p -> p.updateAction());
 					if (statusDescWindow != null && statusDescWindow.isVisible()) {
-						SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
+						SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
 						statusDescWindow = null;
 					} else if (itemWindow != null && itemWindow.isVisible()) {
-						SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
+						SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
 						if (itemWindow.close()) {
 							itemWindow = null;
 						}
 					} else if (bookWindow != null && bookWindow.isVisible()) {
-						SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
+						SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
 						if (bookWindow.close()) {
 							bookWindow = null;
 						}
 					} else if (magicWindow != null && magicWindow.isVisible()) {
-						SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
+						SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
 						if (magicWindow.close()) {
 							magicWindow = null;
 						}
 					} else if (materialWindow != null && materialWindow.isVisible()) {
-						SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
+						SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
 						materialWindow = null;
 					} else if (orderSelectWindow != null && orderSelectWindow.isVisible()) {
-						SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
+						SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
 						orderSelectWindow = null;
 					} else if (infoWindow != null && infoWindow.isVisible()) {
-						SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
+						SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
 						infoWindow = null;
 					} else {
 						if (menu != null && menu.isVisible()) {
-							SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
 						}
 						menu.setVisible(false);
 						statusWindow.setVisible(false);
 					}
 				}
 				if (menu.isVisible()) {
-					//ƒXƒe[ƒ^ƒXØ‘Ö
+					//ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹åˆ‡æ›¿
 					if (statusDescWindow != null && statusDescWindow.isVisible()) {
 						statusDescWindow.update();
-						//ƒXƒe[ƒ^ƒXÚ×”ñ•\¦‚Ìê‡‚ÍƒJ[ƒ\ƒ‹ˆÚ“®‰Â”\
+						//ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹è©³ç´°éè¡¨ç¤ºã®å ´åˆã¯ã‚«ãƒ¼ã‚½ãƒ«ç§»å‹•å¯èƒ½
 						if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 							statusDescWindow.nextPc();
 						}
 						if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 							statusDescWindow.prevPc();
 						}
 						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 							statusDescWindow.prev();
 						}
 						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 							statusDescWindow.next();
 						}
 					} else if (orderSelectWindow != null && orderSelectWindow.isVisible()) {
 						orderSelectWindow.update();
-						//‘à—ñƒEƒCƒ“ƒhƒE‚Ìˆ—
+						//éšŠåˆ—ã‚¦ã‚¤ãƒ³ãƒ‰ã‚¦ã®å‡¦ç†
 						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 							orderSelectWindow.prevPC();
 						}
 						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 							orderSelectWindow.nextPC();
 						}
 						if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
 							orderSelectWindow.changeOrder();
 						}
 					} else if (itemWindow != null && itemWindow.isVisible()) {
-						//ƒAƒCƒeƒ€ƒEƒCƒ“ƒhƒE‚Ìˆ—
+						//ã‚¢ã‚¤ãƒ†ãƒ ã‚¦ã‚¤ãƒ³ãƒ‰ã‚¦ã®å‡¦ç†
 						itemWindow.update();
 						switch (itemWindow.currentMode()) {
 							case ITEM_AND_USER_SELECT:
-								//ƒAƒCƒeƒ€‘I‘ğƒ‚[ƒh
+								//ã‚¢ã‚¤ãƒ†ãƒ é¸æŠãƒ¢ãƒ¼ãƒ‰
 								if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									itemWindow.nextPC();
 								}
 								if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									itemWindow.prevPC();
 								}
 								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									itemWindow.prevSelect();
 								}
 								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									itemWindow.nextSelect();
 								}
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
-									itemWindow.select();//Ÿ‚Ì‘€ì‚Ö
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
+									itemWindow.select();//æ¬¡ã®æ“ä½œã¸
 								}
 								break;
 							case CHOICE_USE:
 							case DROP_CONFIRM:
 							case DISASSE_CONFIRM:
-								//—p“r‘I‘ğƒ‚[ƒh
+								//ç”¨é€”é¸æŠãƒ¢ãƒ¼ãƒ‰
 								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									itemWindow.prevSelect();
 								}
 								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									itemWindow.nextSelect();
 								}
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
-									itemWindow.select();//Ÿ‚Ì‘€ì‚Ö
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
+									itemWindow.select();//æ¬¡ã®æ“ä½œã¸
 								}
 								break;
 							case TARGET_SELECT:
 								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									itemWindow.prevPC();
 								}
 								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									itemWindow.nextPC();
 								}
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
-									itemWindow.select();//Ÿ‚Ì‘€ì‚Ö
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
+									itemWindow.select();//æ¬¡ã®æ“ä½œã¸
 								}
 								break;
 							case WAIT_MSG_CLOSE_TO_CU:
 							case WAIT_MSG_CLOSE_TO_IUS:
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
-									itemWindow.select();//Ÿ‚Ì‘€ì‚Ö
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
+									itemWindow.select();//æ¬¡ã®æ“ä½œã¸
 								}
 								break;
 						}
 					} else if (magicWindow != null && magicWindow.isVisible()) {
-						//–‚–@ƒEƒCƒ“ƒhƒE‚Ìˆ—
+						//é­”æ³•ã‚¦ã‚¤ãƒ³ãƒ‰ã‚¦ã®å‡¦ç†
 						magicWindow.update();
 						switch (magicWindow.getCurrentMode()) {
 							case MAGIC_AND_USER_SELECT:
 								if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									magicWindow.nextPC();
 								}
 								if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									magicWindow.prevPC();
 								}
 								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									magicWindow.prevSelect();
 								}
 								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									magicWindow.nextSelect();
 								}
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
-									magicWindow.select();//Ÿ‚Ì‘€ì‚Ö
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
+									magicWindow.select();//æ¬¡ã®æ“ä½œã¸
 								}
 								break;
 							case CHOICE_USE:
 								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									magicWindow.prevSelect();
 								}
 								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									magicWindow.nextSelect();
 								}
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
-									magicWindow.select();//Ÿ‚Ì‘€ì‚Ö
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
+									magicWindow.select();//æ¬¡ã®æ“ä½œã¸
 								}
 								break;
 							case TARGET_SELECT:
 								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									magicWindow.prevPC();
 								}
 								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									magicWindow.nextPC();
 								}
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
-									magicWindow.select();//Ÿ‚Ì‘€ì‚Ö
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
+									magicWindow.select();//æ¬¡ã®æ“ä½œã¸
 								}
 								break;
 							case WAIT_MSG_CLOSE_TO_CU:
 							case WAIT_MSG_CLOSE_TO_MUS:
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
-									magicWindow.select();//Ÿ‚Ì‘€ì‚Ö
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
+									magicWindow.select();//æ¬¡ã®æ“ä½œã¸
 								}
 								break;
 						}
 
 					} else if (bookWindow != null && bookWindow.isVisible()) {
-						//ƒuƒbƒNƒEƒCƒ“ƒhƒE‚Ìˆ—
+						//ãƒ–ãƒƒã‚¯ã‚¦ã‚¤ãƒ³ãƒ‰ã‚¦ã®å‡¦ç†
 						bookWindow.update();
 						switch (bookWindow.currentMode()) {
 							case BOOK_AND_USER_SELECT:
-								//‘I‘ğƒ‚[ƒh
+								//é¸æŠãƒ¢ãƒ¼ãƒ‰
 								if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									bookWindow.nextPC();
 								}
 								if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									bookWindow.prevPC();
 								}
 								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									bookWindow.prevSelect();
 								}
 								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									bookWindow.nextSelect();
 								}
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
-									bookWindow.select();//Ÿ‚Ì‘€ì‚Ö
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
+									bookWindow.select();//æ¬¡ã®æ“ä½œã¸
 								}
 								break;
 							case CHOICE_USE:
 							case DROP_CONFIRM:
 							case DISASSEMBLY_CONFIRM:
-								//—p“r‘I‘ğƒ‚[ƒh
+								//ç”¨é€”é¸æŠãƒ¢ãƒ¼ãƒ‰
 								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									bookWindow.prevSelect();
 								}
 								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									bookWindow.nextSelect();
 								}
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
-									bookWindow.select();//Ÿ‚Ì‘€ì‚Ö
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
+									bookWindow.select();//æ¬¡ã®æ“ä½œã¸
 								}
 								break;
 							case TARGET_SELECT:
 								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									bookWindow.prevPC();
 								}
 								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 									bookWindow.nextPC();
 								}
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
-									bookWindow.select();//Ÿ‚Ì‘€ì‚Ö
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
+									bookWindow.select();//æ¬¡ã®æ“ä½œã¸
 								}
 								break;
 							case WAIT_MSG_CLOSE_TO_CU:
 							case WAIT_MSG_CLOSE_TO_IUS:
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
-									bookWindow.select();//Ÿ‚Ì‘€ì‚Ö
+									SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
+									bookWindow.select();//æ¬¡ã®æ“ä½œã¸
 								}
 								break;
 						}
 					} else if (materialWindow != null && materialWindow.isVisible()) {
-						//‘fŞƒEƒCƒ“ƒhƒE‚Ìˆ—
+						//ç´ æã‚¦ã‚¤ãƒ³ãƒ‰ã‚¦ã®å‡¦ç†
 						materialWindow.update();
 						if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 							materialWindow.switchMode();
 						}
 						if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 							materialWindow.switchMode();
 						}
 						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 							materialWindow.prev();
 						}
 						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 							materialWindow.next();
 						}
 					} else if (infoWindow != null && infoWindow.isVisible()) {
 						infoWindow.update();
 						if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 							infoWindow.switchMode();
 						}
 						if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 							infoWindow.switchMode();
 						}
 						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 							infoWindow.prevSelect();
 						}
 						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 							infoWindow.nextSelect();
 						}
 					} else {
-						//‚Ç‚ÌƒEƒCƒ“ƒhƒE‚à”ñ•\¦‚Ìê‡‚Íƒƒjƒ…[‚ÌƒJ[ƒ\ƒ‹ˆÚ“®‰Â”\
+						//ã©ã®ã‚¦ã‚¤ãƒ³ãƒ‰ã‚¦ã‚‚éè¡¨ç¤ºã®å ´åˆã¯ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã®ã‚«ãƒ¼ã‚½ãƒ«ç§»å‹•å¯èƒ½
 						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 							menu.nextSelect();
 						}
 						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load().stopAndPlay();
 							menu.prevSelect();
 						}
 					}
-					//Aƒ{ƒ^ƒ“EEEƒƒjƒ…[Œˆ’è
+					//Aãƒœã‚¿ãƒ³ãƒ»ãƒ»ãƒ»ãƒ¡ãƒ‹ãƒ¥ãƒ¼æ±ºå®š
 					if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
 						if (statusDescWindow != null && statusDescWindow.isVisible()) {
-							SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
 							int pcIdx = statusDescWindow.getPcIdx();
 							switch (statusWindowType) {
 								case 0:
@@ -833,7 +833,7 @@ public class FieldLogic extends GameLogic {
 								&& (materialWindow == null || !materialWindow.isVisible())
 								&& (magicWindow == null || !magicWindow.isVisible())
 								&& (infoWindow == null || !infoWindow.isVisible())) {
-							SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
 							switch (menu.getSelect()) {
 								case Const.MenuIdx.STATUS:
 									statusDescWindow = new StatusDescWindow(
@@ -929,7 +929,7 @@ public class FieldLogic extends GameLogic {
 				fieldMap.setVector(v);
 
 				fieldMap.move();
-				//PC‚ÌŒü‚«’²®
+				//PCã®å‘ãèª¿æ•´
 				PlayerCharacterSprite c = FieldMap.getPlayerCharacter().get(0);
 
 				if (v.getSpeed() != 0 && fieldMap.getCamera().getMode() == FieldMapCameraMode.FOLLOW_TO_CENTER) {
@@ -937,10 +937,10 @@ public class FieldLogic extends GameLogic {
 					c.to(v.round());
 				}
 
-				//--------------ƒGƒ“ƒJƒEƒ“ƒgˆ—
-				//Œø‰Ê‰¹Qí“¬ŠJn.wav
+				//--------------ã‚¨ãƒ³ã‚«ã‚¦ãƒ³ãƒˆå‡¦ç†
+				//åŠ¹æœéŸ³ï¼¿æˆ¦é—˜é–‹å§‹.wav
 				if (fieldMap.isEncount()) {
-					SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Qí“¬ŠJn.wav").load().stopAndPlay();
+					SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿æˆ¦é—˜é–‹å§‹.wav").load().stopAndPlay();
 					battle = true;
 					fadeEffect = new FadeEffect(gm.getWindow().getInternalBounds().width, gm.getWindow().getInternalBounds().height,
 							new ColorChanger(

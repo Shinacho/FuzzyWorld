@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -23,11 +23,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 -->
 <KinugasaItemList>
-	<slot name="“ª" />
-	<slot name="“·" />
-	<slot name="˜r" />
-	<slot name="‘«" />
-	<slot name="ƒAƒ~ƒ…ƒŒƒbƒg" />
+	<slot name="é ­" />
+	<slot name="èƒ´" />
+	<slot name="è…•" />
+	<slot name="è¶³" />
+	<slot name="ã‚¢ãƒŸãƒ¥ãƒ¬ãƒƒãƒˆ" />
 	
 	
 	

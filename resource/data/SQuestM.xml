@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -23,8 +23,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 -->
 <kinugasaQuestLine>
-	<line id="MAIN" stage="1" title="Ÿ–`Œ¯‚ÌŽn‚Ü‚è" desc="ŠCŠÝ‚Å‹C‚ðŽ¸‚Á‚Ä‚¢‚½‚ ‚È‚½‚Í‹™Žt‚Ìƒgƒ}ƒM‚É•‚¯‚ç‚ê‚½B/Ž©•ª‚Ì‹L‰¯‚ð’T‚·‚½‚ß‚Ì—·‚ª¡Žn‚Ü‚éB/‚Ü‚¸‚ÍƒRƒ‰ƒƒ‹ƒJ‚Ì’¬‚É‚¢‚é‚Æ‚¢‚¤’T’ã‚É‰ï‚¢‚És‚±‚¤B" >
-		<!-- ƒ[ƒhŽž‚É“K—p‚·‚éNPCˆÚ“® -->
+	<line id="MAIN" stage="1" title="â—†å†’é™ºã®å§‹ã¾ã‚Š" desc="æµ·å²¸ã§æ°—ã‚’å¤±ã£ã¦ã„ãŸã‚ãªãŸã¯æ¼å¸«ã®ãƒˆãƒžã‚®ã«åŠ©ã‘ã‚‰ã‚ŒãŸã€‚/è‡ªåˆ†ã®è¨˜æ†¶ã‚’æŽ¢ã™ãŸã‚ã®æ—…ãŒä»Šå§‹ã¾ã‚‹ã€‚/ã¾ãšã¯ã‚³ãƒ©ãƒ­ãƒ«ã‚«ã®ç”ºã«ã„ã‚‹ã¨ã„ã†æŽ¢åµã«ä¼šã„ã«è¡Œã“ã†ã€‚" >
+		<!-- ãƒ­ãƒ¼ãƒ‰æ™‚ã«é©ç”¨ã™ã‚‹NPCç§»å‹• -->
 		<removeNPC mapID="TOMAGISHUT" NPCID="NPC02" />
 	</line>
 

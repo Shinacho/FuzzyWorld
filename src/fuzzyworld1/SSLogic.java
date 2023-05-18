@@ -79,7 +79,7 @@ public class SSLogic extends GameLogic {
 								ColorTransitionModel.valueOf(0),
 								new FadeCounter(255, -8)
 						));
-				SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹QSS.wav").load().stopAndPlay();
+				SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿SS.wav").load().stopAndPlay();
 				stage++;
 				break;
 			case 0:

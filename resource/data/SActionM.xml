@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -25,202 +25,202 @@ THE SOFTWARE.
 <KinugasActionMaster>
 
 
-    <!-- ƒoƒgƒ‹ƒAƒNƒVƒ‡ƒ“ðŒ‚Ì’è‹` -->
-    <term name="˜r‘•”õ" tt="EQ_ANY_ITEM" value="˜r" />
-    <term name="˜r–¢‘•”õ" tt="NO_EQ_ANY_ITEM" value="˜r" />
+    <!-- ãƒãƒˆãƒ«ã‚¢ã‚¯ã‚·ãƒ§ãƒ³æ¡ä»¶ã®å®šç¾© -->
+    <term name="è…•è£…å‚™" tt="EQ_ANY_ITEM" value="è…•" />
+    <term name="è…•æœªè£…å‚™" tt="NO_EQ_ANY_ITEM" value="è…•" />
 	
-    <term name="“ª‘•”õ" tt="EQ_ANY_ITEM" value="“ª" />
-    <term name="“ª–¢‘•”õ" tt="NO_EQ_ANY_ITEM" value="“ª" />
+    <term name="é ­è£…å‚™" tt="EQ_ANY_ITEM" value="é ­" />
+    <term name="é ­æœªè£…å‚™" tt="NO_EQ_ANY_ITEM" value="é ­" />
 
-    <term name="“·‘•”õ" tt="EQ_ANY_ITEM" value="“·" />
-    <term name="“·–¢‘•”õ" tt="NO_EQ_ANY_ITEM" value="“·" />
+    <term name="èƒ´è£…å‚™" tt="EQ_ANY_ITEM" value="èƒ´" />
+    <term name="èƒ´æœªè£…å‚™" tt="NO_EQ_ANY_ITEM" value="èƒ´" />
 
-    <term name="‘«‘•”õ" tt="EQ_ANY_ITEM" value="‘«" />
-    <term name="‘«–¢‘•”õ" tt="NO_EQ_ANY_ITEM" value="‘«" />
+    <term name="è¶³è£…å‚™" tt="EQ_ANY_ITEM" value="è¶³" />
+    <term name="è¶³æœªè£…å‚™" tt="NO_EQ_ANY_ITEM" value="è¶³" />
 
-    <term name="Œ•‘•”õ" tt="EQ_WEAPON_TYPE" value="Œ•" />
-    <term name="’ZŒ•‘•”õ" tt="EQ_WEAPON_TYPE" value="’ZŒ•" />
-    <term name="‘åŒ•‘•”õ" tt="EQ_WEAPON_TYPE" value="‘åŒ•" />
-    <term name="“ËŒ•‘•”õ" tt="EQ_WEAPON_TYPE" value="“ËŒ•" />
-    <term name="“‘•”õ" tt="EQ_WEAPON_TYPE" value="“" />
-    <term name="‘„‘•”õ" tt="EQ_WEAPON_TYPE" value="‘„" />
-    <term name="‚E’ZŒ•‘•”õ" tt="EQ_WEAPON_TYPE" value="‚E’ZŒ•" />
-    <term name="ƒƒCƒX‘•”õ" tt="EQ_WEAPON_TYPE" value="ƒƒCƒX" />
-    <term name="‹|‘•”õ" tt="EQ_WEAPON_TYPE" value="‹|" />
-    <term name="œW‘•”õ" tt="EQ_WEAPON_TYPE" value="œW" />
-    <term name="e‘•”õ" tt="EQ_WEAPON_TYPE" value="e" />
-    <term name="•Ú‘•”õ" tt="EQ_WEAPON_TYPE" value="•Ú" />
-    <term name="ñ‘•”õ" tt="EQ_WEAPON_TYPE" value="ñ" />
-    <term name="Š™‘•”õ" tt="EQ_WEAPON_TYPE" value="Š™" />
+    <term name="å‰£è£…å‚™" tt="EQ_WEAPON_TYPE" value="å‰£" />
+    <term name="çŸ­å‰£è£…å‚™" tt="EQ_WEAPON_TYPE" value="çŸ­å‰£" />
+    <term name="å¤§å‰£è£…å‚™" tt="EQ_WEAPON_TYPE" value="å¤§å‰£" />
+    <term name="çªå‰£è£…å‚™" tt="EQ_WEAPON_TYPE" value="çªå‰£" />
+    <term name="åˆ€è£…å‚™" tt="EQ_WEAPON_TYPE" value="åˆ€" />
+    <term name="æ§è£…å‚™" tt="EQ_WEAPON_TYPE" value="æ§" />
+    <term name="ç›¾ãƒ»çŸ­å‰£è£…å‚™" tt="EQ_WEAPON_TYPE" value="ç›¾ãƒ»çŸ­å‰£" />
+    <term name="ãƒ¡ã‚¤ã‚¹è£…å‚™" tt="EQ_WEAPON_TYPE" value="ãƒ¡ã‚¤ã‚¹" />
+    <term name="å¼“è£…å‚™" tt="EQ_WEAPON_TYPE" value="å¼“" />
+    <term name="å¼©è£…å‚™" tt="EQ_WEAPON_TYPE" value="å¼©" />
+    <term name="éŠƒè£…å‚™" tt="EQ_WEAPON_TYPE" value="éŠƒ" />
+    <term name="éž­è£…å‚™" tt="EQ_WEAPON_TYPE" value="éž­" />
+    <term name="æ–è£…å‚™" tt="EQ_WEAPON_TYPE" value="æ–" />
+    <term name="éŽŒè£…å‚™" tt="EQ_WEAPON_TYPE" value="éŽŒ" />
 
-    <term name="eŒ••t‚«" tt="EQ_ITEM_NAME_CONTAINS" value="eŒ••t‚«" />
-    <term name="“Å‹|‘•”õ" tt="EQ_ITEM_NAME_CONTAINS" value="“Å•t‚«" />
+    <term name="éŠƒå‰£ä»˜ã" tt="EQ_ITEM_NAME_CONTAINS" value="éŠƒå‰£ä»˜ã" />
+    <term name="æ¯’å¼“è£…å‚™" tt="EQ_ITEM_NAME_CONTAINS" value="æ¯’ä»˜ã" />
 	
-    <term name="–‚p‚Ì‘u”j‰óŒõüvŠŽ" tt="HAS_BOOK" value="–‚p‚Ì‘u”j‰óŒõüv" />
-    <term name="–‚p‚Ì‘u˜B‹à–‚–@‚PvŠŽ" tt="HAS_BOOK" value="–‚p‚Ì‘u˜B‹à–‚–@‚Pv" />
-    <term name="–‚pŽg—p‰Â”\" tt="STATUS_IS" value="CAN_MAGIC,1" />
+    <term name="é­”è¡“ã®æ›¸ã€Œç ´å£Šå…‰ç·šã€æ‰€æŒ" tt="HAS_BOOK" value="é­”è¡“ã®æ›¸ã€Œç ´å£Šå…‰ç·šã€" />
+    <term name="é­”è¡“ã®æ›¸ã€ŒéŒ¬é‡‘é­”æ³•ï¼‘ã€æ‰€æŒ" tt="HAS_BOOK" value="é­”è¡“ã®æ›¸ã€ŒéŒ¬é‡‘é­”æ³•ï¼‘ã€" />
+    <term name="é­”è¡“ä½¿ç”¨å¯èƒ½" tt="STATUS_IS" value="CAN_MAGIC,1" />
 
-    <term name="ðŒ‚È‚µ" tt="NONE" />
+    <term name="æ¡ä»¶ãªã—" tt="NONE" />
 
-    <!-- ƒAƒjƒ[ƒVƒ‡ƒ“‚Ì’è‹` -->
-    <animation name="’ÊíUŒ‚" spriteSheet="resource/data/image/testAnimation.png" w="16" h="16" tc="6" mg="2"/>
-    <animation name="‰ñ•œ" spriteSheet="resource/data/image/testAnimation2.png" w="16" h="16" tc="6" mg="2"/>
+    <!-- ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ã®å®šç¾© -->
+    <animation name="é€šå¸¸æ”»æ’ƒ" spriteSheet="resource/data/image/testAnimation.png" w="16" h="16" tc="6" mg="2"/>
+    <animation name="å›žå¾©" spriteSheet="resource/data/image/testAnimation2.png" w="16" h="16" tc="6" mg="2"/>
 	
-    <!-- ƒTƒEƒ“ƒh -->
-    <sound name="’ÊíUŒ‚" file="resource/se/Œø‰Ê‰¹Qƒ_ƒ[ƒW.wav" />
-    <sound name="‰ñ•œ" file="resource/se/Œø‰Ê‰¹Q‰ñ•œ.wav" />
+    <!-- ã‚µã‚¦ãƒ³ãƒ‰ -->
+    <sound name="é€šå¸¸æ”»æ’ƒ" file="resource/se/åŠ¹æžœéŸ³ï¼¿ãƒ€ãƒ¡ãƒ¼ã‚¸.wav" />
+    <sound name="å›žå¾©" file="resource/se/åŠ¹æžœéŸ³ï¼¿å›žå¾©.wav" />
 	
-    <!--ƒAƒCƒeƒ€-->
+    <!--ã‚¢ã‚¤ãƒ†ãƒ -->
 	
     <!--
-    <item name="”jŽ×‚ÌŒ•" desc="ƒAƒCƒeƒ€‚Æ‚µ‚Ä‚àŽg‚¦‚é¹‚È‚éŒ•‚¾" value="" slot="˜r" wmt="Œ•" area="30" dcs="STR">
-            <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-30" attr="FLAME" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
+    <item name="ç ´é‚ªã®å‰£" desc="ã‚¢ã‚¤ãƒ†ãƒ ã¨ã—ã¦ã‚‚ä½¿ãˆã‚‹è–ãªã‚‹å‰£ã " value="" slot="è…•" wmt="å‰£" area="30" dcs="STR">
+            <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-30" attr="FLAME" p="1" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" />
             <eqStatus tgt="ATK" value="65" />
             <eqAttr tgt="HOLY" value="15" />
     </item>	
     -->
 	
 	
-    <!-- ƒL[ƒAƒCƒeƒ€ -->
-    <item name="ƒL[ƒAƒCƒeƒ€" desc="ŽÌ‚Ä‚ç‚ê‚È‚¢ƒAƒCƒeƒ€‚ÌƒeƒXƒg‚¾B" value="999" canSale="false" />
+    <!-- ã‚­ãƒ¼ã‚¢ã‚¤ãƒ†ãƒ  -->
+    <item name="ã‚­ãƒ¼ã‚¢ã‚¤ãƒ†ãƒ " desc="æ¨ã¦ã‚‰ã‚Œãªã„ã‚¢ã‚¤ãƒ†ãƒ ã®ãƒ†ã‚¹ãƒˆã ã€‚" value="999" canSale="false" />
 
-    <!-- ‘fÞ -->
-    <material name="“S•Ð" value="20" />
-    <material name="‡‹à" value="200" />
-    <material name="”ç" value="200" />
-    <material name="–Ø•Ð" value="20" />
-    <material name="•z" value="20" />
-    <material name="˜m" value="20" />
-    <material name="‚Ë‚¶" value="20" />
-    <material name="‚Î‚Ë" value="20" />
-    <material name="•R" value="20" />
-    <material name="ƒƒCƒ„[" value="20" />
-    <material name="½" value="140" />
-    <material name="˜B‹à•¨Ž¿" value="100" />
-    <material name="ƒxƒŠƒ^Œ‹»ƒR[ƒeƒBƒ“ƒO" value="100" />
-    <material name="‚â‚³‚®‚êƒƒ^ƒ‹‚Ì‚©‚¯‚ç" value="7800" />
-    <material name="“ø‚Ì‚©‚¯‚ç" value="19900" />
-    <material name="ƒƒKƒgƒ“ƒƒ_ƒ‹" value="10000" />
-    <material name="¬‚³‚ÈƒRƒCƒ“" value="10000" />
+    <!-- ç´ æ -->
+    <material name="é‰„ç‰‡" value="20" />
+    <material name="åˆé‡‘" value="200" />
+    <material name="çš®" value="200" />
+    <material name="æœ¨ç‰‡" value="20" />
+    <material name="å¸ƒ" value="20" />
+    <material name="è—" value="20" />
+    <material name="ã­ã˜" value="20" />
+    <material name="ã°ã­" value="20" />
+    <material name="ç´" value="20" />
+    <material name="ãƒ¯ã‚¤ãƒ¤ãƒ¼" value="20" />
+    <material name="éŽ–" value="140" />
+    <material name="éŒ¬é‡‘ç‰©è³ª" value="100" />
+    <material name="ãƒ™ãƒªã‚¿çµæ™¶ã‚³ãƒ¼ãƒ†ã‚£ãƒ³ã‚°" value="100" />
+    <material name="ã‚„ã•ãã‚Œãƒ¡ã‚¿ãƒ«ã®ã‹ã‘ã‚‰" value="7800" />
+    <material name="è™¹ã®ã‹ã‘ã‚‰" value="19900" />
+    <material name="ãƒ¡ã‚¬ãƒˆãƒ³ãƒ¡ãƒ€ãƒ«" value="10000" />
+    <material name="å°ã•ãªã‚³ã‚¤ãƒ³" value="10000" />
 	
-    <!-- ƒAƒCƒeƒ€ -->
-    <item name="’N‚©‚Ì“ú‹Lu2022-12-26v" desc="—V‚ñ‚Å‚­‚ê‚Ä‚ ‚è‚ª‚Æ‚¤I¡‚Í2022”N12ŒŽ26“ú21:30B/FWŠJ”­ŠJŽn‚©‚ç2‚©ŒŽ‚­‚ç‚¢‚Å‚·B/–‚pƒEƒCƒ“ƒhƒE‚Ìˆ—‚ðì‚Á‚Ä‚¢‚Ü‚·B/–ˆ“úŽdŽ–‚ÌŒãƒRƒcƒRƒcì‚Á‚Ä‚¢‚Ü‚·‚ªA‚È‚©‚È‚©i‚Ý‚Ü‚¹‚ñ‚ËB" value="1"/>
-    <item name="‚â‚³‚®‚êƒƒ^ƒ‹‚ÌŒ•" desc="ƒ‚ƒ“ƒXƒ^[‚Ì“ÁŽê‚È‡‹à‚ðŽg‚Á‚Äì‚ç‚ê‚½”ñí‚Éd‚¢Œ•‚¾B/ƒNƒŠƒeƒBƒJƒ‹UŒ‚‚ªo‚â‚·‚¢B" value="196500" slot="˜r" wmt="Œ•" area="34" dcs="STR">
+    <!-- ã‚¢ã‚¤ãƒ†ãƒ  -->
+    <item name="èª°ã‹ã®æ—¥è¨˜ã€Œ2022-12-26ã€" desc="éŠã‚“ã§ãã‚Œã¦ã‚ã‚ŠãŒã¨ã†ï¼ä»Šã¯2022å¹´12æœˆ26æ—¥21:30ã€‚/FWé–‹ç™ºé–‹å§‹ã‹ã‚‰2ã‹æœˆãã‚‰ã„ã§ã™ã€‚/é­”è¡“ã‚¦ã‚¤ãƒ³ãƒ‰ã‚¦ã®å‡¦ç†ã‚’ä½œã£ã¦ã„ã¾ã™ã€‚/æ¯Žæ—¥ä»•äº‹ã®å¾Œã‚³ãƒ„ã‚³ãƒ„ä½œã£ã¦ã„ã¾ã™ãŒã€ãªã‹ãªã‹é€²ã¿ã¾ã›ã‚“ã­ã€‚" value="1"/>
+    <item name="ã‚„ã•ãã‚Œãƒ¡ã‚¿ãƒ«ã®å‰£" desc="ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ã®ç‰¹æ®Šãªåˆé‡‘ã‚’ä½¿ã£ã¦ä½œã‚‰ã‚ŒãŸéžå¸¸ã«ç¡¬ã„å‰£ã ã€‚/ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«æ”»æ’ƒãŒå‡ºã‚„ã™ã„ã€‚" value="196500" slot="è…•" wmt="å‰£" area="34" dcs="STR">
         <eqStatus tgt="ATK" value="130" />
         <eqStatus tgt="AVO" value="-0.05" />
         <eqStatus tgt="CUT_P" value="+0.09" />
         <eqStatus tgt="CRT_P" value="+0.25" />
         <eqStatus tgt="CRT_V" value="+0.25" />
         <upgrade order="0" value="25000">
-            <material name="‚â‚³‚®‚êƒƒ^ƒ‹‚Ì‚©‚¯‚ç" num="2"/>
-            <material name="“S•Ð" />
+            <material name="ã‚„ã•ãã‚Œãƒ¡ã‚¿ãƒ«ã®ã‹ã‘ã‚‰" num="2"/>
+            <material name="é‰„ç‰‡" />
             <addStatus tgt="ATK" value="+13" />
         </upgrade>
         <upgrade order="1" value="25000">
-            <material name="‚â‚³‚®‚êƒƒ^ƒ‹‚Ì‚©‚¯‚ç" num="2"/>
-            <material name="“S•Ð" />
+            <material name="ã‚„ã•ãã‚Œãƒ¡ã‚¿ãƒ«ã®ã‹ã‘ã‚‰" num="2"/>
+            <material name="é‰„ç‰‡" />
             <addStatus tgt="ATK" value="+13" />
         </upgrade>
         <disassembly>
-            <material name="‚â‚³‚®‚êƒƒ^ƒ‹‚Ì‚©‚¯‚ç" />
-            <material name="“S•Ð" num="2"/>
-            <material name="–Ø•Ð" num="2"/>
-            <material name="”ç" />
+            <material name="ã‚„ã•ãã‚Œãƒ¡ã‚¿ãƒ«ã®ã‹ã‘ã‚‰" />
+            <material name="é‰„ç‰‡" num="2"/>
+            <material name="æœ¨ç‰‡" num="2"/>
+            <material name="çš®" />
         </disassembly>
     </item>
-    <item name="‹™Žt‚Ì”ñíH" desc="‹™‚Éo‚ç‚ê‚È‚¢‚Æ‚«‚â‹Ù‹}”ð“ïŽž‚ÉH‚×‚é‚½‚ß‚ÌA“úŽ‚¿‚·‚é”ñíH‚¾B/–¡•ûˆêl‚Ì‘Ì—Í‚ð‚í‚¸‚©‚É‰ñ•œ‚·‚é" value="150" waitTime="60" sound="‰ñ•œ" term="ðŒ‚È‚µ" animationMoveType="TGT">
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT" animation="‰ñ•œ" />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="‹™Žt‚Ì”ñíH" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT" animation="‰ñ•œ" />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="‹™Žt‚Ì”ñíH" p="1.0" />
+    <item name="æ¼å¸«ã®éžå¸¸é£Ÿ" desc="æ¼ã«å‡ºã‚‰ã‚Œãªã„ã¨ãã‚„ç·Šæ€¥é¿é›£æ™‚ã«é£Ÿã¹ã‚‹ãŸã‚ã®ã€æ—¥æŒã¡ã™ã‚‹éžå¸¸é£Ÿã ã€‚/å‘³æ–¹ä¸€äººã®ä½“åŠ›ã‚’ã‚ãšã‹ã«å›žå¾©ã™ã‚‹" value="150" waitTime="60" sound="å›žå¾©" term="æ¡ä»¶ãªã—" animationMoveType="TGT">
+        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT" animation="å›žå¾©" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="æ¼å¸«ã®éžå¸¸é£Ÿ" p="1.0" />
+        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT" animation="å›žå¾©" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="æ¼å¸«ã®éžå¸¸é£Ÿ" p="1.0" />
     </item>
-    <item name="ƒƒCƒ‹ƒhƒXƒe[ƒL" desc="b“÷‚ðÄ‚¢‚½‚à‚Ì‚¾B/–¡•ûˆêl‚Ì‘Ì—Í‚ð‚í‚¸‚©‚É‰ñ•œ‚·‚é" value="350" waitTime="60" sound="‰ñ•œ" term="ðŒ‚È‚µ" animationMoveType="TGT">
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+8" p="1" dct="DIRECT" animation="‰ñ•œ" />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ƒƒCƒ‹ƒhƒXƒe[ƒL" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+8" p="1" dct="DIRECT" animation="‰ñ•œ" />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ƒƒCƒ‹ƒhƒXƒe[ƒL" p="1.0" />
+    <item name="ãƒ¯ã‚¤ãƒ«ãƒ‰ã‚¹ãƒ†ãƒ¼ã‚­" desc="ç£è‚‰ã‚’ç„¼ã„ãŸã‚‚ã®ã ã€‚/å‘³æ–¹ä¸€äººã®ä½“åŠ›ã‚’ã‚ãšã‹ã«å›žå¾©ã™ã‚‹" value="350" waitTime="60" sound="å›žå¾©" term="æ¡ä»¶ãªã—" animationMoveType="TGT">
+        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+8" p="1" dct="DIRECT" animation="å›žå¾©" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ãƒ¯ã‚¤ãƒ«ãƒ‰ã‚¹ãƒ†ãƒ¼ã‚­" p="1.0" />
+        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+8" p="1" dct="DIRECT" animation="å›žå¾©" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ãƒ¯ã‚¤ãƒ«ãƒ‰ã‚¹ãƒ†ãƒ¼ã‚­" p="1.0" />
     </item>
-    <item name="”žÄ’‘" desc="‚¿‚å‚Á‚Æ‹­‚ß‚ÌŽð‚¾I/–¡•ûˆêl‚Ì‘Ì—Í‚ð‚í‚¸‚©‚É‰ñ•œ‚·‚é" value="350" waitTime="60" sound="‰ñ•œ" term="ðŒ‚È‚µ" animationMoveType="TGT">
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+4" p="1" dct="DIRECT" animation="‰ñ•œ" />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="”žÄ’‘" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+4" p="1" dct="DIRECT" animation="‰ñ•œ" />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="”žÄ’‘" p="1.0" />
+    <item name="éº¦ç„¼é…Ž" desc="ã¡ã‚‡ã£ã¨å¼·ã‚ã®é…’ã ï¼/å‘³æ–¹ä¸€äººã®ä½“åŠ›ã‚’ã‚ãšã‹ã«å›žå¾©ã™ã‚‹" value="350" waitTime="60" sound="å›žå¾©" term="æ¡ä»¶ãªã—" animationMoveType="TGT">
+        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+4" p="1" dct="DIRECT" animation="å›žå¾©" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="éº¦ç„¼é…Ž" p="1.0" />
+        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+4" p="1" dct="DIRECT" animation="å›žå¾©" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="éº¦ç„¼é…Ž" p="1.0" />
     </item>
-    <item name="Ž–¯‚Ì•ž" desc="‚Ó‚Â‚¤‚Ì•ž‚¾B" value="980" slot="“·">
+    <item name="åº¶æ°‘ã®æœ" desc="ãµã¤ã†ã®æœã ã€‚" value="980" slot="èƒ´">
         <eqStatus tgt="DEF" value="3" />
         <eqAttr tgt="IMPACT" value="-0.08"/>
         <eqAttr tgt="CHOP" value="-0.08"/>
         <disassembly>
-            <material name="•z" num="4"/>
-            <material name="•R" num="1"/>
+            <material name="å¸ƒ" num="4"/>
+            <material name="ç´" num="1"/>
         </disassembly>
     </item>
-    <item name="‹™Žt‚Ì‚¨Žç‚è" desc="‹™Žt‚ª‹™‚Ì¬Œ÷‚ð‹F‚Á‚ÄŽ‚Á‚Ä‚¢‚­‚¨Žç‚è‚¾B" value="980" slot="ƒAƒ~ƒ…ƒŒƒbƒg">
+    <item name="æ¼å¸«ã®ãŠå®ˆã‚Š" desc="æ¼å¸«ãŒæ¼ã®æˆåŠŸã‚’ç¥ˆã£ã¦æŒã£ã¦ã„ããŠå®ˆã‚Šã ã€‚" value="980" slot="ã‚¢ãƒŸãƒ¥ãƒ¬ãƒƒãƒˆ">
         <eqAttr tgt="WATER" value="-0.10"/>
         <disassembly>
-            <material name="•R" num="1"/>
+            <material name="ç´" num="1"/>
         </disassembly>
     </item>
-    <item name="‚Ë‚±‚Ñ[‚ñ‚ÌƒXƒgƒ‰ƒbƒv" desc="‚Ë‚±‚Ñ[‚ñ‚Ì‚©‚í‚¢‚¢ƒXƒgƒ‰ƒbƒv‚¾B/‚±‚Ì¢‚É‘¶Ý‚·‚é‚à‚Ì‚Æ‚ÍŽv‚¦‚È‚¢ˆê•i‚¾B" value="980" slot="ƒAƒ~ƒ…ƒŒƒbƒg">
+    <item name="ã­ã“ã³ãƒ¼ã‚“ã®ã‚¹ãƒˆãƒ©ãƒƒãƒ—" desc="ã­ã“ã³ãƒ¼ã‚“ã®ã‹ã‚ã„ã„ã‚¹ãƒˆãƒ©ãƒƒãƒ—ã ã€‚/ã“ã®ä¸–ã«å­˜åœ¨ã™ã‚‹ã‚‚ã®ã¨ã¯æ€ãˆãªã„ä¸€å“ã ã€‚" value="980" slot="ã‚¢ãƒŸãƒ¥ãƒ¬ãƒƒãƒˆ">
         <eqAttr tgt="MYSTERY" value="-0.15"/>
         <disassembly>
-            <material name="•R" num="1"/>
+            <material name="ç´" num="1"/>
         </disassembly>
     </item>
-    <item name="‘¾—z‚ÌƒƒKƒl" desc="“ÁŽê‚È‘fÞ‚Åì‚ç‚ê‚½‹Md‚ÈƒƒKƒl‚¾B/ƒNƒŠƒeƒBƒJƒ‹ƒ_ƒ[ƒW‚ª‚‚Ü‚éB" value="980" slot="ƒAƒ~ƒ…ƒŒƒbƒg">
+    <item name="å¤ªé™½ã®ãƒ¡ã‚¬ãƒ" desc="ç‰¹æ®Šãªç´ æã§ä½œã‚‰ã‚ŒãŸè²´é‡ãªãƒ¡ã‚¬ãƒã ã€‚/ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«ãƒ€ãƒ¡ãƒ¼ã‚¸ãŒé«˜ã¾ã‚‹ã€‚" value="980" slot="ã‚¢ãƒŸãƒ¥ãƒ¬ãƒƒãƒˆ">
         <eqStatus tgt="CRT_V" value="+1"/>
         <disassembly>
-            <material name="‡‹à" num="1"/>
+            <material name="åˆé‡‘" num="1"/>
         </disassembly>
     </item>
-    <item name="ƒfƒ…[ƒNŒN‚ÌƒXƒgƒ‰ƒbƒv" desc="ƒfƒ…[ƒNŒN‚Ì‚©‚í‚¢‚¢ƒXƒgƒ‰ƒbƒv‚¾B/‚±‚Ì¢‚É‘¶Ý‚·‚é‚à‚Ì‚Æ‚ÍŽv‚¦‚È‚¢ˆê•i‚¾B" value="980" slot="ƒAƒ~ƒ…ƒŒƒbƒg">
+    <item name="ãƒ‡ãƒ¥ãƒ¼ã‚¯å›ã®ã‚¹ãƒˆãƒ©ãƒƒãƒ—" desc="ãƒ‡ãƒ¥ãƒ¼ã‚¯å›ã®ã‹ã‚ã„ã„ã‚¹ãƒˆãƒ©ãƒƒãƒ—ã ã€‚/ã“ã®ä¸–ã«å­˜åœ¨ã™ã‚‹ã‚‚ã®ã¨ã¯æ€ãˆãªã„ä¸€å“ã ã€‚" value="980" slot="ã‚¢ãƒŸãƒ¥ãƒ¬ãƒƒãƒˆ">
         <eqAttr tgt="MYSTERY" value="-0.25"/>
         <disassembly>
-            <material name="•R" num="1"/>
+            <material name="ç´" num="1"/>
         </disassembly>
     </item>
-    <item name="Ž–¯‚ÌŒC" desc="‚Ó‚Â‚¤‚ÌŒC‚¾B" value="640" slot="‘«">
+    <item name="åº¶æ°‘ã®é´" desc="ãµã¤ã†ã®é´ã ã€‚" value="640" slot="è¶³">
         <eqStatus tgt="DEF" value="1" />
         <eqStatus tgt="SPD" value="2" />
         <eqStatus tgt="AVO" value="0.05" />
         <disassembly>
-            <material name="•z" num="1"/>
-            <material name="•R" num="1"/>
+            <material name="å¸ƒ" num="1"/>
+            <material name="ç´" num="1"/>
         </disassembly>
     </item>
-    <item name="–`Œ¯ŽÒ‚ÌƒR[ƒg" desc="–`Œ¯ŽÒ‚Ì‚½‚ß‚ÌŠæä‚Å•Ö—˜‚ÈƒR[ƒg‚¾B" value="12150" slot="“·">
+    <item name="å†’é™ºè€…ã®ã‚³ãƒ¼ãƒˆ" desc="å†’é™ºè€…ã®ãŸã‚ã®é ‘ä¸ˆã§ä¾¿åˆ©ãªã‚³ãƒ¼ãƒˆã ã€‚" value="12150" slot="èƒ´">
         <eqStatus tgt="DEF" value="16" />
         <eqAttr tgt="IMPACT" value="-0.13"/>
         <eqAttr tgt="STAB" value="-0.02"/>
         <eqAttr tgt="CHOP" value="-0.13"/>
         <disassembly>
-            <material name="”ç" num="3"/>
-            <material name="•z" num="3"/>
-            <material name="•R" num="1"/>
+            <material name="çš®" num="3"/>
+            <material name="å¸ƒ" num="3"/>
+            <material name="ç´" num="1"/>
         </disassembly>
     </item>
-    <item name="–`Œ¯ŽÒ‚Ìƒu[ƒc" desc="–`Œ¯ŽÒ‚Ì‚½‚ß‚Ì•à‚«‚â‚·‚¢ƒu[ƒc‚¾B" value="7270" slot="‘«">
+    <item name="å†’é™ºè€…ã®ãƒ–ãƒ¼ãƒ„" desc="å†’é™ºè€…ã®ãŸã‚ã®æ­©ãã‚„ã™ã„ãƒ–ãƒ¼ãƒ„ã ã€‚" value="7270" slot="è¶³">
         <eqStatus tgt="DEF" value="4" />
         <eqStatus tgt="SPD" value="5" />
         <eqStatus tgt="AVO" value="0.05" />
         <disassembly>
-            <material name="”ç" num="1"/>
-            <material name="•z" num="1"/>
-            <material name="•R" num="2"/>
+            <material name="çš®" num="1"/>
+            <material name="å¸ƒ" num="1"/>
+            <material name="ç´" num="2"/>
         </disassembly>
     </item>
-    <item name="—·l‚Ì•ž" desc="—·l‚Ì‚½‚ß‚Ìä•v‚È•ž‚¾B" value="3360" slot="“·">
+    <item name="æ—…äººã®æœ" desc="æ—…äººã®ãŸã‚ã®ä¸ˆå¤«ãªæœã ã€‚" value="3360" slot="èƒ´">
         <eqStatus tgt="DEF" value="11" />
         <eqAttr tgt="IMPACT" value="-0.09"/>
         <eqAttr tgt="STAB" value="-0.02"/>
         <eqAttr tgt="CHOP" value="-0.09"/>
         <disassembly>
-            <material name="”ç" num="2"/>
-            <material name="•z" num="2"/>
-            <material name="•R" num="1"/>
+            <material name="çš®" num="2"/>
+            <material name="å¸ƒ" num="2"/>
+            <material name="ç´" num="1"/>
         </disassembly>
     </item>
-    <item name="”_–¯‚Ì–ª" desc="˜m‚Åì‚ç‚ê‚½ˆÀ‰¿‚ÈŠO“…‚ÌˆêŽí‚¾BÕŒ‚‘Ï«‚ª‚‚¢B" value="2100" slot="“·">
+    <item name="è¾²æ°‘ã®è“‘" desc="è—ã§ä½œã‚‰ã‚ŒãŸå®‰ä¾¡ãªå¤–å¥—ã®ä¸€ç¨®ã ã€‚è¡æ’ƒè€æ€§ãŒé«˜ã„ã€‚" value="2100" slot="èƒ´">
         <eqStatus tgt="DEF" value="9" />
         <eqAttr tgt="IMPACT" value="-0.15"/>
         <eqAttr tgt="STAB" value="-0.03"/>
@@ -228,48 +228,48 @@ THE SOFTWARE.
         <eqAttr tgt="ICE" value="-0.10"/>
         <eqAttr tgt="WATER" value="-0.10"/>
         <disassembly>
-            <material name="˜m" num="4"/>
-            <material name="•z" num="2"/>
-            <material name="•R" num="1"/>
+            <material name="è—" num="4"/>
+            <material name="å¸ƒ" num="2"/>
+            <material name="ç´" num="1"/>
         </disassembly>
     </item>
-    <item name="½›çŽq" desc="½‚Åì‚ç‚ê‚½–hŒä—Í‚Ì‚‚¢–h‹ï‚¾B" value="210000" slot="“·">
+    <item name="éŽ–å¸·å­" desc="éŽ–ã§ä½œã‚‰ã‚ŒãŸé˜²å¾¡åŠ›ã®é«˜ã„é˜²å…·ã ã€‚" value="210000" slot="èƒ´">
         <eqStatus tgt="DEF" value="21" />
         <eqAttr tgt="STAB" value="-0.07"/>
         <eqAttr tgt="CHOP" value="-0.18"/>
         <disassembly>
-            <material name="ƒƒCƒ„[" num="2"/>
-            <material name="½" num="4"/>
+            <material name="ãƒ¯ã‚¤ãƒ¤ãƒ¼" num="2"/>
+            <material name="éŽ–" num="4"/>
         </disassembly>
     </item>
-    <item name="½›çŽq“ü‚èƒR[ƒg" desc="½›çŽq‚Ìã‚ÉƒR[ƒg‚ð‰HD‚Á‚Ä–hŒä«”\‚ð‚‚ß‚½–h‹ï‚¾" value="240000" slot="“·">
+    <item name="éŽ–å¸·å­å…¥ã‚Šã‚³ãƒ¼ãƒˆ" desc="éŽ–å¸·å­ã®ä¸Šã«ã‚³ãƒ¼ãƒˆã‚’ç¾½ç¹”ã£ã¦é˜²å¾¡æ€§èƒ½ã‚’é«˜ã‚ãŸé˜²å…·ã " value="240000" slot="èƒ´">
         <eqStatus tgt="DEF" value="35" />
         <eqAttr tgt="IMPACT" value="-0.10"/>
         <eqAttr tgt="STAB" value="-0.9"/>
         <eqAttr tgt="CHOP" value="-0.18"/>
         <disassembly>
-            <material name="”ç" num="3"/>
-            <material name="•z" num="3"/>
-            <material name="•R" num="1"/>
-            <material name="ƒƒCƒ„[" num="2"/>
-            <material name="½" num="4"/>
+            <material name="çš®" num="3"/>
+            <material name="å¸ƒ" num="3"/>
+            <material name="ç´" num="1"/>
+            <material name="ãƒ¯ã‚¤ãƒ¤ãƒ¼" num="2"/>
+            <material name="éŽ–" num="4"/>
         </disassembly>
     </item>
-    <item name="ƒvƒŒ[ƒgƒA[ƒ}[" desc="‹à‘®”Â‚Åì‚ç‚ê‚½”ñí‚ÉŠæä‚Åd‚¢ŠZ‚¾" value="300000" slot="“·">
+    <item name="ãƒ—ãƒ¬ãƒ¼ãƒˆã‚¢ãƒ¼ãƒžãƒ¼" desc="é‡‘å±žæ¿ã§ä½œã‚‰ã‚ŒãŸéžå¸¸ã«é ‘ä¸ˆã§é‡ã„éŽ§ã " value="300000" slot="èƒ´">
         <eqStatus tgt="DEF" value="55" />
         <eqAttr tgt="IMPACT" value="-0.01"/>
         <eqAttr tgt="STAB" value="-0.12"/>
         <eqAttr tgt="CHOP" value="-0.35"/>
         <disassembly>
-            <material name="”ç" num="1"/>
-            <material name="•z" num="1"/>
-            <material name="•R" num="1"/>
-            <material name="ƒƒCƒ„[" num="2"/>
-            <material name="½" num="1"/>
-            <material name="“S•Ð" num="4"/>
+            <material name="çš®" num="1"/>
+            <material name="å¸ƒ" num="1"/>
+            <material name="ç´" num="1"/>
+            <material name="ãƒ¯ã‚¤ãƒ¤ãƒ¼" num="2"/>
+            <material name="éŽ–" num="1"/>
+            <material name="é‰„ç‰‡" num="4"/>
         </disassembly>
     </item>
-    <item name="‹›”ç‚ÌƒR[ƒg" desc="‹›‚Ì”ç‚Åì‚ç‚ê‚½A’¿‚µ‚¢ŠO“…‚¾B" value="30000" slot="“·">
+    <item name="é­šçš®ã®ã‚³ãƒ¼ãƒˆ" desc="é­šã®çš®ã§ä½œã‚‰ã‚ŒãŸã€çã—ã„å¤–å¥—ã ã€‚" value="30000" slot="èƒ´">
         <eqStatus tgt="DEF" value="8" />
         <eqAttr tgt="IMPACT" value="-0.10"/>
         <eqAttr tgt="STAB" value="-0.03"/>
@@ -277,497 +277,497 @@ THE SOFTWARE.
         <eqAttr tgt="WATER" value="-0.10"/>
         <eqAttr tgt="ICE" value="-0.10"/>
         <disassembly>
-            <material name="”ç" num="2"/>
-            <material name="•z" num="2"/>
-            <material name="•R" num="1"/>
+            <material name="çš®" num="2"/>
+            <material name="å¸ƒ" num="2"/>
+            <material name="ç´" num="1"/>
         </disassembly>
     </item>
-    <item name="‹›”ç‚ÌŒC" desc="‹›‚Ì”ç‚Åì‚ç‚ê‚½A’¿‚µ‚¢ŒC‚¾B" value="4100" slot="‘«">
+    <item name="é­šçš®ã®é´" desc="é­šã®çš®ã§ä½œã‚‰ã‚ŒãŸã€çã—ã„é´ã ã€‚" value="4100" slot="è¶³">
         <eqStatus tgt="SPD" value="3" />
         <eqStatus tgt="AVO" value="0.03" />
         <eqAttr tgt="WATER" value="-0.10"/>
         <eqAttr tgt="ICE" value="-0.10"/>
         <disassembly>
-            <material name="”ç" num="1"/>
-            <material name="•z" num="1"/>
-            <material name="•R" num="2"/>
+            <material name="çš®" num="1"/>
+            <material name="å¸ƒ" num="1"/>
+            <material name="ç´" num="2"/>
         </disassembly>
     </item>
-    <item name="Šë‚È‚¢…’…" desc="‚Æ‚ñ‚Å‚à‚È‚¢ƒfƒUƒCƒ“‚Ì…’…‚¾I‚·‚²‚¢I/—«‚µ‚©g‚É’…‚¯‚ç‚ê‚È‚¢B" value="40000" slot="“·">
+    <item name="å±ãªã„æ°´ç€" desc="ã¨ã‚“ã§ã‚‚ãªã„ãƒ‡ã‚¶ã‚¤ãƒ³ã®æ°´ç€ã ï¼ã™ã”ã„ï¼/å¥³æ€§ã—ã‹èº«ã«ç€ã‘ã‚‰ã‚Œãªã„ã€‚" value="40000" slot="èƒ´">
         <eqipTerm type="STATUS_IS" tgt="ATTR" value="1" />
         <eqStatus tgt="SPD" value="3" />
         <eqStatus tgt="DEF" value="3" />
         <eqAttr tgt="WATER" value="-0.10"/>
         <disassembly>
-            <material name="•R" num="3"/>
+            <material name="ç´" num="3"/>
         </disassembly>
     </item>
-    <item name="ŠëŒ¯‹É‚Ü‚è‚È‚¢ŠCƒpƒ“" desc="‚â‚Î‚¢ƒfƒUƒCƒ“‚ÌŠCƒpƒ“‚¾IƒMƒŠƒZ[[[ƒtI/’j«‚µ‚©g‚É’…‚¯‚ç‚ê‚È‚¢B" value="20000" slot="“·">
+    <item name="å±é™ºæ¥µã¾ã‚Šãªã„æµ·ãƒ‘ãƒ³" desc="ã‚„ã°ã„ãƒ‡ã‚¶ã‚¤ãƒ³ã®æµ·ãƒ‘ãƒ³ã ï¼ã‚®ãƒªã‚»ãƒ¼ãƒ¼ãƒ¼ãƒ•ï¼/ç”·æ€§ã—ã‹èº«ã«ç€ã‘ã‚‰ã‚Œãªã„ã€‚" value="20000" slot="èƒ´">
         <eqipTerm type="STATUS_IS" tgt="ATTR" value="0" />
         <eqStatus tgt="SPD" value="3" />
         <eqStatus tgt="DEF" value="3" />
         <eqAttr tgt="WATER" value="-0.10"/>
         <disassembly>
-            <material name="•R" num="3"/>
+            <material name="ç´" num="3"/>
         </disassembly>
     </item>
-    <item name="‘—š" desc="ˆÀ‰¿‚¾‚ªŒy‚¢—š•¨‚¾B" value="410" slot="‘«">
+    <item name="è‰å±¥" desc="å®‰ä¾¡ã ãŒè»½ã„å±¥ç‰©ã ã€‚" value="410" slot="è¶³">
         <eqStatus tgt="SPD" value="3" />
         <eqStatus tgt="AVO" value="0.06" />
         <disassembly>
-            <material name="˜m" num="2"/>
-            <material name="•R" num="1"/>
+            <material name="è—" num="2"/>
+            <material name="ç´" num="1"/>
         </disassembly>
     </item>
-    <item name="s¤l‚Ì•ž" desc="s¤l‚ª‚æ‚­’…‚Ä‚¢‚éä•v‚Å’·Ž‚¿‚·‚é•ž‚¾B" value="4100" slot="“·">
+    <item name="è¡Œå•†äººã®æœ" desc="è¡Œå•†äººãŒã‚ˆãç€ã¦ã„ã‚‹ä¸ˆå¤«ã§é•·æŒã¡ã™ã‚‹æœã ã€‚" value="4100" slot="èƒ´">
         <eqStatus tgt="DEF" value="10" />
         <eqAttr tgt="IMPACT" value="-0.08"/>
         <eqAttr tgt="CHOP" value="-0.08"/>
         <disassembly>
-            <material name="”ç" num="1"/>
-            <material name="•z" num="2"/>
-            <material name="•R" num="1"/>
+            <material name="çš®" num="1"/>
+            <material name="å¸ƒ" num="2"/>
+            <material name="ç´" num="1"/>
         </disassembly>
     </item>
-    <item name="–Ø–È‚ÌŽè@" desc="–Ø–È‚Å‚Å‚«‚½Žè@‚¾B“ª‚ÉŠª‚¯‚Î‰½‚à‚È‚¢‚æ‚è‚Ü‚µ‚¾‚ë‚¤B" value="230" slot="“ª">
+    <item name="æœ¨ç¶¿ã®æ‰‹æ‹­" desc="æœ¨ç¶¿ã§ã§ããŸæ‰‹æ‹­ã ã€‚é ­ã«å·»ã‘ã°ä½•ã‚‚ãªã„ã‚ˆã‚Šã¾ã—ã ã‚ã†ã€‚" value="230" slot="é ­">
         <eqStatus tgt="DEF" value="1" />
         <eqAttr tgt="IMPACT" value="-0.02"/>
         <eqAttr tgt="CHOP" value="-0.02"/>
         <disassembly>
-            <material name="•z" num="2"/>
+            <material name="å¸ƒ" num="2"/>
         </disassembly>
     </item>
-    <item name="“°êE‹à‘¾˜Y‚ÌŠpŠ•" desc="“`à‚Ì—³Žë‚è‚±‚Æ“°êE‹à‘¾˜YŽ‚ª‚æ‚­‚©‚Ô‚Á‚Ä‚¢‚éŠp•t‚«‚Ì“SŠ•‚¾B" value="7200" slot="“ª">
+    <item name="å ‚å ´ãƒ»é‡‘å¤ªéƒŽã®è§’å…œ" desc="ä¼èª¬ã®ç«œç‹©ã‚Šã“ã¨å ‚å ´ãƒ»é‡‘å¤ªéƒŽæ°ãŒã‚ˆãã‹ã¶ã£ã¦ã„ã‚‹è§’ä»˜ãã®é‰„å…œã ã€‚" value="7200" slot="é ­">
         <eqStatus tgt="DEF" value="14" />
         <eqAttr tgt="IMPACT" value="-0.09"/>
         <eqAttr tgt="CHOP" value="-0.09"/>
         <eqAttr tgt="STAB" value="-0.03"/>
         <disassembly>
-            <material name="“S•Ð" num="4"/>
+            <material name="é‰„ç‰‡" num="4"/>
         </disassembly>
     </item>
-    <item name="‚»‚Î’cŽq" desc="‚»‚Î•²‚Åì‚Á‚½–¡‚í‚¢[‚¢’cŽq‚¾B‚¤‚Ü‚¢II/–¡•ûˆêl‚Ì‘Ì—Í‚ð‚í‚¸‚©‚É‰ñ•œ‚·‚é" value="80" waitTime="60" sound="‰ñ•œ" term="ðŒ‚È‚µ">
+    <item name="ãã°å›£å­" desc="ãã°ç²‰ã§ä½œã£ãŸå‘³ã‚ã„æ·±ã„å›£å­ã ã€‚ã†ã¾ã„ï¼ï¼/å‘³æ–¹ä¸€äººã®ä½“åŠ›ã‚’ã‚ãšã‹ã«å›žå¾©ã™ã‚‹" value="80" waitTime="60" sound="å›žå¾©" term="æ¡ä»¶ãªã—">
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="‚»‚Î’cŽq" p="1.0" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ãã°å›£å­" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="‚»‚Î’cŽq" p="1.0" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ãã°å›£å­" p="1.0" />
     </item>
-    <item name="o‘OuŽè‘Å‚¿‚à‚è‚»‚Îv" desc="“`““I‚Èƒk[ƒhƒ‹H•i‚¾I‚±‚ê‚Í‚¤‚Ü‚¢‚¼IIŽŠ‚‚ÌH‚×•¨‚¾III/–¡•ûˆêl‚Ì‘Ì—Í‚ð‚í‚¸‚©‚É‰ñ•œ‚·‚é" value="480" waitTime="60" sound="‰ñ•œ" term="ðŒ‚È‚µ">
+    <item name="å‡ºå‰ã€Œæ‰‹æ‰“ã¡ã‚‚ã‚Šãã°ã€" desc="ä¼çµ±çš„ãªãƒŒãƒ¼ãƒ‰ãƒ«é£Ÿå“ã ï¼ã“ã‚Œã¯ã†ã¾ã„ãžï¼ï¼è‡³é«˜ã®é£Ÿã¹ç‰©ã ï¼ï¼ï¼/å‘³æ–¹ä¸€äººã®ä½“åŠ›ã‚’ã‚ãšã‹ã«å›žå¾©ã™ã‚‹" value="480" waitTime="60" sound="å›žå¾©" term="æ¡ä»¶ãªã—">
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="o‘OuŽè‘Å‚¿‚à‚è‚»‚Î1’šv" p="1.0" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="å‡ºå‰ã€Œæ‰‹æ‰“ã¡ã‚‚ã‚Šãã°1ä¸ã€" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="o‘OuŽè‘Å‚¿‚à‚è‚»‚Î1’šv" p="1.0" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="å‡ºå‰ã€Œæ‰‹æ‰“ã¡ã‚‚ã‚Šãã°1ä¸ã€" p="1.0" />
     </item>
-    <item name="ƒCƒ“ƒXƒ^ƒ“ƒg‚»‚Î" desc="“`““I‚Èƒk[ƒhƒ‹H•i‚ÌŒ»‘ã”Å‚¾BŽèŒy‚ÉH‚×‚ç‚ê‚éB/–¡•ûˆêl‚Ì‘Ì—Í‚ð‚í‚¸‚©‚É‰ñ•œ‚·‚é" value="260" waitTime="60" sound="‰ñ•œ" term="ðŒ‚È‚µ">
+    <item name="ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ãƒˆãã°" desc="ä¼çµ±çš„ãªãƒŒãƒ¼ãƒ‰ãƒ«é£Ÿå“ã®ç¾ä»£ç‰ˆã ã€‚æ‰‹è»½ã«é£Ÿã¹ã‚‰ã‚Œã‚‹ã€‚/å‘³æ–¹ä¸€äººã®ä½“åŠ›ã‚’ã‚ãšã‹ã«å›žå¾©ã™ã‚‹" value="260" waitTime="60" sound="å›žå¾©" term="æ¡ä»¶ãªã—">
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ƒCƒ“ƒXƒ^ƒ“ƒgE‚»‚Î" p="1.0" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ãƒˆãƒ»ãã°" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ƒCƒ“ƒXƒ^ƒ“ƒgE‚»‚Î" p="1.0" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ãƒˆãƒ»ãã°" p="1.0" />
     </item>
-    <item name="”j‰óŒõü“" desc="•’i‚Í•¿‚¾‚¯‚¾‚ªAí“¬Žž‚É‚Í”j‰ó–‚–@‚ð—˜—p‚µ‚½’´‚‰·‚Ìn‚ðo‚·–‚–@‚ÌŒ•‚¾B/‚Šm—¦‚Å‘¦Ž€‚³‚¹‚éB" value="12000000" slot="˜r" wmt="“" area="48" dcs="STR">
+    <item name="ç ´å£Šå…‰ç·šåˆ€" desc="æ™®æ®µã¯æŸ„ã ã‘ã ãŒã€æˆ¦é—˜æ™‚ã«ã¯ç ´å£Šé­”æ³•ã‚’åˆ©ç”¨ã—ãŸè¶…é«˜æ¸©ã®åˆƒã‚’å‡ºã™é­”æ³•ã®å‰£ã ã€‚/é«˜ç¢ºçŽ‡ã§å³æ­»ã•ã›ã‚‹ã€‚" value="12000000" slot="è…•" wmt="åˆ€" area="48" dcs="STR">
         <eqStatus tgt="ATK" value="1192" />
     </item>
-    <item name="‚¢‚¢Š´‚¶‚Ì–_‚«‚ê" desc="‚»‚Ì•Ó‚É“]‚ª‚Á‚Ä‚¢‚½–Ø‚Ì–_‚¾B" value="50" slot="˜r" wmt="ƒƒCƒX" area="28" dcs="STR">
+    <item name="ã„ã„æ„Ÿã˜ã®æ£’ãã‚Œ" desc="ãã®è¾ºã«è»¢ãŒã£ã¦ã„ãŸæœ¨ã®æ£’ã ã€‚" value="50" slot="è…•" wmt="ãƒ¡ã‚¤ã‚¹" area="28" dcs="STR">
         <eqStatus tgt="ATK" value="7" />
         <eqStatus tgt="AVO" value="-0.02" />
         <eqStatus tgt="CUT_P" value="+0.02" />
         <disassembly>
-            <material name="–Ø•Ð" num="4"/>
+            <material name="æœ¨ç‰‡" num="4"/>
         </disassembly>
     </item>
-    <item name="‹à‹›" desc="‹›‚¾B‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H/u‚¦HƒƒC‚Åí‚¤‚ñ‚·‚©H" value="20" slot="˜r" wmt="ƒƒCƒX" sound="‰ñ•œ" area="3" dcs="STR">
+    <item name="é‡‘é­š" desc="é­šã ã€‚ã“ã‚Œã‚’æ­¦å™¨ã¨ã—ã¦ä½¿ã†ã®ã‹ï¼Ÿæ­£æ°—ã‹ï¼Ÿ/ã€Œãˆï¼Ÿãƒ¯ã‚¤ã§æˆ¦ã†ã‚“ã™ã‹ï¼Ÿ" value="20" slot="è…•" wmt="ãƒ¡ã‚¤ã‚¹" sound="å›žå¾©" area="3" dcs="STR">
         <eqStatus tgt="ATK" value="1" />
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="‹à‹›" p="1.0" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="é‡‘é­š" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="‹à‹›" p="1.0" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="é‡‘é­š" p="1.0" />
     </item>
-    <item name="ƒiƒ}ƒY" desc="‹›‚¾B‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H/u‚¦HƒƒC‚Åí‚¤‚ñ‚·‚©H" value="20" slot="˜r" wmt="ƒƒCƒX" sound="‰ñ•œ" area="8" dcs="STR">
+    <item name="ãƒŠãƒžã‚º" desc="é­šã ã€‚ã“ã‚Œã‚’æ­¦å™¨ã¨ã—ã¦ä½¿ã†ã®ã‹ï¼Ÿæ­£æ°—ã‹ï¼Ÿ/ã€Œãˆï¼Ÿãƒ¯ã‚¤ã§æˆ¦ã†ã‚“ã™ã‹ï¼Ÿ" value="20" slot="è…•" wmt="ãƒ¡ã‚¤ã‚¹" sound="å›žå¾©" area="8" dcs="STR">
         <eqStatus tgt="ATK" value="1" />
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ƒiƒ}ƒY" p="1.0" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ãƒŠãƒžã‚º" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ƒiƒ}ƒY" p="1.0" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ãƒŠãƒžã‚º" p="1.0" />
     </item>
-    <item name="ƒ{ƒ‰" desc="‹›‚¾B‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H/u‚¦HƒƒC‚Åí‚¤‚ñ‚·‚©H" value="200" slot="˜r" wmt="ƒƒCƒX" sound="‰ñ•œ" area="8" dcs="STR">
+    <item name="ãƒœãƒ©" desc="é­šã ã€‚ã“ã‚Œã‚’æ­¦å™¨ã¨ã—ã¦ä½¿ã†ã®ã‹ï¼Ÿæ­£æ°—ã‹ï¼Ÿ/ã€Œãˆï¼Ÿãƒ¯ã‚¤ã§æˆ¦ã†ã‚“ã™ã‹ï¼Ÿ" value="200" slot="è…•" wmt="ãƒ¡ã‚¤ã‚¹" sound="å›žå¾©" area="8" dcs="STR">
         <eqStatus tgt="ATK" value="1" />
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ƒ{ƒ‰" p="1.0" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ãƒœãƒ©" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ƒ{ƒ‰" p="1.0" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ãƒœãƒ©" p="1.0" />
     </item>
-    <item name="ƒAƒW" desc="‹›‚¾B‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H/u‚¦HƒƒC‚Åí‚¤‚ñ‚·‚©H" value="400" slot="˜r" wmt="ƒƒCƒX" sound="‰ñ•œ" area="8" dcs="STR">
+    <item name="ã‚¢ã‚¸" desc="é­šã ã€‚ã“ã‚Œã‚’æ­¦å™¨ã¨ã—ã¦ä½¿ã†ã®ã‹ï¼Ÿæ­£æ°—ã‹ï¼Ÿ/ã€Œãˆï¼Ÿãƒ¯ã‚¤ã§æˆ¦ã†ã‚“ã™ã‹ï¼Ÿ" value="400" slot="è…•" wmt="ãƒ¡ã‚¤ã‚¹" sound="å›žå¾©" area="8" dcs="STR">
         <eqStatus tgt="ATK" value="1" />
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ƒAƒW" p="1.0" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ã‚¢ã‚¸" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ƒAƒW" p="1.0" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ã‚¢ã‚¸" p="1.0" />
     </item>
-    <item name="ƒCƒƒV" desc="‹›‚¾B‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H/u‚¦HƒƒC‚Åí‚¤‚ñ‚·‚©H" value="200" slot="˜r" wmt="ƒƒCƒX" sound="‰ñ•œ" area="4" dcs="STR">
+    <item name="ã‚¤ãƒ¯ã‚·" desc="é­šã ã€‚ã“ã‚Œã‚’æ­¦å™¨ã¨ã—ã¦ä½¿ã†ã®ã‹ï¼Ÿæ­£æ°—ã‹ï¼Ÿ/ã€Œãˆï¼Ÿãƒ¯ã‚¤ã§æˆ¦ã†ã‚“ã™ã‹ï¼Ÿ" value="200" slot="è…•" wmt="ãƒ¡ã‚¤ã‚¹" sound="å›žå¾©" area="4" dcs="STR">
         <eqStatus tgt="ATK" value="1" />
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ƒCƒƒV" p="1.0" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ã‚¤ãƒ¯ã‚·" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ƒCƒƒV" p="1.0" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ã‚¤ãƒ¯ã‚·" p="1.0" />
     </item>
-    <item name="ƒJƒWƒL" desc="‹›‚¾B‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H" value="8000" slot="˜r" wmt="‘„" area="14" sound="‰ñ•œ" dcs="STR">
+    <item name="ã‚«ã‚¸ã‚­" desc="é­šã ã€‚ã“ã‚Œã‚’æ­¦å™¨ã¨ã—ã¦ä½¿ã†ã®ã‹ï¼Ÿæ­£æ°—ã‹ï¼Ÿ" value="8000" slot="è…•" wmt="æ§" area="14" sound="å›žå¾©" dcs="STR">
         <eqStatus tgt="ATK" value="16" />
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ƒJƒWƒL" p="1.0" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ã‚«ã‚¸ã‚­" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ƒJƒWƒL" p="1.0" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ã‚«ã‚¸ã‚­" p="1.0" />
     </item>
-    <item name="ƒTƒ" desc="‹›‚¾B‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H" value="8000" slot="˜r" wmt="Œ•" area="14" sound="‰ñ•œ" dcs="STR">
+    <item name="ã‚µãƒ¡" desc="é­šã ã€‚ã“ã‚Œã‚’æ­¦å™¨ã¨ã—ã¦ä½¿ã†ã®ã‹ï¼Ÿæ­£æ°—ã‹ï¼Ÿ" value="8000" slot="è…•" wmt="å‰£" area="14" sound="å›žå¾©" dcs="STR">
         <eqStatus tgt="ATK" value="16" />
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ƒTƒ" p="1.0" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ã‚µãƒ¡" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ƒTƒ" p="1.0" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ã‚µãƒ¡" p="1.0" />
     </item>
-    <item name="—§”h‚ÈƒLƒmƒR" desc="ƒfƒJ‚¢ƒLƒmƒR‚¾B‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H" value="200" slot="˜r" wmt="ƒƒCƒX" sound="‰ñ•œ" area="4" dcs="STR">
+    <item name="ç«‹æ´¾ãªã‚­ãƒŽã‚³" desc="ãƒ‡ã‚«ã„ã‚­ãƒŽã‚³ã ã€‚ã“ã‚Œã‚’æ­¦å™¨ã¨ã—ã¦ä½¿ã†ã®ã‹ï¼Ÿæ­£æ°—ã‹ï¼Ÿ" value="200" slot="è…•" wmt="ãƒ¡ã‚¤ã‚¹" sound="å›žå¾©" area="4" dcs="STR">
         <eqStatus tgt="ATK" value="2" />
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="—§”h‚ÈƒLƒmƒR" p="1.0" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ç«‹æ´¾ãªã‚­ãƒŽã‚³" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="—§”h‚ÈƒLƒmƒR" p="1.0" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ç«‹æ´¾ãªã‚­ãƒŽã‚³" p="1.0" />
     </item>
-    <item name="‚µ‚å‚Ú‚¢ƒLƒmƒR" desc="¬‚³‚¢ƒLƒmƒR‚¾B‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H" value="20" slot="˜r" wmt="ƒƒCƒX" sound="‰ñ•œ" area="4" dcs="STR">
+    <item name="ã—ã‚‡ã¼ã„ã‚­ãƒŽã‚³" desc="å°ã•ã„ã‚­ãƒŽã‚³ã ã€‚ã“ã‚Œã‚’æ­¦å™¨ã¨ã—ã¦ä½¿ã†ã®ã‹ï¼Ÿæ­£æ°—ã‹ï¼Ÿ" value="20" slot="è…•" wmt="ãƒ¡ã‚¤ã‚¹" sound="å›žå¾©" area="4" dcs="STR">
         <eqStatus tgt="ATK" value="1" />
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="‚µ‚å‚Ú‚¢ƒLƒmƒR" p="1.0" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ã—ã‚‡ã¼ã„ã‚­ãƒŽã‚³" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="‚µ‚å‚Ú‚¢ƒLƒmƒR" p="1.0" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ã—ã‚‡ã¼ã„ã‚­ãƒŽã‚³" p="1.0" />
     </item>
-    <item name="ƒnƒCƒp[ƒLƒmƒR" desc="‚·‚²‚¢ƒLƒmƒR‚¾B‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H" value="114514" slot="˜r" wmt="ƒƒCƒX" sound="‰ñ•œ" area="4" dcs="STR">
+    <item name="ãƒã‚¤ãƒ‘ãƒ¼ã‚­ãƒŽã‚³" desc="ã™ã”ã„ã‚­ãƒŽã‚³ã ã€‚ã“ã‚Œã‚’æ­¦å™¨ã¨ã—ã¦ä½¿ã†ã®ã‹ï¼Ÿæ­£æ°—ã‹ï¼Ÿ" value="114514" slot="è…•" wmt="ãƒ¡ã‚¤ã‚¹" sound="å›žå¾©" area="4" dcs="STR">
         <eqStatus tgt="ATK" value="3" />
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ƒnƒCƒp[ƒLƒmƒR" p="1.0" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ãƒã‚¤ãƒ‘ãƒ¼ã‚­ãƒŽã‚³" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ƒnƒCƒp[ƒLƒmƒR" p="1.0" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ãƒã‚¤ãƒ‘ãƒ¼ã‚­ãƒŽã‚³" p="1.0" />
     </item>
-    <item name="“ä‚Ì‚¨‹›" desc="•’Ê‚Ì‹›‚¾B‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H" value="50" slot="˜r" wmt="ƒƒCƒX" sound="‰ñ•œ" area="12" dcs="STR">
+    <item name="è¬Žã®ãŠé­š" desc="æ™®é€šã®é­šã ã€‚ã“ã‚Œã‚’æ­¦å™¨ã¨ã—ã¦ä½¿ã†ã®ã‹ï¼Ÿæ­£æ°—ã‹ï¼Ÿ" value="50" slot="è…•" wmt="ãƒ¡ã‚¤ã‚¹" sound="å›žå¾©" area="12" dcs="STR">
         <eqStatus tgt="ATK" value="1" />
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="“ä‚Ì‚¨‹›" p="1.0" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="è¬Žã®ãŠé­š" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="“ä‚Ì‚¨‹›" p="1.0" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="è¬Žã®ãŠé­š" p="1.0" />
     </item>
-    <item name="’´“Á‘å‚¨‹›" desc="•’Ê‚Ì‹›‚¾B‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H" value="5000" slot="˜r" wmt="ƒƒCƒX" sound="‰ñ•œ" area="30" dcs="STR">
+    <item name="è¶…ç‰¹å¤§ãŠé­š" desc="æ™®é€šã®é­šã ã€‚ã“ã‚Œã‚’æ­¦å™¨ã¨ã—ã¦ä½¿ã†ã®ã‹ï¼Ÿæ­£æ°—ã‹ï¼Ÿ" value="5000" slot="è…•" wmt="ãƒ¡ã‚¤ã‚¹" sound="å›žå¾©" area="30" dcs="STR">
         <eqStatus tgt="ATK" value="2" />
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="’´“Á‘å‚¨‹›" p="1.0" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="è¶…ç‰¹å¤§ãŠé­š" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="’´“Á‘å‚¨‹›" p="1.0" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="è¶…ç‰¹å¤§ãŠé­š" p="1.0" />
     </item>
-    <item name="’´‘å“Á‰¿‚¨‹›" desc="•’Ê‚Ì‹›‚¾B‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H" value="500" slot="˜r" wmt="ƒƒCƒX" sound="‰ñ•œ" area="30" dcs="STR">
+    <item name="è¶…å¤§ç‰¹ä¾¡ãŠé­š" desc="æ™®é€šã®é­šã ã€‚ã“ã‚Œã‚’æ­¦å™¨ã¨ã—ã¦ä½¿ã†ã®ã‹ï¼Ÿæ­£æ°—ã‹ï¼Ÿ" value="500" slot="è…•" wmt="ãƒ¡ã‚¤ã‚¹" sound="å›žå¾©" area="30" dcs="STR">
         <eqStatus tgt="ATK" value="2" />
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="’´‘å“Á‰¿‚¨‹›" p="1.0" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="è¶…å¤§ç‰¹ä¾¡ãŠé­š" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="’´‘å“Á‰¿‚¨‹›" p="1.0" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="è¶…å¤§ç‰¹ä¾¡ãŠé­š" p="1.0" />
     </item>
-    <item name="‹™Žt‚ÌŽ…Øçõ" desc="‹™Žt‚ª“úí“I‚ÉŽg‚¤çõ‚¾B–Ô‚âŽ…‚ðØ‚Á‚Ä‚¢‚é‚Ì‚¾‚ë‚¤B/UŒ‚”ÍˆÍ‚Í‹·‚¢‚ªA’áŠm—¦‚ÅØ’f‚ð”­¶‚³‚¹‚éB" value="1400" slot="˜r" wmt="’ZŒ•" area="14" dcs="STR,DEX">
+    <item name="æ¼å¸«ã®ç³¸åˆ‡é‹" desc="æ¼å¸«ãŒæ—¥å¸¸çš„ã«ä½¿ã†é‹ã ã€‚ç¶²ã‚„ç³¸ã‚’åˆ‡ã£ã¦ã„ã‚‹ã®ã ã‚ã†ã€‚/æ”»æ’ƒç¯„å›²ã¯ç‹­ã„ãŒã€ä½Žç¢ºçŽ‡ã§åˆ‡æ–­ã‚’ç™ºç”Ÿã•ã›ã‚‹ã€‚" value="1400" slot="è…•" wmt="çŸ­å‰£" area="14" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="8" />
         <disassembly>
-            <material name="“S•Ð" num="4"/>
+            <material name="é‰„ç‰‡" num="4"/>
         </disassembly>
     </item>
-    <item name="‹™–Ô" desc="‹™Žt‚ªŽg‚¤–Ô‚¾‚ªA‚Ð‚àó‚É‚Ü‚Æ‚ß‚ê‚Î•Ú‚ÉŽ—‚½•Ší‚Æ‚µ‚ÄŽg‚¦‚»‚¤‚¾B" value="4500" slot="˜r" wmt="•Ú" area="40" dcs="DEX">
+    <item name="æ¼ç¶²" desc="æ¼å¸«ãŒä½¿ã†ç¶²ã ãŒã€ã²ã‚‚çŠ¶ã«ã¾ã¨ã‚ã‚Œã°éž­ã«ä¼¼ãŸæ­¦å™¨ã¨ã—ã¦ä½¿ãˆãã†ã ã€‚" value="4500" slot="è…•" wmt="éž­" area="40" dcs="DEX">
         <eqStatus tgt="ATK" value="9" />
         <disassembly>
-            <material name="•R" num="8"/>
+            <material name="ç´" num="8"/>
         </disassembly>
     </item>
-    <item name="‚ä‚©‚è‚Ì‚à‚Ý‚ ‚°" desc="‚±‚ê‚Í‚à‚Ý‚ ‚°‚¾IH‚×‚é‚±‚Æ‚à‚Å‚«‚éB/‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H" value="45000" sound="‰ñ•œ" slot="˜r" wmt="•Ú" area="25" dcs="DEX">
+    <item name="ã‚†ã‹ã‚Šã®ã‚‚ã¿ã‚ã’" desc="ã“ã‚Œã¯ã‚‚ã¿ã‚ã’ã ï¼é£Ÿã¹ã‚‹ã“ã¨ã‚‚ã§ãã‚‹ã€‚/ã“ã‚Œã‚’æ­¦å™¨ã¨ã—ã¦ä½¿ã†ã®ã‹ï¼Ÿæ­£æ°—ã‹ï¼Ÿ" value="45000" sound="å›žå¾©" slot="è…•" wmt="éž­" area="25" dcs="DEX">
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT" />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="‚ä‚©‚è‚Ì‚à‚Ý‚ ‚°" p="1.0" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ã‚†ã‹ã‚Šã®ã‚‚ã¿ã‚ã’" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="‚ä‚©‚è‚Ì‚à‚Ý‚ ‚°" p="1.0" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ã‚†ã‹ã‚Šã®ã‚‚ã¿ã‚ã’" p="1.0" />
         <eqStatus tgt="ATK" value="1" />
     </item>
-    <item name="‚Ü‚È”Â" desc="ˆê”Ê“I‚È‚Ü‚È”Â‚¾B‚‚Ì‘ã‚í‚è‚É‚È‚é‚©‚à‚µ‚ê‚È‚¢B" value="450" slot="˜r" wmt="‘å‚" area="18" dcs="DEX">
+    <item name="ã¾ãªæ¿" desc="ä¸€èˆ¬çš„ãªã¾ãªæ¿ã ã€‚ç›¾ã®ä»£ã‚ã‚Šã«ãªã‚‹ã‹ã‚‚ã—ã‚Œãªã„ã€‚" value="450" slot="è…•" wmt="å¤§ç›¾" area="18" dcs="DEX">
         <eqStatus tgt="ATK" value="2" />
         <disassembly>
-            <material name="–Ø•Ð" num="2"/>
+            <material name="æœ¨ç‰‡" num="2"/>
         </disassembly>
     </item>
-    <item name="‚‹‰‚Ü‚È”Â" desc="‚‹‰‚È‚Ü‚È”Â‚¾B‚‚Ì‘ã‚í‚è‚É‚È‚é‚©‚à‚µ‚ê‚È‚¢B" value="20000" slot="˜r" wmt="‘å‚" area="20" dcs="DEX">
+    <item name="é«˜ç´šã¾ãªæ¿" desc="é«˜ç´šãªã¾ãªæ¿ã ã€‚ç›¾ã®ä»£ã‚ã‚Šã«ãªã‚‹ã‹ã‚‚ã—ã‚Œãªã„ã€‚" value="20000" slot="è…•" wmt="å¤§ç›¾" area="20" dcs="DEX">
         <eqStatus tgt="ATK" value="4" />
         <disassembly>
-            <material name="–Ø•Ð" num="2"/>
+            <material name="æœ¨ç‰‡" num="2"/>
         </disassembly>
     </item>
-    <item name="‹˜" desc="Œš’z‚ÉŽg‚¤ˆê”Ê“I‚È‹˜‚¾B’áŠm—¦‚ÅØ’f‚ð”­¶‚³‚¹‚éB" value="2200" slot="˜r" wmt="Œ•" area="32" dcs="STR,DEX" >
+    <item name="é‹¸" desc="å»ºç¯‰ã«ä½¿ã†ä¸€èˆ¬çš„ãªé‹¸ã ã€‚ä½Žç¢ºçŽ‡ã§åˆ‡æ–­ã‚’ç™ºç”Ÿã•ã›ã‚‹ã€‚" value="2200" slot="è…•" wmt="å‰£" area="32" dcs="STR,DEX" >
         <eqStatus tgt="ATK" value="17" />
         <eqStatus tgt="AVO" value="-0.02" />
         <eqStatus tgt="CUT_P" value="+0.02" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
-            <material name="“S•Ð" num="2"/>
+            <material name="æœ¨ç‰‡" num="1"/>
+            <material name="é‰„ç‰‡" num="2"/>
         </disassembly>
     </item>
-    <item name="–ö—t•ï’š" desc="‹›‚Ìg‚ðØ‚é‚Ì‚É“K‚µ‚½×‚¢•ï’š‚¾B" value="3200" slot="˜r" wmt="’ZŒ•" area="21" dcs="STR,DEX">
+    <item name="æŸ³è‘‰åŒ…ä¸" desc="é­šã®èº«ã‚’åˆ‡ã‚‹ã®ã«é©ã—ãŸç´°ã„åŒ…ä¸ã ã€‚" value="3200" slot="è…•" wmt="çŸ­å‰£" area="21" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="28" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
-            <material name="“S•Ð" num="2"/>
+            <material name="æœ¨ç‰‡" num="1"/>
+            <material name="é‰„ç‰‡" num="2"/>
         </disassembly>
     </item>
-    <item name="• Š„‚«•ï’š" desc="‚Â‚é‚µ‚½Šl•¨‚Ì• ‚ðŽJ‚­‚½‚ß‚Ì“Ý‚¢F‚ð‚µ‚½•ï’š‚¾B" value="2600" slot="˜r" wmt="’ZŒ•" area="19" dcs="STR">
+    <item name="è…¹å‰²ãåŒ…ä¸" desc="ã¤ã‚‹ã—ãŸç²ç‰©ã®è…¹ã‚’æŒããŸã‚ã®éˆã„è‰²ã‚’ã—ãŸåŒ…ä¸ã ã€‚" value="2600" slot="è…•" wmt="çŸ­å‰£" area="19" dcs="STR">
         <eqStatus tgt="ATK" value="20" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
-            <material name="“S•Ð" num="2"/>
+            <material name="æœ¨ç‰‡" num="1"/>
+            <material name="é‰„ç‰‡" num="2"/>
         </disassembly>
     </item>
-    <item name="Žô‚í‚ê‚½œ“Ÿ•i‚Ì• Š„‚«•ï’š" desc="‚»‚ÌÌ”D•w‚Ì• ‚ð‚³‚Î‚¢‚½‚Æ‚àŒ¾‚í‚ê‚éA‚¢‚í‚­‚Â‚«‚Ì•ï’š‚¾B/¡‚Å‚àŒŒ‚Ì“õ‚¢‚ª‚·‚éB" value="100" slot="˜r" wmt="’ZŒ•" area="19" dcs="STR,DEX">
+    <item name="å‘ªã‚ã‚ŒãŸéª¨è‘£å“ã®è…¹å‰²ãåŒ…ä¸" desc="ãã®æ˜”å¦Šå©¦ã®è…¹ã‚’ã•ã°ã„ãŸã¨ã‚‚è¨€ã‚ã‚Œã‚‹ã€ã„ã‚ãã¤ãã®åŒ…ä¸ã ã€‚/ä»Šã§ã‚‚è¡€ã®åŒ‚ã„ãŒã™ã‚‹ã€‚" value="100" slot="è…•" wmt="çŸ­å‰£" area="19" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="22" />
         <eqStatus tgt="SAN" value="-20" />
         <eqStatus tgt="POW" value="-20" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
-            <material name="“S•Ð" num="2"/>
+            <material name="æœ¨ç‰‡" num="1"/>
+            <material name="é‰„ç‰‡" num="2"/>
         </disassembly>
     </item>
-    <item name="ƒxƒŒƒ\ƒA‚É”„‚ç‚ê‚½–––…‚Ì‰…”O‚Ì˜r" desc="‚»‚ÌÌA‚È‚ñ‚Å‚à‰®‚É”„‚ç‚ê‚½‚Æ‚¢‚¤–…‚Ì‰…”O‚ªh‚Á‚½˜r‚¾B/¡‚Å‚àŒŒ‚Ì“õ‚¢‚ª‚·‚éB" value="100" slot="˜r" wmt="ƒƒCƒX" area="19" dcs="DEX">
+    <item name="ãƒ™ãƒ¬ã‚½ã‚¢ã«å£²ã‚‰ã‚ŒãŸæœ«å¦¹ã®æ€¨å¿µã®è…•" desc="ãã®æ˜”ã€ãªã‚“ã§ã‚‚å±‹ã«å£²ã‚‰ã‚ŒãŸã¨ã„ã†å¦¹ã®æ€¨å¿µãŒå®¿ã£ãŸè…•ã ã€‚/ä»Šã§ã‚‚è¡€ã®åŒ‚ã„ãŒã™ã‚‹ã€‚" value="100" slot="è…•" wmt="ãƒ¡ã‚¤ã‚¹" area="19" dcs="DEX">
         <eqStatus tgt="ATK" value="21" />
         <eqStatus tgt="SAN" value="-40" />
         <eqStatus tgt="POW" value="-40" />
     </item>
-    <item name="‹›‰®‚Ì’·•ï’š" desc="‹‘å‚È‹›‚à‚³‚Î‚¯‚éA‹›‰®‚ªŽg‚¤’·•ï’š‚¾B/’áŠm—¦‚ÅØ’f‚ð”­¶‚³‚¹‚éB" value="9500" slot="˜r" wmt="“" area="28" dcs="STR,DEX">
+    <item name="é­šå±‹ã®é•·åŒ…ä¸" desc="å·¨å¤§ãªé­šã‚‚ã•ã°ã‘ã‚‹ã€é­šå±‹ãŒä½¿ã†é•·åŒ…ä¸ã ã€‚/ä½Žç¢ºçŽ‡ã§åˆ‡æ–­ã‚’ç™ºç”Ÿã•ã›ã‚‹ã€‚" value="9500" slot="è…•" wmt="åˆ€" area="28" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="32" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
-            <material name="“S•Ð" num="3"/>
+            <material name="æœ¨ç‰‡" num="1"/>
+            <material name="é‰„ç‰‡" num="3"/>
         </disassembly>
     </item>
-    <item name="ƒUEƒIƒTƒJƒiEƒJƒbƒ^[" desc="‘åŒ^‹›—Þ‚ð‰ð‘Ì‚·‚é‚Ì‚ÉŽg‚¤‹‘å‚Èn‚¾B/‚Šm—¦‚ÅØ’f‚ð”­¶‚³‚¹‚éB" value="75000" slot="˜r" wmt="“" area="55" dcs="STR">
+    <item name="ã‚¶ãƒ»ã‚ªã‚µã‚«ãƒŠãƒ»ã‚«ãƒƒã‚¿ãƒ¼" desc="å¤§åž‹é­šé¡žã‚’è§£ä½“ã™ã‚‹ã®ã«ä½¿ã†å·¨å¤§ãªåˆƒã ã€‚/é«˜ç¢ºçŽ‡ã§åˆ‡æ–­ã‚’ç™ºç”Ÿã•ã›ã‚‹ã€‚" value="75000" slot="è…•" wmt="åˆ€" area="55" dcs="STR">
         <eqStatus tgt="ATK" value="48" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.06" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
-            <material name="“S•Ð" num="3"/>
+            <material name="æœ¨ç‰‡" num="1"/>
+            <material name="é‰„ç‰‡" num="3"/>
         </disassembly>
     </item>
-    <item name="ƒUEƒIƒTƒiƒJEƒJƒbƒ^[" desc="‘åŒ^‹›—Þ‚ð‰ð‘Ì‚·‚é‚Ì‚ÉŽg‚¤‹‘å‚Èn‚¾B/‹C‚ð‚Â‚¯‚ëA‚±‚ê‚Íƒpƒ`ƒ‚ƒ“‚¾‚¼B" value="7500" slot="˜r" wmt="“" area="55" dcs="STR">
+    <item name="ã‚¶ãƒ»ã‚ªã‚µãƒŠã‚«ãƒ»ã‚«ãƒƒã‚¿ãƒ¼" desc="å¤§åž‹é­šé¡žã‚’è§£ä½“ã™ã‚‹ã®ã«ä½¿ã†å·¨å¤§ãªåˆƒã ã€‚/æ°—ã‚’ã¤ã‘ã‚ã€ã“ã‚Œã¯ãƒ‘ãƒãƒ¢ãƒ³ã ãžã€‚" value="7500" slot="è…•" wmt="åˆ€" area="55" dcs="STR">
         <eqStatus tgt="ATK" value="24" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.06" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
-            <material name="“S•Ð" num="3"/>
+            <material name="æœ¨ç‰‡" num="1"/>
+            <material name="é‰„ç‰‡" num="3"/>
         </disassembly>
     </item>
-    <item name="ŒL" desc="ˆê”Ê“I‚È”_‹ï‚¾‚ªA‘„‚ÉŽ—‚½•Ší‚Æ‚µ‚ÄŽg‚¦‚»‚¤‚¾B" value="800" slot="˜r" wmt="‘„" area="32" dcs="STR">
+    <item name="é¬" desc="ä¸€èˆ¬çš„ãªè¾²å…·ã ãŒã€æ§ã«ä¼¼ãŸæ­¦å™¨ã¨ã—ã¦ä½¿ãˆãã†ã ã€‚" value="800" slot="è…•" wmt="æ§" area="32" dcs="STR">
         <eqStatus tgt="ATK" value="12" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.03" />
         <disassembly>
-            <material name="–Ø•Ð" num="2"/>
-            <material name="“S•Ð" num="2"/>
+            <material name="æœ¨ç‰‡" num="2"/>
+            <material name="é‰„ç‰‡" num="2"/>
         </disassembly>
     </item>
-    <item name="‹™Žt‚Ìçó" desc="‹™Žt‚ªŽg‚¤çó‚¾B‘„‚ÉŽ—‚½•Ší‚Æ‚µ‚ÄŽg‚¦‚»‚¤‚¾B" value="1200" slot="˜r" wmt="‘„" area="38" dcs="STR">
+    <item name="æ¼å¸«ã®éŠ›" desc="æ¼å¸«ãŒä½¿ã†éŠ›ã ã€‚æ§ã«ä¼¼ãŸæ­¦å™¨ã¨ã—ã¦ä½¿ãˆãã†ã ã€‚" value="1200" slot="è…•" wmt="æ§" area="38" dcs="STR">
         <eqStatus tgt="ATK" value="19" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.03" />
         <disassembly>
-            <material name="–Ø•Ð" num="2"/>
-            <material name="“S•Ð" num="1"/>
+            <material name="æœ¨ç‰‡" num="2"/>
+            <material name="é‰„ç‰‡" num="1"/>
         </disassembly>
     </item>
-    <item name="›" desc="ˆê”Ê“I‚È”_‹ï‚¾‚ªAŠ™‚ÉŽ—‚½•Ší‚Æ‚µ‚ÄŽg‚¦‚»‚¤‚¾B" value="800" slot="˜r" wmt="Š™" area="32" dcs="STR">
+    <item name="é‹¤" desc="ä¸€èˆ¬çš„ãªè¾²å…·ã ãŒã€éŽŒã«ä¼¼ãŸæ­¦å™¨ã¨ã—ã¦ä½¿ãˆãã†ã ã€‚" value="800" slot="è…•" wmt="éŽŒ" area="32" dcs="STR">
         <eqStatus tgt="ATK" value="12" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.03" />
         <disassembly>
-            <material name="–Ø•Ð" num="2"/>
-            <material name="“S•Ð" num="1"/>
+            <material name="æœ¨ç‰‡" num="2"/>
+            <material name="é‰„ç‰‡" num="1"/>
         </disassembly>
     </item>
-    <item name="ƒVƒƒƒxƒ‹" desc="ˆê”Ê“I‚È”_‹ï‚¾‚ªAŒ•‚ÉŽ—‚½•Ší‚Æ‚µ‚ÄŽg‚¦‚»‚¤‚¾B/’n•û‚É‚æ‚Á‚Ä‚ÍƒVƒ‡ƒxƒ‹‚Æ‚©ƒXƒRƒbƒv‚Æ‚à‚¢‚¤‚ç‚µ‚¢B" value="750" slot="˜r" wmt="Œ•" area="32" dcs="STR">
+    <item name="ã‚·ãƒ£ãƒ™ãƒ«" desc="ä¸€èˆ¬çš„ãªè¾²å…·ã ãŒã€å‰£ã«ä¼¼ãŸæ­¦å™¨ã¨ã—ã¦ä½¿ãˆãã†ã ã€‚/åœ°æ–¹ã«ã‚ˆã£ã¦ã¯ã‚·ãƒ§ãƒ™ãƒ«ã¨ã‹ã‚¹ã‚³ãƒƒãƒ—ã¨ã‚‚ã„ã†ã‚‰ã—ã„ã€‚" value="750" slot="è…•" wmt="å‰£" area="32" dcs="STR">
         <eqStatus tgt="ATK" value="12" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.03" />
         <disassembly>
-            <material name="–Ø•Ð" num="2"/>
-            <material name="“S•Ð" num="1"/>
+            <material name="æœ¨ç‰‡" num="2"/>
+            <material name="é‰„ç‰‡" num="1"/>
         </disassembly>
     </item>
-    <item name="Œ˜–Ø‚ÌŽRñ" desc="‚©‚È‚èŠæä‚È–Ø‚Ì–_‚ÅAƒƒCƒX‚ÉŽ—‚½•Ší‚Æ‚µ‚ÄŽg‚¦‚»‚¤‚¾B" value="800" slot="˜r" wmt="ƒƒCƒX" area="40" dcs="STR">
+    <item name="å …æœ¨ã®å±±æ–" desc="ã‹ãªã‚Šé ‘ä¸ˆãªæœ¨ã®æ£’ã§ã€ãƒ¡ã‚¤ã‚¹ã«ä¼¼ãŸæ­¦å™¨ã¨ã—ã¦ä½¿ãˆãã†ã ã€‚" value="800" slot="è…•" wmt="ãƒ¡ã‚¤ã‚¹" area="40" dcs="STR">
         <eqStatus tgt="ATK" value="10" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.09" />
         <disassembly>
-            <material name="–Ø•Ð" num="3"/>
+            <material name="æœ¨ç‰‡" num="3"/>
         </disassembly>
     </item>
-    <item name="‚¨‚½‚Ü" desc="ƒX[ƒv‚ð‚·‚­‚¤‚Ì‚É‚Â‚©‚¤’²—Ší‹ï‚¾B" value="800" slot="˜r" wmt="ƒƒCƒX" area="25" dcs="STR,DEX">
+    <item name="ãŠãŸã¾" desc="ã‚¹ãƒ¼ãƒ—ã‚’ã™ãã†ã®ã«ã¤ã‹ã†èª¿ç†å™¨å…·ã ã€‚" value="800" slot="è…•" wmt="ãƒ¡ã‚¤ã‚¹" area="25" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="5" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
+            <material name="æœ¨ç‰‡" num="1"/>
         </disassembly>
     </item>
-    <item name="–Ø’Æ" desc="Œš’z—p‚Ì–Ø’Æ‚¾B…‚É•‚‚­B" value="800" slot="˜r" wmt="ƒƒCƒX" area="17" dcs="STR,DEX">
+    <item name="æœ¨æ§Œ" desc="å»ºç¯‰ç”¨ã®æœ¨æ§Œã ã€‚æ°´ã«æµ®ãã€‚" value="800" slot="è…•" wmt="ãƒ¡ã‚¤ã‚¹" area="17" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="13" />
         <eqAttr tgt="WATER" value="-0.01"/>
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
+            <material name="æœ¨ç‰‡" num="1"/>
         </disassembly>
     </item>
-    <item name="‹à’Æ" desc="Œš’z—p‚Ì‹à’Æ‚¾B…‚É•‚‚©‚È‚¢B" value="1800" slot="˜r" wmt="ƒƒCƒX" area="19" dcs="STR">
+    <item name="é‡‘æ§Œ" desc="å»ºç¯‰ç”¨ã®é‡‘æ§Œã ã€‚æ°´ã«æµ®ã‹ãªã„ã€‚" value="1800" slot="è…•" wmt="ãƒ¡ã‚¤ã‚¹" area="19" dcs="STR">
         <eqStatus tgt="ATK" value="17" />
         <eqAttr tgt="WATER" value="+0.01"/>
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
-            <material name="“S•Ð" num="2"/>
+            <material name="æœ¨ç‰‡" num="1"/>
+            <material name="é‰„ç‰‡" num="2"/>
         </disassembly>
     </item>
-    <item name="“B" desc="Œš’z—p‚Ì“B‚¾B‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H" value="80" slot="˜r" wmt="“ËŒ•" area="3" dcs="DEX">
+    <item name="é‡˜" desc="å»ºç¯‰ç”¨ã®é‡˜ã ã€‚ã“ã‚Œã‚’æ­¦å™¨ã¨ã—ã¦ä½¿ã†ã®ã‹ï¼Ÿæ­£æ°—ã‹ï¼Ÿ" value="80" slot="è…•" wmt="çªå‰£" area="3" dcs="DEX">
         <eqStatus tgt="ATK" value="3" />
         <disassembly>
-            <material name="“S•Ð" num="1"/>
+            <material name="é‰„ç‰‡" num="1"/>
         </disassembly>
     </item>
-    <item name="ƒlƒM" desc="‚Ç‚±‚É‚Å‚à‚ ‚é¶‚ÌƒlƒM‚¾B‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H" value="120" slot="˜r" wmt="ƒƒCƒX" area="16" dcs="DEX">
+    <item name="ãƒã‚®" desc="ã©ã“ã«ã§ã‚‚ã‚ã‚‹ç”Ÿã®ãƒã‚®ã ã€‚ã“ã‚Œã‚’æ­¦å™¨ã¨ã—ã¦ä½¿ã†ã®ã‹ï¼Ÿæ­£æ°—ã‹ï¼Ÿ" value="120" slot="è…•" wmt="ãƒ¡ã‚¤ã‚¹" area="16" dcs="DEX">
         <eqStatus tgt="ATK" value="1" />
         <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ƒlƒM" p="1.0" />
+        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ãƒã‚®" p="1.0" />
         <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ƒlƒM" p="1.0" />
+        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ãƒã‚®" p="1.0" />
     </item>
-    <item name="¬M‚ÌƒI[ƒ‹" desc="¬M‚ði‚ß‚é‚Æ‚«‚ÉŽg‚¤ƒI[ƒ‹‚¾B‘åŒ•‚ÉŽ—‚½•Ší‚Æ‚µ‚ÄŽg‚¦‚»‚¤‚¾B/ƒAƒNƒVƒ‡ƒ“u’§”­v‚ªŽg‚¦‚éB" value="3800" slot="˜r" wmt="‘åŒ•" area="40" dcs="STR">
+    <item name="å°èˆŸã®ã‚ªãƒ¼ãƒ«" desc="å°èˆŸã‚’é€²ã‚ã‚‹ã¨ãã«ä½¿ã†ã‚ªãƒ¼ãƒ«ã ã€‚å¤§å‰£ã«ä¼¼ãŸæ­¦å™¨ã¨ã—ã¦ä½¿ãˆãã†ã ã€‚/ã‚¢ã‚¯ã‚·ãƒ§ãƒ³ã€ŒæŒ‘ç™ºã€ãŒä½¿ãˆã‚‹ã€‚" value="3800" slot="è…•" wmt="å¤§å‰£" area="40" dcs="STR">
         <eqStatus tgt="ATK" value="11" />
         <eqStatus tgt="AVO" value="-0.08" />
         <eqStatus tgt="CUT_P" value="+0.10" />
         <disassembly>
-            <material name="–Ø•Ð" num="4"/>
+            <material name="æœ¨ç‰‡" num="4"/>
         </disassembly>
     </item>
-    <item name="ƒtƒ‰ƒCƒpƒ“" desc="‰½‚©‚ðÄ‚­‚Æ‚«‚ÉŽg‚¤ŒúŽè‚ÅŠæä‚È“ç‚ÌˆêŽí‚¾B" value="1600" slot="˜r" wmt="ƒƒCƒX" area="30" dcs="STR">
+    <item name="ãƒ•ãƒ©ã‚¤ãƒ‘ãƒ³" desc="ä½•ã‹ã‚’ç„¼ãã¨ãã«ä½¿ã†åŽšæ‰‹ã§é ‘ä¸ˆãªé‹ã®ä¸€ç¨®ã ã€‚" value="1600" slot="è…•" wmt="ãƒ¡ã‚¤ã‚¹" area="30" dcs="STR">
         <eqStatus tgt="ATK" value="13" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.13" />
         <disassembly>
-            <material name="“S•Ð" num="3"/>
+            <material name="é‰„ç‰‡" num="3"/>
         </disassembly>
     </item>
-    <item name="_Œo’÷‚ßƒsƒbƒN" desc="‹™Žt‚ªŽg‚¤“¹‹ï‚¾‚ªA“ËŒ•‚ÉŽ—‚½•Ší‚Æ‚µ‚ÄŽg‚¦‚»‚¤‚¾B/’áŠm—¦‚Å‘¦Ž€‚ð”­¶‚³‚¹‚éB" value="800" slot="˜r" wmt="“ËŒ•" area="13" dcs="DEX">
+    <item name="ç¥žçµŒç· ã‚ãƒ”ãƒƒã‚¯" desc="æ¼å¸«ãŒä½¿ã†é“å…·ã ãŒã€çªå‰£ã«ä¼¼ãŸæ­¦å™¨ã¨ã—ã¦ä½¿ãˆãã†ã ã€‚/ä½Žç¢ºçŽ‡ã§å³æ­»ã‚’ç™ºç”Ÿã•ã›ã‚‹ã€‚" value="800" slot="è…•" wmt="çªå‰£" area="13" dcs="DEX">
         <eqStatus tgt="ATK" value="7" />
         <disassembly>
-            <material name="“S•Ð" num="1"/>
+            <material name="é‰„ç‰‡" num="1"/>
         </disassembly>
     </item>
-    <item name="–Dj" desc="ˆê”Ê“I‚È‰Æ’ë—p•i‚¾B‚±‚ê‚ð•Ší‚Æ‚µ‚ÄŽg‚¤‚Ì‚©H³‹C‚©H" value="8" slot="˜r" wmt="“ËŒ•" area="2" dcs="DEX">
+    <item name="ç¸«é‡" desc="ä¸€èˆ¬çš„ãªå®¶åº­ç”¨å“ã ã€‚ã“ã‚Œã‚’æ­¦å™¨ã¨ã—ã¦ä½¿ã†ã®ã‹ï¼Ÿæ­£æ°—ã‹ï¼Ÿ" value="8" slot="è…•" wmt="çªå‰£" area="2" dcs="DEX">
         <eqStatus tgt="ATK" value="1" />
     </item>
-    <item name="‹É‘¾–Dj" desc="ˆê”Ê“I‚È‰Æ’ë—p•i‚¾BŽh‚³‚Á‚½‚ç‚©‚È‚è’É‚»‚¤‚¾EEE" value="80" slot="˜r" wmt="“ËŒ•" area="2" dcs="DEX">
+    <item name="æ¥µå¤ªç¸«é‡" desc="ä¸€èˆ¬çš„ãªå®¶åº­ç”¨å“ã ã€‚åˆºã•ã£ãŸã‚‰ã‹ãªã‚Šç—›ãã†ã ãƒ»ãƒ»ãƒ»" value="80" slot="è…•" wmt="çªå‰£" area="2" dcs="DEX">
         <eqStatus tgt="ATK" value="5" />
     </item>
-    <item name="‹Æ–±—pE’´‹É‘¾–Dj" desc="‚±‚ñ‚È‚É‘¾‚¢j‚ðˆê‘Ì‰½‚ÉŽg‚¤‚Á‚Ä‚¢‚¤‚ñ‚¾IH‚à‚Í‚â–_‚¾‚¼II" value="800" slot="˜r" wmt="“ËŒ•" area="2" dcs="DEX">
+    <item name="æ¥­å‹™ç”¨ãƒ»è¶…æ¥µå¤ªç¸«é‡" desc="ã“ã‚“ãªã«å¤ªã„é‡ã‚’ä¸€ä½“ä½•ã«ä½¿ã†ã£ã¦ã„ã†ã‚“ã ï¼ï¼Ÿã‚‚ã¯ã‚„æ£’ã ãžï¼ï¼" value="800" slot="è…•" wmt="çªå‰£" area="2" dcs="DEX">
         <eqStatus tgt="ATK" value="10" />
         <disassembly>
-            <material name="“S•Ð" num="1"/>
+            <material name="é‰„ç‰‡" num="1"/>
         </disassembly>
     </item>
-    <item name="ŽŽìE’´â‹É‘¾–Dj" desc="‘¾‚¢I‘¾‚¢I‘¾‚¢[I‘¾‚·‚¬‚éIII" value="8000" slot="˜r" wmt="“ËŒ•" area="2" dcs="DEX">
+    <item name="è©¦ä½œãƒ»è¶…çµ¶æ¥µå¤ªç¸«é‡" desc="å¤ªã„ï¼å¤ªã„ï¼å¤ªã„ãƒ¼ï¼å¤ªã™ãŽã‚‹ï¼ï¼ï¼" value="8000" slot="è…•" wmt="çªå‰£" area="2" dcs="DEX">
         <eqStatus tgt="ATK" value="30" />
         <disassembly>
-            <material name="‡‹à" num="1"/>
+            <material name="åˆé‡‘" num="1"/>
         </disassembly>
     </item>
-    <item name="çõ" desc="ˆê”Ê“I‚È‰Æ’ë—p•i‚¾‚ªA“ËŒ•‚ÉŽ—‚½•Ší‚Æ‚µ‚ÄŽg‚¦‚»‚¤‚¾B" value="640" slot="˜r" wmt="“ËŒ•" area="18" dcs="DEX">
+    <item name="é‹" desc="ä¸€èˆ¬çš„ãªå®¶åº­ç”¨å“ã ãŒã€çªå‰£ã«ä¼¼ãŸæ­¦å™¨ã¨ã—ã¦ä½¿ãˆãã†ã ã€‚" value="640" slot="è…•" wmt="çªå‰£" area="18" dcs="DEX">
         <eqStatus tgt="ATK" value="8" />
         <disassembly>
-            <material name="“S•Ð" num="1"/>
+            <material name="é‰„ç‰‡" num="1"/>
         </disassembly>
     </item>
-    <item name="‰ù’†¬“" desc="ˆê”Ê“I‚É•‹y‚µ‚Ä‚¢‚éAÜ‚èô‚ÝŽ®‚Ì–œ”\¬“‚¾B" value="900" slot="˜r" wmt="’ZŒ•" area="14" dcs="DEX">
+    <item name="æ‡ä¸­å°åˆ€" desc="ä¸€èˆ¬çš„ã«æ™®åŠã—ã¦ã„ã‚‹ã€æŠ˜ã‚Šç•³ã¿å¼ã®ä¸‡èƒ½å°åˆ€ã ã€‚" value="900" slot="è…•" wmt="çŸ­å‰£" area="14" dcs="DEX">
         <eqStatus tgt="ATK" value="10" />
         <disassembly>
-            <material name="“S•Ð" num="1"/>
+            <material name="é‰„ç‰‡" num="1"/>
         </disassembly>
     </item>
-    <item name="–œ”\‰Æ’ë•ï’š" desc="ˆê”Ê“I‚É•‹y‚µ‚Ä‚¢‚éA‰Æ’ë—p‚Ì•ï’š‚¾B" value="2200" slot="˜r" wmt="’ZŒ•" area="19" dcs="STR,DEX">
+    <item name="ä¸‡èƒ½å®¶åº­åŒ…ä¸" desc="ä¸€èˆ¬çš„ã«æ™®åŠã—ã¦ã„ã‚‹ã€å®¶åº­ç”¨ã®åŒ…ä¸ã ã€‚" value="2200" slot="è…•" wmt="çŸ­å‰£" area="19" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="22" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
-            <material name="“S•Ð" num="1"/>
+            <material name="æœ¨ç‰‡" num="1"/>
+            <material name="é‰„ç‰‡" num="1"/>
         </disassembly>
     </item>
-    <item name="Š„‚ê‚½Žð•r" desc="Š„‚ê‚Ä‚µ‚Ü‚Á‚½Žð•r‚¾B‚È‚©‚È‚©‰s‚­ŠëŒ¯‚Å‚ ‚éB" value="20" slot="˜r" wmt="’ZŒ•" area="17" dcs="STR,DEX">
+    <item name="å‰²ã‚ŒãŸé…’ç“¶" desc="å‰²ã‚Œã¦ã—ã¾ã£ãŸé…’ç“¶ã ã€‚ãªã‹ãªã‹é‹­ãå±é™ºã§ã‚ã‚‹ã€‚" value="20" slot="è…•" wmt="çŸ­å‰£" area="17" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="17" />
         <eqAttr tgt="FLAME" value="-0.10" />
     </item>
-    <item name="Š„‚ê‚½Œƒhƒ\[ƒX‚Ì•r" desc="Š„‚ê‚Ä‚µ‚Ü‚Á‚½•r‚¾B‚È‚©‚È‚©‰s‚­ŠëŒ¯‚Å‚ ‚éBƒzƒbƒg‚¾B" value="20" slot="˜r" wmt="’ZŒ•" area="17" dcs="STR,DEX">
+    <item name="å‰²ã‚ŒãŸæ¿€è¾›ã‚½ãƒ¼ã‚¹ã®ç“¶" desc="å‰²ã‚Œã¦ã—ã¾ã£ãŸç“¶ã ã€‚ãªã‹ãªã‹é‹­ãå±é™ºã§ã‚ã‚‹ã€‚ãƒ›ãƒƒãƒˆã ã€‚" value="20" slot="è…•" wmt="çŸ­å‰£" area="17" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="12" />
     </item>
-    <item name="–¼“u‰Š‹S‚Ì’Z“v" desc="‰Š‚Ì•¶—l‚ª‚ ‚µ‚ç‚í‚ê‚½‰s‚¢’Z“‚¾B" value="1123400" slot="˜r" wmt="’ZŒ•" area="21" dcs="STR,DEX">
+    <item name="ååˆ€ã€Œç‚Žé¬¼ã®çŸ­åˆ€ã€" desc="ç‚Žã®æ–‡æ§˜ãŒã‚ã—ã‚‰ã‚ã‚ŒãŸé‹­ã„çŸ­åˆ€ã ã€‚" value="1123400" slot="è…•" wmt="çŸ­å‰£" area="21" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="89.3" />
         <eqAttr tgt="FLAME" value="-0.10" />
     </item>
-    <item name="–ìŠOŠˆ“®—p‚Ì¬“" desc="ˆê”Ê“I‚É•‹y‚µ‚Ä‚¢‚éA–ìŠOŠˆ“®—p‚Ì¬“‚¾B" value="1600" slot="˜r" wmt="’ZŒ•" area="19" dcs="DEX">
+    <item name="é‡Žå¤–æ´»å‹•ç”¨ã®å°åˆ€" desc="ä¸€èˆ¬çš„ã«æ™®åŠã—ã¦ã„ã‚‹ã€é‡Žå¤–æ´»å‹•ç”¨ã®å°åˆ€ã ã€‚" value="1600" slot="è…•" wmt="çŸ­å‰£" area="19" dcs="DEX">
         <eqStatus tgt="ATK" value="11" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
-            <material name="“S•Ð" num="1"/>
+            <material name="æœ¨ç‰‡" num="1"/>
+            <material name="é‰„ç‰‡" num="1"/>
         </disassembly>
     </item>
-    <item name="œ“Ÿ•i‚Ì‘¾“" desc="ŒÃ‚Ñ‚½“‚¾Bn‚±‚Ú‚ê‚Í‚ ‚é‚ªA‚Ü‚¾‹P‚«‚ðŽ¸‚Á‚Ä‚Í‚¢‚È‚¢B" value="80000" slot="˜r" wmt="“" area="34" dcs="STR,DEX">
+    <item name="éª¨è‘£å“ã®å¤ªåˆ€" desc="å¤ã³ãŸåˆ€ã ã€‚åˆƒã“ã¼ã‚Œã¯ã‚ã‚‹ãŒã€ã¾ã è¼ãã‚’å¤±ã£ã¦ã¯ã„ãªã„ã€‚" value="80000" slot="è…•" wmt="åˆ€" area="34" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="33" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.04" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
-            <material name="“S•Ð" num="2"/>
-            <material name="‡‹à" num="2"/>
+            <material name="æœ¨ç‰‡" num="1"/>
+            <material name="é‰„ç‰‡" num="2"/>
+            <material name="åˆé‡‘" num="2"/>
         </disassembly>
     </item>
-    <item name="Žè»‚Ì’|Œõ" desc="’N‚©‚ªŠÈ’P‚É‚Â‚­‚Á‚½’|»‚Ì“‚ð–Í‚µ‚½•Ší‚¾B" value="2200" slot="˜r" wmt="“" area="32" dcs="STR,DEX">
+    <item name="æ‰‹è£½ã®ç«¹å…‰" desc="èª°ã‹ãŒç°¡å˜ã«ã¤ãã£ãŸç«¹è£½ã®åˆ€ã‚’æ¨¡ã—ãŸæ­¦å™¨ã ã€‚" value="2200" slot="è…•" wmt="åˆ€" area="32" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="12" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.04" />
         <eqStatus tgt="CRT_P" value="+0.07" />
         <eqStatus tgt="CRT_V" value="+0.10" />
         <disassembly>
-            <material name="–Ø•Ð" num="4"/>
+            <material name="æœ¨ç‰‡" num="4"/>
         </disassembly>
     </item>
-    <item name="–³–Á‚Ì‘¾“" desc="‚¢‚Â’N‚ªì‚Á‚½‚Æ‚à‚í‚©‚ç‚È‚¢–³–Á‚Ì‘¾“‚¾B" value="86500" slot="˜r" wmt="“" area="34" dcs="STR,DEX">
+    <item name="ç„¡éŠ˜ã®å¤ªåˆ€" desc="ã„ã¤èª°ãŒä½œã£ãŸã¨ã‚‚ã‚ã‹ã‚‰ãªã„ç„¡éŠ˜ã®å¤ªåˆ€ã ã€‚" value="86500" slot="è…•" wmt="åˆ€" area="34" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="44" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.04" />
         <eqStatus tgt="CRT_P" value="+0.07" />
         <eqStatus tgt="CRT_V" value="+0.10" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
-            <material name="“S•Ð" num="2"/>
-            <material name="‡‹à" num="2"/>
+            <material name="æœ¨ç‰‡" num="1"/>
+            <material name="é‰„ç‰‡" num="2"/>
+            <material name="åˆé‡‘" num="2"/>
         </disassembly>
     </item>
-    <item name="–¼“u—H—ì‰®•~‚Ì’ëŽtv" desc="“Œ‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢‘¾“‚¾B" value="909500" slot="˜r" wmt="“" area="34" dcs="STR,DEX">
+    <item name="ååˆ€ã€Œå¹½éœŠå±‹æ•·ã®åº­å¸«ã€" desc="æ±ã®å›½ã§ä½œã‚‰ã‚ŒãŸã€ååˆ€ã¨ã‚‚ã„ã‚ã‚Œã‚‹é‹­ã„å¤ªåˆ€ã ã€‚" value="909500" slot="è…•" wmt="åˆ€" area="34" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="72" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.05" />
         <eqStatus tgt="CRT_P" value="+0.18" />
         <eqStatus tgt="CRT_V" value="+0.18" />
     </item>
-    <item name="–¼“uk‰ev" desc="“Œ‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢‘¾“‚¾B" value="894400" slot="˜r" wmt="“" area="34" dcs="STR,DEX">
+    <item name="ååˆ€ã€Œéœ‡å½±ã€" desc="æ±ã®å›½ã§ä½œã‚‰ã‚ŒãŸã€ååˆ€ã¨ã‚‚ã„ã‚ã‚Œã‚‹é‹­ã„å¤ªåˆ€ã ã€‚" value="894400" slot="è…•" wmt="åˆ€" area="34" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="43" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.04" />
         <eqStatus tgt="CRT_P" value="+0.17" />
         <eqStatus tgt="CRT_V" value="+1.36" />
     </item>
-    <item name="–¼“u–iŠÛv" desc="“Œ‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢‘¾“‚¾B" value="250000" slot="˜r" wmt="“" area="34" dcs="STR,DEX">
+    <item name="ååˆ€ã€Œå ä¸¸ã€" desc="æ±ã®å›½ã§ä½œã‚‰ã‚ŒãŸã€ååˆ€ã¨ã‚‚ã„ã‚ã‚Œã‚‹é‹­ã„å¤ªåˆ€ã ã€‚" value="250000" slot="è…•" wmt="åˆ€" area="34" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="92" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.04" />
         <eqStatus tgt="CRT_P" value="+0.12" />
         <eqStatus tgt="CRT_V" value="+0.75" />
     </item>
-    <item name="–¼“u‚k‚Ìg‚«‰Øv" desc="“Œ‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢‘¾“‚¾B" value="489000" slot="˜r" wmt="“" area="34" dcs="STR,DEX">
+    <item name="ååˆ€ã€Œï¼¬ã®ç´…ãè¯ã€" desc="æ±ã®å›½ã§ä½œã‚‰ã‚ŒãŸã€ååˆ€ã¨ã‚‚ã„ã‚ã‚Œã‚‹é‹­ã„å¤ªåˆ€ã ã€‚" value="489000" slot="è…•" wmt="åˆ€" area="34" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="95" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.04" />
@@ -775,7 +775,7 @@ THE SOFTWARE.
         <eqStatus tgt="CRT_V" value="+0.80" />
         <eqAttr tgt="C_ROT" value="-0.25" />
     </item>
-    <item name="–¼“uŽžŒv“ƒ‚Ì“µv" desc="“Œ‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢‘¾“‚¾B" value="3200000" slot="˜r" wmt="“" area="34" dcs="STR,DEX">
+    <item name="ååˆ€ã€Œæ™‚è¨ˆå¡”ã®çž³ã€" desc="æ±ã®å›½ã§ä½œã‚‰ã‚ŒãŸã€ååˆ€ã¨ã‚‚ã„ã‚ã‚Œã‚‹é‹­ã„å¤ªåˆ€ã ã€‚" value="3200000" slot="è…•" wmt="åˆ€" area="34" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="99" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.04" />
@@ -783,8 +783,8 @@ THE SOFTWARE.
         <eqStatus tgt="CRT_V" value="+0.80" />
         <eqAttr tgt="MYSTERY" value="-0.25" />
     </item>
-    <item name="–¼“u•s’m‰Îv" desc="“Œ‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢‘¾“‚¾B/‰Î‘®«‚ÌUŒ‚‚ª‚Å‚«‚éB" value="430000" slot="˜r" wmt="“" area="34" dcs="STR,DEX">
-        <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-30" attr="FLAME" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
+    <item name="ååˆ€ã€Œä¸çŸ¥ç«ã€" desc="æ±ã®å›½ã§ä½œã‚‰ã‚ŒãŸã€ååˆ€ã¨ã‚‚ã„ã‚ã‚Œã‚‹é‹­ã„å¤ªåˆ€ã ã€‚/ç«å±žæ€§ã®æ”»æ’ƒãŒã§ãã‚‹ã€‚" value="430000" slot="è…•" wmt="åˆ€" area="34" dcs="STR,DEX">
+        <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-30" attr="FLAME" p="1" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" />
         <eqStatus tgt="ATK" value="99" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.05" />
@@ -794,327 +794,327 @@ THE SOFTWARE.
         <eqAttr tgt="ICE" value="-0.10" />
         <eqAttr tgt="WATER" value="-0.10" />
     </item>
-    <item name="–¼“uŽév" desc="“Œ‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢‘¾“‚¾B/ƒNƒŠƒeƒBƒJƒ‹ƒ_ƒ[ƒW‚ª”ñí‚É‚‚¢B" value="4050000" slot="˜r" wmt="“" area="34" dcs="STR,DEX">
+    <item name="ååˆ€ã€Œæœ±é›€ã€" desc="æ±ã®å›½ã§ä½œã‚‰ã‚ŒãŸã€ååˆ€ã¨ã‚‚ã„ã‚ã‚Œã‚‹é‹­ã„å¤ªåˆ€ã ã€‚/ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«ãƒ€ãƒ¡ãƒ¼ã‚¸ãŒéžå¸¸ã«é«˜ã„ã€‚" value="4050000" slot="è…•" wmt="åˆ€" area="34" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="108" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.05" />
         <eqStatus tgt="CRT_P" value="+0.18" />
         <eqStatus tgt="CRT_V" value="+4.00" />
     </item>
-    <item name="–¼“u“øv" desc="“Œ‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢‘¾“‚¾B/ƒNƒŠƒeƒBƒJƒ‹UŒ‚‚ª”­¶‚µ‚â‚·‚¢B" value="7050000" slot="˜r" wmt="“" area="34" dcs="STR,DEX">
+    <item name="ååˆ€ã€Œè™¹ã€" desc="æ±ã®å›½ã§ä½œã‚‰ã‚ŒãŸã€ååˆ€ã¨ã‚‚ã„ã‚ã‚Œã‚‹é‹­ã„å¤ªåˆ€ã ã€‚/ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«æ”»æ’ƒãŒç™ºç”Ÿã—ã‚„ã™ã„ã€‚" value="7050000" slot="è…•" wmt="åˆ€" area="34" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="116" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.05" />
         <eqStatus tgt="CRT_P" value="+0.90" />
         <eqStatus tgt="CRT_V" value="+0.25" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
-            <material name="“ø‚Ì‚©‚¯‚ç" num="4"/>
+            <material name="æœ¨ç‰‡" num="1"/>
+            <material name="è™¹ã®ã‹ã‘ã‚‰" num="4"/>
         </disassembly>
     </item>
-    <item name="–¼“uH…v" desc="“Œ‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢‘¾“‚¾B" value="6000000" slot="˜r" wmt="“" area="34" dcs="STR,DEX">
+    <item name="ååˆ€ã€Œç§‹æ°´ã€" desc="æ±ã®å›½ã§ä½œã‚‰ã‚ŒãŸã€ååˆ€ã¨ã‚‚ã„ã‚ã‚Œã‚‹é‹­ã„å¤ªåˆ€ã ã€‚" value="6000000" slot="è…•" wmt="åˆ€" area="34" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="112" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.10" />
         <eqStatus tgt="CRT_P" value="+0.25" />
         <eqStatus tgt="CRT_V" value="+0.25" />
     </item>
-    <item name="ƒAƒVƒ‡ƒX‚Ì—zŒõ" desc="“Œ‚Ì‘‚Åì‚ç‚ê‚½A‰s‚¢‘¾“‚¾B" value="3200000" slot="˜r" wmt="“" area="30" dcs="STR,DEX">
+    <item name="ã‚¢ã‚·ãƒ§ã‚¹ã®é™½å…‰" desc="æ±ã®å›½ã§ä½œã‚‰ã‚ŒãŸã€é‹­ã„å¤ªåˆ€ã ã€‚" value="3200000" slot="è…•" wmt="åˆ€" area="30" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="86" />
         <eqStatus tgt="AVO" value="-0.02" />
         <eqStatus tgt="CUT_P" value="+0.08" />
         <eqStatus tgt="CRT_P" value="+0.22" />
         <eqStatus tgt="CRT_V" value="+0.22" />
     </item>
-    <item name="–¼“uŒŽŒõŠÛ™Âv" desc="“Œ‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢‘¾“‚¾B" value="9990000" slot="˜r" wmt="“" area="32" dcs="STR,DEX">
+    <item name="ååˆ€ã€Œæœˆå…‰ä¸¸åã€" desc="æ±ã®å›½ã§ä½œã‚‰ã‚ŒãŸã€ååˆ€ã¨ã‚‚ã„ã‚ã‚Œã‚‹é‹­ã„å¤ªåˆ€ã ã€‚" value="9990000" slot="è…•" wmt="åˆ€" area="32" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="148" />
         <eqStatus tgt="AVO" value="-0.02" />
         <eqStatus tgt="CUT_P" value="+0.08" />
         <eqStatus tgt="CRT_P" value="+0.25" />
         <eqStatus tgt="CRT_V" value="+2.5" />
     </item>
-    <item name="œ“Ÿ•i‚Ì’·Œ•" desc="ŒÃ‚Ñ‚½’·Œ•‚¾Bn‚±‚Ú‚ê‚Í‚ ‚é‚ªA‚Ü‚¾‹P‚«‚ðŽ¸‚Á‚Ä‚Í‚¢‚È‚¢B" value="80000" slot="˜r" wmt="Œ•" area="32" dcs="STR">
+    <item name="éª¨è‘£å“ã®é•·å‰£" desc="å¤ã³ãŸé•·å‰£ã ã€‚åˆƒã“ã¼ã‚Œã¯ã‚ã‚‹ãŒã€ã¾ã è¼ãã‚’å¤±ã£ã¦ã¯ã„ãªã„ã€‚" value="80000" slot="è…•" wmt="å‰£" area="32" dcs="STR">
         <eqStatus tgt="ATK" value="33" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.07" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
-            <material name="“S•Ð" num="4"/>
-            <material name="‡‹à" num="1"/>
+            <material name="æœ¨ç‰‡" num="1"/>
+            <material name="é‰„ç‰‡" num="4"/>
+            <material name="åˆé‡‘" num="1"/>
         </disassembly>
     </item>
-    <item name="Žë—Â‹|–î" desc="Žë—Â‚ÉŽg‚í‚ê‚éˆÀ‰¿‚È‹|‚¾B" value="4200" slot="˜r" wmt="‹|" area="26" dcs="DEX">
+    <item name="ç‹©çŒŸå¼“çŸ¢" desc="ç‹©çŒŸã«ä½¿ã‚ã‚Œã‚‹å®‰ä¾¡ãªå¼“ã ã€‚" value="4200" slot="è…•" wmt="å¼“" area="26" dcs="DEX">
         <eqStatus tgt="ATK" value="30" />
         <eqStatus tgt="AVO" value="-0.03" />
         <disassembly>
-            <material name="–Ø•Ð" num="2"/>
-            <material name="ƒƒCƒ„[" num="2"/>
+            <material name="æœ¨ç‰‡" num="2"/>
+            <material name="ãƒ¯ã‚¤ãƒ¤ãƒ¼" num="2"/>
         </disassembly>
     </item>
-    <item name="“Å•t‚«‚ÌŽë—Â‹|–î" desc="Žë—Â‚ÉŽg‚í‚ê‚éˆÀ‰¿‚È‹|‚¾B" value="6600" slot="˜r" wmt="‹|" area="26" dcs="DEX">
+    <item name="æ¯’ä»˜ãã®ç‹©çŒŸå¼“çŸ¢" desc="ç‹©çŒŸã«ä½¿ã‚ã‚Œã‚‹å®‰ä¾¡ãªå¼“ã ã€‚" value="6600" slot="è…•" wmt="å¼“" area="26" dcs="DEX">
         <eqStatus tgt="ATK" value="32" />
         <eqStatus tgt="AVO" value="-0.03" />
         <disassembly>
-            <material name="–Ø•Ð" num="2"/>
-            <material name="ƒƒCƒ„[" num="2"/>
+            <material name="æœ¨ç‰‡" num="2"/>
+            <material name="ãƒ¯ã‚¤ãƒ¤ãƒ¼" num="2"/>
         </disassembly>
     </item>
-    <item name="ƒxƒ‹ƒ}–‚“¹eu‚Q‚UŒ^v" desc="ƒxƒ‹ƒ}‘‚Ì‹ŒŽ®‰»‚µ‚½•à•º‘•”õ‚¾B" value="110000" slot="˜r" wmt="e" area="26" dcs="DEX">
+    <item name="ãƒ™ãƒ«ãƒžé­”é“éŠƒã€Œï¼’ï¼–åž‹ã€" desc="ãƒ™ãƒ«ãƒžå›½ã®æ—§å¼åŒ–ã—ãŸæ­©å…µè£…å‚™ã ã€‚" value="110000" slot="è…•" wmt="éŠƒ" area="26" dcs="DEX">
         <eqStatus tgt="ATK" value="98" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CRT_P" value="+0.04" />
         <eqStatus tgt="CRT_V" value="+0.25" />
         <disassembly>
-            <material name="–Ø•Ð" num="2"/>
-            <material name="ƒƒCƒ„[" num="1"/>
-            <material name="“S•Ð" num="2"/>
-            <material name="‚Ë‚¶" num="2"/>
-            <material name="˜B‹à•¨Ž¿" num="1"/>
-            <material name="ƒxƒŠƒ^Œ‹»ƒR[ƒeƒBƒ“ƒO" num="1"/>
+            <material name="æœ¨ç‰‡" num="2"/>
+            <material name="ãƒ¯ã‚¤ãƒ¤ãƒ¼" num="1"/>
+            <material name="é‰„ç‰‡" num="2"/>
+            <material name="ã­ã˜" num="2"/>
+            <material name="éŒ¬é‡‘ç‰©è³ª" num="1"/>
+            <material name="ãƒ™ãƒªã‚¿çµæ™¶ã‚³ãƒ¼ãƒ†ã‚£ãƒ³ã‚°" num="1"/>
         </disassembly>
     </item>
-    <item name="ƒxƒ‹ƒ}–‚“¹eu‚P‚P‚PŒ^v" desc="ƒxƒ‹ƒ}‘‚Ì•W€“I‚È•à•º‘•”õ‚¾B" value="160000" slot="˜r" wmt="e" area="26" dcs="DEX">
+    <item name="ãƒ™ãƒ«ãƒžé­”é“éŠƒã€Œï¼‘ï¼‘ï¼‘åž‹ã€" desc="ãƒ™ãƒ«ãƒžå›½ã®æ¨™æº–çš„ãªæ­©å…µè£…å‚™ã ã€‚" value="160000" slot="è…•" wmt="éŠƒ" area="26" dcs="DEX">
         <eqStatus tgt="ATK" value="133" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CRT_P" value="+0.08" />
         <eqStatus tgt="CRT_V" value="+0.25" />
         <disassembly>
-            <material name="–Ø•Ð" num="2"/>
-            <material name="ƒƒCƒ„[" num="1"/>
-            <material name="“S•Ð" num="2"/>
-            <material name="‚Ë‚¶" num="2"/>
-            <material name="˜B‹à•¨Ž¿" num="1"/>
-            <material name="ƒxƒŠƒ^Œ‹»ƒR[ƒeƒBƒ“ƒO" num="1"/>
+            <material name="æœ¨ç‰‡" num="2"/>
+            <material name="ãƒ¯ã‚¤ãƒ¤ãƒ¼" num="1"/>
+            <material name="é‰„ç‰‡" num="2"/>
+            <material name="ã­ã˜" num="2"/>
+            <material name="éŒ¬é‡‘ç‰©è³ª" num="1"/>
+            <material name="ãƒ™ãƒªã‚¿çµæ™¶ã‚³ãƒ¼ãƒ†ã‚£ãƒ³ã‚°" num="1"/>
         </disassembly>
     </item>
-    <item name="ƒxƒ‹ƒ}–‚“¹eu‚P‚T‚VŒ^v" desc="ƒxƒ‹ƒ}‘‚Ì‹ß‘ã“I‚È•à•º‘•”õ‚¾B" value="175000" slot="˜r" wmt="e" area="26" dcs="DEX">
+    <item name="ãƒ™ãƒ«ãƒžé­”é“éŠƒã€Œï¼‘ï¼•ï¼—åž‹ã€" desc="ãƒ™ãƒ«ãƒžå›½ã®è¿‘ä»£çš„ãªæ­©å…µè£…å‚™ã ã€‚" value="175000" slot="è…•" wmt="éŠƒ" area="26" dcs="DEX">
         <eqStatus tgt="ATK" value="147" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CRT_P" value="+0.09" />
         <eqStatus tgt="CRT_V" value="+0.25" />
         <disassembly>
-            <material name="–Ø•Ð" num="2"/>
-            <material name="ƒƒCƒ„[" num="1"/>
-            <material name="“S•Ð" num="2"/>
-            <material name="‚Ë‚¶" num="2"/>
-            <material name="˜B‹à•¨Ž¿" num="1"/>
-            <material name="ƒxƒŠƒ^Œ‹»ƒR[ƒeƒBƒ“ƒO" num="1"/>
+            <material name="æœ¨ç‰‡" num="2"/>
+            <material name="ãƒ¯ã‚¤ãƒ¤ãƒ¼" num="1"/>
+            <material name="é‰„ç‰‡" num="2"/>
+            <material name="ã­ã˜" num="2"/>
+            <material name="éŒ¬é‡‘ç‰©è³ª" num="1"/>
+            <material name="ãƒ™ãƒªã‚¿çµæ™¶ã‚³ãƒ¼ãƒ†ã‚£ãƒ³ã‚°" num="1"/>
         </disassembly>
     </item>
-    <item name="eŒ••t‚«ƒxƒ‹ƒ}–‚“¹eu‚Q‚UŒ^v" desc="ƒxƒ‹ƒ}‘‚Ì‹ŒŽ®‰»‚µ‚½•à•º‘•”õ‚¾BeŒ•‚ª‚Â‚¢‚Ä‚¢‚é‚Ì‚ÅA‹ßÚUŒ‚‚ª‰Â”\‚¾B" value="110000" slot="˜r" wmt="e" area="26" dcs="DEX">
+    <item name="éŠƒå‰£ä»˜ããƒ™ãƒ«ãƒžé­”é“éŠƒã€Œï¼’ï¼–åž‹ã€" desc="ãƒ™ãƒ«ãƒžå›½ã®æ—§å¼åŒ–ã—ãŸæ­©å…µè£…å‚™ã ã€‚éŠƒå‰£ãŒã¤ã„ã¦ã„ã‚‹ã®ã§ã€è¿‘æŽ¥æ”»æ’ƒãŒå¯èƒ½ã ã€‚" value="110000" slot="è…•" wmt="éŠƒ" area="26" dcs="DEX">
         <eqStatus tgt="ATK" value="98" />
         <eqStatus tgt="AVO" value="-0.06" />
         <eqStatus tgt="CRT_P" value="+0.04" />
         <eqStatus tgt="CRT_V" value="+0.25" />
         <disassembly>
-            <material name="–Ø•Ð" num="2"/>
-            <material name="ƒƒCƒ„[" num="1"/>
-            <material name="“S•Ð" num="4"/>
-            <material name="‚Ë‚¶" num="2"/>
-            <material name="˜B‹à•¨Ž¿" num="1"/>
-            <material name="ƒxƒŠƒ^Œ‹»ƒR[ƒeƒBƒ“ƒO" num="1"/>
+            <material name="æœ¨ç‰‡" num="2"/>
+            <material name="ãƒ¯ã‚¤ãƒ¤ãƒ¼" num="1"/>
+            <material name="é‰„ç‰‡" num="4"/>
+            <material name="ã­ã˜" num="2"/>
+            <material name="éŒ¬é‡‘ç‰©è³ª" num="1"/>
+            <material name="ãƒ™ãƒªã‚¿çµæ™¶ã‚³ãƒ¼ãƒ†ã‚£ãƒ³ã‚°" num="1"/>
         </disassembly>
     </item>
-    <item name="eŒ••t‚«ƒxƒ‹ƒ}–‚“¹eu‚P‚P‚PŒ^v" desc="ƒxƒ‹ƒ}‘‚Ì•W€“I‚È•à•º‘•”õ‚¾BeŒ•‚ª‚Â‚¢‚Ä‚¢‚é‚Ì‚ÅA‹ßÚUŒ‚‚ª‰Â”\‚¾B" value="160000" slot="˜r" wmt="e" area="28" dcs="DEX">
+    <item name="éŠƒå‰£ä»˜ããƒ™ãƒ«ãƒžé­”é“éŠƒã€Œï¼‘ï¼‘ï¼‘åž‹ã€" desc="ãƒ™ãƒ«ãƒžå›½ã®æ¨™æº–çš„ãªæ­©å…µè£…å‚™ã ã€‚éŠƒå‰£ãŒã¤ã„ã¦ã„ã‚‹ã®ã§ã€è¿‘æŽ¥æ”»æ’ƒãŒå¯èƒ½ã ã€‚" value="160000" slot="è…•" wmt="éŠƒ" area="28" dcs="DEX">
         <eqStatus tgt="ATK" value="133" />
         <eqStatus tgt="AVO" value="-0.06" />
         <eqStatus tgt="CRT_P" value="+0.08" />
         <eqStatus tgt="CRT_V" value="+0.25" />
         <disassembly>
-            <material name="–Ø•Ð" num="2"/>
-            <material name="ƒƒCƒ„[" num="1"/>
-            <material name="“S•Ð" num="4"/>
-            <material name="‚Ë‚¶" num="2"/>
-            <material name="˜B‹à•¨Ž¿" num="1"/>
-            <material name="ƒxƒŠƒ^Œ‹»ƒR[ƒeƒBƒ“ƒO" num="1"/>
+            <material name="æœ¨ç‰‡" num="2"/>
+            <material name="ãƒ¯ã‚¤ãƒ¤ãƒ¼" num="1"/>
+            <material name="é‰„ç‰‡" num="4"/>
+            <material name="ã­ã˜" num="2"/>
+            <material name="éŒ¬é‡‘ç‰©è³ª" num="1"/>
+            <material name="ãƒ™ãƒªã‚¿çµæ™¶ã‚³ãƒ¼ãƒ†ã‚£ãƒ³ã‚°" num="1"/>
         </disassembly>
     </item>
-    <item name="eŒ••t‚«ƒxƒ‹ƒ}–‚“¹eu‚P‚T‚VŒ^v" desc="ƒxƒ‹ƒ}‘‚Ì‹ß‘ã“I‚È•à•º‘•”õ‚¾BeŒ•‚ª‚Â‚¢‚Ä‚¢‚é‚Ì‚ÅA‹ßÚUŒ‚‚ª‰Â”\‚¾B" value="175000" slot="˜r" wmt="e" area="29" dcs="DEX">
+    <item name="éŠƒå‰£ä»˜ããƒ™ãƒ«ãƒžé­”é“éŠƒã€Œï¼‘ï¼•ï¼—åž‹ã€" desc="ãƒ™ãƒ«ãƒžå›½ã®è¿‘ä»£çš„ãªæ­©å…µè£…å‚™ã ã€‚éŠƒå‰£ãŒã¤ã„ã¦ã„ã‚‹ã®ã§ã€è¿‘æŽ¥æ”»æ’ƒãŒå¯èƒ½ã ã€‚" value="175000" slot="è…•" wmt="éŠƒ" area="29" dcs="DEX">
         <eqStatus tgt="ATK" value="147" />
         <eqStatus tgt="AVO" value="-0.06" />
         <eqStatus tgt="CRT_P" value="+0.09" />
         <eqStatus tgt="CRT_V" value="+0.25" />
         <disassembly>
-            <material name="–Ø•Ð" num="2"/>
-            <material name="ƒƒCƒ„[" num="1"/>
-            <material name="“S•Ð" num="4"/>
-            <material name="‚Ë‚¶" num="2"/>
-            <material name="˜B‹à•¨Ž¿" num="1"/>
-            <material name="ƒxƒŠƒ^Œ‹»ƒR[ƒeƒBƒ“ƒO" num="1"/>
+            <material name="æœ¨ç‰‡" num="2"/>
+            <material name="ãƒ¯ã‚¤ãƒ¤ãƒ¼" num="1"/>
+            <material name="é‰„ç‰‡" num="4"/>
+            <material name="ã­ã˜" num="2"/>
+            <material name="éŒ¬é‡‘ç‰©è³ª" num="1"/>
+            <material name="ãƒ™ãƒªã‚¿çµæ™¶ã‚³ãƒ¼ãƒ†ã‚£ãƒ³ã‚°" num="1"/>
         </disassembly>
     </item>
-    <item name="ƒxƒ‹ƒ}‚ÌeŒ•" desc="ƒxƒ‹ƒ}‘‚Ì•W€“I‚ÈeŒ•‚¾B" value="175000" slot="˜r" wmt="’ZŒ•" area="22" dcs="STR,DEX">
+    <item name="ãƒ™ãƒ«ãƒžã®éŠƒå‰£" desc="ãƒ™ãƒ«ãƒžå›½ã®æ¨™æº–çš„ãªéŠƒå‰£ã ã€‚" value="175000" slot="è…•" wmt="çŸ­å‰£" area="22" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="20" />
         <disassembly>
-            <material name="“S•Ð" num="2"/>
-            <material name="‚Ë‚¶" num="1"/>
+            <material name="é‰„ç‰‡" num="2"/>
+            <material name="ã­ã˜" num="1"/>
         </disassembly>
     </item>
-    <item name="“Å•t‚«‚ÌŽë—ÂœW" desc="Žë—Â‚ÅŽg—p‚³‚ê‚éœW‚¾BŽdŠ|‚¯‹|‚Æ‚µ‚ÄŽg‚í‚ê‚é‚±‚Æ‚ª‘½‚¢B" value="19000" slot="˜r" wmt="œW" area="22" dcs="DEX">
+    <item name="æ¯’ä»˜ãã®ç‹©çŒŸå¼©" desc="ç‹©çŒŸã§ä½¿ç”¨ã•ã‚Œã‚‹å¼©ã ã€‚ä»•æŽ›ã‘å¼“ã¨ã—ã¦ä½¿ã‚ã‚Œã‚‹ã“ã¨ãŒå¤šã„ã€‚" value="19000" slot="è…•" wmt="å¼©" area="22" dcs="DEX">
         <eqStatus tgt="ATK" value="40" />
         <eqStatus tgt="AVO" value="-0.09" />
         <eqStatus tgt="CRT_P" value="+0.03" />
         <eqStatus tgt="CRT_V" value="+0.10" />
         <disassembly>
-            <material name="“S•Ð" num="2"/>
-            <material name="ƒƒCƒ„[" num="2"/>
-            <material name="‚Ë‚¶" num="1"/>
+            <material name="é‰„ç‰‡" num="2"/>
+            <material name="ãƒ¯ã‚¤ãƒ¤ãƒ¼" num="2"/>
+            <material name="ã­ã˜" num="1"/>
         </disassembly>
     </item>
-    <item name="•ºŽm‚ÌœW" desc="³‹KŒR‚ª‘•”õ‚µ‚Ä‚¢‚éA•W€“I‚ÅŠæä‚Éì‚ç‚ê‚½œW‚¾B" value="120000" slot="˜r" wmt="œW" area="26" dcs="DEX">
+    <item name="å…µå£«ã®å¼©" desc="æ­£è¦è»ãŒè£…å‚™ã—ã¦ã„ã‚‹ã€æ¨™æº–çš„ã§é ‘ä¸ˆã«ä½œã‚‰ã‚ŒãŸå¼©ã ã€‚" value="120000" slot="è…•" wmt="å¼©" area="26" dcs="DEX">
         <eqStatus tgt="ATK" value="58" />
         <eqStatus tgt="AVO" value="-0.09" />
         <eqStatus tgt="CRT_P" value="+0.03" />
         <eqStatus tgt="CRT_V" value="+0.10" />
         <disassembly>
-            <material name="“S•Ð" num="3"/>
-            <material name="ƒƒCƒ„[" num="2"/>
-            <material name="‚Ë‚¶" num="1"/>
+            <material name="é‰„ç‰‡" num="3"/>
+            <material name="ãƒ¯ã‚¤ãƒ¤ãƒ¼" num="2"/>
+            <material name="ã­ã˜" num="1"/>
         </disassembly>
     </item>
-    <item name="•ºŽm‚Ì’¼Œ•" desc="³‹KŒR‚ª‘•”õ‚µ‚Ä‚¢‚éA•W€“I‚ÅŠæä‚Éì‚ç‚ê‚½|‚ÌŒ•‚¾B" value="89500" slot="˜r" wmt="Œ•" area="37" dcs="STR">
+    <item name="å…µå£«ã®ç›´å‰£" desc="æ­£è¦è»ãŒè£…å‚™ã—ã¦ã„ã‚‹ã€æ¨™æº–çš„ã§é ‘ä¸ˆã«ä½œã‚‰ã‚ŒãŸé‹¼ã®å‰£ã ã€‚" value="89500" slot="è…•" wmt="å‰£" area="37" dcs="STR">
         <eqStatus tgt="ATK" value="45" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.11" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
-            <material name="“S•Ð" num="3"/>
+            <material name="æœ¨ç‰‡" num="1"/>
+            <material name="é‰„ç‰‡" num="3"/>
         </disassembly>
     </item>
-    <item name="ƒfƒ‹ƒtƒBƒ“EƒXƒŒƒCƒ„[" desc="‚©‚Â‚Ä‚Þ‚©‚Â‚­‚¨‚Î‚³‚ñ‚ðŽEŠQ‚µ‚½‚Æ‚¢‚í‚ê‚éŒ•‚¾/ƒNƒŠƒeƒBƒJƒ‹UŒ‚‚ªo‚â‚·‚¢" value="85000" slot="˜r" wmt="Œ•" area="40" dcs="STR">
+    <item name="ãƒ‡ãƒ«ãƒ•ã‚£ãƒ³ãƒ»ã‚¹ãƒ¬ã‚¤ãƒ¤ãƒ¼" desc="ã‹ã¤ã¦ã‚€ã‹ã¤ããŠã°ã•ã‚“ã‚’æ®ºå®³ã—ãŸã¨ã„ã‚ã‚Œã‚‹å‰£ã /ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«æ”»æ’ƒãŒå‡ºã‚„ã™ã„" value="85000" slot="è…•" wmt="å‰£" area="40" dcs="STR">
         <eqStatus tgt="ATK" value="38" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CRT_P" value="+0.25" />
         <eqStatus tgt="CUT_P" value="+0.10" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
-            <material name="“S•Ð" num="3"/>
-            <material name="‡‹à" num="1"/>
+            <material name="æœ¨ç‰‡" num="1"/>
+            <material name="é‰„ç‰‡" num="3"/>
+            <material name="åˆé‡‘" num="1"/>
         </disassembly>
     </item>
-    <item name="Ü‚ê‚½’¼Œ•" desc="Ü‚ê‚Ä‚µ‚Ü‚Á‚½’¼Œ•‚¾B’ZŒ•‚Æ‚µ‚ÄŽg‚¦‚»‚¤‚¾‚ªA’¼Œ•“Á—L‚ÌŠæä‚³‚à”õ‚¦‚Ä‚¢‚éB" value="3200" slot="˜r" wmt="’ZŒ•" area="16" dcs="STR,DEX">
+    <item name="æŠ˜ã‚ŒãŸç›´å‰£" desc="æŠ˜ã‚Œã¦ã—ã¾ã£ãŸç›´å‰£ã ã€‚çŸ­å‰£ã¨ã—ã¦ä½¿ãˆãã†ã ãŒã€ç›´å‰£ç‰¹æœ‰ã®é ‘ä¸ˆã•ã‚‚å‚™ãˆã¦ã„ã‚‹ã€‚" value="3200" slot="è…•" wmt="çŸ­å‰£" area="16" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="18" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.11" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
-            <material name="“S•Ð" num="1"/>
+            <material name="æœ¨ç‰‡" num="1"/>
+            <material name="é‰„ç‰‡" num="1"/>
         </disassembly>
     </item>
-    <item name="Ü‚ê‚½“`à‚ÌŒ•u“úŒŽv" desc="_˜b‚É“oê‚·‚éÜ‚ê‚Ä‚µ‚Ü‚Á‚½“`à‚ÌŒ•‚¾B/’ZŒ•‚Æ‚µ‚ÄŽg‚¦‚»‚¤‚¾‚ªA’¼Œ•“Á—L‚ÌŠæä‚³‚à”õ‚¦‚Ä‚¢‚éB/ƒNƒŠƒeƒBƒJƒ‹UŒ‚‚ªo‚â‚·‚¢B" value="32000000" slot="˜r" wmt="’ZŒ•" area="18" dcs="STR,DEX">
+    <item name="æŠ˜ã‚ŒãŸä¼èª¬ã®å‰£ã€Œæ—¥æœˆã€" desc="ç¥žè©±ã«ç™»å ´ã™ã‚‹æŠ˜ã‚Œã¦ã—ã¾ã£ãŸä¼èª¬ã®å‰£ã ã€‚/çŸ­å‰£ã¨ã—ã¦ä½¿ãˆãã†ã ãŒã€ç›´å‰£ç‰¹æœ‰ã®é ‘ä¸ˆã•ã‚‚å‚™ãˆã¦ã„ã‚‹ã€‚/ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«æ”»æ’ƒãŒå‡ºã‚„ã™ã„ã€‚" value="32000000" slot="è…•" wmt="çŸ­å‰£" area="18" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="251"/>
         <eqStatus tgt="AVO" value="-0.04" />
         <eqStatus tgt="CUT_P" value="+0.16" />
         <eqStatus tgt="CRT_P" value="+0.75" />
         <eqStatus tgt="CRT_V" value="+0.20" />
     </item>
-    <item name="“`à‚ÌŒ•u¼‰‹v" desc="_˜b‚É“oê‚·‚é“`à‚ÌŒ•‚¾B/ƒNƒŠƒeƒBƒJƒ‹ƒ_ƒ[ƒW‚ª‚‚¢B" value="67550000" slot="˜r" wmt="Œ•" area="38" dcs="STR">
+    <item name="ä¼èª¬ã®å‰£ã€Œè¥¿ç„”ã€" desc="ç¥žè©±ã«ç™»å ´ã™ã‚‹ä¼èª¬ã®å‰£ã ã€‚/ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«ãƒ€ãƒ¡ãƒ¼ã‚¸ãŒé«˜ã„ã€‚" value="67550000" slot="è…•" wmt="å‰£" area="38" dcs="STR">
         <eqStatus tgt="ATK" value="251"/>
         <eqStatus tgt="AVO" value="-0.05" />
         <eqStatus tgt="CUT_P" value="+0.22" />
         <eqStatus tgt="CRT_P" value="+0.10" />
         <eqStatus tgt="CRT_V" value="+2.50" />
     </item>
-    <item name="“`à‚ÌŒ•u“G‚­‚¾‚«v" desc="_˜b‚É“oê‚·‚é“`à‚ÌŒ•‚¾B" value="69576000" slot="˜r" wmt="Œ•" area="38" dcs="STR">
+    <item name="ä¼èª¬ã®å‰£ã€Œæ•µãã ãã€" desc="ç¥žè©±ã«ç™»å ´ã™ã‚‹ä¼èª¬ã®å‰£ã ã€‚" value="69576000" slot="è…•" wmt="å‰£" area="38" dcs="STR">
         <eqStatus tgt="ATK" value="174"/>
         <eqStatus tgt="AVO" value="-0.05" />
         <eqStatus tgt="CUT_P" value="+0.19" />
         <eqStatus tgt="CRT_P" value="+0.15" />
         <eqStatus tgt="CRT_V" value="+0.70" />
     </item>
-    <item name="u‚¤‚½‚í‚ê‚µŽÖ—¬”h‚Ì‹â‚ÌŒ•v" desc="¼‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢Œ•‚¾B" value="6500000" slot="˜r" wmt="Œ•" area="38" dcs="STR">
+    <item name="ã€Œã†ãŸã‚ã‚Œã—è›‡æµæ´¾ã®éŠ€ã®å‰£ã€" desc="è¥¿ã®å›½ã§ä½œã‚‰ã‚ŒãŸã€ååˆ€ã¨ã‚‚ã„ã‚ã‚Œã‚‹é‹­ã„å‰£ã ã€‚" value="6500000" slot="è…•" wmt="å‰£" area="38" dcs="STR">
         <eqStatus tgt="ATK" value="115"/>
         <eqStatus tgt="AVO" value="-0.05" />
         <eqStatus tgt="CUT_P" value="+0.15" />
         <eqStatus tgt="CRT_P" value="+0.15" />
         <eqStatus tgt="CRT_V" value="+0.70" />
     </item>
-    <item name="u‚¤‚½‚í‚ê‚µŽÖ—¬”h‚Ì|‚ÌŒ•v" desc="¼‚Ì‘‚Åì‚ç‚ê‚½A–¼“‚Æ‚à‚¢‚í‚ê‚é‰s‚¢Œ•‚¾B" value="6500000" slot="˜r" wmt="Œ•" area="38" dcs="STR">
+    <item name="ã€Œã†ãŸã‚ã‚Œã—è›‡æµæ´¾ã®é‹¼ã®å‰£ã€" desc="è¥¿ã®å›½ã§ä½œã‚‰ã‚ŒãŸã€ååˆ€ã¨ã‚‚ã„ã‚ã‚Œã‚‹é‹­ã„å‰£ã ã€‚" value="6500000" slot="è…•" wmt="å‰£" area="38" dcs="STR">
         <eqStatus tgt="ATK" value="145"/>
         <eqStatus tgt="AVO" value="-0.07" />
         <eqStatus tgt="CUT_P" value="+0.24" />
         <eqStatus tgt="CRT_P" value="+0.20" />
         <eqStatus tgt="CRT_V" value="+0.20" />
     </item>
-    <item name="“º‚ÌŒ•" desc="”äŠr“IˆÀ‰¿‚È—ÊŽY•i‚Ì“º‚ÌŒ•‚¾B" value="4400" slot="˜r" wmt="Œ•" area="32" dcs="STR">
+    <item name="éŠ…ã®å‰£" desc="æ¯”è¼ƒçš„å®‰ä¾¡ãªé‡ç”£å“ã®éŠ…ã®å‰£ã ã€‚" value="4400" slot="è…•" wmt="å‰£" area="32" dcs="STR">
         <eqStatus tgt="ATK" value="21" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.06" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
-            <material name="“S•Ð" num="1"/>
-            <material name="‡‹à" num="1"/>
+            <material name="æœ¨ç‰‡" num="1"/>
+            <material name="é‰„ç‰‡" num="1"/>
+            <material name="åˆé‡‘" num="1"/>
         </disassembly>
     </item>
-    <item name="“S‚ÌŒ•" desc="”äŠr“IˆÀ‰¿‚È—ÊŽY•i‚Ì“S‚ÌŒ•‚¾B" value="11200" slot="˜r" wmt="Œ•" area="34" dcs="STR">
+    <item name="é‰„ã®å‰£" desc="æ¯”è¼ƒçš„å®‰ä¾¡ãªé‡ç”£å“ã®é‰„ã®å‰£ã ã€‚" value="11200" slot="è…•" wmt="å‰£" area="34" dcs="STR">
         <eqStatus tgt="ATK" value="27" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.08" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
-            <material name="“S•Ð" num="2"/>
-            <material name="‡‹à" num="1"/>
+            <material name="æœ¨ç‰‡" num="1"/>
+            <material name="é‰„ç‰‡" num="2"/>
+            <material name="åˆé‡‘" num="1"/>
         </disassembly>
     </item>
-    <item name="|‚ÌŒ•" desc="”äŠr“IˆÀ‰¿‚È—ÊŽY•i‚Ì|‚ÌŒ•‚¾B" value="21400" slot="˜r" wmt="Œ•" area="34" dcs="STR">
+    <item name="é‹¼ã®å‰£" desc="æ¯”è¼ƒçš„å®‰ä¾¡ãªé‡ç”£å“ã®é‹¼ã®å‰£ã ã€‚" value="21400" slot="è…•" wmt="å‰£" area="34" dcs="STR">
         <eqStatus tgt="ATK" value="38" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.10" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
-            <material name="“S•Ð" num="1"/>
-            <material name="‡‹à" num="2"/>
+            <material name="æœ¨ç‰‡" num="1"/>
+            <material name="é‰„ç‰‡" num="1"/>
+            <material name="åˆé‡‘" num="2"/>
         </disassembly>
     </item>
-    <item name="”¹‚ÌŒ•" desc="‚Æ‚Ä‚àŒy‚¢‹à‘®‚Åì‚ç‚ê‚½×g‚Ì”ü‚µ‚¢Œ•‚¾B" value="25600" slot="˜r" wmt="Œ•" area="32" dcs="DEX" count="2">
+    <item name="éš¼ã®å‰£" desc="ã¨ã¦ã‚‚è»½ã„é‡‘å±žã§ä½œã‚‰ã‚ŒãŸç´°èº«ã®ç¾Žã—ã„å‰£ã ã€‚" value="25600" slot="è…•" wmt="å‰£" area="32" dcs="DEX" count="2">
         <eqStatus tgt="ATK" value="66" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.05" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
-            <material name="“S•Ð" num="1"/>
-            <material name="‡‹à" num="4"/>
+            <material name="æœ¨ç‰‡" num="1"/>
+            <material name="é‰„ç‰‡" num="1"/>
+            <material name="åˆé‡‘" num="4"/>
         </disassembly>
     </item>
-    <item name="”¨‚Ì¬Š™" desc="”_ì‹Æ‚ÉŽg‚¤¬Š™‚¾B’áŠm—¦‚ÅØ’f‚ð”­¶‚³‚¹‚éB" value="1750" slot="˜r" wmt="Š™" area="16" dcs="STR,DEX">
+    <item name="ç•‘ã®å°éŽŒ" desc="è¾²ä½œæ¥­ã«ä½¿ã†å°éŽŒã ã€‚ä½Žç¢ºçŽ‡ã§åˆ‡æ–­ã‚’ç™ºç”Ÿã•ã›ã‚‹ã€‚" value="1750" slot="è…•" wmt="éŽŒ" area="16" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="11" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
-            <material name="“S•Ð" num="1"/>
+            <material name="æœ¨ç‰‡" num="1"/>
+            <material name="é‰„ç‰‡" num="1"/>
         </disassembly>
     </item>
-    <item name="–‚“±Žm‚Ìñ" desc="–‚—Í‚ðh‚µ‚½ñ‚¾" value="17500" slot="˜r" wmt="ñ" area="40" dcs="POW">
+    <item name="é­”å°Žå£«ã®æ–" desc="é­”åŠ›ã‚’å®¿ã—ãŸæ–ã " value="17500" slot="è…•" wmt="æ–" area="40" dcs="POW">
         <eqStatus tgt="ATK" value="18" />
         <disassembly>
-            <material name="–Ø•Ð" num="1"/>
+            <material name="æœ¨ç‰‡" num="1"/>
         </disassembly>
     </item>
-    <item name="”_–¯‚Ì‘åŠ™" desc="ŽG‘‚ðˆê‹C‚ÉŠ ‚èŽæ‚é‘åŠ™‚¾B’áŠm—¦‚Å‘¦Ž€‚ð”­¶‚³‚¹‚éB" value="3800" slot="˜r" wmt="Š™" area="42" dcs="STR">
+    <item name="è¾²æ°‘ã®å¤§éŽŒ" desc="é›‘è‰ã‚’ä¸€æ°—ã«åˆˆã‚Šå–ã‚‹å¤§éŽŒã ã€‚ä½Žç¢ºçŽ‡ã§å³æ­»ã‚’ç™ºç”Ÿã•ã›ã‚‹ã€‚" value="3800" slot="è…•" wmt="éŽŒ" area="42" dcs="STR">
         <eqStatus tgt="ATK" value="15" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.03" />
         <disassembly>
-            <material name="–Ø•Ð" num="2"/>
-            <material name="“S•Ð" num="2"/>
+            <material name="æœ¨ç‰‡" num="2"/>
+            <material name="é‰„ç‰‡" num="2"/>
         </disassembly>
     </item>
-    <item name="Žë—Â‘„" desc="Žë—Â‚ÅŽg—p‚·‚éˆê”Ê“I‚È‘„‚¾B" value="2120" slot="˜r" wmt="‘„" area="48" dcs="STR">
+    <item name="ç‹©çŒŸæ§" desc="ç‹©çŒŸã§ä½¿ç”¨ã™ã‚‹ä¸€èˆ¬çš„ãªæ§ã ã€‚" value="2120" slot="è…•" wmt="æ§" area="48" dcs="STR">
         <eqStatus tgt="ATK" value="14" />
         <eqStatus tgt="AVO" value="-0.07" />
         <eqStatus tgt="CUT_P" value="+0.03" />
         <disassembly>
-            <material name="–Ø•Ð" num="2"/>
-            <material name="“S•Ð" num="2"/>
+            <material name="æœ¨ç‰‡" num="2"/>
+            <material name="é‰„ç‰‡" num="2"/>
         </disassembly>
     </item>
-    <item name="–¼‘„u‰áŽJv" desc="”ò‚ñ‚Å‚¢‚é‰á‚ð‚à—¼’f‚µ‚½‚Æ‚¢‚í‚ê‚é–¼‘„‚¾B" value="7500000" slot="˜r" wmt="‘„" area="54" dcs="STR,DEX">
+    <item name="åæ§ã€ŒèšŠæŒã€" desc="é£›ã‚“ã§ã„ã‚‹èšŠã‚’ã‚‚ä¸¡æ–­ã—ãŸã¨ã„ã‚ã‚Œã‚‹åæ§ã ã€‚" value="7500000" slot="è…•" wmt="æ§" area="54" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="142" />
         <eqStatus tgt="AVO" value="-0.11" />
         <eqStatus tgt="CUT_P" value="+0.07" />
         <eqStatus tgt="CRT_P" value="+0.10" />
         <eqStatus tgt="CRT_V" value="+0.50" />
     </item>
-    <item name="’Ð•¨Î" desc="”ñí‚Éd‚¢Î‚Ì‰ò‚¾B/Žè‚Ì“Í‚­”ÍˆÍ‚µ‚©UŒ‚‚Å‚«‚È‚¢‚ªAŠæä‚È‚Ì‚ÅŽç‚è‚É‚à–ð—§‚Â‚¾‚ë‚¤B/’áŠm—¦‚Å‹Câ‚ð”­¶‚³‚¹‚éB" value="380" slot="˜r" wmt="‚E’ZŒ•" area="8" dcs="STR">
+    <item name="æ¼¬ç‰©çŸ³" desc="éžå¸¸ã«é‡ã„çŸ³ã®å¡Šã ã€‚/æ‰‹ã®å±Šãç¯„å›²ã—ã‹æ”»æ’ƒã§ããªã„ãŒã€é ‘ä¸ˆãªã®ã§å®ˆã‚Šã«ã‚‚å½¹ç«‹ã¤ã ã‚ã†ã€‚/ä½Žç¢ºçŽ‡ã§æ°—çµ¶ã‚’ç™ºç”Ÿã•ã›ã‚‹ã€‚" value="380" slot="è…•" wmt="ç›¾ãƒ»çŸ­å‰£" area="8" dcs="STR">
         <eqStatus tgt="ATK" value="14" />
         <eqStatus tgt="DEF" value="2" />
         <eqStatus tgt="SPD" value="-6" />
@@ -1122,7 +1122,7 @@ THE SOFTWARE.
         <eqStatus tgt="AVO" value="-0.15" />
         <eqStatus tgt="CUT_P" value="+0.09" />
     </item>
-    <item name="’M‚ÌŠW‚Æ‰ù’†¬“" desc="‚Ç‚±‚É‚Å‚à‚ ‚é’M‚ÌŠW‚ÆA‰ù’†¬“‚Ì‘g‚Ý‡‚í‚¹‚¾B/‘¦È‚Ì‚‚Æ‚µ‚Ä—˜—p‚Å‚«‚»‚¤‚¾B" value="1150" slot="˜r" wmt="‚E’ZŒ•" area="12" dcs="STR,DEX">
+    <item name="æ¨½ã®è“‹ã¨æ‡ä¸­å°åˆ€" desc="ã©ã“ã«ã§ã‚‚ã‚ã‚‹æ¨½ã®è“‹ã¨ã€æ‡ä¸­å°åˆ€ã®çµ„ã¿åˆã‚ã›ã ã€‚/å³å¸­ã®ç›¾ã¨ã—ã¦åˆ©ç”¨ã§ããã†ã ã€‚" value="1150" slot="è…•" wmt="ç›¾ãƒ»çŸ­å‰£" area="12" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="10" />
         <eqStatus tgt="DEF" value="2" />
         <eqStatus tgt="SPD" value="-2" />
@@ -1130,11 +1130,11 @@ THE SOFTWARE.
         <eqStatus tgt="AVO" value="-0.10" />
         <eqStatus tgt="CUT_P" value="+0.11" />
         <disassembly>
-            <material name="–Ø•Ð" num="2"/>
-            <material name="“S•Ð" num="2"/>
+            <material name="æœ¨ç‰‡" num="2"/>
+            <material name="é‰„ç‰‡" num="2"/>
         </disassembly>
     </item>
-    <item name="‚¨“ç‚ÌŠW‚Æ–ö—t•ï’š" desc="‚Ç‚±‚É‚Å‚à‚ ‚é“ç‚ÌŠW‚ÆA–ö—t•ï’š‚Ì‘g‚Ý‡‚í‚¹‚¾B/‘¦È‚Ì‚‚Æ‚µ‚Ä—˜—p‚Å‚«‚»‚¤‚¾B" value="3200" slot="˜r" wmt="‚E’ZŒ•" area="18" dcs="STR,DEX">
+    <item name="ãŠé‹ã®è“‹ã¨æŸ³è‘‰åŒ…ä¸" desc="ã©ã“ã«ã§ã‚‚ã‚ã‚‹é‹ã®è“‹ã¨ã€æŸ³è‘‰åŒ…ä¸ã®çµ„ã¿åˆã‚ã›ã ã€‚/å³å¸­ã®ç›¾ã¨ã—ã¦åˆ©ç”¨ã§ããã†ã ã€‚" value="3200" slot="è…•" wmt="ç›¾ãƒ»çŸ­å‰£" area="18" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="28" />
         <eqStatus tgt="DEF" value="4" />
         <eqStatus tgt="SPD" value="-3" />
@@ -1142,11 +1142,11 @@ THE SOFTWARE.
         <eqStatus tgt="AVO" value="-0.10" />
         <eqStatus tgt="CUT_P" value="+0.13" />
         <disassembly>
-            <material name="–Ø•Ð" num="4"/>
-            <material name="“S•Ð" num="4"/>
+            <material name="æœ¨ç‰‡" num="4"/>
+            <material name="é‰„ç‰‡" num="4"/>
         </disassembly>
     </item>
-    <item name="‡”Â‚Ì‚‚Æ|‚ÌƒVƒ‡[ƒgƒ\[ƒh" desc="–`Œ¯ŽÒ‚ª‚æ‚­Žg‚Á‚Ä‚¢‚é–Ø‚Ì‚‚ÆƒVƒ‡[ƒgƒ\[ƒh‚Ì‘g‚Ý‡‚í‚¹‚¾B" value="49000" slot="˜r" wmt="‚E’ZŒ•" area="20" dcs="STR,DEX">
+    <item name="åˆæ¿ã®ç›¾ã¨é‹¼ã®ã‚·ãƒ§ãƒ¼ãƒˆã‚½ãƒ¼ãƒ‰" desc="å†’é™ºè€…ãŒã‚ˆãä½¿ã£ã¦ã„ã‚‹æœ¨ã®ç›¾ã¨ã‚·ãƒ§ãƒ¼ãƒˆã‚½ãƒ¼ãƒ‰ã®çµ„ã¿åˆã‚ã›ã ã€‚" value="49000" slot="è…•" wmt="ç›¾ãƒ»çŸ­å‰£" area="20" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="31" />
         <eqStatus tgt="DEF" value="10" />
         <eqStatus tgt="SPD" value="-4" />
@@ -1154,12 +1154,12 @@ THE SOFTWARE.
         <eqStatus tgt="AVO" value="-0.14" />
         <eqStatus tgt="CUT_P" value="+0.19" />
         <disassembly>
-            <material name="–Ø•Ð" num="4"/>
-            <material name="“S•Ð" num="4"/>
-            <material name="‡‹à" num="2"/>
+            <material name="æœ¨ç‰‡" num="4"/>
+            <material name="é‰„ç‰‡" num="4"/>
+            <material name="åˆé‡‘" num="2"/>
         </disassembly>
     </item>
-    <item name="ƒoƒbƒNƒ‰[‚Æ|‚ÌƒVƒ‡[ƒgƒ\[ƒh" desc="–`Œ¯ŽÒ‚ª‚æ‚­Žg‚Á‚Ä‚¢‚é–Ø‚Ì‚‚ÆƒVƒ‡[ƒgƒ\[ƒh‚Ì‘g‚Ý‡‚í‚¹‚¾B" value="49000" slot="˜r" wmt="‚E’ZŒ•" area="20" dcs="STR,DEX">
+    <item name="ãƒãƒƒã‚¯ãƒ©ãƒ¼ã¨é‹¼ã®ã‚·ãƒ§ãƒ¼ãƒˆã‚½ãƒ¼ãƒ‰" desc="å†’é™ºè€…ãŒã‚ˆãä½¿ã£ã¦ã„ã‚‹æœ¨ã®ç›¾ã¨ã‚·ãƒ§ãƒ¼ãƒˆã‚½ãƒ¼ãƒ‰ã®çµ„ã¿åˆã‚ã›ã ã€‚" value="49000" slot="è…•" wmt="ç›¾ãƒ»çŸ­å‰£" area="20" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="31" />
         <eqStatus tgt="DEF" value="7" />
         <eqStatus tgt="SPD" value="-1" />
@@ -1167,13 +1167,13 @@ THE SOFTWARE.
         <eqStatus tgt="AVO" value="-0.9" />
         <eqStatus tgt="CUT_P" value="+0.13" />
         <disassembly>
-            <material name="”ç" num="2"/>
-            <material name="–Ø•Ð" num="4"/>
-            <material name="“S•Ð" num="4"/>
-            <material name="‡‹à" num="2"/>
+            <material name="çš®" num="2"/>
+            <material name="æœ¨ç‰‡" num="4"/>
+            <material name="é‰„ç‰‡" num="4"/>
+            <material name="åˆé‡‘" num="2"/>
         </disassembly>
     </item>
-    <item name="³‹KŒR‘O‰q‚Ìƒ^ƒ[ƒV[ƒ‹ƒh" desc="”ñí‚ÉŠæä‚Å‹‘å‚È‚‚¾B" value="138000" slot="˜r" wmt="‘å‚" area="22" dcs="STR">
+    <item name="æ­£è¦è»å‰è¡›ã®ã‚¿ãƒ¯ãƒ¼ã‚·ãƒ¼ãƒ«ãƒ‰" desc="éžå¸¸ã«é ‘ä¸ˆã§å·¨å¤§ãªç›¾ã ã€‚" value="138000" slot="è…•" wmt="å¤§ç›¾" area="22" dcs="STR">
         <eqStatus tgt="ATK" value="14" />
         <eqStatus tgt="DEF" value="35" />
         <eqStatus tgt="SPD" value="-20" />
@@ -1181,183 +1181,183 @@ THE SOFTWARE.
         <eqStatus tgt="AVO" value="-0.20" />
         <eqStatus tgt="CUT_P" value="+0.55" />
         <disassembly>
-            <material name="”ç" num="2"/>
-            <material name="–Ø•Ð" num="2"/>
-            <material name="“S•Ð" num="4"/>
-            <material name="‡‹à" num="1"/>
+            <material name="çš®" num="2"/>
+            <material name="æœ¨ç‰‡" num="2"/>
+            <material name="é‰„ç‰‡" num="4"/>
+            <material name="åˆé‡‘" num="1"/>
         </disassembly>
     </item>
 
-    <!--’ÊíUŒ‚ -->
+    <!--é€šå¸¸æ”»æ’ƒ -->
 	
-    <attack name="‚±‚Ô‚µ" desc="‰£‚è‚©‚©‚é" term="˜r–¢‘•”õ" area="24" waitTime="48" sound="’ÊíUŒ‚">
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-20" p="0.75" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" animationMoveType="TGT"/>
+    <attack name="ã“ã¶ã—" desc="æ®´ã‚Šã‹ã‹ã‚‹" term="è…•æœªè£…å‚™" area="24" waitTime="48" sound="é€šå¸¸æ”»æ’ƒ">
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-20" p="0.75" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" animationMoveType="TGT"/>
     </attack>
-    <attack name="Œ•UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="Œ•‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-40" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="å‰£æ”»æ’ƒ" desc="æ­¦å™¨ã«ã‚ˆã‚‹é€šå¸¸æ”»æ’ƒ" term="å‰£è£…å‚™" area="24" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-40" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="‹øŽh‚µ" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="Œ•‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-26" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="ä¸²åˆºã—" desc="æ­¦å™¨ã«ã‚ˆã‚‹é€šå¸¸æ”»æ’ƒ" term="å‰£è£…å‚™" area="24" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-26" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="’ZŒ•UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="’ZŒ•‘•”õ" area="16" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="çŸ­å‰£æ”»æ’ƒ" desc="æ­¦å™¨ã«ã‚ˆã‚‹é€šå¸¸æ”»æ’ƒ" term="çŸ­å‰£è£…å‚™" area="16" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="ƒXƒ^ƒu" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="’ZŒ•‘•”õ" area="16" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="ã‚¹ã‚¿ãƒ–" desc="æ­¦å™¨ã«ã‚ˆã‚‹é€šå¸¸æ”»æ’ƒ" term="çŸ­å‰£è£…å‚™" area="16" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="~‚è‰º‚ë‚µ" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="‘åŒ•‘•”õ" area="32" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="é™ã‚Šä¸‹ã‚ã—" desc="æ­¦å™¨ã«ã‚ˆã‚‹é€šå¸¸æ”»æ’ƒ" term="å¤§å‰£è£…å‚™" area="32" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="‚Ô‚ñ‰ñ‚µ" desc="ˆÐ—Í‚Í’á‚¢‚ª–½’†‚µ‚â‚·‚¢" term="‘åŒ•‘•”õ" area="32" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="ã¶ã‚“å›žã—" desc="å¨åŠ›ã¯ä½Žã„ãŒå‘½ä¸­ã—ã‚„ã™ã„" term="å¤§å‰£è£…å‚™" area="32" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="“ËŒ•UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="“ËŒ•‘•”õ" area="22" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="çªå‰£æ”»æ’ƒ" desc="æ­¦å™¨ã«ã‚ˆã‚‹é€šå¸¸æ”»æ’ƒ" term="çªå‰£è£…å‚™" area="22" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="ŠZ‚Ç‚¨‚µ" desc="–hŒä—Í–³Ž‹" term="“ËŒ•‘•”õ" area="22" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.50" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="éŽ§ã©ãŠã—" desc="é˜²å¾¡åŠ›ç„¡è¦–" term="çªå‰£è£…å‚™" area="22" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.50" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="ŒU¾Ø‚è" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="“‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="è¢ˆè£Ÿåˆ‡ã‚Š" desc="æ­¦å™¨ã«ã‚ˆã‚‹é€šå¸¸æ”»æ’ƒ" term="åˆ€è£…å‚™" area="24" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="•‚ÅØ‚è" desc="–½’†‚µ‚â‚·‚¢" term="“‘•”õ" area="20" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-8" p="0.99" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="æ’«ã§åˆ‡ã‚Š" desc="å‘½ä¸­ã—ã‚„ã™ã„" term="åˆ€è£…å‚™" area="20" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-8" p="0.99" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="Žh‚µž‚Ý" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="“‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-8" p="0.99" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="åˆºã—è¾¼ã¿" desc="æ­¦å™¨ã«ã‚ˆã‚‹é€šå¸¸æ”»æ’ƒ" term="åˆ€è£…å‚™" area="24" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-8" p="0.99" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="‘„UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="‘„‘•”õ" area="36" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="æ§æ”»æ’ƒ" desc="æ­¦å™¨ã«ã‚ˆã‚‹é€šå¸¸æ”»æ’ƒ" term="æ§è£…å‚™" area="36" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="‘å—§‰ñ" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="‘„‘•”õ" area="36" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="å¤§ç«‹å›ž" desc="æ­¦å™¨ã«ã‚ˆã‚‹é€šå¸¸æ”»æ’ƒ" term="æ§è£…å‚™" area="36" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="‚ƒoƒbƒVƒ…" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="‚E’ZŒ•‘•”õ" area="19" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="ç›¾ãƒãƒƒã‚·ãƒ¥" desc="æ­¦å™¨ã«ã‚ˆã‚‹é€šå¸¸æ”»æ’ƒ" term="ç›¾ãƒ»çŸ­å‰£è£…å‚™" area="19" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-10" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="Ø‚è‚Â‚¯" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="‚E’ZŒ•‘•”õ" area="16" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-14" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="åˆ‡ã‚Šã¤ã‘" desc="æ­¦å™¨ã«ã‚ˆã‚‹é€šå¸¸æ”»æ’ƒ" term="ç›¾ãƒ»çŸ­å‰£è£…å‚™" area="16" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-14" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="ƒƒCƒXUŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="ƒƒCƒX‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚"  animationMoveType="TGT">
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-22" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="ãƒ¡ã‚¤ã‚¹æ”»æ’ƒ" desc="æ­¦å™¨ã«ã‚ˆã‚‹é€šå¸¸æ”»æ’ƒ" term="ãƒ¡ã‚¤ã‚¹è£…å‚™" area="24" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ"  animationMoveType="TGT">
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-22" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="“ª•”‹­‘Å" desc="’á–½’†A‚Šm—¦‚Å‹Câ" term="ƒƒCƒX‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚"  animationMoveType="TGT">
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-16" p="0.45" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
-        <battleEvent tt="ONE_ENEMY" pt="ADD_CONDITION" tgtName="SWOON" p="0.33" attr="IMPACT" animation="’ÊíUŒ‚" />
+    <attack name="é ­éƒ¨å¼·æ‰“" desc="ä½Žå‘½ä¸­ã€é«˜ç¢ºçŽ‡ã§æ°—çµ¶" term="ãƒ¡ã‚¤ã‚¹è£…å‚™" area="24" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ"  animationMoveType="TGT">
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-16" p="0.45" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
+        <battleEvent tt="ONE_ENEMY" pt="ADD_CONDITION" tgtName="SWOON" p="0.33" attr="IMPACT" animation="é€šå¸¸æ”»æ’ƒ" />
     </attack>
-    <attack name="‹|ŽËŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="‹|‘•”õ" area="236" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="å¼“å°„æ’ƒ" desc="æ­¦å™¨ã«ã‚ˆã‚‹é€šå¸¸æ”»æ’ƒ" term="å¼“è£…å‚™" area="236" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="–îŽh" desc="–î‚É‚æ‚é‹ßÚUŒ‚" term="‹|‘•”õ" area="23" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="çŸ¢åˆº" desc="çŸ¢ã«ã‚ˆã‚‹è¿‘æŽ¥æ”»æ’ƒ" term="å¼“è£…å‚™" area="23" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="“Å–îŽËŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="“Å‹|‘•”õ" area="236" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
-        <battleEvent tt="TEAM_ENEMY" pt="ADD_CONDITION" tgtName="POISON" attr="C_POISON" p="0.75" animation="’ÊíUŒ‚" />
+    <attack name="æ¯’çŸ¢å°„æ’ƒ" desc="æ­¦å™¨ã«ã‚ˆã‚‹é€šå¸¸æ”»æ’ƒ" term="æ¯’å¼“è£…å‚™" area="236" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
+        <battleEvent tt="TEAM_ENEMY" pt="ADD_CONDITION" tgtName="POISON" attr="C_POISON" p="0.75" animation="é€šå¸¸æ”»æ’ƒ" />
     </attack>
-    <attack name="œWŽËŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="œW‘•”õ" area="197" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="å¼©å°„æ’ƒ" desc="æ­¦å™¨ã«ã‚ˆã‚‹é€šå¸¸æ”»æ’ƒ" term="å¼©è£…å‚™" area="197" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="eŽËŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="e‘•”õ" area="172" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="éŠƒå°„æ’ƒ" desc="æ­¦å™¨ã«ã‚ˆã‚‹é€šå¸¸æ”»æ’ƒ" term="éŠƒè£…å‚™" area="172" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="eŒ•UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="e‘•”õ,eŒ••t‚«" area="32" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="éŠƒå‰£æ”»æ’ƒ" desc="æ­¦å™¨ã«ã‚ˆã‚‹é€šå¸¸æ”»æ’ƒ" term="éŠƒè£…å‚™,éŠƒå‰£ä»˜ã" area="32" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="e°UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="e‘•”õ" area="32" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-6" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="éŠƒåºŠæ”»æ’ƒ" desc="æ­¦å™¨ã«ã‚ˆã‚‹é€šå¸¸æ”»æ’ƒ" term="éŠƒè£…å‚™" area="32" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-6" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="•ÚUŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="•Ú‘•”õ" area="32" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="éž­æ”»æ’ƒ" desc="æ­¦å™¨ã«ã‚ˆã‚‹é€šå¸¸æ”»æ’ƒ" term="éž­è£…å‚™" area="32" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="ñUŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="ñ‘•”õ" area="24" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="æ–æ”»æ’ƒ" desc="æ­¦å™¨ã«ã‚ˆã‚‹é€šå¸¸æ”»æ’ƒ" term="æ–è£…å‚™" area="24" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="Š™UŒ‚" desc="•Ší‚É‚æ‚é’ÊíUŒ‚" term="Š™‘•”õ" area="20" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="éŽŒæ”»æ’ƒ" desc="æ­¦å™¨ã«ã‚ˆã‚‹é€šå¸¸æ”»æ’ƒ" term="éŽŒè£…å‚™" area="20" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
-    <attack name="ŽñŽë‚è" desc="–½’†—¦‚Í’á‚¢‚ª‚Ü‚ê‚É‘¦Ž€‚ª”­¶" term="Š™‘•”õ" area="20" waitTime="60" sound="’ÊíUŒ‚" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="TGT"/>
+    <attack name="é¦–ç‹©ã‚Š" desc="å‘½ä¸­çŽ‡ã¯ä½Žã„ãŒã¾ã‚Œã«å³æ­»ãŒç™ºç”Ÿ" term="éŽŒè£…å‚™" area="20" waitTime="60" sound="é€šå¸¸æ”»æ’ƒ" >
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="TGT"/>
     </attack>
 
 
-    <!-- –‚–@Ží—Þ -->
+    <!-- é­”æ³•ç¨®é¡ž -->
     <!--
-    <magic name="ƒtƒ@ƒCƒAƒ{ƒ‹ƒg" desc="‰Š–‚–@‚ÌŠî‘b“I‚ÈpŽ®‚¾" area="128" term="‰Î‰Š‚Ì‘•Û—L" waitTime="70" sound="’ÊíUŒ‚">
-            <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" value="-30" attr="FLAME" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="USER_TO_TGT_8"/>
+    <magic name="ãƒ•ã‚¡ã‚¤ã‚¢ãƒœãƒ«ãƒˆ" desc="ç‚Žé­”æ³•ã®åŸºç¤Žçš„ãªè¡“å¼ã " area="128" term="ç«ç‚Žã®æ›¸ä¿æœ‰" waitTime="70" sound="é€šå¸¸æ”»æ’ƒ">
+            <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" value="-30" attr="FLAME" p="1" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="USER_TO_TGT_8"/>
             <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT" />
     </magic>
 
-    <magic name="“V’n—‹–Â" desc="‹CÛ–‚–@‚É•ª—Þ‚³‚ê‚é‚à‚Ì‚ÅAâ‘å‚È—‹‚ðŒÄ‚Ñ‹N‚±‚·" spellTime="2" area="256" term="‰Î‰Š‚Ì‘•Û—L" waitTime="90" sound="’ÊíUŒ‚">
-            <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-60" attr="THNDER" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" amt="USER_TO_TGT_8" />
+    <magic name="å¤©åœ°é›·é³´" desc="æ°—è±¡é­”æ³•ã«åˆ†é¡žã•ã‚Œã‚‹ã‚‚ã®ã§ã€çµ¶å¤§ãªé›·ã‚’å‘¼ã³èµ·ã“ã™" spellTime="2" area="256" term="ç«ç‚Žã®æ›¸ä¿æœ‰" waitTime="90" sound="é€šå¸¸æ”»æ’ƒ">
+            <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-60" attr="THNDER" p="1" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" amt="USER_TO_TGT_8" />
             <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-15" attr="NONE" p="1" dct="DIRECT"/>
     </magic>
 
-    <magic name="¶–½‰ñ•œ" desc="¶–½‚Ì_”é‚É‚æ‚è‘Ì—Í‚ð‰ñ•œ‚·‚é" fieldUse="true" spellTime="1" area="128" term="‰Î‰Š‚Ì‘•Û—L" waitTime="80" sound="’ÊíUŒ‚">
-            <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="+15" attr="MYSTERY" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
+    <magic name="ç”Ÿå‘½å›žå¾©" desc="ç”Ÿå‘½ã®ç¥žç§˜ã«ã‚ˆã‚Šä½“åŠ›ã‚’å›žå¾©ã™ã‚‹" fieldUse="true" spellTime="1" area="128" term="ç«ç‚Žã®æ›¸ä¿æœ‰" waitTime="80" sound="é€šå¸¸æ”»æ’ƒ">
+            <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="+15" attr="MYSTERY" p="1" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" />
             <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-15" attr="NONE" p="1" dct="DIRECT" />
-            <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="+15" attr="MYSTERY" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
+            <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="+15" attr="MYSTERY" p="1" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" />
             <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-15" attr="NONE" p="1" dct="DIRECT" />
     </magic>
 
-    <magic name="ƒGƒAƒXƒ‰ƒbƒVƒ…" desc="‚·‚é‚Ç‚¢^‹ó”g‚É‚æ‚è“G‚ðØ‚è—ô‚­" spellTime="5" area="128" waitTime="80" sound="’ÊíUŒ‚">
-            <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-15" attr="CHOP" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
-            <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-15" attr="AIR" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
+    <magic name="ã‚¨ã‚¢ã‚¹ãƒ©ãƒƒã‚·ãƒ¥" desc="ã™ã‚‹ã©ã„çœŸç©ºæ³¢ã«ã‚ˆã‚Šæ•µã‚’åˆ‡ã‚Šè£‚ã" spellTime="5" area="128" waitTime="80" sound="é€šå¸¸æ”»æ’ƒ">
+            <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-15" attr="CHOP" p="1" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" />
+            <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-15" attr="AIR" p="1" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" />
             <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
     -->	
-    <magic name="”j‰óŒõü" desc="‚·‚×‚Ä‚ðÁ–Å‚³‚¹‚é‘å–‚–@‚¾B" term="–‚p‚Ì‘u”j‰óŒõüvŠŽ,–‚pŽg—p‰Â”\" spellTime="1" area="880" waitTime="80" sound="’ÊíUŒ‚">
-        <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-64" attr="LIGHT" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
+    <magic name="ç ´å£Šå…‰ç·š" desc="ã™ã¹ã¦ã‚’æ¶ˆæ»…ã•ã›ã‚‹å¤§é­”æ³•ã ã€‚" term="é­”è¡“ã®æ›¸ã€Œç ´å£Šå…‰ç·šã€æ‰€æŒ,é­”è¡“ä½¿ç”¨å¯èƒ½" spellTime="1" area="880" waitTime="80" sound="é€šå¸¸æ”»æ’ƒ">
+        <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-64" attr="LIGHT" p="1" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" />
         <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
         <battleEvent tt="SELF" pt="STATUS" tgtName="SAN" value="-20" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-    <magic name="˜B‹à•¨Ž¿˜B¬" desc="˜B‹à•¨Ž¿‚ð˜B¬‚µ‚Ä“G‚É•t’…‚³‚¹‚éB" term="–‚p‚Ì‘u˜B‹à–‚–@‚PvŠŽ,–‚pŽg—p‰Â”\" spellTime="5" area="380" waitTime="80" sound="’ÊíUŒ‚">
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" value="-32" attr="ALCHEMY" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
-        <battleEvent tt="ONE_ENEMY" pt="ADD_CONDITION" tgtName="GOLDY" attr="ALCHEMY" p="0.1" animation="’ÊíUŒ‚" />
+    <magic name="éŒ¬é‡‘ç‰©è³ªéŒ¬æˆ" desc="éŒ¬é‡‘ç‰©è³ªã‚’éŒ¬æˆã—ã¦æ•µã«ä»˜ç€ã•ã›ã‚‹ã€‚" term="é­”è¡“ã®æ›¸ã€ŒéŒ¬é‡‘é­”æ³•ï¼‘ã€æ‰€æŒ,é­”è¡“ä½¿ç”¨å¯èƒ½" spellTime="5" area="380" waitTime="80" sound="é€šå¸¸æ”»æ’ƒ">
+        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" value="-32" attr="ALCHEMY" p="1" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" />
+        <battleEvent tt="ONE_ENEMY" pt="ADD_CONDITION" tgtName="GOLDY" attr="ALCHEMY" p="0.1" animation="é€šå¸¸æ”»æ’ƒ" />
         <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-    <magic name="˜B‹à”š”­" desc="˜B¬‚µ‚½˜AŒg•¨Ž¿‚ð”š”j‚·‚éB" term="–‚p‚Ì‘u˜B‹à–‚–@‚PvŠŽ,–‚pŽg—p‰Â”\" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="-16" attr="ALCHEMY" p="1" dct="USE_DAMAGE_CALC" animation="’ÊíUŒ‚" />
-        <battleEvent tt="ALL" pt="ADD_CONDITION" tgtName="GOLDY" p="0.01" attr="ALCHEMY" animation="’ÊíUŒ‚" />
+    <magic name="éŒ¬é‡‘çˆ†ç™º" desc="éŒ¬æˆã—ãŸé€£æºç‰©è³ªã‚’çˆ†ç ´ã™ã‚‹ã€‚" term="é­”è¡“ã®æ›¸ã€ŒéŒ¬é‡‘é­”æ³•ï¼‘ã€æ‰€æŒ,é­”è¡“ä½¿ç”¨å¯èƒ½" spellTime="5" area="240" waitTime="80" sound="é€šå¸¸æ”»æ’ƒ">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="-16" attr="ALCHEMY" p="1" dct="USE_DAMAGE_CALC" animation="é€šå¸¸æ”»æ’ƒ" />
+        <battleEvent tt="ALL" pt="ADD_CONDITION" tgtName="GOLDY" p="0.01" attr="ALCHEMY" animation="é€šå¸¸æ”»æ’ƒ" />
         <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
     
     <!--
-    <magic name="ƒeƒXƒg–‚–@ƒoƒgƒ‹ALL" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B/–¡•ûˆêl‚Ì‘Ì—Í‚ð‚í‚¸‚©‚É‰ñ•œ‚·‚éB" term="ðŒ‚È‚µ" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+    <magic name="ãƒ†ã‚¹ãƒˆé­”æ³•ãƒãƒˆãƒ«ALL" desc="ãƒ†ã‚¹ãƒˆç”¨ã®é­”æ³•ã ã€‚/å‘³æ–¹ä¸€äººã®ä½“åŠ›ã‚’ã‚ãšã‹ã«å›žå¾©ã™ã‚‹ã€‚" term="æ¡ä»¶ãªã—" spellTime="5" area="240" waitTime="80" sound="é€šå¸¸æ”»æ’ƒ">
+        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="é€šå¸¸æ”»æ’ƒ" />
         <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-    <magic name="ƒeƒXƒg–‚–@ƒtƒB[ƒ‹ƒhALL" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B/–¡•ûˆêl‚Ì‘Ì—Í‚ð‚í‚¸‚©‚É‰ñ•œ‚·‚éB" term="ðŒ‚È‚µ"  sound="’ÊíUŒ‚">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+    <magic name="ãƒ†ã‚¹ãƒˆé­”æ³•ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ALL" desc="ãƒ†ã‚¹ãƒˆç”¨ã®é­”æ³•ã ã€‚/å‘³æ–¹ä¸€äººã®ä½“åŠ›ã‚’ã‚ãšã‹ã«å›žå¾©ã™ã‚‹ã€‚" term="æ¡ä»¶ãªã—"  sound="é€šå¸¸æ”»æ’ƒ">       
+        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="é€šå¸¸æ”»æ’ƒ" />  
         <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-    <magic name="ƒeƒXƒg–‚–@ƒoƒgƒ‹OP" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B/–¡•ûˆêl‚Ì‘Ì—Í‚ð‚í‚¸‚©‚É‰ñ•œ‚·‚éB" term="–‚pŽg—p‰Â”\" spellTime="5" area="240" waitTime="80" sound="’ÊíUŒ‚">
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />
+    <magic name="ãƒ†ã‚¹ãƒˆé­”æ³•ãƒãƒˆãƒ«OP" desc="ãƒ†ã‚¹ãƒˆç”¨ã®é­”æ³•ã ã€‚/å‘³æ–¹ä¸€äººã®ä½“åŠ›ã‚’ã‚ãšã‹ã«å›žå¾©ã™ã‚‹ã€‚" term="é­”è¡“ä½¿ç”¨å¯èƒ½" spellTime="5" area="240" waitTime="80" sound="é€šå¸¸æ”»æ’ƒ">
+        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="é€šå¸¸æ”»æ’ƒ" />
         <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-    <magic name="ƒeƒXƒg–‚–@ƒtƒB[ƒ‹ƒhOP" desc="ƒeƒXƒg—p‚Ì–‚–@‚¾B/–¡•ûˆêl‚Ì‘Ì—Í‚ð‚í‚¸‚©‚É‰ñ•œ‚·‚éB" term="–‚pŽg—p‰Â”\" sound="’ÊíUŒ‚">       
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="’ÊíUŒ‚" />  
+    <magic name="ãƒ†ã‚¹ãƒˆé­”æ³•ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰OP" desc="ãƒ†ã‚¹ãƒˆç”¨ã®é­”æ³•ã ã€‚/å‘³æ–¹ä¸€äººã®ä½“åŠ›ã‚’ã‚ãšã‹ã«å›žå¾©ã™ã‚‹ã€‚" term="é­”è¡“ä½¿ç”¨å¯èƒ½" sound="é€šå¸¸æ”»æ’ƒ">       
+        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="é€šå¸¸æ”»æ’ƒ" />  
         <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
     -->
 	
-    <!--‚»‚Ì‘¼-->
-    <other name="“¦‘–" desc="“¦‘–‚·‚é" sort="5">
+    <!--ãã®ä»–-->
+    <other name="é€ƒèµ°" desc="é€ƒèµ°ã™ã‚‹" sort="5">
         <battleEvent tt="SELF" pt="NONE" p="1"/>
     </other>
-    <other name="ó‘Ô" desc="ƒXƒe[ƒ^ƒXŠm”F" sort="4">
+    <other name="çŠ¶æ…‹" desc="ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ç¢ºèª" sort="4">
         <battleEvent tt="SELF" pt="NONE" p="1"/>
     </other>
-    <other name="–hŒä" desc="–hŒä‚·‚é"  sort="2">
+    <other name="é˜²å¾¡" desc="é˜²å¾¡ã™ã‚‹"  sort="2">
         <battleEvent tt="SELF" pt="NONE" p="1"/>
     </other>
-    <other name="‰ñ”ð" desc="‰ñ”ð‚·‚é"  sort="3">
+    <other name="å›žé¿" desc="å›žé¿ã™ã‚‹"  sort="3">
         <battleEvent tt="SELF" pt="NONE" p="1"/>
     </other>
-    <other name="ˆÚ“®" desc="ˆÚ“®‚·‚é"  sort="0">
+    <other name="ç§»å‹•" desc="ç§»å‹•ã™ã‚‹"  sort="0">
         <battleEvent tt="SELF" pt="NONE" p="1"/>
     </other>
-    <other name="Šm’è" desc="Šm’è‚·‚é"  sort="1">
+    <other name="ç¢ºå®š" desc="ç¢ºå®šã™ã‚‹"  sort="1">
         <battleEvent tt="SELF" pt="NONE" p="1"/>
     </other>
 

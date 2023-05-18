@@ -185,20 +185,20 @@ public class ConsolCmd extends javax.swing.JFrame {
         setTitle("Fuzzy World");
         setAlwaysOnTop(true);
 
-        jLabel1.setText("FWƒ`[ƒgƒRƒ“ƒ\[ƒ‹");
+        jLabel1.setText("FWãƒãƒ¼ãƒˆã‚³ãƒ³ã‚½ãƒ¼ãƒ«");
 
         jCheckBox2.setText("GameSystem.debugMode");
 
         jCheckBox3.setText("FieldMap.debugMode");
 
-        jButton2.setText("”½‰f");
+        jButton2.setText("åæ˜ ");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
 
-        jButton14.setText("condition“¯Šú‚¸‚êƒ`ƒFƒbƒN");
+        jButton14.setText("conditionåŒæœŸãšã‚Œãƒã‚§ãƒƒã‚¯");
         jButton14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton14ActionPerformed(evt);
@@ -255,15 +255,15 @@ public class ConsolCmd extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("util", jLayeredPane1);
 
-        jLabel2.setText("ƒAƒCƒeƒ€–¼");
+        jLabel2.setText("ã‚¢ã‚¤ãƒ†ãƒ å");
 
-        jTextField1.setText("‚»‚Î’cq");
+        jTextField1.setText("ãã°å›£å­");
 
-        jLabel3.setText("ƒ^[ƒQƒbƒg");
+        jLabel3.setText("ã‚¿ãƒ¼ã‚²ãƒƒãƒˆ");
 
-        jCheckBox1.setText("‚Ä‚é”‚ÌÅ‘å’l‚ğ’´‚¦‚Ä’Ç‰Á");
+        jCheckBox1.setText("æŒã¦ã‚‹æ•°ã®æœ€å¤§å€¤ã‚’è¶…ãˆã¦è¿½åŠ ");
 
-        jButton1.setText("’Ç‰Á");
+        jButton1.setText("è¿½åŠ ");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -275,21 +275,21 @@ public class ConsolCmd extends javax.swing.JFrame {
         jTextArea1.setRows(5);
         jScrollPane1.setViewportView(jTextArea1);
 
-        jButton3.setText("Ú×");
+        jButton3.setText("è©³ç´°");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
             }
         });
 
-        jButton4.setText("ƒ‰ƒ“ƒ_ƒ€");
+        jButton4.setText("ãƒ©ãƒ³ãƒ€ãƒ ");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
             }
         });
 
-        jButton5.setText("ŒŸõ");
+        jButton5.setText("æ¤œç´¢");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
@@ -350,36 +350,36 @@ public class ConsolCmd extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("add item", jPanel1);
 
-        jLabel4.setText("–{‚Ì–¼‘O");
+        jLabel4.setText("æœ¬ã®åå‰");
 
-        jTextField2.setText("–‚p‚Ì‘u”j‰óŒõüv");
+        jTextField2.setText("é­”è¡“ã®æ›¸ã€Œç ´å£Šå…‰ç·šã€");
 
-        jLabel5.setText("ƒ^[ƒQƒbƒg");
+        jLabel5.setText("ã‚¿ãƒ¼ã‚²ãƒƒãƒˆ");
 
-        jCheckBox4.setText("‚Ä‚é”‚ÌÅ‘å’l‚ğ’´‚¦‚Ä’Ç‰Á");
+        jCheckBox4.setText("æŒã¦ã‚‹æ•°ã®æœ€å¤§å€¤ã‚’è¶…ãˆã¦è¿½åŠ ");
 
-        jButton6.setText("ŒŸõ");
+        jButton6.setText("æ¤œç´¢");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
             }
         });
 
-        jButton7.setText("Ú×");
+        jButton7.setText("è©³ç´°");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton7ActionPerformed(evt);
             }
         });
 
-        jButton8.setText("ƒ‰ƒ“ƒ_ƒ€");
+        jButton8.setText("ãƒ©ãƒ³ãƒ€ãƒ ");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton8ActionPerformed(evt);
             }
         });
 
-        jButton9.setText("’Ç‰Á");
+        jButton9.setText("è¿½åŠ ");
         jButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton9ActionPerformed(evt);
@@ -391,7 +391,7 @@ public class ConsolCmd extends javax.swing.JFrame {
         jTextArea2.setRows(5);
         jScrollPane2.setViewportView(jTextArea2);
 
-        jButton20.setText("descŒŸõ");
+        jButton20.setText("descæ¤œç´¢");
         jButton20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton20ActionPerformed(evt);
@@ -485,32 +485,32 @@ public class ConsolCmd extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("add book", jPanel2);
 
-        jLabel6.setText("ƒy[ƒW–¼");
+        jLabel6.setText("ãƒšãƒ¼ã‚¸å");
 
-        jTextField3.setText("ó‘ÔˆÙíŠÔ•ÏX‚Ìp®(Á–Å,-1)");
+        jTextField3.setText("çŠ¶æ…‹ç•°å¸¸æ™‚é–“å¤‰æ›´ã®è¡“å¼(æ¶ˆæ»…,-1)");
 
-        jButton10.setText("ŒŸõ");
+        jButton10.setText("æ¤œç´¢");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton10ActionPerformed(evt);
             }
         });
 
-        jButton11.setText("Ú×");
+        jButton11.setText("è©³ç´°");
         jButton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton11ActionPerformed(evt);
             }
         });
 
-        jButton12.setText("ƒ‰ƒ“ƒ_ƒ€");
+        jButton12.setText("ãƒ©ãƒ³ãƒ€ãƒ ");
         jButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton12ActionPerformed(evt);
             }
         });
 
-        jButton13.setText("’Ç‰Á");
+        jButton13.setText("è¿½åŠ ");
         jButton13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton13ActionPerformed(evt);
@@ -588,25 +588,25 @@ public class ConsolCmd extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("add page", jPanel3);
 
-        jLabel7.setText("‘fŞ‚Ì–¼‘O");
+        jLabel7.setText("ç´ æã®åå‰");
 
-        jTextField5.setText("‚â‚³‚®‚êƒƒ^ƒ‹‚Ì‚©‚¯‚ç");
+        jTextField5.setText("ã‚„ã•ãã‚Œãƒ¡ã‚¿ãƒ«ã®ã‹ã‘ã‚‰");
 
-        jButton15.setText("ŒŸõ");
+        jButton15.setText("æ¤œç´¢");
         jButton15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton15ActionPerformed(evt);
             }
         });
 
-        jButton16.setText("ƒ‰ƒ“ƒ_ƒ€");
+        jButton16.setText("ãƒ©ãƒ³ãƒ€ãƒ ");
         jButton16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton16ActionPerformed(evt);
             }
         });
 
-        jButton17.setText("’Ç‰Á");
+        jButton17.setText("è¿½åŠ ");
         jButton17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton17ActionPerformed(evt);
@@ -679,7 +679,7 @@ public class ConsolCmd extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("add material", jPanel4);
 
-        jButton18.setText("ˆê——");
+        jButton18.setText("ä¸€è¦§");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton18ActionPerformed(evt);
@@ -732,7 +732,7 @@ public class ConsolCmd extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("quest line", jPanel5);
 
-        jButton19.setText("ˆê——");
+        jButton19.setText("ä¸€è¦§");
         jButton19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton19ActionPerformed(evt);
@@ -784,7 +784,7 @@ public class ConsolCmd extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("flag", jPanel6);
 
-        jLabel8.setText("ƒ^[ƒQƒbƒg");
+        jLabel8.setText("ã‚¿ãƒ¼ã‚²ãƒƒãƒˆ");
 
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "STATUS", "ATTRIN" }));
         jComboBox4.addActionListener(new java.awt.event.ActionListener() {
@@ -801,7 +801,7 @@ public class ConsolCmd extends javax.swing.JFrame {
 
         jLabel9.setText("value");
 
-        jButton21.setText("ƒZƒbƒg");
+        jButton21.setText("ã‚»ãƒƒãƒˆ");
         jButton21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton21ActionPerformed(evt);
@@ -892,20 +892,20 @@ public class ConsolCmd extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 		// TODO add your handling code here:
 		if (!ItemStorage.getInstance().contains(jTextField1.getText().trim())) {
-			jTextArea1.setText(jTextArea1.getText() + "u" + jTextField1.getText().trim() + "v‚Æ‚¢‚¤ƒAƒCƒeƒ€‚Í‚È‚¢\r\n");
+			jTextArea1.setText(jTextArea1.getText() + "ã€Œ" + jTextField1.getText().trim() + "ã€ã¨ã„ã†ã‚¢ã‚¤ãƒ†ãƒ ã¯ãªã„\r\n");
 			return;
 		}
 		Item i = ItemStorage.getInstance().get(jTextField1.getText().trim());
 		int idx = jComboBox1.getSelectedIndex();
 		if (jCheckBox1.isSelected()) {
 			GameSystem.getInstance().getPartyStatus().get(idx).getItemBag().add(i);
-			jTextArea1.setText(jTextArea1.getText() + "u" + jTextField1.getText().trim() + "v‚ğu" + jComboBox1.getSelectedItem() + "v‚É’Ç‰Á‚µ‚½\r\n");
+			jTextArea1.setText(jTextArea1.getText() + "ã€Œ" + jTextField1.getText().trim() + "ã€ã‚’ã€Œ" + jComboBox1.getSelectedItem() + "ã€ã«è¿½åŠ ã—ãŸ\r\n");
 		} else {
 			if (GameSystem.getInstance().getPartyStatus().get(idx).getItemBag().canAdd()) {
 				GameSystem.getInstance().getPartyStatus().get(idx).getItemBag().add(i);
-				jTextArea1.setText(jTextArea1.getText() + "u" + jTextField1.getText().trim() + "v‚ğu" + jComboBox1.getSelectedItem() + "v‚É’Ç‰Á‚µ‚½\r\n");
+				jTextArea1.setText(jTextArea1.getText() + "ã€Œ" + jTextField1.getText().trim() + "ã€ã‚’ã€Œ" + jComboBox1.getSelectedItem() + "ã€ã«è¿½åŠ ã—ãŸ\r\n");
 			} else {
-				jTextArea1.setText(jTextArea1.getText() + "u" + jComboBox1.getSelectedItem() + "v‚Í‚±‚êˆÈã•¨‚ğ‚Ä‚È‚¢\r\n");
+				jTextArea1.setText(jTextArea1.getText() + "ã€Œ" + jComboBox1.getSelectedItem() + "ã€ã¯ã“ã‚Œä»¥ä¸Šç‰©ã‚’æŒã¦ãªã„\r\n");
 			}
 		}
     }//GEN-LAST:event_jButton1ActionPerformed
@@ -919,11 +919,11 @@ public class ConsolCmd extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
 		if (!ItemStorage.getInstance().contains(jTextField1.getText().trim())) {
-			jTextArea1.setText(jTextArea1.getText() + "u" + jTextField1.getText().trim() + "v‚Æ‚¢‚¤ƒAƒCƒeƒ€‚Í‚È‚¢\r\n");
+			jTextArea1.setText(jTextArea1.getText() + "ã€Œ" + jTextField1.getText().trim() + "ã€ã¨ã„ã†ã‚¢ã‚¤ãƒ†ãƒ ã¯ãªã„\r\n");
 			return;
 		}
 		Item i = ItemStorage.getInstance().get(jTextField1.getText().trim());
-		jTextArea1.setText(i.getName() + "‚ÌÚ×---------\r\n");
+		jTextArea1.setText(i.getName() + "ã®è©³ç´°---------\r\n");
 		jTextArea1.setText(jTextArea1.getText() + "DESC:" + i.getDesc() + "\r\n");
 		jTextArea1.setText(jTextArea1.getText() + "TYPE:" + i.getType() + "\r\n");
 		jTextArea1.setText(jTextArea1.getText() + "DCS:" + i.getDamageCalcStatusKey() + "\r\n");
@@ -946,7 +946,7 @@ public class ConsolCmd extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-		String s = jTextField1.getText().trim() + " ‚ªŠÜ‚Ü‚ê‚éƒAƒCƒeƒ€---------\r\n";
+		String s = jTextField1.getText().trim() + " ãŒå«ã¾ã‚Œã‚‹ã‚¢ã‚¤ãƒ†ãƒ ---------\r\n";
 		for (Item i : ItemStorage.getInstance()) {
 			if (i.getName().contains(jTextField1.getText().trim())) {
 				s += i.getName() + "\r\n";
@@ -956,7 +956,7 @@ public class ConsolCmd extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-		String s = jTextField2.getText().trim() + " ‚ªŠÜ‚Ü‚ê‚é–{--------\r\n";
+		String s = jTextField2.getText().trim() + " ãŒå«ã¾ã‚Œã‚‹æœ¬--------\r\n";
 		for (Book b : BookStorage.getInstance()) {
 			if (b.getName().contains(jTextField2.getText().trim())) {
 				s += b.getName() + "\r\n";
@@ -967,11 +967,11 @@ public class ConsolCmd extends javax.swing.JFrame {
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
 		if (!BookStorage.getInstance().contains(jTextField2.getText().trim())) {
-			jTextArea2.setText(jTextArea2.getText() + "u" + jTextField2.getText().trim() + "v‚Æ‚¢‚¤–{‚ÍƒXƒgƒŒ[ƒW‚É‚È‚¢\r\n");
+			jTextArea2.setText(jTextArea2.getText() + "ã€Œ" + jTextField2.getText().trim() + "ã€ã¨ã„ã†æœ¬ã¯ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¸ã«ãªã„\r\n");
 			return;
 		}
 		Book b = BookStorage.getInstance().get(jTextField2.getText().trim());
-		jTextArea2.setText(b.getName() + "‚ÌÚ×---------\r\n");
+		jTextArea2.setText(b.getName() + "ã®è©³ç´°---------\r\n");
 		jTextArea2.setText(jTextArea2.getText() + "DESC:" + b.getDesc() + "\r\n");
 		jTextArea2.setText(jTextArea2.getText() + b.getName() + "pages---\r\n");
 		for (BookPage p : b.getPages()) {
@@ -987,26 +987,26 @@ public class ConsolCmd extends javax.swing.JFrame {
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
 		if (!BookStorage.getInstance().contains(jTextField2.getText().trim())) {
-			jTextArea2.setText(jTextArea2.getText() + "u" + jTextField2.getText().trim() + "v‚Æ‚¢‚¤–{‚ÍƒXƒgƒŒ[ƒW‚É‚È‚¢\r\n");
+			jTextArea2.setText(jTextArea2.getText() + "ã€Œ" + jTextField2.getText().trim() + "ã€ã¨ã„ã†æœ¬ã¯ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¸ã«ãªã„\r\n");
 			return;
 		}
 		Book b = BookStorage.getInstance().get(jTextField2.getText().trim());
 		int idx = jComboBox2.getSelectedIndex();
 		if (jCheckBox2.isSelected()) {
 			GameSystem.getInstance().getPartyStatus().get(idx).getBookBag().add(b);
-			jTextArea2.setText(jTextArea2.getText() + "u" + jTextField2.getText().trim() + "v‚ğu" + jComboBox2.getSelectedItem() + "v‚É’Ç‰Á‚µ‚½\r\n");
+			jTextArea2.setText(jTextArea2.getText() + "ã€Œ" + jTextField2.getText().trim() + "ã€ã‚’ã€Œ" + jComboBox2.getSelectedItem() + "ã€ã«è¿½åŠ ã—ãŸ\r\n");
 		} else {
 			if (GameSystem.getInstance().getPartyStatus().get(idx).getBookBag().canAdd()) {
 				GameSystem.getInstance().getPartyStatus().get(idx).getBookBag().add(b);
-				jTextArea2.setText(jTextArea2.getText() + "u" + jTextField2.getText().trim() + "v‚ğu" + jComboBox2.getSelectedItem() + "v‚É’Ç‰Á‚µ‚½\r\n");
+				jTextArea2.setText(jTextArea2.getText() + "ã€Œ" + jTextField2.getText().trim() + "ã€ã‚’ã€Œ" + jComboBox2.getSelectedItem() + "ã€ã«è¿½åŠ ã—ãŸ\r\n");
 			} else {
-				jTextArea2.setText(jTextArea2.getText() + "u" + jComboBox2.getSelectedItem() + "v‚Í‚±‚êˆÈã–{‚ğ‚Ä‚È‚¢\r\n");
+				jTextArea2.setText(jTextArea2.getText() + "ã€Œ" + jComboBox2.getSelectedItem() + "ã€ã¯ã“ã‚Œä»¥ä¸Šæœ¬ã‚’æŒã¦ãªã„\r\n");
 			}
 		}
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-		String s = jTextField3.getText().trim() + " ‚ªŠÜ‚Ü‚ê‚éƒy[ƒW--------\r\n";
+		String s = jTextField3.getText().trim() + " ãŒå«ã¾ã‚Œã‚‹ãƒšãƒ¼ã‚¸--------\r\n";
 		for (BookPage p : BookPageStorage.getInstance()) {
 			if (p.getName().contains(jTextField3.getText().trim())) {
 				s += p.getName() + "\r\n";
@@ -1017,13 +1017,13 @@ public class ConsolCmd extends javax.swing.JFrame {
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
 		if (!BookPageStorage.getInstance().contains(jTextField3.getText().trim())) {
-			jTextArea3.setText(jTextArea3.getText() + "u" + jTextField3.getText().trim() + "v‚Æ‚¢‚¤ƒy[ƒW‚ÍƒXƒgƒŒ[ƒW‚É‚È‚¢\r\n");
+			jTextArea3.setText(jTextArea3.getText() + "ã€Œ" + jTextField3.getText().trim() + "ã€ã¨ã„ã†ãƒšãƒ¼ã‚¸ã¯ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¸ã«ãªã„\r\n");
 			return;
 		}
 		BookPage p = BookPageStorage.getInstance().get(jTextField3.getText().trim());
-		jTextArea3.setText(p.getName() + "‚ÌÚ×---------\r\n");
+		jTextArea3.setText(p.getName() + "ã®è©³ç´°---------\r\n");
 		jTextArea3.setText(jTextArea3.getText() + "DESC:" + p.getDesc() + "\r\n");
-		jTextArea3.setText(jTextArea3.getText() + p.getName() + "‚ğŠÜ‚Ş–{\r\n");
+		jTextArea3.setText(jTextArea3.getText() + p.getName() + "ã‚’å«ã‚€æœ¬\r\n");
 		for (Book b : BookStorage.getInstance()) {
 			if (b.getPages().contains(p)) {
 				jTextArea3.setText(jTextArea3.getText() + b.getName() + "\r\n");
@@ -1038,12 +1038,12 @@ public class ConsolCmd extends javax.swing.JFrame {
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
 		if (!BookPageStorage.getInstance().contains(jTextField3.getText().trim())) {
-			jTextArea3.setText(jTextArea3.getText() + "u" + jTextField3.getText().trim() + "v‚Æ‚¢‚¤–{‚ÍƒXƒgƒŒ[ƒW‚É‚È‚¢\r\n");
+			jTextArea3.setText(jTextArea3.getText() + "ã€Œ" + jTextField3.getText().trim() + "ã€ã¨ã„ã†æœ¬ã¯ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¸ã«ãªã„\r\n");
 			return;
 		}
 		BookPage p = BookPageStorage.getInstance().get(jTextField3.getText().trim());
 		GameSystem.getInstance().getBookPageBag().add(p);
-		jTextArea3.setText(jTextArea3.getText() + "u" + jTextField3.getText().trim() + "v‚ğ’Ç‰Á‚µ‚½\r\n");
+		jTextArea3.setText(jTextArea3.getText() + "ã€Œ" + jTextField3.getText().trim() + "ã€ã‚’è¿½åŠ ã—ãŸ\r\n");
     }//GEN-LAST:event_jButton13ActionPerformed
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
@@ -1083,22 +1083,22 @@ public class ConsolCmd extends javax.swing.JFrame {
 
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
 		if (!MaterialStorage.getInstance().contains(jTextField5.getText().trim())) {
-			jTextArea4.setText(jTextArea4.getText() + "u" + jTextField5.getText().trim() + "v‚Æ‚¢‚¤‘fŞ‚ÍƒXƒgƒŒ[ƒW‚É‚È‚¢\r\n");
+			jTextArea4.setText(jTextArea4.getText() + "ã€Œ" + jTextField5.getText().trim() + "ã€ã¨ã„ã†ç´ æã¯ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¸ã«ãªã„\r\n");
 		}
 		Material i = MaterialStorage.getInstance().get(jTextField5.getText().trim());
 		GameSystem.getInstance().getMaterialBag().add(i);
-		jTextArea4.setText(jTextArea4.getText() + "u" + jTextField5.getText().trim() + "v‚ğ’Ç‰Á‚µ‚½\r\n");
+		jTextArea4.setText(jTextArea4.getText() + "ã€Œ" + jTextField5.getText().trim() + "ã€ã‚’è¿½åŠ ã—ãŸ\r\n");
     }//GEN-LAST:event_jButton17ActionPerformed
 
     private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
-		jTextArea5.setText("“o˜^‚³‚ê‚Ä‚¢‚éƒNƒGƒXƒgƒ‰ƒCƒ“‚Ìˆê——----------------------------\r\n");
+		jTextArea5.setText("ç™»éŒ²ã•ã‚Œã¦ã„ã‚‹ã‚¯ã‚¨ã‚¹ãƒˆãƒ©ã‚¤ãƒ³ã®ä¸€è¦§----------------------------\r\n");
 		for (QuestLine q : QuestLineStorage.getInstance()) {
 			jTextArea5.setText(jTextArea5.getText() + q + "\r\n");
 		}
     }//GEN-LAST:event_jButton18ActionPerformed
 
     private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
-		jTextArea6.setText("“o˜^‚³‚ê‚Ä‚¢‚éƒtƒ‰ƒO‚Ìˆê——----------------------------\r\n");
+		jTextArea6.setText("ç™»éŒ²ã•ã‚Œã¦ã„ã‚‹ãƒ•ãƒ©ã‚°ã®ä¸€è¦§----------------------------\r\n");
 		for (FlagStorage fs : FlagStorageStorage.getInstance()) {
 			jTextArea6.setText(jTextArea6.getText() + "  " + fs.getName() + "\r\n");
 			for (Flag f : fs) {
@@ -1108,8 +1108,8 @@ public class ConsolCmd extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton19ActionPerformed
 
     private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
-		String s = jTextField2.getText().trim() + " ‚ªÚ×‚É"
-				+ "ŠÜ‚Ü‚ê‚é–{--------\r\n";
+		String s = jTextField2.getText().trim() + " ãŒè©³ç´°ã«"
+				+ "å«ã¾ã‚Œã‚‹æœ¬--------\r\n";
 		for (Book b : BookStorage.getInstance()) {
 			if (b.getDesc().contains(jTextField2.getText().trim())) {
 				s += b.getName() + "\r\n";
@@ -1164,7 +1164,7 @@ public class ConsolCmd extends javax.swing.JFrame {
 			AttributeValue v = s.getBaseAttrIn().get(jComboBox5.getSelectedItem().toString());
 			v.set(val);
 		}
-		jTextArea7.setText(jTextArea7.getText() + s.getName() + "‚ÌƒXƒe[ƒ^ƒX‚ğ•ÏX‚µ‚½" + "\r\n");
+		jTextArea7.setText(jTextArea7.getText() + s.getName() + "ã®ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ã‚’å¤‰æ›´ã—ãŸ" + "\r\n");
     }//GEN-LAST:event_jButton21ActionPerformed
 
 	/**

@@ -91,14 +91,14 @@ public class BattleLogic extends GameLogic {
 			BattleConfig.atkDefPercent = 0.25f;
 			BattleConfig.damageMul = 5f;
 
-			BattleConfig.weaponSlotName = "˜r";
+			BattleConfig.weaponSlotName = "è…•";
 
-			BattleConfig.ActionName.avoidance = "‰ñ”ğ";
-			BattleConfig.ActionName.escape = "“¦‘–";
-			BattleConfig.ActionName.defence = "–hŒä";
-			BattleConfig.ActionName.move = "ˆÚ“®";
-			BattleConfig.ActionName.commit = "Šm’è";
-			BattleConfig.ActionName.status = "ó‘Ô";
+			BattleConfig.ActionName.avoidance = "å›é¿";
+			BattleConfig.ActionName.escape = "é€ƒèµ°";
+			BattleConfig.ActionName.defence = "é˜²å¾¡";
+			BattleConfig.ActionName.move = "ç§»å‹•";
+			BattleConfig.ActionName.commit = "ç¢ºå®š";
+			BattleConfig.ActionName.status = "çŠ¶æ…‹";
 
 			BattleConfig.addUntargetConditionNames("DEAD");
 			BattleConfig.addUntargetConditionNames("DESTROY");
@@ -107,7 +107,7 @@ public class BattleLogic extends GameLogic {
 			BattleConfig.setVisibleStatus(Arrays.asList("HP", "MP", "SAN"));
 			BattleConfig.addWinLoseLogic(
 					(List<Status> party, List<Status> enemy) -> {
-						// ƒp[ƒeƒB‚ÌƒRƒ“ƒfƒBƒVƒ‡ƒ“‚ğŠm”F
+						// ãƒ‘ãƒ¼ãƒ†ã‚£ã®ã‚³ãƒ³ãƒ‡ã‚£ã‚·ãƒ§ãƒ³ã‚’ç¢ºèª
 						boolean lose = party.get(0).hasCondition("DEAD") || party.get(0).hasCondition("DESTROY");
 						if (lose) {
 							return BattleResult.LOSE;
@@ -122,9 +122,9 @@ public class BattleLogic extends GameLogic {
 						return BattleResult.NOT_YET;
 					}
 			);
-			choiceSound1 = SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load();
-			choiceSound2 = SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ2.wav").load();
-			playerOpeStart = SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Qƒoƒgƒ‹ƒ^[ƒ“ŠJn.wav").load();
+			choiceSound1 = SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load();
+			choiceSound2 = SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ2.wav").load();
+			playerOpeStart = SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿ãƒãƒˆãƒ«ã‚¿ãƒ¼ãƒ³é–‹å§‹.wav").load();
 			loaded = true;
 		}
 		playerMoveInitialLocation = null;
@@ -141,11 +141,11 @@ public class BattleLogic extends GameLogic {
 
 	@Override
 	public void update(GameTimeManager gtm, InputState is) {
-		//ƒeƒXƒg—pˆ—---------------------------------------------------------------
-		//ƒeƒXƒg—p‹Ù‹}’Eo‘•’u
+		//ãƒ†ã‚¹ãƒˆç”¨å‡¦ç†---------------------------------------------------------------
+		//ãƒ†ã‚¹ãƒˆç”¨ç·Šæ€¥è„±å‡ºè£…ç½®
 		if (GameSystem.isDebugMode()) {
 			if (is.isPressed(Keys.ESCAPE, InputType.SINGLE)) {
-				if (Dialog.yesOrNo("Šm”F", DialogIcon.QUESTION, I18N.translate("BATTLE_CLOSE")) == DialogOption.YES) {
+				if (Dialog.yesOrNo("ç¢ºèª", DialogIcon.QUESTION, I18N.translate("BATTLE_CLOSE")) == DialogOption.YES) {
 					battleSystem.setBattleResultValue(new BattleResultValues(BattleResult.WIN, 123, new ArrayList<>(), "FIELD"));
 					BattleResultValues result = GameSystem.getInstance().battleEnd();
 					gls.changeTo("FIELD");
@@ -158,24 +158,24 @@ public class BattleLogic extends GameLogic {
 		if (battleSystem.waitAction()) {
 			return;
 		}
-		//í‹µ}
+		//æˆ¦æ³å›³
 		if (is.isPressed(GamePadButton.LB, Keys.SHIFT, InputType.SINGLE)) {
 			battleSystem.switchShowMode();
 		}
-		//ƒ‚[ƒh•Êˆ—
+		//ãƒ¢ãƒ¼ãƒ‰åˆ¥å‡¦ç†
 		switch (battleSystem.getStage()) {
 			case STARTUP:
 			case INITIAL_MOVING:
-				//ˆ—‚È‚µ
+				//å‡¦ç†ãªã—
 				break;
 			case WAITING_EXEC_CMD:
-				cmd = battleSystem.execCmd();//EXEC_ACTION‚âCMDQSELECT‚É“ü‚é
+				cmd = battleSystem.execCmd();//EXEC_ACTIONã‚„CMDï¼¿SELECTã«å…¥ã‚‹
 				if (cmd.isUserOperation()) {
 					playerOpeStart.stopAndPlay();
 				}
 				break;
 			case CMD_SELECT:
-				//CMDW‚©‚çƒRƒ}ƒ“ƒh‚ğ‘I‘ğ
+				//CMDWã‹ã‚‰ã‚³ãƒãƒ³ãƒ‰ã‚’é¸æŠ
 				if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
 					choiceSound2.stopAndPlay();
 					battleSystem.prevCmdType();
@@ -197,7 +197,7 @@ public class BattleLogic extends GameLogic {
 				}
 				break;
 			case ESCAPING:
-				//ˆ—‚È‚µiˆÚ“®Š®—¹‚ÉƒXƒe[ƒWXV‚³‚ê‚é
+				//å‡¦ç†ãªã—ï¼ˆç§»å‹•å®Œäº†æ™‚ã«ã‚¹ãƒ†ãƒ¼ã‚¸æ›´æ–°ã•ã‚Œã‚‹
 				break;
 			case ITEM_CHOICE_USE:
 				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
@@ -274,14 +274,14 @@ public class BattleLogic extends GameLogic {
 					playerMoveInitialLocation = battleSystem.getCurrentCmd().getSpriteCenter();
 				}
 				BattleCharacter playerChara = battleSystem.getCurrentCmd().getUser();
-				//ˆÚ“®ŒãUŒ‚‚Ì”»’è
+				//ç§»å‹•å¾Œæ”»æ’ƒã®åˆ¤å®š
 				int remMovPoint = (int) (playerChara.getStatus().getEffectedStatus().get("MOV").getValue()
 						- Math.abs(playerMoveInitialLocation.distance(battleSystem.getCurrentCmd().getSpriteCenter())));
-				//cƒ|ƒCƒ“ƒg‚ªÅ‘å’l‚Ì”¼•ªˆÈ‰º‚Ìê‡‚ÍUŒ‚‚Å‚«‚È‚¢
+				//æ®‹ãƒã‚¤ãƒ³ãƒˆãŒæœ€å¤§å€¤ã®åŠåˆ†ä»¥ä¸‹ã®å ´åˆã¯æ”»æ’ƒã§ããªã„
 				battleSystem.setMoveAction(remMovPoint > playerChara.getStatus().getEffectedStatus().get("MOV").getValue() / 2,
 						remMovPoint);
 
-				//Šm’èAƒLƒƒƒ“ƒZƒ‹‚Ìˆ—
+				//ç¢ºå®šã€ã‚­ãƒ£ãƒ³ã‚»ãƒ«ã®å‡¦ç†
 				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
 					choiceSound1.stopAndPlay();
 					playerMoveInitialLocation = null;
@@ -312,31 +312,31 @@ public class BattleLogic extends GameLogic {
 					v.setAngle(FourDirection.SOUTH);
 					v.setSpeed(VehicleStorage.getInstance().getCurrentVehicle().getSpeed());
 				}
-				//ˆÚ“®—Ê”»’èEEE0‚Ìê‡ˆÚ“®Às‚µ‚È‚¢
+				//ç§»å‹•é‡åˆ¤å®šãƒ»ãƒ»ãƒ»0ã®å ´åˆç§»å‹•å®Ÿè¡Œã—ãªã„
 				if (v.getSpeed() == 0) {
 					return;
 				}
 				Point2D.Float nextFrameLocation = playerChara.getSprite().simulateMoveCenterLocation(v);
-				//—Ìˆæ”»’è
+				//é ˜åŸŸåˆ¤å®š
 				if (!battleSystem.getBattleFieldSystem().getBattleFieldAllArea().contains(nextFrameLocation)) {
 					return;
 				}
-				//áŠQ•¨”»’è
+				//éšœå®³ç‰©åˆ¤å®š
 				if (battleSystem.getBattleFieldSystem().hitObstacle(nextFrameLocation)) {
 					return;
 				}
-				//‹——£”»’è
+				//è·é›¢åˆ¤å®š
 				if (playerChara.getStatus().getEffectedStatus().get("MOV").getValue() <= playerMoveInitialLocation.distance(nextFrameLocation)) {
 					return;
 				}
-				//ˆÚ“®Às
+				//ç§»å‹•å®Ÿè¡Œ
 				playerChara.getSprite().setVector(v);
 				playerChara.getSprite().move();
 				playerChara.to(playerChara.getSprite().getVector().round());
 
 				break;
 			case AFTER_MOVE_CMD_SELECT:
-				//ˆÚ“®ŒãƒRƒ}ƒ“ƒh‘I‘ğ
+				//ç§»å‹•å¾Œã‚³ãƒãƒ³ãƒ‰é¸æŠ
 				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
 					choiceSound1.stopAndPlay();
 					battleSystem.prevCmdSelect();
@@ -352,23 +352,23 @@ public class BattleLogic extends GameLogic {
 				break;
 			case EXECUTING_ACTION:
 			case EXECUTING_MOVE:
-				//ˆ—‚È‚µiƒXƒe[ƒW‚ª©“®XV‚³‚ê‚é‚Ü‚Å‘Ò‚Âj
+				//å‡¦ç†ãªã—ï¼ˆã‚¹ãƒ†ãƒ¼ã‚¸ãŒè‡ªå‹•æ›´æ–°ã•ã‚Œã‚‹ã¾ã§å¾…ã¤ï¼‰
 				break;
 			case BATLE_END:
 				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
 					choiceSound1.stopAndPlay();
 					BattleResultValues result = GameSystem.getInstance().battleEnd();
 					if (result.getBattleResult() == BattleResult.WIN) {
-						//TODO:ƒhƒƒbƒvƒAƒCƒeƒ€AŒoŒ±’l‚Ì•ª”zˆ—‚±‚±
+						//TODO:ãƒ‰ãƒ­ãƒƒãƒ—ã‚¢ã‚¤ãƒ†ãƒ ã€çµŒé¨“å€¤ã®åˆ†é…å‡¦ç†ã“ã“
 
 					}
 					if(result.getBattleResult() == BattleResult.LOSE){
-						//•‰‚¯‚½‚Ìˆ—‚±‚±
+						//è² ã‘ãŸæ™‚ã®å‡¦ç†ã“ã“
 					}
 					gls.changeTo(result.getNextLogicName());
 					return;
 				}
-				//TODO:ƒoƒgƒ‹ƒGƒ“ƒhˆ—
+				//TODO:ãƒãƒˆãƒ«ã‚¨ãƒ³ãƒ‰å‡¦ç†
 				break;
 			default:
 				throw new AssertionError("undefined stage:" + battleSystem.getStage());

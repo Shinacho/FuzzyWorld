@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -24,16 +24,16 @@ THE SOFTWARE.
 -->
 <KinugasaBF>
 
-	<!-- ƒTƒCƒY‚Í‰æ‘œ‚ÌƒTƒCƒYBŽ©“®“I‚ÉMG”{‚É‚³‚ê‚é -->
-	<obstacle name="–Ø" image="resource/data/image/tree.png" w="32" h="32" mg="2"/>
-	<obstacle name="Î" image="resource/data/image/stone.png" w="16" h="16" mg="2"/>
+	<!-- ã‚µã‚¤ã‚ºã¯ç”»åƒã®ã‚µã‚¤ã‚ºã€‚è‡ªå‹•çš„ã«MGå€ã«ã•ã‚Œã‚‹ -->
+	<obstacle name="æœ¨" image="resource/data/image/tree.png" w="32" h="32" mg="2"/>
+	<obstacle name="çŸ³" image="resource/data/image/stone.png" w="16" h="16" mg="2"/>
 	
 	
-	<bf chipAttrName="•½’n" image="resource/data/image/bf1.png" default="true" obstacleMax="8" obstacleName="Î,–Ø"/>
-	<bf chipAttrName="–Ø°" image="resource/data/image/bf1.png" obstacleMax="0" obstacleName="Î,–Ø"/>
-	<bf chipAttrName="X—Ñ" image="resource/data/image/bf_mori.png" obstacleMax="12" obstacleName="Î,–Ø"/>
-	<bf chipAttrName="åM" image="resource/data/image/bf_mori.png" obstacleMax="6" obstacleName="Î,–Ø"/>
-	<bf chipAttrName="‘Œ´" image="resource/data/image/bf_mori.png" obstacleMax="4" obstacleName="Î,–Ø"/>
+	<bf chipAttrName="å¹³åœ°" image="resource/data/image/bf1.png" default="true" obstacleMax="8" obstacleName="çŸ³,æœ¨"/>
+	<bf chipAttrName="æœ¨åºŠ" image="resource/data/image/bf1.png" obstacleMax="0" obstacleName="çŸ³,æœ¨"/>
+	<bf chipAttrName="æ£®æž—" image="resource/data/image/bf_mori.png" obstacleMax="12" obstacleName="çŸ³,æœ¨"/>
+	<bf chipAttrName="è—ª" image="resource/data/image/bf_mori.png" obstacleMax="6" obstacleName="çŸ³,æœ¨"/>
+	<bf chipAttrName="è‰åŽŸ" image="resource/data/image/bf_mori.png" obstacleMax="4" obstacleName="çŸ³,æœ¨"/>
 	
 	
 	

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -25,8 +25,8 @@ THE SOFTWARE.
 <kinugasaFielEventScript undead="true">
 
 	<event order="100" fet="MANUAL_EVENT" stName="" tgtName="" value="" term="" />
-	<event order="110" fet="SHOW_MESSAGE_DIRECT" stName="" tgtName="" value="!PC1‚Í’I‚ð’²‚×‚½" term="" />
-	<event order="123" fet="SHOW_MESSAGE_DIRECT" stName="" tgtName="" value="‹™‚Ì“¹‹ï‚È‚Ç‚ª’u‚¢‚Ä‚ ‚éB—L—p‚È•¨‚Í‚È‚É‚àŒ©‚Â‚©‚ç‚È‚©‚Á‚½B" term="" />
+	<event order="110" fet="SHOW_MESSAGE_DIRECT" stName="" tgtName="" value="!PC1ã¯æ£šã‚’èª¿ã¹ãŸ" term="" />
+	<event order="123" fet="SHOW_MESSAGE_DIRECT" stName="" tgtName="" value="æ¼ã®é“å…·ãªã©ãŒç½®ã„ã¦ã‚ã‚‹ã€‚æœ‰ç”¨ãªç‰©ã¯ãªã«ã‚‚è¦‹ã¤ã‹ã‚‰ãªã‹ã£ãŸã€‚" term="" />
 	<event order="400" fet="END_AND_RESET_EVENT" stName="" tgtName="" value="" term="" />
 
 </kinugasaFielEventScript>

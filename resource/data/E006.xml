@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -27,18 +27,18 @@ THE SOFTWARE.
 
 	
 	<event order="100" fet="MANUAL_EVENT" stName="" tgtName="" value="" term=""/>
-	<event order="110" fet="SHOW_MESSAGE_DIRECT" stName="" tgtName="" value="!PC1‚Í’I‚ð’²‚×‚½" term=""/>
+	<event order="110" fet="SHOW_MESSAGE_DIRECT" stName="" tgtName="" value="!PC1ã¯æ£šã‚’èª¿ã¹ãŸ" term=""/>
 	
 	
 	<event order="115" fet="IF" stName="" tgtName="" value="" term="TOMAGISHUT_E06_FLG_NOT_EXISTS"/>
-		<event order="120" fet="SHOW_MESSAGE_DIRECT" stName="" tgtName="" value="‹™Žt‚Ì”ñíH‚ðŒ©‚Â‚¯‚½I" term=""/>
+		<event order="120" fet="SHOW_MESSAGE_DIRECT" stName="" tgtName="" value="æ¼å¸«ã®éžå¸¸é£Ÿã‚’è¦‹ã¤ã‘ãŸï¼" term=""/>
 		<event order="130" fet="SET_FLG_TMP" stName="ITEMS" tgtName="TOMAGISHUT_E06" value="ON" term=""/> 
-		<event order="150" fet="GET_ITEM" stName="" tgtName="" value="‹™Žt‚Ì”ñíH" term=""/>
-		<!-- ƒAƒCƒeƒ€‚ªŽæ“¾‚³‚ê‚½ê‡Acommit,reset,endAŽæ“¾‚³‚ê‚È‚©‚Á‚½ê‡Areset,end-->
+		<event order="150" fet="GET_ITEM" stName="" tgtName="" value="æ¼å¸«ã®éžå¸¸é£Ÿ" term=""/>
+		<!-- ã‚¢ã‚¤ãƒ†ãƒ ãŒå–å¾—ã•ã‚ŒãŸå ´åˆã€commit,reset,endã€å–å¾—ã•ã‚Œãªã‹ã£ãŸå ´åˆã€reset,end-->
 	<event order="170" fet="END_IF" stName="" tgtName="" value="" term=""/>
 
 
-	<event order="205" fet="SHOW_MESSAGE_DIRECT" stName="" tgtName="" value="‹™‚Ì“¹‹ï‚È‚Ç‚ª’u‚¢‚Ä‚ ‚éB—L—p‚È•¨‚Í‚È‚É‚àŒ©‚Â‚©‚ç‚È‚©‚Á‚½B" term=""/>
+	<event order="205" fet="SHOW_MESSAGE_DIRECT" stName="" tgtName="" value="æ¼ã®é“å…·ãªã©ãŒç½®ã„ã¦ã‚ã‚‹ã€‚æœ‰ç”¨ãªç‰©ã¯ãªã«ã‚‚è¦‹ã¤ã‹ã‚‰ãªã‹ã£ãŸã€‚" term=""/>
 	<event order="400" fet="END_AND_RESET_EVENT" stName="" tgtName="" value="" term=""/>
 
 </kinugasaFielEventScript>

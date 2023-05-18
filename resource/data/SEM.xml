@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -23,8 +23,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 -->
 <KinugasaEnemyMap>	
-	<!--name‚Íd•¡‚µ‚È‚¢“à•”“I‚È“G‚Ì–¼Ì‚ÅAvisibleName‚Íd•¡‰Â”\‚È•\Ž¦‚³‚ê‚é–¼‘O-->
-	<enemy name="–ì“" visibleName="–ì“" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE" deadSound="SE/Œø‰Ê‰¹Q“GÁ–Å.wav">
+	<!--nameã¯é‡è¤‡ã—ãªã„å†…éƒ¨çš„ãªæ•µã®åç§°ã§ã€visibleNameã¯é‡è¤‡å¯èƒ½ãªè¡¨ç¤ºã•ã‚Œã‚‹åå‰-->
+	<enemy name="é‡Žç›—" visibleName="é‡Žç›—" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE" deadSound="SE/åŠ¹æžœéŸ³ï¼¿æ•µæ¶ˆæ»….wav">
 		<status name="HP" value="80" min="0" max="80"/>
 		<status name="MOV" value="70" min="0" max="75" />
 		<status name="EXP" value="100"  min="0" max="200"/>
@@ -42,17 +42,17 @@ THE SOFTWARE.
 		<status name="M_DEF" value="1" min="0" max="99" />
 		<status name="ATTR" value="0" min="0" max="0"/>
 		<status name="CAN_MAGIC" value="1" min="1" max="1"/>
-		<eqip name="ƒoƒbƒNƒ‰[‚Æ|‚ÌƒVƒ‡[ƒgƒ\[ƒh" />
-		<item name="ƒƒCƒ‹ƒhƒXƒe[ƒL" />
-		<item name="ƒƒCƒ‹ƒhƒXƒe[ƒL" />
-		<item name="”žÄ’‘" />
+		<eqip name="ãƒãƒƒã‚¯ãƒ©ãƒ¼ã¨é‹¼ã®ã‚·ãƒ§ãƒ¼ãƒˆã‚½ãƒ¼ãƒ‰" />
+		<item name="ãƒ¯ã‚¤ãƒ«ãƒ‰ã‚¹ãƒ†ãƒ¼ã‚­" />
+		<item name="ãƒ¯ã‚¤ãƒ«ãƒ‰ã‚¹ãƒ†ãƒ¼ã‚­" />
+		<item name="éº¦ç„¼é…Ž" />
 		<attrIn name="STAB" value="0.5"/>
-		<action name="‚ƒoƒbƒVƒ…" />
-		<action name="Ø‚è‚Â‚¯" />
-		<action name="ˆÚ“®"/>
+		<action name="ç›¾ãƒãƒƒã‚·ãƒ¥" />
+		<action name="åˆ‡ã‚Šã¤ã‘" />
+		<action name="ç§»å‹•"/>
 	</enemy>
 
-	<enemy name="“®‚©‚È‚¢–ì“" visibleName="“®‚©‚È‚¢–ì“" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE" deadSound="SE/Œø‰Ê‰¹Q“GÁ–Å.wav">
+	<enemy name="å‹•ã‹ãªã„é‡Žç›—" visibleName="å‹•ã‹ãªã„é‡Žç›—" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE" deadSound="SE/åŠ¹æžœéŸ³ï¼¿æ•µæ¶ˆæ»….wav">
 		<status name="HP" value="80" min="0" max="80"/>
 		<status name="MOV" value="40" min="0" max="75" />
 		<status name="EXP" value="120" min="0" max="200"/>
@@ -70,13 +70,13 @@ THE SOFTWARE.
 		<status name="M_DEF" value="1" min="0" max="99" />
 		<status name="ATTR" value="0" min="0" max="0"/>
 		<status name="CAN_MAGIC" value="1" min="1" max="1"/>
-		<item name="ƒƒCƒ‹ƒhƒXƒe[ƒL" />
-		<item name="”žÄ’‘" />
-		<action name="‚±‚Ô‚µ" />
-		<action name="–hŒä" />
+		<item name="ãƒ¯ã‚¤ãƒ«ãƒ‰ã‚¹ãƒ†ãƒ¼ã‚­" />
+		<item name="éº¦ç„¼é…Ž" />
+		<action name="ã“ã¶ã—" />
+		<action name="é˜²å¾¡" />
 	</enemy>
 	
-	<enemy name="“®‚©‚È‚¢–‚pŽt" visibleName="“®‚©‚È‚¢–‚pŽt" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE" deadSound="SE/Œø‰Ê‰¹Q“GÁ–Å.wav">
+	<enemy name="å‹•ã‹ãªã„é­”è¡“å¸«" visibleName="å‹•ã‹ãªã„é­”è¡“å¸«" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE" deadSound="SE/åŠ¹æžœéŸ³ï¼¿æ•µæ¶ˆæ»….wav">
 		<status name="HP" value="80" min="0" max="80"/>
 		<status name="MP" value="80" min="0" max="80"/>
 		<status name="MOV" value="40" min="0" max="75" />
@@ -95,14 +95,14 @@ THE SOFTWARE.
 		<status name="M_DEF" value="1" min="0" max="99" />
 		<status name="ATTR" value="0" min="0" max="0"/>
 		<status name="CAN_MAGIC" value="1" min="1" max="1"/>
-		<item name="ƒƒCƒ‹ƒhƒXƒe[ƒL" />
-		<item name="”žÄ’‘" />
-		<action name="‚±‚Ô‚µ" />
-		<action name="˜B‹à•¨Ž¿˜B¬"/>
-		<book name="–‚p‚Ì‘u˜B‹à–‚–@‚Pv" />
+		<item name="ãƒ¯ã‚¤ãƒ«ãƒ‰ã‚¹ãƒ†ãƒ¼ã‚­" />
+		<item name="éº¦ç„¼é…Ž" />
+		<action name="ã“ã¶ã—" />
+		<action name="éŒ¬é‡‘ç‰©è³ªéŒ¬æˆ"/>
+		<book name="é­”è¡“ã®æ›¸ã€ŒéŒ¬é‡‘é­”æ³•ï¼‘ã€" />
 	</enemy>
 	
-	<enemy name="MP‚ª‘«‚è‚È‚¢–‚pŽt" visibleName="MP‚ª‘«‚è‚È‚¢–‚pŽt" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE" deadSound="SE/Œø‰Ê‰¹Q“GÁ–Å.wav">
+	<enemy name="MPãŒè¶³ã‚Šãªã„é­”è¡“å¸«" visibleName="MPãŒè¶³ã‚Šãªã„é­”è¡“å¸«" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE" deadSound="SE/åŠ¹æžœéŸ³ï¼¿æ•µæ¶ˆæ»….wav">
 		<status name="HP" value="80" min="0" max="80"/>
 		<status name="MP" value="2" min="0" max="1"/>
 		<status name="MOV" value="40" min="0" max="75" />
@@ -121,11 +121,11 @@ THE SOFTWARE.
 		<status name="M_DEF" value="1" min="0" max="99" />
 		<status name="ATTR" value="0" min="0" max="0"/>
 		<status name="CAN_MAGIC" value="1" min="1" max="1"/>
-		<action name="‚±‚Ô‚µ" />
-		<action name="”j‰óŒõü"/>
-		<book name="–‚p‚Ì‘u”j‰óŒõüv" />
+		<action name="ã“ã¶ã—" />
+		<action name="ç ´å£Šå…‰ç·š"/>
+		<book name="é­”è¡“ã®æ›¸ã€Œç ´å£Šå…‰ç·šã€" />
 	</enemy>	
-	<enemy name="“®‚­–‚pŽt" visibleName="“®‚­–‚pŽt" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE" deadSound="SE/Œø‰Ê‰¹Q“GÁ–Å.wav">
+	<enemy name="å‹•ãé­”è¡“å¸«" visibleName="å‹•ãé­”è¡“å¸«" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE" deadSound="SE/åŠ¹æžœéŸ³ï¼¿æ•µæ¶ˆæ»….wav">
 		<status name="HP" value="80" min="0" max="80"/>
 		<status name="MP" value="80" min="0" max="80"/>
 		<status name="MOV" value="40" min="0" max="75" />
@@ -144,14 +144,14 @@ THE SOFTWARE.
 		<status name="M_DEF" value="1" min="0" max="99" />
 		<status name="ATTR" value="0" min="0" max="0"/>
 		<status name="CAN_MAGIC" value="1" min="1" max="1"/>
-		<action name="ˆÚ“®"/>
-		<action name="‚±‚Ô‚µ" />
-		<action name="”j‰óŒõü"/>
-		<book name="–‚p‚Ì‘u”j‰óŒõüv" />
+		<action name="ç§»å‹•"/>
+		<action name="ã“ã¶ã—" />
+		<action name="ç ´å£Šå…‰ç·š"/>
+		<book name="é­”è¡“ã®æ›¸ã€Œç ´å£Šå…‰ç·šã€" />
 	</enemy>
 	
 	
-	<enemy name="ŽR‘¯" visibleName="ŽR‘¯" image="resource/data/image/M2.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE" deadSound="SE/Œø‰Ê‰¹Q“GÁ–Å.wav">
+	<enemy name="å±±è³Š" visibleName="å±±è³Š" image="resource/data/image/M2.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE" deadSound="SE/åŠ¹æžœéŸ³ï¼¿æ•µæ¶ˆæ»….wav">
 		<status name="HP" value="128" min="0" max="128"/>
 		<status name="MOV" value="40" min="0" max="95" />
 		<status name="EXP" value="150"  min="0" max="200"/>
@@ -169,17 +169,17 @@ THE SOFTWARE.
 		<status name="M_DEF" value="1" min="0" max="99" />
 		<status name="ATTR" value="0" min="0" max="0"/>
 		<status name="CAN_MAGIC" value="1" min="1" max="1"/>
-		<item name="ƒƒCƒ‹ƒhƒXƒe[ƒL" />
-		<item name="”žÄ’‘" />
-		<item name="ƒƒCƒ‹ƒhƒXƒe[ƒL" />
-		<item name="”žÄ’‘" />
-		<eqip name="“S‚ÌŒ•" />
-		<action name="ˆÚ“®"/>
-		<action name="Œ•UŒ‚"/>
-		<action name="‹øŽh‚µ"/>
+		<item name="ãƒ¯ã‚¤ãƒ«ãƒ‰ã‚¹ãƒ†ãƒ¼ã‚­" />
+		<item name="éº¦ç„¼é…Ž" />
+		<item name="ãƒ¯ã‚¤ãƒ«ãƒ‰ã‚¹ãƒ†ãƒ¼ã‚­" />
+		<item name="éº¦ç„¼é…Ž" />
+		<eqip name="é‰„ã®å‰£" />
+		<action name="ç§»å‹•"/>
+		<action name="å‰£æ”»æ’ƒ"/>
+		<action name="ä¸²åˆºã—"/>
 	</enemy>
 
-	<enemy name="ˆ«Š¿" visibleName="ˆ«Š¿" image="resource/data/image/M3.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE" deadSound="SE/Œø‰Ê‰¹Q“GÁ–Å.wav">
+	<enemy name="æ‚ªæ¼¢" visibleName="æ‚ªæ¼¢" image="resource/data/image/M3.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE" deadSound="SE/åŠ¹æžœéŸ³ï¼¿æ•µæ¶ˆæ»….wav">
 		<status name="HP" value="250" min="0" max="250"/>
 		<status name="MOV" value="110" min="0" max="110" />
 		<status name="EXP" value="200"  min="0" max="200"/>
@@ -197,13 +197,13 @@ THE SOFTWARE.
 		<status name="M_DEF" value="1" min="0" max="99" />
 		<status name="ATTR" value="0" min="0" max="0"/>
 		<status name="CAN_MAGIC" value="1" min="1" max="1"/>
-		<action name="‚±‚Ô‚µ"/>
+		<action name="ã“ã¶ã—"/>
 		<!--
-		<dropItem name="Î‚±‚ë" n="1" p="1"/>
-		<eqip name="|‚ÌŒ•" />
-		<action name="ŒU¾Ø‚è"/>
-		<action name="‰ñ“]Ø‚è" />
-		<action name="ˆÚ“®" />
+		<dropItem name="çŸ³ã“ã‚" n="1" p="1"/>
+		<eqip name="é‹¼ã®å‰£" />
+		<action name="è¢ˆè£Ÿåˆ‡ã‚Š"/>
+		<action name="å›žè»¢åˆ‡ã‚Š" />
+		<action name="ç§»å‹•" />
 		-->
 	</enemy>
 	

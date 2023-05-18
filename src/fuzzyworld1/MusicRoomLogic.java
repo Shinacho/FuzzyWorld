@@ -79,7 +79,7 @@ public class MusicRoomLogic extends GameLogic {
 				(int) (Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 48 * 2),
 				SimpleMessageWindowModel.maxLine);
 		comment = new MessageWindow(240, 280, 442, 140, new SimpleMessageWindowModel(""));
-		//ƒRƒƒ“ƒgƒ}ƒbƒv‚Ìƒ[ƒh
+		//ã‚³ãƒ¡ãƒ³ãƒˆãƒãƒƒãƒ—ã®ãƒ­ãƒ¼ãƒ‰
 		CSVFile file = new CSVFile("resource/bgm/bgmComment.csv", Charset.forName("UTF-8")).load();
 		for (String[] l : file.getData()) {
 			if (l.length == 2) {

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -23,7 +23,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 -->
 
-<kinugasaPlayerCharacter name="ƒgƒ}ƒM" race="HUMAN">
+<kinugasaPlayerCharacter name="ãƒˆãƒžã‚®" race="HUMAN">
 
 	<spritesheet image="resource/data/image/c3.png" tc="14" w="32" h="32" ny="32" sy="0" ey="64" wy="96" />
 	
@@ -99,14 +99,14 @@ THE SOFTWARE.
 
 
 	
-	<eqip name="Œ˜–Ø‚ÌŽRñ" />
-	<eqip name="s¤l‚Ì•ž" />
-	<eqip name="–Ø–È‚ÌŽè@" />
-	<eqip name="‘—š" />
+	<eqip name="å …æœ¨ã®å±±æ–" />
+	<eqip name="è¡Œå•†äººã®æœ" />
+	<eqip name="æœ¨ç¶¿ã®æ‰‹æ‹­" />
+	<eqip name="è‰å±¥" />
 	
 	
-	<item name="‚»‚Î’cŽq" />
-	<item name="‚»‚Î’cŽq" />
+	<item name="ãã°å›£å­" />
+	<item name="ãã°å›£å­" />
 	
 	
 	

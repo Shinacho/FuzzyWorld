@@ -84,30 +84,30 @@ public class OPLogic extends GameLogic {
 		waitTime1 = new FrameTimeCounter(180);
 		stage = 4;
 		nameMap = new HashMap<>();
-		nameMap.put("‚ ", "‚ ‚È‚½‚ÍEEE‚Æ‚Ä‚à‹}‚¢‚Å‚¢‚é‚æ‚¤‚Å‚·‚ËB");
-		nameMap.put("‚ ‚ ‚ ‚ ", "‚ ‚È‚½‚ÍEEE‹}‚¢‚Å‚¢‚é‚æ‚¤‚Å‚·‚ËB");
-		nameMap.put("a", "‚ ‚È‚½‚ÍEEE‚Æ‚Ä‚à‹}‚¢‚Å‚¢‚é‚æ‚¤‚Å‚·‚ËB");
-		nameMap.put("aaaa", "‚ ‚È‚½‚ÍEEE‹}‚¢‚Å‚¢‚é‚æ‚¤‚Å‚·‚ËB");
-		nameMap.put("‚Æ‚ñ‚Ê‚ç", "‚ ‚È‚½‚ÍEEE“`à‚Ì—EÒ‚Ì‚æ‚¤‚Å‚·‚ËB");
-		nameMap.put("ƒgƒ“ƒkƒ‰", "‚ ‚È‚½‚ÍEEE“`à‚Ì—EÒ‚Ì‚æ‚¤‚Å‚·‚ËB");
-		nameMap.put("‚Ù‚à", "‚ ‚È‚½‚ÍEEE“ü—Í‘¬“x‚ğl—¶‚µ‚½‚Ì‚Å‚·‚©HB‚Í‚¢A‚æ[‚¢ƒXƒ^[ƒgB");
-		nameMap.put("‚Ù‚æ", "‚ ‚È‚½‚ÍEEE“ü—Í‘¬“x‚ğl—¶‚µ‚½‚Ì‚Å‚·‚©HB‚Í‚¢A‚æ[‚¢ƒXƒ^[ƒgB");
-		nameMap.put("homo", "‚ ‚È‚½‚ÍEEE“ü—Í‘¬“x‚ğl—¶‚µ‚½‚Ì‚Å‚·‚©HB‚Í‚¢A‚æ[‚¢ƒXƒ^[ƒgB");
-		nameMap.put("hoyo", "‚ ‚È‚½‚ÍEEE“ü—Í‘¬“x‚ğl—¶‚µ‚½‚Ì‚Å‚·‚©HB‚Í‚¢A‚æ[‚¢ƒXƒ^[ƒgB");
-		nameMap.put("‚Ì‚ñ‚¯", "‚ ‚È‚½‚ÍEEE‚Ì‚ñ‚¯‚Å‚Í‚ ‚è‚Ü‚¹‚ñ‚ËH‚Í‚¢A‚æ[‚¢ƒXƒ^[ƒgB");
-		nameMap.put("ƒTƒ}ƒ‹", "‚ ‚È‚½‚ÍEEE“r’†‚Åô‚í‚ê‚»‚¤‚È–¼‘O‚Å‚·‚ËB");
-		nameMap.put("‚·‚¯‚³‚ñ", "‚ ‚È‚½‚ÍEEE“r’†‚Åô‚í‚ê‚»‚¤‚È–¼‘O‚Å‚·‚ËB");
-		nameMap.put("‚à‚å‚à‚Æ", "‚ ‚È‚½‚ÍEEEƒŒƒxƒ‹48‚Å‚·‚©Hc”O‚È‚ª‚ç‚»‚Ì‚æ‚¤‚È‹@”\‚Í‚ ‚è‚Ü‚¹‚ñB");
-		nameMap.put("ƒŠƒ“ƒN", "‚ ‚È‚½‚ÍEEE‚Ì—EÒ‚Å‚·‚©H");
-		nameMap.put("hoge", "‚ ‚È‚½‚ÍEEEƒeƒXƒgƒ†[ƒU‚Å‚·‚©H");
-		nameMap.put("piyo", "‚ ‚È‚½‚ÍEEEƒeƒXƒgƒ†[ƒU‚Å‚·‚©H");
-		nameMap.put("fuga", "‚ ‚È‚½‚ÍEEEƒeƒXƒgƒ†[ƒU‚Å‚·‚©H");
-		nameMap.put("‚Ù‚°", "‚ ‚È‚½‚ÍEEEƒeƒXƒgƒ†[ƒU‚Å‚·‚©H");
-		nameMap.put("‚Ò‚æ", "‚ ‚È‚½‚ÍEEEƒeƒXƒgƒ†[ƒU‚Å‚·‚©H");
-		nameMap.put("‚Ó‚ª", "‚ ‚È‚½‚ÍEEEƒeƒXƒgƒ†[ƒU‚Å‚·‚©H");
-		nameMap.put("‚»‚Î", "‚ ‚È‚½‚ÍEEE‚¨‹¼”‘åD‚«‚Å‚·‚ËI");
-		nameMap.put("‹¼”", "‚ ‚È‚½‚ÍEEE‚¨‹¼”‘åD‚«‚Å‚·‚ËI");
-		nameMap.put("soba", "‚ ‚È‚½‚ÍEEE‚¨‹¼”‘åD‚«‚Å‚·‚ËI");
+		nameMap.put("ã‚", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»ã¨ã¦ã‚‚æ€¥ã„ã§ã„ã‚‹ã‚ˆã†ã§ã™ã­ã€‚");
+		nameMap.put("ã‚ã‚ã‚ã‚", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»æ€¥ã„ã§ã„ã‚‹ã‚ˆã†ã§ã™ã­ã€‚");
+		nameMap.put("a", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»ã¨ã¦ã‚‚æ€¥ã„ã§ã„ã‚‹ã‚ˆã†ã§ã™ã­ã€‚");
+		nameMap.put("aaaa", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»æ€¥ã„ã§ã„ã‚‹ã‚ˆã†ã§ã™ã­ã€‚");
+		nameMap.put("ã¨ã‚“ã¬ã‚‰", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»ä¼èª¬ã®å‹‡è€…ã®ã‚ˆã†ã§ã™ã­ã€‚");
+		nameMap.put("ãƒˆãƒ³ãƒŒãƒ©", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»ä¼èª¬ã®å‹‡è€…ã®ã‚ˆã†ã§ã™ã­ã€‚");
+		nameMap.put("ã»ã‚‚", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»å…¥åŠ›é€Ÿåº¦ã‚’è€ƒæ…®ã—ãŸã®ã§ã™ã‹ï¼Ÿã€‚ã¯ã„ã€ã‚ˆãƒ¼ã„ã‚¹ã‚¿ãƒ¼ãƒˆã€‚");
+		nameMap.put("ã»ã‚ˆ", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»å…¥åŠ›é€Ÿåº¦ã‚’è€ƒæ…®ã—ãŸã®ã§ã™ã‹ï¼Ÿã€‚ã¯ã„ã€ã‚ˆãƒ¼ã„ã‚¹ã‚¿ãƒ¼ãƒˆã€‚");
+		nameMap.put("homo", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»å…¥åŠ›é€Ÿåº¦ã‚’è€ƒæ…®ã—ãŸã®ã§ã™ã‹ï¼Ÿã€‚ã¯ã„ã€ã‚ˆãƒ¼ã„ã‚¹ã‚¿ãƒ¼ãƒˆã€‚");
+		nameMap.put("hoyo", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»å…¥åŠ›é€Ÿåº¦ã‚’è€ƒæ…®ã—ãŸã®ã§ã™ã‹ï¼Ÿã€‚ã¯ã„ã€ã‚ˆãƒ¼ã„ã‚¹ã‚¿ãƒ¼ãƒˆã€‚");
+		nameMap.put("ã®ã‚“ã‘", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»ã®ã‚“ã‘ã§ã¯ã‚ã‚Šã¾ã›ã‚“ã­ï¼Ÿã¯ã„ã€ã‚ˆãƒ¼ã„ã‚¹ã‚¿ãƒ¼ãƒˆã€‚");
+		nameMap.put("ã‚µãƒãƒ«", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»é€”ä¸­ã§å‘ªã‚ã‚Œãã†ãªåå‰ã§ã™ã­ã€‚");
+		nameMap.put("ã™ã‘ã•ã‚“", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»é€”ä¸­ã§å‘ªã‚ã‚Œãã†ãªåå‰ã§ã™ã­ã€‚");
+		nameMap.put("ã‚‚ã‚‡ã‚‚ã¨", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»ãƒ¬ãƒ™ãƒ«48ã§ã™ã‹ï¼Ÿæ®‹å¿µãªãŒã‚‰ãã®ã‚ˆã†ãªæ©Ÿèƒ½ã¯ã‚ã‚Šã¾ã›ã‚“ã€‚");
+		nameMap.put("ãƒªãƒ³ã‚¯", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»æ™‚ã®å‹‡è€…ã§ã™ã‹ï¼Ÿ");
+		nameMap.put("hoge", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»ãƒ†ã‚¹ãƒˆãƒ¦ãƒ¼ã‚¶ã§ã™ã‹ï¼Ÿ");
+		nameMap.put("piyo", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»ãƒ†ã‚¹ãƒˆãƒ¦ãƒ¼ã‚¶ã§ã™ã‹ï¼Ÿ");
+		nameMap.put("fuga", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»ãƒ†ã‚¹ãƒˆãƒ¦ãƒ¼ã‚¶ã§ã™ã‹ï¼Ÿ");
+		nameMap.put("ã»ã’", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»ãƒ†ã‚¹ãƒˆãƒ¦ãƒ¼ã‚¶ã§ã™ã‹ï¼Ÿ");
+		nameMap.put("ã´ã‚ˆ", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»ãƒ†ã‚¹ãƒˆãƒ¦ãƒ¼ã‚¶ã§ã™ã‹ï¼Ÿ");
+		nameMap.put("ãµãŒ", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»ãƒ†ã‚¹ãƒˆãƒ¦ãƒ¼ã‚¶ã§ã™ã‹ï¼Ÿ");
+		nameMap.put("ãã°", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»ãŠè•éº¦å¤§å¥½ãã§ã™ã­ï¼");
+		nameMap.put("è•éº¦", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»ãŠè•éº¦å¤§å¥½ãã§ã™ã­ï¼");
+		nameMap.put("soba", "ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»ãŠè•éº¦å¤§å¥½ãã§ã™ã­ï¼");
 
 	}
 
@@ -147,26 +147,26 @@ public class OPLogic extends GameLogic {
 				break;
 			case 8:
 				if (GameSystem.isDebugMode()) {
-					kinugasa.game.GameLog.printInfo("FUZZY WORLD ‚Ö‚æ‚¤‚±‚», " + Const.Player.pc1Name);
+					kinugasa.game.GameLog.printInfo("FUZZY WORLD ã¸ã‚ˆã†ã“ã, " + Const.Player.pc1Name);
 					if (nameMap.containsKey(Const.Player.pc1Name)) {
 						kinugasa.game.GameLog.printInfo(nameMap.get(Const.Player.pc1Name));
 					}
 					if ("qwerty".contains(Const.Player.pc1Name)) {
-						kinugasa.game.GameLog.printInfo("‚ ‚È‚½‚ÍEEE‚È‚©‚È‚©“K“–‚Èl‚Ì‚æ‚¤‚Å‚·‚ËB");
+						kinugasa.game.GameLog.printInfo("ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»ãªã‹ãªã‹é©å½“ãªäººã®ã‚ˆã†ã§ã™ã­ã€‚");
 					}
 					if ("asdfgh".contains(Const.Player.pc1Name)) {
-						kinugasa.game.GameLog.printInfo("‚ ‚È‚½‚ÍEEE‚È‚©‚È‚©“K“–‚Èl‚Ì‚æ‚¤‚Å‚·‚ËB");
+						kinugasa.game.GameLog.printInfo("ã‚ãªãŸã¯ãƒ»ãƒ»ãƒ»ãªã‹ãªã‹é©å½“ãªäººã®ã‚ˆã†ã§ã™ã­ã€‚");
 					}
 					if (Const.Player.pc1Name.contains("<") || Const.Player.pc1Name.contains(">")) {
-						kinugasa.game.GameLog.printInfo("ƒtƒtƒtEEE‚»‚Ì‚æ‚¤‚È–¼‘O‚É‚µ‚Ä‚àA‚±‚Ì¢ŠE‚Í‰ó‚ê‚Ü‚¹‚ñB–³‘Ê‚Å‚·‚æB");
+						kinugasa.game.GameLog.printInfo("ãƒ•ãƒ•ãƒ•ãƒ»ãƒ»ãƒ»ãã®ã‚ˆã†ãªåå‰ã«ã—ã¦ã‚‚ã€ã“ã®ä¸–ç•Œã¯å£Šã‚Œã¾ã›ã‚“ã€‚ç„¡é§„ã§ã™ã‚ˆã€‚");
 					}
 					if (Const.Player.pc1Name.contains("\\") || Const.Player.pc1Name.contains("\"")) {
-						kinugasa.game.GameLog.printInfo("ƒtƒtƒtEEE‚»‚Ì‚æ‚¤‚È–¼‘O‚É‚µ‚Ä‚àA‚±‚Ì¢ŠE‚Í‰ó‚ê‚Ü‚¹‚ñB–³‘Ê‚Å‚·‚æB");
+						kinugasa.game.GameLog.printInfo("ãƒ•ãƒ•ãƒ•ãƒ»ãƒ»ãƒ»ãã®ã‚ˆã†ãªåå‰ã«ã—ã¦ã‚‚ã€ã“ã®ä¸–ç•Œã¯å£Šã‚Œã¾ã›ã‚“ã€‚ç„¡é§„ã§ã™ã‚ˆã€‚");
 					}
-					kinugasa.game.GameLog.printInfo("‚ ‚È‚½‚É‚ÍEEE‚±‚ÌƒƒbƒZ[ƒW‚ªŒ©‚¦‚Ä‚¢‚é‚Ì‚Å‚·‚ËB");
-					kinugasa.game.GameLog.printInfo("‚ ‚È‚½‚Ìg–½‚Í‹à‚Ì‰~”Õ‚É‚µ‚½‚ª‚Á‚Ä¢ŠE‚ğ³‚·‚±‚ÆB");
-					kinugasa.game.GameLog.printInfo("‰äX‚É³‚µ‚¢¢ŠE‚ğ‚à‚½‚ç‚µ‚Ä‚­‚¾‚³‚¢"
-							+ "B‹à‚Ì‰~”Õ‚É‚µ‚½‚ª‚Á‚ÄEEE");
+					kinugasa.game.GameLog.printInfo("ã‚ãªãŸã«ã¯ãƒ»ãƒ»ãƒ»ã“ã®ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ãŒè¦‹ãˆã¦ã„ã‚‹ã®ã§ã™ã­ã€‚");
+					kinugasa.game.GameLog.printInfo("ã‚ãªãŸã®ä½¿å‘½ã¯é‡‘ã®å††ç›¤ã«ã—ãŸãŒã£ã¦ä¸–ç•Œã‚’æ­£ã™ã“ã¨ã€‚");
+					kinugasa.game.GameLog.printInfo("æˆ‘ã€…ã«æ­£ã—ã„ä¸–ç•Œã‚’ã‚‚ãŸã‚‰ã—ã¦ãã ã•ã„"
+							+ "ã€‚é‡‘ã®å††ç›¤ã«ã—ãŸãŒã£ã¦ãƒ»ãƒ»ãƒ»");
 				}
 				effect = new FadeEffect(gm.getWindow().getWidth(), gm.getWindow().getHeight(),
 						new ColorChanger(

@@ -121,9 +121,9 @@ public class TitleLogic extends GameLogic {
 		SoundStorage.getInstance().get("BGM").stopAll();
 		SoundStorage.getInstance().get("BGM").dispose();
 		if (kinugasa.util.Random.percent(0.5f)) {
-			SoundStorage.getInstance().get("BGM").get("ƒtƒB[ƒ‹ƒh‚R.wav").load().play();
+			SoundStorage.getInstance().get("BGM").get("ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ï¼“.wav").load().play();
 		} else {
-			SoundStorage.getInstance().get("BGM").get("ƒtƒB[ƒ‹ƒh‚Q.wav").load().play();
+			SoundStorage.getInstance().get("BGM").get("ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ï¼’.wav").load().play();
 		}
 		atsg.setSelectedIdx(selected);
 
@@ -156,12 +156,12 @@ public class TitleLogic extends GameLogic {
 			case 0:
 				if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
 					atsg.next();
-					SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
+					SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
 					selected = atsg.getSelectedIdx();
 				}
 				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
 					atsg.prev();
-					SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
+					SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
 					selected = atsg.getSelectedIdx();
 				}
 				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
@@ -178,11 +178,11 @@ public class TitleLogic extends GameLogic {
 						return;
 					}
 					if (selected == 0) {
-						SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹QƒQ[ƒ€ƒXƒ^[ƒg.wav").load().stopAndPlay();
+						SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿ã‚²ãƒ¼ãƒ ã‚¹ã‚¿ãƒ¼ãƒˆ.wav").load().stopAndPlay();
 						nextStage();
 						return;
 					}
-					SoundStorage.getInstance().get("SE").get("Œø‰Ê‰¹Q‘I‘ğ1.wav").load().stopAndPlay();
+					SoundStorage.getInstance().get("SE").get("åŠ¹æœéŸ³ï¼¿é¸æŠ1.wav").load().stopAndPlay();
 					atsg.exec();
 				}
 				break;
@@ -218,7 +218,7 @@ public class TitleLogic extends GameLogic {
 
 	@Override
 	public void draw(GraphicsContext gc) {
-		//image‚É‘‚¢‚½•û‚ª‘‚¢‚©‚à‚µ‚ê‚È‚¢‚ªAŠÈˆÕ‚È‚Ì‚Å‚±‚±‚Å’¼Ú‘‚­
+		//imageã«æ›¸ã„ãŸæ–¹ãŒæ—©ã„ã‹ã‚‚ã—ã‚Œãªã„ãŒã€ç°¡æ˜“ãªã®ã§ã“ã“ã§ç›´æ¥æ›¸ã
 		gc.setColor(Color.WHITE);
 		atsg.draw(gc);
 		Graphics2D g = gc.create();

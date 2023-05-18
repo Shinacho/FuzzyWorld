@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -26,217 +26,217 @@ THE SOFTWARE.
 
 <kinugasaText lSep="/">
  	<text id="001" tc="1" next="002" >
-���u�����A�C���t�������B
+＊「おう、気が付いたか。
 	</text>
 
-	<choice id="002" tc="1" text="���u���񂽊C�݂œ|��Ă��񂾁B���v���H">
-		<!--�e�X�g�p-->
-		<option id="002_0" next="022">�����������낤�I�������̓e�X�g���ŋ}���ł���񂾁I�i�������X�L�b�v�j</option>
-		<option id="002_1" next="003">�����E�E�E</option>
-		<option id="002_2" next="003">���v���E�E�E</option>
+	<choice id="002" tc="1" text="＊「あんた海岸で倒れてたんだ。大丈夫か？">
+		<!--テスト用-->
+		<option id="002_0" next="022">もういいだろう！こっちはテスト中で急いでいるんだ！（導入をスキップ）</option>
+		<option id="002_1" next="003">ああ・・・</option>
+		<option id="002_2" next="003">大丈夫だ・・・</option>
 	</choice>
 	
-	<choice id="003" tc="1" text="���u�M�ꂽ�̂��H���̕ӂ̐l�Ԃ���Ȃ��ȁH">
-		<option id="003_1" next="004">�����E�E�E������������Ȃ��B</option>
-		<option id="003_2" next="004">�����v���o���Ȃ��E�E�E</option>
-		<option id="003_2" next="005">���񂽂͒N���H�����͂ǂ����H</option>
+	<choice id="003" tc="1" text="＊「溺れたのか？この辺の人間じゃないな？">
+		<option id="003_1" next="004">ああ・・・そうかもしれない。</option>
+		<option id="003_2" next="004">何も思い出せない・・・</option>
+		<option id="003_2" next="005">あんたは誰だ？ここはどこだ？</option>
 	</choice>
 	
 	<text id="004" tc="1" next="007">
-���u�悭�o���Ă��Ȃ��̂��H���C���H/
-�@�@���̓g�}�M�B���̕ӂŋ��t������Ă���񂾁B�����͉���̋��t�������B/
-�@�@���񂽂́H
+＊「よく覚えていないのか？平気か？/
+　　俺はトマギ。この辺で漁師をやっているんだ。ここは俺らの漁師小屋だ。/
+　　あんたは？
 	</text>
 		
 	<text id="005" tc="1" next="007">
-���u���̓g�}�M�B���̕ӂŋ��t������Ă���񂾁B�����͉���̋��t�������B/
-�@�@���񂽂́H
+＊「俺はトマギ。この辺で漁師をやっているんだ。ここは俺らの漁師小屋だ。/
+　　あんたは？
 	</text>
 
-	<choice id="007" tc="1" text="�g�}�M�u���񂽂͉��҂��H�C�݂ŉ������Ă����H">
-		<option id="007_1" next="008">����A�����������̂��́E�E�E�o���Ă��Ȃ��E�E�E</option>
-		<option id="007_2" next="009">���́E�E�E!PC1�Ƃ����B�Ȃ��C�݂ɂ����̂��͊o���Ă��Ȃ��B</option>
+	<choice id="007" tc="1" text="トマギ「あんたは何者だ？海岸で何をしていた？">
+		<option id="007_1" next="008">いや、何があったのかは・・・覚えていない・・・</option>
+		<option id="007_2" next="009">私は・・・!PC1という。なぜ海岸にいたのかは覚えていない。</option>
 	</choice>
 	
 	<text id="008" tc="1" next="010" >
-�g�}�M�u�{���ɉ����o���ĂȂ��̂��H�܂��������҂���Ȃ���ȁH
+トマギ「本当に何も覚えてないのか？まさか密漁者じゃないよな？
 	</text>
 
 	<text id="009" tc="1" next="010" >
-�g�}�M�u!PC1����ˁB����ŉ����o���Ă��Ȃ����āH�����҂���Ȃ����낤�ȁH
+トマギ「!PC1さんね。そんで何も覚えていないって？密漁者じゃないだろうな？
 	</text>
 
-	<choice id="010" tc="1" text="�g�}�M�u���ꂩ�E�E�E���񂽁E�E�E���������č��b��̎��H�҂��Ă���H">
-		<option id="010_1" next="011">���H�ҁH</option>
-		<option id="010_2" next="012">�����A�o���Ă��Ȃ��񂾁B</option>
-		<option id="010_3" next="013">�o���Ă���̂́E�E�E�Â������ƁE�E�E�u���̉~�Ղɂ��������Đ��E�𐳂��v</option>
+	<choice id="010" tc="1" text="トマギ「それか・・・あんた・・・もしかして今話題の失踪者ってやつか？">
+		<option id="010_1" next="011">失踪者？</option>
+		<option id="010_2" next="012">何も、覚えていないんだ。</option>
+		<option id="010_3" next="013">覚えているのは・・・暗い部屋と・・・「金の円盤にしたがって世界を正せ」</option>
 	</choice>
 
 	<text id="011" tc="1" next="014" >
-�g�}�M�u�������B�������Ŗ����̂悤�ɏo�Ă鎸�H�҂��B�L���r���Ȃ񂾂�H���H�҂ɈႢ�Ȃ��B
+トマギ「そうさ。今国中で毎日のように出てる失踪者さ。記憶喪失なんだろ？失踪者に違いない。
 	</text>
 	
 
 	<text id="012" tc="1" next="014" >
-�g�}�M�u����A���񂽂͑������H�҂��낤�H�������Ŗ����̂悤�ɏo�Ă�B/
-�@�@�@�@�L���r���Ȃ񂾂�H���H�҂ɈႢ�Ȃ��B
+トマギ「いや、あんたは多分失踪者だろう？今国中で毎日のように出てる。/
+　　　　記憶喪失なんだろ？失踪者に違いない。
 	</text>
 	
 	<text id="013" tc="1" next="014" >
-�g�}�M�u���̉~�ՁH�Ȃ񂾂����H�܂�������A���񂽋L���r���Ȃ񂾂�H�b��̎��H�҂���Ȃ��̂��H
+トマギ「金の円盤？なんだそりゃ？まあいいや、あんた記憶喪失なんだろ？話題の失踪者じゃないのか？
 	</text>
 
-	<choice id="014" tc="1" text="�g�}�M�u�{���ɉ����o���Ă��Ȃ��̂��H�Ƒ��̖��O�Ƃ��A�o�g�n�Ƃ��́H">
-		<option id="014_1" next="015">�����E�E�E���O���炢���E�E�E</option>
-		<option id="014_2" next="015">�{���ɉ����o���Ă��Ȃ��񂾁B�C���t������C�݂ɂ����񂾁B</option>
+	<choice id="014" tc="1" text="トマギ「本当に何も覚えていないのか？家族の名前とか、出身地とかは？">
+		<option id="014_1" next="015">ああ・・・名前くらいだ・・・</option>
+		<option id="014_2" next="015">本当に何も覚えていないんだ。気が付いたら海岸にいたんだ。</option>
 	</choice>
 
 	<text id="015" tc="1" next="016">
-�g�}�M�u�����Ȃ̂��E�E�E/
-�@�@�@�@���񂽖{���ɋL�����Ȃ����Ă�Ȃ�A�R�������J�̒T��ɂł����k�������������񂶂�Ȃ��̂��H/
-�@�@�@�@�g���s�����Ă��Ƃ���H���H�҂ɂ��Ă���������Ȃ��ɂ��Ă����ׂ��ق�����������B/
+トマギ「そうなのか・・・/
+　　　　あんた本当に記憶がないってんなら、コラロルカの探偵にでも相談した方がいいんじゃないのか？/
+　　　　身元不明ってことだろ？失踪者にしてもそうじゃないにしても調べたほうがいいだろ。/
 	</text>
 
-	<choice id="016" tc="1" text="�g�}�M�u���H�҂��Ă��ƂȂ�Ƒ��Ƃ����邾�낤���E�E�E">
-		<option id="016_1" next="017">�R�������J�H</option>
-		<option id="016_2" next="018">�T��H</option>
+	<choice id="016" tc="1" text="トマギ「失踪者ってことなら家族とかいるだろうし・・・">
+		<option id="016_1" next="017">コラロルカ？</option>
+		<option id="016_2" next="018">探偵？</option>
 	</choice>
 
 	<text id="017" tc="1" next="019" >
-�g�}�M�u���̕ӂ����Ԃ̑傫�Ȓ����B�X�𔲂�����ɂ���B/
-�@�@�@�@�{���ɉ����o���Ă��Ȃ��񂾂ȁE�E�E/
-�@�@�@�@�R�������J�̖��O����m��Ȃ��Ȃ�āA���̕ӂ̐l�Ԃ���Ȃ����A�����o���Ă��Ȃ��������B
+トマギ「この辺じゃ一番の大きな町さ。森を抜けた先にある。/
+　　　　本当に何も覚えていないんだな・・・/
+　　　　コラロルカの名前すら知らないなんて、この辺の人間じゃないか、何も覚えていないかだぞ。
 	</text>
 	
 	<text id="018" tc="1" next="019" >
-�g�}�M�u�����A���ɂ͒T�オ����̂��B���������A���������Ԃ��������Ă������Ęb�肾���B/
-�@�@�@�@������Ɨ����͍�������������B
+トマギ「ああ、町には探偵がいるのさ。こういう、困った事態を解決してくれるって話題だぜ。/
+　　　　ちょっと料金は高いそうだがよ。
 	</text>
 	
 	<text id="019" tc="1" next="020" >
-�g�}�M�u�܂������A�����͂��̏����ł�����肵�Ă�����B�������傤�ǖ����R�������J�ɗp������񂾁B/
-�@�@�@�@���łƂꂽ���̊����𔄂�ɍs���̂��B�����A�ꏏ�ɍs�������B���Ă����Ă���B/
-�@�@�@�@���̏����ɂ������͍D���Ɏg���Ă���č\��Ȃ�����ȁB�H���Ƃ��A�債������͂Ȃ����B/
+トマギ「まあいい、今日はこの小屋でゆっくりしていけや。俺もちょうど明日コラロルカに用があるんだ。/
+　　　　村でとれた魚の干物を売りに行くのさ。明日、一緒に行こうぜ。ついていってやるよ。/
+　　　　この小屋にあるもんは好きに使ってくれて構わないからな。食料とか、大したもんはないが。/
 	</text>
 	
-	<choice id="020" tc="1" text="�g�}�M�u���̂���ɂ��A���񂽂̂��Ƃ�b���Ă�����B">
-		<option id="020_1" next="021">���肪�Ƃ��B���b�ɂȂ�B</option>
-		<option id="020_2" next="021">�킩�����B</option>
+	<choice id="020" tc="1" text="トマギ「村のもんにも、あんたのことを話しておくよ。">
+		<option id="020_1" next="021">ありがとう。世話になる。</option>
+		<option id="020_2" next="021">わかった。</option>
 	</choice>
 	
 	<text id="021" tc="1" next="022">
-�g�}�M�u�����B���͑��Ŏd�������邩������s����B�����������瑺�ɗ��Ă���B/
-�@�@�@�@���̏����͑��͂���ɂ���񂾂��A���������͂Ȃ��B/
+トマギ「ああ。俺は村で仕事があるからもう行くよ。何かあったら村に来てくれ。/
+　　　　この小屋は村はずれにあるんだが、そう遠くはない。/
 	</text>
 
-	<choice id="022" tc="1" text="�g�}�M�u���ᖾ���A�܂��}���ɗ��邩��ȁB">
-		<option id="022_1">�����B</option>
-		<option id="022_2">�킩�����B</option>
+	<choice id="022" tc="1" text="トマギ「じゃ明日、また迎えに来るからな。">
+		<option id="022_1">ああ。</option>
+		<option id="022_2">わかった。</option>
 	</choice>	
 
 	
 	
-	<choice id="050" tc="1" text="�g�}�M�u�����B���q�͂ǂ����H">
-		<option id="050_1" next="051">�������C���B���肪�Ƃ��B</option>
-		<option id="050_2" next="052">���������҂Ȃ̂��E�E�E��Ӓ��l���Ă����E�E�E</option>
+	<choice id="050" tc="1" text="トマギ「おう。調子はどうだ？">
+		<option id="050_1" next="051">もう平気だ。ありがとう。</option>
+		<option id="050_2" next="052">自分が何者なのか・・・一晩中考えていた・・・</option>
 	</choice>
 	
 	<text id="051" tc="1" next="053">
-�g�}�M�u���v�������ȁB���A�T��̂Ƃ���ɍs�����B/
-�@�@�@�@�T��ɒ��ׂĂ��炦�΁A���񂽂̑f�����킩�邾�낤���B/
+トマギ「大丈夫そうだな。さ、探偵のところに行こう。/
+　　　　探偵に調べてもらえば、あんたの素性もわかるだろうさ。/
 	</text>
 
 	<text id="052" tc="1" next="053">
-�g�}�M�u�܂��������Ȃ��ȁB�������Ă�������B���A�T��̂Ƃ���ɍs�����B/
-�@�@�@�@�T��ɒ��ׂĂ��炦�΁A���񂽂̑f�����킩�邾�낤���B/
+トマギ「まあ無理もないな。俺だってそうする。さ、探偵のところに行こう。/
+　　　　探偵に調べてもらえば、あんたの素性もわかるだろうさ。/
 	</text>
 	
-	<choice id="053" tc="1" text="�g�}�M�u�����s�����B">
-		<option id="053_1" next="060">�����B</option>
-		<option id="053_2" next="054">�킩�����B�����̂��H</option>
-		<option id="053_3" next="068">���ōs���񂾁H�D���H</option>
+	<choice id="053" tc="1" text="トマギ「さあ行こう。">
+		<option id="053_1" next="060">ああ。</option>
+		<option id="053_2" next="054">わかった。遠いのか？</option>
+		<option id="053_3" next="068">何で行くんだ？船か？</option>
 	</choice>	
 	
 	<text id="054" tc="1" next="055">
-�g�}�M�u�܂��܂�����B������1�����炢�̋������B�X�𔲂���񂾁B/
-�@�@�@�@���܂ɖ쓐���������o�邪�E�E�E�܂��������邳�B/
+トマギ「まあまあある。歩いて1日くらいの距離だ。森を抜けるんだ。/
+　　　　たまに野盗やら怪物が出るが・・・まあ逃げられるさ。/
 	</text>
 	
-	<choice id="055" tc="1" text="�g�}�M�u�r���x�ޏꏊ�͂Ȃ����E�E�E�܂����̒��q�Ȃ���Ȃ��������ȁB">
-		<option id="055_1" next="060">�����B</option>
-		<option id="055_2" next="056">�쓐�ɁE�E�E���������āH�������āH</option>
+	<choice id="055" tc="1" text="トマギ「途中休む場所はないが・・・まあその調子なら問題なさそうだな。">
+		<option id="055_1" next="060">ああ。</option>
+		<option id="055_2" next="056">野盗に・・・怪物だって？怪物って？</option>
 	</choice>	
 	
 	
 	<text id="056" tc="1" next="057">
-�g�}�M�u�����A�m��Ȃ��񂾂ȁB���[���ƁA�ǂ���������΂����̂��E�E�E/
+トマギ「ああ、知らないんだな。えーっと、どう説明すればいいのか・・・/
 	</text>
 	<text id="057" tc="1" next="058">
-�g�}�M�u14�C5�N�O���炢���ȁB�푈���������B���̎��A�푈�̓���Ƃ��ĉ������g��ꂽ�̂��B/
-�@�@�@�@���̂����ŁA���ł���������B���v���A�قƂ�ǂ͎�������������B����ł��킦��B/
-�@�@�@�@�쓐��R���͕ʂ����ǂȁB/
+トマギ「14，5年前くらいかな。戦争があった。その時、戦争の道具として怪物が使われたのさ。/
+　　　　そのせいで、今でも少しいる。大丈夫だ、ほとんどは弱っちいやつだから。俺らでも戦える。/
+　　　　野盗や山賊は別だけどな。/
 	</text>
 	<text id="058" tc="1" next="059">
-�g�}�M�u�ڂ����R���Ƃ��́E�E�E���͂���܂�ڂ����˂��񂾁B�����푈���͂܂�4�C5�΂���������ȁB/
-�@�@�@�@������ӂł����Ƌ��t�����Ă�������A�푈�Ƃ͖������������ȁB/
+トマギ「詳しい由来とかは・・・俺はあんまり詳しくねえんだ。何せ戦争中はまだ4，5歳だったからな。/
+　　　　ここら辺でずっと漁師をしてきたから、戦争とは無縁だったしな。/
 	</text>
 
-	<choice id="059" tc="1" text="�g�}�M�u�܂����񂽂��������N���������A���v���낤�B">
-		<option id="059_1" next="060">�킩�����B</option>
-		<option id="059_2" next="060">�����A�C��t�����B</option>
-		<option id="059_3" next="061">�푈�ɂ��Ă����Ƌ����Ă���B</option>
+	<choice id="059" tc="1" text="トマギ「まああんたももう健康そうだし、大丈夫だろう。">
+		<option id="059_1" next="060">わかった。</option>
+		<option id="059_2" next="060">ああ、気を付けるよ。</option>
+		<option id="059_3" next="061">戦争についてもっと教えてくれ。</option>
 	</choice>
 	
 	<text id="060" tc="1">
-�g�}�M�u���Ⴀ�O�ő҂��Ă��邩��E�E�E�������ł����痈�Ă���B/
-�@�@�@�@�S�z�Ȃ��g�p�ɂ��̕ӂ̖_����ł������Ă����񂾂ȁB/
+トマギ「じゃあ外で待っているから・・・準備ができたら来てくれ。/
+　　　　心配なら護身用にその辺の棒きれでも持っておくんだな。/
 	</text>
 	
 	<text id="061" tc="1" next="062">
-�g�}�M�u�������ȁE�E�E/
-�@�@�@�@���̑��A�J���X�~��R�������J������A���̃_���X�Ƃ��������A�׍��̃x���}�ɍU�����ꂽ�񂾁B/
-�@�@�@�@�x���}�l�����́A�����l���Ă���̂��悭�킩��Ȃ����E�E�E��؂Ȑl��������B/
-�@�@�@�@�Ȃ�Ő푈�ɂȂ����̂��́E�E�E�������ȁB�������x���}���댯�Ȗ��@���J�������Ƃ��B/
-�@�@�@�@����ŁA���@�̊������ז������Ǝv�����x���}���_���X�ɍU�����d�|�����񂾁B/
+トマギ「そうだな・・・/
+　　　　この村、カリスミやコラロルカがある、このダレスという国が、隣国のベルマに攻撃されたんだ。/
+　　　　ベルマ人たちは、何を考えているのかよくわからないが・・・野蛮な人たちだよ。/
+　　　　なんで戦争になったのかは・・・そうだな。たしかベルマが危険な魔法を開発したとか。/
+　　　　それで、魔法の完成を邪魔されると思ったベルマがダレスに攻撃を仕掛けたんだ。/
 	</text>
 	
 	<text id="062" tc="1" next="063">
-�g�}�M�u���̐푈�̂����ŁA�x���}�̓s�s���j�󂳂ꂽ�񂾁B�������E�E�E�����K�Ƃ����������������ȁB/
-�@�@�@�@���ł́A�����覐΂����������̂悤�ɃN���[�^�[�����c��Ȃ��������B/
-�@�@�@�@�x���}�l�����͂��܂蔽�Ȃ��Ă��Ȃ��������ȁB�ߔN���R���͂𑝂��Ă���ƕ�����B/
-�@�@�@�@�_���X�Ƃ̊֌W�����܂�悭�Ȃ��������B�Ȃɂ��Ȃ���΂������B/
+トマギ「その戦争のせいで、ベルマの都市が破壊されたんだ。たしか・・・レルガとかいう町だったかな。/
+　　　　今では、巨大な隕石が落ちたかのようにクレーターしか残らないそうだ。/
+　　　　ベルマ人たちはあまり反省していなさそうだな。近年も軍事力を増していると聞くよ。/
+　　　　ダレスとの関係もあまりよくないそうだ。なにもなければいいが。/
 	</text>
 	
-	<choice id="063" tc="1" text="�g�}�M�u�܂�����Ȋ������B���͂��܂�ڂ����˂��񂾁B">
-		<option id="063_1" next="060">�킩�����B���肪�Ƃ��B</option>
-		<option id="063_2" next="064">���@�����āH���@������̂��H</option>
-		<option id="063_3" next="064">�댯�Ȗ��@�H</option>
+	<choice id="063" tc="1" text="トマギ「まあこんな感じだ。俺はあまり詳しくねえんだ。">
+		<option id="063_1" next="060">わかった。ありがとう。</option>
+		<option id="063_2" next="064">魔法だって？魔法があるのか？</option>
+		<option id="063_3" next="064">危険な魔法？</option>
 	</choice>
 
 	<text id="064" tc="1" next="065">
-�g�}�M�u�����B���@����B���͎g���Ȃ����B���܂ꎝ�����˔\������炵���B/
-�@�@�@�@�g����l�ƁA�g���Ȃ��l������񂾁B�x���}�l�����́A��̎g����悤���ˁB/
-    �ǂ�Ȗ��@���J�������̂��́E�E�E�悭�킩��Ȃ��ˁB/
-�@�@�@�@�����Ɩ��Ȃ���B�����ۂ��Ɣj�󂳂ꂽ�񂾁B�댯�Ȃ��̂������񂾂낤��B/
+トマギ「ああ。魔法だよ。俺は使えないが。生まれ持った才能がいるらしい。/
+　　　　使える人と、使えない人がいるんだ。ベルマ人たちは、大体使えるようだね。/
+    どんな魔法を開発したのかは・・・よくわからないね。/
+　　　　きっと厄介なやつさ。町が丸ごと破壊されたんだ。危険なものだったんだろうよ。/
 	</text>
 	
-	<choice id="065" tc="1" text="�g�}�M�u���@�ɂ��Ēm�肽����΁A�R�������J�̖��@�w�@�ɍs���Ă݂���ǂ����H">
-		<option id="065_1" next="060">�킩�����B���肪�Ƃ��B</option>
-		<option id="065_2" next="066">���@�w�@�H</option>
+	<choice id="065" tc="1" text="トマギ「魔法について知りたければ、コラロルカの魔法学院に行ってみたらどうだ？">
+		<option id="065_1" next="060">わかった。ありがとう。</option>
+		<option id="065_2" next="066">魔法学院？</option>
 	</choice>
 
 	<text id="066" tc="1" next="067">
-�g�}�M�u�������B���@�̌��������Ă���{�݂�����񂾁B/
-�@�@�@�@�������@�ɋ���������Ȃ�A�����ɍs���Ă݂�Ƃ����B/
-�@�@�@�@�˔\���Ȃ��Ǝg���Ȃ����ǂˁB/
+トマギ「そうさ。魔法の研究をしている施設があるんだ。/
+　　　　もし魔法に興味があるなら、そこに行ってみるといい。/
+　　　　才能がないと使えないけどね。/
 	</text>
 
-	<choice id="067" tc="1" text="�g�}�M�u���̋@�ւ��B���@�ɏڂ����l������񂾂�B">
-		<option id="067_1" next="060">�킩�����B���肪�Ƃ��B</option>
+	<choice id="067" tc="1" text="トマギ「国の機関だ。魔法に詳しい人がいるんだよ。">
+		<option id="067_1" next="060">わかった。ありがとう。</option>
 	</choice>
 
 	<text id="068" tc="1" next="053">
-�g�}�M�u��������čs���B�����͓��C�Ȃ񂾁B�R�������J�͊O�C������A�D�ł͍s���Ȃ��̂��B/
+トマギ「いや歩いて行く。ここは内海なんだ。コラロルカは外海だから、船では行けないのさ。/
 	</text>
 
 </kinugasaText>

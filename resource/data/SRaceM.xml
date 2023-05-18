@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -24,22 +24,22 @@ THE SOFTWARE.
 -->
 <KinugasaRaceList>
 	<race name="HUMAN" itemBagSize="10" bookBagSize="8">
-		<slot name="“ª" />
-		<slot name="“·" />
-		<slot name="˜r" />
-		<slot name="‘«" />
-		<slot name="ƒAƒ~ƒ…ƒŒƒbƒg" />
+		<slot name="é ­" />
+		<slot name="èƒ´" />
+		<slot name="è…•" />
+		<slot name="è¶³" />
+		<slot name="ã‚¢ãƒŸãƒ¥ãƒ¬ãƒƒãƒˆ" />
 	</race>
 	<race name="BELLMAN" itemBagSize="8" bookBagSize="12">
-		<slot name="“ª" />
-		<slot name="“·" />
-		<slot name="˜r" />
-		<slot name="‘«" />
-		<slot name="ƒAƒ~ƒ…ƒŒƒbƒg" />
+		<slot name="é ­" />
+		<slot name="èƒ´" />
+		<slot name="è…•" />
+		<slot name="è¶³" />
+		<slot name="ã‚¢ãƒŸãƒ¥ãƒ¬ãƒƒãƒˆ" />
 	</race>
 	
-	<race name="‚©‚½‚Â‚Þ‚è" itemBagSize="2" bookBagSize="1">
-		<slot name="“·" />
+	<race name="ã‹ãŸã¤ã‚€ã‚Š" itemBagSize="2" bookBagSize="1">
+		<slot name="èƒ´" />
 	</race>
 	
 </KinugasaRaceList>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -32,11 +32,11 @@ THE SOFTWARE.
 
 	<outNode name="ND_04_0001" outMap="TOMAGISHUT_OUTER" x="7" y="13" outDir="SOUTH" />
 	
-	<inOutNode name="ND_04_0002" x="7" y="12" tgtMap="TOMAGISHUT" exitNode="ND_03_0001" tooltip="‹™Žt‚Ì¬‰®" accepterName="TRUE" outDir="NORTH" se="SE/‘«‰¹.wav"/>
+	<inOutNode name="ND_04_0002" x="7" y="12" tgtMap="TOMAGISHUT" exitNode="ND_03_0001" tooltip="æ¼å¸«ã®å°å±‹" accepterName="TRUE" outDir="NORTH" se="SE/è¶³éŸ³.wav"/>
 
-	<inOutNode name="ND_04_0005" x="5" y="16" tgtMap="WORLDMAP" exitNode="ND_05_0001" tooltip="ƒ[ƒ‹ƒhƒ}ƒbƒv" accepterName="TRUE" outDir="NORTH" se="SE/‘«‰¹.wav"/>
-	<inOutNode name="ND_04_0003" x="6" y="16" tgtMap="WORLDMAP" exitNode="ND_05_0001" tooltip="ƒ[ƒ‹ƒhƒ}ƒbƒv" accepterName="TRUE" outDir="NORTH" se="SE/‘«‰¹.wav"/>
-	<inOutNode name="ND_04_0004" x="7" y="16" tgtMap="WORLDMAP" exitNode="ND_05_0001" tooltip="ƒ[ƒ‹ƒhƒ}ƒbƒv" accepterName="TRUE" outDir="NORTH" se="SE/‘«‰¹.wav"/>
+	<inOutNode name="ND_04_0005" x="5" y="16" tgtMap="WORLDMAP" exitNode="ND_05_0001" tooltip="ãƒ¯ãƒ¼ãƒ«ãƒ‰ãƒžãƒƒãƒ—" accepterName="TRUE" outDir="NORTH" se="SE/è¶³éŸ³.wav"/>
+	<inOutNode name="ND_04_0003" x="6" y="16" tgtMap="WORLDMAP" exitNode="ND_05_0001" tooltip="ãƒ¯ãƒ¼ãƒ«ãƒ‰ãƒžãƒƒãƒ—" accepterName="TRUE" outDir="NORTH" se="SE/è¶³éŸ³.wav"/>
+	<inOutNode name="ND_04_0004" x="7" y="16" tgtMap="WORLDMAP" exitNode="ND_05_0001" tooltip="ãƒ¯ãƒ¼ãƒ«ãƒ‰ãƒžãƒƒãƒ—" accepterName="TRUE" outDir="NORTH" se="SE/è¶³éŸ³.wav"/>
 
 
 	<npc name="NPC02" initialIdx="6,13" NPCMoveModel="NOT_MOVE" image="resource/data/image/c3.png" s="0,32,32" w="96,32,32" e="64,32,32" n="32,32,32" frame="32" initialDir="EAST"/>

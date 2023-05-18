@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -24,133 +24,133 @@ THE SOFTWARE.
 -->
 
 <kinugasaChipAttribute>
-    <!--ƒtƒB[ƒ‹ƒh—pE‹¤—L-->
-    <attribute name="•½’n" encountBaseValue="1"/>
-    <attribute name="‘Œ´" encountBaseValue="4" />
-    <attribute name="“sŽs" />
-    <attribute name="’¬" />
-    <attribute name="‘º" />
-    <attribute name="¬‰®" />
-    <attribute name="»”™" encountBaseValue="4"  />
-    <attribute name="»•l" encountBaseValue="4"  />
-    <attribute name="åM" encountBaseValue="6"  />
-    <attribute name="X—Ñ" encountBaseValue="8"   />
-    <attribute name="–§—Ñ" encountBaseValue="12"   />
-    <attribute name="‹u—Ë" encountBaseValue="8"   />
-    <attribute name="ŽRŠx" />
-    <attribute name="‚ŽR" />
-    <attribute name="‰Íì" />
-    <attribute name="‹´" />
-    <attribute name="ó£"  encountBaseValue="1"/>
-    <attribute name="ŠC"  encountBaseValue="1"/>
-    <attribute name="é" />
-    <attribute name="“ƒ" />
-    <attribute name="“´ŒA" />
-    <attribute name="”Ä—pƒCƒxƒ“ƒg" />
-    <attribute name="“¹˜H"  encountBaseValue="1"/>
-    <attribute name="é•Ç" />
-    <attribute name="`" />
-    <attribute name="“oŽR“¹" />
-    <attribute name="ŽR¬‰®" />
-    <attribute name="•ö‰ó‹´" />
-    <attribute name="”pšÐ" />
-    <attribute name="ŠâÊ" />
-    <attribute name="ò" />
-    <attribute name="Šâ" />
-    <attribute name="”¨"  encountBaseValue="1"/>
-    <attribute name="ŠR" />
-    <attribute name="r’n"  encountBaseValue="1"/>
-    <attribute name="Šâ”Õ" />
+    <!--ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ç”¨ãƒ»å…±æœ‰-->
+    <attribute name="å¹³åœ°" encountBaseValue="1"/>
+    <attribute name="è‰åŽŸ" encountBaseValue="4" />
+    <attribute name="éƒ½å¸‚" />
+    <attribute name="ç”º" />
+    <attribute name="æ‘" />
+    <attribute name="å°å±‹" />
+    <attribute name="ç ‚æ¼ " encountBaseValue="4"  />
+    <attribute name="ç ‚æµœ" encountBaseValue="4"  />
+    <attribute name="è—ª" encountBaseValue="6"  />
+    <attribute name="æ£®æž—" encountBaseValue="8"   />
+    <attribute name="å¯†æž—" encountBaseValue="12"   />
+    <attribute name="ä¸˜é™µ" encountBaseValue="8"   />
+    <attribute name="å±±å²³" />
+    <attribute name="é«˜å±±" />
+    <attribute name="æ²³å·" />
+    <attribute name="æ©‹" />
+    <attribute name="æµ…ç€¬"  encountBaseValue="1"/>
+    <attribute name="æµ·"  encountBaseValue="1"/>
+    <attribute name="åŸŽ" />
+    <attribute name="å¡”" />
+    <attribute name="æ´žçªŸ" />
+    <attribute name="æ±Žç”¨ã‚¤ãƒ™ãƒ³ãƒˆ" />
+    <attribute name="é“è·¯"  encountBaseValue="1"/>
+    <attribute name="åŸŽå£" />
+    <attribute name="æ¸¯" />
+    <attribute name="ç™»å±±é“" />
+    <attribute name="å±±å°å±‹" />
+    <attribute name="å´©å£Šæ©‹" />
+    <attribute name="å»ƒå¢Ÿ" />
+    <attribute name="å²©ç¤" />
+    <attribute name="æŸµ" />
+    <attribute name="å²©" />
+    <attribute name="ç•‘"  encountBaseValue="1"/>
+    <attribute name="å´–" />
+    <attribute name="è’åœ°"  encountBaseValue="1"/>
+    <attribute name="å²©ç›¤" />
     
-    <!--“à‘•E’¬—p-->
-    <attribute name="ŒÍ–Ø"/>
-    <attribute name="–Ø"/>
-    <attribute name="ŠÛ‘¾"/>
-    <attribute name="‘"/>
-    <attribute name="‰Ô"/>
-    <attribute name="ƒLƒmƒR"/>
-    <attribute name="’r"/>
-    <attribute name="“€Œ‹’r"/>
-    <attribute name="“Å‚Ì’r"/>
-    <attribute name="[‚¢’r"/>
-    <attribute name="Î‚±‚ë"/>
-    <attribute name="ŒŠ"/>
-    <attribute name="•æ•W"/>
-    <attribute name="•°‰Î"/>
-    <attribute name="–‚•ûw"/>
-    <attribute name="‚Í‚µ‚²"/>
-    <attribute name="ˆÄŽRŽq"/>
-    <attribute name="•c"/>
-    <attribute name="ì•¨"/>
-    <attribute name="ˆäŒË"/>
-    <attribute name="‰±"/>
-    <attribute name="ƒ|ƒXƒg"/>
-    <attribute name="ÎŠK’i"/>
-    <attribute name="–ØŠK’i"/>
-    <attribute name="–Ø‹´"/>
-    <attribute name="Î‹´"/>
-    <attribute name="–Ø°"/>
-    <attribute name="Î°"/>
-    <attribute name="•Ü‘•“¹˜H"/>
-    <attribute name="ãOŸ~"/>
-    <attribute name="‘‹"/>
-    <attribute name="–Ø•Ç"/>
-    <attribute name="Î•Ç"/>
-    <attribute name="“S•Ç"/>
-    <attribute name="ƒhƒA"/>
-    <attribute name="‰®ª"/>
-    <attribute name="‰Œ“Ë"/>
-    <attribute name="ŠÅ”Â"/>
-    <attribute name="“üŒû"/>
-    <attribute name="Y"/>
-    <attribute name="•Ç‰æ"/>
-    <attribute name="Š÷"/>
-    <attribute name="ˆÖŽq"/>
-    <attribute name="’I"/>
-    <attribute name="–{’I"/>
-    <attribute name="ƒxƒbƒh"/>
-    <attribute name="ƒhƒŒƒbƒT["/>
-    <attribute name="•ó” "/>
-    <attribute name="ŠÔŽdØ‚è"/>
-    <attribute name="‚©‚Ü‚Ç"/>
-    <attribute name="—¬‚µ‘ä"/>
-    <attribute name="ŽžŒv"/>
-    <attribute name="’g˜F"/>
-    <attribute name="ŠyŠí"/>
-    <attribute name="’Ù"/>
-    <attribute name="’M"/>
-    <attribute name="” "/>
-    <attribute name="d"/>
-    <attribute name="˜m"/>
-    <attribute name="âÄ"/>
-    <attribute name="‘Ü"/>
-    <attribute name="’Œ"/>
-    <attribute name="’¤‘œ"/>
-    <attribute name="•¬…"/>
-    <attribute name="Î”è"/>
-    <attribute name="A–Ø”«"/>
-    <attribute name="–{"/>
-    <attribute name="HŠí"/>
-    <attribute name="’²—Ší‹ï"/>
-    <attribute name="H‚×•¨"/>
-    <attribute name="Ž†"/>
-    <attribute name="•M‹L‹ï"/>
-    <attribute name="˜XC"/>
-    <attribute name="•r"/>
-    <attribute name="•Ší"/>
-    <attribute name="‰ÎŠí"/>
-    <attribute name="lŒ`"/>
-    <attribute name="‚"/>
-    <attribute name="ŠZ"/>
-    <attribute name="Š•"/>
-    <attribute name="…»‹Ê"/>
-    <attribute name="‰Ý•¼"/>
-    <attribute name="ƒXƒCƒbƒ`"/>
-    <attribute name="ƒŒƒo["/>
-    <attribute name="œ"/>
-    <attribute name="“y»"/>
-    <attribute name="‹@ŠB"/>
-    <attribute name="¼–¾"/>
+    <!--å†…è£…ãƒ»ç”ºç”¨-->
+    <attribute name="æž¯æœ¨"/>
+    <attribute name="æœ¨"/>
+    <attribute name="ä¸¸å¤ª"/>
+    <attribute name="è‰"/>
+    <attribute name="èŠ±"/>
+    <attribute name="ã‚­ãƒŽã‚³"/>
+    <attribute name="æ± "/>
+    <attribute name="å‡çµæ± "/>
+    <attribute name="æ¯’ã®æ± "/>
+    <attribute name="æ·±ã„æ± "/>
+    <attribute name="çŸ³ã“ã‚"/>
+    <attribute name="ç©´"/>
+    <attribute name="å¢“æ¨™"/>
+    <attribute name="ç„šç«"/>
+    <attribute name="é­”æ–¹é™£"/>
+    <attribute name="ã¯ã—ã”"/>
+    <attribute name="æ¡ˆå±±å­"/>
+    <attribute name="è‹—"/>
+    <attribute name="ä½œç‰©"/>
+    <attribute name="äº•æˆ¸"/>
+    <attribute name="æ¡¶"/>
+    <attribute name="ãƒã‚¹ãƒˆ"/>
+    <attribute name="çŸ³éšŽæ®µ"/>
+    <attribute name="æœ¨éšŽæ®µ"/>
+    <attribute name="æœ¨æ©‹"/>
+    <attribute name="çŸ³æ©‹"/>
+    <attribute name="æœ¨åºŠ"/>
+    <attribute name="çŸ³åºŠ"/>
+    <attribute name="èˆ—è£…é“è·¯"/>
+    <attribute name="çµ¨æ¯¯"/>
+    <attribute name="çª“"/>
+    <attribute name="æœ¨å£"/>
+    <attribute name="çŸ³å£"/>
+    <attribute name="é‰„å£"/>
+    <attribute name="ãƒ‰ã‚¢"/>
+    <attribute name="å±‹æ ¹"/>
+    <attribute name="ç…™çª"/>
+    <attribute name="çœ‹æ¿"/>
+    <attribute name="å…¥å£"/>
+    <attribute name="æ­"/>
+    <attribute name="å£ç”»"/>
+    <attribute name="æœº"/>
+    <attribute name="æ¤…å­"/>
+    <attribute name="æ£š"/>
+    <attribute name="æœ¬æ£š"/>
+    <attribute name="ãƒ™ãƒƒãƒ‰"/>
+    <attribute name="ãƒ‰ãƒ¬ãƒƒã‚µãƒ¼"/>
+    <attribute name="å®ç®±"/>
+    <attribute name="é–“ä»•åˆ‡ã‚Š"/>
+    <attribute name="ã‹ã¾ã©"/>
+    <attribute name="æµã—å°"/>
+    <attribute name="æ™‚è¨ˆ"/>
+    <attribute name="æš–ç‚‰"/>
+    <attribute name="æ¥½å™¨"/>
+    <attribute name="å£·"/>
+    <attribute name="æ¨½"/>
+    <attribute name="ç®±"/>
+    <attribute name="è–ª"/>
+    <attribute name="è—"/>
+    <attribute name="ç± "/>
+    <attribute name="è¢‹"/>
+    <attribute name="æŸ±"/>
+    <attribute name="å½«åƒ"/>
+    <attribute name="å™´æ°´"/>
+    <attribute name="çŸ³ç¢‘"/>
+    <attribute name="æ¤æœ¨é‰¢"/>
+    <attribute name="æœ¬"/>
+    <attribute name="é£Ÿå™¨"/>
+    <attribute name="èª¿ç†å™¨å…·"/>
+    <attribute name="é£Ÿã¹ç‰©"/>
+    <attribute name="ç´™"/>
+    <attribute name="ç­†è¨˜å…·"/>
+    <attribute name="è‹ç‡­"/>
+    <attribute name="ç“¶"/>
+    <attribute name="æ­¦å™¨"/>
+    <attribute name="ç«å™¨"/>
+    <attribute name="äººå½¢"/>
+    <attribute name="ç›¾"/>
+    <attribute name="éŽ§"/>
+    <attribute name="å…œ"/>
+    <attribute name="æ°´æ™¶çŽ‰"/>
+    <attribute name="è²¨å¹£"/>
+    <attribute name="ã‚¹ã‚¤ãƒƒãƒ"/>
+    <attribute name="ãƒ¬ãƒãƒ¼"/>
+    <attribute name="éª¨"/>
+    <attribute name="åœŸç ‚"/>
+    <attribute name="æ©Ÿæ¢°"/>
+    <attribute name="æ¾æ˜Ž"/>
     
     
     

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -26,44 +26,44 @@ THE SOFTWARE.
 <kinugasaChipSet>
 
     <chipSet name="inner16.png" image="resource/data/image/inner16.png" cutWidth="16" cutHeight="16">
-		<mapChip name="000000" attribute="Î•Ç"/>
-		<mapChip name="000001" attribute="Î•Ç"/>
-		<mapChip name="000002" attribute="Î•Ç"/>
-		<mapChip name="000003" attribute="Î°"/>
-		<mapChip name="000004" attribute="ƒxƒbƒh"/>
+		<mapChip name="000000" attribute="çŸ³å£"/>
+		<mapChip name="000001" attribute="çŸ³å£"/>
+		<mapChip name="000002" attribute="çŸ³å£"/>
+		<mapChip name="000003" attribute="çŸ³åºŠ"/>
+		<mapChip name="000004" attribute="ãƒ™ãƒƒãƒ‰"/>
 		<mapChip name="000005" attribute="VOID"/>
-		<mapChip name="000006" attribute="’I"/>
+		<mapChip name="000006" attribute="æ£š"/>
 		<mapChip name="000007" attribute="VOID"/>
 	
-		<mapChip name="001000" attribute="Î•Ç"/>
-		<mapChip name="001001" attribute="Î•Ç"/>
-		<mapChip name="001002" attribute="Î•Ç"/>
-		<mapChip name="001003" attribute="Î°"/>
-		<mapChip name="001004" attribute="ƒxƒbƒh"/>
-		<mapChip name="001005" attribute="–Ø°"/>
+		<mapChip name="001000" attribute="çŸ³å£"/>
+		<mapChip name="001001" attribute="çŸ³å£"/>
+		<mapChip name="001002" attribute="çŸ³å£"/>
+		<mapChip name="001003" attribute="çŸ³åºŠ"/>
+		<mapChip name="001004" attribute="ãƒ™ãƒƒãƒ‰"/>
+		<mapChip name="001005" attribute="æœ¨åºŠ"/>
 		<mapChip name="001006" attribute="VOID"/>
 		<mapChip name="001007" attribute="VOID"/>
 
-		<mapChip name="002000" attribute="Î•Ç"/>
-		<mapChip name="002001" attribute="Î•Ç"/>
-		<mapChip name="002002" attribute="Î•Ç"/>
-		<mapChip name="002003" attribute="Î°"/>
-		<mapChip name="002004" attribute="Š÷"/>
+		<mapChip name="002000" attribute="çŸ³å£"/>
+		<mapChip name="002001" attribute="çŸ³å£"/>
+		<mapChip name="002002" attribute="çŸ³å£"/>
+		<mapChip name="002003" attribute="çŸ³åºŠ"/>
+		<mapChip name="002004" attribute="æœº"/>
 		<mapChip name="002005" attribute="VOID"/>
-		<mapChip name="002006" attribute="Š÷"/>
+		<mapChip name="002006" attribute="æœº"/>
 		<mapChip name="002007" attribute="VOID"/>
 
-		<mapChip name="003000" attribute="Î•Ç"/>
-		<mapChip name="003001" attribute="Î•Ç"/>
-		<mapChip name="003002" attribute="Î•Ç"/>
-		<mapChip name="003003" attribute="Î•Ç"/>
-		<mapChip name="003004" attribute="Š÷"/>
-		<mapChip name="003005" attribute="Š÷"/>
-		<mapChip name="003006" attribute="Š÷"/>
+		<mapChip name="003000" attribute="çŸ³å£"/>
+		<mapChip name="003001" attribute="çŸ³å£"/>
+		<mapChip name="003002" attribute="çŸ³å£"/>
+		<mapChip name="003003" attribute="çŸ³å£"/>
+		<mapChip name="003004" attribute="æœº"/>
+		<mapChip name="003005" attribute="æœº"/>
+		<mapChip name="003006" attribute="æœº"/>
 		<mapChip name="003007" attribute="VOID"/>	
 
-		<mapChip name="004000" attribute="Î•Ç"/>
-		<mapChip name="004001" attribute="Î•Ç"/>
+		<mapChip name="004000" attribute="çŸ³å£"/>
+		<mapChip name="004001" attribute="çŸ³å£"/>
 		<mapChip name="004002" attribute="VOID"/>
 		<mapChip name="004003" attribute="VOID"/>
 		<mapChip name="004004" attribute="VOID"/>
@@ -71,8 +71,8 @@ THE SOFTWARE.
 		<mapChip name="004006" attribute="VOID"/>
 		<mapChip name="004007" attribute="VOID"/>	
 
-		<mapChip name="005000" attribute="–Ø°"/>
-		<mapChip name="005001" attribute="–Ø°"/>
+		<mapChip name="005000" attribute="æœ¨åºŠ"/>
+		<mapChip name="005001" attribute="æœ¨åºŠ"/>
 		<mapChip name="005002" attribute="VOID"/>
 		<mapChip name="005003" attribute="VOID"/>
 		<mapChip name="005004" attribute="VOID"/>

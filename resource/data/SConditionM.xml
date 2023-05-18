@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -25,50 +25,50 @@ THE SOFTWARE.
 <KinugasaBattleConfig>
 
 
-	<!-- ƒRƒ“ƒfƒBƒVƒ‡ƒ“ƒ}ƒl[ƒWƒƒ‚Ì’è‹` -->
+	<!-- ã‚³ãƒ³ãƒ‡ã‚£ã‚·ãƒ§ãƒ³ãƒžãƒãƒ¼ã‚¸ãƒ£ã®å®šç¾© -->
 	
 	
 	
 
-	<!-- ó‘ÔˆÙí‚Ìƒ}ƒXƒ^’èA–‚–@AƒXƒLƒ‹A‘•”õ‚É‚æ‚éŒø‰Ê‚à“¯‚¶ƒXƒgƒŒ[ƒW‚É’Ç‰Á‚·‚é‚±‚Æ‚ª‚Å‚«‚é	-->
+	<!-- çŠ¶æ…‹ç•°å¸¸ã®ãƒžã‚¹ã‚¿å®šã€é­”æ³•ã€ã‚¹ã‚­ãƒ«ã€è£…å‚™ã«ã‚ˆã‚‹åŠ¹æžœã‚‚åŒã˜ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¸ã«è¿½åŠ ã™ã‚‹ã“ã¨ãŒã§ãã‚‹	-->
 
-	<cCondition name="CASTING" desc="‰r¥" pri="1">
+	<cCondition name="CASTING" desc="è© å”±" pri="1">
 		<effect ect="CONTINUE" time="INFINITY" ett="STOP" p="1" />
 	</cCondition>
 	
-	<cCondition name="DEFENCE" desc="–hŒä" pri="1" >
+	<cCondition name="DEFENCE" desc="é˜²å¾¡" pri="1" >
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="DEF" value="+0.33" p="1" />
 	</cCondition>
 
-	<cCondition name="AVOIDANCE" desc="‰ñ”ð" pri="1" >
+	<cCondition name="AVOIDANCE" desc="å›žé¿" pri="1" >
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="AVO" value="0.33" p="1" />
 	</cCondition>
 	
-	<cCondition name="ESCAPED" desc="“¦‘–" pri="1" >
+	<cCondition name="ESCAPED" desc="é€ƒèµ°" pri="1" >
 		<effect ect="CONTINUE" time="INFINITY" ett="STOP" p="1" />
 	</cCondition>
 
-	<cCondition name="REGENE" desc="ƒŠƒWƒFƒl" pri="2" >
+	<cCondition name="REGENE" desc="ãƒªã‚¸ã‚§ãƒ" pri="2" >
 		<effect ect="CONTINUE" time="5/15" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="HP"  value="+0.1" p="1" />
 	</cCondition>
 	
-	<cCondition name="MOIST" desc="Ž¼" pri="5" >
+	<cCondition name="MOIST" desc="æ¹¿æ½¤" pri="5" >
 		<effect ect="ONECE" time="1" ett="ATTRIBUTE_IN" est="ADD_VALUE" tgt="FLAME" value="-0.5" p="1" />
 		<effect ect="ONECE" time="1" ett="ATTRIBUTE_IN" est="ADD_VALUE" tgt="THNDER" value="+0.5" p="1" />
 	</cCondition>
 	
-	<cCondition name="OIL" desc="ƒIƒCƒ‹" pri="5">
+	<cCondition name="OIL" desc="ã‚ªã‚¤ãƒ«" pri="5">
 		<effect ect="ONECE" time="1" ett="ATTRIBUTE_IN" est="ADD_VALUE" tgt="FLAME" value="+0.5" p="1" />
 		<effect ect="ONECE" time="1" ett="ATTRIBUTE_IN" est="ADD_VALUE" tgt="IMPACT" value="-0.25" p="1" />
 		<effect ect="ONECE" time="1" ett="ATTRIBUTE_IN" est="ADD_VALUE" tgt="C_FLAME" value="+0.5" p="1" />
 	</cCondition>
 	
-	<cCondition name="POISON" desc="“Å" pri="10">
+	<cCondition name="POISON" desc="æ¯’" pri="10">
 		<effect ect="CONTINUE" time="50/75" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="HP"  value="-0.05"  p="1" />
 		<effect ect="ONECE"    time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="CON" value="-0.5" p="1" />
 	</cCondition>
 	
-	<cCondition name="FLAME" desc="‰Šã" pri="20">
+	<cCondition name="FLAME" desc="ç‚Žä¸Š" pri="20">
 		<effect ect="CONTINUE" time="50/75" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="HP"  value="-0.1" p="1" />
 		<effect ect="CONTINUE" time="50/75" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="CON" value="-0.1" p="1" />
 		<effect ect="CONTINUE" time="50/75" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SAN" value="-0.025" p="1" />
@@ -78,13 +78,13 @@ THE SOFTWARE.
 		<effect ect="CONTINUE" time="50/75" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="AVO" value="-0.1" p="1" />
 	</cCondition>
 
-	<cCondition name="FROZEN" desc="“€Œ‹" pri="20">
+	<cCondition name="FROZEN" desc="å‡çµ" pri="20">
 		<effect ect="CONTINUE" time="25/50" ett="STOP"                                                   p="0.75" />
 		<effect ect="ONECE"    time="1"	    ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SPD" value="-0.5" p="0.75" />
 		<effect ect="ONECE"    time="1"	    ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="AVO" value="-0.5" p="0.75" />
 	</cCondition>
 	
-	<cCondition name="TREE" desc="–Ø‰»" pri="20">
+	<cCondition name="TREE" desc="æœ¨åŒ–" pri="20">
 		<effect ect="CONTINUE" time="25/50" ett="STOP"                                                    p="0.99" />
 		<effect ect="CONTINUE" time="25/50" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SAN" value="-0.05" p="1" />
 		<effect ect="ONECE"    time="1"	    ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SPD" value="-0.75" p="0.8" />
@@ -93,53 +93,53 @@ THE SOFTWARE.
 		<effect ect="ONECE"    time="1"	    ett="ATTRIBUTE_IN" est="ADD_PERCENT_OF_MAX" tgt="C_FLAME" value="-0.75" p="1" />
 	</cCondition>
 	
-	<cCondition name="BLIND" desc="–Ó–Ú" pri="30">
+	<cCondition name="BLIND" desc="ç›²ç›®" pri="30">
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="DEX" value="-0.75" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SPD" value="-0.75" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="AVO" value="-0.75" p="1" />
 	</cCondition>
 
-	<cCondition name="SEAL" desc="••ˆó" pri="40">
+	<cCondition name="SEAL" desc="å°å°" pri="40">
 		<effect ect="CONTINUE" time="25/25" ett="STOP" p="0.8" />
 	</cCondition>
 	
-	<cCondition name="SLEEP" desc="‡–°" pri="50">
+	<cCondition name="SLEEP" desc="ç¡çœ " pri="50">
 		<effect ect="CONTINUE" time="10/50" ett="STOP" p="1" />
 	</cCondition>
 	
-	<cCondition name="PARALYS" desc="–ƒáƒ" pri="60">
+	<cCondition name="PARALYS" desc="éº»ç—º" pri="60">
 		<effect ect="CONTINUE" time="10/50" ett="STOP" p="0.25" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="DEX" value="-0.75" p="0.5" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SPD" value="-0.75" p="0.5" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="AVO" value="-0.75" p="0.5" />
 	</cCondition>
 	
-	<cCondition name="SWOON" desc="‹Câ" pri="60">
+	<cCondition name="SWOON" desc="æ°—çµ¶" pri="60">
 		<effect ect="CONTINUE" time="10/20" ett="STOP" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="DEX" value="-0.75" p="0.5" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SPD" value="-0.75" p="0.5" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="AVO" value="-0.75" p="0.5" />
 	</cCondition>
 	
-	<cCondition name="CONFUSION" desc="¬—" pri="71">
+	<cCondition name="CONFUSION" desc="æ··ä¹±" pri="71">
 		<effect ect="CONTINUE" time="5/25" ett="CONFU" p="1"/>
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="POW" value="-0.25" p="0.5" />
 	</cCondition>
 	
-	<cCondition name="MADNESS" desc="‹¶—" pri="72">
+	<cCondition name="MADNESS" desc="ç‹‚ä¹±" pri="72">
 		<effect ect="CONTINUE" time="5/25" ett="CONFU" p="1"/>
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="POW" value="-0.25" p="0.5" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SAN" value="-0.25" p="0.5" />
 		<effect ect="CONTINUE" ett="ADD_CONDITION" tgt="TRUE_MADNESS" p="0.05" />
 	</cCondition>
 	
-	<cCondition name="TRUE_MADNESS" desc="”­‹¶" pri="73">
+	<cCondition name="TRUE_MADNESS" desc="ç™ºç‹‚" pri="73">
 		<effect ect="CONTINUE" time="INFINITY" ett="CONFU" p="1"/>
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="POW" value="-0.50" p="0.75" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SAN" value="-0.50" p="0.75" />
 	</cCondition>
 	
-	<cCondition name="ROT" desc="•…”s" pri="80">
+	<cCondition name="ROT" desc="è…æ•—" pri="80">
 		<effect ect="CONTINUE" time="15/50" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="STR" value="-0.05" p="0.75" />
 		<effect ect="CONTINUE" time="15/50" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="CON" value="-0.05" p="0.75" />
 		<effect ect="CONTINUE" time="15/50" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SIZ" value="-0.05" p="0.75" />
@@ -148,7 +148,7 @@ THE SOFTWARE.
 		<effect ect="CONTINUE" ett="ADD_CONDITION" tgt="TRUE_MADNESS" p="0.05" />
 	</cCondition>
 	
-	<cCondition name="STONE" desc="Î‰»" pri="90">
+	<cCondition name="STONE" desc="çŸ³åŒ–" pri="90">
 		<effect ect="CONTINUE" time="15/50" ett="STOP" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_VALUE" tgt="SIZ" value="50" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_VALUE" tgt="DEF" value="50" p="0.75" />
@@ -160,7 +160,7 @@ THE SOFTWARE.
 		<effect ect="ONECE" time="1" ett="ATTRIBUTE_IN" est="ADD_VALUE" tgt="IMPACT" value="-0.5" p="1" />
 	</cCondition>
 
-	<cCondition name="GOLDY" desc="‰©‹à‰»" pri="91">
+	<cCondition name="GOLDY" desc="é»„é‡‘åŒ–" pri="91">
 		<effect ect="CONTINUE" time="INFINITY" ett="STOP" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_VALUE" tgt="SIZ" value="999" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_VALUE" tgt="DEF" value="999" p="1" />
@@ -172,7 +172,7 @@ THE SOFTWARE.
 		<effect ect="ONECE" time="1" ett="ATTRIBUTE_IN" est="ADD_VALUE" tgt="IMPACT" value="-0.75" p="1" />
 	</cCondition>
 	
-	<cCondition name="CUT" desc="Ø’f" pri="100">
+	<cCondition name="CUT" desc="åˆ‡æ–­" pri="100">
 		<effect ect="CONTINUE" time="INFINITY" ett="STOP" p="0.25" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SIZ" value="-0.25" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="DEF" value="-0.25" p="1" />
@@ -189,7 +189,7 @@ THE SOFTWARE.
 		<effect ect="CONTINUE" ett="ADD_CONDITION" tgt="MADNESS" p="0.1" />
 	</cCondition>
 
-	<cCondition name="BREAK" desc="”j‰ó" pri="101">
+	<cCondition name="BREAK" desc="ç ´å£Š" pri="101">
 		<effect ect="CONTINUE" time="INFINITY" ett="STOP" p="0.5" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="SIZ" value="-0.40" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="ADD_PERCENT_OF_MAX" tgt="DEF" value="-0.40" p="1" />
@@ -206,7 +206,7 @@ THE SOFTWARE.
 		<effect ect="CONTINUE" ett="ADD_CONDITION" tgt="MADNESS" p="0.25" />
 	</cCondition>
 
-	<cCondition name="DESTROY" desc="Á–Å" pri="200">
+	<cCondition name="DESTROY" desc="æ¶ˆæ»…" pri="200">
 		<effect ect="CONTINUE" time="INFINITY" ett="STOP" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="TO" tgt="HP" value="0" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="TO" tgt="MP" value="0" p="1" />
@@ -227,7 +227,7 @@ THE SOFTWARE.
 		<effect ect="ONECE" time="1" ett="STATUS" est="TO" tgt="DEF" value="0" p="1" />
 	</cCondition>
 
-	<cCondition name="DEAD" desc="Ž€–S" pri="201">
+	<cCondition name="DEAD" desc="æ­»äº¡" pri="201">
 		<effect ect="CONTINUE" time="INFINITY" ett="STOP" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="TO" tgt="HP" value="0" p="1" />
 		<effect ect="ONECE" time="1" ett="STATUS" est="TO" tgt="MP" value="0" p="1" />
@@ -250,33 +250,33 @@ THE SOFTWARE.
 	
 
 
-	<!-- ƒoƒgƒ‹ƒtƒB[ƒ‹ƒhó‘Ô‚Ìƒ}ƒXƒ^’è‹` -->
-	<fCondition name="F_NOMAL" desc="ƒtƒB[ƒ‹ƒhF‰õ°" pri="0">
+	<!-- ãƒãƒˆãƒ«ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰çŠ¶æ…‹ã®ãƒžã‚¹ã‚¿å®šç¾© -->
+	<fCondition name="F_NOMAL" desc="ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ï¼šå¿«æ™´" pri="0">
 		<effect ect="NONE" />
 	</fCondition>
-	<fCondition name="F_FLAME" desc="ƒtƒB[ƒ‹ƒhF‰Šã" pri="10">
+	<fCondition name="F_FLAME" desc="ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ï¼šç‚Žä¸Š" pri="10">
 		<effect ect="CONTINUE" ett="ADD_CONDITION" tgt="FLAME" p="0.15" />
 	</fCondition>
-	<fCondition name="F_WIND" desc="ƒtƒB[ƒ‹ƒhF‹­•—" pri="20">
+	<fCondition name="F_WIND" desc="ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ï¼šå¼·é¢¨" pri="20">
 		<effect ect="CONTINUE" time="INFINITY" ett="STOP" p="0.25" />
 	</fCondition>
-	<fCondition name="F_ERATH" desc="ƒtƒB[ƒ‹ƒhF’nk" pri="20">
+	<fCondition name="F_ERATH" desc="ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ï¼šåœ°éœ‡" pri="20">
 		<effect ect="CONTINUE" time="INFINITY" ett="STOP" p="0.25" />
 	</fCondition>
-	<fCondition name="F_ICE" desc="ƒtƒB[ƒ‹ƒhF“€Œ‹" pri="10">
+	<fCondition name="F_ICE" desc="ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ï¼šå‡çµ" pri="10">
 		<effect ect="CONTINUE" ett="ADD_CONDITION" tgt="FROZEN" p="0.1" />
 	</fCondition>
-	<fCondition name="F_THNDER" desc="ƒtƒB[ƒ‹ƒhF—Ž—‹" pri="30">
+	<fCondition name="F_THNDER" desc="ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ï¼šè½é›·" pri="30">
 		<effect ect="CONTINUE" ett="ADD_CONDITION" tgt="FLAME" p="0.01" />
 		<effect ect="CONTINUE" ett="ADD_CONDITION" tgt="DEAD" p="0.01" />
 	</fCondition>
-	<fCondition name="F_RAIN" desc="ƒtƒB[ƒ‹ƒhF‘å‰J" pri="40">
+	<fCondition name="F_RAIN" desc="ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ï¼šå¤§é›¨" pri="40">
 		<effect ect="CONTINUE" ett="ADD_CONDITION" tgt="MOIST" p="0.95" />
 	</fCondition>
-	<fCondition name="F_DARK" desc="ƒtƒB[ƒ‹ƒhFˆÅ" pri="50">
+	<fCondition name="F_DARK" desc="ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ï¼šé—‡" pri="50">
 		<effect ect="CONTINUE" ett="ADD_CONDITION" tgt="BLIND" p="0.1" />
 	</fCondition>
-	<fCondition name="F_GOLD" desc="ƒtƒB[ƒ‹ƒhF˜B‹à‰J" pri="60">
+	<fCondition name="F_GOLD" desc="ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ï¼šéŒ¬é‡‘é›¨" pri="60">
 		<effect ect="CONTINUE" ett="ADD_CONDITION" tgt="GOLDY" p="0.1" />
 	</fCondition>
 

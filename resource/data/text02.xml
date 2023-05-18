@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
 
@@ -26,11 +26,11 @@ THE SOFTWARE.
 
 <kinugasaText lSep="/">
  	<text id="001" tc="1" eventScript="resource/data/E002.xml" >
-–u‚¨‚¢B¶‚«‚Ä‚é‚©H‘åä•v‚©H
+ï¼Šã€ŒãŠã„ã€‚ç”Ÿãã¦ã‚‹ã‹ï¼Ÿå¤§ä¸ˆå¤«ã‹ï¼Ÿ
 	</text>
 	
 	<text id="002" tc="1" >
-–u‚¨[‚¢II’N‚©—ˆ‚Ä‚­‚ê[IIl‚ª“|‚ê‚Ä‚¢‚éI‘§‚Í‚ ‚é‚æ‚¤‚¾[II
+ï¼Šã€ŒãŠãƒ¼ã„ï¼ï¼èª°ã‹æ¥ã¦ãã‚Œãƒ¼ï¼ï¼äººãŒå€’ã‚Œã¦ã„ã‚‹ï¼æ¯ã¯ã‚ã‚‹ã‚ˆã†ã ãƒ¼ï¼ï¼
 	</text>
 
 		
