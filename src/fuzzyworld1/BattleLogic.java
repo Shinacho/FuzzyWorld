@@ -377,8 +377,7 @@ public class BattleLogic extends GameLogic {
 	}
 
 	@Override
-	public void draw(GraphicsContext g
-	) {
+	public void draw(GraphicsContext g) {
 		battleSystem.draw(g);
 	}
 

@@ -98,8 +98,8 @@ THE SOFTWARE.
 		<item name="ワイルドステーキ" />
 		<item name="麦焼酎" />
 		<action name="こぶし" />
-		<action name="錬金物質錬成"/>
-		<book name="魔術の書「錬金魔法１」" />
+		<action name="破壊光線"/>
+		<book name="魔術の書「破壊光線」" />
 	</enemy>
 	
 	<enemy name="MPが足りない魔術師" visibleName="MPが足りない魔術師" image="resource/data/image/M1.png" race="HUMAN"  vehicle="WALK" ai="SIMPLE" deadSound="SE/効果音＿敵消滅.wav">

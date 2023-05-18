@@ -1306,20 +1306,10 @@ THE SOFTWARE.
             <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
     -->	
-    <magic name="破壊光線" desc="すべてを消滅させる大魔法だ。" term="魔術の書「破壊光線」所持,魔術使用可能" spellTime="1" area="880" waitTime="80" sound="通常攻撃">
+    <magic name="破壊光線" desc="すべてを消滅させる大魔法だ。" term="魔術の書「破壊光線」所持,魔術使用可能" spellTime="1" area="880" waitTime="120" sound="通常攻撃">
         <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-64" attr="LIGHT" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" />
         <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
         <battleEvent tt="SELF" pt="STATUS" tgtName="SAN" value="-20" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="錬金物質錬成" desc="錬金物質を錬成して敵に付着させる。" term="魔術の書「錬金魔法１」所持,魔術使用可能" spellTime="5" area="380" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" value="-32" attr="ALCHEMY" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" />
-        <battleEvent tt="ONE_ENEMY" pt="ADD_CONDITION" tgtName="GOLDY" attr="ALCHEMY" p="0.1" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    <magic name="錬金爆発" desc="錬成した連携物質を爆破する。" term="魔術の書「錬金魔法１」所持,魔術使用可能" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="-16" attr="ALCHEMY" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" />
-        <battleEvent tt="ALL" pt="ADD_CONDITION" tgtName="GOLDY" p="0.01" attr="ALCHEMY" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
     
     <!--
