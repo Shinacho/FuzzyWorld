@@ -65,11 +65,12 @@ public class OPLogic extends GameLogic {
 	public void load() {
 
 		map = new FieldMapXMLLoader()
-				.addFieldMapStorage("resource/data/fms.xml")
-				.addMapChipAttr("resource/data/chipAttr.xml")
-				.addMapChipSet("resource/data/chipSet_inner16.xml")
-				.addVehicle("resource/data/vehicle.xml")
-				.setInitialFieldMapName("ROOM")
+				.addFieldMapStorage("resource/data/map/fieldMapStorage.xml")
+				.addMapChipAttr("resource/data/field/chipAttr.xml")
+				.addMapChipSet("resource/data/field/chipSet_inner16.xml")
+				.addMapChipSet("resource/data/field/chipSet_outer16.xml")
+				.addVehicle("resource/data/field/vehicle.xml")
+				.setInitialFieldMapName("M001")
 				.setInitialLocation(new D2Idx(4, 4))
 				.setInitialVehicleName("WALK")
 				.load();
@@ -132,40 +133,43 @@ public class OPLogic extends GameLogic {
 			case 6:
 				Dialog.InputResult r = null;
 				do {
-					r = Dialog.input(I18N.translate("PLEASE_NAME"), 4);
+					r = Dialog.input(I18N.get("今回の介入者の名前は"), 4);
 				} while (r.value == null || r.value.equals("") || r.result != DialogOption.YES);
+				if (r.value.length() > 4) {
+					r.value = r.value.substring(0, 4);
+				}
 				Const.Player.pc1Name = r.value;
 				stage++;
 				break;
 			case 7:
-				if (Dialog.yesOrNo("FUZZY WORLD", DialogIcon.QUESTION, Const.Player.pc1Name + I18N.translate("YOUR_NAME_IS")) != DialogOption.YES) {
+				if (Dialog.yesOrNo("FUZZY WORLD", DialogIcon.QUESTION, I18N.get("Xという名前でよいのかね？", Const.Player.pc1Name)) != DialogOption.YES) {
 					stage--;
 					break;
 				}
-				Dialog.info(Const.Player.pc1Name + ",\r\n" + I18N.translate("GOLDEN_RECORD"));
+				Dialog.info(Const.Player.pc1Name + ",\r\n" + I18N.get("金の円盤にしたがって世界を正せ"));
 				stage++;
 				break;
 			case 8:
 				if (GameSystem.isDebugMode()) {
-					kinugasa.game.GameLog.printInfo("FUZZY WORLD へようこそ, " + Const.Player.pc1Name);
+					kinugasa.game.GameLog.print("FUZZY WORLD へようこそ, " + Const.Player.pc1Name);
 					if (nameMap.containsKey(Const.Player.pc1Name)) {
-						kinugasa.game.GameLog.printInfo(nameMap.get(Const.Player.pc1Name));
+						kinugasa.game.GameLog.print(nameMap.get(Const.Player.pc1Name));
 					}
 					if ("qwerty".contains(Const.Player.pc1Name)) {
-						kinugasa.game.GameLog.printInfo("あなたは・・・なかなか適当な人のようですね。");
+						kinugasa.game.GameLog.print("あなたは・・・なかなか適当な人のようですね。");
 					}
 					if ("asdfgh".contains(Const.Player.pc1Name)) {
-						kinugasa.game.GameLog.printInfo("あなたは・・・なかなか適当な人のようですね。");
+						kinugasa.game.GameLog.print("あなたは・・・なかなか適当な人のようですね。");
 					}
 					if (Const.Player.pc1Name.contains("<") || Const.Player.pc1Name.contains(">")) {
-						kinugasa.game.GameLog.printInfo("フフフ・・・そのような名前にしても、この世界は壊れません。無駄ですよ。");
+						kinugasa.game.GameLog.print("フフフ・・・そのような名前にしても、この世界は壊れません。無駄ですよ。");
 					}
 					if (Const.Player.pc1Name.contains("\\") || Const.Player.pc1Name.contains("\"")) {
-						kinugasa.game.GameLog.printInfo("フフフ・・・そのような名前にしても、この世界は壊れません。無駄ですよ。");
+						kinugasa.game.GameLog.print("フフフ・・・そのような名前にしても、この世界は壊れません。無駄ですよ。");
 					}
-					kinugasa.game.GameLog.printInfo("あなたには・・・このメッセージが見えているのですね。");
-					kinugasa.game.GameLog.printInfo("あなたの使命は金の円盤にしたがって世界を正すこと。");
-					kinugasa.game.GameLog.printInfo("我々に正しい世界をもたらしてください"
+					kinugasa.game.GameLog.print("あなたには・・・このメッセージが見えているのですね。");
+					kinugasa.game.GameLog.print("あなたの使命は金の円盤にしたがって世界を正すこと。");
+					kinugasa.game.GameLog.print("我々に正しい世界をもたらしてください"
 							+ "。金の円盤にしたがって・・・");
 				}
 				effect = new FadeEffect(gm.getWindow().getWidth(), gm.getWindow().getHeight(),
@@ -189,8 +193,8 @@ public class OPLogic extends GameLogic {
 				}
 				break;
 			case 11:
-				Const.Chapter.current = "CHAPTER2";
-				Const.Chapter.currentSubTitle = "CHAPTER2_SUBTITLE";
+				Const.Chapter.current = "第一部";
+				Const.Chapter.currentSubTitle = "失踪と戦火";
 				Const.Chapter.nextLogic = Const.LogicName.FIELD;
 				gls.changeTo(Const.LogicName.CHAPTER_TITLE);
 				break;

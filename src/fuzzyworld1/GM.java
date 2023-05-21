@@ -69,7 +69,7 @@ public class GM extends GameManager {
 		try {
 			new GM().gameStart();
 		} catch (Throwable ex) {
-			kinugasa.game.GameLog.printInfo(ex);
+			kinugasa.game.GameLog.print(ex);
 		}
 	}
 
@@ -82,9 +82,9 @@ public class GM extends GameManager {
 		try {
 			fontName = Files.readAllLines(new File("resource/data/font.txt").toPath(), Charset.forName("UTF-8")).get(0);
 			FontModel.DEFAULT.setFont(new Font(fontName, Font.PLAIN, FontModel.DEFAULT.getFont().getSize()));
-			GameLog.printInfo("font[" + fontName + "] is loaded");
+			GameLog.print("font[" + fontName + "] is loaded");
 		} catch (Exception ex) {
-			GameLog.printInfo("font.txt is not found or font name is not found, using default font[MONOSPACED]");
+			GameLog.print("font.txt is not found or font name is not found, using default font[MONOSPACED]");
 		}
 	}
 	private FPSLabel fps;
@@ -92,10 +92,10 @@ public class GM extends GameManager {
 
 	@Override
 	protected void startUp() {
-		GameLog.printInfo("--MEM INFO--");
-		GameLog.printInfo("TOTAL:" + Runtime.getRuntime().totalMemory() / 1024 / 1024);
-		GameLog.printInfo("MAX:" + Runtime.getRuntime().maxMemory() / 1024 / 1024);
-		GameLog.printInfo("FREE:" + Runtime.getRuntime().freeMemory() / 1024 / 1024);
+		GameLog.print("--MEM INFO--");
+		GameLog.print("TOTAL:" + Runtime.getRuntime().totalMemory() / 1024 / 1024);
+		GameLog.print("MAX:" + Runtime.getRuntime().maxMemory() / 1024 / 1024);
+		GameLog.print("FREE:" + Runtime.getRuntime().freeMemory() / 1024 / 1024);
 
 		Const.Screen.WIDTH = GameOption.getInstance().getWindowSize().width;
 		Const.Screen.HEIGHT = GameOption.getInstance().getWindowSize().height;
@@ -106,7 +106,7 @@ public class GM extends GameManager {
 		float volumeBgm = volumeForm.getMulBgm();
 		float volumeSe = volumeForm.getMulSe();
 		if (GameSystem.isDebugMode()) {
-			kinugasa.game.GameLog.printInfo("volume: BGM[" + volumeBgm + "] SE:[" + volumeSe + "]");
+			kinugasa.game.GameLog.print("volume: BGM[" + volumeBgm + "] SE:[" + volumeSe + "]");
 		}
 		SoundLoader.loadList("resource/bgm/BGM.csv", volumeBgm);
 		SoundLoader.loadList("resource/se/SE.csv", volumeSe);
@@ -125,7 +125,7 @@ public class GM extends GameManager {
 
 		//
 		gls.changeTo(Const.LogicName.SS_LOGIC);
-		getWindow().setTitle("Fuzzy World" + " -" + I18N.translate("SUB_TITLE") + "-");
+		getWindow().setTitle("Fuzzy World" + " -" + I18N.get("魔法使いと不死の秘術") + "-");
 		getWindow().setIconImage(new ImageIcon(getClass().getResource("icon.png")).getImage());
 		//
 	}
@@ -144,7 +144,7 @@ public class GM extends GameManager {
 		//スクリーンショット
 		if (is.isPressed(GamePadButton.BACK, Keys.F12, InputType.SINGLE)) {
 			JFileChooser c = new JFileChooser();
-			c.setDialogTitle(I18N.translate("SCREEN_SHOT"));
+			c.setDialogTitle(I18N.get("スクリーンショットの保存"));
 			c.setSelectedFile(new File(PlayerConstants.getInstance().DESKTOP_PATH + "/screenShot_" + System.currentTimeMillis() + ".png"));
 			c.setMultiSelectionEnabled(false);
 

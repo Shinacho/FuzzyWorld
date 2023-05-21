@@ -58,7 +58,7 @@ public class SSLogic extends GameLogic {
 	public void load() {
 		waitTime1 = new FrameTimeCounter(150);
 		stage = -1;
-		ssImage = ImageUtil.load("resource/data/image/ss.png");
+		ssImage = ImageUtil.load("resource/image/ss.png");
 	}
 
 	@Override
@@ -79,7 +79,7 @@ public class SSLogic extends GameLogic {
 								ColorTransitionModel.valueOf(0),
 								new FadeCounter(255, -8)
 						));
-				SoundStorage.getInstance().get("SE").get("効果音＿SS.wav").load().stopAndPlay();
+				SoundStorage.getInstance().get("SE").get("SS.wav").load().stopAndPlay();
 				stage++;
 				break;
 			case 0:

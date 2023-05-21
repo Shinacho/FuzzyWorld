@@ -59,7 +59,7 @@ public class GamePadTestLogic extends GameLogic {
 	@Override
 	public void load() {
 		gp = new GamePadStatusMonitor();
-		sound = SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load();
+		sound = SoundStorage.getInstance().get("SE").get("選択1.wav").load();
 	}
 
 	@Override

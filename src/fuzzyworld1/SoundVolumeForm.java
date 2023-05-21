@@ -250,7 +250,7 @@ public class SoundVolumeForm extends javax.swing.JFrame {
 		SoundLoader.loadList("resource/se/SE.csv", mulSe);
 
 		setVisible(false);
-		SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load().stopAndPlay();
+		SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
 		if (kinugasa.util.Random.percent(0.5f)) {
 			SoundStorage.getInstance().get("BGM").get("フィールド３.wav").load().play();
 		}else{
