@@ -75,7 +75,13 @@ public class BattleLogic extends GameLogic {
 		if (!loaded) {
 			StatusDamageCalcModelStorage.getInstance().setCurrent("DEFAULT");
 			SpeedCalcModelStorage.getInstance().setCurrent("SPD_50%RANDOM");
+
 			Enemy.setProgressBarKey("HP");
+			
+			BattleConfig.Sound.avoidance = SoundStorage.getInstance().get("SE").get("避けた.wav");
+			BattleConfig.Sound.block = SoundStorage.getInstance().get("SE").get("ブロック.wav");
+			BattleConfig.Sound.spellStart = SoundStorage.getInstance().get("SE").get("魔法詠唱.wav");
+
 			BattleConfig.StatusKey.hp = "HP";
 			BattleConfig.StatusKey.move = "MOV";
 			BattleConfig.StatusKey.exp = "EXP";
@@ -91,7 +97,7 @@ public class BattleLogic extends GameLogic {
 			BattleConfig.atkDefPercent = 0.25f;
 			BattleConfig.damageMul = 5f;
 
-			BattleConfig.weaponSlotName = "腕";
+			BattleConfig.weaponSlotName = "武器";
 
 			BattleConfig.ActionName.avoidance = "回避";
 			BattleConfig.ActionName.escape = "逃走";
@@ -122,9 +128,9 @@ public class BattleLogic extends GameLogic {
 						return BattleResult.NOT_YET;
 					}
 			);
-			choiceSound1 = SoundStorage.getInstance().get("SE").get("効果音＿選択1.wav").load();
-			choiceSound2 = SoundStorage.getInstance().get("SE").get("効果音＿選択2.wav").load();
-			playerOpeStart = SoundStorage.getInstance().get("SE").get("効果音＿バトルターン開始.wav").load();
+			choiceSound1 = SoundStorage.getInstance().get("SE").get("選択1.wav").load();
+			choiceSound2 = SoundStorage.getInstance().get("SE").get("選択2.wav").load();
+			playerOpeStart = SoundStorage.getInstance().get("SE").get("バトルターン開始.wav").load();
 			loaded = true;
 		}
 		playerMoveInitialLocation = null;
@@ -145,7 +151,7 @@ public class BattleLogic extends GameLogic {
 		//テスト用緊急脱出装置
 		if (GameSystem.isDebugMode()) {
 			if (is.isPressed(Keys.ESCAPE, InputType.SINGLE)) {
-				if (Dialog.yesOrNo("確認", DialogIcon.QUESTION, I18N.translate("BATTLE_CLOSE")) == DialogOption.YES) {
+				if (Dialog.yesOrNo("確認", DialogIcon.QUESTION, I18N.get("【デバッグ用】戦闘を即時終了しますか")) == DialogOption.YES) {
 					battleSystem.setBattleResultValue(new BattleResultValues(BattleResult.WIN, 123, new ArrayList<>(), "FIELD"));
 					BattleResultValues result = GameSystem.getInstance().battleEnd();
 					gls.changeTo("FIELD");
@@ -362,7 +368,7 @@ public class BattleLogic extends GameLogic {
 						//TODO:ドロップアイテム、経験値の分配処理ここ
 
 					}
-					if(result.getBattleResult() == BattleResult.LOSE){
+					if (result.getBattleResult() == BattleResult.LOSE) {
 						//負けた時の処理ここ
 					}
 					gls.changeTo(result.getNextLogicName());

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+The MIT License
+
+Copyright 2016 Shinacho.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+-->
+
+<kinugasaChipAttribute>
+	<attribute name="平地" encountBaseValue="2"/>
+	<attribute name="草原" encountBaseValue="2"/>
+	<attribute name="都市" encountBaseValue="0"/>
+	<attribute name="町" encountBaseValue="0"/>
+	<attribute name="村" encountBaseValue="0"/>
+	<attribute name="小屋" encountBaseValue="0"/>
+	<attribute name="砂漠" encountBaseValue="2"/>
+	<attribute name="砂浜" encountBaseValue="2"/>
+	<attribute name="藪" encountBaseValue="4"/>
+	<attribute name="森林" encountBaseValue="6"/>
+	<attribute name="密林" encountBaseValue="8"/>
+	<attribute name="丘陵" encountBaseValue="6"/>
+	<attribute name="山岳" encountBaseValue="8"/>
+	<attribute name="高山" encountBaseValue="8"/>
+	<attribute name="河川" encountBaseValue="1"/>
+	<attribute name="橋" encountBaseValue="1"/>
+	<attribute name="浅瀬" encountBaseValue="1"/>
+	<attribute name="海" encountBaseValue="1"/>
+	<attribute name="城" encountBaseValue="0"/>
+	<attribute name="塔" encountBaseValue="0"/>
+	<attribute name="洞窟" encountBaseValue="4"/>
+	<attribute name="道路" encountBaseValue="1"/>
+	<attribute name="城壁" encountBaseValue="0"/>
+	<attribute name="港" encountBaseValue="0"/>
+	<attribute name="登山道" encountBaseValue="0"/>
+	<attribute name="山小屋" encountBaseValue="0"/>
+	<attribute name="崩壊橋" encountBaseValue="0"/>
+	<attribute name="廃墟" encountBaseValue="0"/>
+	<attribute name="岩礁" encountBaseValue="1"/>
+	<attribute name="柵" encountBaseValue="0"/>
+	<attribute name="岩" encountBaseValue="0"/>
+	<attribute name="畑" encountBaseValue="1"/>
+	<attribute name="崖" encountBaseValue="0"/>
+	<attribute name="荒地" encountBaseValue="1"/>
+	<attribute name="岩盤" encountBaseValue="1"/>
+	<attribute name="木" encountBaseValue="0"/>
+	<attribute name="魔方陣" encountBaseValue="1"/>
+	<attribute name="はしご" encountBaseValue="0"/>
+	<attribute name="石階段" encountBaseValue="1"/>
+	<attribute name="木階段" encountBaseValue="1"/>
+	<attribute name="木橋" encountBaseValue="1"/>
+	<attribute name="石橋" encountBaseValue="1"/>
+	<attribute name="木床" encountBaseValue="1"/>
+	<attribute name="石床" encountBaseValue="1"/>
+	<attribute name="舗装道路" encountBaseValue="1"/>
+	<attribute name="木壁" encountBaseValue="0"/>
+	<attribute name="石壁" encountBaseValue="0"/>
+	<attribute name="鉄壁" encountBaseValue="0"/>
+	<attribute name="ドア" encountBaseValue="0"/>
+	<attribute name="屋根" encountBaseValue="0"/>
+	<attribute name="看板" encountBaseValue="0"/>
+	<attribute name="机" encountBaseValue="0"/>
+	<attribute name="椅子" encountBaseValue="0"/>
+	<attribute name="棚" encountBaseValue="0"/>
+	<attribute name="本棚" encountBaseValue="0"/>
+	<attribute name="ベッド" encountBaseValue="0"/>
+	<attribute name="宝箱" encountBaseValue="0"/>
+	<attribute name="壷" encountBaseValue="0"/>
+	<attribute name="樽" encountBaseValue="0"/>
+	<attribute name="箱" encountBaseValue="0"/>
+	<attribute name="袋" encountBaseValue="0"/>
+	<attribute name="本" encountBaseValue="0"/>
+	<attribute name="武器" encountBaseValue="0"/>
+	<attribute name="火器" encountBaseValue="0"/>
+	<attribute name="盾" encountBaseValue="0"/>
+	<attribute name="鎧" encountBaseValue="0"/>
+	<attribute name="兜" encountBaseValue="0"/>
+	<attribute name="スイッチ" encountBaseValue="0"/>
+	<attribute name="レバー" encountBaseValue="0"/>
+	<attribute name="骨" encountBaseValue="0"/>
+	<attribute name="機械" encountBaseValue="0"/>
+	<attribute name="松明" encountBaseValue="0"/>
+
+
+</kinugasaChipAttribute>

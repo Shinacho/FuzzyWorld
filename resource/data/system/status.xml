@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+The MIT License
+
+Copyright 2016 Shinacho.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+-->
+<KinugasaStatus>
+
+	<!-- ステータスパラメータのマスタ定義 -->
+	<status order="-1" name="LV" min="0" max="99" desc="レベル"/>
+	<status order="0" name="HP" min="0" max="99999" desc="体力" when0="DEAD"/>
+	<status order="1" name="MP" min="0" max="99999" desc="魔力"/>
+                            
+	<status order="2" name="STR" min="0" max="99" desc="筋力"/>
+	<status order="5" name="SPD" min="0" max="99" desc="素早さ" />
+	<status order="6" name="DEX" min="0" max="99" desc="器用さ" />
+	<status order="10" name="POW" min="0" max="99" desc="精神力" when0="MADNESS"/>
+	<status order="13" name="SAN" min="0" max="99" desc="正気度" when0="TRUE_MADNESS"/>
+	<status order="14" name="MOV" min="0" max="99" desc="行動力"/>
+	<status order="15" name="EXP" min="0" max="99999999" desc="経験値"/>
+                            
+	<status order="16" name="ATK" min="0" max="99" desc="攻撃力"/>
+	<status order="17" name="DEF" min="0" max="99" desc="防御力"/>
+	<status order="18" name="AVO" min="0" max="1" desc="物理攻撃回避率"/>
+	<status order="19" name="CUT_P" min="0" max="1" desc="物理攻撃カット率"/>
+	<status order="20" name="CUT_V" min="0" max="1" desc="物理ダメージカット時の減少割合"/>
+	<status order="21" name="CRT_P" min="0" max="1" desc="物理クリティカル発生率"/>
+	<status order="22" name="CRT_V" min="0" max="1" desc="物理クリティカル発生時の追加割合"/>
+	                        
+	<status order="23" name="M_ATK" min="0" max="99" desc="魔法攻撃力"/>
+	<status order="24" name="M_DEF" min="0" max="99" desc="魔法防御力"/>
+	<status order="25" name="M_AVO" min="0" max="1" desc="魔法攻撃回避率"/>
+	<status order="26" name="M_CUT_P" min="0" max="1" desc="魔法攻撃カット率"/>
+	<status order="27" name="M_CUT_V" min="0" max="1" desc="魔法ダメージカット時の減少割合"/>
+	<status order="28" name="M_CRT_P" min="0" max="1" desc="魔法クリティカル発生率"/>
+	<status order="29" name="M_CRT_V" min="0" max="1" desc="魔法クリティカル発生時の追加割合"/>
+	
+	
+	<status order="40" name="EQIP_ATTR" min="0" max="7" desc="装備属性"/>
+	<status order="41" name="CAN_MAGIC" min="0" max="1" desc="魔術使用可否"/>
+	
+
+	
+</KinugasaStatus>

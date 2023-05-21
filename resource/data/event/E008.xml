@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+The MIT License
+
+Copyright 2016 Shinacho.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+-->
+<kinugasaFielEventScript undead="false">
+
+	<term name="M004_E08_FLG_NOT_EXISTS" ett="NO_EXISTS_FLG" stName="STORY" tgtName="M004_E08" value="" />
+
+	<event order="0" fet="IF" stName="" tgtName="" value="" term="M004_E08_FLG_NOT_EXISTS"/>
+		<event order="1" fet="DISABLE_OPERATION" stName="" tgtName="" value="" term="" />
+		<event order="2" fet="NPC_ANIMATION_IDX_TO" stName="" tgtName="NPC02" value="1" term=""/>
+		<event order="5" fet="RESET_CAMERA" stName="" tgtName="" value="" term=""/>
+
+		<event order="100" fet="WAIT" stName="" tgtName="" value="50" term=""/>
+		<event order="150" fet="NPC_DIR_TO" stName="" tgtName="NPC02" value="EAST" term="" />
+		<event order="200" fet="SHOW_MESSAGE_DIRECT" stName="" tgtName="" value="トマギ「よし、それじゃあ行こう。街道から外れるなよ。野盗やらが出るからな。/" term="" />
+
+		<event order="220" fet="NPC_REMOVE" stName="" tgtName="NPC02" value="" term="" />
+		<event order="225" fet="PC_ADD" stName="" tgtName="" value="resource/data/system/status_tomagi.xml" term="" />
+	
+		<event order="410" fet="UPDATE_ACTION_OF_ALL_PC" tgtName="" value="" />
+
+		<event order="999" fet="ENABLE_OPERATION" stName="" tgtName="" value="" term="" />
+
+		<event order="2500" fet="SET_FLG_DIRECT" stName="STORY" tgtName="M004_E08" value="ON" term="" />
+	
+	<event order="3000" fet="END_IF" stName="" tgtName="" value="" term=""/>
+
+	
+</kinugasaFielEventScript>

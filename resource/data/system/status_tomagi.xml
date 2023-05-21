@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+The MIT License
+
+Copyright 2016 Shinacho.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+-->
+
+<kinugasaPlayerCharacter name="トマギ" race="HUMAN">
+
+	<spritesheet image="resource/image/c3.png" tc="14" w="32" h="32" ny="32" sy="0" ey="64" wy="96" />
+	
+	<status key="LV" max="99" min="1" value="22" />
+	<status key="HP" max="313" min="0" value="313" />
+	<status key="MP" max="0" min="0" value="0" />
+	
+	<status key="STR" max="52" min="0" value="52" />
+	<status key="SPD" max="36" min="0" value="36" />
+	<status key="DEX" max="44" min="0" value="44" />
+	<status key="POW" max="45" min="0" value="45" />
+	<status key="SAN" max="60" min="0" value="60" />
+	<status key="MOV" max="48" min="0" value="48" />
+	<status key="EXP" max="0" min="0" value="1192" />
+	 
+	<status key="ATK" max="48" min="0" value="48" />
+	<status key="DEF" max="17" min="0" value="17" />
+	<status key="AVO" max="0.02" min="0" value="0.02" />
+	<status key="CUT_P" max="0.01" min="0" value="0.01" />
+	<status key="CUT_V" max="1.5" min="0" value="1.5" />
+	<status key="CRT_P" max="0.01" min="0" value="0.01" />
+	<status key="CRT_V" max="1.5" min="0" value="1.5" />
+	 
+	<status key="M_ATK" max="0" min="0" value="0" />
+	<status key="M_DEF" max="2" min="0" value="2" />
+	<status key="M_AVO" max="0.02" min="0" value="0.02" />
+	<status key="M_CUT_P" max="0.01" min="0" value="0.01" />
+	<status key="M_CUT_V" max="1.5" min="0" value="1.5" />
+	<status key="M_CRT_P" max="0.01" min="0" value="0.01" />
+	<status key="M_CRT_V" max="1.5" min="0" value="1.5" />
+	<status key="EQIP_ATTR" max="1" min="0" value="0" />
+	<status key="CAN_MAGIC" max="1" min="0" value="0" />
+
+
+
+	<attrIn key="CHOP" max="99" min="1" value="1" />
+	<attrIn key="STAB" max="99" min="1" value="1" />
+	<attrIn key="IMPACT" max="99" min="1" value="1" />
+	<attrIn key="FLAME" max="99" min="1" value="1" />
+	<attrIn key="ICE" max="99" min="1" value="1" />
+	<attrIn key="WATER" max="99" min="1" value="1" />
+	<attrIn key="THNDER" max="99" min="1" value="1" />
+	<attrIn key="AIR" max="99" min="1" value="1" />
+	<attrIn key="EARTH" max="99" min="1" value="1" />
+	<attrIn key="LIGHT" max="99" min="1" value="1" />
+	<attrIn key="DARK" max="99" min="1" value="1" />
+	<attrIn key="HOLY" max="99" min="1" value="1" />
+	<attrIn key="EVIL" max="99" min="1" value="1" />
+	<attrIn key="MYSTERY" max="99" min="1" value="1" />
+	<attrIn key="ALCHEMY" max="99" min="1" value="1" />
+	<attrIn key="SPIRIT" max="99" min="1" value="1" />
+	<attrIn key="SPACE_TIME" max="99" min="1" value="1" />
+	
+	<attrIn key="C_POISON" max="99" min="1" value="0.9" />
+	<attrIn key="C_FLAME" max="99" min="1" value="0.9" />
+	<attrIn key="C_FROZEN" max="99" min="1" value="0.9" />
+	<attrIn key="C_BLIND" max="99" min="1" value="0.9" />
+	<attrIn key="C_SEAL" max="99" min="1" value="0.9" />
+	<attrIn key="C_SLEEP" max="99" min="1" value="0.9" />
+	<attrIn key="C_PARALYS" max="99" min="1" value="0.9" />
+	<attrIn key="C_CONFUSION" max="99" min="1" value="0.9" />
+	<attrIn key="C_MADNESS" max="99" min="1" value="0.9" />
+	<attrIn key="C_TRUE_MADNESS" max="99" min="1" value="0.9" />
+	<attrIn key="C_ROT" max="99" min="1" value="0.9" />
+	<attrIn key="C_STONE" max="99" min="1" value="0.9" />
+	<attrIn key="C_GOLDY" max="99" min="1" value="0.9" />
+	<attrIn key="C_CUT" max="99" min="1" value="0.9" />
+	<attrIn key="C_BREAK" max="99" min="1" value="0.9" />
+	<attrIn key="C_DESTROY" max="99" min="1" value="0.9" />
+	<attrIn key="C_DEAD" max="99" min="1" value="0.9" />
+	<attrIn key="C_SWOON" max="99" min="1" value="0.9" />
+
+
+
+	
+	<eqip name="堅木の山杖" />
+	<eqip name="行商人の服" />
+	<eqip name="木綿の手拭" />
+	<eqip name="草履" />
+	
+	
+	<item name="そば団子" />
+	<item name="そば団子" />
+	
+	
+	
+</kinugasaPlayerCharacter>
