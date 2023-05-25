@@ -80,18 +80,14 @@ THE SOFTWARE.
 	<attrIn key="C_POISON" max="99" min="1" value="0.9" />
 	<attrIn key="C_FLAME" max="99" min="1" value="0.9" />
 	<attrIn key="C_FROZEN" max="99" min="1" value="0.9" />
-	<attrIn key="C_BLIND" max="99" min="1" value="0.9" />
 	<attrIn key="C_SEAL" max="99" min="1" value="0.9" />
 	<attrIn key="C_SLEEP" max="99" min="1" value="0.9" />
 	<attrIn key="C_PARALYS" max="99" min="1" value="0.9" />
 	<attrIn key="C_CONFUSION" max="99" min="1" value="0.9" />
 	<attrIn key="C_MADNESS" max="99" min="1" value="0.9" />
 	<attrIn key="C_TRUE_MADNESS" max="99" min="1" value="0.9" />
-	<attrIn key="C_ROT" max="99" min="1" value="0.9" />
-	<attrIn key="C_STONE" max="99" min="1" value="0.9" />
 	<attrIn key="C_GOLDY" max="99" min="1" value="0.9" />
 	<attrIn key="C_CUT" max="99" min="1" value="0.9" />
-	<attrIn key="C_BREAK" max="99" min="1" value="0.9" />
 	<attrIn key="C_DESTROY" max="99" min="1" value="0.9" />
 	<attrIn key="C_DEAD" max="99" min="1" value="0.9" />
 	<attrIn key="C_SWOON" max="99" min="1" value="0.9" />

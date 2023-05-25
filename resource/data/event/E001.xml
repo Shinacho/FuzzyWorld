@@ -26,10 +26,8 @@ THE SOFTWARE.
 
 	<event order="0" fet="DISABLE_OPERATION" />
 	<event order="1" stName="BGM" fet="STOP_ALL_SOUND" />
-	<event order="2" fet="PLAY_SOUND" stName="SE" tgtName="海岸.wav"/>
-	<event order="6" fet="WAIT" stName="" tgtName="" value="40" term=""/>
 	<event order="8" fet="PLAY_SOUND" stName="BGM" tgtName="オープニング.wav"/>
-	<event order="10" fet="WAIT" stName="" tgtName="" value="130" term=""/>
+	<event order="6" fet="WAIT" stName="" tgtName="" value="180" term=""/>
 	<event order="20" fet="NPC_MOVE_AND_WAIT_THAT" stName="" tgtName="NPC02" value="30,35" term="" />
 	<event order="30" fet="NPC_LOCK_LOCATION" stName="" tgtName="NPC02" value="" term="" />
 	<event order="40" fet="SHOW_MESSAGE_FROM_TEXTSTORAGE" stName="002" tgtName="" value="001" term="" />

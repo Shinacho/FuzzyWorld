@@ -23,7 +23,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 -->
 <KinugasaBookList>
-
     <page mct="SET_ATTR" name="属性の術式" tgtName="CHOP"/>
     <page mct="SET_ATTR" name="属性の術式" tgtName="STAB"/>
     <page mct="SET_ATTR" name="属性の術式" tgtName="IMPACT"/>
@@ -57,18 +56,15 @@ THE SOFTWARE.
     <page mct="HEAL_ATTRIN" name="属性値回復の術式" tgtName="C_POISON"/>
     <page mct="HEAL_ATTRIN" name="属性値回復の術式" tgtName="C_FLAME"/>
     <page mct="HEAL_ATTRIN" name="属性値回復の術式" tgtName="C_FROZEN"/>
-    <page mct="HEAL_ATTRIN" name="属性値回復の術式" tgtName="C_BLIND"/>
     <page mct="HEAL_ATTRIN" name="属性値回復の術式" tgtName="C_SEAL"/>
     <page mct="HEAL_ATTRIN" name="属性値回復の術式" tgtName="C_SLEEP"/>
     <page mct="HEAL_ATTRIN" name="属性値回復の術式" tgtName="C_PARALYS"/>
     <page mct="HEAL_ATTRIN" name="属性値回復の術式" tgtName="C_CONFUSION"/>
     <page mct="HEAL_ATTRIN" name="属性値回復の術式" tgtName="C_MADNESS"/>
     <page mct="HEAL_ATTRIN" name="属性値回復の術式" tgtName="C_TRUE_MADNESS"/>
-    <page mct="HEAL_ATTRIN" name="属性値回復の術式" tgtName="C_ROT"/>
-    <page mct="HEAL_ATTRIN" name="属性値回復の術式" tgtName="C_STONE"/>
     <page mct="HEAL_ATTRIN" name="属性値回復の術式" tgtName="C_GOLDY"/>
     <page mct="HEAL_ATTRIN" name="属性値回復の術式" tgtName="C_CUT"/>
-    <page mct="HEAL_ATTRIN" name="属性値回復の術式" tgtName="C_BREAK"/>
+
     <page mct="HEAL_ATTRIN" name="属性値回復の術式" tgtName="C_DESTROY"/>
     <page mct="HEAL_ATTRIN" name="属性値回復の術式" tgtName="C_DEAD"/>
     <page mct="HEAL_STATUS" name="完全回復の術式" tgtName="LV"/>
@@ -100,12 +96,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="ESCAPED"/>
     <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="REGENE"/>
     <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="MOIST"/>
-    <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="OIL"/>
     <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="POISON"/>
     <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="FLAME"/>
     <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="FROZEN"/>
     <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="TREE"/>
-    <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="BLIND"/>
     <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="SEAL"/>
     <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="SLEEP"/>
     <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="SPELLING"/>
@@ -113,33 +107,19 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="CONFUSION"/>
     <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="MADNESS"/>
     <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="TRUE_MADNESS"/>
-    <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="ROT"/>
-    <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="STONE"/>
     <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="GOLDY"/>
     <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="CUT"/>
-    <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="BREAK"/>
     <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="DESTROY"/>
     <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="DEAD"/>
-    <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="F_NOMAL"/>
-    <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="F_FLAME"/>
-    <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="F_WIND"/>
-    <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="F_ERATH"/>
-    <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="F_ICE"/>
-    <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="F_THNDER"/>
-    <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="F_RAIN"/>
-    <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="F_DARK"/>
-    <page mct="ADD_CONDITION" name="状態異常追加の術式" tgtName="F_GOLD"/>
     <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="DEFENCE"/>
     <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="AVOIDANCE"/>
     <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="ESCAPED"/>
     <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="REGENE"/>
     <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="MOIST"/>
-    <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="OIL"/>
     <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="POISON"/>
     <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="FLAME"/>
     <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="FROZEN"/>
     <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="TREE"/>
-    <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="BLIND"/>
     <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="SEAL"/>
     <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="SLEEP"/>
     <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="SPELLING"/>
@@ -147,21 +127,9 @@ THE SOFTWARE.
     <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="CONFUSION"/>
     <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="MADNESS"/>
     <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="TRUE_MADNESS"/>
-    <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="ROT"/>
-    <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="STONE"/>
     <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="GOLDY"/>
     <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="CUT"/>
-    <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="BREAK"/>
     <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="DESTROY"/>
-    <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="F_NOMAL"/>
-    <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="F_FLAME"/>
-    <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="F_WIND"/>
-    <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="F_ERATH"/>
-    <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="F_ICE"/>
-    <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="F_THNDER"/>
-    <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="F_RAIN"/>
-    <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="F_DARK"/>
-    <page mct="REMOVE_CONDITION" name="状態異常解除の術式" tgtName="F_GOLD"/>
     <page mct="TO_ALL" name="全体化の術式"/>
     <page mct="TO_ONE" name="単体化の術式"/>
     <page mct="TO_TEAM" name="グループ化の術式"/>
@@ -186,18 +154,15 @@ THE SOFTWARE.
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_POISON" value="1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FLAME" value="1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FROZEN" value="1"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BLIND" value="1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SEAL" value="1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SLEEP" value="1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_PARALYS" value="1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CONFUSION" value="1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_MADNESS" value="1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_TRUE_MADNESS" value="1"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_ROT" value="1"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_STONE" value="1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_GOLDY" value="1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CUT" value="1"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BREAK" value="1"/>
+
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DESTROY" value="1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DEAD" value="1"/>
     <page mct="DAMAGE_STATUS_DIRECT" name="直接作用の術式" tgtName="LV" value="64"/>
@@ -253,12 +218,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ESCAPED" value="32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="REGENE" value="32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MOIST" value="32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="OIL" value="32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="POISON" value="32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FLAME" value="32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FROZEN" value="32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TREE" value="32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BLIND" value="32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SEAL" value="32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SLEEP" value="32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SPELLING" value="32"/>
@@ -266,22 +229,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CONFUSION" value="32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MADNESS" value="32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TRUE_MADNESS" value="32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ROT" value="32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="STONE" value="32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="GOLDY" value="32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CUT" value="32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BREAK" value="32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DESTROY" value="32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DEAD" value="32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_NOMAL" value="32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_FLAME" value="32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_WIND" value="32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ERATH" value="32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ICE" value="32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_THNDER" value="32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_RAIN" value="32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_DARK" value="32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_GOLD" value="32"/>
     <page mct="ADD_AREA" name="作用範囲変更の術式" value="-64"/>
     <page mct="ADD_SPELL_TIME" name="詠唱時間変更の術式" value="32"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="CHOP" value="0.5"/>
@@ -302,18 +253,15 @@ THE SOFTWARE.
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_POISON" value="0.5"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FLAME" value="0.5"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FROZEN" value="0.5"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BLIND" value="0.5"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SEAL" value="0.5"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SLEEP" value="0.5"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_PARALYS" value="0.5"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CONFUSION" value="0.5"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_MADNESS" value="0.5"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_TRUE_MADNESS" value="0.5"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_ROT" value="0.5"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_STONE" value="0.5"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_GOLDY" value="0.5"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CUT" value="0.5"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BREAK" value="0.5"/>
+
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DESTROY" value="0.5"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DEAD" value="0.5"/>
     <page mct="DAMAGE_STATUS_DIRECT" name="直接作用の術式" tgtName="LV" value="32"/>
@@ -369,12 +317,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ESCAPED" value="16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="REGENE" value="16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MOIST" value="16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="OIL" value="16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="POISON" value="16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FLAME" value="16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FROZEN" value="16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TREE" value="16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BLIND" value="16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SEAL" value="16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SLEEP" value="16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SPELLING" value="16"/>
@@ -382,22 +328,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CONFUSION" value="16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MADNESS" value="16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TRUE_MADNESS" value="16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ROT" value="16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="STONE" value="16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="GOLDY" value="16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CUT" value="16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BREAK" value="16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DESTROY" value="16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DEAD" value="16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_NOMAL" value="16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_FLAME" value="16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_WIND" value="16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ERATH" value="16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ICE" value="16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_THNDER" value="16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_RAIN" value="16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_DARK" value="16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_GOLD" value="16"/>
     <page mct="ADD_AREA" name="作用範囲変更の術式" value="-32"/>
     <page mct="ADD_SPELL_TIME" name="詠唱時間変更の術式" value="16"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="CHOP" value="0.25"/>
@@ -418,18 +352,15 @@ THE SOFTWARE.
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_POISON" value="0.25"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FLAME" value="0.25"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FROZEN" value="0.25"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BLIND" value="0.25"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SEAL" value="0.25"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SLEEP" value="0.25"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_PARALYS" value="0.25"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CONFUSION" value="0.25"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_MADNESS" value="0.25"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_TRUE_MADNESS" value="0.25"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_ROT" value="0.25"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_STONE" value="0.25"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_GOLDY" value="0.25"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CUT" value="0.25"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BREAK" value="0.25"/>
+
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DESTROY" value="0.25"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DEAD" value="0.25"/>
     <page mct="DAMAGE_STATUS_DIRECT" name="直接作用の術式" tgtName="LV" value="16"/>
@@ -485,12 +416,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ESCAPED" value="8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="REGENE" value="8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MOIST" value="8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="OIL" value="8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="POISON" value="8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FLAME" value="8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FROZEN" value="8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TREE" value="8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BLIND" value="8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SEAL" value="8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SLEEP" value="8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SPELLING" value="8"/>
@@ -498,22 +427,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CONFUSION" value="8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MADNESS" value="8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TRUE_MADNESS" value="8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ROT" value="8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="STONE" value="8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="GOLDY" value="8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CUT" value="8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BREAK" value="8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DESTROY" value="8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DEAD" value="8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_NOMAL" value="8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_FLAME" value="8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_WIND" value="8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ERATH" value="8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ICE" value="8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_THNDER" value="8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_RAIN" value="8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_DARK" value="8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_GOLD" value="8"/>
     <page mct="ADD_AREA" name="作用範囲変更の術式" value="-16"/>
     <page mct="ADD_SPELL_TIME" name="詠唱時間変更の術式" value="8"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="CHOP" value="0.125"/>
@@ -534,18 +451,15 @@ THE SOFTWARE.
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_POISON" value="0.125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FLAME" value="0.125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FROZEN" value="0.125"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BLIND" value="0.125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SEAL" value="0.125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SLEEP" value="0.125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_PARALYS" value="0.125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CONFUSION" value="0.125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_MADNESS" value="0.125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_TRUE_MADNESS" value="0.125"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_ROT" value="0.125"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_STONE" value="0.125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_GOLDY" value="0.125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CUT" value="0.125"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BREAK" value="0.125"/>
+
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DESTROY" value="0.125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DEAD" value="0.125"/>
     <page mct="DAMAGE_STATUS_DIRECT" name="直接作用の術式" tgtName="LV" value="8"/>
@@ -601,12 +515,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ESCAPED" value="4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="REGENE" value="4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MOIST" value="4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="OIL" value="4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="POISON" value="4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FLAME" value="4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FROZEN" value="4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TREE" value="4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BLIND" value="4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SEAL" value="4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SLEEP" value="4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SPELLING" value="4"/>
@@ -614,22 +526,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CONFUSION" value="4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MADNESS" value="4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TRUE_MADNESS" value="4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ROT" value="4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="STONE" value="4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="GOLDY" value="4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CUT" value="4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BREAK" value="4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DESTROY" value="4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DEAD" value="4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_NOMAL" value="4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_FLAME" value="4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_WIND" value="4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ERATH" value="4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ICE" value="4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_THNDER" value="4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_RAIN" value="4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_DARK" value="4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_GOLD" value="4"/>
     <page mct="ADD_AREA" name="作用範囲変更の術式" value="-8"/>
     <page mct="ADD_SPELL_TIME" name="詠唱時間変更の術式" value="4"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="CHOP" value="0.0625"/>
@@ -650,18 +550,15 @@ THE SOFTWARE.
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_POISON" value="0.0625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FLAME" value="0.0625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FROZEN" value="0.0625"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BLIND" value="0.0625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SEAL" value="0.0625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SLEEP" value="0.0625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_PARALYS" value="0.0625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CONFUSION" value="0.0625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_MADNESS" value="0.0625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_TRUE_MADNESS" value="0.0625"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_ROT" value="0.0625"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_STONE" value="0.0625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_GOLDY" value="0.0625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CUT" value="0.0625"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BREAK" value="0.0625"/>
+
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DESTROY" value="0.0625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DEAD" value="0.0625"/>
     <page mct="DAMAGE_STATUS_DIRECT" name="直接作用の術式" tgtName="LV" value="4"/>
@@ -717,12 +614,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ESCAPED" value="2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="REGENE" value="2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MOIST" value="2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="OIL" value="2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="POISON" value="2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FLAME" value="2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FROZEN" value="2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TREE" value="2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BLIND" value="2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SEAL" value="2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SLEEP" value="2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SPELLING" value="2"/>
@@ -730,22 +625,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CONFUSION" value="2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MADNESS" value="2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TRUE_MADNESS" value="2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ROT" value="2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="STONE" value="2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="GOLDY" value="2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CUT" value="2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BREAK" value="2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DESTROY" value="2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DEAD" value="2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_NOMAL" value="2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_FLAME" value="2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_WIND" value="2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ERATH" value="2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ICE" value="2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_THNDER" value="2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_RAIN" value="2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_DARK" value="2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_GOLD" value="2"/>
     <page mct="ADD_AREA" name="作用範囲変更の術式" value="-4"/>
     <page mct="ADD_SPELL_TIME" name="詠唱時間変更の術式" value="2"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="CHOP" value="0.03125"/>
@@ -766,18 +649,15 @@ THE SOFTWARE.
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_POISON" value="0.03125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FLAME" value="0.03125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FROZEN" value="0.03125"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BLIND" value="0.03125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SEAL" value="0.03125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SLEEP" value="0.03125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_PARALYS" value="0.03125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CONFUSION" value="0.03125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_MADNESS" value="0.03125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_TRUE_MADNESS" value="0.03125"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_ROT" value="0.03125"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_STONE" value="0.03125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_GOLDY" value="0.03125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CUT" value="0.03125"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BREAK" value="0.03125"/>
+
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DESTROY" value="0.03125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DEAD" value="0.03125"/>
     <page mct="DAMAGE_STATUS_DIRECT" name="直接作用の術式" tgtName="LV" value="2"/>
@@ -833,12 +713,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ESCAPED" value="1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="REGENE" value="1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MOIST" value="1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="OIL" value="1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="POISON" value="1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FLAME" value="1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FROZEN" value="1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TREE" value="1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BLIND" value="1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SEAL" value="1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SLEEP" value="1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SPELLING" value="1"/>
@@ -846,22 +724,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CONFUSION" value="1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MADNESS" value="1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TRUE_MADNESS" value="1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ROT" value="1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="STONE" value="1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="GOLDY" value="1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CUT" value="1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BREAK" value="1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DESTROY" value="1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DEAD" value="1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_NOMAL" value="1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_FLAME" value="1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_WIND" value="1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ERATH" value="1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ICE" value="1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_THNDER" value="1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_RAIN" value="1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_DARK" value="1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_GOLD" value="1"/>
     <page mct="ADD_AREA" name="作用範囲変更の術式" value="-2"/>
     <page mct="ADD_SPELL_TIME" name="詠唱時間変更の術式" value="1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="CHOP" value="0.015625"/>
@@ -882,18 +748,15 @@ THE SOFTWARE.
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_POISON" value="0.015625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FLAME" value="0.015625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FROZEN" value="0.015625"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BLIND" value="0.015625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SEAL" value="0.015625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SLEEP" value="0.015625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_PARALYS" value="0.015625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CONFUSION" value="0.015625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_MADNESS" value="0.015625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_TRUE_MADNESS" value="0.015625"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_ROT" value="0.015625"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_STONE" value="0.015625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_GOLDY" value="0.015625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CUT" value="0.015625"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BREAK" value="0.015625"/>
+
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DESTROY" value="0.015625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DEAD" value="0.015625"/>
     <page mct="DAMAGE_STATUS_DIRECT" name="直接作用の術式" tgtName="LV" value="1"/>
@@ -963,18 +826,15 @@ THE SOFTWARE.
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_POISON" value="-1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FLAME" value="-1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FROZEN" value="-1"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BLIND" value="-1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SEAL" value="-1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SLEEP" value="-1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_PARALYS" value="-1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CONFUSION" value="-1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_MADNESS" value="-1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_TRUE_MADNESS" value="-1"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_ROT" value="-1"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_STONE" value="-1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_GOLDY" value="-1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CUT" value="-1"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BREAK" value="-1"/>
+
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DESTROY" value="-1"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DEAD" value="-1"/>
     <page mct="DAMAGE_STATUS_DIRECT" name="直接作用の術式" tgtName="LV" value="-64"/>
@@ -1030,12 +890,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ESCAPED" value="-32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="REGENE" value="-32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MOIST" value="-32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="OIL" value="-32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="POISON" value="-32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FLAME" value="-32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FROZEN" value="-32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TREE" value="-32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BLIND" value="-32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SEAL" value="-32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SLEEP" value="-32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SPELLING" value="-32"/>
@@ -1043,22 +901,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CONFUSION" value="-32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MADNESS" value="-32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TRUE_MADNESS" value="-32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ROT" value="-32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="STONE" value="-32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="GOLDY" value="-32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CUT" value="-32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BREAK" value="-32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DESTROY" value="-32"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DEAD" value="-32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_NOMAL" value="-32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_FLAME" value="-32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_WIND" value="-32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ERATH" value="-32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ICE" value="-32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_THNDER" value="-32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_RAIN" value="-32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_DARK" value="-32"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_GOLD" value="-32"/>
     <page mct="ADD_AREA" name="作用範囲変更の術式" value="64"/>
     <page mct="ADD_SPELL_TIME" name="詠唱時間変更の術式" value="-32"/>
     <page mct="CAST_COST" name="代償の術式" tgtName="LV" value="-64"/>
@@ -1093,18 +939,15 @@ THE SOFTWARE.
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_POISON" value="-0.5"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FLAME" value="-0.5"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FROZEN" value="-0.5"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BLIND" value="-0.5"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SEAL" value="-0.5"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SLEEP" value="-0.5"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_PARALYS" value="-0.5"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CONFUSION" value="-0.5"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_MADNESS" value="-0.5"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_TRUE_MADNESS" value="-0.5"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_ROT" value="-0.5"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_STONE" value="-0.5"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_GOLDY" value="-0.5"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CUT" value="-0.5"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BREAK" value="-0.5"/>
+
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DESTROY" value="-0.5"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DEAD" value="-0.5"/>
     <page mct="DAMAGE_STATUS_DIRECT" name="直接作用の術式" tgtName="LV" value="-32"/>
@@ -1160,12 +1003,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ESCAPED" value="-16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="REGENE" value="-16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MOIST" value="-16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="OIL" value="-16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="POISON" value="-16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FLAME" value="-16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FROZEN" value="-16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TREE" value="-16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BLIND" value="-16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SEAL" value="-16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SLEEP" value="-16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SPELLING" value="-16"/>
@@ -1173,22 +1014,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CONFUSION" value="-16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MADNESS" value="-16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TRUE_MADNESS" value="-16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ROT" value="-16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="STONE" value="-16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="GOLDY" value="-16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CUT" value="-16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BREAK" value="-16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DESTROY" value="-16"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DEAD" value="-16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_NOMAL" value="-16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_FLAME" value="-16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_WIND" value="-16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ERATH" value="-16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ICE" value="-16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_THNDER" value="-16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_RAIN" value="-16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_DARK" value="-16"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_GOLD" value="-16"/>
     <page mct="ADD_AREA" name="作用範囲変更の術式" value="32"/>
     <page mct="ADD_SPELL_TIME" name="詠唱時間変更の術式" value="-16"/>
     <page mct="CAST_COST" name="代償の術式" tgtName="LV" value="-32"/>
@@ -1223,18 +1052,15 @@ THE SOFTWARE.
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_POISON" value="-0.25"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FLAME" value="-0.25"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FROZEN" value="-0.25"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BLIND" value="-0.25"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SEAL" value="-0.25"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SLEEP" value="-0.25"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_PARALYS" value="-0.25"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CONFUSION" value="-0.25"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_MADNESS" value="-0.25"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_TRUE_MADNESS" value="-0.25"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_ROT" value="-0.25"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_STONE" value="-0.25"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_GOLDY" value="-0.25"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CUT" value="-0.25"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BREAK" value="-0.25"/>
+
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DESTROY" value="-0.25"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DEAD" value="-0.25"/>
     <page mct="DAMAGE_STATUS_DIRECT" name="直接作用の術式" tgtName="LV" value="-16"/>
@@ -1290,12 +1116,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ESCAPED" value="-8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="REGENE" value="-8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MOIST" value="-8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="OIL" value="-8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="POISON" value="-8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FLAME" value="-8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FROZEN" value="-8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TREE" value="-8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BLIND" value="-8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SEAL" value="-8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SLEEP" value="-8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SPELLING" value="-8"/>
@@ -1303,22 +1127,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CONFUSION" value="-8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MADNESS" value="-8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TRUE_MADNESS" value="-8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ROT" value="-8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="STONE" value="-8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="GOLDY" value="-8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CUT" value="-8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BREAK" value="-8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DESTROY" value="-8"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DEAD" value="-8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_NOMAL" value="-8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_FLAME" value="-8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_WIND" value="-8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ERATH" value="-8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ICE" value="-8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_THNDER" value="-8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_RAIN" value="-8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_DARK" value="-8"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_GOLD" value="-8"/>
     <page mct="ADD_AREA" name="作用範囲変更の術式" value="16"/>
     <page mct="ADD_SPELL_TIME" name="詠唱時間変更の術式" value="-8"/>
     <page mct="CAST_COST" name="代償の術式" tgtName="LV" value="-16"/>
@@ -1353,18 +1165,15 @@ THE SOFTWARE.
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_POISON" value="-0.125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FLAME" value="-0.125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FROZEN" value="-0.125"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BLIND" value="-0.125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SEAL" value="-0.125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SLEEP" value="-0.125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_PARALYS" value="-0.125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CONFUSION" value="-0.125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_MADNESS" value="-0.125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_TRUE_MADNESS" value="-0.125"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_ROT" value="-0.125"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_STONE" value="-0.125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_GOLDY" value="-0.125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CUT" value="-0.125"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BREAK" value="-0.125"/>
+
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DESTROY" value="-0.125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DEAD" value="-0.125"/>
     <page mct="DAMAGE_STATUS_DIRECT" name="直接作用の術式" tgtName="LV" value="-8"/>
@@ -1420,12 +1229,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ESCAPED" value="-4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="REGENE" value="-4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MOIST" value="-4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="OIL" value="-4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="POISON" value="-4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FLAME" value="-4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FROZEN" value="-4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TREE" value="-4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BLIND" value="-4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SEAL" value="-4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SLEEP" value="-4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SPELLING" value="-4"/>
@@ -1433,22 +1240,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CONFUSION" value="-4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MADNESS" value="-4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TRUE_MADNESS" value="-4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ROT" value="-4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="STONE" value="-4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="GOLDY" value="-4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CUT" value="-4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BREAK" value="-4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DESTROY" value="-4"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DEAD" value="-4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_NOMAL" value="-4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_FLAME" value="-4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_WIND" value="-4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ERATH" value="-4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ICE" value="-4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_THNDER" value="-4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_RAIN" value="-4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_DARK" value="-4"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_GOLD" value="-4"/>
     <page mct="ADD_AREA" name="作用範囲変更の術式" value="8"/>
     <page mct="ADD_SPELL_TIME" name="詠唱時間変更の術式" value="-4"/>
     <page mct="CAST_COST" name="代償の術式" tgtName="LV" value="-8"/>
@@ -1483,18 +1278,15 @@ THE SOFTWARE.
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_POISON" value="-0.0625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FLAME" value="-0.0625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FROZEN" value="-0.0625"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BLIND" value="-0.0625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SEAL" value="-0.0625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SLEEP" value="-0.0625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_PARALYS" value="-0.0625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CONFUSION" value="-0.0625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_MADNESS" value="-0.0625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_TRUE_MADNESS" value="-0.0625"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_ROT" value="-0.0625"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_STONE" value="-0.0625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_GOLDY" value="-0.0625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CUT" value="-0.0625"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BREAK" value="-0.0625"/>
+
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DESTROY" value="-0.0625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DEAD" value="-0.0625"/>
     <page mct="DAMAGE_STATUS_DIRECT" name="直接作用の術式" tgtName="LV" value="-4"/>
@@ -1550,12 +1342,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ESCAPED" value="-2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="REGENE" value="-2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MOIST" value="-2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="OIL" value="-2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="POISON" value="-2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FLAME" value="-2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FROZEN" value="-2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TREE" value="-2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BLIND" value="-2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SEAL" value="-2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SLEEP" value="-2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SPELLING" value="-2"/>
@@ -1563,22 +1353,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CONFUSION" value="-2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MADNESS" value="-2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TRUE_MADNESS" value="-2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ROT" value="-2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="STONE" value="-2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="GOLDY" value="-2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CUT" value="-2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BREAK" value="-2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DESTROY" value="-2"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DEAD" value="-2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_NOMAL" value="-2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_FLAME" value="-2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_WIND" value="-2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ERATH" value="-2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ICE" value="-2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_THNDER" value="-2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_RAIN" value="-2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_DARK" value="-2"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_GOLD" value="-2"/>
     <page mct="ADD_AREA" name="作用範囲変更の術式" value="4"/>
     <page mct="ADD_SPELL_TIME" name="詠唱時間変更の術式" value="-2"/>
     <page mct="CAST_COST" name="代償の術式" tgtName="LV" value="-4"/>
@@ -1613,18 +1391,15 @@ THE SOFTWARE.
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_POISON" value="-0.03125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FLAME" value="-0.03125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FROZEN" value="-0.03125"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BLIND" value="-0.03125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SEAL" value="-0.03125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SLEEP" value="-0.03125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_PARALYS" value="-0.03125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CONFUSION" value="-0.03125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_MADNESS" value="-0.03125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_TRUE_MADNESS" value="-0.03125"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_ROT" value="-0.03125"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_STONE" value="-0.03125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_GOLDY" value="-0.03125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CUT" value="-0.03125"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BREAK" value="-0.03125"/>
+
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DESTROY" value="-0.03125"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DEAD" value="-0.03125"/>
     <page mct="DAMAGE_STATUS_DIRECT" name="直接作用の術式" tgtName="LV" value="-2"/>
@@ -1680,12 +1455,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ESCAPED" value="-1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="REGENE" value="-1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MOIST" value="-1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="OIL" value="-1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="POISON" value="-1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FLAME" value="-1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="FROZEN" value="-1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TREE" value="-1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BLIND" value="-1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SEAL" value="-1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SLEEP" value="-1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="SPELLING" value="-1"/>
@@ -1693,22 +1466,10 @@ THE SOFTWARE.
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CONFUSION" value="-1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="MADNESS" value="-1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="TRUE_MADNESS" value="-1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="ROT" value="-1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="STONE" value="-1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="GOLDY" value="-1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="CUT" value="-1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="BREAK" value="-1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DESTROY" value="-1"/>
     <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="DEAD" value="-1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_NOMAL" value="-1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_FLAME" value="-1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_WIND" value="-1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ERATH" value="-1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_ICE" value="-1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_THNDER" value="-1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_RAIN" value="-1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_DARK" value="-1"/>
-    <page mct="ADD_CONDITION_TIME" name="状態異常時間変更の術式" tgtName="F_GOLD" value="-1"/>
     <page mct="ADD_AREA" name="作用範囲変更の術式" value="2"/>
     <page mct="ADD_SPELL_TIME" name="詠唱時間変更の術式" value="-1"/>
     <page mct="CAST_COST" name="代償の術式" tgtName="LV" value="-2"/>
@@ -1743,18 +1504,15 @@ THE SOFTWARE.
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_POISON" value="-0.015625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FLAME" value="-0.015625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_FROZEN" value="-0.015625"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BLIND" value="-0.015625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SEAL" value="-0.015625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_SLEEP" value="-0.015625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_PARALYS" value="-0.015625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CONFUSION" value="-0.015625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_MADNESS" value="-0.015625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_TRUE_MADNESS" value="-0.015625"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_ROT" value="-0.015625"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_STONE" value="-0.015625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_GOLDY" value="-0.015625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_CUT" value="-0.015625"/>
-    <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_BREAK" value="-0.015625"/>
+
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DESTROY" value="-0.015625"/>
     <page mct="ADD_ATTRIN" name="属性値変更の術式" tgtName="C_DEAD" value="-0.015625"/>
     <page mct="DAMAGE_STATUS_DIRECT" name="直接作用の術式" tgtName="LV" value="-1"/>
@@ -1879,7 +1637,6 @@ THE SOFTWARE.
     <page mct="SET_ATTR" name="属性の術式" tgtName="SPACE_TIME"/>  
     -->
     
-
 
     <!-- 本の定義 -->
     <book name="魔術の書「破壊光線」" desc="この本を持っていると以下の魔法を利用できる。/・「破壊光線」" value="2800000">

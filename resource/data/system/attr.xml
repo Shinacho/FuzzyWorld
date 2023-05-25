@@ -53,7 +53,6 @@ THE SOFTWARE.
 	<dAttribute order="125" name="C_POISON" desc="毒" />
 	<dAttribute order="126" name="C_FLAME" desc="炎上" />
 	<dAttribute order="127" name="C_FROZEN" desc="凍結" />
-	<dAttribute order="128" name="C_BLIND" desc="盲目" />
 	<dAttribute order="129" name="C_SEAL" desc="封印" />
 	<dAttribute order="130" name="C_SLEEP" desc="眠り" />
 	<dAttribute order="131" name="C_PARALYS" desc="麻痺" />
@@ -61,11 +60,8 @@ THE SOFTWARE.
 	<dAttribute order="133" name="C_SWOON" desc="気絶" />
 	<dAttribute order="134" name="C_MADNESS" desc="狂乱" />
 	<dAttribute order="135" name="C_TRUE_MADNESS" desc="発狂" />
-	<dAttribute order="136" name="C_ROT" desc="腐敗" />
-	<dAttribute order="137" name="C_STONE" desc="石化" />
 	<dAttribute order="138" name="C_GOLDY" desc="黄金化" />
 	<dAttribute order="139" name="C_CUT" desc="切断" />
-	<dAttribute order="140" name="C_BREAK" desc="破壊" />
 	<dAttribute order="141" name="C_DESTROY" desc="消滅" />
 	<dAttribute order="142" name="C_DEAD" desc="即死" />
 	

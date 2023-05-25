@@ -51,8 +51,10 @@ import kinugasa.game.system.StatusDamageCalcModelStorage;
 import kinugasa.game.ui.Dialog;
 import kinugasa.game.ui.DialogIcon;
 import kinugasa.game.ui.DialogOption;
+import kinugasa.graphics.ImageUtil;
 import kinugasa.object.BasicSprite;
 import kinugasa.object.FourDirection;
+import kinugasa.object.ImageSprite;
 import kinugasa.object.KVector;
 import kinugasa.resource.sound.Sound;
 import kinugasa.resource.sound.SoundStorage;
@@ -77,10 +79,12 @@ public class BattleLogic extends GameLogic {
 			SpeedCalcModelStorage.getInstance().setCurrent("SPD_50%RANDOM");
 
 			Enemy.setProgressBarKey("HP");
-			
+
 			BattleConfig.Sound.avoidance = SoundStorage.getInstance().get("SE").get("避けた.wav");
 			BattleConfig.Sound.block = SoundStorage.getInstance().get("SE").get("ブロック.wav");
 			BattleConfig.Sound.spellStart = SoundStorage.getInstance().get("SE").get("魔法詠唱.wav");
+
+			BattleConfig.castingAnimation = new ImageSprite(98, 98, ImageUtil.load("resource/image/castAnimation1.png"));
 
 			BattleConfig.StatusKey.hp = "HP";
 			BattleConfig.StatusKey.move = "MOV";
@@ -263,6 +267,11 @@ public class BattleLogic extends GameLogic {
 				} else if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
 					choiceSound1.stopAndPlay();
 					battleSystem.nextTargetSelect();
+				}
+				if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)
+						|| is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
+					choiceSound2.stopAndPlay();
+					battleSystem.switcTargetTeam();
 				}
 				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
 					choiceSound1.stopAndPlay();

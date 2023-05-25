@@ -74,7 +74,7 @@ THE SOFTWARE.
 	
     <!--
     <item name="破邪の剣" desc="アイテムとしても使える聖なる剣だ" value="" slot="武器" wmt="剣" area="30" dcs="STR">
-            <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-30" attr="FLAME" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" />
+            <battleEvent tt="TEAM" pt="STATUS" tgtName="HP" value="-30" attr="FLAME" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" />
             <eqStatus tgt="ATK" value="65" />
             <eqAttr tgt="HOLY" value="15" />
     </item>	
@@ -128,22 +128,22 @@ THE SOFTWARE.
             <material name="皮" />
         </disassembly>
     </item>
-    <item name="漁師の非常食" desc="漁に出られないときや緊急避難時に食べるための、日持ちする非常食だ。/味方一人の体力をわずかに回復する" value="150" waitTime="60" sound="回復" term="条件なし" animationMoveType="TGT">
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT" animation="回復" />
+    <item targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="漁師の非常食" desc="漁に出られないときや緊急避難時に食べるための、日持ちする非常食だ。/味方一人の体力をわずかに回復する" value="150" waitTime="60" sound="回復" term="条件なし" animationMoveType="TGT">
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT" animation="回復" />
         <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="漁師の非常食" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT" animation="回復" />
+        <fieldEvent tt="ONE" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT" animation="回復" />
         <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="漁師の非常食" p="1.0" />
     </item>
-    <item name="ワイルドステーキ" desc="獣肉を焼いたものだ。/味方一人の体力をわずかに回復する" value="350" waitTime="60" sound="回復" term="条件なし">
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+8" p="1" dct="DIRECT" animation="回復"  animationMoveType="TGT"/>
+    <item targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="ワイルドステーキ" desc="獣肉を焼いたものだ。/味方一人の体力をわずかに回復する" value="350" waitTime="60" sound="回復" term="条件なし">
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="NONE" value="+8" p="1" dct="DIRECT" animation="回復"  animationMoveType="TGT"/>
         <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ワイルドステーキ" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+8" p="1" dct="DIRECT" animation="回復"  animationMoveType="TGT"/>
+        <fieldEvent tt="ONE" pt="STATUS" tgtName="HP" attr="NONE" value="+8" p="1" dct="DIRECT" animation="回復"  animationMoveType="TGT"/>
         <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ワイルドステーキ" p="1.0" />
     </item>
-    <item name="麦焼酎" desc="ちょっと強めの酒だ！/味方一人の体力をわずかに回復する" value="350" waitTime="60" sound="回復" term="条件なし" >
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+4" p="1" dct="DIRECT" animation="回復" animationMoveType="TGT"/>
+    <item targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="麦焼酎" desc="ちょっと強めの酒だ！/味方一人の体力をわずかに回復する" value="350" waitTime="60" sound="回復" term="条件なし" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="NONE" value="+4" p="1" dct="DIRECT" animation="回復" animationMoveType="TGT"/>
         <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="麦焼酎" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+4" p="1" dct="DIRECT" animation="回復" animationMoveType="TGT"/>
+        <fieldEvent tt="ONE" pt="STATUS" tgtName="HP" attr="NONE" value="+4" p="1" dct="DIRECT" animation="回復" animationMoveType="TGT"/>
         <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="麦焼酎" p="1.0" />
     </item>
     <item name="庶民の服" desc="ふつうの服だ。" value="980" slot="胴">
@@ -346,22 +346,22 @@ THE SOFTWARE.
             <material name="鉄片" num="4"/>
         </disassembly>
     </item>
-    <item name="そば団子" desc="そば粉で作った味わい深い団子だ。うまい！！/味方一人の体力をわずかに回復する" value="80" waitTime="60" sound="回復" term="条件なし">
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT"  />
+    <item targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="そば団子" desc="そば粉で作った味わい深い団子だ。うまい！！/味方一人の体力をわずかに回復する" value="80" waitTime="60" sound="回復" term="条件なし">
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT"  />
         <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="そば団子" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT"  />
+        <fieldEvent tt="ONE" pt="STATUS" tgtName="HP" attr="NONE" value="+5" p="1" dct="DIRECT"  />
         <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="そば団子" p="1.0" />
     </item>
-    <item name="出前「手打ちもりそば」" desc="伝統的なヌードル食品だ！これはうまいぞ！！至高の食べ物だ！！！/味方一人の体力をわずかに回復する" value="480" waitTime="60" sound="回復" term="条件なし">
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT"  />
+    <item targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="出前「手打ちもりそば」" desc="伝統的なヌードル食品だ！これはうまいぞ！！至高の食べ物だ！！！/味方一人の体力をわずかに回復する" value="480" waitTime="60" sound="回復" term="条件なし">
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT"  />
         <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="出前「手打ちもりそば1丁」" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT"  />
+        <fieldEvent tt="ONE" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT"  />
         <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="出前「手打ちもりそば1丁」" p="1.0" />
     </item>
-    <item name="インスタントそば" desc="伝統的なヌードル食品の現代版だ。手軽に食べられる。/味方一人の体力をわずかに回復する" value="260" waitTime="60" sound="回復" term="条件なし">
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT"  />
+    <item targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="インスタントそば" desc="伝統的なヌードル食品の現代版だ。手軽に食べられる。/味方一人の体力をわずかに回復する" value="260" waitTime="60" sound="回復" term="条件なし">
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT"  />
         <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="インスタント・そば" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT"  />
+        <fieldEvent tt="ONE" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT"  />
         <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="インスタント・そば" p="1.0" />
     </item>
     <item name="破壊光線刀" desc="普段は柄だけだが、戦闘時には破壊魔法を利用した超高温の刃を出す魔法の剣だ。/高確率で即死させる。" value="12000000" slot="武器" wmt="刀" area="48" dcs="STR">
@@ -374,116 +374,6 @@ THE SOFTWARE.
         <disassembly>
             <material name="木片" num="4"/>
         </disassembly>
-    </item>
-    <item name="金魚" desc="魚だ。これを武器として使うのか？正気か？/「え？ワイで戦うんすか？" value="20" slot="武器" wmt="メイス" sound="回復" area="3" dcs="STR">
-        <eqStatus tgt="ATK" value="1" />
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="金魚" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="金魚" p="1.0" />
-    </item>
-    <item name="ナマズ" desc="魚だ。これを武器として使うのか？正気か？/「え？ワイで戦うんすか？" value="20" slot="武器" wmt="メイス" sound="回復" area="8" dcs="STR">
-        <eqStatus tgt="ATK" value="1" />
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ナマズ" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ナマズ" p="1.0" />
-    </item>
-    <item name="ボラ" desc="魚だ。これを武器として使うのか？正気か？/「え？ワイで戦うんすか？" value="200" slot="武器" wmt="メイス" sound="回復" area="8" dcs="STR">
-        <eqStatus tgt="ATK" value="1" />
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ボラ" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ボラ" p="1.0" />
-    </item>
-    <item name="アジ" desc="魚だ。これを武器として使うのか？正気か？/「え？ワイで戦うんすか？" value="400" slot="武器" wmt="メイス" sound="回復" area="8" dcs="STR">
-        <eqStatus tgt="ATK" value="1" />
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="アジ" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="アジ" p="1.0" />
-    </item>
-    <item name="イワシ" desc="魚だ。これを武器として使うのか？正気か？/「え？ワイで戦うんすか？" value="200" slot="武器" wmt="メイス" sound="回復" area="4" dcs="STR">
-        <eqStatus tgt="ATK" value="1" />
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="イワシ" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="イワシ" p="1.0" />
-    </item>
-    <item name="カジキ" desc="魚だ。これを武器として使うのか？正気か？" value="8000" slot="武器" wmt="槍" area="14" sound="回復" dcs="STR">
-        <eqStatus tgt="ATK" value="16" />
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="カジキ" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="カジキ" p="1.0" />
-    </item>
-    <item name="サメ" desc="魚だ。これを武器として使うのか？正気か？" value="8000" slot="武器" wmt="剣" area="14" sound="回復" dcs="STR">
-        <eqStatus tgt="ATK" value="16" />
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="サメ" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="サメ" p="1.0" />
-    </item>
-    <item name="立派なキノコ" desc="デカいキノコだ。これを武器として使うのか？正気か？" value="200" slot="武器" wmt="メイス" sound="回復" area="4" dcs="STR">
-        <eqStatus tgt="ATK" value="2" />
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="立派なキノコ" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="立派なキノコ" p="1.0" />
-    </item>
-    <item name="しょぼいキノコ" desc="小さいキノコだ。これを武器として使うのか？正気か？" value="20" slot="武器" wmt="メイス" sound="回復" area="4" dcs="STR">
-        <eqStatus tgt="ATK" value="1" />
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="しょぼいキノコ" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="しょぼいキノコ" p="1.0" />
-    </item>
-    <item name="ハイパーキノコ" desc="すごいキノコだ。これを武器として使うのか？正気か？" value="114514" slot="武器" wmt="メイス" sound="回復" area="4" dcs="STR">
-        <eqStatus tgt="ATK" value="3" />
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ハイパーキノコ" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ハイパーキノコ" p="1.0" />
-    </item>
-    <item name="謎のお魚" desc="普通の魚だ。これを武器として使うのか？正気か？" value="50" slot="武器" wmt="メイス" sound="回復" area="12" dcs="STR">
-        <eqStatus tgt="ATK" value="1" />
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="謎のお魚" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="謎のお魚" p="1.0" />
-    </item>
-    <item name="超特大お魚" desc="普通の魚だ。これを武器として使うのか？正気か？" value="5000" slot="武器" wmt="メイス" sound="回復" area="30" dcs="STR">
-        <eqStatus tgt="ATK" value="2" />
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="超特大お魚" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="超特大お魚" p="1.0" />
-    </item>
-    <item name="超大特価お魚" desc="普通の魚だ。これを武器として使うのか？正気か？" value="500" slot="武器" wmt="メイス" sound="回復" area="30" dcs="STR">
-        <eqStatus tgt="ATK" value="2" />
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT" />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="超大特価お魚" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+3" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="超大特価お魚" p="1.0" />
-    </item>
-    <item name="漁師の糸切鋏" desc="漁師が日常的に使う鋏だ。網や糸を切っているのだろう。/攻撃範囲は狭いが、低確率で切断を発生させる。" value="1400" slot="武器" wmt="短剣" area="14" dcs="STR,DEX">
-        <eqStatus tgt="ATK" value="8" />
-        <disassembly>
-            <material name="鉄片" num="4"/>
-        </disassembly>
-    </item>
-    <item name="漁網" desc="漁師が使う網だが、ひも状にまとめれば鞭に似た武器として使えそうだ。" value="4500" slot="武器" wmt="鞭" area="40" dcs="DEX">
-        <eqStatus tgt="ATK" value="9" />
-        <disassembly>
-            <material name="紐" num="8"/>
-        </disassembly>
-    </item>
-    <item name="ゆかりのもみあげ" desc="これはもみあげだ！食べることもできる。/これを武器として使うのか？正気か？" value="45000" sound="回復" slot="武器" wmt="鞭" area="25" dcs="DEX">
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT" />
-        <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ゆかりのもみあげ" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT"  />
-        <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ゆかりのもみあげ" p="1.0" />
-        <eqStatus tgt="ATK" value="1" />
     </item>
     <item name="まな板" desc="一般的なまな板だ。盾の代わりになるかもしれない。" value="450" slot="武器" wmt="大盾" area="18" dcs="DEX">
         <eqStatus tgt="ATK" value="2" />
@@ -632,9 +522,9 @@ THE SOFTWARE.
     </item>
     <item name="ネギ" desc="どこにでもある生のネギだ。これを武器として使うのか？正気か？" value="120" slot="武器" wmt="メイス" area="16" dcs="DEX">
         <eqStatus tgt="ATK" value="1" />
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT"  />
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT"  />
         <battleEvent tt="SELF" pt="ITEM_LOST" tgtName="ネギ" p="1.0" />
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT"  />
+        <fieldEvent tt="ONE" pt="STATUS" tgtName="HP" attr="NONE" value="+6" p="1" dct="DIRECT"  />
         <fieldEvent tt="SELF" pt="ITEM_LOST" tgtName="ネギ" p="1.0" />
     </item>
     <item name="小舟のオール" desc="小舟を進めるときに使うオールだ。大剣に似た武器として使えそうだ。/アクション「挑発」が使える。" value="3800" slot="武器" wmt="大剣" area="40" dcs="STR">
@@ -773,7 +663,6 @@ THE SOFTWARE.
         <eqStatus tgt="CUT_P" value="+0.04" />
         <eqStatus tgt="CRT_P" value="+0.12" />
         <eqStatus tgt="CRT_V" value="+0.80" />
-        <eqAttr tgt="C_ROT" value="-0.25" />
     </item>
     <item name="名刀「時計塔の瞳」" desc="東の国で作られた、名刀ともいわれる鋭い太刀だ。" value="3200000" slot="武器" wmt="刀" area="34" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="99" />
@@ -784,7 +673,6 @@ THE SOFTWARE.
         <eqAttr tgt="MYSTERY" value="-0.25" />
     </item>
     <item name="名刀「不知火」" desc="東の国で作られた、名刀ともいわれる鋭い太刀だ。/火属性の攻撃ができる。" value="430000" slot="武器" wmt="刀" area="34" dcs="STR,DEX">
-        <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-30" attr="FLAME" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" />
         <eqStatus tgt="ATK" value="99" />
         <eqStatus tgt="AVO" value="-0.03" />
         <eqStatus tgt="CUT_P" value="+0.05" />
@@ -1131,140 +1019,126 @@ THE SOFTWARE.
 
     <!--通常攻撃 -->
 	
-    <attack name="こぶし" desc="殴りかかる" term="武器未装備" area="24" waitTime="48" sound="通常攻撃">
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-20" p="0.75" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="こぶし" desc="殴りかかる" term="武器未装備" area="24" waitTime="48" sound="通常攻撃">
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="IMPACT" value="-20" p="0.75" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="剣攻撃" desc="武器による通常攻撃" term="剣装備" area="24" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-40" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="剣攻撃" desc="武器による通常攻撃" term="剣装備" area="24" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="CHOP" value="-40" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="串刺し" desc="武器による通常攻撃" term="剣装備" area="24" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-26" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="串刺し" desc="武器による通常攻撃" term="剣装備" area="24" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="STAB" value="-26" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="短剣攻撃" desc="武器による通常攻撃" term="短剣装備" area="16" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="短剣攻撃" desc="武器による通常攻撃" term="短剣装備" area="16" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="スタブ" desc="武器による通常攻撃" term="短剣装備" area="16" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="スタブ" desc="武器による通常攻撃" term="短剣装備" area="16" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="降り下ろし" desc="武器による通常攻撃" term="大剣装備" area="32" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="降り下ろし" desc="武器による通常攻撃" term="大剣装備" area="32" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="ぶん回し" desc="威力は低いが命中しやすい" term="大剣装備" area="32" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="ぶん回し" desc="威力は低いが命中しやすい" term="大剣装備" area="32" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="突剣攻撃" desc="武器による通常攻撃" term="突剣装備" area="22" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="突剣攻撃" desc="武器による通常攻撃" term="突剣装備" area="22" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="鎧どおし" desc="防御力無視" term="突剣装備" area="22" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.50" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="鎧どおし" desc="防御力無視" term="突剣装備" area="22" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.50" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="袈裟切り" desc="武器による通常攻撃" term="刀装備" area="24" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="袈裟切り" desc="武器による通常攻撃" term="刀装備" area="24" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="撫で切り" desc="命中しやすい" term="刀装備" area="20" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-8" p="0.99" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="撫で切り" desc="命中しやすい" term="刀装備" area="20" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="CHOP" value="-8" p="0.99" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="刺し込み" desc="武器による通常攻撃" term="刀装備" area="24" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-8" p="0.99" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="刺し込み" desc="武器による通常攻撃" term="刀装備" area="24" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="STAB" value="-8" p="0.99" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="槍攻撃" desc="武器による通常攻撃" term="槍装備" area="36" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="槍攻撃" desc="武器による通常攻撃" term="槍装備" area="36" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="大立回" desc="武器による通常攻撃" term="槍装備" area="36" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="大立回" desc="武器による通常攻撃" term="槍装備" area="36" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="メイス攻撃" desc="武器による通常攻撃" term="メイス装備" area="24" waitTime="60" sound="通常攻撃"  animationMoveType="TGT">
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-22" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="メイス攻撃" desc="武器による通常攻撃" term="メイス装備" area="24" waitTime="60" sound="通常攻撃">
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="IMPACT" value="-22" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="頭部強打" desc="低命中、高確率で気絶" term="メイス装備" area="24" waitTime="60" sound="通常攻撃"  animationMoveType="TGT">
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-16" p="0.45" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
-        <battleEvent tt="ONE_ENEMY" pt="ADD_CONDITION" tgtName="SWOON" p="0.33" attr="IMPACT" animation="通常攻撃" />
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="頭部強打" desc="低命中、高確率で気絶" term="メイス装備" area="24" waitTime="60" sound="通常攻撃">
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="IMPACT" value="-16" p="0.45" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
+        <battleEvent tt="ONE" pt="ADD_CONDITION" tgtName="SWOON" p="0.33" attr="IMPACT" animation="通常攻撃" />
     </attack>
-    <attack name="弓射撃" desc="武器による通常攻撃" term="弓装備" area="236" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="弓射撃" desc="武器による通常攻撃" term="弓装備" area="236" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="矢刺" desc="矢による近接攻撃" term="弓装備" area="23" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="矢刺" desc="矢による近接攻撃" term="弓装備" area="23" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="毒矢射撃" desc="武器による通常攻撃" term="毒弓装備" area="236" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
-        <battleEvent tt="TEAM_ENEMY" pt="ADD_CONDITION" tgtName="POISON" attr="C_POISON" p="0.75" animation="通常攻撃" />
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="毒矢射撃" desc="武器による通常攻撃" term="毒弓装備" area="236" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
+        <battleEvent tt="ONE" pt="ADD_CONDITION" tgtName="POISON" attr="C_POISON" p="0.75" animation="通常攻撃" />
     </attack>
-    <attack name="弩射撃" desc="武器による通常攻撃" term="弩装備" area="197" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="弩射撃" desc="武器による通常攻撃" term="弩装備" area="197" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="銃射撃" desc="武器による通常攻撃" term="銃装備" area="172" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="銃射撃" desc="武器による通常攻撃" term="銃装備" area="172" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="銃剣攻撃" desc="武器による通常攻撃" term="銃装備,銃剣付き" area="32" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="銃剣攻撃" desc="武器による通常攻撃" term="銃装備,銃剣付き" area="32" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="STAB" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="銃床攻撃" desc="武器による通常攻撃" term="銃装備" area="32" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="IMPACT" value="-6" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="銃床攻撃" desc="武器による通常攻撃" term="銃装備" area="32" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="IMPACT" value="-6" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="鞭攻撃" desc="武器による通常攻撃" term="鞭装備" area="32" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="鞭攻撃" desc="武器による通常攻撃" term="鞭装備" area="32" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="杖攻撃" desc="武器による通常攻撃" term="杖装備" area="24" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="杖攻撃" desc="武器による通常攻撃" term="杖装備" area="24" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="鎌攻撃" desc="武器による通常攻撃" term="鎌装備" area="20" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="鎌攻撃" desc="武器による通常攻撃" term="鎌装備" area="20" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
-    <attack name="首狩り" desc="命中率は低いがまれに即死が発生" term="鎌装備" area="20" waitTime="60" sound="通常攻撃" >
-        <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="TGT"/>
+    <attack targetOption="ONE,OFF,ENEMY,OK,NO,ENABLE" name="首狩り" desc="命中率は低いがまれに即死が発生" term="鎌装備" area="20" waitTime="60" sound="通常攻撃" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" attr="CHOP" value="-20" p="0.90" dct="USE_DAMAGE_CALC" animation="通常攻撃" animationMoveType="TGT"/>
     </attack>
 
 
-    <!-- 魔法種類 -->
-    <!--
-    <magic name="ファイアボルト" desc="炎魔法の基礎的な術式だ" area="128" term="火炎の書保有" waitTime="70" sound="通常攻撃">
-            <battleEvent tt="ONE_ENEMY" pt="STATUS" tgtName="HP" value="-30" attr="FLAME" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="USER_TO_TGT_8"/>
-            <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT" />
-    </magic>
-
-    <magic name="天地雷鳴" desc="気象魔法に分類されるもので、絶大な雷を呼び起こす" spellTime="2" area="256" term="火炎の書保有" waitTime="90" sound="通常攻撃">
-            <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-60" attr="THNDER" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" amt="USER_TO_TGT_8" />
-            <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-15" attr="NONE" p="1" dct="DIRECT"/>
-    </magic>
-
-    <magic name="生命回復" desc="生命の神秘により体力を回復する" fieldUse="true" spellTime="1" area="128" term="火炎の書保有" waitTime="80" sound="通常攻撃">
-            <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="+15" attr="MYSTERY" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" />
-            <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-15" attr="NONE" p="1" dct="DIRECT" />
-            <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="+15" attr="MYSTERY" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" />
-            <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-15" attr="NONE" p="1" dct="DIRECT" />
-    </magic>
-
-    <magic name="エアスラッシュ" desc="するどい真空波により敵を切り裂く" spellTime="5" area="128" waitTime="80" sound="通常攻撃">
-            <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-15" attr="CHOP" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" />
-            <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-15" attr="AIR" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" />
-            <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
-    </magic>
-    -->	
-    <magic name="破壊光線" desc="すべてを消滅させる大魔法だ。" term="魔術の書「破壊光線」所持,魔術使用可能" spellTime="1" area="880" waitTime="120" sound="通常攻撃">
-        <battleEvent tt="TEAM_ENEMY" pt="STATUS" tgtName="HP" value="-64" attr="LIGHT" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+	<!-- 魔法 -->
+	<!--selectedType, IFF, defaultTarget, swichTeam, SELF, Targeting -->
+    <magic name="破壊光線" targetOption="ONE,OFF,ENEMY,OK,YES,ENABLE" desc="すべてを消滅させる大魔法だ。" defaultTgt="ENEMY" term="魔術使用可能" spellTime="1" area="880" waitTime="120" sound="通常攻撃" defaultTargetTeam="ENEMY" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" value="-32" attr="LIGHT" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-1" attr="NONE" p="1" dct="DIRECT"  />
         <battleEvent tt="SELF" pt="STATUS" tgtName="SAN" value="-20" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-    
-    <!--
-    <magic name="テスト魔法バトルALL" desc="テスト用の魔法だ。/味方一人の体力をわずかに回復する。" term="条件なし" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+
+	<!-- テスト用 -->
+	<magic name="DEFAULT_PARTY,ENABLE" targetOption="ONE,OFF,PARTY,OK,YES,ENABLE" desc="すべてを消滅させる大魔法だ。" defaultTgt="ENEMY" term="魔術使用可能" spellTime="1" area="880" waitTime="120" sound="通常攻撃" defaultTargetTeam="ENEMY" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" value="-32" attr="LIGHT" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-1" attr="NONE" p="1" dct="DIRECT"  />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="SAN" value="-2" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-    <magic name="テスト魔法フィールドALL" desc="テスト用の魔法だ。/味方一人の体力をわずかに回復する。" term="条件なし"  sound="通常攻撃">       
-        <fieldEvent tt="ALL" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+	<magic name="ONE,ON" targetOption="ONE,ON,ENEMY,OK,YES,ENABLE" desc="すべてを消滅させる大魔法だ。" defaultTgt="ENEMY" term="魔術使用可能" spellTime="1" area="880" waitTime="120" sound="通常攻撃" defaultTargetTeam="ENEMY" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" value="-32" attr="LIGHT" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-1" attr="NONE" p="1" dct="DIRECT"  />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="SAN" value="-2" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-    <magic name="テスト魔法バトルOP" desc="テスト用の魔法だ。/味方一人の体力をわずかに回復する。" term="魔術使用可能" spellTime="5" area="240" waitTime="80" sound="通常攻撃">
-        <battleEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />
-        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+	<magic name="ONE,OFF" targetOption="ONE,OFF,ENEMY,OK,YES,ENABLE" desc="すべてを消滅させる大魔法だ。" defaultTgt="ENEMY" term="魔術使用可能" spellTime="1" area="880" waitTime="120" sound="通常攻撃" defaultTargetTeam="ENEMY" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" value="-32" attr="LIGHT" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-1" attr="NONE" p="1" dct="DIRECT"  />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="SAN" value="-2" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-    <magic name="テスト魔法フィールドOP" desc="テスト用の魔法だ。/味方一人の体力をわずかに回復する。" term="魔術使用可能" sound="通常攻撃">       
-        <fieldEvent tt="ONE_PARTY" pt="STATUS" tgtName="HP" value="16" attr="ALCHEMY" p="1" dct="DIRECT" animation="通常攻撃" />  
-        <fieldEvent tt="SELF" pt="STATUS" tgtName="MP" value="-3" attr="NONE" p="1" dct="DIRECT"  />
+	<magic name="ONE,OFF_ZERO" targetOption="ONE,OFF,ENEMY,OK,YES,ENABLE" desc="すべてを消滅させる大魔法だ。" defaultTgt="ENEMY" term="魔術使用可能" spellTime="0" area="880" waitTime="120" sound="通常攻撃" defaultTargetTeam="ENEMY" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" value="-32" attr="LIGHT" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-1" attr="NONE" p="1" dct="DIRECT"  />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="SAN" value="-2" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
-    -->
+	<magic name="DISABLE" targetOption="IN_AREA,ON,ENEMY,OK,YES,DISABLE" desc="すべてを消滅させる大魔法だ。" defaultTgt="ENEMY" term="魔術使用可能" spellTime="1" area="880" waitTime="120" sound="通常攻撃" defaultTargetTeam="ENEMY" >
+        <battleEvent tt="RANDOM" pt="STATUS" tgtName="HP" value="-32" attr="LIGHT" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-1" attr="NONE" p="1" dct="DIRECT"  />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="SAN" value="-2" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+
 	
     <!--その他-->
     <other name="逃走" desc="逃走する" sort="5">

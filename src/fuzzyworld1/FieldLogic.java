@@ -37,7 +37,7 @@ import kinugasa.game.field4.D2Idx;
 import kinugasa.game.field4.FieldEventSystem;
 import kinugasa.game.field4.FieldMap;
 import kinugasa.game.field4.FieldMapCameraMode;
-import kinugasa.game.field4.GameSystemI18NKeys;
+import kinugasa.game.system.GameSystemI18NKeys;
 import kinugasa.game.field4.FieldMapStorage;
 import kinugasa.game.field4.FieldMapTile;
 import kinugasa.game.field4.FourDirAnimation;
@@ -117,6 +117,8 @@ public class FieldLogic extends GameLogic {
 			}
 			return;
 		}
+		//ユーザ定義アクション初期化
+		UserDefineActionBuilder.setUp();
 		//PCのADD
 		new GameSystemXMLLoader()
 				.addAttrKeyStorage("resource/data/system/attr.xml")
@@ -137,6 +139,8 @@ public class FieldLogic extends GameLogic {
 		{
 			//デフォルトのを使うため処理なし
 		}
+		//BGM処理
+		SoundStorage.getInstance().get("SE").get("海岸.wav").load().stopAndPlay();
 		//
 		float x = Const.Screen.WIDTH / 2 - 16;
 		float y = Const.Screen.HEIGHT / 2 - 16;
@@ -320,7 +324,7 @@ public class FieldLogic extends GameLogic {
 										mw = null;
 									} else {
 										//持てない
-										mw.setText(I18N.get("ACTION_0151", GameSystem.getInstance().getParty().get(mw.getSelect()).getStatus().getName()));
+										mw.setText(I18N.get(GameSystemI18NKeys.Xはこれ以上物を持てない, GameSystem.getInstance().getParty().get(mw.getSelect()).getStatus().getName()));
 										mw.allText();
 										mw.setVisible(true);
 										FieldEventSystem.getInstance().clearTmpFlags();
