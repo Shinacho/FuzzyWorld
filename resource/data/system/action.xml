@@ -831,7 +831,7 @@ THE SOFTWARE.
             <material name="ベリタ結晶コーティング" num="1"/>
         </disassembly>
     </item>
-    <item name="ベルマの銃剣" desc="ベルマ国の標準的な銃剣だ。" value="175000" slot="武器" wmt="短剣" area="22" dcs="STR,DEX">
+    <item name="ベルマの銃剣" desc="ベルマ国の標準的な銃剣だ。" value="17500" slot="武器" wmt="短剣" area="22" dcs="STR,DEX">
         <eqStatus tgt="ATK" value="20" />
         <disassembly>
             <material name="鉄片" num="2"/>
@@ -1138,6 +1138,12 @@ THE SOFTWARE.
         <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-1" attr="NONE" p="1" dct="DIRECT"  />
         <battleEvent tt="SELF" pt="STATUS" tgtName="SAN" value="-2" attr="NONE" p="1" dct="DIRECT"  />
     </magic>
+	<magic name="IFF_ON_TEAM" targetOption="IN_AREA,ON,PARTY,OK,YES,ENABLE" desc="すべてを消滅させる大魔法だ。" defaultTgt="ENEMY" term="魔術使用可能" spellTime="1" area="880" waitTime="120" sound="通常攻撃" defaultTargetTeam="ENEMY" >
+        <battleEvent tt="ONE" pt="STATUS" tgtName="HP" value="-32" attr="LIGHT" p="1" dct="USE_DAMAGE_CALC" animation="通常攻撃" />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="MP" value="-1" attr="NONE" p="1" dct="DIRECT"  />
+        <battleEvent tt="SELF" pt="STATUS" tgtName="SAN" value="-2" attr="NONE" p="1" dct="DIRECT"  />
+    </magic>
+
 
 	
     <!--その他-->

@@ -1,19 +1,19 @@
 this is D:/Project/FuzzyWorld/
 translate\ja.ini
-lockFile:.\KLOCK_17187928629996571429.lck is created
+lockFile:.\KLOCK_17830312335658846552.lck is created
 font[MONOSPACED] is loaded
 Kinugasa Game Launcher is start
 --MEM INFO--
 TOTAL:2048
 MAX:2097152
-FREE:1856
+FREE:1839
 volume: BGM[1.5] SE:[0.8]
 kinugasa.game.GameLogicStorage.changeTo():SS
-ImageUtil loaded filePath=[resource/image/ss.png](14.2581 ms)
-CachedSound is loaded name=[SS.wav](87.8615 ms)
+ImageUtil loaded filePath=[resource/image/ss.png](13.306 ms)
+CachedSound is loaded name=[SS.wav](82.77049 ms)
 kinugasa.game.GameLogicStorage.changeTo():TITLE_LOGIC
-CachedSound is loaded name=[フィールド３.wav](32.9883 ms)
-CachedSound is loaded name=[ゲームスタート.wav](1.9952 ms)
+CachedSound is loaded name=[フィールド３.wav](27.8553 ms)
+CachedSound is loaded name=[ゲームスタート.wav](1.781 ms)
 CachedSound : [フィールド３.wav] : is disposed
 kinugasa.game.GameLogicStorage.changeTo():CHAPTER_TITLE
 kinugasa.game.GameLogicStorage.changeTo():OP
@@ -95,7 +95,7 @@ MapChipAttribute{name=ドア, encountBaseValue=0}
 XMLFile [vehicle.xml] is loaded
 Vehicle{name=WALK, speed=2.5, stepOn=[MapChipAttribute{name=平地, encountBaseValue=2}, MapChipAttribute{name=草原, encountBaseValue=2}, MapChipAttribute{name=都市, encountBaseValue=0}, MapChipAttribute{name=町, encountBaseValue=0}, MapChipAttribute{name=村, encountBaseValue=0}, MapChipAttribute{name=小屋, encountBaseValue=0}, MapChipAttribute{name=砂漠, encountBaseValue=2}, MapChipAttribute{name=砂浜, encountBaseValue=2}, MapChipAttribute{name=藪, encountBaseValue=4}, MapChipAttribute{name=森林, encountBaseValue=6}, MapChipAttribute{name=密林, encountBaseValue=8}, MapChipAttribute{name=丘陵, encountBaseValue=6}, MapChipAttribute{name=橋, encountBaseValue=1}, MapChipAttribute{name=城, encountBaseValue=0}, MapChipAttribute{name=道路, encountBaseValue=1}, MapChipAttribute{name=港, encountBaseValue=0}, MapChipAttribute{name=山小屋, encountBaseValue=0}, MapChipAttribute{name=畑, encountBaseValue=1}, MapChipAttribute{name=荒地, encountBaseValue=1}, MapChipAttribute{name=魔方陣, encountBaseValue=1}, MapChipAttribute{name=はしご, encountBaseValue=0}, MapChipAttribute{name=石階段, encountBaseValue=1}, MapChipAttribute{name=木階段, encountBaseValue=1}, MapChipAttribute{name=木橋, encountBaseValue=1}, MapChipAttribute{name=石橋, encountBaseValue=1}, MapChipAttribute{name=木床, encountBaseValue=1}, MapChipAttribute{name=石床, encountBaseValue=1}, MapChipAttribute{name=舗装道路, encountBaseValue=1}, MapChipAttribute{name=椅子, encountBaseValue=0}, MapChipAttribute{name=VOID, encountBaseValue=0}]}
 XMLFile [chipSet_inner16.xml] is loaded
-ImageUtil loaded filePath=[resource/image/inner16.png](1.1046 ms)
+ImageUtil loaded filePath=[resource/image/inner16.png](0.6439 ms)
 MapChip{name=003007, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}
 MapChip{name=003003, attr=MapChipAttribute{name=石壁, encountBaseValue=0}}
 MapChip{name=003004, attr=MapChipAttribute{name=机, encountBaseValue=0}}
@@ -161,7 +161,7 @@ MapChip{name=001000, attr=MapChipAttribute{name=石壁, encountBaseValue=0}}
 MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}
 MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}
 XMLFile [chipSet_outer16.xml] is loaded
-ImageUtil loaded filePath=[resource/image/outer16.png](2.0748 ms)
+ImageUtil loaded filePath=[resource/image/outer16.png](1.7132 ms)
 MapChip{name=003007, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}
 MapChip{name=003003, attr=MapChipAttribute{name=石壁, encountBaseValue=0}}
 MapChip{name=003004, attr=MapChipAttribute{name=机, encountBaseValue=0}}
@@ -777,9 +777,9 @@ FieldMap{name=M001}
 FieldMap{name=M006}
 FieldMap{name=M005}
 XMLFile [M001.xml] is loaded
-ImageUtil loaded filePath=[resource/image/darkeffect.png](15.8419 ms)
-temp file C:\Users\owner\AppData\Local\Temp\ktf_13717993898506647686.tmp is created
-ImageUtil loaded filePath=[resource/image/unknown.png](0.7801 ms)
+ImageUtil loaded filePath=[resource/image/darkeffect.png](16.4708 ms)
+temp file C:\Users\owner\AppData\Local\Temp\ktf_8287827590236646406.tmp is created
+ImageUtil loaded filePath=[resource/image/unknown.png](0.8701 ms)
 FUZZY WORLD へようこそ, aaaa
 あなたは・・・急いでいるようですね。
 あなたには・・・このメッセージが見えているのですね。
@@ -795,8 +795,8 @@ XMLFile [itemSlot.xml] is loaded
 XMLFile [book.xml] is loaded
 XMLFile [race.xml] is loaded
 XMLFile [action.xml] is loaded
-ImageUtil loaded filePath=[resource/image/testAnimation.png](0.8376 ms)
-ImageUtil loaded filePath=[resource/image/testAnimation2.png](0.6474 ms)
+ImageUtil loaded filePath=[resource/image/testAnimation.png](0.7743 ms)
+ImageUtil loaded filePath=[resource/image/testAnimation2.png](0.5575 ms)
 item list -----------
 CmdAction{type=ITEM, name=ザ・オサナカ・カッター(xx)}
 CmdAction{type=ITEM, name=ワイルドステーキ(BF)}
@@ -925,6 +925,7 @@ CmdAction{type=ATTACK, name=首狩り(Bx)}
 CmdAction{type=ATTACK, name=突剣攻撃(Bx)}
 CmdAction{type=OTHER, name=状態(Bx)}
 CmdAction{type=OTHER, name=逃走(Bx)}
+CmdAction{type=MAGIC, name=IFF_ON_TEAM(Bx)}
 CmdAction{type=ATTACK, name=ぶん回し(Bx)}
 CmdAction{type=ATTACK, name=毒矢射撃(Bx)}
 CmdAction{type=ATTACK, name=串刺し(Bx)}
@@ -976,52 +977,52 @@ CmdAction{type=MAGIC, name=ONE,ON(Bx)}
 !> action event(F) value is zero : CmdAction{type=ATTACK, name=短剣攻撃(Bx)} / []
 !> action event(F) value is zero : CmdAction{type=ATTACK, name=撫で切り(Bx)} / []
 XMLFile [battleField.xml] is loaded
-ImageUtil loaded filePath=[resource/image/tree.png](0.7172 ms)
-ImageUtil loaded filePath=[resource/image/stone.png](0.5438 ms)
-ImageUtil loaded filePath=[resource/image/bf1.png](13.7076 ms)
-ImageUtil cached filePath=[resource/image/bf1.png](0.0023 ms)
-ImageUtil loaded filePath=[resource/image/bf_mori.png](4.9906 ms)
-ImageUtil cached filePath=[resource/image/bf_mori.png](6.0E-4 ms)
-ImageUtil cached filePath=[resource/image/bf_mori.png](3.0E-4 ms)
+ImageUtil loaded filePath=[resource/image/tree.png](0.6193 ms)
+ImageUtil loaded filePath=[resource/image/stone.png](0.4588 ms)
+ImageUtil loaded filePath=[resource/image/bf1.png](11.6514 ms)
+ImageUtil cached filePath=[resource/image/bf1.png](0.0021 ms)
+ImageUtil loaded filePath=[resource/image/bf_mori.png](6.1999 ms)
+ImageUtil cached filePath=[resource/image/bf_mori.png](7.0E-4 ms)
+ImageUtil cached filePath=[resource/image/bf_mori.png](2.0E-4 ms)
 XMLFile [enemyMaster.xml] is loaded
-ImageUtil loaded filePath=[resource/image/M1.png](0.7495 ms)
+ImageUtil loaded filePath=[resource/image/M1.png](0.7168 ms)
 ItemBags,addItem:CmdAction{type=ITEM, name=鉄の剣(xx)}
 ItemBags,addItem:CmdAction{type=ITEM, name=ワイルドステーキ(BF)}
 ItemBags,addItem:CmdAction{type=ITEM, name=ワイルドステーキ(BF)}
 ItemBags,addItem:CmdAction{type=ITEM, name=麦焼酎(BF)}
-ImageUtil cached filePath=[resource/image/M1.png](0.001 ms)
+ImageUtil cached filePath=[resource/image/M1.png](9.0E-4 ms)
 ItemBags,addItem:CmdAction{type=ITEM, name=ワイルドステーキ(BF)}
 ItemBags,addItem:CmdAction{type=ITEM, name=麦焼酎(BF)}
-ImageUtil cached filePath=[resource/image/M1.png](7.0E-4 ms)
+ImageUtil cached filePath=[resource/image/M1.png](6.0E-4 ms)
 ItemBags,addItem:CmdAction{type=ITEM, name=ワイルドステーキ(BF)}
 ItemBags,addItem:CmdAction{type=ITEM, name=麦焼酎(BF)}
+ImageUtil cached filePath=[resource/image/M1.png](6.0E-4 ms)
 ImageUtil cached filePath=[resource/image/M1.png](5.0E-4 ms)
-ImageUtil cached filePath=[resource/image/M1.png](5.0E-4 ms)
-ImageUtil loaded filePath=[resource/image/M2.png](0.5795 ms)
+ImageUtil loaded filePath=[resource/image/M2.png](0.6228 ms)
 ItemBags,addItem:CmdAction{type=ITEM, name=鉄の剣(xx)}
 ItemBags,addItem:CmdAction{type=ITEM, name=ワイルドステーキ(BF)}
 ItemBags,addItem:CmdAction{type=ITEM, name=麦焼酎(BF)}
 ItemBags,addItem:CmdAction{type=ITEM, name=ワイルドステーキ(BF)}
 ItemBags,addItem:CmdAction{type=ITEM, name=麦焼酎(BF)}
-ImageUtil loaded filePath=[resource/image/M3.png](0.4489 ms)
+ImageUtil loaded filePath=[resource/image/M3.png](0.4882 ms)
 XMLFile [enemySetStorage.xml] is loaded
 XMLFile [quest.xml] is loaded
-CachedSound is loaded name=[海岸.wav](2.2043 ms)
-ImageUtil loaded filePath=[resource/image/c2.png](0.7508 ms)
-ImageUtil cached filePath=[resource/image/c2.png](7.0E-4 ms)
-ImageUtil cached filePath=[resource/image/c2.png](7.0E-4 ms)
-ImageUtil cached filePath=[resource/image/c2.png](5.0E-4 ms)
+CachedSound is loaded name=[海岸.wav](3.3433 ms)
+ImageUtil loaded filePath=[resource/image/c2.png](0.8822 ms)
+ImageUtil cached filePath=[resource/image/c2.png](8.0E-4 ms)
+ImageUtil cached filePath=[resource/image/c2.png](4.0E-4 ms)
+ImageUtil cached filePath=[resource/image/c2.png](3.0E-4 ms)
 XMLFile [textStorageStorage.xml] is loaded
 XMLFile [M002.xml] is loaded
 XMLFile [text02.xml] is loaded
 XMLFile [E002.xml] is loaded
 Text{name=001, nextId=null}
 Text{name=002, nextId=null}
-ImageUtil loaded filePath=[resource/image/seaChip16.png](0.5842 ms)
-ImageUtil loaded filePath=[resource/image/cloudeffect.png](6.9978 ms)
-temp file C:\Users\owner\AppData\Local\Temp\ktf_12477069295415522326.tmp is created
+ImageUtil loaded filePath=[resource/image/seaChip16.png](0.597 ms)
+ImageUtil loaded filePath=[resource/image/cloudeffect.png](5.9657 ms)
+temp file C:\Users\owner\AppData\Local\Temp\ktf_4290679199661208843.tmp is created
 XMLFile [E001.xml] is loaded
-ImageUtil loaded filePath=[resource/image/c3.png](0.5997 ms)
+ImageUtil loaded filePath=[resource/image/c3.png](0.5852 ms)
 start event : FieldEvent{name=E_01_0, order=0, location=D2Idx{x=31, y=35}, eventType=DISABLE_OPERATION, storageName=null, targetName=null, value=null, disposeWhenExec=true, exists=true, term=[]}
 ->done
 start event : FieldEvent{name=E_01_1, order=1, location=D2Idx{x=31, y=35}, eventType=STOP_ALL_SOUND, storageName=BGM, targetName=null, value=null, disposeWhenExec=true, exists=true, term=[]}
@@ -1029,7 +1030,7 @@ start event : FieldEvent{name=E_01_1, order=1, location=D2Idx{x=31, y=35}, event
 start event : FieldEvent{name=E_01_3, order=6, location=D2Idx{x=31, y=35}, eventType=WAIT, storageName=, targetName=, value=180, disposeWhenExec=true, exists=true, term=[]}
 ->done
 start event : FieldEvent{name=E_01_2, order=8, location=D2Idx{x=31, y=35}, eventType=PLAY_SOUND, storageName=BGM, targetName=オープニング.wav, value=null, disposeWhenExec=true, exists=true, term=[]}
-CachedSound is loaded name=[オープニング.wav](64.536 ms)
+CachedSound is loaded name=[オープニング.wav](76.1784 ms)
 ->done
 start event : FieldEvent{name=E_01_4, order=20, location=D2Idx{x=31, y=35}, eventType=NPC_MOVE_AND_WAIT_THAT, storageName=, targetName=NPC02, value=30,35, disposeWhenExec=true, exists=true, term=[]}
 ->done
@@ -1108,7 +1109,7 @@ XMLFile [E004.xml] is loaded
 XMLFile [E005.xml] is loaded
 XMLFile [E006.xml] is loaded
 XMLFile [E004.xml] is loaded
-ImageUtil cached filePath=[resource/image/c3.png](9.0E-4 ms)
+ImageUtil cached filePath=[resource/image/c3.png](0.0012 ms)
 CHANGE_MAP: FieldMapNode{mode=OUT, name=AUTO_NODE0, x=9, y=2, exitFieldMapName=M003, exitNodeName=null, tooltip=null, se=null, accepter=null}
 start event : FieldEvent{name=E_03_0, order=0, location=D2Idx{x=9, y=2}, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=true, exists=true, term=[EventTerm{name=M003_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=M003_E02, value=}]}
 start event : FieldEvent{name=E_03_1, order=100, location=D2Idx{x=9, y=2}, eventType=PC_DIR_TO, storageName=, targetName=0, value=WEST, disposeWhenExec=true, exists=true, term=[EventTerm{name=M003_E02_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=M003_E02, value=}]}
@@ -1360,23 +1361,31 @@ start event : FieldEvent{name=E_03_82, order=3100, location=D2Idx{x=9, y=2}, eve
 ->done
 start event : FieldEvent{name=E_03_83, order=3250, location=D2Idx{x=9, y=2}, eventType=SET_FLG_DIRECT, storageName=STORY, targetName=M003_E02, value=ON, disposeWhenExec=true, exists=true, term=[]}
 ->done
-FM MOVE D2Idx{x=8, y=2} /EC=-1 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@26a47743] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=3, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@7a0587ba, repeat=true, stop=false}], event=[], node=null}
-FM MOVE D2Idx{x=7, y=2} /EC=-2 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@6d9006c] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=7, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=2}, images=[Lkinugasa.resource.KImage;@7a0587ba, repeat=true, stop=false}], event=[], node=null}
-FM MOVE D2Idx{x=6, y=2} /EC=-3 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@2fe1d30a] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=11, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=1}, images=[Lkinugasa.resource.KImage;@7a0587ba, repeat=true, stop=false}], event=[], node=null}
-FM MOVE D2Idx{x=5, y=2} /EC=-4 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@6d9006c] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=2, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=2}, images=[Lkinugasa.resource.KImage;@7a0587ba, repeat=true, stop=false}], event=[FieldEvent{name=E_041_0, order=100, location=D2Idx{x=5, y=2}, eventType=MANUAL_EVENT, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[]}, FieldEvent{name=E_041_1, order=110, location=D2Idx{x=5, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=!PC1は棚を調べた, disposeWhenExec=false, exists=true, term=[]}, FieldEvent{name=E_041_2, order=115, location=D2Idx{x=5, y=2}, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=M003_E07_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=M003_E07, value=}]}, FieldEvent{name=E_041_3, order=120, location=D2Idx{x=5, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=木綿の手拭を見つけた！, disposeWhenExec=false, exists=true, term=[EventTerm{name=M003_E07_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=M003_E07, value=}]}, FieldEvent{name=E_041_4, order=130, location=D2Idx{x=5, y=2}, eventType=SET_FLG_TMP, storageName=ITEMS, targetName=M003_E07, value=ON, disposeWhenExec=false, exists=true, term=[EventTerm{name=M003_E07_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=M003_E07, value=}]}, FieldEvent{name=E_041_5, order=150, location=D2Idx{x=5, y=2}, eventType=GET_ITEM, storageName=, targetName=, value=木綿の手拭, disposeWhenExec=false, exists=true, term=[EventTerm{name=M003_E07_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=M003_E07, value=}]}, FieldEvent{name=E_041_6, order=170, location=D2Idx{x=5, y=2}, eventType=END_IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=M003_E07_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=M003_E07, value=}]}, FieldEvent{name=E_041_7, order=205, location=D2Idx{x=5, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=漁の道具などが置いてある。有用な物はなにも見つからなかった。, disposeWhenExec=false, exists=true, term=[]}, FieldEvent{name=E_041_8, order=400, location=D2Idx{x=5, y=2}, eventType=END_AND_RESET_EVENT, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[]}], node=null}
-FM MOVE D2Idx{x=5, y=3} /EC=-5 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@29361e67] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=11, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@1019dde8, repeat=true, stop=false}], event=[], node=null}
-FM MOVE D2Idx{x=4, y=3} /EC=-6 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@2fe1d30a] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=6, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=1}, images=[Lkinugasa.resource.KImage;@7a0587ba, repeat=true, stop=false}], event=[], node=null}
-FM MOVE D2Idx{x=4, y=4} /EC=-7 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@37a37800] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=2, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=1}, images=[Lkinugasa.resource.KImage;@1019dde8, repeat=true, stop=false}], event=[], node=null}
-FM MOVE D2Idx{x=4, y=5} /EC=-8 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@29361e67] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=6, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@1019dde8, repeat=true, stop=false}], event=[], node=null}
-FM MOVE D2Idx{x=4, y=6} /EC=-9 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@2ac5b10b] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=10, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=2}, images=[Lkinugasa.resource.KImage;@1019dde8, repeat=true, stop=false}], event=[], node=null}
-FM MOVE D2Idx{x=4, y=7} /EC=-10 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@37a37800] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=14, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=1}, images=[Lkinugasa.resource.KImage;@1019dde8, repeat=true, stop=false}], event=[], node=null}
-FM MOVE D2Idx{x=3, y=7} /EC=-11 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@26a47743] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=10, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@7a0587ba, repeat=true, stop=false}], event=[], node=null}
-FM MOVE D2Idx{x=3, y=8} /EC=-12 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@2ac5b10b] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=3, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=2}, images=[Lkinugasa.resource.KImage;@1019dde8, repeat=true, stop=false}], event=[], node=null}
-FM MOVE D2Idx{x=3, y=9} /EC=-13 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@37a37800] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=9, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=1}, images=[Lkinugasa.resource.KImage;@1019dde8, repeat=true, stop=false}], event=[], node=null}
-FM MOVE D2Idx{x=3, y=10} /EC=-14 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@29361e67] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=13, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@1019dde8, repeat=true, stop=false}], event=[], node=null}
-FM MOVE D2Idx{x=2, y=10} /EC=-15 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@6d9006c] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=14, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=2}, images=[Lkinugasa.resource.KImage;@7a0587ba, repeat=true, stop=false}], event=[], node=null}
-FM MOVE D2Idx{x=1, y=10} /EC=-16 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@26a47743] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=3, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@7a0587ba, repeat=true, stop=false}], event=[], node=FieldMapNode{mode=INOUT, name=ND_03_0001, x=1, y=10, exitFieldMapName=M004, exitNodeName=ND_04_0001, tooltip=外へ, se=CachedSound{name=足音.wav, lp=null, run=NOT_LOADED}, accepter=NodeAccepter{name=TRUE}}}
-CachedSound is loaded name=[足音.wav](1.5994 ms)
+ItemBags,addItem:CmdAction{type=ITEM, name=隼の剣(xx)}
+ItemBags,addItem:CmdAction{type=ITEM, name=銅の剣(xx)}
+ItemBags,addItem:CmdAction{type=ITEM, name=万能家庭包丁(xx)}
+ItemBags,addItem:CmdAction{type=ITEM, name=伝説の剣「敵くだき」(xx)}
+ItemBags,addItem:CmdAction{type=ITEM, name=「うたわれし蛇流派の銀の剣」(xx)}
+ItemBags,addItem:CmdAction{type=ITEM, name=農民の大鎌(xx)}
+CachedSound is loaded name=[選択1.wav](1.4976 ms)
+CachedSound is loaded name=[選択2.wav](1.2795 ms)
+FM MOVE D2Idx{x=8, y=2} /EC=-1 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@7b73f05f] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=3, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@2dcfe100, repeat=true, stop=false}], event=[], node=null}
+FM MOVE D2Idx{x=7, y=2} /EC=-2 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@2155552a] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=7, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=2}, images=[Lkinugasa.resource.KImage;@2dcfe100, repeat=true, stop=false}], event=[], node=null}
+FM MOVE D2Idx{x=6, y=2} /EC=-3 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@40b53aa3] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=11, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=1}, images=[Lkinugasa.resource.KImage;@2dcfe100, repeat=true, stop=false}], event=[], node=null}
+FM MOVE D2Idx{x=5, y=2} /EC=-4 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@2155552a] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=2, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=2}, images=[Lkinugasa.resource.KImage;@2dcfe100, repeat=true, stop=false}], event=[FieldEvent{name=E_041_0, order=100, location=D2Idx{x=5, y=2}, eventType=MANUAL_EVENT, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[]}, FieldEvent{name=E_041_1, order=110, location=D2Idx{x=5, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=!PC1は棚を調べた, disposeWhenExec=false, exists=true, term=[]}, FieldEvent{name=E_041_2, order=115, location=D2Idx{x=5, y=2}, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=M003_E07_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=M003_E07, value=}]}, FieldEvent{name=E_041_3, order=120, location=D2Idx{x=5, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=木綿の手拭を見つけた！, disposeWhenExec=false, exists=true, term=[EventTerm{name=M003_E07_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=M003_E07, value=}]}, FieldEvent{name=E_041_4, order=130, location=D2Idx{x=5, y=2}, eventType=SET_FLG_TMP, storageName=ITEMS, targetName=M003_E07, value=ON, disposeWhenExec=false, exists=true, term=[EventTerm{name=M003_E07_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=M003_E07, value=}]}, FieldEvent{name=E_041_5, order=150, location=D2Idx{x=5, y=2}, eventType=GET_ITEM, storageName=, targetName=, value=木綿の手拭, disposeWhenExec=false, exists=true, term=[EventTerm{name=M003_E07_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=M003_E07, value=}]}, FieldEvent{name=E_041_6, order=170, location=D2Idx{x=5, y=2}, eventType=END_IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=M003_E07_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=M003_E07, value=}]}, FieldEvent{name=E_041_7, order=205, location=D2Idx{x=5, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=漁の道具などが置いてある。有用な物はなにも見つからなかった。, disposeWhenExec=false, exists=true, term=[]}, FieldEvent{name=E_041_8, order=400, location=D2Idx{x=5, y=2}, eventType=END_AND_RESET_EVENT, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[]}], node=null}
+FM MOVE D2Idx{x=4, y=2} /EC=-5 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@40b53aa3] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=6, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=1}, images=[Lkinugasa.resource.KImage;@2dcfe100, repeat=true, stop=false}], event=[FieldEvent{name=E_042_0, order=100, location=D2Idx{x=4, y=2}, eventType=MANUAL_EVENT, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[]}, FieldEvent{name=E_042_1, order=110, location=D2Idx{x=4, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=!PC1は棚を調べた, disposeWhenExec=false, exists=true, term=[]}, FieldEvent{name=E_042_2, order=123, location=D2Idx{x=4, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=漁の道具などが置いてある。有用な物はなにも見つからなかった。, disposeWhenExec=false, exists=true, term=[]}, FieldEvent{name=E_042_3, order=400, location=D2Idx{x=4, y=2}, eventType=END_AND_RESET_EVENT, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[]}], node=null}
+FM MOVE D2Idx{x=3, y=2} /EC=-6 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@7b73f05f] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=10, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@2dcfe100, repeat=true, stop=false}], event=[FieldEvent{name=E_05_0, order=100, location=D2Idx{x=3, y=2}, eventType=MANUAL_EVENT, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[]}, FieldEvent{name=E_05_1, order=110, location=D2Idx{x=3, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=!PC1は棚を調べた, disposeWhenExec=false, exists=true, term=[]}, FieldEvent{name=E_05_2, order=115, location=D2Idx{x=3, y=2}, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=M003_E05_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=M003_E05, value=}]}, FieldEvent{name=E_05_3, order=120, location=D2Idx{x=3, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=いい感じの棒きれを見つけた！, disposeWhenExec=false, exists=true, term=[EventTerm{name=M003_E05_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=M003_E05, value=}]}, FieldEvent{name=E_05_4, order=130, location=D2Idx{x=3, y=2}, eventType=SET_FLG_TMP, storageName=ITEMS, targetName=M003_E05, value=ON, disposeWhenExec=false, exists=true, term=[EventTerm{name=M003_E05_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=M003_E05, value=}]}, FieldEvent{name=E_05_5, order=150, location=D2Idx{x=3, y=2}, eventType=GET_ITEM, storageName=, targetName=, value=いい感じの棒きれ, disposeWhenExec=false, exists=true, term=[EventTerm{name=M003_E05_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=M003_E05, value=}]}, FieldEvent{name=E_05_6, order=170, location=D2Idx{x=3, y=2}, eventType=END_IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=M003_E05_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=M003_E05, value=}]}, FieldEvent{name=E_05_7, order=205, location=D2Idx{x=3, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=漁の道具などが置いてある。有用な物はなにも見つからなかった。, disposeWhenExec=false, exists=true, term=[]}, FieldEvent{name=E_05_8, order=400, location=D2Idx{x=3, y=2}, eventType=END_AND_RESET_EVENT, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[]}], node=null}
+FM MOVE D2Idx{x=2, y=2} /EC=-7 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@2155552a] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=14, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=2}, images=[Lkinugasa.resource.KImage;@2dcfe100, repeat=true, stop=false}], event=[FieldEvent{name=E_06_0, order=100, location=D2Idx{x=2, y=2}, eventType=MANUAL_EVENT, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[]}, FieldEvent{name=E_06_1, order=110, location=D2Idx{x=2, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=!PC1は棚を調べた, disposeWhenExec=false, exists=true, term=[]}, FieldEvent{name=E_06_2, order=115, location=D2Idx{x=2, y=2}, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=M003_E06_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=M003_E06, value=}]}, FieldEvent{name=E_06_3, order=120, location=D2Idx{x=2, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=漁師の非常食を見つけた！, disposeWhenExec=false, exists=true, term=[EventTerm{name=M003_E06_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=M003_E06, value=}]}, FieldEvent{name=E_06_4, order=130, location=D2Idx{x=2, y=2}, eventType=SET_FLG_TMP, storageName=ITEMS, targetName=M003_E06, value=ON, disposeWhenExec=false, exists=true, term=[EventTerm{name=M003_E06_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=M003_E06, value=}]}, FieldEvent{name=E_06_5, order=150, location=D2Idx{x=2, y=2}, eventType=GET_ITEM, storageName=, targetName=, value=漁師の非常食, disposeWhenExec=false, exists=true, term=[EventTerm{name=M003_E06_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=M003_E06, value=}]}, FieldEvent{name=E_06_6, order=170, location=D2Idx{x=2, y=2}, eventType=END_IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=M003_E06_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=ITEMS, targetName=M003_E06, value=}]}, FieldEvent{name=E_06_7, order=205, location=D2Idx{x=2, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=漁の道具などが置いてある。有用な物はなにも見つからなかった。, disposeWhenExec=false, exists=true, term=[]}, FieldEvent{name=E_06_8, order=400, location=D2Idx{x=2, y=2}, eventType=END_AND_RESET_EVENT, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[]}], node=null}
+FM MOVE D2Idx{x=1, y=2} /EC=-8 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@7b73f05f] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=3, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@2dcfe100, repeat=true, stop=false}], event=[FieldEvent{name=E_043_0, order=100, location=D2Idx{x=1, y=2}, eventType=MANUAL_EVENT, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[]}, FieldEvent{name=E_043_1, order=110, location=D2Idx{x=1, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=!PC1は棚を調べた, disposeWhenExec=false, exists=true, term=[]}, FieldEvent{name=E_043_2, order=123, location=D2Idx{x=1, y=2}, eventType=SHOW_MESSAGE_DIRECT, storageName=, targetName=, value=漁の道具などが置いてある。有用な物はなにも見つからなかった。, disposeWhenExec=false, exists=true, term=[]}, FieldEvent{name=E_043_3, order=400, location=D2Idx{x=1, y=2}, eventType=END_AND_RESET_EVENT, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[]}], node=null}
+FM MOVE D2Idx{x=1, y=3} /EC=-9 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@2ea42626] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=11, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@2fc32ec2, repeat=true, stop=false}], event=[], node=null}
+FM MOVE D2Idx{x=1, y=4} /EC=-10 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@2a4d575b] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=2, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=1}, images=[Lkinugasa.resource.KImage;@2fc32ec2, repeat=true, stop=false}], event=[], node=null}
+FM MOVE D2Idx{x=1, y=5} /EC=-11 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@2ea42626] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=6, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@2fc32ec2, repeat=true, stop=false}], event=[], node=null}
+FM MOVE D2Idx{x=1, y=6} /EC=-12 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@c81a9e2] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=10, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=2}, images=[Lkinugasa.resource.KImage;@2fc32ec2, repeat=true, stop=false}], event=[], node=null}
+FM MOVE D2Idx{x=1, y=7} /EC=-13 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@2a4d575b] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=14, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=1}, images=[Lkinugasa.resource.KImage;@2fc32ec2, repeat=true, stop=false}], event=[], node=null}
+FM MOVE D2Idx{x=1, y=8} /EC=-14 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@c81a9e2] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=3, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=2}, images=[Lkinugasa.resource.KImage;@2fc32ec2, repeat=true, stop=false}], event=[], node=null}
+FM MOVE D2Idx{x=1, y=9} /EC=-15 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@2a4d575b] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=9, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=1}, images=[Lkinugasa.resource.KImage;@2fc32ec2, repeat=true, stop=false}], event=[], node=null}
+FM MOVE D2Idx{x=1, y=10} /EC=-16 /TILE=FieldMapTile{chip=[MapChip{name=005000, attr=MapChipAttribute{name=木床, encountBaseValue=1}}, MapChip{name=005003, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@2ea42626] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=13, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@2fc32ec2, repeat=true, stop=false}], event=[], node=FieldMapNode{mode=INOUT, name=ND_03_0001, x=1, y=10, exitFieldMapName=M004, exitNodeName=ND_04_0001, tooltip=外へ, se=CachedSound{name=足音.wav, lp=null, run=NOT_LOADED}, accepter=NodeAccepter{name=TRUE}}}
+CachedSound is loaded name=[足音.wav](3.0669 ms)
 XMLFile [M004.xml] is loaded
 XMLFile [text03.xml] is loaded
 Text{name=050, nextId=null}
@@ -1419,9 +1428,9 @@ Text{name=005, nextId=007}
 Text{name=007, nextId=null}
 Text{name=008, nextId=010}
 Text{name=009, nextId=010}
-ImageUtil loaded filePath=[resource/image/glassField16.png](0.6555 ms)
+ImageUtil loaded filePath=[resource/image/glassField16.png](0.9287 ms)
 XMLFile [E008.xml] is loaded
-ImageUtil cached filePath=[resource/image/c3.png](0.0011 ms)
+ImageUtil cached filePath=[resource/image/c3.png](0.001 ms)
 CHANGE_MAP: FieldMapNode{mode=INOUT, name=ND_03_0001, x=1, y=10, exitFieldMapName=M004, exitNodeName=ND_04_0001, tooltip=外へ, se=CachedSound{name=足音.wav, lp=null, run=LOADED}, accepter=NodeAccepter{name=TRUE}}
 start event : FieldEvent{name=E_04_0, order=0, location=D2Idx{x=7, y=13}, eventType=IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=M004_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=M004_E08, value=}]}
 start event : FieldEvent{name=E_04_1, order=1, location=D2Idx{x=7, y=13}, eventType=DISABLE_OPERATION, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=M004_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=M004_E08, value=}]}
@@ -1440,7 +1449,7 @@ start event : FieldEvent{name=E_04_7, order=220, location=D2Idx{x=7, y=13}, even
 ->done
 start event : FieldEvent{name=E_04_8, order=225, location=D2Idx{x=7, y=13}, eventType=PC_ADD, storageName=, targetName=, value=resource/data/system/status_tomagi.xml, disposeWhenExec=false, exists=true, term=[EventTerm{name=M004_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=M004_E08, value=}]}
 XMLFile [status_tomagi.xml] is loaded
-ImageUtil cached filePath=[resource/image/c3.png](9.0E-4 ms)
+ImageUtil cached filePath=[resource/image/c3.png](0.0011 ms)
 ItemBags,addItem:CmdAction{type=ITEM, name=堅木の山杖(xx)}
 ItemBags,addItem:CmdAction{type=ITEM, name=行商人の服(xx)}
 ItemBags,addItem:CmdAction{type=ITEM, name=木綿の手拭(xx)}
@@ -1455,85 +1464,61 @@ start event : FieldEvent{name=E_04_10, order=999, location=D2Idx{x=7, y=13}, eve
 start event : FieldEvent{name=E_04_11, order=2500, location=D2Idx{x=7, y=13}, eventType=SET_FLG_DIRECT, storageName=STORY, targetName=M004_E08, value=ON, disposeWhenExec=false, exists=true, term=[EventTerm{name=M004_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=M004_E08, value=}]}
 ->done
 start event : FieldEvent{name=E_04_12, order=3000, location=D2Idx{x=7, y=13}, eventType=END_IF, storageName=, targetName=, value=, disposeWhenExec=false, exists=true, term=[EventTerm{name=M004_E08_FLG_NOT_EXISTS, termType=NO_EXISTS_FLG, storageName=STORY, targetName=M004_E08, value=}]}
-FM MOVE D2Idx{x=7, y=14} /EC=-18 /TILE=FieldMapTile{chip=[MapChip{name=023005, attr=MapChipAttribute{name=平地, encountBaseValue=2}}, MapChip{name=000014, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@2ac5b10b] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=2, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=2}, images=[Lkinugasa.resource.KImage;@1019dde8, repeat=true, stop=false}], event=[], node=null}
-FM MOVE D2Idx{x=7, y=15} /EC=-20 /TILE=FieldMapTile{chip=[MapChip{name=023005, attr=MapChipAttribute{name=平地, encountBaseValue=2}}, MapChip{name=000014, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@37a37800] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=8, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=1}, images=[Lkinugasa.resource.KImage;@1019dde8, repeat=true, stop=false}], event=[], node=null}
-FM MOVE D2Idx{x=7, y=16} /EC=-22 /TILE=FieldMapTile{chip=[MapChip{name=023005, attr=MapChipAttribute{name=平地, encountBaseValue=2}}, MapChip{name=000014, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@29361e67] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=12, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@1019dde8, repeat=true, stop=false}], event=[], node=FieldMapNode{mode=INOUT, name=ND_04_0004, x=7, y=16, exitFieldMapName=M005, exitNodeName=ND_05_0001, tooltip=ラルズガルド地方, se=CachedSound{name=足音.wav, lp=null, run=LOADED}, accepter=NodeAccepter{name=TRUE}}}
+FM MOVE D2Idx{x=7, y=14} /EC=-18 /TILE=FieldMapTile{chip=[MapChip{name=023005, attr=MapChipAttribute{name=平地, encountBaseValue=2}}, MapChip{name=000014, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@2a4d575b] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=11, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=1}, images=[Lkinugasa.resource.KImage;@2fc32ec2, repeat=true, stop=false}], event=[], node=null}
+FM MOVE D2Idx{x=7, y=15} /EC=-20 /TILE=FieldMapTile{chip=[MapChip{name=023005, attr=MapChipAttribute{name=平地, encountBaseValue=2}}, MapChip{name=000014, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@c81a9e2] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=2, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=2}, images=[Lkinugasa.resource.KImage;@2fc32ec2, repeat=true, stop=false}], event=[], node=null}
+FM MOVE D2Idx{x=7, y=16} /EC=-22 /TILE=FieldMapTile{chip=[MapChip{name=023005, attr=MapChipAttribute{name=平地, encountBaseValue=2}}, MapChip{name=000014, attr=MapChipAttribute{name=VOID, encountBaseValue=0}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@2a4d575b] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=6, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=1}, images=[Lkinugasa.resource.KImage;@2fc32ec2, repeat=true, stop=false}], event=[], node=FieldMapNode{mode=INOUT, name=ND_04_0004, x=7, y=16, exitFieldMapName=M005, exitNodeName=ND_05_0001, tooltip=ラルズガルド地方, se=CachedSound{name=足音.wav, lp=null, run=LOADED}, accepter=NodeAccepter{name=TRUE}}}
 CachedSound : [足音.wav] : is disposed
-CachedSound is loaded name=[足音.wav](1.7159 ms)
+CachedSound is loaded name=[足音.wav](1.6795 ms)
 XMLFile [M005.xml] is loaded
-ImageUtil cached filePath=[resource/image/seaChip16.png](0.0011 ms)
+ImageUtil cached filePath=[resource/image/seaChip16.png](9.0E-4 ms)
 CachedSound : [オープニング.wav] : is disposed
-CachedSound is loaded name=[フィールド５.wav](37.315 ms)
+CachedSound is loaded name=[フィールド５.wav](43.668 ms)
 CHANGE_MAP: FieldMapNode{mode=INOUT, name=ND_04_0004, x=7, y=16, exitFieldMapName=M005, exitNodeName=ND_05_0001, tooltip=ラルズガルド地方, se=CachedSound{name=足音.wav, lp=null, run=LOADED}, accepter=NodeAccepter{name=TRUE}}
-FM MOVE D2Idx{x=49, y=57} /EC=42 /TILE=FieldMapTile{chip=[MapChip{name=010000, attr=MapChipAttribute{name=平地, encountBaseValue=2}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=-180.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@413e221e] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=12, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=1}, images=[Lkinugasa.resource.KImage;@bd59c4e, repeat=true, stop=false}], event=null, node=null}
-FM MOVE D2Idx{x=49, y=56} /EC=40 /TILE=FieldMapTile{chip=[MapChip{name=010001, attr=MapChipAttribute{name=平地, encountBaseValue=2}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=-180.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@61b243aa] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=1, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=2}, images=[Lkinugasa.resource.KImage;@bd59c4e, repeat=true, stop=false}], event=null, node=null}
-FM MOVE D2Idx{x=50, y=56} /EC=34 /TILE=FieldMapTile{chip=[MapChip{name=010005, attr=MapChipAttribute{name=森林, encountBaseValue=6}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=-90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@5134d7c6] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=5, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@7968f8dd, repeat=true, stop=false}], event=null, node=null}
-FM MOVE D2Idx{x=50, y=55} /EC=32 /TILE=FieldMapTile{chip=[MapChip{name=010000, attr=MapChipAttribute{name=平地, encountBaseValue=2}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=-180.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@413e221e] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=5, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=1}, images=[Lkinugasa.resource.KImage;@bd59c4e, repeat=true, stop=false}], event=null, node=null}
-FM MOVE D2Idx{x=51, y=55} /EC=26 /TILE=FieldMapTile{chip=[MapChip{name=010005, attr=MapChipAttribute{name=森林, encountBaseValue=6}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=-90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@7d5709b] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=9, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=2}, images=[Lkinugasa.resource.KImage;@7968f8dd, repeat=true, stop=false}], event=null, node=null}
-FM MOVE D2Idx{x=50, y=55} /EC=24 /TILE=FieldMapTile{chip=[MapChip{name=010000, attr=MapChipAttribute{name=平地, encountBaseValue=2}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@2fe1d30a] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=2, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=1}, images=[Lkinugasa.resource.KImage;@7a0587ba, repeat=true, stop=false}], event=null, node=null}
-FM MOVE D2Idx{x=49, y=55} /EC=22 /TILE=FieldMapTile{chip=[MapChip{name=010000, attr=MapChipAttribute{name=平地, encountBaseValue=2}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@26a47743] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=6, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@7a0587ba, repeat=true, stop=false}], event=null, node=null}
-FM MOVE D2Idx{x=48, y=55} /EC=20 /TILE=FieldMapTile{chip=[MapChip{name=011000, attr=MapChipAttribute{name=平地, encountBaseValue=2}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@6d9006c] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=10, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=2}, images=[Lkinugasa.resource.KImage;@7a0587ba, repeat=true, stop=false}], event=null, node=null}
-FM MOVE D2Idx{x=48, y=56} /EC=18 /TILE=FieldMapTile{chip=[MapChip{name=010001, attr=MapChipAttribute{name=平地, encountBaseValue=2}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=0.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@2ac5b10b] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=3, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=2}, images=[Lkinugasa.resource.KImage;@1019dde8, repeat=true, stop=false}], event=null, node=null}
-FM MOVE D2Idx{x=47, y=56} /EC=16 /TILE=FieldMapTile{chip=[MapChip{name=010001, attr=MapChipAttribute{name=平地, encountBaseValue=2}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@2fe1d30a] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=14, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=1}, images=[Lkinugasa.resource.KImage;@7a0587ba, repeat=true, stop=false}], event=null, node=null}
-FM MOVE D2Idx{x=46, y=56} /EC=14 /TILE=FieldMapTile{chip=[MapChip{name=010001, attr=MapChipAttribute{name=平地, encountBaseValue=2}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@6d9006c] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=3, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=2}, images=[Lkinugasa.resource.KImage;@7a0587ba, repeat=true, stop=false}], event=null, node=null}
-FM MOVE D2Idx{x=45, y=56} /EC=8 /TILE=FieldMapTile{chip=[MapChip{name=010005, attr=MapChipAttribute{name=森林, encountBaseValue=6}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@2fe1d30a] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=9, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=1}, images=[Lkinugasa.resource.KImage;@7a0587ba, repeat=true, stop=false}], event=null, node=null}
-FM MOVE D2Idx{x=46, y=56} /EC=6 /TILE=FieldMapTile{chip=[MapChip{name=010001, attr=MapChipAttribute{name=平地, encountBaseValue=2}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=-90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@5134d7c6] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=2, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@7968f8dd, repeat=true, stop=false}], event=null, node=null}
-FM MOVE D2Idx{x=45, y=56} /EC=0 /TILE=FieldMapTile{chip=[MapChip{name=010005, attr=MapChipAttribute{name=森林, encountBaseValue=6}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@6d9006c] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=4, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=2}, images=[Lkinugasa.resource.KImage;@7a0587ba, repeat=true, stop=false}], event=null, node=null}
+FM MOVE D2Idx{x=49, y=57} /EC=28 /TILE=FieldMapTile{chip=[MapChip{name=010000, attr=MapChipAttribute{name=平地, encountBaseValue=2}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=-180.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@609e8806] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=12, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=1}, images=[Lkinugasa.resource.KImage;@39586f43, repeat=true, stop=false}], event=null, node=null}
+FM MOVE D2Idx{x=49, y=56} /EC=26 /TILE=FieldMapTile{chip=[MapChip{name=010001, attr=MapChipAttribute{name=平地, encountBaseValue=2}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=-180.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@3c8dfe42] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=1, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=2}, images=[Lkinugasa.resource.KImage;@39586f43, repeat=true, stop=false}], event=null, node=null}
+FM MOVE D2Idx{x=50, y=56} /EC=20 /TILE=FieldMapTile{chip=[MapChip{name=010005, attr=MapChipAttribute{name=森林, encountBaseValue=6}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=-90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@4bc26033] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=5, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@5de0465b, repeat=true, stop=false}], event=null, node=null}
+FM MOVE D2Idx{x=49, y=56} /EC=18 /TILE=FieldMapTile{chip=[MapChip{name=010001, attr=MapChipAttribute{name=平地, encountBaseValue=2}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@40b53aa3] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=10, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=1}, images=[Lkinugasa.resource.KImage;@2dcfe100, repeat=true, stop=false}], event=null, node=null}
+FM MOVE D2Idx{x=50, y=56} /EC=12 /TILE=FieldMapTile{chip=[MapChip{name=010005, attr=MapChipAttribute{name=森林, encountBaseValue=6}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=-90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@38a9a3af] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=11, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=2}, images=[Lkinugasa.resource.KImage;@5de0465b, repeat=true, stop=false}], event=null, node=null}
+FM MOVE D2Idx{x=49, y=56} /EC=10 /TILE=FieldMapTile{chip=[MapChip{name=010001, attr=MapChipAttribute{name=平地, encountBaseValue=2}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@7b73f05f] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=14, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@2dcfe100, repeat=true, stop=false}], event=null, node=null}
+FM MOVE D2Idx{x=50, y=56} /EC=4 /TILE=FieldMapTile{chip=[MapChip{name=010005, attr=MapChipAttribute{name=森林, encountBaseValue=6}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=-90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@4bc26033] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=12, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@5de0465b, repeat=true, stop=false}], event=null, node=null}
+FM MOVE D2Idx{x=49, y=56} /EC=2 /TILE=FieldMapTile{chip=[MapChip{name=010001, attr=MapChipAttribute{name=平地, encountBaseValue=2}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@4bc26033] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=8, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@5de0465b, repeat=true, stop=false}], event=null, node=null}
+FM MOVE D2Idx{x=50, y=56} /EC=-4 /TILE=FieldMapTile{chip=[MapChip{name=010005, attr=MapChipAttribute{name=森林, encountBaseValue=6}}], npc=null, playerCharacter=ImageSprite location=[344.0,224.0] size=[32.0,32.0] center=[360.0,240.0] personalCenter=[16.0,16.0] visible=[true] exist=[true] speed=[2.5] vector=[VectorF{angle=-90.0, speed=2.5}] z=[0.0] image=[kinugasa.resource.KImage@4bc26033] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=4, speed=1, index=SimpleIndex{index=0}, waitTime=[14]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@5de0465b, repeat=true, stop=false}], event=null, node=null}
 ENCOUNT!
-CachedSound is loaded name=[戦闘開始.wav](1.8018 ms)
+CachedSound is loaded name=[戦闘開始.wav](1.9406 ms)
  -----------------BATTLE_START------------------------------------------------
  changeStage : [null] to [STARTUP] and[null]
 XMLFile [es001.xml] is loaded
-CachedSound is loaded name=[バトル１（新）.wav](19.1271 ms)
+CachedSound is loaded name=[バトル１（新）.wav](20.0708 ms)
 BF : init, attr=MapChipAttribute{name=森林, encountBaseValue=6}, obMax:12
 BCMW : cmd is null
  changeStage : [STARTUP] to [INITIAL_MOVING] and[null]
 kinugasa.game.GameLogicStorage.changeTo():BATTLE
-ImageUtil loaded filePath=[resource/image/castAnimation1.png](0.5746 ms)
-CachedSound is loaded name=[選択1.wav](1.4981 ms)
-CachedSound is loaded name=[選択2.wav](1.1611 ms)
-CachedSound is loaded name=[バトルターン開始.wav](1.0868 ms)
+ImageUtil loaded filePath=[resource/image/castAnimation1.png](0.639 ms)
+CachedSound is loaded name=[バトルターン開始.wav](1.1849 ms)
  changeStage : [INITIAL_MOVING] to [WAITING_EXEC_CMD] and[null]
  -----------------TURN[1] START-----------------
  changeStage : [WAITING_EXEC_CMD] to [WAITING_EXEC_CMD] and[null]
- currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=野盗A}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}]}
- changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
- changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
  currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=野盗B}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}]}
  changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
  changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
  currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=山賊A}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=ATTACK, name=串刺し(Bx)}]}
  changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
  changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
+ currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=野盗A}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}]}
+ changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
+ changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
  currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=動く魔術師A}}, ba=[CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=ATTACK, name=こぶし(Bx)}, CmdAction{type=MAGIC, name=破壊光線(Bx)}]}
 exec action ba=破壊光線 TGT:BattleActionTarget{user=Enemy{status=Status{name=動く魔術師A}}, action=CmdAction{type=MAGIC, name=破壊光線(Bx)}, inField=false, target=[PlayerCharacter{status=Status{name=aaaa}}, PlayerCharacter{status=Status{name=トマギ}}]}
-CachedSound is loaded name=[魔法詠唱.wav](1.4931 ms)
+CachedSound is loaded name=[魔法詠唱.wav](1.226 ms)
  changeStage : [WAITING_EXEC_CMD] to [EXECUTING_ACTION] and[null]
  changeStage : [EXECUTING_ACTION] to [WAITING_EXEC_CMD] and[null]
- currentCMD:BattleCommand{mode=PC, user=PlayerCharacter{status=Status{name=aaaa}}, ba=[CmdAction{type=ATTACK, name=こぶし(Bx)}, CmdAction{type=OTHER, name=状態(Bx)}, CmdAction{type=OTHER, name=逃走(Bx)}, CmdAction{type=MAGIC, name=DISABLE(Bx)}, CmdAction{type=MAGIC, name=ONE,OFF_ZERO(Bx)}, CmdAction{type=OTHER, name=回避(Bx)}, CmdAction{type=MAGIC, name=ONE,OFF(Bx)}, CmdAction{type=OTHER, name=確定(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=MAGIC, name=破壊光線(Bx)}, CmdAction{type=OTHER, name=防御(Bx)}, CmdAction{type=MAGIC, name=DEFAULT_PARTY,ENABLE(Bx)}, CmdAction{type=MAGIC, name=ONE,ON(Bx)}, CmdAction{type=ITEM, name=庶民の服(xx)}, CmdAction{type=ITEM, name=庶民の靴(xx)}]}
+ currentCMD:BattleCommand{mode=PC, user=PlayerCharacter{status=Status{name=aaaa}}, ba=[CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=状態(Bx)}, CmdAction{type=OTHER, name=逃走(Bx)}, CmdAction{type=MAGIC, name=IFF_ON_TEAM(Bx)}, CmdAction{type=ATTACK, name=串刺し(Bx)}, CmdAction{type=MAGIC, name=DISABLE(Bx)}, CmdAction{type=MAGIC, name=ONE,OFF_ZERO(Bx)}, CmdAction{type=OTHER, name=回避(Bx)}, CmdAction{type=MAGIC, name=ONE,OFF(Bx)}, CmdAction{type=OTHER, name=確定(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=MAGIC, name=破壊光線(Bx)}, CmdAction{type=OTHER, name=防御(Bx)}, CmdAction{type=MAGIC, name=DEFAULT_PARTY,ENABLE(Bx)}, CmdAction{type=MAGIC, name=ONE,ON(Bx)}, CmdAction{type=ITEM, name=庶民の服(xx)}, CmdAction{type=ITEM, name=庶民の靴(xx)}, CmdAction{type=ITEM, name=隼の剣(xx)}, CmdAction{type=ITEM, name=銅の剣(xx)}, CmdAction{type=ITEM, name=万能家庭包丁(xx)}, CmdAction{type=ITEM, name=伝説の剣「敵くだき」(xx)}, CmdAction{type=ITEM, name=「うたわれし蛇流派の銀の剣」(xx)}, CmdAction{type=ITEM, name=農民の大鎌(xx)}]}
 TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
  changeStage : [WAITING_EXEC_CMD] to [CMD_SELECT] and[null]
-BCMW :CmdAction{type=ATTACK, name=こぶし(Bx)}
-TS current:CmdAction{type=ATTACK, name=こぶし(Bx)}
-BCMW :CmdAction{type=MAGIC, name=破壊光線(Bx)}
-TS current:CmdAction{type=MAGIC, name=破壊光線(Bx)}
-BCMW :CmdAction{type=ITEM, name=庶民の服(xx)}
-TS current:CmdAction{type=ITEM, name=庶民の服(xx)}
-BCMW :CmdAction{type=MAGIC, name=破壊光線(Bx)}
-TS current:CmdAction{type=MAGIC, name=破壊光線(Bx)}
-MCMW :CmdAction{type=MAGIC, name=ONE,ON(Bx)}
-TS current:CmdAction{type=MAGIC, name=ONE,ON(Bx)}
-MCMW :CmdAction{type=MAGIC, name=DISABLE(Bx)}
-TS current:CmdAction{type=MAGIC, name=DISABLE(Bx)}
-MCMW :CmdAction{type=MAGIC, name=ONE,OFF(Bx)}
-TS current:CmdAction{type=MAGIC, name=ONE,OFF(Bx)}
-TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=MAGIC, name=ONE,OFF(Bx)}, selfTarget=true, inArea=[Enemy{status=Status{name=野盗A}}, Enemy{status=Status{name=野盗B}}, Enemy{status=Status{name=山賊A}}, Enemy{status=Status{name=動く魔術師A}}, PlayerCharacter{status=Status{name=aaaa}}, PlayerCharacter{status=Status{name=トマギ}}], selected=[Enemy{status=Status{name=野盗A}}], selectedIdx=0}
-TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=MAGIC, name=ONE,OFF(Bx)}, selfTarget=true, inArea=[Enemy{status=Status{name=野盗A}}, Enemy{status=Status{name=野盗B}}, Enemy{status=Status{name=山賊A}}, Enemy{status=Status{name=動く魔術師A}}, PlayerCharacter{status=Status{name=aaaa}}, PlayerCharacter{status=Status{name=トマギ}}], selected=[Enemy{status=Status{name=野盗A}}], selectedIdx=0}
- changeStage : [CMD_SELECT] to [TARGET_SELECT] and[null]
-BS switch Team : OK
-exec action ba=ONE,OFF TGT:BattleActionTarget{user=PlayerCharacter{status=Status{name=aaaa}}, action=CmdAction{type=MAGIC, name=ONE,OFF(Bx)}, inField=false, target=[PlayerCharacter{status=Status{name=トマギ}}]}
- changeStage : [TARGET_SELECT] to [EXECUTING_ACTION] and[null]
- changeStage : [EXECUTING_ACTION] to [WAITING_EXEC_CMD] and[null]
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
+ changeStage : [CMD_SELECT] to [PLAYER_MOVE] and[null]
+ changeStage : [PLAYER_MOVE] to [AFTER_MOVE_CMD_SELECT] and[null]
+ changeStage : [AFTER_MOVE_CMD_SELECT] to [WAITING_EXEC_CMD] and[null]
  currentCMD:BattleCommand{mode=PC, user=PlayerCharacter{status=Status{name=トマギ}}, ba=[CmdAction{type=ATTACK, name=頭部強打(Bx)}, CmdAction{type=OTHER, name=状態(Bx)}, CmdAction{type=OTHER, name=逃走(Bx)}, CmdAction{type=OTHER, name=回避(Bx)}, CmdAction{type=OTHER, name=確定(Bx)}, CmdAction{type=ATTACK, name=メイス攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=OTHER, name=防御(Bx)}, CmdAction{type=ITEM, name=堅木の山杖(xx)}, CmdAction{type=ITEM, name=行商人の服(xx)}, CmdAction{type=ITEM, name=木綿の手拭(xx)}, CmdAction{type=ITEM, name=草履(xx)}, CmdAction{type=ITEM, name=そば団子(BF)}, CmdAction{type=ITEM, name=そば団子(BF)}]}
 TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=トマギ}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
  changeStage : [WAITING_EXEC_CMD] to [CMD_SELECT] and[null]
@@ -1543,7 +1528,10 @@ TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=トマギ
  changeStage : [AFTER_MOVE_CMD_SELECT] to [WAITING_EXEC_CMD] and[null]
  -----------------TURN[2] START-----------------
  changeStage : [WAITING_EXEC_CMD] to [WAITING_EXEC_CMD] and[null]
- currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=野盗A}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}]}
+ currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=野盗B}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}]}
+ changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
+ changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
+ currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=山賊A}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=ATTACK, name=串刺し(Bx)}]}
  changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
  changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
  currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=動く魔術師A}}, ba=[CmdAction{type=MAGIC, name=破壊光線(Bx)}]}
@@ -1551,27 +1539,25 @@ BS AUTO MAGIC CAST : CmdAction{type=MAGIC, name=破壊光線(Bx)} / BattleAction
 STATUS save DCP:aaaa
 STATUS save DCP:トマギ
 ACTION:aaaa:STATUS:USE_DAMAGE_CALC:HP:-32.0
-DamageCalcResult:SDCM : 動く魔術師A->aaaa:MGK,atk-def[0.06313132],HP,result[-10.0]
+damage calculation(MGK), calceled by AVO.
+CachedSound is loaded name=[避けた.wav](2.8811 ms)
 ACTION:トマギ:STATUS:USE_DAMAGE_CALC:HP:-32.0
-DamageCalcResult:SDCM : 動く魔術師A->トマギ:MGK,atk-def[0.14646465],HP,result[-23.0]
-ACTION RESULT:ActionEventResult{resultTypePerTgt=[SUCCESS, SUCCESS], animation=[ImageSprite location=[524.0,120.0] size=[64.0,64.0] center=[556.0,152.0] personalCenter=[32.0,32.0] visible=[true] exist=[true] speed=[0.0] vector=[VectorF{angle=0.0, speed=0.0}] z=[0.0] image=[kinugasa.resource.KImage@1a1474c6] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=5, speed=1, index=SimpleIndex{index=0}, waitTime=[6]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@2ae5e447, repeat=false, stop=false}], ImageSprite location=[524.0,231.5] size=[64.0,64.0] center=[556.0,263.5] personalCenter=[32.0,32.0] visible=[true] exist=[true] speed=[0.0] vector=[VectorF{angle=0.0, speed=0.0}] z=[0.0] image=[kinugasa.resource.KImage@1a1474c6] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=5, speed=1, index=SimpleIndex{index=0}, waitTime=[6]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@12531f5e, repeat=false, stop=false}]]}
-CachedSound is loaded name=[斬撃.wav](1.5129 ms)
+CachedSound is loaded name=[ブロック.wav](3.027 ms)
+DamageCalcResult:SDCM : 動く魔術師A->トマギ:MGK,atk-def[0.14646465],CUT,HP,result[-35.0]
+ACTION RESULT:ActionEventResult{resultTypePerTgt=[MISS, SUCCESS], animation=[ImageSprite location=[0.0,0.0] size=[0.0,0.0] center=[0.0,0.0] personalCenter=[0.0,0.0] visible=[true] exist=[true] speed=[0.0] vector=[VectorF{angle=0.0, speed=0.0}] z=[0.0] image=[null] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[null], ImageSprite location=[499.0,224.0] size=[64.0,64.0] center=[531.0,256.0] personalCenter=[32.0,32.0] visible=[true] exist=[true] speed=[0.0] vector=[VectorF{angle=0.0, speed=0.0}] z=[0.0] image=[kinugasa.resource.KImage@1703d2f0] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=5, speed=1, index=SimpleIndex{index=0}, waitTime=[6]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@4d9b8640, repeat=false, stop=false}]]}
+CachedSound is loaded name=[斬撃.wav](0.9279 ms)
  changeStage : [WAITING_EXEC_CMD] to [EXECUTING_ACTION] and[null]
  changeStage : [EXECUTING_ACTION] to [WAITING_EXEC_CMD] and[null]
- currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=野盗B}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}]}
+ currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=野盗A}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}]}
  changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
  changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
- currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=山賊A}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=ATTACK, name=串刺し(Bx)}]}
- changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
- changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
- currentCMD:BattleCommand{mode=PC, user=PlayerCharacter{status=Status{name=aaaa}}, ba=[CmdAction{type=MAGIC, name=ONE,OFF(Bx)}]}
-BS AUTO MAGIC CAST : CmdAction{type=MAGIC, name=ONE,OFF(Bx)} / BattleActionTarget{user=PlayerCharacter{status=Status{name=aaaa}}, action=CmdAction{type=MAGIC, name=ONE,OFF(Bx)}, inField=false, target=[PlayerCharacter{status=Status{name=トマギ}}]}
-STATUS save DCP:トマギ
-ACTION:トマギ:STATUS:USE_DAMAGE_CALC:HP:-32.0
-DamageCalcResult:SDCM : aaaa->トマギ:MGK,atk-def[0.34848484],HP,result[-55.0]
-ACTION RESULT:ActionEventResult{resultTypePerTgt=[SUCCESS], animation=[ImageSprite location=[524.0,231.5] size=[64.0,64.0] center=[556.0,263.5] personalCenter=[32.0,32.0] visible=[true] exist=[true] speed=[0.0] vector=[VectorF{angle=0.0, speed=0.0}] z=[0.0] image=[kinugasa.resource.KImage@1a1474c6] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=5, speed=1, index=SimpleIndex{index=0}, waitTime=[6]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@65099987, repeat=false, stop=false}]]}
- changeStage : [WAITING_EXEC_CMD] to [EXECUTING_ACTION] and[null]
- changeStage : [EXECUTING_ACTION] to [WAITING_EXEC_CMD] and[null]
+ currentCMD:BattleCommand{mode=PC, user=PlayerCharacter{status=Status{name=aaaa}}, ba=[CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=状態(Bx)}, CmdAction{type=OTHER, name=逃走(Bx)}, CmdAction{type=MAGIC, name=IFF_ON_TEAM(Bx)}, CmdAction{type=ATTACK, name=串刺し(Bx)}, CmdAction{type=MAGIC, name=DISABLE(Bx)}, CmdAction{type=MAGIC, name=ONE,OFF_ZERO(Bx)}, CmdAction{type=OTHER, name=回避(Bx)}, CmdAction{type=MAGIC, name=ONE,OFF(Bx)}, CmdAction{type=OTHER, name=確定(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=MAGIC, name=破壊光線(Bx)}, CmdAction{type=OTHER, name=防御(Bx)}, CmdAction{type=MAGIC, name=DEFAULT_PARTY,ENABLE(Bx)}, CmdAction{type=MAGIC, name=ONE,ON(Bx)}, CmdAction{type=ITEM, name=庶民の服(xx)}, CmdAction{type=ITEM, name=庶民の靴(xx)}, CmdAction{type=ITEM, name=隼の剣(xx)}, CmdAction{type=ITEM, name=銅の剣(xx)}, CmdAction{type=ITEM, name=万能家庭包丁(xx)}, CmdAction{type=ITEM, name=伝説の剣「敵くだき」(xx)}, CmdAction{type=ITEM, name=「うたわれし蛇流派の銀の剣」(xx)}, CmdAction{type=ITEM, name=農民の大鎌(xx)}]}
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
+ changeStage : [WAITING_EXEC_CMD] to [CMD_SELECT] and[null]
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
+ changeStage : [CMD_SELECT] to [PLAYER_MOVE] and[null]
+ changeStage : [PLAYER_MOVE] to [AFTER_MOVE_CMD_SELECT] and[null]
+ changeStage : [AFTER_MOVE_CMD_SELECT] to [WAITING_EXEC_CMD] and[null]
  currentCMD:BattleCommand{mode=PC, user=PlayerCharacter{status=Status{name=トマギ}}, ba=[CmdAction{type=ATTACK, name=頭部強打(Bx)}, CmdAction{type=OTHER, name=状態(Bx)}, CmdAction{type=OTHER, name=逃走(Bx)}, CmdAction{type=OTHER, name=回避(Bx)}, CmdAction{type=OTHER, name=確定(Bx)}, CmdAction{type=ATTACK, name=メイス攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=OTHER, name=防御(Bx)}, CmdAction{type=ITEM, name=堅木の山杖(xx)}, CmdAction{type=ITEM, name=行商人の服(xx)}, CmdAction{type=ITEM, name=木綿の手拭(xx)}, CmdAction{type=ITEM, name=草履(xx)}, CmdAction{type=ITEM, name=そば団子(BF)}, CmdAction{type=ITEM, name=そば団子(BF)}]}
 TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=トマギ}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
  changeStage : [WAITING_EXEC_CMD] to [CMD_SELECT] and[null]
@@ -1581,42 +1567,25 @@ TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=トマギ
  changeStage : [AFTER_MOVE_CMD_SELECT] to [WAITING_EXEC_CMD] and[null]
  -----------------TURN[3] START-----------------
  changeStage : [WAITING_EXEC_CMD] to [WAITING_EXEC_CMD] and[null]
- currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=野盗A}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}]}
- changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
- changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
  currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=野盗B}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}]}
  changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
  changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
  currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=山賊A}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=ATTACK, name=串刺し(Bx)}]}
  changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
  changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
+ currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=野盗A}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}]}
+ changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
+ changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
  currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=動く魔術師A}}, ba=[CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=ATTACK, name=こぶし(Bx)}, CmdAction{type=MAGIC, name=破壊光線(Bx)}]}
-exec action ba=破壊光線 TGT:BattleActionTarget{user=Enemy{status=Status{name=動く魔術師A}}, action=CmdAction{type=MAGIC, name=破壊光線(Bx)}, inField=false, target=[PlayerCharacter{status=Status{name=aaaa}}, PlayerCharacter{status=Status{name=トマギ}}]}
- changeStage : [WAITING_EXEC_CMD] to [EXECUTING_ACTION] and[null]
- changeStage : [EXECUTING_ACTION] to [WAITING_EXEC_CMD] and[null]
- currentCMD:BattleCommand{mode=PC, user=PlayerCharacter{status=Status{name=aaaa}}, ba=[CmdAction{type=ATTACK, name=こぶし(Bx)}, CmdAction{type=OTHER, name=状態(Bx)}, CmdAction{type=OTHER, name=逃走(Bx)}, CmdAction{type=MAGIC, name=DISABLE(Bx)}, CmdAction{type=MAGIC, name=ONE,OFF_ZERO(Bx)}, CmdAction{type=OTHER, name=回避(Bx)}, CmdAction{type=MAGIC, name=ONE,OFF(Bx)}, CmdAction{type=OTHER, name=確定(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=MAGIC, name=破壊光線(Bx)}, CmdAction{type=OTHER, name=防御(Bx)}, CmdAction{type=MAGIC, name=DEFAULT_PARTY,ENABLE(Bx)}, CmdAction{type=MAGIC, name=ONE,ON(Bx)}, CmdAction{type=ITEM, name=庶民の服(xx)}, CmdAction{type=ITEM, name=庶民の靴(xx)}]}
+ changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
+ changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
+ currentCMD:BattleCommand{mode=PC, user=PlayerCharacter{status=Status{name=aaaa}}, ba=[CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=状態(Bx)}, CmdAction{type=OTHER, name=逃走(Bx)}, CmdAction{type=MAGIC, name=IFF_ON_TEAM(Bx)}, CmdAction{type=ATTACK, name=串刺し(Bx)}, CmdAction{type=MAGIC, name=DISABLE(Bx)}, CmdAction{type=MAGIC, name=ONE,OFF_ZERO(Bx)}, CmdAction{type=OTHER, name=回避(Bx)}, CmdAction{type=MAGIC, name=ONE,OFF(Bx)}, CmdAction{type=OTHER, name=確定(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=MAGIC, name=破壊光線(Bx)}, CmdAction{type=OTHER, name=防御(Bx)}, CmdAction{type=MAGIC, name=DEFAULT_PARTY,ENABLE(Bx)}, CmdAction{type=MAGIC, name=ONE,ON(Bx)}, CmdAction{type=ITEM, name=庶民の服(xx)}, CmdAction{type=ITEM, name=庶民の靴(xx)}, CmdAction{type=ITEM, name=隼の剣(xx)}, CmdAction{type=ITEM, name=銅の剣(xx)}, CmdAction{type=ITEM, name=万能家庭包丁(xx)}, CmdAction{type=ITEM, name=伝説の剣「敵くだき」(xx)}, CmdAction{type=ITEM, name=「うたわれし蛇流派の銀の剣」(xx)}, CmdAction{type=ITEM, name=農民の大鎌(xx)}]}
 TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
  changeStage : [WAITING_EXEC_CMD] to [CMD_SELECT] and[null]
-BCMW :CmdAction{type=ATTACK, name=こぶし(Bx)}
-TS current:CmdAction{type=ATTACK, name=こぶし(Bx)}
-BCMW :CmdAction{type=MAGIC, name=破壊光線(Bx)}
-TS current:CmdAction{type=MAGIC, name=破壊光線(Bx)}
-MCMW :CmdAction{type=MAGIC, name=ONE,ON(Bx)}
-TS current:CmdAction{type=MAGIC, name=ONE,ON(Bx)}
-MCMW :CmdAction{type=MAGIC, name=DISABLE(Bx)}
-TS current:CmdAction{type=MAGIC, name=DISABLE(Bx)}
-MCMW :CmdAction{type=MAGIC, name=ONE,OFF(Bx)}
-TS current:CmdAction{type=MAGIC, name=ONE,OFF(Bx)}
-MCMW :CmdAction{type=MAGIC, name=ONE,OFF_ZERO(Bx)}
-TS current:CmdAction{type=MAGIC, name=ONE,OFF_ZERO(Bx)}
-MCMW :CmdAction{type=MAGIC, name=ONE,OFF(Bx)}
-TS current:CmdAction{type=MAGIC, name=ONE,OFF(Bx)}
-TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=MAGIC, name=ONE,OFF(Bx)}, selfTarget=true, inArea=[Enemy{status=Status{name=野盗A}}, Enemy{status=Status{name=野盗B}}, Enemy{status=Status{name=山賊A}}, Enemy{status=Status{name=動く魔術師A}}, PlayerCharacter{status=Status{name=aaaa}}, PlayerCharacter{status=Status{name=トマギ}}], selected=[Enemy{status=Status{name=野盗A}}], selectedIdx=0}
-TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=MAGIC, name=ONE,OFF(Bx)}, selfTarget=true, inArea=[Enemy{status=Status{name=野盗A}}, Enemy{status=Status{name=野盗B}}, Enemy{status=Status{name=山賊A}}, Enemy{status=Status{name=動く魔術師A}}, PlayerCharacter{status=Status{name=aaaa}}, PlayerCharacter{status=Status{name=トマギ}}], selected=[Enemy{status=Status{name=野盗A}}], selectedIdx=0}
- changeStage : [CMD_SELECT] to [TARGET_SELECT] and[null]
-exec action ba=ONE,OFF TGT:BattleActionTarget{user=PlayerCharacter{status=Status{name=aaaa}}, action=CmdAction{type=MAGIC, name=ONE,OFF(Bx)}, inField=false, target=[Enemy{status=Status{name=動く魔術師A}}]}
- changeStage : [TARGET_SELECT] to [EXECUTING_ACTION] and[null]
- changeStage : [EXECUTING_ACTION] to [WAITING_EXEC_CMD] and[null]
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
+ changeStage : [CMD_SELECT] to [PLAYER_MOVE] and[null]
+ changeStage : [PLAYER_MOVE] to [AFTER_MOVE_CMD_SELECT] and[null]
+ changeStage : [AFTER_MOVE_CMD_SELECT] to [WAITING_EXEC_CMD] and[null]
  currentCMD:BattleCommand{mode=PC, user=PlayerCharacter{status=Status{name=トマギ}}, ba=[CmdAction{type=ATTACK, name=頭部強打(Bx)}, CmdAction{type=OTHER, name=状態(Bx)}, CmdAction{type=OTHER, name=逃走(Bx)}, CmdAction{type=OTHER, name=回避(Bx)}, CmdAction{type=OTHER, name=確定(Bx)}, CmdAction{type=ATTACK, name=メイス攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=OTHER, name=防御(Bx)}, CmdAction{type=ITEM, name=堅木の山杖(xx)}, CmdAction{type=ITEM, name=行商人の服(xx)}, CmdAction{type=ITEM, name=木綿の手拭(xx)}, CmdAction{type=ITEM, name=草履(xx)}, CmdAction{type=ITEM, name=そば団子(BF)}, CmdAction{type=ITEM, name=そば団子(BF)}]}
 TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=トマギ}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
  changeStage : [WAITING_EXEC_CMD] to [CMD_SELECT] and[null]
@@ -1626,26 +1595,50 @@ TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=トマギ
  changeStage : [AFTER_MOVE_CMD_SELECT] to [WAITING_EXEC_CMD] and[null]
  -----------------TURN[4] START-----------------
  changeStage : [WAITING_EXEC_CMD] to [WAITING_EXEC_CMD] and[null]
- currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=野盗A}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}]}
- changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
- changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
  currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=野盗B}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}]}
  changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
  changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
- currentCMD:BattleCommand{mode=PC, user=PlayerCharacter{status=Status{name=aaaa}}, ba=[CmdAction{type=MAGIC, name=ONE,OFF(Bx)}]}
-BS AUTO MAGIC CAST : CmdAction{type=MAGIC, name=ONE,OFF(Bx)} / BattleActionTarget{user=PlayerCharacter{status=Status{name=aaaa}}, action=CmdAction{type=MAGIC, name=ONE,OFF(Bx)}, inField=false, target=[Enemy{status=Status{name=動く魔術師A}}]}
-STATUS save DCP:動く魔術師A
-ACTION:動く魔術師A:STATUS:USE_DAMAGE_CALC:HP:-32.0
-DamageCalcResult:SDCM : aaaa->動く魔術師A:MGK,atk-def[0.3510101],HP,result[-56.0]
-ACTION RESULT:ActionEventResult{resultTypePerTgt=[SUCCESS], animation=[ImageSprite location=[298.0,243.0] size=[64.0,64.0] center=[330.0,275.0] personalCenter=[32.0,32.0] visible=[true] exist=[true] speed=[0.0] vector=[VectorF{angle=0.0, speed=0.0}] z=[0.0] image=[kinugasa.resource.KImage@1a1474c6] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=5, speed=1, index=SimpleIndex{index=0}, waitTime=[6]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@700e9e59, repeat=false, stop=false}]]}
- changeStage : [WAITING_EXEC_CMD] to [EXECUTING_ACTION] and[null]
- changeStage : [EXECUTING_ACTION] to [WAITING_EXEC_CMD] and[null]
  currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=山賊A}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=ATTACK, name=串刺し(Bx)}]}
  changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
  changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
- currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=動く魔術師A}}, ba=[CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=ATTACK, name=こぶし(Bx)}, CmdAction{type=MAGIC, name=破壊光線(Bx)}]}
+ currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=野盗A}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}]}
  changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
  changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
+ currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=動く魔術師A}}, ba=[CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=ATTACK, name=こぶし(Bx)}, CmdAction{type=MAGIC, name=破壊光線(Bx)}]}
+exec action ba=破壊光線 TGT:BattleActionTarget{user=Enemy{status=Status{name=動く魔術師A}}, action=CmdAction{type=MAGIC, name=破壊光線(Bx)}, inField=false, target=[PlayerCharacter{status=Status{name=aaaa}}, PlayerCharacter{status=Status{name=トマギ}}]}
+ changeStage : [WAITING_EXEC_CMD] to [EXECUTING_ACTION] and[null]
+ changeStage : [EXECUTING_ACTION] to [WAITING_EXEC_CMD] and[null]
+ currentCMD:BattleCommand{mode=PC, user=PlayerCharacter{status=Status{name=aaaa}}, ba=[CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=状態(Bx)}, CmdAction{type=OTHER, name=逃走(Bx)}, CmdAction{type=MAGIC, name=IFF_ON_TEAM(Bx)}, CmdAction{type=ATTACK, name=串刺し(Bx)}, CmdAction{type=MAGIC, name=DISABLE(Bx)}, CmdAction{type=MAGIC, name=ONE,OFF_ZERO(Bx)}, CmdAction{type=OTHER, name=回避(Bx)}, CmdAction{type=MAGIC, name=ONE,OFF(Bx)}, CmdAction{type=OTHER, name=確定(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=MAGIC, name=破壊光線(Bx)}, CmdAction{type=OTHER, name=防御(Bx)}, CmdAction{type=MAGIC, name=DEFAULT_PARTY,ENABLE(Bx)}, CmdAction{type=MAGIC, name=ONE,ON(Bx)}, CmdAction{type=ITEM, name=庶民の服(xx)}, CmdAction{type=ITEM, name=庶民の靴(xx)}, CmdAction{type=ITEM, name=隼の剣(xx)}, CmdAction{type=ITEM, name=銅の剣(xx)}, CmdAction{type=ITEM, name=万能家庭包丁(xx)}, CmdAction{type=ITEM, name=伝説の剣「敵くだき」(xx)}, CmdAction{type=ITEM, name=「うたわれし蛇流派の銀の剣」(xx)}, CmdAction{type=ITEM, name=農民の大鎌(xx)}]}
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
+ changeStage : [WAITING_EXEC_CMD] to [CMD_SELECT] and[null]
+BCMW :CmdAction{type=ATTACK, name=串刺し(Bx)}
+TS current:CmdAction{type=ATTACK, name=串刺し(Bx)}
+MCMW :CmdAction{type=ATTACK, name=剣攻撃(Bx)}
+TS current:CmdAction{type=ATTACK, name=剣攻撃(Bx)}
+BCMW :CmdAction{type=MAGIC, name=破壊光線(Bx)}
+TS current:CmdAction{type=MAGIC, name=破壊光線(Bx)}
+MCMW :CmdAction{type=MAGIC, name=DEFAULT_PARTY,ENABLE(Bx)}
+TS current:CmdAction{type=MAGIC, name=DEFAULT_PARTY,ENABLE(Bx)}
+BCMW :CmdAction{type=ITEM, name=銅の剣(xx)}
+TS current:CmdAction{type=ITEM, name=銅の剣(xx)}
+BCMW :CmdAction{type=OTHER, name=移動(Bx)}
+TS current:CmdAction{type=OTHER, name=移動(Bx)}
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
+ changeStage : [CMD_SELECT] to [PLAYER_MOVE] and[null]
+ changeStage : [PLAYER_MOVE] to [AFTER_MOVE_CMD_SELECT] and[null]
+TS current:CmdAction{type=ATTACK, name=串刺し(Bx)}
+TS current:CmdAction{type=ATTACK, name=剣攻撃(Bx)}
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=ATTACK, name=剣攻撃(Bx)}, selfTarget=false, inArea=[Enemy{status=Status{name=野盗B}}, PlayerCharacter{status=Status{name=aaaa}}], selected=[Enemy{status=Status{name=野盗B}}], selectedIdx=0}
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=ATTACK, name=剣攻撃(Bx)}, selfTarget=false, inArea=[Enemy{status=Status{name=野盗B}}, PlayerCharacter{status=Status{name=aaaa}}], selected=[Enemy{status=Status{name=野盗B}}], selectedIdx=0}
+ changeStage : [AFTER_MOVE_CMD_SELECT] to [TARGET_SELECT] and[null]
+exec action ba=剣攻撃 TGT:BattleActionTarget{user=PlayerCharacter{status=Status{name=aaaa}}, action=CmdAction{type=ATTACK, name=剣攻撃(Bx)}, inField=false, target=[Enemy{status=Status{name=野盗B}}]}
+STATUS save DCP:野盗B
+ACTION:野盗B:STATUS:USE_DAMAGE_CALC:HP:-40.0
+DamageCalcResult:SDCM : aaaa->野盗B:ATK,DCS,atk-def[0.9848485],HP,result[-266.0]
+ACTION RESULT:ActionEventResult{resultTypePerTgt=[SUCCESS], animation=[ImageSprite location=[310.45172,92.55434] size=[64.0,64.0] center=[342.45172,124.55434] personalCenter=[32.0,32.0] visible=[true] exist=[true] speed=[0.0] vector=[VectorF{angle=0.0, speed=0.0}] z=[0.0] image=[kinugasa.resource.KImage@1703d2f0] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=5, speed=1, index=SimpleIndex{index=0}, waitTime=[6]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@2d7be4fc, repeat=false, stop=false}]]}
+CachedSound is loaded name=[敵消滅.wav](1.5333 ms)
+ changeStage : [TARGET_SELECT] to [EXECUTING_ACTION] and[null]
+ changeStage : [EXECUTING_ACTION] to [WAITING_EXEC_CMD] and[null]
  currentCMD:BattleCommand{mode=PC, user=PlayerCharacter{status=Status{name=トマギ}}, ba=[CmdAction{type=ATTACK, name=頭部強打(Bx)}, CmdAction{type=OTHER, name=状態(Bx)}, CmdAction{type=OTHER, name=逃走(Bx)}, CmdAction{type=OTHER, name=回避(Bx)}, CmdAction{type=OTHER, name=確定(Bx)}, CmdAction{type=ATTACK, name=メイス攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=OTHER, name=防御(Bx)}, CmdAction{type=ITEM, name=堅木の山杖(xx)}, CmdAction{type=ITEM, name=行商人の服(xx)}, CmdAction{type=ITEM, name=木綿の手拭(xx)}, CmdAction{type=ITEM, name=草履(xx)}, CmdAction{type=ITEM, name=そば団子(BF)}, CmdAction{type=ITEM, name=そば団子(BF)}]}
 TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=トマギ}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
  changeStage : [WAITING_EXEC_CMD] to [CMD_SELECT] and[null]
@@ -1655,56 +1648,151 @@ TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=トマギ
  changeStage : [AFTER_MOVE_CMD_SELECT] to [WAITING_EXEC_CMD] and[null]
  -----------------TURN[5] START-----------------
  changeStage : [WAITING_EXEC_CMD] to [WAITING_EXEC_CMD] and[null]
- currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=野盗A}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}]}
- changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
- changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
- currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=野盗B}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}]}
- changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
- changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
  currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=山賊A}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=ATTACK, name=串刺し(Bx)}]}
+ changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
+ changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
+ currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=野盗A}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}]}
  changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
  changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
  currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=動く魔術師A}}, ba=[CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=ATTACK, name=こぶし(Bx)}, CmdAction{type=MAGIC, name=破壊光線(Bx)}]}
  changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
  changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
- currentCMD:BattleCommand{mode=PC, user=PlayerCharacter{status=Status{name=aaaa}}, ba=[CmdAction{type=ATTACK, name=こぶし(Bx)}, CmdAction{type=OTHER, name=状態(Bx)}, CmdAction{type=OTHER, name=逃走(Bx)}, CmdAction{type=MAGIC, name=DISABLE(Bx)}, CmdAction{type=MAGIC, name=ONE,OFF_ZERO(Bx)}, CmdAction{type=OTHER, name=回避(Bx)}, CmdAction{type=MAGIC, name=ONE,OFF(Bx)}, CmdAction{type=OTHER, name=確定(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=MAGIC, name=破壊光線(Bx)}, CmdAction{type=OTHER, name=防御(Bx)}, CmdAction{type=MAGIC, name=DEFAULT_PARTY,ENABLE(Bx)}, CmdAction{type=MAGIC, name=ONE,ON(Bx)}, CmdAction{type=ITEM, name=庶民の服(xx)}, CmdAction{type=ITEM, name=庶民の靴(xx)}]}
+ currentCMD:BattleCommand{mode=PC, user=PlayerCharacter{status=Status{name=aaaa}}, ba=[CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=状態(Bx)}, CmdAction{type=OTHER, name=逃走(Bx)}, CmdAction{type=MAGIC, name=IFF_ON_TEAM(Bx)}, CmdAction{type=ATTACK, name=串刺し(Bx)}, CmdAction{type=MAGIC, name=DISABLE(Bx)}, CmdAction{type=MAGIC, name=ONE,OFF_ZERO(Bx)}, CmdAction{type=OTHER, name=回避(Bx)}, CmdAction{type=MAGIC, name=ONE,OFF(Bx)}, CmdAction{type=OTHER, name=確定(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=MAGIC, name=破壊光線(Bx)}, CmdAction{type=OTHER, name=防御(Bx)}, CmdAction{type=MAGIC, name=DEFAULT_PARTY,ENABLE(Bx)}, CmdAction{type=MAGIC, name=ONE,ON(Bx)}, CmdAction{type=ITEM, name=庶民の服(xx)}, CmdAction{type=ITEM, name=庶民の靴(xx)}, CmdAction{type=ITEM, name=隼の剣(xx)}, CmdAction{type=ITEM, name=銅の剣(xx)}, CmdAction{type=ITEM, name=万能家庭包丁(xx)}, CmdAction{type=ITEM, name=伝説の剣「敵くだき」(xx)}, CmdAction{type=ITEM, name=「うたわれし蛇流派の銀の剣」(xx)}, CmdAction{type=ITEM, name=農民の大鎌(xx)}]}
 TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
  changeStage : [WAITING_EXEC_CMD] to [CMD_SELECT] and[null]
-BCMW :CmdAction{type=ATTACK, name=こぶし(Bx)}
-TS current:CmdAction{type=ATTACK, name=こぶし(Bx)}
-BCMW :CmdAction{type=MAGIC, name=破壊光線(Bx)}
-TS current:CmdAction{type=MAGIC, name=破壊光線(Bx)}
-MCMW :CmdAction{type=MAGIC, name=ONE,ON(Bx)}
-TS current:CmdAction{type=MAGIC, name=ONE,ON(Bx)}
-MCMW :CmdAction{type=MAGIC, name=DISABLE(Bx)}
-TS current:CmdAction{type=MAGIC, name=DISABLE(Bx)}
-MCMW :CmdAction{type=MAGIC, name=ONE,ON(Bx)}
-TS current:CmdAction{type=MAGIC, name=ONE,ON(Bx)}
-MCMW :CmdAction{type=MAGIC, name=破壊光線(Bx)}
-TS current:CmdAction{type=MAGIC, name=破壊光線(Bx)}
-MCMW :CmdAction{type=MAGIC, name=ONE,ON(Bx)}
-TS current:CmdAction{type=MAGIC, name=ONE,ON(Bx)}
-MCMW :CmdAction{type=MAGIC, name=DISABLE(Bx)}
-TS current:CmdAction{type=MAGIC, name=DISABLE(Bx)}
-MCMW :CmdAction{type=MAGIC, name=ONE,OFF(Bx)}
-TS current:CmdAction{type=MAGIC, name=ONE,OFF(Bx)}
-MCMW :CmdAction{type=MAGIC, name=ONE,OFF_ZERO(Bx)}
-TS current:CmdAction{type=MAGIC, name=ONE,OFF_ZERO(Bx)}
-MCMW :CmdAction{type=MAGIC, name=DEFAULT_PARTY,ENABLE(Bx)}
-TS current:CmdAction{type=MAGIC, name=DEFAULT_PARTY,ENABLE(Bx)}
-MCMW :CmdAction{type=MAGIC, name=ONE,OFF_ZERO(Bx)}
-TS current:CmdAction{type=MAGIC, name=ONE,OFF_ZERO(Bx)}
-TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=MAGIC, name=ONE,OFF_ZERO(Bx)}, selfTarget=true, inArea=[Enemy{status=Status{name=野盗A}}, Enemy{status=Status{name=野盗B}}, Enemy{status=Status{name=山賊A}}, Enemy{status=Status{name=動く魔術師A}}, PlayerCharacter{status=Status{name=aaaa}}, PlayerCharacter{status=Status{name=トマギ}}], selected=[Enemy{status=Status{name=野盗A}}], selectedIdx=0}
-TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=MAGIC, name=ONE,OFF_ZERO(Bx)}, selfTarget=true, inArea=[Enemy{status=Status{name=野盗A}}, Enemy{status=Status{name=野盗B}}, Enemy{status=Status{name=山賊A}}, Enemy{status=Status{name=動く魔術師A}}, PlayerCharacter{status=Status{name=aaaa}}, PlayerCharacter{status=Status{name=トマギ}}], selected=[Enemy{status=Status{name=野盗A}}], selectedIdx=0}
- changeStage : [CMD_SELECT] to [TARGET_SELECT] and[null]
-exec action ba=ONE,OFF_ZERO TGT:BattleActionTarget{user=PlayerCharacter{status=Status{name=aaaa}}, action=CmdAction{type=MAGIC, name=ONE,OFF_ZERO(Bx)}, inField=false, target=[Enemy{status=Status{name=野盗A}}]}
-STATUS save DCP:野盗A
-ACTION:野盗A:STATUS:USE_DAMAGE_CALC:HP:-32.0
-DamageCalcResult:SDCM : aaaa->野盗A:MGK,atk-def[0.3510101],HP,result[-56.0]
-ACTION RESULT:ActionEventResult{resultTypePerTgt=[SUCCESS], animation=[ImageSprite location=[280.1786,68.65366] size=[64.0,64.0] center=[312.1786,100.65366] personalCenter=[32.0,32.0] visible=[true] exist=[true] speed=[0.0] vector=[VectorF{angle=0.0, speed=0.0}] z=[0.0] image=[kinugasa.resource.KImage@1a1474c6] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=5, speed=1, index=SimpleIndex{index=0}, waitTime=[6]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@3b75ba78, repeat=false, stop=false}]]}
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
+ changeStage : [CMD_SELECT] to [PLAYER_MOVE] and[null]
+ changeStage : [PLAYER_MOVE] to [AFTER_MOVE_CMD_SELECT] and[null]
+ changeStage : [AFTER_MOVE_CMD_SELECT] to [WAITING_EXEC_CMD] and[null]
+ currentCMD:BattleCommand{mode=PC, user=PlayerCharacter{status=Status{name=トマギ}}, ba=[CmdAction{type=ATTACK, name=頭部強打(Bx)}, CmdAction{type=OTHER, name=状態(Bx)}, CmdAction{type=OTHER, name=逃走(Bx)}, CmdAction{type=OTHER, name=回避(Bx)}, CmdAction{type=OTHER, name=確定(Bx)}, CmdAction{type=ATTACK, name=メイス攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=OTHER, name=防御(Bx)}, CmdAction{type=ITEM, name=堅木の山杖(xx)}, CmdAction{type=ITEM, name=行商人の服(xx)}, CmdAction{type=ITEM, name=木綿の手拭(xx)}, CmdAction{type=ITEM, name=草履(xx)}, CmdAction{type=ITEM, name=そば団子(BF)}, CmdAction{type=ITEM, name=そば団子(BF)}]}
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=トマギ}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
+ changeStage : [WAITING_EXEC_CMD] to [CMD_SELECT] and[null]
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=トマギ}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
+ changeStage : [CMD_SELECT] to [PLAYER_MOVE] and[null]
+ changeStage : [PLAYER_MOVE] to [AFTER_MOVE_CMD_SELECT] and[null]
+ changeStage : [AFTER_MOVE_CMD_SELECT] to [WAITING_EXEC_CMD] and[null]
+ -----------------TURN[6] START-----------------
+ changeStage : [WAITING_EXEC_CMD] to [WAITING_EXEC_CMD] and[null]
+ currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=山賊A}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=ATTACK, name=串刺し(Bx)}]}
+ changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
+ changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
+ currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=野盗A}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}]}
+ changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
+ changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
+ currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=動く魔術師A}}, ba=[CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=ATTACK, name=こぶし(Bx)}, CmdAction{type=MAGIC, name=破壊光線(Bx)}]}
+exec action ba=破壊光線 TGT:BattleActionTarget{user=Enemy{status=Status{name=動く魔術師A}}, action=CmdAction{type=MAGIC, name=破壊光線(Bx)}, inField=false, target=[PlayerCharacter{status=Status{name=aaaa}}, PlayerCharacter{status=Status{name=トマギ}}]}
+ changeStage : [WAITING_EXEC_CMD] to [EXECUTING_ACTION] and[null]
+ changeStage : [EXECUTING_ACTION] to [WAITING_EXEC_CMD] and[null]
+ currentCMD:BattleCommand{mode=PC, user=PlayerCharacter{status=Status{name=aaaa}}, ba=[CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=状態(Bx)}, CmdAction{type=OTHER, name=逃走(Bx)}, CmdAction{type=MAGIC, name=IFF_ON_TEAM(Bx)}, CmdAction{type=ATTACK, name=串刺し(Bx)}, CmdAction{type=MAGIC, name=DISABLE(Bx)}, CmdAction{type=MAGIC, name=ONE,OFF_ZERO(Bx)}, CmdAction{type=OTHER, name=回避(Bx)}, CmdAction{type=MAGIC, name=ONE,OFF(Bx)}, CmdAction{type=OTHER, name=確定(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=MAGIC, name=破壊光線(Bx)}, CmdAction{type=OTHER, name=防御(Bx)}, CmdAction{type=MAGIC, name=DEFAULT_PARTY,ENABLE(Bx)}, CmdAction{type=MAGIC, name=ONE,ON(Bx)}, CmdAction{type=ITEM, name=庶民の服(xx)}, CmdAction{type=ITEM, name=庶民の靴(xx)}, CmdAction{type=ITEM, name=隼の剣(xx)}, CmdAction{type=ITEM, name=銅の剣(xx)}, CmdAction{type=ITEM, name=万能家庭包丁(xx)}, CmdAction{type=ITEM, name=伝説の剣「敵くだき」(xx)}, CmdAction{type=ITEM, name=「うたわれし蛇流派の銀の剣」(xx)}, CmdAction{type=ITEM, name=農民の大鎌(xx)}]}
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
+ changeStage : [WAITING_EXEC_CMD] to [CMD_SELECT] and[null]
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
+ changeStage : [CMD_SELECT] to [PLAYER_MOVE] and[null]
+ changeStage : [PLAYER_MOVE] to [AFTER_MOVE_CMD_SELECT] and[null]
+TS current:CmdAction{type=ATTACK, name=串刺し(Bx)}
+TS current:CmdAction{type=ATTACK, name=剣攻撃(Bx)}
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=ATTACK, name=剣攻撃(Bx)}, selfTarget=false, inArea=[Enemy{status=Status{name=山賊A}}, PlayerCharacter{status=Status{name=aaaa}}], selected=[Enemy{status=Status{name=山賊A}}], selectedIdx=0}
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=ATTACK, name=剣攻撃(Bx)}, selfTarget=false, inArea=[Enemy{status=Status{name=山賊A}}, PlayerCharacter{status=Status{name=aaaa}}], selected=[Enemy{status=Status{name=山賊A}}], selectedIdx=0}
+ changeStage : [AFTER_MOVE_CMD_SELECT] to [TARGET_SELECT] and[null]
+exec action ba=剣攻撃 TGT:BattleActionTarget{user=PlayerCharacter{status=Status{name=aaaa}}, action=CmdAction{type=ATTACK, name=剣攻撃(Bx)}, inField=false, target=[Enemy{status=Status{name=山賊A}}]}
+STATUS save DCP:山賊A
+ACTION:山賊A:STATUS:USE_DAMAGE_CALC:HP:-40.0
+DamageCalcResult:SDCM : aaaa->山賊A:ATK,DCS,atk-def[0.9848485],HP,result[-266.0]
+ACTION RESULT:ActionEventResult{resultTypePerTgt=[SUCCESS], animation=[ImageSprite location=[242.42142,85.42587] size=[64.0,64.0] center=[274.42142,117.42587] personalCenter=[32.0,32.0] visible=[true] exist=[true] speed=[0.0] vector=[VectorF{angle=0.0, speed=0.0}] z=[0.0] image=[kinugasa.resource.KImage@1703d2f0] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=5, speed=1, index=SimpleIndex{index=0}, waitTime=[6]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@5984b5bd, repeat=false, stop=false}]]}
  changeStage : [TARGET_SELECT] to [EXECUTING_ACTION] and[null]
  changeStage : [EXECUTING_ACTION] to [WAITING_EXEC_CMD] and[null]
  currentCMD:BattleCommand{mode=PC, user=PlayerCharacter{status=Status{name=トマギ}}, ba=[CmdAction{type=ATTACK, name=頭部強打(Bx)}, CmdAction{type=OTHER, name=状態(Bx)}, CmdAction{type=OTHER, name=逃走(Bx)}, CmdAction{type=OTHER, name=回避(Bx)}, CmdAction{type=OTHER, name=確定(Bx)}, CmdAction{type=ATTACK, name=メイス攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=OTHER, name=防御(Bx)}, CmdAction{type=ITEM, name=堅木の山杖(xx)}, CmdAction{type=ITEM, name=行商人の服(xx)}, CmdAction{type=ITEM, name=木綿の手拭(xx)}, CmdAction{type=ITEM, name=草履(xx)}, CmdAction{type=ITEM, name=そば団子(BF)}, CmdAction{type=ITEM, name=そば団子(BF)}]}
 TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=トマギ}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
  changeStage : [WAITING_EXEC_CMD] to [CMD_SELECT] and[null]
-lockFile:.\KLOCK_17187928629996571429.lck is deleted
+BCMW :CmdAction{type=ATTACK, name=頭部強打(Bx)}
+TS current:CmdAction{type=ATTACK, name=頭部強打(Bx)}
+MCMW :CmdAction{type=ATTACK, name=メイス攻撃(Bx)}
+TS current:CmdAction{type=ATTACK, name=メイス攻撃(Bx)}
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=トマギ}}, currentBA=CmdAction{type=ATTACK, name=メイス攻撃(Bx)}, selfTarget=false, inArea=[Enemy{status=Status{name=野盗A}}, PlayerCharacter{status=Status{name=トマギ}}], selected=[Enemy{status=Status{name=野盗A}}], selectedIdx=0}
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=トマギ}}, currentBA=CmdAction{type=ATTACK, name=メイス攻撃(Bx)}, selfTarget=false, inArea=[Enemy{status=Status{name=野盗A}}, PlayerCharacter{status=Status{name=トマギ}}], selected=[Enemy{status=Status{name=野盗A}}], selectedIdx=0}
+ changeStage : [CMD_SELECT] to [TARGET_SELECT] and[null]
+exec action ba=メイス攻撃 TGT:BattleActionTarget{user=PlayerCharacter{status=Status{name=トマギ}}, action=CmdAction{type=ATTACK, name=メイス攻撃(Bx)}, inField=false, target=[Enemy{status=Status{name=野盗A}}]}
+STATUS save DCP:野盗A
+ActionEvent{targetType=ONE, parameterType=STATUS, tgtName=HP, value=-22.0} is no exec(P)
+ACTION RESULT:ActionEventResult{resultTypePerTgt=[MISS], animation=[]}
+ changeStage : [TARGET_SELECT] to [EXECUTING_ACTION] and[null]
+ changeStage : [EXECUTING_ACTION] to [WAITING_EXEC_CMD] and[null]
+ -----------------TURN[7] START-----------------
+ changeStage : [WAITING_EXEC_CMD] to [WAITING_EXEC_CMD] and[null]
+ currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=野盗A}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}]}
+exec action ba=剣攻撃 TGT:BattleActionTarget{user=Enemy{status=Status{name=野盗A}}, action=CmdAction{type=ATTACK, name=剣攻撃(Bx)}, inField=false, target=[PlayerCharacter{status=Status{name=トマギ}}]}
+STATUS save DCP:トマギ
+ACTION:トマギ:STATUS:USE_DAMAGE_CALC:HP:-40.0
+DamageCalcResult:SDCM : 野盗A->トマギ:ATK,DCS,atk-def[0.4848485],HP,result[-88.0]
+ACTION RESULT:ActionEventResult{resultTypePerTgt=[SUCCESS], animation=[ImageSprite location=[319.0,246.5] size=[64.0,64.0] center=[351.0,278.5] personalCenter=[32.0,32.0] visible=[true] exist=[true] speed=[0.0] vector=[VectorF{angle=0.0, speed=0.0}] z=[0.0] image=[kinugasa.resource.KImage@1703d2f0] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=5, speed=1, index=SimpleIndex{index=0}, waitTime=[6]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@6de43e97, repeat=false, stop=false}]]}
+ changeStage : [WAITING_EXEC_CMD] to [EXECUTING_ACTION] and[null]
+ changeStage : [EXECUTING_ACTION] to [WAITING_EXEC_CMD] and[null]
+ currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=動く魔術師A}}, ba=[CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=ATTACK, name=こぶし(Bx)}, CmdAction{type=MAGIC, name=破壊光線(Bx)}]}
+ changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
+ changeStage : [EXECUTING_MOVE] to [WAITING_EXEC_CMD] and[null]
+ currentCMD:BattleCommand{mode=PC, user=PlayerCharacter{status=Status{name=aaaa}}, ba=[CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=状態(Bx)}, CmdAction{type=OTHER, name=逃走(Bx)}, CmdAction{type=MAGIC, name=IFF_ON_TEAM(Bx)}, CmdAction{type=ATTACK, name=串刺し(Bx)}, CmdAction{type=MAGIC, name=DISABLE(Bx)}, CmdAction{type=MAGIC, name=ONE,OFF_ZERO(Bx)}, CmdAction{type=OTHER, name=回避(Bx)}, CmdAction{type=MAGIC, name=ONE,OFF(Bx)}, CmdAction{type=OTHER, name=確定(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=MAGIC, name=破壊光線(Bx)}, CmdAction{type=OTHER, name=防御(Bx)}, CmdAction{type=MAGIC, name=DEFAULT_PARTY,ENABLE(Bx)}, CmdAction{type=MAGIC, name=ONE,ON(Bx)}, CmdAction{type=ITEM, name=庶民の服(xx)}, CmdAction{type=ITEM, name=庶民の靴(xx)}, CmdAction{type=ITEM, name=隼の剣(xx)}, CmdAction{type=ITEM, name=銅の剣(xx)}, CmdAction{type=ITEM, name=万能家庭包丁(xx)}, CmdAction{type=ITEM, name=伝説の剣「敵くだき」(xx)}, CmdAction{type=ITEM, name=「うたわれし蛇流派の銀の剣」(xx)}, CmdAction{type=ITEM, name=農民の大鎌(xx)}]}
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
+ changeStage : [WAITING_EXEC_CMD] to [CMD_SELECT] and[null]
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
+ changeStage : [CMD_SELECT] to [PLAYER_MOVE] and[null]
+ changeStage : [PLAYER_MOVE] to [AFTER_MOVE_CMD_SELECT] and[null]
+ changeStage : [AFTER_MOVE_CMD_SELECT] to [WAITING_EXEC_CMD] and[null]
+ currentCMD:BattleCommand{mode=PC, user=PlayerCharacter{status=Status{name=トマギ}}, ba=[CmdAction{type=ATTACK, name=頭部強打(Bx)}, CmdAction{type=OTHER, name=状態(Bx)}, CmdAction{type=OTHER, name=逃走(Bx)}, CmdAction{type=OTHER, name=回避(Bx)}, CmdAction{type=OTHER, name=確定(Bx)}, CmdAction{type=ATTACK, name=メイス攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=OTHER, name=防御(Bx)}, CmdAction{type=ITEM, name=堅木の山杖(xx)}, CmdAction{type=ITEM, name=行商人の服(xx)}, CmdAction{type=ITEM, name=木綿の手拭(xx)}, CmdAction{type=ITEM, name=草履(xx)}, CmdAction{type=ITEM, name=そば団子(BF)}, CmdAction{type=ITEM, name=そば団子(BF)}]}
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=トマギ}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
+ changeStage : [WAITING_EXEC_CMD] to [CMD_SELECT] and[null]
+BCMW :CmdAction{type=ATTACK, name=頭部強打(Bx)}
+TS current:CmdAction{type=ATTACK, name=頭部強打(Bx)}
+BCMW :CmdAction{type=OTHER, name=移動(Bx)}
+TS current:CmdAction{type=OTHER, name=移動(Bx)}
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=トマギ}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
+ changeStage : [CMD_SELECT] to [PLAYER_MOVE] and[null]
+ changeStage : [PLAYER_MOVE] to [AFTER_MOVE_CMD_SELECT] and[null]
+ changeStage : [AFTER_MOVE_CMD_SELECT] to [WAITING_EXEC_CMD] and[null]
+ -----------------TURN[8] START-----------------
+ changeStage : [WAITING_EXEC_CMD] to [WAITING_EXEC_CMD] and[null]
+ currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=野盗A}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}]}
+ changeStage : [WAITING_EXEC_CMD] to [EXECUTING_MOVE] and[null]
+ACTION:トマギ:STATUS:USE_DAMAGE_CALC:HP:-40.0
+DamageCalcResult:SDCM : 野盗A->トマギ:ATK,DCS,atk-def[0.4848485],HP,result[-88.0]
+ACTION RESULT:ActionEventResult{resultTypePerTgt=[SUCCESS], animation=[ImageSprite location=[361.5,226.5] size=[64.0,64.0] center=[393.5,258.5] personalCenter=[32.0,32.0] visible=[true] exist=[true] speed=[0.0] vector=[VectorF{angle=0.0, speed=0.0}] z=[0.0] image=[kinugasa.resource.KImage@1703d2f0] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=5, speed=1, index=SimpleIndex{index=0}, waitTime=[6]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@41de3ae1, repeat=false, stop=false}]]}
+ changeStage : [EXECUTING_MOVE] to [EXECUTING_ACTION] and[null]
+ changeStage : [EXECUTING_ACTION] to [WAITING_EXEC_CMD] and[null]
+ currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=動く魔術師A}}, ba=[CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=ATTACK, name=こぶし(Bx)}, CmdAction{type=MAGIC, name=破壊光線(Bx)}]}
+exec action ba=破壊光線 TGT:BattleActionTarget{user=Enemy{status=Status{name=動く魔術師A}}, action=CmdAction{type=MAGIC, name=破壊光線(Bx)}, inField=false, target=[PlayerCharacter{status=Status{name=aaaa}}, PlayerCharacter{status=Status{name=トマギ}}]}
+ changeStage : [WAITING_EXEC_CMD] to [EXECUTING_ACTION] and[null]
+ changeStage : [EXECUTING_ACTION] to [WAITING_EXEC_CMD] and[null]
+ currentCMD:BattleCommand{mode=PC, user=PlayerCharacter{status=Status{name=aaaa}}, ba=[CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=状態(Bx)}, CmdAction{type=OTHER, name=逃走(Bx)}, CmdAction{type=MAGIC, name=IFF_ON_TEAM(Bx)}, CmdAction{type=ATTACK, name=串刺し(Bx)}, CmdAction{type=MAGIC, name=DISABLE(Bx)}, CmdAction{type=MAGIC, name=ONE,OFF_ZERO(Bx)}, CmdAction{type=OTHER, name=回避(Bx)}, CmdAction{type=MAGIC, name=ONE,OFF(Bx)}, CmdAction{type=OTHER, name=確定(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=MAGIC, name=破壊光線(Bx)}, CmdAction{type=OTHER, name=防御(Bx)}, CmdAction{type=MAGIC, name=DEFAULT_PARTY,ENABLE(Bx)}, CmdAction{type=MAGIC, name=ONE,ON(Bx)}, CmdAction{type=ITEM, name=庶民の服(xx)}, CmdAction{type=ITEM, name=庶民の靴(xx)}, CmdAction{type=ITEM, name=隼の剣(xx)}, CmdAction{type=ITEM, name=銅の剣(xx)}, CmdAction{type=ITEM, name=万能家庭包丁(xx)}, CmdAction{type=ITEM, name=伝説の剣「敵くだき」(xx)}, CmdAction{type=ITEM, name=「うたわれし蛇流派の銀の剣」(xx)}, CmdAction{type=ITEM, name=農民の大鎌(xx)}]}
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
+ changeStage : [WAITING_EXEC_CMD] to [CMD_SELECT] and[null]
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=aaaa}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
+ changeStage : [CMD_SELECT] to [PLAYER_MOVE] and[null]
+ changeStage : [PLAYER_MOVE] to [AFTER_MOVE_CMD_SELECT] and[null]
+ changeStage : [AFTER_MOVE_CMD_SELECT] to [WAITING_EXEC_CMD] and[null]
+ currentCMD:BattleCommand{mode=PC, user=PlayerCharacter{status=Status{name=トマギ}}, ba=[CmdAction{type=ATTACK, name=頭部強打(Bx)}, CmdAction{type=OTHER, name=状態(Bx)}, CmdAction{type=OTHER, name=逃走(Bx)}, CmdAction{type=OTHER, name=回避(Bx)}, CmdAction{type=OTHER, name=確定(Bx)}, CmdAction{type=ATTACK, name=メイス攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}, CmdAction{type=OTHER, name=防御(Bx)}, CmdAction{type=ITEM, name=堅木の山杖(xx)}, CmdAction{type=ITEM, name=行商人の服(xx)}, CmdAction{type=ITEM, name=木綿の手拭(xx)}, CmdAction{type=ITEM, name=草履(xx)}, CmdAction{type=ITEM, name=そば団子(BF)}, CmdAction{type=ITEM, name=そば団子(BF)}]}
+TS : BattleTargetSystem{currentUser=PlayerCharacter{status=Status{name=トマギ}}, currentBA=CmdAction{type=OTHER, name=移動(Bx)}, selfTarget=true, inArea=[], selected=[], selectedIdx=0}
+ changeStage : [WAITING_EXEC_CMD] to [CMD_SELECT] and[null]
+MCMW :CmdAction{type=OTHER, name=確定(Bx)}
+TS current:CmdAction{type=OTHER, name=確定(Bx)}
+MCMW :CmdAction{type=OTHER, name=防御(Bx)}
+TS current:CmdAction{type=OTHER, name=防御(Bx)}
+ changeStage : [CMD_SELECT] to [EXECUTING_ACTION] and[null]
+ changeStage : [EXECUTING_ACTION] to [WAITING_EXEC_CMD] and[null]
+ -----------------TURN[9] START-----------------
+ changeStage : [WAITING_EXEC_CMD] to [WAITING_EXEC_CMD] and[null]
+ currentCMD:BattleCommand{mode=CPU, user=Enemy{status=Status{name=野盗A}}, ba=[CmdAction{type=ITEM, name=鉄の剣(xx)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=ワイルドステーキ(BF)}, CmdAction{type=ITEM, name=麦焼酎(BF)}, CmdAction{type=ATTACK, name=剣攻撃(Bx)}, CmdAction{type=OTHER, name=移動(Bx)}]}
+exec action ba=剣攻撃 TGT:BattleActionTarget{user=Enemy{status=Status{name=野盗A}}, action=CmdAction{type=ATTACK, name=剣攻撃(Bx)}, inField=false, target=[PlayerCharacter{status=Status{name=aaaa}}, PlayerCharacter{status=Status{name=トマギ}}]}
+STATUS save DCP:aaaa
+STATUS save DCP:トマギ
+ACTION:aaaa:STATUS:USE_DAMAGE_CALC:HP:-40.0
+DamageCalcResult:SDCM : 野盗A->aaaa:ATK,CRITICAL,DCS,atk-def[0.5227273],HP,result[-194.0]
+ACTION:トマギ:STATUS:USE_DAMAGE_CALC:HP:-40.0
+DamageCalcResult:SDCM : 野盗A->トマギ:ATK,DCS,atk-def[0.4848485],HP,result[-88.0]
+ACTION RESULT:ActionEventResult{resultTypePerTgt=[SUCCESS, SUCCESS], animation=[ImageSprite location=[269.0,182.5] size=[64.0,64.0] center=[301.0,214.5] personalCenter=[32.0,32.0] visible=[true] exist=[true] speed=[0.0] vector=[VectorF{angle=0.0, speed=0.0}] z=[0.0] image=[kinugasa.resource.KImage@1703d2f0] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=5, speed=1, index=SimpleIndex{index=0}, waitTime=[6]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@3c7b950b, repeat=false, stop=false}], ImageSprite location=[361.5,226.5] size=[64.0,64.0] center=[393.5,258.5] personalCenter=[32.0,32.0] visible=[true] exist=[true] speed=[0.0] vector=[VectorF{angle=0.0, speed=0.0}] z=[0.0] image=[kinugasa.resource.KImage@1703d2f0] drawingModel=[IMAGE_BOUNDS_XY] animationImage=[Animation{visibleTime=FrameTimeCounter{timeCount=5, speed=1, index=SimpleIndex{index=0}, waitTime=[6]}, index=SimpleIndex{index=0}, images=[Lkinugasa.resource.KImage;@1dab61fc, repeat=false, stop=false}]]}
+ changeStage : [WAITING_EXEC_CMD] to [EXECUTING_ACTION] and[null]
+ changeStage : [EXECUTING_ACTION] to [WAITING_EXEC_CMD] and[null]
+CachedSound : [バトル１（新）.wav] : is disposed
+CachedSound : [フィールド５.wav] : is disposed
+ this battle is ended
+ changeStage : [WAITING_EXEC_CMD] to [BATLE_END] and[null]
+kinugasa.game.GameLogicStorage.changeTo():GAME_OVER
+lockFile:.\KLOCK_17830312335658846552.lck is deleted
