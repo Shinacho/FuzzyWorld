@@ -6,16 +6,17 @@ FileName varchar(128),
 mg float,
 loopFrom bigint,
 loopTo bigint,
-type varchar(3));
+type varchar(3)
+);
 
 
 truncate table Sound;
 
 
 -------------------------------  SOUND
-insert into sound values('SD0001','','resource/bgm/おぞましい真実.wav',0.66,-1,0,'BGM');
-insert into sound values('SD0003','凄惨な場面で使うつもり作りました。','resource/bgm/お祭りの町.wav',0.66,-1,0,'BGM');
-insert into sound values('SD0004','ハッピーな感じなのにFWっぽい感じにしました。','resource/bgm/さわやかな冒険.wav',0.66,-1,0,'BGM');
+insert into sound values('SD0001','凄惨な場面で使うつもり作りました。','resource/bgm/おぞましい真実.wav',0.66,-1,0,'BGM');
+insert into sound values('SD0003','ハッピーな感じなのにFWっぽい感じにしました。','resource/bgm/お祭りの町.wav',0.66,-1,0,'BGM');
+insert into sound values('SD0004','','resource/bgm/さわやかな冒険.wav',0.66,-1,0,'BGM');
 insert into sound values('SD0005','','resource/bgm/とてものどかな村.wav',0.66,-1,0,'BGM');
 insert into sound values('SD0008','遥か昔ソナーで作った曲。/昔作った曲は譜面データはあるのですが、ソフトを変えたので読めません。/よって当時出しておいたwavしか聞く手段がないのです。/','resource/bgm/のどかな村.wav',0.66,-1,0,'BGM');
 insert into sound values('SD0009','','resource/bgm/オープニング.wav',0.33,-1,0,'BGM');
@@ -43,7 +44,7 @@ insert into sound values('SD0031','クロノトリガーの黒の夢っぽくし
 insert into sound values('SD0032','4拍子と5拍子を行ったり来たりする曲。/正直言うといいタイトルが思いつかなかった。','resource/bgm/不思議なダンジョン.wav',0.3,-1,0,'BGM');
 insert into sound values('SD0033','森っぽい曲。思いついてから完成までに地味に結構時間かかりました。','resource/bgm/不思議な森.wav',0.66,-1,0,'BGM');
 insert into sound values('SD0034','遥か昔ソナーで作った曲。','resource/bgm/不気味なダンジョン.wav',0.66,-1,0,'BGM');
-insert into sound values('SD0035','白銀城の絹のシーンで使えそうな曲。/この世界には何やら裏があり、/世界の真実を知ったときに使う予定で作りました。','resource/bgm/世界の真相.wav',0.66,-1,0,'BGM');
+insert into sound values('SD0035','白銀城で使えそうな曲。/この世界には何やら裏があり、/世界の真実を知ったときに使う予定で作りました。','resource/bgm/世界の真相.wav',0.66,-1,0,'BGM');
 insert into sound values('SD0036','遥か昔ソナーで作った曲。/新卒の頃神戸で新入社員研修を受けながら夜作ったやつ。/そのために飲み会とか断ってたから変な奴だと思われていたでしょう。/','resource/bgm/中ボス.wav',0.66,-1,0,'BGM');
 insert into sound values('SD0037','','resource/bgm/作戦会議.wav',0.66,-1,0,'BGM');
 insert into sound values('SD0038','','resource/bgm/刻一刻.wav',0.66,-1,0,'BGM');
