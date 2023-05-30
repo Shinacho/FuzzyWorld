@@ -28,16 +28,12 @@ import java.awt.Font;
 import java.awt.Graphics2D;
 import kinugasa.game.GameLogic;
 import kinugasa.game.GameManager;
-import kinugasa.game.GameOption;
 import kinugasa.game.GameTimeManager;
 import kinugasa.game.GraphicsContext;
-import kinugasa.game.I18N;
 import kinugasa.game.input.GamePadButton;
 import kinugasa.game.input.InputState;
 import kinugasa.game.input.InputType;
 import kinugasa.game.ui.FontModel;
-import kinugasa.game.ui.SimpleTextLabelModel;
-import kinugasa.game.ui.TextLabelSprite;
 import kinugasa.game.input.GamePadStatusMonitor;
 import kinugasa.game.input.Keys;
 import kinugasa.resource.sound.Sound;
@@ -59,7 +55,7 @@ public class GamePadTestLogic extends GameLogic {
 	@Override
 	public void load() {
 		gp = new GamePadStatusMonitor();
-		sound = SoundStorage.getInstance().get("SE").get("選択1.wav").load();
+		sound = SoundStorage.getInstance().get("SD1008").load();
 	}
 
 	@Override

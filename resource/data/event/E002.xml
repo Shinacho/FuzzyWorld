@@ -32,7 +32,7 @@ THE SOFTWARE.
 		<event order="20" fet="NPC_DIR_TO" stName="" tgtName="NPC02" value="NORTH" term="" />
 		<event order="30" fet="SHOW_MESSAGE_FROM_TEXTSTORAGE" stName="002" tgtName="" value="002" term="" />
 		<event order="40" fet="FADE_OUT" stName="" tgtName="" value="" term=""/>
-		<event order="50" fet="SET_QUEST_LINE" stName="" tgtName="MAIN" value="1" term=""/>
+		<event order="50" fet="SET_QUEST" stName="" tgtName="MAIN" value="1" term=""/>
 
 	<!-- change map -->
 		<event order="100" fet="CHANGE_MAP" stName="" tgtName="M003" value="9,2,WEST" term=""/>

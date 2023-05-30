@@ -26,13 +26,8 @@ package fuzzyworld1;
 import java.awt.GraphicsEnvironment;
 import java.awt.Point;
 import java.util.List;
-import java.util.stream.Collectors;
 import javax.swing.ImageIcon;
 import kinugasa.game.input.Keys;
-import kinugasa.graphics.ImageUtil;
-import kinugasa.resource.sound.CachedSound;
-import kinugasa.resource.sound.SoundBuilder;
-import kinugasa.resource.sound.SoundLoader;
 import kinugasa.resource.sound.SoundStorage;
 import kinugasa.resource.text.CSVFile;
 import kinugasa.resource.text.FileFormatException;
@@ -238,23 +233,17 @@ public class SoundVolumeForm extends javax.swing.JFrame {
 		file.save();
 		file.dispose();
 		//マップへの反映
-		SoundStorage.getInstance().get("BGM").stopAll();
-		SoundStorage.getInstance().get("SE").stopAll();
-		SoundStorage.getInstance().get("BGM").dispose();
-		SoundStorage.getInstance().get("SE").dispose();
-		SoundStorage.getInstance().get("BGM").clear();
-		SoundStorage.getInstance().get("SE").clear();
-		SoundStorage.getInstance().clear();
-
-		SoundLoader.loadList("resource/bgm/BGM.csv", mulBgm);
-		SoundLoader.loadList("resource/se/SE.csv", mulSe);
+		SoundStorage.volumeBgm = mulBgm;
+		SoundStorage.volumeSe = mulSe;
+		SoundStorage.getInstance().dispose();
+		SoundStorage.getInstance().rebuild();
 
 		setVisible(false);
-		SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+		SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 		if (kinugasa.util.Random.percent(0.5f)) {
-			SoundStorage.getInstance().get("BGM").get("フィールド３.wav").load().play();
-		}else{
-			SoundStorage.getInstance().get("BGM").get("フィールド２.wav").load().play();
+			SoundStorage.getInstance().get("SD0026").load().play();
+		} else {
+			SoundStorage.getInstance().get("SD0027").load().play();
 		}
     }//GEN-LAST:event_jButton1ActionPerformed
 

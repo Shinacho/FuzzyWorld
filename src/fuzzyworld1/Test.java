@@ -23,10 +23,11 @@
  */
 package fuzzyworld1;
 
+import java.util.ArrayList;
 import java.util.List;
-import kinugasa.resource.db.DBConnection;
-import kinugasa.resource.db.DBValue;
-import kinugasa.resource.db.KResultSet;
+import kinugasa.resource.sound.LoopPoint;
+import kinugasa.util.Random;
+import kinugasa.util.StringUtil;
 
 /**
  *
@@ -36,13 +37,5 @@ import kinugasa.resource.db.KResultSet;
 public class Test {
 
 	public static void main(String[] args) {
-		DBConnection.getInstance().init("file:./resource/data/data1", "sa", "adm");
-		KResultSet rs = DBConnection.getInstance().execDirect("select * from test");
-		for (List<DBValue> line : rs) {
-			for (DBValue v : line) {
-				System.out.print(v);
-			}
-			System.out.println("");
-		}
 	}
 }

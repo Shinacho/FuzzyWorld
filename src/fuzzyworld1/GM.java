@@ -27,13 +27,9 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.Rectangle;
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.PrintStream;
+import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.ImageIcon;
 import javax.swing.JFileChooser;
 import kinugasa.game.GameLog;
@@ -45,7 +41,6 @@ import kinugasa.game.GraphicsContext;
 import kinugasa.game.input.InputState;
 import kinugasa.game.system.GameSystem;
 import kinugasa.game.ui.FPSLabel;
-import kinugasa.resource.sound.SoundLoader;
 import static kinugasa.game.GameOption.GUILockMode.*;
 import kinugasa.game.I18N;
 import kinugasa.game.PlayerConstants;
@@ -55,8 +50,13 @@ import kinugasa.game.input.Keys;
 import kinugasa.game.system.Status;
 import kinugasa.game.ui.FontModel;
 import kinugasa.game.ui.SimpleMessageWindowModel;
+import kinugasa.game.ui.SimpleTextLabelModel;
+import kinugasa.game.ui.TextLabelSprite;
 import kinugasa.graphics.ImageUtil;
+import kinugasa.resource.db.DBConnection;
+import kinugasa.resource.sound.CachedSound;
 import kinugasa.resource.sound.SoundStorage;
+import kinugasa.util.FrameTimeCounter;
 
 /**
  *
@@ -88,6 +88,7 @@ public class GM extends GameManager {
 		}
 	}
 	private FPSLabel fps;
+	private TextLabelSprite loading;
 	private GameLogicStorage gls;
 
 	@Override
@@ -102,15 +103,9 @@ public class GM extends GameManager {
 		Status.canMagicStatusName = "CAN_MAGIC";
 		Status.canMagicStatusValue = "1";
 		SimpleMessageWindowModel.maxLine = 22;
-		SoundVolumeForm volumeForm = SoundVolumeForm.getInstance();
-		float volumeBgm = volumeForm.getMulBgm();
-		float volumeSe = volumeForm.getMulSe();
-		if (GameSystem.isDebugMode()) {
-			kinugasa.game.GameLog.print("volume: BGM[" + volumeBgm + "] SE:[" + volumeSe + "]");
-		}
-		SoundLoader.loadList("resource/bgm/BGM.csv", volumeBgm);
-		SoundLoader.loadList("resource/se/SE.csv", volumeSe);
 		fps = new FPSLabel((int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() - 60), 12);
+		loading = new TextLabelSprite("", new SimpleTextLabelModel(FontModel.DEFAULT.clone().setFontSize(12)),
+				(int) (Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() - 60), 20, 0, 0);
 		//
 		gls = GameLogicStorage.getInstance();
 		gls.add(new TitleLogic(this));
@@ -121,6 +116,7 @@ public class GM extends GameManager {
 		gls.add(new FieldLogic(this));
 		gls.add(new BattleLogic(this));
 		gls.add(new SSLogic(this));
+		gls.add(new SaveDataSelectLogic(this));
 		gls.add(new GameOverLogic(this));
 
 		//
@@ -128,6 +124,42 @@ public class GM extends GameManager {
 		getWindow().setTitle("Fuzzy World" + " -" + I18N.get("魔法使いと不死の秘術") + "-");
 		getWindow().setIconImage(new ImageIcon(getClass().getResource("icon.png")).getImage());
 		//
+
+		//
+		for (int i = 0; i < Const.SAVE_DATA_NUM + 1; i++) {
+			String fileName = "resource/data/data" + i + ".mv.db";
+			File f = new File(fileName);
+			if (!f.exists()) {
+				try {
+					f.createNewFile();
+					DBConnection.getInstance().open("file:./resource/data/data" + i, "sa", "adm");
+					//Sound
+					DBConnection.getInstance().execByFile("resource/data/sql/insertSound.sql");
+					if (i != 0) {
+						//CreateTable
+						DBConnection.getInstance().execByFile("resource/data/sql/createTable.sql");
+					}
+					DBConnection.getInstance().close();
+				} catch (IOException ex) {
+					GameLog.print(ex);
+				}
+			}
+		}
+		//0(BGMのみ)を仮で開く
+		DBConnection.getInstance().open("file:./resource/data/data" + 0, "sa", "adm");
+		SoundVolumeForm volumeForm = SoundVolumeForm.getInstance();
+		float volumeBgm = volumeForm.getMulBgm();
+		float volumeSe = volumeForm.getMulSe();
+		SoundStorage.volumeBgm = volumeBgm;
+		SoundStorage.volumeSe = volumeSe;
+		if (GameSystem.isDebugMode()) {
+			kinugasa.game.GameLog.print("volume: BGM[" + volumeBgm + "] SE:[" + volumeSe + "]");
+		}
+		SoundStorage.getInstance().rebuild();
+		GameLog.print("SOUND------");
+		for (var s : SoundStorage.getInstance()) {
+			GameLog.print(s + " / " + ((CachedSound) s).getBuilder());
+		}
 	}
 
 	@Override
@@ -140,6 +172,12 @@ public class GM extends GameManager {
 		if (GameSystem.isDebugMode()) {
 			fps.setGtm(gtm);
 		}
+		//ロード中
+		if (Const.LOADING) {
+			loading.setText("LOADING");
+		} else {
+			loading.setText("");
+		}
 
 		//スクリーンショット
 		if (is.isPressed(GamePadButton.BACK, Keys.F12, InputType.SINGLE)) {
@@ -151,7 +189,7 @@ public class GM extends GameManager {
 			int r = c.showSaveDialog(null);
 			if (r == JFileChooser.APPROVE_OPTION) {
 				File f = c.getSelectedFile();
-				SoundStorage.getInstance().get("SE").get("screenShot.wav").load().stopAndPlay();
+				SoundStorage.getInstance().get("SD1000").load().stopAndPlay();
 				Rectangle rec = getWindow().getBounds();
 				ImageUtil.screenShot(f.getAbsolutePath(), rec);
 			}
@@ -178,6 +216,7 @@ public class GM extends GameManager {
 	protected void draw(GraphicsContext gc) {
 		gls.getCurrent().draw(gc);
 		fps.draw(gc);
+		loading.draw(gc);
 	}
 
 }

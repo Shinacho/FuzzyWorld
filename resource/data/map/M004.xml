@@ -32,11 +32,11 @@ THE SOFTWARE.
 
 	<outNode name="ND_04_0001" outMap="TOMAGISHUT_OUTER" x="7" y="13" outDir="SOUTH" />
 	
-	<inOutNode name="ND_04_0002" x="7" y="12" tgtMap="M003" exitNode="ND_03_0001" tooltip="漁師の小屋" accepterName="TRUE" outDir="NORTH" se="SE/足音.wav"/>
+	<inOutNode name="ND_04_0002" x="7" y="12" tgtMap="M003" exitNode="ND_03_0001" tooltip="漁師の小屋" accepterName="TRUE" outDir="NORTH" se="SD1010"/>
 
-	<inOutNode name="ND_04_0005" x="5" y="16" tgtMap="M005" exitNode="ND_05_0001" tooltip="ラルズガルド地方" accepterName="TRUE" outDir="NORTH" se="SE/足音.wav"/>
-	<inOutNode name="ND_04_0003" x="6" y="16" tgtMap="M005" exitNode="ND_05_0001" tooltip="ラルズガルド地方" accepterName="TRUE" outDir="NORTH" se="SE/足音.wav"/>
-	<inOutNode name="ND_04_0004" x="7" y="16" tgtMap="M005" exitNode="ND_05_0001" tooltip="ラルズガルド地方" accepterName="TRUE" outDir="NORTH" se="SE/足音.wav"/>
+	<inOutNode name="ND_04_0005" x="5" y="16" tgtMap="M005" exitNode="ND_05_0001" tooltip="ラルズガルド地方" accepterName="TRUE" outDir="NORTH" se="SD1010"/>
+	<inOutNode name="ND_04_0003" x="6" y="16" tgtMap="M005" exitNode="ND_05_0001" tooltip="ラルズガルド地方" accepterName="TRUE" outDir="NORTH" se="SD1010"/>
+	<inOutNode name="ND_04_0004" x="7" y="16" tgtMap="M005" exitNode="ND_05_0001" tooltip="ラルズガルド地方" accepterName="TRUE" outDir="NORTH" se="SD1010"/>
 
 
 	<npc name="NPC02" initialIdx="6,13" NPCMoveModel="NOT_MOVE" image="resource/image/c3.png" s="0,32,32" w="96,32,32" e="64,32,32" n="32,32,32" frame="32" initialDir="EAST"/>

@@ -193,8 +193,8 @@ public class OPLogic extends GameLogic {
 				}
 				break;
 			case 11:
-				Const.Chapter.current = "第一部";
-				Const.Chapter.currentSubTitle = "失踪と戦火";
+				Const.Chapter.currentI18NKey = "第一部";
+				Const.Chapter.currentSubTitleI18NKey = "失踪と戦火";
 				Const.Chapter.nextLogic = Const.LogicName.FIELD;
 				gls.changeTo(Const.LogicName.CHAPTER_TITLE);
 				break;

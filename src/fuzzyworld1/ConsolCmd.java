@@ -36,20 +36,19 @@ import kinugasa.game.system.AttributeKey;
 import kinugasa.game.system.AttributeKeyStorage;
 import kinugasa.game.system.AttributeValue;
 import kinugasa.game.system.Book;
-import kinugasa.game.system.BookPage;
-import kinugasa.game.system.BookPageStorage;
+import kinugasa.game.system.Page;
+import kinugasa.game.system.PageStorage;
 import kinugasa.game.system.BookStorage;
 import kinugasa.game.system.ConditionKey;
 import kinugasa.game.system.Flag;
 import kinugasa.game.system.FlagStorage;
-import kinugasa.game.system.FlagStorageStorage;
 import kinugasa.game.system.GameSystem;
 import kinugasa.game.system.Item;
 import kinugasa.game.system.ItemStorage;
 import kinugasa.game.system.Material;
 import kinugasa.game.system.MaterialStorage;
-import kinugasa.game.system.QuestLine;
-import kinugasa.game.system.QuestLineStorage;
+import kinugasa.game.system.Quest;
+import kinugasa.game.system.QuestStorage;
 import kinugasa.game.system.Status;
 import kinugasa.game.system.StatusKey;
 import kinugasa.game.system.StatusKeyStorage;
@@ -223,7 +222,7 @@ public class ConsolCmd extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jSeparator2)
-                    .addComponent(jCheckBox2, javax.swing.GroupLayout.DEFAULT_SIZE, 822, Short.MAX_VALUE)
+                    .addComponent(jCheckBox2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jCheckBox3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jLayeredPane1Layout.createSequentialGroup()
@@ -250,7 +249,7 @@ public class ConsolCmd extends javax.swing.JFrame {
                     .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(202, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("util", jLayeredPane1);
@@ -312,7 +311,7 @@ public class ConsolCmd extends javax.swing.JFrame {
                         .addComponent(jLabel3)
                         .addGap(18, 18, 18)
                         .addComponent(jComboBox1, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addComponent(jCheckBox1, javax.swing.GroupLayout.DEFAULT_SIZE, 822, Short.MAX_VALUE)
+                    .addComponent(jCheckBox1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -344,7 +343,7 @@ public class ConsolCmd extends javax.swing.JFrame {
                         .addComponent(jButton4)
                         .addComponent(jButton5)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 226, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 190, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -463,7 +462,7 @@ public class ConsolCmd extends javax.swing.JFrame {
                     .addComponent(jButton9)
                     .addComponent(jButton20))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 226, Short.MAX_VALUE))
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 190, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -566,7 +565,7 @@ public class ConsolCmd extends javax.swing.JFrame {
                         .addComponent(jButton11)
                         .addComponent(jButton13)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 274, Short.MAX_VALUE))
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 238, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -641,7 +640,7 @@ public class ConsolCmd extends javax.swing.JFrame {
                         .addGap(18, 18, 18)
                         .addComponent(jButton16)
                         .addGap(18, 18, 18)
-                        .addComponent(jButton17, javax.swing.GroupLayout.DEFAULT_SIZE, 630, Short.MAX_VALUE)))
+                        .addComponent(jButton17, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         jLayeredPane4Layout.setVerticalGroup(
@@ -656,7 +655,7 @@ public class ConsolCmd extends javax.swing.JFrame {
                     .addComponent(jButton16)
                     .addComponent(jButton17))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 280, Short.MAX_VALUE)
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 244, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -700,7 +699,7 @@ public class ConsolCmd extends javax.swing.JFrame {
             .addGroup(jLayeredPane5Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jLayeredPane5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 816, Short.MAX_VALUE)
+                    .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                     .addComponent(jButton18, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
         jLayeredPane5Layout.setVerticalGroup(
@@ -709,7 +708,7 @@ public class ConsolCmd extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jButton18)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 308, Short.MAX_VALUE)
+                .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 272, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -753,7 +752,7 @@ public class ConsolCmd extends javax.swing.JFrame {
             .addGroup(jLayeredPane6Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jLayeredPane6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 816, Short.MAX_VALUE)
+                    .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                     .addComponent(jButton19, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
         jLayeredPane6Layout.setVerticalGroup(
@@ -762,7 +761,7 @@ public class ConsolCmd extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jButton19)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 308, Short.MAX_VALUE))
+                .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 272, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
@@ -833,7 +832,7 @@ public class ConsolCmd extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jComboBox5, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jButton21, javax.swing.GroupLayout.DEFAULT_SIZE, 645, Short.MAX_VALUE)))))
+                                    .addComponent(jButton21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addGap(25, 25, 25)
                         .addComponent(jScrollPane7)))
@@ -856,7 +855,7 @@ public class ConsolCmd extends javax.swing.JFrame {
                     .addComponent(jSpinner1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton21))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane7, javax.swing.GroupLayout.DEFAULT_SIZE, 258, Short.MAX_VALUE)
+                .addComponent(jScrollPane7, javax.swing.GroupLayout.DEFAULT_SIZE, 222, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -974,7 +973,7 @@ public class ConsolCmd extends javax.swing.JFrame {
 		jTextArea2.setText(b.getName() + "の詳細---------\r\n");
 		jTextArea2.setText(jTextArea2.getText() + "DESC:" + b.getDesc() + "\r\n");
 		jTextArea2.setText(jTextArea2.getText() + b.getName() + "pages---\r\n");
-		for (BookPage p : b.getPages()) {
+		for (Page p : b.getPages()) {
 			jTextArea2.setText(jTextArea2.getText() + p + "\r\n");
 		}
 
@@ -1007,7 +1006,7 @@ public class ConsolCmd extends javax.swing.JFrame {
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
 		String s = jTextField3.getText().trim() + " が含まれるページ--------\r\n";
-		for (BookPage p : BookPageStorage.getInstance()) {
+		for (Page p : PageStorage.getInstance()) {
 			if (p.getName().contains(jTextField3.getText().trim())) {
 				s += p.getName() + "\r\n";
 			}
@@ -1016,11 +1015,11 @@ public class ConsolCmd extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton10ActionPerformed
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
-		if (!BookPageStorage.getInstance().contains(jTextField3.getText().trim())) {
+		if (!PageStorage.getInstance().contains(jTextField3.getText().trim())) {
 			jTextArea3.setText(jTextArea3.getText() + "「" + jTextField3.getText().trim() + "」というページはストレージにない\r\n");
 			return;
 		}
-		BookPage p = BookPageStorage.getInstance().get(jTextField3.getText().trim());
+		Page p = PageStorage.getInstance().get(jTextField3.getText().trim());
 		jTextArea3.setText(p.getName() + "の詳細---------\r\n");
 		jTextArea3.setText(jTextArea3.getText() + "DESC:" + p.getDesc() + "\r\n");
 		jTextArea3.setText(jTextArea3.getText() + p.getName() + "を含む本\r\n");
@@ -1032,16 +1031,16 @@ public class ConsolCmd extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton11ActionPerformed
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
-		jTextField3.setText(BookPageStorage.getInstance().random().getName());
+		jTextField3.setText(PageStorage.getInstance().random().getName());
 		jButton13.doClick();
     }//GEN-LAST:event_jButton12ActionPerformed
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
-		if (!BookPageStorage.getInstance().contains(jTextField3.getText().trim())) {
+		if (!PageStorage.getInstance().contains(jTextField3.getText().trim())) {
 			jTextArea3.setText(jTextArea3.getText() + "「" + jTextField3.getText().trim() + "」という本はストレージにない\r\n");
 			return;
 		}
-		BookPage p = BookPageStorage.getInstance().get(jTextField3.getText().trim());
+		Page p = PageStorage.getInstance().get(jTextField3.getText().trim());
 		GameSystem.getInstance().getBookPageBag().add(p);
 		jTextArea3.setText(jTextArea3.getText() + "「" + jTextField3.getText().trim() + "」を追加した\r\n");
     }//GEN-LAST:event_jButton13ActionPerformed
@@ -1092,18 +1091,15 @@ public class ConsolCmd extends javax.swing.JFrame {
 
     private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
 		jTextArea5.setText("登録されているクエストラインの一覧----------------------------\r\n");
-		for (QuestLine q : QuestLineStorage.getInstance()) {
+		for (Quest q : QuestStorage.getInstance()) {
 			jTextArea5.setText(jTextArea5.getText() + q + "\r\n");
 		}
     }//GEN-LAST:event_jButton18ActionPerformed
 
     private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
 		jTextArea6.setText("登録されているフラグの一覧----------------------------\r\n");
-		for (FlagStorage fs : FlagStorageStorage.getInstance()) {
-			jTextArea6.setText(jTextArea6.getText() + "  " + fs.getName() + "\r\n");
-			for (Flag f : fs) {
-				jTextArea6.setText(jTextArea6.getText() + f + "\r\n");
-			}
+		for (Flag f : FlagStorage.getInstance()) {
+			jTextArea6.setText(jTextArea6.getText() + f + "\r\n");
 		}
     }//GEN-LAST:event_jButton19ActionPerformed
 

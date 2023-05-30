@@ -27,7 +27,6 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.Toolkit;
-import java.util.Random;
 import javax.swing.SwingUtilities;
 import kinugasa.game.GameLogic;
 import kinugasa.game.GameManager;
@@ -51,6 +50,7 @@ import kinugasa.graphics.ColorTransitionModel;
 import kinugasa.graphics.FadeCounter;
 import kinugasa.object.FadeEffect;
 import kinugasa.util.FrameTimeCounter;
+import kinugasa.util.StopWatch;
 import kinugasa.util.Versions;
 
 /**
@@ -69,32 +69,18 @@ public class TitleLogic extends GameLogic {
 	@Override
 	public void load() {
 		stage = -2;
-		atsg = new ActionTextSpriteGroup(540, 320,
-				new ActionTextSprite(I18N.get("はじめから"), new SimpleTextLabelModel(FontModel.DEFAULT.clone().setFontSize(14)), 0, 0, 18, 0, new Action() {
+		atsg = new ActionTextSpriteGroup(560, 340,
+				new ActionTextSprite(I18N.get("スタート"), new SimpleTextLabelModel(FontModel.DEFAULT.clone().setFontSize(14)), 0, 0, 18, 0, new Action() {
 					@Override
 					public void exec() {
-						Const.Chapter.current = "序部";
-						Const.Chapter.currentSubTitle = "戯れの介入";
-						Const.Chapter.nextLogic = Const.LogicName.OP;
-						SoundStorage.getInstance().get("BGM").stopAll();
-						SoundStorage.getInstance().get("BGM").dispose();
 						System.gc();
-						gls.changeTo(Const.LogicName.CHAPTER_TITLE);
-					}
-				}),
-				new ActionTextSprite(I18N.get("つづきから"), new SimpleTextLabelModel(FontModel.DEFAULT.clone().setFontSize(14)), 0, 0, 18, 0, new Action() {
-					@Override
-					public void exec() {
-						SoundStorage.getInstance().get("BGM").stopAll();
-						SoundStorage.getInstance().get("BGM").dispose();
-						System.gc();
-						gls.changeTo(Const.LogicName.LOAD_GAME);
+						gls.changeTo(Const.LogicName.SAVE_DATA_SELECT);
 					}
 				}),
 				new ActionTextSprite(I18N.get("ミュージックルーム"), new SimpleTextLabelModel(FontModel.DEFAULT.clone().setFontSize(14)), 0, 0, 18, 0, new Action() {
 					@Override
 					public void exec() {
-						SoundStorage.getInstance().get("BGM").stopAll();
+						SoundStorage.getInstance().stopAll();
 						gls.changeTo(Const.LogicName.MUSIC_ROOM);
 					}
 				}),
@@ -104,7 +90,7 @@ public class TitleLogic extends GameLogic {
 						gls.changeTo(Const.LogicName.GAMEPAD_TEST);
 					}
 				}),
-				new ActionTextSprite(I18N.get("音量調整"), new SimpleTextLabelModel(FontModel.DEFAULT.clone().setFontSize(14)), 0, 0, 18, 0, new Action() {
+				new ActionTextSprite(I18N.get("サウンド設定"), new SimpleTextLabelModel(FontModel.DEFAULT.clone().setFontSize(14)), 0, 0, 18, 0, new Action() {
 					@Override
 					public void exec() {
 						SwingUtilities.invokeLater(() -> SoundVolumeForm.getInstance().setVisible(true));
@@ -113,17 +99,15 @@ public class TitleLogic extends GameLogic {
 				new ActionTextSprite(I18N.get("おわる"), new SimpleTextLabelModel(FontModel.DEFAULT.clone().setFontSize(14)), 0, 0, 18, 0, new Action() {
 					@Override
 					public void exec() {
-						SoundStorage.getInstance().get("BGM").stopAll();
+						SoundStorage.getInstance().stopAll();
 						gm.gameExit();
 					}
 				})
 		);
-		SoundStorage.getInstance().get("BGM").stopAll();
-		SoundStorage.getInstance().get("BGM").dispose();
 		if (kinugasa.util.Random.percent(0.5f)) {
-			SoundStorage.getInstance().get("BGM").get("フィールド３.wav").load().play();
+			SoundStorage.getInstance().get("SD0026").load().play();
 		} else {
-			SoundStorage.getInstance().get("BGM").get("フィールド２.wav").load().play();
+			SoundStorage.getInstance().get("SD0027").load().play();
 		}
 		atsg.setSelectedIdx(selected);
 
@@ -132,7 +116,7 @@ public class TitleLogic extends GameLogic {
 	@Override
 	public void dispose() {
 	}
-	private int stage = 0;
+	private int stage;
 
 	@Override
 	public void update(GameTimeManager gtm, InputState is) {
@@ -156,33 +140,33 @@ public class TitleLogic extends GameLogic {
 			case 0:
 				if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
 					atsg.next();
-					SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+					SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 					selected = atsg.getSelectedIdx();
 				}
 				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
 					atsg.prev();
-					SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+					SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 					selected = atsg.getSelectedIdx();
 				}
 				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
 					selected = atsg.getSelectedIdx();
-					if (selected == 4) {
+					if (selected == 3) {
 						atsg.exec();
 						is.keyReleaseEvent(gm, Keys.ENTER);
 						return;
 					}
-					if (selected == 3 && !GameOption.getInstance().isUseGamePad()) {
+					if (selected == 2 && !GameOption.getInstance().isUseGamePad()) {
 						Toolkit.getDefaultToolkit().beep();
 						Dialog.info(I18N.get("コントローラは有効化されていません。コントローラを使う場合はゲームを再起動してください。"));
 						is.keyReleaseEvent(gm, Keys.ENTER);
 						return;
 					}
 					if (selected == 0) {
-						SoundStorage.getInstance().get("SE").get("ゲームスタート.wav").load().stopAndPlay();
 						nextStage();
+						Const.LOADING = true;
 						return;
 					}
-					SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+					SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 					atsg.exec();
 				}
 				break;

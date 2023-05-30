@@ -38,8 +38,6 @@ THE SOFTWARE.
 	<aAttribute order="18" name="EARTH" desc="地"/>
 	<aAttribute order="19" name="LIGHT" desc="光"/>
 	<aAttribute order="20" name="DARK" desc="闇"/>
-	<aAttribute order="21" name="HOLY" desc="神聖"/>
-	<aAttribute order="22" name="EVIL" desc="悪意"/>
 	<aAttribute order="23" name="MYSTERY" desc="神秘"/>
 	<aAttribute order="25" name="ALCHEMY" desc="錬金"/> 
 	<aAttribute order="26" name="SPIRIT" desc="精神"/> 
@@ -50,6 +48,8 @@ THE SOFTWARE.
 	<!-- 無はMPを減らす処理などのダイレクトダメージに使用される -->
 	<aAttribute order="99" name="NONE" desc="無"/> 
 
+	<dAttribute order="123" name="C_WOOD" desc="木化" />
+	<dAttribute order="124" name="C_WET" desc="湿潤" />
 	<dAttribute order="125" name="C_POISON" desc="毒" />
 	<dAttribute order="126" name="C_FLAME" desc="炎上" />
 	<dAttribute order="127" name="C_FROZEN" desc="凍結" />

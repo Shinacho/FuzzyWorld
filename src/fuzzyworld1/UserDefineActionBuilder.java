@@ -23,13 +23,10 @@
  */
 package fuzzyworld1;
 
-import java.util.List;
-import kinugasa.game.system.ActionResult;
+import kinugasa.game.system.ActionEventResult;
+import kinugasa.game.system.ActionEventStorage;
 import kinugasa.game.system.ActionTarget;
-import kinugasa.game.system.ActionTerm;
-import kinugasa.game.system.ActionType;
-import kinugasa.game.system.TargetOption;
-import kinugasa.game.system.UserDefinedCmdAction;
+import kinugasa.game.system.CustomActionEvent;
 
 /**
  *
@@ -39,31 +36,12 @@ import kinugasa.game.system.UserDefinedCmdAction;
 public class UserDefineActionBuilder {
 
 	static void setUp() {
-//		new UserDefinedCmdAction(ActionType.MAGIC, "", "") {
-//			@Override
-//			public ActionResult exec(ActionTarget tgt) {
-//				throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-//			}
-//
-//			@Override
-//			public TargetOption getTargetOption() {
-//				throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-//			}
-//
-//			@Override
-//			public int getArea() {
-//				throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-//			}
-//
-//			@Override
-//			public int getSpellTime() {
-//				throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-//			}
-//
-//			@Override
-//			public List<ActionTerm> getTerms() {
-//				throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-//			}
-//		}.ActionStorageAddThis();
+		ActionEventStorage.getInstance().add(new CustomActionEvent("") {
+			@Override
+			public ActionEventResult exec(ActionTarget tgt) {
+				throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+			}
+		});
+		
 	}
 }

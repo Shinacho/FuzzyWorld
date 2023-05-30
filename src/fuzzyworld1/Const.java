@@ -42,6 +42,13 @@ public class Const {
 		public static final String BATTLE = "BATTLE";
 		public static final String SS_LOGIC = "SS";
 		public static final String GAME_OVER = "GAME_OVER";
+		public static final String SAVE_DATA_SELECT = "SAVE_DATA_SELECT";
+	}
+	public static final int SAVE_DATA_NUM = 16;
+	public static boolean LOADING = false;
+	
+	public static class Save{
+		public static int dataNo;
 	}
 
 	public static class Screen {
@@ -57,8 +64,8 @@ public class Const {
 
 	public static class Chapter {
 
-		public static String current;
-		public static String currentSubTitle;
+		public static String currentI18NKey;
+		public static String currentSubTitleI18NKey;
 		public static String nextLogic;
 
 	}

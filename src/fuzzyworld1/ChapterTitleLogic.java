@@ -109,10 +109,10 @@ public class ChapterTitleLogic extends GameLogic {
 		int y = 64;
 		g2.setColor(Color.WHITE);
 		g2.setFont(FontModel.DEFAULT.clone().setFontSize(32).getFont());
-		g2.drawString(I18N.get(Const.Chapter.current), x, y);
+		g2.drawString(I18N.get(Const.Chapter.currentI18NKey), x, y);
 		x += 48;
 		y += 64;
-		g2.drawString("- " + I18N.get(Const.Chapter.currentSubTitle) + " -", x, y);
+		g2.drawString("- " + I18N.get(Const.Chapter.currentSubTitleI18NKey) + " -", x, y);
 		effect.draw(g);
 		g2.dispose();
 	}

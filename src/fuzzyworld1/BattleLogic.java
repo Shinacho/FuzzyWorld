@@ -80,9 +80,9 @@ public class BattleLogic extends GameLogic {
 
 			Enemy.setProgressBarKey("HP");
 
-			BattleConfig.Sound.avoidance = SoundStorage.getInstance().get("SE").get("避けた.wav");
-			BattleConfig.Sound.block = SoundStorage.getInstance().get("SE").get("ブロック.wav");
-			BattleConfig.Sound.spellStart = SoundStorage.getInstance().get("SE").get("魔法詠唱.wav");
+			BattleConfig.Sound.avoidance = SoundStorage.getInstance().get("SD1006");
+			BattleConfig.Sound.block = SoundStorage.getInstance().get("SD1005");
+			BattleConfig.Sound.spellStart = SoundStorage.getInstance().get("SD1007");
 
 			BattleConfig.castingAnimation = new ImageSprite(98, 98, ImageUtil.load("resource/image/castAnimation1.png"));
 
@@ -132,9 +132,9 @@ public class BattleLogic extends GameLogic {
 						return BattleResult.NOT_YET;
 					}
 			);
-			choiceSound1 = SoundStorage.getInstance().get("SE").get("選択1.wav").load();
-			choiceSound2 = SoundStorage.getInstance().get("SE").get("選択2.wav").load();
-			playerOpeStart = SoundStorage.getInstance().get("SE").get("バトルターン開始.wav").load();
+			choiceSound1 = SoundStorage.getInstance().get("SD1008").load();
+			choiceSound2 = SoundStorage.getInstance().get("SD1009").load();
+			playerOpeStart = SoundStorage.getInstance().get("SD1004").load();
 			loaded = true;
 		}
 		playerMoveInitialLocation = null;

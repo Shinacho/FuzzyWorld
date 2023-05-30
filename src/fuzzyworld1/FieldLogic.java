@@ -41,7 +41,6 @@ import kinugasa.game.system.GameSystemI18NKeys;
 import kinugasa.game.field4.FieldMapStorage;
 import kinugasa.game.field4.FieldMapTile;
 import kinugasa.game.field4.FourDirAnimation;
-import kinugasa.game.field4.MapChipSetStorage;
 import kinugasa.game.field4.PlayerCharacterSprite;
 import kinugasa.game.field4.UserOperationRequire;
 import kinugasa.game.field4.VehicleStorage;
@@ -69,8 +68,6 @@ import kinugasa.game.system.MoneySystem;
 import kinugasa.game.system.OrderSelectWindow;
 import kinugasa.game.system.PCStatusWindow;
 import kinugasa.game.system.PlayerCharacter;
-import kinugasa.game.system.QuestLine;
-import kinugasa.game.system.QuestLineStorage;
 import kinugasa.game.system.RaceStorage;
 import kinugasa.game.system.Status;
 import kinugasa.game.system.StatusDescWindow;
@@ -122,25 +119,19 @@ public class FieldLogic extends GameLogic {
 		//PCのADD
 		new GameSystemXMLLoader()
 				.addAttrKeyStorage("resource/data/system/attr.xml")
-				.addBattleActionStorage("resource/data/system/action.xml")
-				.addRaceStorage("resource/data/system/race.xml")
-				.addBookList("resource/data/system/book.xml")
-				.addItemEqipmentSlotStorage("resource/data/system/itemSlot.xml")
 				.addStatusKeyStorage("resource/data/system/status.xml")
-				.addWeaponMagicTypeStorage("resource/data/system/weaponMagicType.xml")
 				.addBattleField("resource/data/system/battleField.xml")
-				.addConditionValueStorage("resource/data/system/condition.xml")
-				.addQuestStage("resource/data/system/quest.xml")
 				.addEnemyMaster("resource/data/enemy/enemyMaster.xml")
 				.addEnemySetStorage("resource/data/enemy/enemySetStorage.xml")
 				.setEnemyProgressBarKey("HP")
 				.load();
 		//I18Nキー設定
 		{
+			//GameSystemI18NKeys
 			//デフォルトのを使うため処理なし
 		}
 		//BGM処理
-		SoundStorage.getInstance().get("SE").get("海岸.wav").load().stopAndPlay();
+		SoundStorage.getInstance().get("SD1026").load().stopAndPlay();
 		//
 		float x = Const.Screen.WIDTH / 2 - 16;
 		float y = Const.Screen.HEIGHT / 2 - 16;
@@ -168,8 +159,6 @@ public class FieldLogic extends GameLogic {
 		fieldMap.setVector(new KVector(0, 0));
 
 		Text.getReplaceMap().put("!PC1", Const.Player.pc1Name);
-
-		QuestLineStorage.getInstance().add(new QuestLine("MAIN"));
 
 		menu = new MessageWindow(24, 24,
 				Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4,
@@ -446,7 +435,7 @@ public class FieldLogic extends GameLogic {
 				//メニュー操作
 				if (is.isPressed(GamePadButton.X, Keys.M, InputType.SINGLE)) {
 					//メニュー表示
-					SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+					SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 					menu.switchVisible();
 					statusDescWindow = null;
 					itemWindow = null;
@@ -470,35 +459,35 @@ public class FieldLogic extends GameLogic {
 							GameSystem.getInstance().getPartyStatus());
 					GameSystem.getInstance().getPartyStatus().forEach(p -> p.updateAction());
 					if (statusDescWindow != null && statusDescWindow.isVisible()) {
-						SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+						SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 						statusDescWindow = null;
 					} else if (itemWindow != null && itemWindow.isVisible()) {
-						SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+						SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 						if (itemWindow.close()) {
 							itemWindow = null;
 						}
 					} else if (bookWindow != null && bookWindow.isVisible()) {
-						SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+						SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 						if (bookWindow.close()) {
 							bookWindow = null;
 						}
 					} else if (magicWindow != null && magicWindow.isVisible()) {
-						SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+						SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 						if (magicWindow.close()) {
 							magicWindow = null;
 						}
 					} else if (materialWindow != null && materialWindow.isVisible()) {
-						SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+						SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 						materialWindow = null;
 					} else if (orderSelectWindow != null && orderSelectWindow.isVisible()) {
-						SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+						SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 						orderSelectWindow = null;
 					} else if (infoWindow != null && infoWindow.isVisible()) {
-						SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+						SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 						infoWindow = null;
 					} else {
 						if (menu != null && menu.isVisible()) {
-							SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 						}
 						menu.setVisible(false);
 						statusWindow.setVisible(false);
@@ -510,34 +499,34 @@ public class FieldLogic extends GameLogic {
 						statusDescWindow.update();
 						//ステータス詳細非表示の場合はカーソル移動可能
 						if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 							statusDescWindow.nextPc();
 						}
 						if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 							statusDescWindow.prevPc();
 						}
 						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 							statusDescWindow.prev();
 						}
 						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 							statusDescWindow.next();
 						}
 					} else if (orderSelectWindow != null && orderSelectWindow.isVisible()) {
 						orderSelectWindow.update();
 						//隊列ウインドウの処理
 						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 							orderSelectWindow.prevPC();
 						}
 						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 							orderSelectWindow.nextPC();
 						}
 						if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 							orderSelectWindow.changeOrder();
 						}
 					} else if (itemWindow != null && itemWindow.isVisible()) {
@@ -547,23 +536,23 @@ public class FieldLogic extends GameLogic {
 							case ITEM_AND_USER_SELECT:
 								//アイテム選択モード
 								if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									itemWindow.nextPC();
 								}
 								if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									itemWindow.prevPC();
 								}
 								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									itemWindow.prevSelect();
 								}
 								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									itemWindow.nextSelect();
 								}
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 									itemWindow.select();//次の操作へ
 								}
 								break;
@@ -572,36 +561,36 @@ public class FieldLogic extends GameLogic {
 							case DISASSE_CONFIRM:
 								//用途選択モード
 								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									itemWindow.prevSelect();
 								}
 								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									itemWindow.nextSelect();
 								}
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 									itemWindow.select();//次の操作へ
 								}
 								break;
 							case TARGET_SELECT:
 								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									itemWindow.prevPC();
 								}
 								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									itemWindow.nextPC();
 								}
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 									itemWindow.select();//次の操作へ
 								}
 								break;
 							case WAIT_MSG_CLOSE_TO_CU:
 							case WAIT_MSG_CLOSE_TO_IUS:
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 									itemWindow.select();//次の操作へ
 								}
 								break;
@@ -612,58 +601,58 @@ public class FieldLogic extends GameLogic {
 						switch (magicWindow.getCurrentMode()) {
 							case MAGIC_AND_USER_SELECT:
 								if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									magicWindow.nextPC();
 								}
 								if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									magicWindow.prevPC();
 								}
 								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									magicWindow.prevSelect();
 								}
 								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									magicWindow.nextSelect();
 								}
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 									magicWindow.select();//次の操作へ
 								}
 								break;
 							case CHOICE_USE:
 								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									magicWindow.prevSelect();
 								}
 								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									magicWindow.nextSelect();
 								}
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 									magicWindow.select();//次の操作へ
 								}
 								break;
 							case TARGET_SELECT:
 								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									magicWindow.prevPC();
 								}
 								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									magicWindow.nextPC();
 								}
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 									magicWindow.select();//次の操作へ
 								}
 								break;
 							case WAIT_MSG_CLOSE_TO_CU:
 							case WAIT_MSG_CLOSE_TO_MUS:
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 									magicWindow.select();//次の操作へ
 								}
 								break;
@@ -676,23 +665,23 @@ public class FieldLogic extends GameLogic {
 							case BOOK_AND_USER_SELECT:
 								//選択モード
 								if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									bookWindow.nextPC();
 								}
 								if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									bookWindow.prevPC();
 								}
 								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									bookWindow.prevSelect();
 								}
 								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									bookWindow.nextSelect();
 								}
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 									bookWindow.select();//次の操作へ
 								}
 								break;
@@ -701,36 +690,36 @@ public class FieldLogic extends GameLogic {
 							case DISASSEMBLY_CONFIRM:
 								//用途選択モード
 								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									bookWindow.prevSelect();
 								}
 								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									bookWindow.nextSelect();
 								}
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 									bookWindow.select();//次の操作へ
 								}
 								break;
 							case TARGET_SELECT:
 								if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									bookWindow.prevPC();
 								}
 								if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 									bookWindow.nextPC();
 								}
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 									bookWindow.select();//次の操作へ
 								}
 								break;
 							case WAIT_MSG_CLOSE_TO_CU:
 							case WAIT_MSG_CLOSE_TO_IUS:
 								if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
-									SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+									SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 									bookWindow.select();//次の操作へ
 								}
 								break;
@@ -739,54 +728,54 @@ public class FieldLogic extends GameLogic {
 						//素材ウインドウの処理
 						materialWindow.update();
 						if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 							materialWindow.switchMode();
 						}
 						if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 							materialWindow.switchMode();
 						}
 						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 							materialWindow.prev();
 						}
 						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 							materialWindow.next();
 						}
 					} else if (infoWindow != null && infoWindow.isVisible()) {
 						infoWindow.update();
 						if (is.isPressed(GamePadButton.POV_RIGHT, Keys.RIGHT, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 							infoWindow.switchMode();
 						}
 						if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 							infoWindow.switchMode();
 						}
 						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 							infoWindow.prevSelect();
 						}
 						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 							infoWindow.nextSelect();
 						}
 					} else {
 						//どのウインドウも非表示の場合はメニューのカーソル移動可能
 						if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 							menu.nextSelect();
 						}
 						if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
-							SoundStorage.getInstance().get("SE").get("選択2.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SD1009").load().stopAndPlay();
 							menu.prevSelect();
 						}
 					}
 					//Aボタン・・・メニュー決定
 					if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
 						if (statusDescWindow != null && statusDescWindow.isVisible()) {
-							SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 							int pcIdx = statusDescWindow.getPcIdx();
 							switch (statusWindowType) {
 								case 0:
@@ -851,7 +840,7 @@ public class FieldLogic extends GameLogic {
 								&& (materialWindow == null || !materialWindow.isVisible())
 								&& (magicWindow == null || !magicWindow.isVisible())
 								&& (infoWindow == null || !infoWindow.isVisible())) {
-							SoundStorage.getInstance().get("SE").get("選択1.wav").load().stopAndPlay();
+							SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 							switch (menu.getSelect()) {
 								case Const.MenuIdx.STATUS:
 									statusDescWindow = new StatusDescWindow(
@@ -958,7 +947,7 @@ public class FieldLogic extends GameLogic {
 				//--------------エンカウント処理
 				//戦闘開始.wav
 				if (fieldMap.isEncount()) {
-					SoundStorage.getInstance().get("SE").get("戦闘開始.wav").load().stopAndPlay();
+					SoundStorage.getInstance().get("SD1018").load().stopAndPlay();
 					battle = true;
 					fadeEffect = new FadeEffect(gm.getWindow().getInternalBounds().width, gm.getWindow().getInternalBounds().height,
 							new ColorChanger(
