@@ -80,7 +80,7 @@ public class SaveDataSelectLogic extends GameLogic {
 				new SimpleMessageWindowModel("")
 		);
 		List<Text> options = new ArrayList<>();
-		for (int i = 1; i < Const.SAVE_DATA_NUM + 1; i++) {
+		for (int i = 1; i < Const.Save.SAVE_DATA_NUM + 1; i++) {
 			String s = I18N.get("セーブデータ") + i;
 			try {
 				DBConnection.getInstance().open("file:./resource/data/data" + i, "sa", "adm");
@@ -105,6 +105,7 @@ public class SaveDataSelectLogic extends GameLogic {
 
 		mw.setText(new Choice(options, "SAVE_SELECT", I18N.get("セーブデータを選択してください")));
 
+		OperationInfo.getInstance().set(OperationInfo.AvalableInput.決定, OperationInfo.AvalableInput.戻る, OperationInfo.AvalableInput.移動上下, OperationInfo.AvalableInput.撮影, OperationInfo.AvalableInput.メニュー);
 		Const.LOADING = false;
 	}
 
@@ -123,7 +124,7 @@ public class SaveDataSelectLogic extends GameLogic {
 				mw.update();
 				if (is.isPressed(GamePadButton.B, Keys.BACK_SPACE, InputType.SINGLE)) {
 					SoundStorage.getInstance().dispose();
-					gls.changeTo(Const.LogicName.TITLE_LOGIC);
+					gls.changeTo(Const.LogicName.TITLE);
 					break;
 				}
 				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
@@ -144,7 +145,7 @@ public class SaveDataSelectLogic extends GameLogic {
 							break;
 						}
 					}
-					for (int i = 1; i < Const.SAVE_DATA_NUM + 1; i++) {
+					for (int i = 1; i < Const.Save.SAVE_DATA_NUM + 1; i++) {
 						String s = I18N.get("セーブデータ") + i;
 						try {
 							DBConnection.getInstance().open("file:./resource/data/data" + i, "sa", "adm");
@@ -212,7 +213,7 @@ public class SaveDataSelectLogic extends GameLogic {
 					SoundStorage.getInstance().stopAll();
 					SoundStorage.getInstance().dispose();
 					//初期データ投入
-					DBConnection.getInstance().execByFile("resource/data/sql/insertInitialData.sql");
+					DBConnection.getInstance().execByFile("resource/data/sql/readData.sql");
 					gls.changeTo(Const.LogicName.CHAPTER_TITLE);
 					return;
 				} else {

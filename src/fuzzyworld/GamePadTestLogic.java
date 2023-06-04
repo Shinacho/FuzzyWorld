@@ -56,6 +56,7 @@ public class GamePadTestLogic extends GameLogic {
 	public void load() {
 		gp = new GamePadStatusMonitor();
 		sound = SoundStorage.getInstance().get("SD1008").load();
+		OperationInfo.getInstance().set(OperationInfo.AvalableInput.戻る, OperationInfo.AvalableInput.撮影);
 	}
 
 	@Override
@@ -67,7 +68,7 @@ public class GamePadTestLogic extends GameLogic {
 		gp.update(is.getGamePadState());
 		if (is.isPressed(GamePadButton.B, Keys.BACK_SPACE, InputType.SINGLE)) {
 			sound.stopAndPlay();
-			gls.changeTo(Const.LogicName.TITLE_LOGIC);
+			gls.changeTo(Const.LogicName.TITLE);
 		}
 	}
 

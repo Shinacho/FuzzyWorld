@@ -32,7 +32,7 @@ public class Const {
 
 	public static class LogicName {
 
-		public static final String TITLE_LOGIC = "TITLE_LOGIC";
+		public static final String TITLE = "TITLE_LOGIC";
 		public static final String OP = "OP";
 		public static final String LOAD_GAME = "LOAD_GAME";
 		public static final String MUSIC_ROOM = "MUSIC_ROOM";
@@ -40,21 +40,23 @@ public class Const {
 		public static final String CHAPTER_TITLE = "CHAPTER_TITLE";
 		public static final String FIELD = "FIELD";
 		public static final String BATTLE = "BATTLE";
-		public static final String SS_LOGIC = "SS";
+		public static final String SS = "SS";
 		public static final String GAME_OVER = "GAME_OVER";
 		public static final String SAVE_DATA_SELECT = "SAVE_DATA_SELECT";
 	}
-	public static final int SAVE_DATA_NUM = 16;
+
 	public static boolean LOADING = false;
-	
-	public static class Save{
+
+	public static class Save {
+
+		public static final int SAVE_DATA_NUM = 16;
 		public static int dataNo;
 	}
 
 	public static class Screen {
 
-		public static int WIDTH = 1440;
-		public static int HEIGHT = 960;
+		public static int WIDTH;
+		public static int HEIGHT;
 	}
 
 	public static class Player {

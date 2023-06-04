@@ -98,17 +98,17 @@ public class BattleLogic extends GameLogic {
 			BattleConfig.StatusKey.defMgk = "M_DEF";
 			BattleConfig.StatusKey.atk = "ATK";
 			BattleConfig.StatusKey.mgk = "M_ATK";
-			BattleConfig.atkDefPercent = 0.25f;
-			BattleConfig.damageMul = 5f;
+			BattleConfig.atkDefPercent = 0.25f;//攻撃-防御*これ
+			BattleConfig.damageMul = 4f;//ダメージ倍率、高くするほど与えるダメージと受けるダメージが増える
 
-			BattleConfig.weaponSlotName = "武器";
+			BattleConfig.weaponSlotName = "ARM";
 
-			BattleConfig.ActionName.avoidance = "回避";
-			BattleConfig.ActionName.escape = "逃走";
-			BattleConfig.ActionName.defence = "防御";
-			BattleConfig.ActionName.move = "移動";
-			BattleConfig.ActionName.commit = "確定";
-			BattleConfig.ActionName.status = "状態";
+			BattleConfig.ActionName.avoidance = "A9003";
+			BattleConfig.ActionName.escape = "A9000";
+			BattleConfig.ActionName.defence = "A9002";
+			BattleConfig.ActionName.move = "A9005";
+			BattleConfig.ActionName.commit = "A9004";
+			BattleConfig.ActionName.status = "A9001";
 
 			BattleConfig.addUntargetConditionNames("DEAD");
 			BattleConfig.addUntargetConditionNames("DESTROY");
@@ -137,6 +137,7 @@ public class BattleLogic extends GameLogic {
 			playerOpeStart = SoundStorage.getInstance().get("SD1004").load();
 			loaded = true;
 		}
+		OperationInfo.getInstance().set(OperationInfo.AvalableInput.決定, OperationInfo.AvalableInput.移動上下, OperationInfo.AvalableInput.戦況図, OperationInfo.AvalableInput.キャンセル, OperationInfo.AvalableInput.撮影);
 		playerMoveInitialLocation = null;
 	}
 

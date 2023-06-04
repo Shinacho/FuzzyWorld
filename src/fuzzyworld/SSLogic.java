@@ -46,7 +46,7 @@ import kinugasa.util.FrameTimeCounter;
 public class SSLogic extends GameLogic {
 
 	public SSLogic(GameManager gm) {
-		super(Const.LogicName.SS_LOGIC, gm);
+		super(Const.LogicName.SS, gm);
 	}
 
 	private FrameTimeCounter waitTime1;
@@ -108,7 +108,7 @@ public class SSLogic extends GameLogic {
 				}
 				break;
 			case 4:
-				gls.changeTo(Const.LogicName.TITLE_LOGIC);
+				gls.changeTo(Const.LogicName.TITLE);
 				break;
 		}
 	}

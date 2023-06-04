@@ -61,7 +61,7 @@ import kinugasa.util.Versions;
 public class TitleLogic extends GameLogic {
 
 	public TitleLogic(GameManager gm) {
-		super(Const.LogicName.TITLE_LOGIC, gm);
+		super(Const.LogicName.TITLE, gm);
 	}
 	private ActionTextSpriteGroup atsg;
 	private int selected;
@@ -111,6 +111,8 @@ public class TitleLogic extends GameLogic {
 		}
 		atsg.setSelectedIdx(selected);
 
+		OperationInfo.getInstance().set(OperationInfo.AvalableInput.決定, OperationInfo.AvalableInput.移動上下, OperationInfo.AvalableInput.撮影);
+
 	}
 
 	@Override
@@ -139,16 +141,31 @@ public class TitleLogic extends GameLogic {
 				break;
 			case 0:
 				if (is.isPressed(GamePadButton.POV_DOWN, Keys.DOWN, InputType.SINGLE)) {
+					if (is.isPressed(GamePadButton.POV_DOWN, InputType.SINGLE)) {
+						OperationInfo.getInstance().set(OperationInfo.Mode.GAME_PAD);
+					} else {
+						OperationInfo.getInstance().set(OperationInfo.Mode.KEYBOAR);
+					}
 					atsg.next();
 					SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 					selected = atsg.getSelectedIdx();
 				}
 				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.SINGLE)) {
+					if (is.isPressed(GamePadButton.POV_UP, InputType.SINGLE)) {
+						OperationInfo.getInstance().set(OperationInfo.Mode.GAME_PAD);
+					} else {
+						OperationInfo.getInstance().set(OperationInfo.Mode.KEYBOAR);
+					}
 					atsg.prev();
 					SoundStorage.getInstance().get("SD1008").load().stopAndPlay();
 					selected = atsg.getSelectedIdx();
 				}
 				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+					if (is.isPressed(GamePadButton.A, InputType.SINGLE)) {
+						OperationInfo.getInstance().set(OperationInfo.Mode.GAME_PAD);
+					} else {
+						OperationInfo.getInstance().set(OperationInfo.Mode.KEYBOAR);
+					}
 					selected = atsg.getSelectedIdx();
 					if (selected == 3) {
 						atsg.exec();
@@ -212,7 +229,7 @@ public class TitleLogic extends GameLogic {
 
 		f = new Font(Font.SERIF, Font.PLAIN, 28);
 		g.setFont(f);
-		g.drawString("-" + I18N.get("魔法使いと不死の秘術") + "-", 38, 120);
+		g.drawString("-" + I18N.get("金の円盤と魔法使いと不死の秘術") + "-", 38, 120);
 		g.drawLine(-2, 85, 440, 85);
 
 		f = new Font(Font.SERIF, Font.PLAIN, 16);

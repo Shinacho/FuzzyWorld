@@ -24,11 +24,12 @@ THE SOFTWARE.
 -->
 <kinugasaFieldMapData mg="2" textStorageName="006">
 
-	<bgm mode="STOP_AND_PLAY" mapName="BGM" soundName="のどかな村.wav" />
+	<bgm mode="STOP_AND_PLAY" soundName="SD0005" />
 
 	<background image="resource/image/glassField16.png" frame="32" w="16" h="16" />
 	<before name="cloud" image="resource/image/cloudeffect.png" mg="4" tp="0.09f" angle="123.1f" speed="0.075f" />
 	
+	<!--                                                                                    @NeedTranslate-->
 	<inOutNode name="ND_06_0001" x="12" y="30" tgtMap="M005" exitNode="ND_05_0002" tooltip="ラルズガルド地方" accepterName="TRUE" outDir="NORTH" se="SD1010"/>
 	<inOutNode name="ND_06_0002" x="13" y="30" tgtMap="M005" exitNode="ND_05_0002" tooltip="ラルズガルド地方" accepterName="TRUE" outDir="NORTH" se="SD1010"/>
 	<inOutNode name="ND_06_0003" x="14" y="30" tgtMap="M005" exitNode="ND_05_0002" tooltip="ラルズガルド地方" accepterName="TRUE" outDir="NORTH" se="SD1010"/>

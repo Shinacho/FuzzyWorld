@@ -95,13 +95,13 @@ import kinugasa.util.FrameTimeCounter;
  * @author Shinacho<br>
  */
 public class FieldLogic extends GameLogic {
-
+	
 	public FieldLogic(GameManager gm) {
 		super(Const.LogicName.FIELD, gm);
 	}
-
+	
 	private boolean loaded = false;
-
+	
 	@Override
 	public void load() {
 		statusWindowType = 0;
@@ -140,32 +140,32 @@ public class FieldLogic extends GameLogic {
 		Animation west = new Animation(new FrameTimeCounter(14), new SpriteSheet("resource/image/c2.png").rows(96, 32, 32).images());
 		Animation east = new Animation(new FrameTimeCounter(14), new SpriteSheet("resource/image/c2.png").rows(64, 32, 32).images());
 		Animation north = new Animation(new FrameTimeCounter(14), new SpriteSheet("resource/image/c2.png").rows(32, 32, 32).images());
-
+		
 		FourDirAnimation anime = new FourDirAnimation(south, west, east, north);
 		PlayerCharacterSprite pcs = new PlayerCharacterSprite(x, y, 32, 32, new D2Idx(31, 35), anime, FourDirection.NORTH);
-
+		
 		pcs.setShadow(false);
 		PlayerCharacter pc1 = new PlayerCharacter(pc1Status, pcs);
-
+		
 		GameSystem.getInstance().getParty().add(pc1);
 		GameSystem.getInstance().updateParty();
 		//map
 		TextStorageStorage.getInstance().readFromXML("resource/data/text/textStorageStorage.xml");
 		FieldMap.getCurrentInstance().dispose();
 		fieldMap = FieldMapStorage.getInstance().get("M002").build();
-
+		
 		fieldMap.setCurrentIdx(new D2Idx(31, 35));//31,35のイベントが自動起動する
 		fieldMap.getCamera().updateToCenter();
 		fieldMap.setVector(new KVector(0, 0));
-
+		
 		Text.getReplaceMap().put("!PC1", Const.Player.pc1Name);
-
+		
 		menu = new MessageWindow(24, 24,
 				Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4,
 				Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() / 2 - 44,
 				new SimpleMessageWindowModel().setNextIcon(""));
 		List<Text> options = new ArrayList<>();
-
+		
 		options.add(new Text(I18N.get("状態")));
 		options.add(new Text(I18N.get("隊列")));
 		options.add(new Text(I18N.get("道具")));
@@ -174,36 +174,36 @@ public class FieldLogic extends GameLogic {
 		options.add(new Text(I18N.get("素材")));
 		options.add(new Text(I18N.get("情報")));
 		options.add(new Text(I18N.get("地図")));
-
+		
 		BattleConfig.setVisibleStatus(List.of("HP", "MP", "SAN"));
-
+		
 		menu.setText(new Choice(options, "MENU", "FUZZY WORLD"));
 		menu.setVisible(false);
-
+		
 		statusWindow = new FieldStatusWindows(
 				Const.Screen.WIDTH / GameOption.getInstance().getDrawSize() / 4 + 24 + 4,
 				GameSystem.getInstance().getPartyStatus());
-
+		
 		statusWindow.setVisible(false);
-
+		
 		StatusDescWindow.setUnvisibleStatusList(List.of("EXP", "CUT_V", "CRT_P", "CRT_V", "M_CUT_V", "M_CRT_P", "M_CRT_V", "ATTR", "CAN_MAGIC"));
 		StatusDescWindow.setVisibleMaxStatusList(List.of("HP", "MP", "SAN"));
 		AttrDescWindow.setUnvisibleAttrName(List.of("NONE"));
-
-		if (CMDargs.getInstance()
-				.getArgs() != null) {
-			if (CMDargs.getInstance().getArgs().length > 0) {
-				if (GameSystem.isDebugMode()) {
-					if (Arrays.stream(CMDargs.getInstance().getArgs()).anyMatch(p -> "-soba".equals(p))) {
-						kinugasa.game.GameLog.print("へい！手打ちもりそばおまち！！");
-						kinugasa.game.GameLog.print("※注意：この機能はテスト用です。");
-						for (int i = 0; i < pc1Status.getItemBag().getMax(); i++) {
-							pc1Status.getItemBag().add(ItemStorage.getInstance().get("出前「手打ちもりそば"));
-						}
-					}
-				}
-			}
-		}
+		
+//		if (CMDargs.getInstance()
+//				.getArgs() != null) {
+//			if (CMDargs.getInstance().getArgs().length > 0) {
+//				if (GameSystem.isDebugMode()) {
+//					if (Arrays.stream(CMDargs.getInstance().getArgs()).anyMatch(p -> "-soba".equals(p))) {
+//						kinugasa.game.GameLog.print("へい！手打ちもりそばおまち！！");
+//						kinugasa.game.GameLog.print("※注意：この機能はテスト用です。");
+//						for (int i = 0; i < pc1Status.getItemBag().getMax(); i++) {
+//							pc1Status.getItemBag().add(ItemStorage.getInstance().get("出前「手打ちもりそば"));
+//						}
+//					}
+//				}
+//			}
+//		}
 
 		//マネー初期登録
 		{
@@ -214,6 +214,7 @@ public class FieldLogic extends GameLogic {
 			ms.addMoneyType(I18N.get("スレラマー旧硬貨"));
 			ms.addMoneyType(I18N.get("ミシメ旧硬貨"));
 		}
+		OperationInfo.getInstance().set(OperationInfo.AvalableInput.決定, OperationInfo.AvalableInput.移動上下, OperationInfo.AvalableInput.メニュー, OperationInfo.AvalableInput.キャンセル, OperationInfo.AvalableInput.撮影);
 		loaded = true;
 	}
 	private FieldMap fieldMap;
@@ -234,11 +235,11 @@ public class FieldLogic extends GameLogic {
 	private InfoWindow infoWindow;
 	private boolean battle = false;
 	private FrameTimeCounter mapChangeWaitTime;
-
+	
 	@Override
 	public void dispose() {
 	}
-
+	
 	@Override
 	public void update(GameTimeManager gtm, InputState is) {
 		//テスト用
@@ -657,7 +658,7 @@ public class FieldLogic extends GameLogic {
 								}
 								break;
 						}
-
+						
 					} else if (bookWindow != null && bookWindow.isVisible()) {
 						//ブックウインドウの処理
 						bookWindow.update();
@@ -902,7 +903,7 @@ public class FieldLogic extends GameLogic {
 							}
 						}
 					}
-
+					
 				}
 				if (menu != null && menu.isVisible()) {
 					return;
@@ -913,7 +914,7 @@ public class FieldLogic extends GameLogic {
 				if (is.getGamePadState() != null) {
 					v = new KVector(is.getGamePadState().sticks.LEFT.getLocation(VehicleStorage.getInstance().getCurrentVehicle().getSpeed()));
 				}
-
+				
 				if (is.isPressed(GamePadButton.POV_LEFT, Keys.LEFT, InputType.CONTINUE) || is.isPressed(Keys.A, InputType.CONTINUE)) {
 					v.setAngle(FourDirection.WEST);
 					v.setSpeed(VehicleStorage.getInstance().getCurrentVehicle().getSpeed());
@@ -921,7 +922,7 @@ public class FieldLogic extends GameLogic {
 					v.setAngle(FourDirection.EAST);
 					v.setSpeed(VehicleStorage.getInstance().getCurrentVehicle().getSpeed());
 				}
-
+				
 				if (is.isPressed(GamePadButton.POV_UP, Keys.UP, InputType.CONTINUE) || is.isPressed(Keys.W, InputType.CONTINUE)) {
 					v.setAngle(FourDirection.NORTH);
 					v.setSpeed(VehicleStorage.getInstance().getCurrentVehicle().getSpeed());
@@ -932,13 +933,13 @@ public class FieldLogic extends GameLogic {
 				if (v.getSpeed() == 0f) {
 					break;
 				}
-
+				
 				fieldMap.setVector(v);
-
+				
 				fieldMap.move();
 				//PCの向き調整
 				PlayerCharacterSprite c = FieldMap.getPlayerCharacter().get(0);
-
+				
 				if (v.getSpeed() != 0 && fieldMap.getCamera().getMode() == FieldMapCameraMode.FOLLOW_TO_CENTER) {
 					c.updateAnimation();
 					c.to(v.round());
@@ -958,7 +959,7 @@ public class FieldLogic extends GameLogic {
 							));
 					stage++;
 				}
-
+				
 				break;
 			case 1:
 				if (fadeEffect.isEnded()) {
@@ -997,9 +998,9 @@ public class FieldLogic extends GameLogic {
 			default:
 				throw new AssertionError("undefined FL stage : " + stage);
 		}
-
+		
 	}
-
+	
 	@Override
 	public void draw(GraphicsContext g) {
 		fieldMap.draw(g);
@@ -1036,5 +1037,5 @@ public class FieldLogic extends GameLogic {
 			fadeEffect.draw(g);
 		}
 	}
-
+	
 }

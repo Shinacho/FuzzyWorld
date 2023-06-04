@@ -77,6 +77,7 @@ public class MusicRoomLogic extends GameLogic {
 		comment = new MessageWindow(240, 280, 442, 140, new SimpleMessageWindowModel(""));
 
 		soundNameSprite = new SoundNameSprite(380, 64);
+		OperationInfo.getInstance().set(OperationInfo.AvalableInput.決定, OperationInfo.AvalableInput.移動上下, OperationInfo.AvalableInput.開く, OperationInfo.AvalableInput.撮影, OperationInfo.AvalableInput.戻る);
 	}
 
 	@Override
@@ -102,7 +103,7 @@ public class MusicRoomLogic extends GameLogic {
 			mr.play();
 			soundNameSprite.setText(mr.getSelectedCachedSound().getFileName().replaceAll(".wav", ""));
 		}
-		if (is.isPressed(GamePadButton.X, Keys.O, InputType.SINGLE)) {
+		if (is.isPressed(GamePadButton.X, Keys.M, InputType.SINGLE)) {
 			try {
 				Runtime.getRuntime().exec("cmd /C start .\\resource\\bgm");
 			} catch (IOException ex) {
@@ -110,7 +111,7 @@ public class MusicRoomLogic extends GameLogic {
 			}
 		}
 		if (is.isPressed(GamePadButton.B, Keys.BACK_SPACE, InputType.SINGLE)) {
-			gls.changeTo(Const.LogicName.TITLE_LOGIC);
+			gls.changeTo(Const.LogicName.TITLE);
 		}
 		mr.update();
 		soundNameSprite.update();

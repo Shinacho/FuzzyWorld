@@ -47,6 +47,7 @@ import kinugasa.game.PlayerConstants;
 import kinugasa.game.input.GamePadButton;
 import kinugasa.game.input.InputType;
 import kinugasa.game.input.Keys;
+import kinugasa.game.system.ItemStorage;
 import kinugasa.game.system.Status;
 import kinugasa.game.ui.FontModel;
 import kinugasa.game.ui.SimpleMessageWindowModel;
@@ -89,6 +90,7 @@ public class GM extends GameManager {
 	private FPSLabel fps;
 	private TextLabelSprite loading;
 	private GameLogicStorage gls;
+	private OperationInfo operationInfoSprite = OperationInfo.getInstance();
 
 	@Override
 	protected void startUp() {
@@ -119,13 +121,13 @@ public class GM extends GameManager {
 		gls.add(new GameOverLogic(this));
 
 		//
-		gls.changeTo(Const.LogicName.SS_LOGIC);
-		getWindow().setTitle("Fuzzy World" + " -" + I18N.get("魔法使いと不死の秘術") + "-");
+		gls.changeTo(Const.LogicName.SS);
+		getWindow().setTitle("Fuzzy World" + " -" + I18N.get("金の円盤と魔法使いと不死の秘術") + "-");
 		getWindow().setIconImage(new ImageIcon(getClass().getResource("icon.png")).getImage());
 		//
 
-		//
-		for (int i = 0; i < Const.SAVE_DATA_NUM + 1; i++) {
+		//セーブデータ初期化
+		for (int i = 0; i < Const.Save.SAVE_DATA_NUM + 1; i++) {
 			String fileName = "resource/data/data" + i + ".mv.db";
 			File f = new File(fileName);
 			if (!f.exists()) {
@@ -155,10 +157,14 @@ public class GM extends GameManager {
 			kinugasa.game.GameLog.print("volume: BGM[" + volumeBgm + "] SE:[" + volumeSe + "]");
 		}
 		SoundStorage.getInstance().rebuild();
-//		GameLog.print("SOUND------");
-//		for (var s : SoundStorage.getInstance()) {
-//			GameLog.print(s + " / " + ((CachedSound) s).getBuilder());
-//		}
+		//
+		operationInfoSprite.set(OperationInfo.AvalableInput.決定, OperationInfo.AvalableInput.撮影);
+		//バッグに分類されるアイテムを追加
+		ItemStorage.bagItems.put("A4840", 3);
+		ItemStorage.bagItems.put("A4841", 4);
+		ItemStorage.bagItems.put("A4842", 2);
+		ItemStorage.bagItems.put("A4843", 5);
+
 	}
 
 	@Override
@@ -214,6 +220,7 @@ public class GM extends GameManager {
 	@Override
 	protected void draw(GraphicsContext gc) {
 		gls.getCurrent().draw(gc);
+		operationInfoSprite.draw(gc);
 		fps.draw(gc);
 		loading.draw(gc);
 	}
