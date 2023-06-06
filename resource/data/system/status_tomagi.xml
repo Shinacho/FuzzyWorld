@@ -70,8 +70,6 @@ THE SOFTWARE.
 	<attrIn key="EARTH" max="99" min="1" value="1" />
 	<attrIn key="LIGHT" max="99" min="1" value="1" />
 	<attrIn key="DARK" max="99" min="1" value="1" />
-	<attrIn key="HOLY" max="99" min="1" value="1" />
-	<attrIn key="EVIL" max="99" min="1" value="1" />
 	<attrIn key="MYSTERY" max="99" min="1" value="1" />
 	<attrIn key="ALCHEMY" max="99" min="1" value="1" />
 	<attrIn key="SPIRIT" max="99" min="1" value="1" />

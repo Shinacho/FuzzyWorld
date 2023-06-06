@@ -55,9 +55,7 @@ THE SOFTWARE.
 		<event order="218" fet="SET_ATTRIN" tgtName="0,EARTH" value="1" />
 		<event order="219" fet="SET_ATTRIN" tgtName="0,LIGHT" value="1" />
 		<event order="211" fet="SET_ATTRIN" tgtName="0,DARK" value="1" />
-		<event order="211" fet="SET_ATTRIN" tgtName="0,HOLY" value="1" />
 		<event order="212" fet="SET_ATTRIN" tgtName="0,MYSTERY" value="1" />
-		<event order="213" fet="SET_ATTRIN" tgtName="0,EVIL" value="1" />
 		<event order="214" fet="SET_ATTRIN" tgtName="0,NONE" value="1" />
 		<event order="215" fet="SET_ATTRIN" tgtName="0,ALCHEMY" value="1" />
 		<event order="216" fet="SET_ATTRIN" tgtName="0,SPIRIT" value="1" />

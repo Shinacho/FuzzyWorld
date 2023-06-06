@@ -28,8 +28,6 @@ import java.awt.Font;
 import java.awt.Graphics2D;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import kinugasa.game.GameLogic;
 import kinugasa.game.GameManager;
 import kinugasa.game.GameOption;
@@ -52,6 +50,7 @@ import kinugasa.object.FadeEffect;
 import kinugasa.resource.db.DBConnection;
 import kinugasa.resource.db.KResultSet;
 import kinugasa.resource.db.KSQLException;
+import kinugasa.resource.sound.Sound;
 import kinugasa.resource.sound.SoundStorage;
 
 /**
@@ -64,12 +63,16 @@ public class SaveDataSelectLogic extends GameLogic {
 	public SaveDataSelectLogic(GameManager gm) {
 		super(Const.LogicName.SAVE_DATA_SELECT, gm);
 	}
+	private Sound bgm;
 
 	@Override
+
 	public void load() {
 		//BGM処理
 		SoundStorage.getInstance().stopAll();;
-		SoundStorage.getInstance().get("SD0058").load().stopAndPlay();
+		bgm = SoundStorage.getInstance().get("SD0058").load();
+		bgm.stopAndPlay();
+		DBConnection.getInstance().close();
 
 		//セーブデータ選択窓の設定
 		mw = new MessageWindow(
@@ -87,7 +90,7 @@ public class SaveDataSelectLogic extends GameLogic {
 
 				KResultSet rs1 = DBConnection
 						.getInstance()
-						.execDirect("select q.TITLE, q.DESC from CurrentQuest c left join Quest q on c.QuestID=q.QuestID where c.Questid = 'main'");
+						.execDirect("select q.TITLE, q.DESC from S_CurrentQuest c left join Quest q on c.QuestID=q.QuestID where c.Questid = 'main'");
 				if (rs1.isEmpty()) {
 					s += " : ";
 					s += "    " + I18N.get("新規");
@@ -128,6 +131,7 @@ public class SaveDataSelectLogic extends GameLogic {
 					break;
 				}
 				if (is.isPressed(GamePadButton.A, Keys.ENTER, InputType.SINGLE)) {
+					OperationInfo.getInstance().set(OperationInfo.AvalableInput.決定, OperationInfo.AvalableInput.撮影);
 					SoundStorage.getInstance().get("SD1003").load().stopAndPlay();
 					stage++;
 					break;
@@ -152,7 +156,7 @@ public class SaveDataSelectLogic extends GameLogic {
 
 							KResultSet rs1 = DBConnection
 									.getInstance()
-									.execDirect("select q.TITLE from CurrentQuest c left join Quest q on c.QuestID=q.QuestID where c.Questid = 'main'");
+									.execDirect("select q.TITLE from S_CurrentQuest c left join Quest q on c.QuestID=q.QuestID where c.Questid = 'main'");
 							if (rs1.isEmpty()) {
 								s += " : ";
 								s += "    " + I18N.get("新規");
@@ -193,7 +197,6 @@ public class SaveDataSelectLogic extends GameLogic {
 									new FadeCounter(255, 0)));
 					stage++;
 				}
-				Const.LOADING = true;
 				break;
 			case 3:
 				int selected = mw.getSelect() + 1;
@@ -202,18 +205,17 @@ public class SaveDataSelectLogic extends GameLogic {
 				DBConnection.getInstance().open("file:./resource/data/data" + selected, "sa", "adm");
 				KResultSet rs1 = DBConnection
 						.getInstance()
-						.execDirect("select q.TITLE, q.DESC from CurrentQuest c left join Quest q on c.QuestID=q.QuestID where c.Questid = 'main'");
+						.execDirect("select q.TITLE, q.DESC from S_CurrentQuest c left join Quest q on c.QuestID=q.QuestID where c.Questid = 'main'");
 				if (rs1.isEmpty()) {
 					//新規
 					//SD1003以外をいったん破棄
-					SoundStorage.getInstance().filter(p -> !p.getName().contains("SD1003")).forEach(p -> p.dispose());
+					bgm.dispose();
+					SoundStorage.getInstance().filter(p -> !p.getName().equals("SD1003")).forEach(p -> p.dispose());
 					Const.Chapter.currentI18NKey = "序部";
 					Const.Chapter.currentSubTitleI18NKey = "戯れの介入";
 					Const.Chapter.nextLogic = Const.LogicName.OP;
-					SoundStorage.getInstance().stopAll();
-					SoundStorage.getInstance().dispose();
-					//初期データ投入
-					DBConnection.getInstance().execByFile("resource/data/sql/readData.sql");
+//					SoundStorage.getInstance().stopAll();
+//					SoundStorage.getInstance().dispose();
 					gls.changeTo(Const.LogicName.CHAPTER_TITLE);
 					return;
 				} else {

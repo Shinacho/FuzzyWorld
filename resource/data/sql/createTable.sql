@@ -122,10 +122,10 @@ val float
 
 create table EqipTerm(
 ItemID varchar(8),
-typ varchar(16),
+type varchar(16),
 targetName varchar(16),
 val float,
-primary key(ItemID, typ, targetName, val)
+primary key(ItemID, type, targetName, val)
 );
 
 create table Action_ActionTerm(
@@ -136,13 +136,14 @@ primary key(ActionID,ActionTermID)
 
 create table ActionTerm(
 ActionTermID varchar(8) primary key,
-visibleName varchar(128),
 termType varchar(64),
-val varchar(64)
+val varchar(64),
+visibleName varchar(128)
 );
 
 create table Quest(
 QuestID varchar(8) primary key,
+type varchar(8),
 stage int,
 title varchar(32),
 desc varchar(256)

@@ -104,6 +104,7 @@ public class TitleLogic extends GameLogic {
 					}
 				})
 		);
+		SoundStorage.getInstance().filter(p -> !p.getName().equals("SD1002")).forEach(p -> p.dispose());
 		if (kinugasa.util.Random.percent(0.5f)) {
 			SoundStorage.getInstance().get("SD0026").load().play();
 		} else {

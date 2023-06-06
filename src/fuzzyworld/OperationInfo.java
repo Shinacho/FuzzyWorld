@@ -82,7 +82,9 @@ public class OperationInfo implements Drawable {
 
 	private OperationInfo() {
 		label = new TextLabelSprite("", new SimpleTextLabelModel(FontModel.DEFAULT.clone().setFontSize(12)),
-				8, Const.Screen.HEIGHT / GameOption.getInstance().getDrawSize() - 20, 0, 0);
+				8,
+				456,
+				0, 0);
 	}
 
 	private List<AvalableInput> list = new ArrayList<>();

@@ -27,6 +27,8 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import kinugasa.game.GameLogic;
 import kinugasa.game.GameManager;
 import kinugasa.game.GameTimeManager;
@@ -197,6 +199,14 @@ public class OPLogic extends GameLogic {
 				Const.Chapter.currentSubTitleI18NKey = "失踪と戦火";
 				Const.Chapter.nextLogic = Const.LogicName.FIELD;
 				gls.changeTo(Const.LogicName.CHAPTER_TITLE);
+				new Thread(() -> {
+					try {
+						Thread.sleep(500);
+						SoundStorage.getInstance().get("SD0009").load().stopAndPlay();
+					} catch (InterruptedException ex) {
+					}
+				},
+						"OP_BGM").start();
 				break;
 		}
 	}

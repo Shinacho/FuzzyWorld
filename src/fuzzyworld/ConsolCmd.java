@@ -873,7 +873,7 @@ public class ConsolCmd extends javax.swing.JFrame {
                         .addContainerGap())
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel1)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                        .addGap(753, 803, Short.MAX_VALUE))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -955,6 +955,15 @@ public class ConsolCmd extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+		if ("".equals(jTextField2.getText().trim())) {
+			String s = "一覧--------\r\n";
+			for (Book b : BookStorage.getInstance().asList()) {
+				s += b.getName() + "/" + b.getVisibleName() + "\r\n";
+			}
+			jTextArea2.setText(jTextArea2.getText() + s);
+			return;
+		}
+
 		String s = jTextField2.getText().trim() + " が含まれる本--------\r\n";
 		for (Book b : BookStorage.getInstance()) {
 			if (b.getName().contains(jTextField2.getText().trim())) {
@@ -1002,6 +1011,7 @@ public class ConsolCmd extends javax.swing.JFrame {
 				jTextArea2.setText(jTextArea2.getText() + "「" + jComboBox2.getSelectedItem() + "」はこれ以上本を持てない\r\n");
 			}
 		}
+		GameSystem.getInstance().getPartyStatus().forEach(p -> p.updateAction());
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed

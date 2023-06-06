@@ -66,8 +66,16 @@ import kinugasa.resource.sound.SoundStorage;
 public class GM extends GameManager {
 
 	public static void main(String[] args) {
+		if (args != null) {
+			if (args.length == 1) {
+				if (args[0].toLowerCase().equals("--initdb")) {
+
+				}
+			}
+		}
 		try {
-			new GM().gameStart();
+			GM gm = new GM();
+			gm.gameStart();
 		} catch (Throwable ex) {
 			kinugasa.game.GameLog.print(ex);
 		}
@@ -124,8 +132,6 @@ public class GM extends GameManager {
 		gls.changeTo(Const.LogicName.SS);
 		getWindow().setTitle("Fuzzy World" + " -" + I18N.get("金の円盤と魔法使いと不死の秘術") + "-");
 		getWindow().setIconImage(new ImageIcon(getClass().getResource("icon.png")).getImage());
-		//
-
 		//セーブデータ初期化
 		for (int i = 0; i < Const.Save.SAVE_DATA_NUM + 1; i++) {
 			String fileName = "resource/data/data" + i + ".mv.db";
@@ -139,6 +145,8 @@ public class GM extends GameManager {
 					if (i != 0) {
 						//CreateTable
 						DBConnection.getInstance().execByFile("resource/data/sql/createTable.sql");
+						//初期データ投入
+						DBConnection.getInstance().execByFile("resource/data/sql/readData.sql");
 					}
 					DBConnection.getInstance().close();
 				} catch (IOException ex) {
@@ -146,6 +154,7 @@ public class GM extends GameManager {
 				}
 			}
 		}
+
 		//0(BGMのみ)を仮で開く
 		DBConnection.getInstance().open("file:./resource/data/data" + 0, "sa", "adm");
 		SoundVolumeForm volumeForm = SoundVolumeForm.getInstance();
@@ -159,6 +168,7 @@ public class GM extends GameManager {
 		SoundStorage.getInstance().rebuild();
 		//
 		operationInfoSprite.set(OperationInfo.AvalableInput.決定, OperationInfo.AvalableInput.撮影);
+		
 		//バッグに分類されるアイテムを追加
 		ItemStorage.bagItems.put("A4840", 3);
 		ItemStorage.bagItems.put("A4841", 4);

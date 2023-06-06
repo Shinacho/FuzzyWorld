@@ -25,13 +25,10 @@ package fuzzyworld;
 
 import java.awt.GraphicsEnvironment;
 import java.awt.Point;
-import java.beans.PropertyChangeEvent;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.StandardCopyOption;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.ImageIcon;
 import kinugasa.game.I18N;
 import kinugasa.game.ui.Dialog;
@@ -74,7 +71,7 @@ public class SaveDataManageForm extends javax.swing.JFrame {
 				DBConnection.getInstance().open("file:./resource/data/data" + n, "sa", "adm");
 				KResultSet rs1 = DBConnection
 						.getInstance()
-						.execDirect("select q.TITLE, q.DESC from CurrentQuest c left join Quest q on c.QuestID=q.QuestID where c.Questid = 'main'");
+						.execDirect("select q.TITLE, q.DESC from S_CurrentQuest c left join Quest q on c.QuestID=q.QuestID where c.Questid = 'main'");
 				if (rs1.isEmpty()) {
 					jTextArea1.setText(I18N.get("新規"));
 				} else {
@@ -217,6 +214,8 @@ public class SaveDataManageForm extends javax.swing.JFrame {
 				//Sound
 				DBConnection.getInstance().execByFile("resource/data/sql/insertSound.sql");
 				DBConnection.getInstance().execByFile("resource/data/sql/createTable.sql");
+				//初期データ投入
+				DBConnection.getInstance().execByFile("resource/data/sql/readData.sql");
 				DBConnection.getInstance().close();
 
 				Dialog.info(fileNameFrom + "\n" + I18N.get("削除完了"));
@@ -239,7 +238,7 @@ public class SaveDataManageForm extends javax.swing.JFrame {
 		DBConnection.getInstance().open("file:./resource/data/" + fileNameFrom.replaceAll(".mv.db", ""), "sa", "adm");
 		KResultSet rs1 = DBConnection
 				.getInstance()
-				.execDirect("select q.TITLE, q.DESC from CurrentQuest c left join Quest q on c.QuestID=q.QuestID where c.Questid = 'main'");
+				.execDirect("select q.TITLE, q.DESC from S_CurrentQuest c left join Quest q on c.QuestID=q.QuestID where c.Questid = 'main'");
 		if (rs1.isEmpty()) {
 			jTextArea1.setText(I18N.get("新規"));
 		} else {
