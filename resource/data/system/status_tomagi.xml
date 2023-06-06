@@ -70,8 +70,6 @@ THE SOFTWARE.
 	<attrIn key="EARTH" max="99" min="1" value="1" />
 	<attrIn key="LIGHT" max="99" min="1" value="1" />
 	<attrIn key="DARK" max="99" min="1" value="1" />
-	<attrIn key="HOLY" max="99" min="1" value="1" />
-	<attrIn key="EVIL" max="99" min="1" value="1" />
 	<attrIn key="MYSTERY" max="99" min="1" value="1" />
 	<attrIn key="ALCHEMY" max="99" min="1" value="1" />
 	<attrIn key="SPIRIT" max="99" min="1" value="1" />
@@ -95,14 +93,14 @@ THE SOFTWARE.
 
 
 	
-	<eqip name="堅木の山杖" />
-	<eqip name="行商人の服" />
-	<eqip name="木綿の手拭" />
-	<eqip name="草履" />
+	<eqip name="A4082" />
+	<eqip name="A4163" />
+	<eqip name="A4175" />
+	<eqip name="A4902" />
 	
 	
-	<item name="そば団子" />
-	<item name="そば団子" />
+	<item name="A4006" />
+	<item name="A4006" />
 	
 	
 	

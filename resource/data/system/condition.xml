@@ -98,9 +98,6 @@ THE SOFTWARE.
 		<effect ect="CONTINUE" time="25/25" ett="STOP" p="0.8" />
 	</condition>
 	
-	<condition name="SLEEP" desc="睡眠" pri="50">
-		<effect ect="CONTINUE" time="10/50" ett="STOP" p="1" />
-	</condition>
 	
 	<condition name="PARALYS" desc="麻痺" pri="60">
 		<effect ect="CONTINUE" time="10/50" ett="STOP" p="0.25" />

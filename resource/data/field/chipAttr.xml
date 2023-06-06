@@ -24,6 +24,7 @@ THE SOFTWARE.
 -->
 
 <kinugasaChipAttribute>
+	<!-- NoTranslate...These are internal keys and do not need to be translated. -->
 	<attribute name="平地" encountBaseValue="2"/>
 	<attribute name="草原" encountBaseValue="2"/>
 	<attribute name="都市" encountBaseValue="0"/>

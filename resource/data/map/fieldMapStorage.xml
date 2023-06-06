@@ -24,6 +24,10 @@ THE SOFTWARE.
 -->
 
 <kinugasaFieldMapBuilder>
+
+	<!-- ☆An I18N key corresponding to the name in fieldMap is required. -->
+	<!-- ex: M001=Room -->
+
 	<!-- 部屋 -->
     <fieldMap name="M001" data="resource/data/map/M001.xml"/>
 	

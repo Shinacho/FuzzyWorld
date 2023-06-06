@@ -25,6 +25,7 @@ THE SOFTWARE.
 
 <kinugasaVehicle>
     <vehicle name="WALK" speed="2.5f">
+		<!-- NoTranslate...These are internal keys and do not need to be translated. -->
 		<stepOn name="平地"/>
 		<stepOn name="草原"/>
 		<stepOn name="都市"/>

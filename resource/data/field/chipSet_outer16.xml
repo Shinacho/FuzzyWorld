@@ -25,6 +25,7 @@ THE SOFTWARE.
 
 <kinugasaChipSet>
 
+	<!-- NoTranslate...These are internal keys and do not need to be translated. -->
     <chipSet name="outer16.png" image="resource/image/outer16.png" cutWidth="16" cutHeight="16">
 		<mapChip name="000000" attribute="CLOSE"/>
 		<mapChip name="000001" attribute="浅瀬"/>

@@ -24,7 +24,7 @@ THE SOFTWARE.
 -->
 <kinugasaFielEventScript undead="false">
 
-	<term name="M004_E08_FLG_NOT_EXISTS" ett="NO_EXISTS_FLG" stName="STORY" tgtName="M004_E08" value="" />
+	<term name="M004_E08_FLG_NOT_EXISTS" ett="NO_EXISTS_FLG" stName="" tgtName="M004_E08" value="" />
 
 	<event order="0" fet="IF" stName="" tgtName="" value="" term="M004_E08_FLG_NOT_EXISTS"/>
 		<event order="1" fet="DISABLE_OPERATION" stName="" tgtName="" value="" term="" />
@@ -33,6 +33,7 @@ THE SOFTWARE.
 
 		<event order="100" fet="WAIT" stName="" tgtName="" value="50" term=""/>
 		<event order="150" fet="NPC_DIR_TO" stName="" tgtName="NPC02" value="EAST" term="" />
+		<!-- NeedTranslate -->
 		<event order="200" fet="SHOW_MESSAGE_DIRECT" stName="" tgtName="" value="トマギ「よし、それじゃあ行こう。街道から外れるなよ。野盗やらが出るからな。/" term="" />
 
 		<event order="220" fet="NPC_REMOVE" stName="" tgtName="NPC02" value="" term="" />
@@ -42,7 +43,7 @@ THE SOFTWARE.
 
 		<event order="999" fet="ENABLE_OPERATION" stName="" tgtName="" value="" term="" />
 
-		<event order="2500" fet="SET_FLG_DIRECT" stName="STORY" tgtName="M004_E08" value="ON" term="" />
+		<event order="2500" fet="SET_FLG_DIRECT" stName="" tgtName="M004_E08" value="ON" term="" />
 	
 	<event order="3000" fet="END_IF" stName="" tgtName="" value="" term=""/>
 

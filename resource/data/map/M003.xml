@@ -32,8 +32,8 @@ THE SOFTWARE.
 	<event name="E_06" x="2" y="2" script="resource/data/event/E006.xml" />
 	<event name="E_043" x="1" y="2" script="resource/data/event/E004.xml" />
 	
-	
-	<inOutNode name="ND_03_0001" x="1" y="10" tgtMap="M004" exitNode="ND_04_0001" tooltip="外へ" accepterName="TRUE" outDir="SOUTH" se="SE/足音.wav"/>
+																				<!-- @NeedTranslate -->
+	<inOutNode name="ND_03_0001" x="1" y="10" tgtMap="M004" exitNode="ND_04_0001" tooltip="外へ" accepterName="TRUE" outDir="SOUTH" se="SD1010"/>
 
 	<npc name="NPC02" initialIdx="8,2" NPCMoveModel="NOT_MOVE" image="resource/image/c3.png" s="0,32,32" w="96,32,32" e="64,32,32" n="32,32,32" frame="14" initialDir="EAST"/>
 

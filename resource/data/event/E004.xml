@@ -25,7 +25,9 @@ THE SOFTWARE.
 <kinugasaFielEventScript undead="true">
 
 	<event order="100" fet="MANUAL_EVENT" stName="" tgtName="" value="" term="" />
+	<!-- NeedTranslate -->
 	<event order="110" fet="SHOW_MESSAGE_DIRECT" stName="" tgtName="" value="!PC1は棚を調べた" term="" />
+	<!-- NeedTranslate -->
 	<event order="123" fet="SHOW_MESSAGE_DIRECT" stName="" tgtName="" value="漁の道具などが置いてある。有用な物はなにも見つからなかった。" term="" />
 	<event order="400" fet="END_AND_RESET_EVENT" stName="" tgtName="" value="" term="" />
 
