@@ -232,9 +232,8 @@ create table S_MaterialBag(
 MaterialID varchar(8) primary key,
 num int
 );
-
 create table S_PageBag(
-PageID varchar(8) primary key,
+ActionEventID varchar(8) primary key,
 num int
 );
 
@@ -265,7 +264,7 @@ targetType varchar(16),
 parameterType varchar(16),
 targetName varchar(16),
 attr varchar(16),
-val int,
+val float,
 p float,
 spread float,
 dct varchar(32),
@@ -311,20 +310,6 @@ create table Condition_ConditionEffect(
 conditionID varchar(24),
 ConditionEffectID varchar(24),
 primary key(ConditionID, conditionEffectID)
-);
-
-create table Page(
-PageID varchar(8) primary key,
-MagicCompositeType varchar(32),
-visibleName varchar(32),
-targetName varchar(16),
-val float
-);
-
-create table Book_Page(
-BookID varchar(8),
-PageID varchar(8),
-primary key(BookID,PageID)
 );
 
 create table Book(

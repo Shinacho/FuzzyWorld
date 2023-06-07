@@ -25,6 +25,7 @@ package fuzzyworld;
 
 import java.awt.GraphicsEnvironment;
 import java.awt.Point;
+import java.awt.event.ActionEvent;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -36,8 +37,6 @@ import kinugasa.game.system.AttributeKey;
 import kinugasa.game.system.AttributeKeyStorage;
 import kinugasa.game.system.AttributeValue;
 import kinugasa.game.system.Book;
-import kinugasa.game.system.Page;
-import kinugasa.game.system.PageStorage;
 import kinugasa.game.system.BookStorage;
 import kinugasa.game.system.ConditionKey;
 import kinugasa.game.system.Flag;
@@ -78,6 +77,7 @@ public class ConsolCmd extends javax.swing.JFrame {
 			jComboBox1.addItem(s.getName());
 			jComboBox2.addItem(s.getName());
 			jComboBox3.addItem(s.getName());
+			jComboBox6.addItem(s.getName());
 		}
 		Point center = GraphicsEnvironment.getLocalGraphicsEnvironment().getCenterPoint();
 		center.x -= getWidth() / 2;
@@ -140,16 +140,6 @@ public class ConsolCmd extends javax.swing.JFrame {
         jScrollPane2 = new javax.swing.JScrollPane();
         jTextArea2 = new javax.swing.JTextArea();
         jButton20 = new javax.swing.JButton();
-        jPanel3 = new javax.swing.JPanel();
-        jLayeredPane3 = new javax.swing.JLayeredPane();
-        jLabel6 = new javax.swing.JLabel();
-        jTextField3 = new javax.swing.JTextField();
-        jButton10 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
-        jButton12 = new javax.swing.JButton();
-        jButton13 = new javax.swing.JButton();
-        jScrollPane3 = new javax.swing.JScrollPane();
-        jTextArea3 = new javax.swing.JTextArea();
         jPanel4 = new javax.swing.JPanel();
         jLayeredPane4 = new javax.swing.JLayeredPane();
         jLabel7 = new javax.swing.JLabel();
@@ -179,6 +169,11 @@ public class ConsolCmd extends javax.swing.JFrame {
         jButton21 = new javax.swing.JButton();
         jScrollPane7 = new javax.swing.JScrollPane();
         jTextArea7 = new javax.swing.JTextArea();
+        jPanel3 = new javax.swing.JPanel();
+        jComboBox6 = new javax.swing.JComboBox<>();
+        jLabel10 = new javax.swing.JLabel();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        jTextArea3 = new javax.swing.JTextArea();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Fuzzy World");
@@ -255,8 +250,6 @@ public class ConsolCmd extends javax.swing.JFrame {
         jTabbedPane1.addTab("util", jLayeredPane1);
 
         jLabel2.setText("アイテム名");
-
-        jTextField1.setText("そば団子");
 
         jLabel3.setText("ターゲット");
 
@@ -350,8 +343,6 @@ public class ConsolCmd extends javax.swing.JFrame {
         jTabbedPane1.addTab("add item", jPanel1);
 
         jLabel4.setText("本の名前");
-
-        jTextField2.setText("魔術の書「破壊光線」");
 
         jLabel5.setText("ターゲット");
 
@@ -484,112 +475,7 @@ public class ConsolCmd extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("add book", jPanel2);
 
-        jLabel6.setText("ページ名");
-
-        jTextField3.setText("状態異常時間変更の術式(消滅,-1)");
-
-        jButton10.setText("検索");
-        jButton10.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton10ActionPerformed(evt);
-            }
-        });
-
-        jButton11.setText("詳細");
-        jButton11.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton11ActionPerformed(evt);
-            }
-        });
-
-        jButton12.setText("ランダム");
-        jButton12.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton12ActionPerformed(evt);
-            }
-        });
-
-        jButton13.setText("追加");
-        jButton13.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton13ActionPerformed(evt);
-            }
-        });
-
-        jTextArea3.setColumns(20);
-        jTextArea3.setRows(5);
-        jScrollPane3.setViewportView(jTextArea3);
-
-        jLayeredPane3.setLayer(jLabel6, javax.swing.JLayeredPane.DEFAULT_LAYER);
-        jLayeredPane3.setLayer(jTextField3, javax.swing.JLayeredPane.DEFAULT_LAYER);
-        jLayeredPane3.setLayer(jButton10, javax.swing.JLayeredPane.DEFAULT_LAYER);
-        jLayeredPane3.setLayer(jButton11, javax.swing.JLayeredPane.DEFAULT_LAYER);
-        jLayeredPane3.setLayer(jButton12, javax.swing.JLayeredPane.DEFAULT_LAYER);
-        jLayeredPane3.setLayer(jButton13, javax.swing.JLayeredPane.DEFAULT_LAYER);
-        jLayeredPane3.setLayer(jScrollPane3, javax.swing.JLayeredPane.DEFAULT_LAYER);
-
-        javax.swing.GroupLayout jLayeredPane3Layout = new javax.swing.GroupLayout(jLayeredPane3);
-        jLayeredPane3.setLayout(jLayeredPane3Layout);
-        jLayeredPane3Layout.setHorizontalGroup(
-            jLayeredPane3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jLayeredPane3Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jLayeredPane3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jScrollPane3)
-                    .addGroup(jLayeredPane3Layout.createSequentialGroup()
-                        .addComponent(jLabel6)
-                        .addGap(18, 18, Short.MAX_VALUE)
-                        .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 723, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jLayeredPane3Layout.createSequentialGroup()
-                        .addComponent(jButton10)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton11)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton12)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addGap(28, 28, 28))
-        );
-        jLayeredPane3Layout.setVerticalGroup(
-            jLayeredPane3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jLayeredPane3Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jLayeredPane3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel6)
-                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jLayeredPane3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton10)
-                    .addGroup(jLayeredPane3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jButton12)
-                        .addComponent(jButton11)
-                        .addComponent(jButton13)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 238, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLayeredPane3)
-                .addContainerGap())
-        );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLayeredPane3)
-                .addContainerGap())
-        );
-
-        jTabbedPane1.addTab("add page", jPanel3);
-
         jLabel7.setText("素材の名前");
-
-        jTextField5.setText("やさぐれメタルのかけら");
 
         jButton15.setText("検索");
         jButton15.addActionListener(new java.awt.event.ActionListener() {
@@ -861,6 +747,46 @@ public class ConsolCmd extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("status, attrin", jPanel7);
 
+        jComboBox6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox6ActionPerformed(evt);
+            }
+        });
+
+        jLabel10.setText("ターゲット");
+
+        jTextArea3.setColumns(20);
+        jTextArea3.setRows(5);
+        jScrollPane3.setViewportView(jTextArea3);
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane3)
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addComponent(jLabel10)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jComboBox6, 0, 817, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel10)
+                    .addComponent(jComboBox6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 284, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+
+        jTabbedPane1.addTab("Action", jPanel3);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -888,33 +814,180 @@ public class ConsolCmd extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-		// TODO add your handling code here:
-		if (!ItemStorage.getInstance().contains(jTextField1.getText().trim())) {
-			jTextArea1.setText(jTextArea1.getText() + "「" + jTextField1.getText().trim() + "」というアイテムはない\r\n");
+    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+		Status s = GameSystem.getInstance().getPartyStatus().get(jComboBox3.getSelectedIndex());
+		float val = Float.parseFloat(jSpinner1.getValue().toString());
+		if (jComboBox4.getSelectedItem().equals("STATUS")) {
+			StatusValue v = s.getBaseStatus().get(jComboBox5.getSelectedItem().toString());
+			v.set(val);
+		} else {
+			AttributeValue v = s.getBaseAttrIn().get(jComboBox5.getSelectedItem().toString());
+			v.set(val);
+		}
+		jTextArea7.setText(jTextArea7.getText() + s.getName() + "のステータスを変更した" + "\r\n");
+    }//GEN-LAST:event_jButton21ActionPerformed
+
+    private void jComboBox5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox5ActionPerformed
+		if (jComboBox5.getSelectedItem() == null) {
 			return;
 		}
-		Item i = ItemStorage.getInstance().get(jTextField1.getText().trim());
-		int idx = jComboBox1.getSelectedIndex();
-		if (jCheckBox1.isSelected()) {
-			GameSystem.getInstance().getPartyStatus().get(idx).getItemBag().add(i);
-			jTextArea1.setText(jTextArea1.getText() + "「" + jTextField1.getText().trim() + "」を「" + jComboBox1.getSelectedItem() + "」に追加した\r\n");
+		if (jComboBox5.getSelectedItem().toString().isEmpty()) {
+			return;
+		}
+		if (jComboBox4.getSelectedItem() == null) {
+			return;
+		}
+		Status s = GameSystem.getInstance().getPartyStatus().get(jComboBox3.getSelectedIndex());
+		if (jComboBox4.getSelectedItem().equals("STATUS")) {
+			StatusValue v = s.getBaseStatus().get(jComboBox5.getSelectedItem().toString());
+			jSpinner1.setModel(new SpinnerNumberModel(0, v.getMin(), v.getMax(), v.getMax() == 1f ? 0.01f : 1));
+			jSpinner1.setValue(v.getValue());
 		} else {
-			if (GameSystem.getInstance().getPartyStatus().get(idx).getItemBag().canAdd()) {
-				GameSystem.getInstance().getPartyStatus().get(idx).getItemBag().add(i);
-				jTextArea1.setText(jTextArea1.getText() + "「" + jTextField1.getText().trim() + "」を「" + jComboBox1.getSelectedItem() + "」に追加した\r\n");
-			} else {
-				jTextArea1.setText(jTextArea1.getText() + "「" + jComboBox1.getSelectedItem() + "」はこれ以上物を持てない\r\n");
+			AttributeValue v = s.getBaseAttrIn().get(jComboBox5.getSelectedItem().toString());
+			jSpinner1.setModel(new SpinnerNumberModel(0, v.getMin(), v.getMax(), v.getMax() == 1f ? 0.01f : 1));
+			jSpinner1.setValue(v.getValue());
+		}
+    }//GEN-LAST:event_jComboBox5ActionPerformed
+
+    private void jComboBox4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox4ActionPerformed
+		jComboBox5.removeAllItems();
+		if (jComboBox4.getSelectedItem().equals("STATUS")) {
+			for (StatusKey s : StatusKeyStorage.getInstance()) {
+				jComboBox5.addItem(s.getName());
+			}
+		} else {
+			for (AttributeKey s : AttributeKeyStorage.getInstance()) {
+				jComboBox5.addItem(s.getName());
 			}
 		}
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_jComboBox4ActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-		// TODO add your handling code here:
-		GameSystem.setDebugMode(jCheckBox2.isSelected());
-		FieldMap.setDebugMode(jCheckBox3.isSelected());
+    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+		jTextArea6.setText("登録されているフラグの一覧----------------------------\r\n");
+		for (Flag f : FlagStorage.getInstance()) {
+			jTextArea6.setText(jTextArea6.getText() + f + "\r\n");
+		}
+    }//GEN-LAST:event_jButton19ActionPerformed
 
-    }//GEN-LAST:event_jButton2ActionPerformed
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+		jTextArea5.setText("登録されているクエストラインの一覧----------------------------\r\n");
+		for (Quest q : QuestStorage.getInstance()) {
+			jTextArea5.setText(jTextArea5.getText() + q + "\r\n");
+		}
+    }//GEN-LAST:event_jButton18ActionPerformed
+
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+		if (!MaterialStorage.getInstance().contains(jTextField5.getText().trim())) {
+			jTextArea4.setText(jTextArea4.getText() + "「" + jTextField5.getText().trim() + "」という素材はストレージにない\r\n");
+		}
+		Material i = MaterialStorage.getInstance().get(jTextField5.getText().trim());
+		GameSystem.getInstance().getMaterialBag().add(i);
+		jTextArea4.setText(jTextArea4.getText() + "「" + jTextField5.getText().trim() + "」を追加した\r\n");
+    }//GEN-LAST:event_jButton17ActionPerformed
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+		Material i = MaterialStorage.getInstance().random();
+		jTextField5.setText(i.getName());
+		jButton17.doClick();;
+    }//GEN-LAST:event_jButton16ActionPerformed
+
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+		for (Material i : MaterialStorage.getInstance()) {
+			if (i.getName().contains(jTextField5.getText().trim())) {
+				jTextArea4.setText(jTextArea4.getText() + i.getName() + "\r\n");
+			}
+		}
+    }//GEN-LAST:event_jButton15ActionPerformed
+
+    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
+		String s = jTextField2.getText().trim() + " が詳細に"
+				+ "含まれる本--------\r\n";
+		for (Book b : BookStorage.getInstance()) {
+			if (b.getDesc().contains(jTextField2.getText().trim())) {
+				s += b.getName() + "\r\n";
+			}
+		}
+		jTextArea2.setText(jTextArea2.getText() + s);
+    }//GEN-LAST:event_jButton20ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+		if (!BookStorage.getInstance().contains(jTextField2.getText().trim())) {
+			jTextArea2.setText(jTextArea2.getText() + "「" + jTextField2.getText().trim() + "」という本はストレージにない\r\n");
+			return;
+		}
+		Book b = BookStorage.getInstance().get(jTextField2.getText().trim());
+		int idx = jComboBox2.getSelectedIndex();
+		if (jCheckBox2.isSelected()) {
+			GameSystem.getInstance().getPartyStatus().get(idx).getBookBag().add(b);
+			jTextArea2.setText(jTextArea2.getText() + "「" + jTextField2.getText().trim() + "」を「" + jComboBox2.getSelectedItem() + "」に追加した\r\n");
+		} else {
+			if (GameSystem.getInstance().getPartyStatus().get(idx).getBookBag().canAdd()) {
+				GameSystem.getInstance().getPartyStatus().get(idx).getBookBag().add(b);
+				jTextArea2.setText(jTextArea2.getText() + "「" + jTextField2.getText().trim() + "」を「" + jComboBox2.getSelectedItem() + "」に追加した\r\n");
+			} else {
+				jTextArea2.setText(jTextArea2.getText() + "「" + jComboBox2.getSelectedItem() + "」はこれ以上本を持てない\r\n");
+			}
+		}
+		GameSystem.getInstance().getPartyStatus().forEach(p -> p.updateAction());
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+		jTextField2.setText(BookStorage.getInstance().random().getName());
+		jButton9.doClick();
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+		if (!BookStorage.getInstance().contains(jTextField2.getText().trim())) {
+			jTextArea2.setText(jTextArea2.getText() + "「" + jTextField2.getText().trim() + "」という本はストレージにない\r\n");
+			return;
+		}
+		Book b = BookStorage.getInstance().get(jTextField2.getText().trim());
+		jTextArea2.setText(b.getName() + "の詳細---------\r\n");
+		jTextArea2.setText(jTextArea2.getText() + "DESC:" + b.getDesc() + "\r\n");
+		jTextArea2.setText(jTextArea2.getText() + b.getName() + "pages---\r\n");
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+		if ("".equals(jTextField2.getText().trim())) {
+			String s = "一覧--------\r\n";
+			for (Book b : BookStorage.getInstance().asList()) {
+				s += b.getName() + "/" + b.getVisibleName() + "\r\n";
+			}
+			jTextArea2.setText(jTextArea2.getText() + s);
+			return;
+		}
+
+		String s = jTextField2.getText().trim() + " が含まれる本--------\r\n";
+		for (Book b : BookStorage.getInstance()) {
+			if (b.getVisibleName().contains(jTextField2.getText().trim())) {
+				s += b.getName() + ":" + b.getVisibleName() + "\r\n";
+			}
+		}
+		jTextArea2.setText(jTextArea2.getText() + s);
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+		if (jTextField1.getText().trim().equals("")) {
+			String s = "";
+			for (Item i : ItemStorage.getInstance()) {
+				s += i.getName() + ":" + i.getVisibleName() + "\r\n";
+			}
+			jTextArea1.setText(jTextArea1.getText() + s);
+			return;
+		}
+		String s = jTextField1.getText().trim() + " が含まれるアイテム---------\r\n";
+		for (Item i : ItemStorage.getInstance()) {
+			if (i.getVisibleName().contains(jTextField1.getText().trim())) {
+				s += i.getName() + ":" + i.getVisibleName() + "\r\n";
+			}
+		}
+		jTextArea1.setText(jTextArea1.getText() + s);
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+		jTextField1.setText(ItemStorage.getInstance().random().getName());
+		jButton1.doClick();
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
 		if (!ItemStorage.getInstance().contains(jTextField1.getText().trim())) {
@@ -940,120 +1013,28 @@ public class ConsolCmd extends javax.swing.JFrame {
 		jTextArea1.setText(jTextArea1.getText() + "CAN_UPGRADE:" + i.canUpgrade() + "\r\n");
 		jTextArea1.setText(jTextArea1.getText() + "CURRENT_UPGRADE:" + i.getCurrentUpgrade() + "\r\n");
 		jTextArea1.setText(jTextArea1.getText() + "UPGRADE:" + i.getUpgradeMaterials() + "\r\n");
-
-
     }//GEN-LAST:event_jButton3ActionPerformed
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-		String s = jTextField1.getText().trim() + " が含まれるアイテム---------\r\n";
-		for (Item i : ItemStorage.getInstance()) {
-			if (i.getName().contains(jTextField1.getText().trim())) {
-				s += i.getName() + "\r\n";
-			}
-		}
-		jTextArea1.setText(jTextArea1.getText() + s);
-    }//GEN-LAST:event_jButton5ActionPerformed
-
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-		if ("".equals(jTextField2.getText().trim())) {
-			String s = "一覧--------\r\n";
-			for (Book b : BookStorage.getInstance().asList()) {
-				s += b.getName() + "/" + b.getVisibleName() + "\r\n";
-			}
-			jTextArea2.setText(jTextArea2.getText() + s);
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+		// TODO add your handling code here:
+		if (!ItemStorage.getInstance().contains(jTextField1.getText().trim())) {
+			jTextArea1.setText(jTextArea1.getText() + "「" + jTextField1.getText().trim() + "」というアイテムはない\r\n");
 			return;
 		}
-
-		String s = jTextField2.getText().trim() + " が含まれる本--------\r\n";
-		for (Book b : BookStorage.getInstance()) {
-			if (b.getName().contains(jTextField2.getText().trim())) {
-				s += b.getName() + "\r\n";
-			}
-		}
-		jTextArea2.setText(jTextArea2.getText() + s);
-    }//GEN-LAST:event_jButton6ActionPerformed
-
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-		if (!BookStorage.getInstance().contains(jTextField2.getText().trim())) {
-			jTextArea2.setText(jTextArea2.getText() + "「" + jTextField2.getText().trim() + "」という本はストレージにない\r\n");
-			return;
-		}
-		Book b = BookStorage.getInstance().get(jTextField2.getText().trim());
-		jTextArea2.setText(b.getName() + "の詳細---------\r\n");
-		jTextArea2.setText(jTextArea2.getText() + "DESC:" + b.getDesc() + "\r\n");
-		jTextArea2.setText(jTextArea2.getText() + b.getName() + "pages---\r\n");
-		for (Page p : b.getPages()) {
-			jTextArea2.setText(jTextArea2.getText() + p + "\r\n");
-		}
-
-    }//GEN-LAST:event_jButton7ActionPerformed
-
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-		jTextField2.setText(BookStorage.getInstance().random().getName());
-		jButton9.doClick();
-    }//GEN-LAST:event_jButton8ActionPerformed
-
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-		if (!BookStorage.getInstance().contains(jTextField2.getText().trim())) {
-			jTextArea2.setText(jTextArea2.getText() + "「" + jTextField2.getText().trim() + "」という本はストレージにない\r\n");
-			return;
-		}
-		Book b = BookStorage.getInstance().get(jTextField2.getText().trim());
-		int idx = jComboBox2.getSelectedIndex();
-		if (jCheckBox2.isSelected()) {
-			GameSystem.getInstance().getPartyStatus().get(idx).getBookBag().add(b);
-			jTextArea2.setText(jTextArea2.getText() + "「" + jTextField2.getText().trim() + "」を「" + jComboBox2.getSelectedItem() + "」に追加した\r\n");
+		Item i = ItemStorage.getInstance().get(jTextField1.getText().trim());
+		int idx = jComboBox1.getSelectedIndex();
+		if (jCheckBox1.isSelected()) {
+			GameSystem.getInstance().getPartyStatus().get(idx).getItemBag().add(i);
+			jTextArea1.setText(jTextArea1.getText() + "「" + jTextField1.getText().trim() + "」を「" + jComboBox1.getSelectedItem() + "」に追加した\r\n");
 		} else {
-			if (GameSystem.getInstance().getPartyStatus().get(idx).getBookBag().canAdd()) {
-				GameSystem.getInstance().getPartyStatus().get(idx).getBookBag().add(b);
-				jTextArea2.setText(jTextArea2.getText() + "「" + jTextField2.getText().trim() + "」を「" + jComboBox2.getSelectedItem() + "」に追加した\r\n");
+			if (GameSystem.getInstance().getPartyStatus().get(idx).getItemBag().canAdd()) {
+				GameSystem.getInstance().getPartyStatus().get(idx).getItemBag().add(i);
+				jTextArea1.setText(jTextArea1.getText() + "「" + jTextField1.getText().trim() + "」を「" + jComboBox1.getSelectedItem() + "」に追加した\r\n");
 			} else {
-				jTextArea2.setText(jTextArea2.getText() + "「" + jComboBox2.getSelectedItem() + "」はこれ以上本を持てない\r\n");
+				jTextArea1.setText(jTextArea1.getText() + "「" + jComboBox1.getSelectedItem() + "」はこれ以上物を持てない\r\n");
 			}
 		}
-		GameSystem.getInstance().getPartyStatus().forEach(p -> p.updateAction());
-    }//GEN-LAST:event_jButton9ActionPerformed
-
-    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-		String s = jTextField3.getText().trim() + " が含まれるページ--------\r\n";
-		for (Page p : PageStorage.getInstance()) {
-			if (p.getName().contains(jTextField3.getText().trim())) {
-				s += p.getName() + "\r\n";
-			}
-		}
-		jTextArea3.setText(jTextArea3.getText() + s);
-    }//GEN-LAST:event_jButton10ActionPerformed
-
-    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
-		if (!PageStorage.getInstance().contains(jTextField3.getText().trim())) {
-			jTextArea3.setText(jTextArea3.getText() + "「" + jTextField3.getText().trim() + "」というページはストレージにない\r\n");
-			return;
-		}
-		Page p = PageStorage.getInstance().get(jTextField3.getText().trim());
-		jTextArea3.setText(p.getName() + "の詳細---------\r\n");
-		jTextArea3.setText(jTextArea3.getText() + "DESC:" + p.getDesc() + "\r\n");
-		jTextArea3.setText(jTextArea3.getText() + p.getName() + "を含む本\r\n");
-		for (Book b : BookStorage.getInstance()) {
-			if (b.getPages().contains(p)) {
-				jTextArea3.setText(jTextArea3.getText() + b.getName() + "\r\n");
-			}
-		}
-    }//GEN-LAST:event_jButton11ActionPerformed
-
-    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
-		jTextField3.setText(PageStorage.getInstance().random().getName());
-		jButton13.doClick();
-    }//GEN-LAST:event_jButton12ActionPerformed
-
-    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
-		if (!PageStorage.getInstance().contains(jTextField3.getText().trim())) {
-			jTextArea3.setText(jTextArea3.getText() + "「" + jTextField3.getText().trim() + "」という本はストレージにない\r\n");
-			return;
-		}
-		Page p = PageStorage.getInstance().get(jTextField3.getText().trim());
-		GameSystem.getInstance().getBookPageBag().add(p);
-		jTextArea3.setText(jTextArea3.getText() + "「" + jTextField3.getText().trim() + "」を追加した\r\n");
-    }//GEN-LAST:event_jButton13ActionPerformed
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
 		// TODO add your handling code here:
@@ -1071,107 +1052,29 @@ public class ConsolCmd extends javax.swing.JFrame {
 		}
     }//GEN-LAST:event_jButton14ActionPerformed
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-		jTextField1.setText(ItemStorage.getInstance().random().getName());
-		jButton1.doClick();
-    }//GEN-LAST:event_jButton4ActionPerformed
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+		// TODO add your handling code here:
+		GameSystem.setDebugMode(jCheckBox2.isSelected());
+		FieldMap.setDebugMode(jCheckBox3.isSelected());
+    }//GEN-LAST:event_jButton2ActionPerformed
 
-    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
-		for (Material i : MaterialStorage.getInstance()) {
-			if (i.getName().contains(jTextField5.getText().trim())) {
-				jTextArea4.setText(jTextArea4.getText() + i.getName() + "\r\n");
+    private void jComboBox6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox6ActionPerformed
+		int idx = jComboBox6.getSelectedIndex();
+		jTextArea3.setText("");
+		StringBuilder sb = new StringBuilder();
+		for (var v : GameSystem.getInstance().getPartyStatus().get(idx).getActions()) {
+			sb.append(v).append("--\r\n");
+			sb.append("  B").append("\r\n");
+			for (kinugasa.game.system.ActionEvent e : v.getBattleEvent()) {
+				sb.append(e).append("\r\n");
+			}
+			sb.append("  F").append("\r\n");
+			for (kinugasa.game.system.ActionEvent e : v.getFieldEvent()) {
+				sb.append(e).append("\r\n");
 			}
 		}
-    }//GEN-LAST:event_jButton15ActionPerformed
-
-    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
-		Material i = MaterialStorage.getInstance().random();
-		jTextField5.setText(i.getName());
-		jButton17.doClick();;
-    }//GEN-LAST:event_jButton16ActionPerformed
-
-    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
-		if (!MaterialStorage.getInstance().contains(jTextField5.getText().trim())) {
-			jTextArea4.setText(jTextArea4.getText() + "「" + jTextField5.getText().trim() + "」という素材はストレージにない\r\n");
-		}
-		Material i = MaterialStorage.getInstance().get(jTextField5.getText().trim());
-		GameSystem.getInstance().getMaterialBag().add(i);
-		jTextArea4.setText(jTextArea4.getText() + "「" + jTextField5.getText().trim() + "」を追加した\r\n");
-    }//GEN-LAST:event_jButton17ActionPerformed
-
-    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
-		jTextArea5.setText("登録されているクエストラインの一覧----------------------------\r\n");
-		for (Quest q : QuestStorage.getInstance()) {
-			jTextArea5.setText(jTextArea5.getText() + q + "\r\n");
-		}
-    }//GEN-LAST:event_jButton18ActionPerformed
-
-    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
-		jTextArea6.setText("登録されているフラグの一覧----------------------------\r\n");
-		for (Flag f : FlagStorage.getInstance()) {
-			jTextArea6.setText(jTextArea6.getText() + f + "\r\n");
-		}
-    }//GEN-LAST:event_jButton19ActionPerformed
-
-    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
-		String s = jTextField2.getText().trim() + " が詳細に"
-				+ "含まれる本--------\r\n";
-		for (Book b : BookStorage.getInstance()) {
-			if (b.getDesc().contains(jTextField2.getText().trim())) {
-				s += b.getName() + "\r\n";
-			}
-		}
-		jTextArea2.setText(jTextArea2.getText() + s);
-    }//GEN-LAST:event_jButton20ActionPerformed
-
-    private void jComboBox4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox4ActionPerformed
-		jComboBox5.removeAllItems();
-		if (jComboBox4.getSelectedItem().equals("STATUS")) {
-			for (StatusKey s : StatusKeyStorage.getInstance()) {
-				jComboBox5.addItem(s.getName());
-			}
-		} else {
-			for (AttributeKey s : AttributeKeyStorage.getInstance()) {
-				jComboBox5.addItem(s.getName());
-			}
-		}
-    }//GEN-LAST:event_jComboBox4ActionPerformed
-
-    private void jComboBox5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox5ActionPerformed
-		if (jComboBox5.getSelectedItem() == null) {
-			return;
-		}
-		if (jComboBox5.getSelectedItem().toString().isEmpty()) {
-			return;
-		}
-		if (jComboBox4.getSelectedItem() == null) {
-			return;
-		}
-		Status s = GameSystem.getInstance().getPartyStatus().get(jComboBox3.getSelectedIndex());
-		if (jComboBox4.getSelectedItem().equals("STATUS")) {
-			StatusValue v = s.getBaseStatus().get(jComboBox5.getSelectedItem().toString());
-			jSpinner1.setModel(new SpinnerNumberModel(0, v.getMin(), v.getMax(), v.getMax() == 1f ? 0.01f : 1));
-			jSpinner1.setValue(v.getValue());
-		} else {
-			AttributeValue v = s.getBaseAttrIn().get(jComboBox5.getSelectedItem().toString());
-			jSpinner1.setModel(new SpinnerNumberModel(0, v.getMin(), v.getMax(), v.getMax() == 1f ? 0.01f : 1));
-			jSpinner1.setValue(v.getValue());
-		}
-
-    }//GEN-LAST:event_jComboBox5ActionPerformed
-
-    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
-		Status s = GameSystem.getInstance().getPartyStatus().get(jComboBox3.getSelectedIndex());
-		float val = Float.parseFloat(jSpinner1.getValue().toString());
-		if (jComboBox4.getSelectedItem().equals("STATUS")) {
-			StatusValue v = s.getBaseStatus().get(jComboBox5.getSelectedItem().toString());
-			v.set(val);
-		} else {
-			AttributeValue v = s.getBaseAttrIn().get(jComboBox5.getSelectedItem().toString());
-			v.set(val);
-		}
-		jTextArea7.setText(jTextArea7.getText() + s.getName() + "のステータスを変更した" + "\r\n");
-    }//GEN-LAST:event_jButton21ActionPerformed
+		jTextArea3.setText(sb.toString());
+    }//GEN-LAST:event_jComboBox6ActionPerformed
 
 	/**
 	 * @param args the command line arguments
@@ -1210,10 +1113,6 @@ public class ConsolCmd extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton15;
     private javax.swing.JButton jButton16;
@@ -1239,18 +1138,18 @@ public class ConsolCmd extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> jComboBox3;
     private javax.swing.JComboBox<String> jComboBox4;
     private javax.swing.JComboBox<String> jComboBox5;
+    private javax.swing.JComboBox<String> jComboBox6;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JLayeredPane jLayeredPane1;
     private javax.swing.JLayeredPane jLayeredPane2;
-    private javax.swing.JLayeredPane jLayeredPane3;
     private javax.swing.JLayeredPane jLayeredPane4;
     private javax.swing.JLayeredPane jLayeredPane5;
     private javax.swing.JLayeredPane jLayeredPane6;
@@ -1281,7 +1180,6 @@ public class ConsolCmd extends javax.swing.JFrame {
     private javax.swing.JTextArea jTextArea7;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
     // End of variables declaration//GEN-END:variables

@@ -43,10 +43,9 @@ THE SOFTWARE.
 	<aAttribute order="26" name="SPIRIT" desc="精神"/> 
 	<aAttribute order="27" name="SPACE_TIME" desc="時空"/> 
 	
-	
-	
 	<!-- 無はMPを減らす処理などのダイレクトダメージに使用される -->
 	<aAttribute order="99" name="NONE" desc="無"/> 
+
 
 	<dAttribute order="123" name="C_WOOD" desc="木化" />
 	<dAttribute order="124" name="C_WET" desc="湿潤" />

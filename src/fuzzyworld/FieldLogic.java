@@ -187,7 +187,7 @@ public class FieldLogic extends GameLogic {
 
 		StatusDescWindow.setUnvisibleStatusList(List.of("EXP", "CUT_V", "CRT_P", "CRT_V", "M_CUT_V", "M_CRT_P", "M_CRT_V", "EQIP_ATTR"));
 		StatusDescWindow.setVisibleMaxStatusList(List.of("HP", "MP", "SAN"));
-		AttrDescWindow.setUnvisibleAttrName(List.of("NONE"));
+//		AttrDescWindow.setUnvisibleAttrName(List.of("NONE"));
 
 //		if (CMDargs.getInstance()
 //				.getArgs() != null) {

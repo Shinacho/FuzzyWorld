@@ -111,6 +111,8 @@ public class MusicRoomLogic extends GameLogic {
 			}
 		}
 		if (is.isPressed(GamePadButton.B, Keys.BACK_SPACE, InputType.SINGLE)) {
+			mr.dispose();
+			SoundStorage.getInstance().dispose();
 			gls.changeTo(Const.LogicName.TITLE);
 		}
 		mr.update();

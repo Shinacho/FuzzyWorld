@@ -6,7 +6,6 @@ insert into ACTION_ACTIONEVENT select * from CSVREAD('./resource/data/csv/ACTION
 insert into ACTION_ACTIONTERM select * from CSVREAD('./resource/data/csv/ACTION_ACTIONTERM.csv',null,'charset=UTF-8');
 insert into BOOK select * from CSVREAD('./resource/data/csv/BOOK.csv',null,'charset=UTF-8');
 insert into BOOK_ACTION select * from CSVREAD('./resource/data/csv/BOOK_ACTION.csv',null,'charset=UTF-8');
-insert into BOOK_PAGE select * from CSVREAD('./resource/data/csv/BOOK_PAGE.csv',null,'charset=UTF-8');
 insert into CONDITION select * from CSVREAD('./resource/data/csv/CONDITION.csv',null,'charset=UTF-8');
 insert into CONDITIONEFFECT select * from CSVREAD('./resource/data/csv/CONDITIONEFFECT.csv',null,'charset=UTF-8');
 insert into CONDITION_CONDITIONEFFECT select * from CSVREAD('./resource/data/csv/CONDITION_CONDITIONEFFECT.csv',null,'charset=UTF-8');
@@ -21,7 +20,6 @@ insert into ITEMUPGRADEVALUE select * from CSVREAD('./resource/data/csv/ITEMUPGR
 insert into ITEM_ACTIONEVENT select * from CSVREAD('./resource/data/csv/ITEM_ACTIONEVENT.csv',null,'charset=UTF-8');
 insert into ITEM_MATERIAL select * from CSVREAD('./resource/data/csv/ITEM_MATERIAL.csv',null,'charset=UTF-8');
 insert into MATERIAL select * from CSVREAD('./resource/data/csv/MATERIAL.csv',null,'charset=UTF-8');
-insert into PAGE select * from CSVREAD('./resource/data/csv/PAGE.csv',null,'charset=UTF-8');
 insert into QUEST select * from CSVREAD('./resource/data/csv/QUEST.csv',null,'charset=UTF-8');
 insert into QUESTNPCADD select * from CSVREAD('./resource/data/csv/QUESTNPCADD.csv',null,'charset=UTF-8');
 insert into QUESTNPCREMOVE select * from CSVREAD('./resource/data/csv/QUESTNPCREMOVE.csv',null,'charset=UTF-8');

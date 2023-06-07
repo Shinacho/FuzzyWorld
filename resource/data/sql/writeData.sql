@@ -6,7 +6,6 @@ call CSVWRITE('D:\Project\FuzzyWorld\resource\data\csv\ACTION_ACTIONEVENT.csv', 
 call CSVWRITE('D:\Project\FuzzyWorld\resource\data\csv\ACTION_ACTIONTERM.csv', 'select * from ACTION_ACTIONTERM', 'charset=UTF-8');
 call CSVWRITE('D:\Project\FuzzyWorld\resource\data\csv\BOOK.csv', 'select * from BOOK', 'charset=UTF-8');
 call CSVWRITE('D:\Project\FuzzyWorld\resource\data\csv\BOOK_ACTION.csv', 'select * from BOOK_ACTION', 'charset=UTF-8');
-call CSVWRITE('D:\Project\FuzzyWorld\resource\data\csv\BOOK_PAGE.csv', 'select * from BOOK_PAGE', 'charset=UTF-8');
 call CSVWRITE('D:\Project\FuzzyWorld\resource\data\csv\CONDITION.csv', 'select * from CONDITION', 'charset=UTF-8');
 call CSVWRITE('D:\Project\FuzzyWorld\resource\data\csv\CONDITIONEFFECT.csv', 'select * from CONDITIONEFFECT', 'charset=UTF-8');
 call CSVWRITE('D:\Project\FuzzyWorld\resource\data\csv\CONDITION_CONDITIONEFFECT.csv', 'select * from CONDITION_CONDITIONEFFECT', 'charset=UTF-8');
@@ -21,7 +20,6 @@ call CSVWRITE('D:\Project\FuzzyWorld\resource\data\csv\ITEMUPGRADEVALUE.csv', 's
 call CSVWRITE('D:\Project\FuzzyWorld\resource\data\csv\ITEM_ACTIONEVENT.csv', 'select * from ITEM_ACTIONEVENT', 'charset=UTF-8');
 call CSVWRITE('D:\Project\FuzzyWorld\resource\data\csv\ITEM_MATERIAL.csv', 'select * from ITEM_MATERIAL', 'charset=UTF-8');
 call CSVWRITE('D:\Project\FuzzyWorld\resource\data\csv\MATERIAL.csv', 'select * from MATERIAL', 'charset=UTF-8');
-call CSVWRITE('D:\Project\FuzzyWorld\resource\data\csv\PAGE.csv', 'select * from PAGE', 'charset=UTF-8');
 call CSVWRITE('D:\Project\FuzzyWorld\resource\data\csv\QUEST.csv', 'select * from QUEST', 'charset=UTF-8');
 call CSVWRITE('D:\Project\FuzzyWorld\resource\data\csv\QUESTNPCADD.csv', 'select * from QUESTNPCADD', 'charset=UTF-8');
 call CSVWRITE('D:\Project\FuzzyWorld\resource\data\csv\QUESTNPCREMOVE.csv', 'select * from QUESTNPCREMOVE', 'charset=UTF-8');

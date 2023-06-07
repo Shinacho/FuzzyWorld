@@ -198,15 +198,15 @@ public class OPLogic extends GameLogic {
 				Const.Chapter.currentI18NKey = "第一部";
 				Const.Chapter.currentSubTitleI18NKey = "失踪と戦火";
 				Const.Chapter.nextLogic = Const.LogicName.FIELD;
+				Const.LOADING = true;
 				gls.changeTo(Const.LogicName.CHAPTER_TITLE);
 				new Thread(() -> {
 					try {
-						Thread.sleep(500);
+						Thread.sleep(800);
 						SoundStorage.getInstance().get("SD0009").load().stopAndPlay();
 					} catch (InterruptedException ex) {
 					}
-				},
-						"OP_BGM").start();
+				},"OP_BGM").start();
 				break;
 		}
 	}

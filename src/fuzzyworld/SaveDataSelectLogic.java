@@ -72,7 +72,7 @@ public class SaveDataSelectLogic extends GameLogic {
 		SoundStorage.getInstance().stopAll();;
 		bgm = SoundStorage.getInstance().get("SD0058").load();
 		bgm.stopAndPlay();
-		DBConnection.getInstance().close();
+		DBConnection.getInstance().close();//0クローズ
 
 		//セーブデータ選択窓の設定
 		mw = new MessageWindow(
