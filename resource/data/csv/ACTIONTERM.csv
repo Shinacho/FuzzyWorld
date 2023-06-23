@@ -517,3 +517,6 @@
 "AT0553","HAS_BOOK","BK0516","魔術書：レーザーカッター"
 "AT0554","HAS_BOOK","BK0517","魔術書：ウォーターカッター"
 "AT0555","HAS_BOOK","BK0518","魔術書：野分"
+"AT0556","HAS_ITEM_NAME_CONTAINS","魔道銃の弾薬","弾薬所持"
+"AT0557","HAS_ITEM_NAME_CONTAINS","矢","矢所持"
+"AT0558","HAS_ITEM_NAME_CONTAINS","ボルト","ボルト所持"

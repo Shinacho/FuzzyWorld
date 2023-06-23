@@ -109,15 +109,17 @@ desc varchar(256)
 );
 
 create table eqipStatus(
-ItemID varchar(8) primary key,
+ItemID varchar(8),
 targetName varchar(16),
-val int
+val float,
+primary key(ItemID, targetName)
 );
 
 create table eqipAttr(
-ItemID varchar(8) primary key,
+ItemID varchar(8),
 targetName varchar(16),
-val float
+val float,
+primary key(ItemID, targetName)
 );
 
 create table EqipTerm(

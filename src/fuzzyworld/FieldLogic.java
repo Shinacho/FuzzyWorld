@@ -116,7 +116,7 @@ public class FieldLogic extends GameLogic {
 		//インプット変更
 		OperationInfo.getInstance().set(OperationInfo.AvalableInput.決定);
 		//ユーザ定義アクション初期化
-		UserDefineActionBuilder.setUp();
+		UserDefineActionBuilder.addActionEvent();
 		//PCのADD
 		new GameSystemXMLLoader()
 				.addAttrKeyStorage("resource/data/system/attr.xml")
@@ -207,10 +207,6 @@ public class FieldLogic extends GameLogic {
 		{
 			MoneySystem ms = GameSystem.getInstance().getMoneySystem();
 			ms.addMoneyType(I18N.get("ラルズガルド共通硬貨"));
-			ms.addMoneyType(I18N.get("ベルマ銀貨"));
-			ms.addMoneyType(I18N.get("ダレス旧金貨"));
-			ms.addMoneyType(I18N.get("スレラマー旧硬貨"));
-			ms.addMoneyType(I18N.get("ミシメ旧硬貨"));
 		}
 		Const.LOADING = false;
 		loaded = true;
@@ -246,6 +242,13 @@ public class FieldLogic extends GameLogic {
 		}
 		fieldMap.update();
 		FieldEventSystem.getInstance().update();
+		
+		//暫定
+		if(GameSystem.getInstance().getPartyStatus().get(0).hasConditions(false, BattleConfig.getUntargetConditionNames())){
+			gls.changeTo(Const.LogicName.GAME_OVER);
+			return;
+		}
+		
 		switch (stage) {
 			case 0:
 				//update

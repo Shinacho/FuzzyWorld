@@ -23,6 +23,7 @@
  */
 package fuzzyworld;
 
+import java.awt.Color;
 import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -48,6 +49,7 @@ import kinugasa.game.system.GameSystem;
 import kinugasa.game.system.SpeedCalcModelStorage;
 import kinugasa.game.system.Status;
 import kinugasa.game.system.StatusDamageCalcModelStorage;
+import kinugasa.game.system.StatusKeyStorage;
 import kinugasa.game.ui.Dialog;
 import kinugasa.game.ui.DialogIcon;
 import kinugasa.game.ui.DialogOption;
@@ -83,6 +85,9 @@ public class BattleLogic extends GameLogic {
 			BattleConfig.Sound.avoidance = SoundStorage.getInstance().get("SD1006");
 			BattleConfig.Sound.block = SoundStorage.getInstance().get("SD1005");
 			BattleConfig.Sound.spellStart = SoundStorage.getInstance().get("SD1007");
+			BattleConfig.Sound.shock = SoundStorage.getInstance().get("SD1042");
+			
+			BattleConfig.shockDamageKey = StatusKeyStorage.getInstance().get("SAN");
 
 			BattleConfig.castingAnimation = new ImageSprite(98, 98, ImageUtil.load("resource/image/castAnimation1.png"));
 
@@ -132,6 +137,10 @@ public class BattleLogic extends GameLogic {
 						return BattleResult.NOT_YET;
 					}
 			);
+			BattleConfig.damageColor.put(StatusKeyStorage.getInstance().get("HP"), Color.WHITE);
+			BattleConfig.damageColor.put(StatusKeyStorage.getInstance().get("POW"), Color.YELLOW);
+			BattleConfig.damageColor.put(StatusKeyStorage.getInstance().get("SAN"), Color.RED);
+
 			choiceSound1 = SoundStorage.getInstance().get("SD1008").load();
 			choiceSound2 = SoundStorage.getInstance().get("SD1009").load();
 			playerOpeStart = SoundStorage.getInstance().get("SD1004").load();

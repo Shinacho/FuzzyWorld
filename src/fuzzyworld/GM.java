@@ -30,6 +30,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
+import java.util.Arrays;
 import javax.swing.ImageIcon;
 import javax.swing.JFileChooser;
 import kinugasa.game.GameLog;
@@ -47,6 +48,7 @@ import kinugasa.game.PlayerConstants;
 import kinugasa.game.input.GamePadButton;
 import kinugasa.game.input.InputType;
 import kinugasa.game.input.Keys;
+import kinugasa.game.system.Action;
 import kinugasa.game.system.ItemStorage;
 import kinugasa.game.system.Status;
 import kinugasa.game.ui.FontModel;
@@ -66,13 +68,6 @@ import kinugasa.resource.sound.SoundStorage;
 public class GM extends GameManager {
 
 	public static void main(String[] args) {
-		if (args != null) {
-			if (args.length == 1) {
-				if (args[0].toLowerCase().equals("--initdb")) {
-
-				}
-			}
-		}
 		try {
 			GM gm = new GM();
 			gm.gameStart();
@@ -147,6 +142,12 @@ public class GM extends GameManager {
 						DBConnection.getInstance().execByFile("resource/data/sql/createTable.sql");
 						//初期データ投入
 						DBConnection.getInstance().execByFile("resource/data/sql/readData.sql");
+						//MODデータ投入
+						for (var mf : new File("resource/data/mods/").listFiles()) {
+							if (mf.getName().toLowerCase().endsWith(".sql")) {
+								DBConnection.getInstance().execByFile("resource/data/sql/" + mf.getName());
+							}
+						}
 					}
 					DBConnection.getInstance().close();
 				} catch (IOException ex) {
@@ -168,13 +169,14 @@ public class GM extends GameManager {
 		SoundStorage.getInstance().rebuild();
 		//
 		operationInfoSprite.set(OperationInfo.AvalableInput.決定, OperationInfo.AvalableInput.撮影);
-		
+
 		//バッグに分類されるアイテムを追加
 		ItemStorage.bagItems.put("A4840", 3);
 		ItemStorage.bagItems.put("A4841", 4);
 		ItemStorage.bagItems.put("A4842", 2);
 		ItemStorage.bagItems.put("A4843", 5);
-
+		//魔法の術者効果キーを設定
+		Action.magicUserDmage.addAll(Arrays.asList("MP", "SAN", "POW"));
 	}
 
 	@Override

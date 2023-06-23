@@ -1,5 +1,10 @@
 "ANIMATIONID","DESC","FILENAME","W","H","TC","MG"
 "AA01","通常攻撃１","resource/image/testAnimation.png","16","16","6","2.0"
 "AA02","回復","resource/image/testAnimation2.png","16","16","6","2.0"
-"AA03","ビーム","resource/image/testAnimation3.png","128","16","6","2.0"
 "AA04","詠唱１","resource/image/castAnimation1.png","98","98","12","2.0"
+"AA21","魔法弾","resource/image/magicBall.png","16","16","12","2.0"
+"AA22","弾丸","resource/image/bullet.png","8","8","12","2.0"
+"AA23","矢","resource/image/arrow.png","16","16","12","2.0"
+
+
+

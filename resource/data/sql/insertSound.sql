@@ -4,8 +4,8 @@ SoundID varchar(8),
 desc varchar(256),
 FileName varchar(128),
 mg float,
-loopFrom bigint,
-loopTo bigint,
+loopFrom int,
+loopTo int,
 type varchar(3)
 );
 
@@ -37,7 +37,7 @@ insert into sound values('SD0024','クロノトリガーっぽくして/ああ�
 insert into sound values('SD0025','遥か昔ソナーで作った曲。メインテーマ。/異世界を冒険してる感じです。/elonaのオープニングで流れても違和感ない感じを目指しました。','resource/bgm/フィールド.wav',0.44,-1,0,'BGM');
 insert into sound values('SD0026','遥か昔ソナーで作った曲。/メインテーマ。','resource/bgm/フィールド２.wav',0.78,-1,0,'BGM');
 insert into sound values('SD0027','遥か昔ソナーで作った曲。/メインテーマ。','resource/bgm/フィールド３.wav',0.66,-1,0,'BGM');
-insert into sound values('SD0028','４は譜面データしか残ってないのでwavがありません。/メインテーマ。広大な世界を冒険してる感じです。','resource/bgm/フィールド５.wav',0.3,-1,0,'BGM');
+insert into sound values('SD0028','４は譜面データしか残ってないのでwavがありません。/メインテーマ。広大な世界を冒険してる感じです。','resource/bgm/フィールド５.wav',0.3,-1,1017696,'BGM');
 insert into sound values('SD0029','','resource/bgm/ボーナスゲーム.wav',0.66,-1,0,'BGM');
 insert into sound values('SD0030','遥か昔ソナーで作った曲。/三拍子で三連符を使いたかったやつ。','resource/bgm/ユニークな街.wav',0.66,-1,0,'BGM');
 insert into sound values('SD0031','クロノトリガーの黒の夢っぽくしたかった曲','resource/bgm/ラストダンジョン.wav',0.3,-1,0,'BGM');
@@ -92,6 +92,9 @@ insert into sound values('SD0079','エリーのテーマ。/少し寂しい感�
 insert into sound values('SD0080','','resource/bgm/風の魔法使いの戦い.wav',0.66,-1,0,'BGM');
 insert into sound values('SD0081','','resource/bgm/風の魔法使いの戦い２.wav',0.66,-1,0,'BGM');
 insert into sound values('SD0082','','resource/bgm/魔力の間.wav',0.66,-1,0,'BGM');
+insert into sound values('SD0083','','resource/bgm/苦難の時代.wav',0.66,-1,0,'BGM');
+insert into sound values('SD0084','錬金術がもたらす不思議と繁栄を表そうとした一曲です。','resource/bgm/錬金術、輝きの時代.wav',0.66,-1,0,'BGM');
+
 
 
 
@@ -136,3 +139,4 @@ insert into sound values('SD1038','','resource/se/風魔法.wav',1,0,0,'SE');
 insert into sound values('SD1039','','resource/se/風魔法単体.wav',1,0,0,'SE');
 insert into sound values('SD1040','','resource/se/魔法単体.wav',1,0,0,'SE');
 insert into sound values('SD1041','','resource/se/雷魔法三連.wav',1,0,0,'SE');
+insert into sound values('SD1042','','resource/se/ショック.wav',1,0,0,'SE');
