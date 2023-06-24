@@ -23,18 +23,20 @@
  */
 package fuzzyworld;
 
-import java.awt.geom.Point2D;
+import java.io.File;
+import java.io.IOException;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.StandardOpenOption;
+import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import kinugasa.game.GameManager;
 import kinugasa.game.GameOption;
 import kinugasa.game.GameTimeManager;
 import kinugasa.game.GraphicsContext;
 import kinugasa.game.LockUtil;
 import kinugasa.game.input.InputState;
-import kinugasa.game.input.InputType;
-import kinugasa.game.input.Keys;
-import kinugasa.game.system.ActionEvent;
-import kinugasa.game.system.AnimationMoveType;
-import kinugasa.object.AnimationSprite;
 
 /**
  *
@@ -44,10 +46,56 @@ import kinugasa.object.AnimationSprite;
 public class Test extends GameManager {
 
 	public static void main(String[] args) {
-		
-		if(1 == 1 ) return;
+
+		saiki(new File("D:/Project/"));
+
+		if (1 == 1) {
+			return;
+		}
 		LockUtil.deleteAllLockFile();
 		new Test().gameStart();
+	}
+	final String newLicence
+			= "/*\n"
+			+ " * Copyright (C) 2023 Shinacho\n"
+			+ " *\n"
+			+ " * This program is free software: you can redistribute it and/or modify\n"
+			+ " * it under the terms of the GNU General Public License as published by\n"
+			+ " * the Free Software Foundation, either version 3 of the License, or\n"
+			+ " * (at your option) any later version.\n"
+			+ " *\n"
+			+ " * This program is distributed in the hope that it will be useful,\n"
+			+ " * but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+			+ " * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+			+ " * GNU General Public License for more details.\n"
+			+ " *\n"
+			+ " * You should have received a copy of the GNU General Public License\n"
+			+ " * along with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
+			+ " */\n"
+			+ "\n";
+
+	static void saiki(File file) {
+		File[] list = file.listFiles();
+		for (File f : list) {
+			if (f.isDirectory()) {
+				saiki(f);
+			}
+			if (f.getName().endsWith(".java")
+					|| f.getName().endsWith(".xml")) {
+				System.out.println(f.getName());
+				try {
+					List<String> data = Files.readAllLines(f.toPath(), Charset.forName("UTF-8"));
+					
+					
+					
+					
+					Files.write(f.toPath(), data, StandardOpenOption.CREATE, StandardOpenOption.WRITE, StandardOpenOption.TRUNCATE_EXISTING);
+					
+				} catch (IOException ex) {
+					Logger.getLogger(Test.class.getName()).log(Level.SEVERE, null, ex);
+				}
+			}
+		}
 	}
 
 	private Test() {
