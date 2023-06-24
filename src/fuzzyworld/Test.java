@@ -44,6 +44,8 @@ import kinugasa.object.AnimationSprite;
 public class Test extends GameManager {
 
 	public static void main(String[] args) {
+		
+		if(1 == 1 ) return;
 		LockUtil.deleteAllLockFile();
 		new Test().gameStart();
 	}
@@ -51,17 +53,9 @@ public class Test extends GameManager {
 	private Test() {
 		super(GameOption.defaultOption().setUseMouse(true));
 	}
-	ActionEvent e;
-	AnimationSprite sp;
 
 	@Override
 	protected void startUp() {
-		e = new ActionEvent("123");
-		e.setAnimationMoveType(AnimationMoveType.BEAM_WHITE_THICK);
-		Point2D.Float p1 = new Point2D.Float(123 / GameOption.getInstance().getDrawSize(), 80 / GameOption.getInstance().getDrawSize());
-		Point2D.Float p2 = new Point2D.Float(1080 / GameOption.getInstance().getDrawSize(), 880 / GameOption.getInstance().getDrawSize());
-
-		sp = e.createAnimationSprite(p1, p2);
 	}
 
 	@Override
@@ -70,17 +64,10 @@ public class Test extends GameManager {
 
 	@Override
 	protected void update(GameTimeManager gtm, InputState is) {
-		System.out.println(is.getMouseState().getLocation());
-		if (is.isPressed(Keys.SPACE, InputType.SINGLE)) {
-		Point2D.Float p1 = new Point2D.Float(123 / GameOption.getInstance().getDrawSize(), 80 / GameOption.getInstance().getDrawSize());
-		Point2D.Float p2 = new Point2D.Float(1080 / GameOption.getInstance().getDrawSize(), 880 / GameOption.getInstance().getDrawSize());
-			sp = e.createAnimationSprite(p1, p2);
-		}
 	}
 
 	@Override
 	protected void draw(GraphicsContext gc) {
-		sp.draw(gc);
 	}
 
 }

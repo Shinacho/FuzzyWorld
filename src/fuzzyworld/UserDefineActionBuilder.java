@@ -897,6 +897,44 @@ public class UserDefineActionBuilder {
 			}
 		});
 		//---------------------------------------------------------------------
+
+		ActionEventStorage.getInstance().add(new CustomActionEvent("A0027_1") {
+			{
+				setBattle(true);
+				setField(false);
+			}
+
+			@Override
+			public ActionEventResult exec(ActionTarget tgt) {
+				BattleCharacter bc = tgt.getTarget().get(0);
+				if (Random.percent(0.9f)) {
+					if (bc.getStatus().hasCondition("C_GOLDY")) {
+						bc.getStatus().getBaseStatus().get("HP").set(0);
+						bc.getStatus().addCondition("C_DEAD");
+						return new ActionEventResult(ActionResultType.SUCCESS, UserDefineActionBuilder.createAnimationSprite(bc, "AA01"));
+					}
+				}
+				return new ActionEventResult(ActionResultType.MISS, null);
+			}
+		});
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
 	}
 
 	//アニメーションが個別で必要な場合はこのメソッドからIDでDBから取る。
